@@ -245,8 +245,8 @@ proxies:
   - {name: 04-286-SG, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-287-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-288-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-289-FR, server: 38.145.220.68, port: 12578, type: trojan, password: 36acffd6bb2fd049%2540525113083387973, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-290-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-289-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-290-GB, server: 38.145.220.68, port: 12578, type: trojan, password: 36acffd6bb2fd049%2540525113083387973, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-291-IT, server: it01.freeflyingcloud.xyz, port: 48102, type: trojan, password: a70a906c-b48d-4f7b-b358-eb632b5d3787, sni: it01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-292-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 8fe7520b-a836-3648-b64b-9a7af04cb94d, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-293-DE, server: fkvip101.qlgq.fun, port: 21789, type: trojan, password: 8fe7520b-a836-3648-b64b-9a7af04cb94d, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -431,9 +431,9 @@ proxies:
   - {name: 06-472-RELAY, server: 104.21.63.59, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 06-473-JP, server: 154.31.112.51, port: 229, type: vmess, uuid: 40bc7b65-ec8a-3201-a646-c9d1b71091c6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-474-RELAY, server: martina.quest, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: martina.quest}}, udp: true}
+  - {name: 06-475-US, server: 207.148.10.248, port: 47918, type: vmess, uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-476-CN, server: 183.236.51.59, port: 54437, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-477-RELAY, server: c2.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 009d320a-5960-49e6-99c3-301966ff6fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c2.v2raybrasil.cloud}}, udp: true}
-  - {name: 06-478-US, server: 207.148.8.155, port: 37814, type: vmess, uuid: 5998e8aa-67ad-4167-ecf2-7e767926e8b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-479-RELAY, server: l1.610710.xyz, port: 8443, type: vmess, uuid: 0200841c-53bb-4a08-aaaf-c149225b4473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: l1.610710.xyz}}, udp: true}
   - {name: 06-480-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 5760b101-aa0a-43e3-869b-f734c94b3835, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-481-RELAY, server: p3.610710.xyz, port: 8443, type: vmess, uuid: 0200841c-53bb-4a08-aaaf-c149225b4473, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: p3.610710.xyz}}, udp: true}
@@ -1123,9 +1123,9 @@ proxy-groups:
       - 06-472-RELAY
       - 06-473-JP
       - 06-474-RELAY
+      - 06-475-US
       - 06-476-CN
       - 06-477-RELAY
-      - 06-478-US
       - 06-479-RELAY
       - 06-480-AU
       - 06-481-RELAY
@@ -1803,7 +1803,6 @@ proxy-groups:
       - 06-463-NOWHERE
       - 06-468-RELAY
       - 06-473-JP
-      - 06-478-US
       - 06-483-RELAY
       - 06-488-RELAY
       - 06-493-RELAY
@@ -2084,6 +2083,7 @@ proxy-groups:
       - 06-460-US
       - 06-465-NOWHERE
       - 06-470-DE
+      - 06-475-US
       - 06-480-AU
       - 06-485-RELAY
       - 06-490-RELAY
