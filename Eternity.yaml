@@ -422,6 +422,7 @@ proxies:
   - {name: 06-463-US, server: 38.46.1.235, port: 49828, type: vmess, uuid: ef281126-77e1-44e6-aa83-159c488ce37f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-464-US, server: 205.234.231.148, port: 35000, type: vmess, uuid: 260877c8-e970-44b5-97fe-9ef0052158d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-465-RELAY, server: 172.67.229.39, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
+  - {name: 06-466-US, server: 104.207.133.131, port: 39729, type: vmess, uuid: 70d5375a-d4c2-4cdd-fd69-4f75572e0bcc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-467-US, server: 45.76.7.99, port: 15927, type: vmess, uuid: 23856d50-3293-4111-d6aa-4c19d53c7c02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-468-RELAY, server: 172.67.229.33, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 06-469-JP, server: 152.69.197.60, port: 1069, type: vmess, uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -471,7 +472,6 @@ proxies:
   - {name: 06-513-CN, server: zf.lalayun.cyou, port: 10163, type: vmess, uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: zf.lalayun.cyou}}, udp: true}
   - {name: 06-514-US, server: 168.235.82.103, port: 16123, type: vmess, uuid: fa09f016-0460-4bcf-d209-197b7f3d270e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-515-RELAY, server: 172.67.188.156, port: 8880, type: vmess, uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-516-US, server: 64.176.219.193, port: 48895, type: vmess, uuid: 1dd70a5f-fbbb-4e58-9d29-a40415853c80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-517-RELAY, server: 43b8d.cnbete.xyz, port: 443, type: vmess, uuid: 8ac4cc04-b1fa-419f-b436-270456fcff86, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: 43b8d.cnbete.xyz}}, udp: true}
   - {name: 06-518-US, server: 192.18.135.250, port: 18091, type: vmess, uuid: df208a40-27f1-4ff4-e54a-ee0c6782f019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /er208a4028472}, udp: true}
   - {name: 06-519-RELAY, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1137,6 +1137,7 @@ proxy-groups:
       - 06-463-US
       - 06-464-US
       - 06-465-RELAY
+      - 06-466-US
       - 06-467-US
       - 06-468-RELAY
       - 06-469-JP
@@ -1186,7 +1187,6 @@ proxy-groups:
       - 06-513-CN
       - 06-514-US
       - 06-515-RELAY
-      - 06-516-US
       - 06-517-RELAY
       - 06-518-US
       - 06-519-RELAY
@@ -1563,6 +1563,7 @@ proxy-groups:
       - 06-451-CN
       - 06-456-RELAY
       - 06-461-JP
+      - 06-466-US
       - 06-471-FR
       - 06-476-RELAY
       - 06-481-US
@@ -1572,7 +1573,6 @@ proxy-groups:
       - 06-501-US
       - 06-506-US
       - 06-511-CA
-      - 06-516-US
       - 06-521-RELAY
       - 06-526-RELAY
       - 06-531-RELAY
