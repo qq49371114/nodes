@@ -246,6 +246,7 @@ proxies:
   - {name: 04-287-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-288-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-289-FR, server: fr01.freeflyingcloud.xyz, port: 30502, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: fr01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 04-290-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-291-IT, server: it01.freeflyingcloud.xyz, port: 48102, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: it01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-292-AE, server: ae01.freeflyingcloud.xyz, port: 52102, type: trojan, password: 4378e5d1-cddd-42b0-bcc5-d4350fc59b4a, sni: ae01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-293-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 4cc10461-811c-3917-b768-de0ce2c3dc86, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -409,10 +410,12 @@ proxies:
   - {name: 06-451-DE, server: de2-full.privateip.net, port: 443, type: vmess, uuid: 532ce22b-91e2-4a05-9805-765b5dff2345, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: de2-full.privateip.net}}, udp: true}
   - {name: 06-452-IT, server: it-full.privateip.net, port: 443, type: trojan, password: c73406e2-1d3a-4724-a691-4d0b7f36cee9, skip-cert-verify: true, udp: true}
   - {name: 06-453-NL, server: nl-full.privateip.net, port: 443, type: vmess, uuid: 7d70bc41-7a14-42f2-96e8-9686c7444f6b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: nl-full.privateip.net}}, udp: true}
+  - {name: 06-454-US, server: 207.148.8.155, port: 37814, type: vmess, uuid: 5998e8aa-67ad-4167-ecf2-7e767926e8b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-455-RU, server: 45.140.169.83, port: 30002, type: trojan, password: b07ec484-8bc6-4005-9c0e-c209bbd4bc7b, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 06-456-RELAY, server: v014.583181.xyz, port: 8443, type: vmess, uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v014.583181.xyz}}, udp: true}
   - {name: 06-457-US, server: 205.234.231.148, port: 35000, type: vmess, uuid: 260877c8-e970-44b5-97fe-9ef0052158d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-458-RU, server: ru01.freeflyingcloud.xyz, port: 30002, type: trojan, password: b2d5d770-7242-4f3c-a6f9-f05514070149, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: 06-459-US, server: 45.76.18.197, port: 20703, type: vmess, uuid: ae710bf3-229a-4f31-d990-971b831c8985, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-460-US, server: 45.77.105.178, port: 27287, type: vmess, uuid: 5079441f-c2cb-4abf-f7f4-2dd3fe77c03c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-461-RELAY, server: 172.67.223.242, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-462-US, server: 207.148.10.248, port: 47918, type: vmess, uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -531,7 +534,6 @@ proxies:
   - {name: 06-575-RELAY, server: 172.67.169.90, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-576-FR, server: fr2-full.privateip.net, port: 443, type: trojan, password: 88503a0a-3c8e-42ce-8fff-f67fa3171a1e, skip-cert-verify: true, udp: true}
   - {name: 06-577-RELAY, server: 172.67.199.211, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-578-RELAY, server: mizban.arzonhost.ir, port: 2086, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
   - {name: 06-579-RELAY, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-580-RELAY, server: 172.67.172.176, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-581-GB, server: uk01.freeflyingcloud.xyz, port: 22252, type: trojan, password: 4f10e74d-51cb-472a-8c2d-0ee36ccf0ff3, sni: uk01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -544,7 +546,6 @@ proxies:
   - {name: 06-588-RELAY, server: 172.67.185.79, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-589-ES, server: es-full.privateip.net, port: 443, type: trojan, password: 58b489f2-58f3-41f2-bc5c-76bba7618468, skip-cert-verify: true, udp: true}
   - {name: 06-590-JP, server: jp-full.privateip.net, port: 443, type: vmess, uuid: 7421c12c-47c4-41cb-8abe-23d0d98eb141, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: jp-full.privateip.net}}, udp: true}
-  - {name: 06-591-US, server: 45.63.87.228, port: 57337, type: vmess, uuid: acc8c94d-1a93-4aaf-ad00-6b3c86cda617, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-592-NL, server: nl2-full.privateip.net, port: 443, type: vmess, uuid: fcea439c-dda2-4d6a-9764-e32557f04f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: nl2-full.privateip.net}}, udp: true}
   - {name: 06-593-RELAY, server: 104.21.68.203, port: 8443, type: vmess, uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-594-US, server: 23.26.98.120, port: 998, type: vmess, uuid: a9753cbd-8e34-49c5-be50-c4dbf55e2a12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -997,6 +998,7 @@ proxy-groups:
       - 04-287-AU
       - 04-288-RU
       - 04-289-FR
+      - 04-290-GB
       - 04-291-IT
       - 04-292-AE
       - 04-293-DE
@@ -1160,10 +1162,12 @@ proxy-groups:
       - 06-451-DE
       - 06-452-IT
       - 06-453-NL
+      - 06-454-US
       - 06-455-RU
       - 06-456-RELAY
       - 06-457-US
       - 06-458-RU
+      - 06-459-US
       - 06-460-US
       - 06-461-RELAY
       - 06-462-US
@@ -1282,7 +1286,6 @@ proxy-groups:
       - 06-575-RELAY
       - 06-576-FR
       - 06-577-RELAY
-      - 06-578-RELAY
       - 06-579-RELAY
       - 06-580-RELAY
       - 06-581-GB
@@ -1295,7 +1298,6 @@ proxy-groups:
       - 06-588-RELAY
       - 06-589-ES
       - 06-590-JP
-      - 06-591-US
       - 06-592-NL
       - 06-593-RELAY
       - 06-594-US
@@ -1660,7 +1662,6 @@ proxy-groups:
       - 06-576-FR
       - 06-581-GB
       - 06-586-US
-      - 06-591-US
       - 06-596-US
       - 06-601-RELAY
       - 08-606-JP
@@ -1963,7 +1964,6 @@ proxy-groups:
       - 06-563-RELAY
       - 06-568-GB
       - 06-573-RELAY
-      - 06-578-RELAY
       - 06-583-HK
       - 06-588-RELAY
       - 06-593-RELAY
@@ -2091,6 +2091,8 @@ proxy-groups:
       - 04-439-CN
       - 04-444-CN
       - 04-449-NOWHERE
+      - 06-454-US
+      - 06-459-US
       - 06-464-US
       - 06-469-US
       - 06-474-US
@@ -2212,6 +2214,7 @@ proxy-groups:
       - 04-275-CN
       - 04-280-CN
       - 04-285-JP
+      - 04-290-GB
       - 04-295-DE
       - 04-300-SG
       - 04-305-JP
