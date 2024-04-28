@@ -483,7 +483,6 @@ proxies:
   - {name: 06-526-GB, server: uk-full.privateip.net, port: 443, type: vmess, uuid: 31c8ace0-0495-4326-a47e-c3db49786ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: uk-full.privateip.net}}, udp: true}
   - {name: 06-527-RELAY, server: 104.18.25.92, port: 2052, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws}, udp: true}
   - {name: 06-528-US, server: 207.148.10.248, port: 47918, type: vmess, uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-529-US, server: 144.202.59.26, port: 57061, type: vmess, uuid: e90a1709-fd94-44d3-f809-8849837cc2d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-530-US, server: 140.82.8.218, port: 25087, type: vmess, uuid: 3e3a4f91-160c-4967-c2d7-5aebf6faf0c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-531-US, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
   - {name: 06-532-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
@@ -540,6 +539,7 @@ proxies:
   - {name: 10-583-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-584-US, server: 205.234.233.22, port: 5129, type: vmess, uuid: 2e504818-e2e2-4183-eb75-0d1175a947de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-586-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 10-587-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-588-RELAY, server: 188.114.96.6, port: 443, type: vmess, uuid: 5b0a489e-e9eb-41b1-902e-d4acad667ba6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: argo}, udp: true}
   - {name: 10-589-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: zula.ir}}, udp: true}
   - {name: 12-590-RELAY, server: 162.159.1.33, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm}, udp: true}
@@ -1178,7 +1178,6 @@ proxy-groups:
       - 06-526-GB
       - 06-527-RELAY
       - 06-528-US
-      - 06-529-US
       - 06-530-US
       - 06-531-US
       - 06-532-RELAY
@@ -1235,6 +1234,7 @@ proxy-groups:
       - 10-583-RELAY
       - 10-584-US
       - 10-586-US
+      - 10-587-US
       - 10-588-RELAY
       - 10-589-RELAY
       - 12-590-RELAY
@@ -1690,6 +1690,7 @@ proxy-groups:
       - 08-572-RELAY
       - 10-577-RELAY
       - 10-582-US
+      - 10-587-US
       - 12-592-RELAY
       - 12-597-RELAY
       - 12-602-US
@@ -1959,7 +1960,6 @@ proxy-groups:
       - 06-514-HK
       - 06-519-US
       - 06-524-US
-      - 06-529-US
       - 06-534-US
       - 06-539-RELAY
       - 06-544-RELAY
