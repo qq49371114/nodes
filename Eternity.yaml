@@ -97,7 +97,6 @@ proxies:
   - {name: 04-040-RELAY, server: dlcc.fanqiecloud.top, port: 2086, type: vmess, uuid: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sssddd, headers: {Host: dlcc.fanqiecloud.top}}, udp: true}
   - {name: 04-041-NOWHERE, server: in.fanqiecloud.top, port: 22460, type: ss, cipher: chacha20-ietf-poly1305, password: 037808c7-4d6b-4c3a-9ef4-b2f0293a08ad, udp: true}
   - {name: 04-042-NOWHERE, server: jp.colacloud.site, port: 51310, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
-  - {name: 04-043-SG, server: sg.colacloud.site, port: 42752, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-044-NOWHERE, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 35.78.196.235, port: 443, type: trojan, password: 663b7f63-d768-3169-b537-b31fabd65dc8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 35.74.79.234, port: 443, type: trojan, password: 663b7f63-d768-3169-b537-b31fabd65dc8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
@@ -149,6 +148,7 @@ proxies:
   - {name: 04-190-NOWHERE, server: gy.lanxingyun.cn, port: 35791, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-191-NOWHERE, server: lsgy.lanxingyun.cn, port: 35791, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-192-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 04-193-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-194-TW, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-195-TW, server: b23.ntbq.dynu.net, port: 18701, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b23.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-196-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
@@ -270,7 +270,6 @@ proxies:
   - {name: 04-312-JP, server: jpvip102.qlgq.fun, port: 61236, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: jpvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-313-JP, server: jpvip102.qlgq.fun, port: 61235, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: jpvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-314-US, server: lavip101.qlgq.fun, port: 11156, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-315-US, server: lavip101.qlgq.fun, port: 21156, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-316-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-317-HK, server: hkvip102.qlgq.fun, port: 12249, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-318-HK, server: hkvip102.qlgq.fun, port: 22249, type: trojan, password: 182e95a4-76a7-3d82-8e5d-772399442a4b, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -483,7 +482,7 @@ proxies:
   - {name: 06-526-GB, server: uk-full.privateip.net, port: 443, type: vmess, uuid: 31c8ace0-0495-4326-a47e-c3db49786ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: uk-full.privateip.net}}, udp: true}
   - {name: 06-527-RELAY, server: 104.18.25.92, port: 2052, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /afrhms16v.bestxray.buzz/linkws}, udp: true}
   - {name: 06-528-US, server: 207.148.10.248, port: 47918, type: vmess, uuid: 232aeb1e-7d67-4a91-9379-4da1f4917691, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-529-US, server: 144.202.59.26, port: 57061, type: vmess, uuid: e90a1709-fd94-44d3-f809-8849837cc2d3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 06-530-US, server: 140.82.8.218, port: 25087, type: vmess, uuid: 3e3a4f91-160c-4967-c2d7-5aebf6faf0c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-531-US, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
   - {name: 06-532-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 06-533-US, server: 45.76.18.197, port: 20703, type: vmess, uuid: ae710bf3-229a-4f31-d990-971b831c8985, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -799,7 +798,6 @@ proxy-groups:
       - 04-040-RELAY
       - 04-041-NOWHERE
       - 04-042-NOWHERE
-      - 04-043-SG
       - 04-044-NOWHERE
       - 04-045-JP
       - 04-046-JP
@@ -851,6 +849,7 @@ proxy-groups:
       - 04-190-NOWHERE
       - 04-191-NOWHERE
       - 04-192-TW
+      - 04-193-TW
       - 04-194-TW
       - 04-195-TW
       - 04-196-TW
@@ -972,7 +971,6 @@ proxy-groups:
       - 04-312-JP
       - 04-313-JP
       - 04-314-US
-      - 04-315-US
       - 04-316-US
       - 04-317-HK
       - 04-318-HK
@@ -1185,7 +1183,7 @@ proxy-groups:
       - 06-526-GB
       - 06-527-RELAY
       - 06-528-US
-      - 06-529-US
+      - 06-530-US
       - 06-531-US
       - 06-532-RELAY
       - 06-533-US
@@ -1760,7 +1758,6 @@ proxy-groups:
       - 04-028-NOWHERE
       - 04-033-RELAY
       - 04-038-NOWHERE
-      - 04-043-SG
       - 04-048-US
       - 04-053-GOOGLE
       - 04-158-IT
@@ -1770,6 +1767,7 @@ proxy-groups:
       - 04-178-CN
       - 04-183-CN
       - 04-188-NOWHERE
+      - 04-193-TW
       - 04-198-TW
       - 04-203-RELAY
       - 04-208-RELAY
@@ -1979,7 +1977,6 @@ proxy-groups:
       - 06-514-HK
       - 06-519-US
       - 06-524-US
-      - 06-529-US
       - 06-534-US
       - 06-539-RELAY
       - 06-544-RELAY
@@ -2081,7 +2078,6 @@ proxy-groups:
       - 04-300-DE
       - 04-305-SG
       - 04-310-JP
-      - 04-315-US
       - 04-320-HK
       - 04-325-HK
       - 04-330-CN
@@ -2124,6 +2120,7 @@ proxy-groups:
       - 06-515-RELAY
       - 06-520-US
       - 06-525-RELAY
+      - 06-530-US
       - 06-535-US
       - 06-540-CA
       - 06-545-CN
