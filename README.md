@@ -162,6 +162,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206MDAxZjJmZDctY2FhMy00NTAzLWJlODMtNGVjMmI5ZmE4MjFj@ru.iepl.cooc.icu:35612#04-227-CN
     ss://YWVzLTEyOC1nY206MDAxZjJmZDctY2FhMy00NTAzLWJlODMtNGVjMmI5ZmE4MjFj@mas1.iepl.cooc.icu:35603#04-228-CN
     ss://YWVzLTI1Ni1nY206MDAxZjJmZDctY2FhMy00NTAzLWJlODMtNGVjMmI5ZmE4MjFj@tw.cooc.icu:36881#04-229-TW
+    ss://YWVzLTI1Ni1nY206MDAxZjJmZDctY2FhMy00NTAzLWJlODMtNGVjMmI5ZmE4MjFj@us.cooc.icu:35881#04-230-US
     ss://YWVzLTI1Ni1nY206MDAxZjJmZDctY2FhMy00NTAzLWJlODMtNGVjMmI5ZmE4MjFj@jp.cooc.icu:33881#04-231-JP
     trojan://575bc4d8-e9e0-48d4-9286-f922c17b35fc@gcdddd0005.likeone.lol:51031?allowInsecure=1&sni=sg01.ckcloud.info#04-232-CN
     trojan://575bc4d8-e9e0-48d4-9286-f922c17b35fc@gcdddd0001.likeone.lol:51031?allowInsecure=1&sni=sg01.ckcloud.info#04-233-CN
@@ -578,7 +579,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ0LVVTIiwiYWRkIjoiNTAuMTE0LjI0My42MSIsInBvcnQiOiI0MzgzNCIsInR5cGUiOiJub25lIiwiaWQiOiJiMjQ2ZTM0ZC1iYmQxLTQwMTYtOGY3NC1lYTQ2MWMzN2U0MTEiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ik5vbmUiLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ1LVVTIiwiYWRkIjoiMTQ3LjQ1Ljc5LjIxNiIsInBvcnQiOiI1NDEzMyIsInR5cGUiOiJub25lIiwiaWQiOiIzZGNhZjUzZC01Yzg4LTRkNDQtYjg2Ni0zZjM2MTJiYjIyOWMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ2LVVTIiwiYWRkIjoiMjMuMjYuOTguMTIwIiwicG9ydCI6Ijk5OCIsInR5cGUiOiJub25lIiwiaWQiOiJhOTc1M2NiZC04ZTM0LTQ5YzUtYmU1MC1jNGRiZjU1ZTJhMTIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-    vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ3LVVTIiwiYWRkIjoiMTQ5LjI4LjQ5LjE3NCIsInBvcnQiOiIyNDY2MyIsInR5cGUiOiJub25lIiwiaWQiOiIwNGJmMzE0ZS1lNDBhLTRkMDUtOWZhYS0wYTZiYWRlZDJhMjIiLCJhaWQiOiIwIiwibmV0IjoidGNwIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ4LVVTIiwiYWRkIjoiMTQ5LjI4LjU4LjEyOSIsInBvcnQiOiI0NTYxNyIsInR5cGUiOiJub25lIiwiaWQiOiI1OWM5NWNhMy1iYWJlLTQ2NmEtOWE1Yi00NzYxZTU3NWNhZjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiTm9uZSIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ5LVVTIiwiYWRkIjoiMTcyLjEwNS4xNTAuMTgxIiwicG9ydCI6IjI4OTUzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImQxZjMxNzY2LTU2NGEtNDdhYi04OGNjLTA3MjExNDViNzhiOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiJOb25lIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjUwLVVTIiwiYWRkIjoiMTU1LjEzOC4yNDIuMjA3IiwicG9ydCI6IjU0MzE2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjY3Nzk3YzZhLWU4OTgtNDliZC04ZjYxLTVmYjE1MjNjZTBiZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
@@ -810,11 +810,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `876`
+合并节点总数: `872`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `876`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `872`
 
 
 ## 仓库声明
