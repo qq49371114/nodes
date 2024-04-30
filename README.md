@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `769`
+高速节点数量: `768`
 <details>
   <summary>展开复制节点</summary>
 
@@ -78,7 +78,7 @@ Fork from TopFreeProxies.
     trojan://8f315cf6-df0a-3f59-99d2-cebbefffaafc@35.78.196.235:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-045-JP
     trojan://8f315cf6-df0a-3f59-99d2-cebbefffaafc@35.74.79.234:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-046-JP
     trojan://8f315cf6-df0a-3f59-99d2-cebbefffaafc@52.88.80.155:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-047-US
-    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-048-US
+    trojan://8f315cf6-df0a-3f59-99d2-cebbefffaafc@103.136.185.27:5499?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-048-US
     trojan://8f315cf6-df0a-3f59-99d2-cebbefffaafc@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-049-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDUwLUdPT0dMRSIsImFkZCI6ImF1MS5wYXkuZWR1LmtnIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJhdTEucGF5LmVkdS5rZyIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDUxLUdPT0dMRSIsImFkZCI6InR3MS5kYWlzaHV2cG4ud2luIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3Zjk2MWU2Ni1iZmJjLTQ1NTUtODRkYS04ZmUxNzE2MDljNjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0dzEuZGFpc2h1dnBuLndpbiIsInRscyI6InRscyJ9
@@ -573,7 +573,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjM5LU5PV0hFUkUiLCJhZGQiOiJsdTEuZ29nb2dvby5jeW91IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJkYjVkMWFhMy05MDhiLTQ0ZDEtYmUwYS00ZTZhOGQ0ZTRjZGEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2dvIiwiaG9zdCI6Imx1MS5nb2dvZ29vLmN5b3UiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQwLVJFTEFZIiwiYWRkIjoiMTcyLjY3LjE3NC45MiIsInBvcnQiOiIyMDUzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY4ZDJmZDMzLWFiOGUtNDAwNC1mOTdkLTEwZGRlODBhZjAxMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcWluMTQiLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQxLVVTIiwiYWRkIjoiMTcyLjIzMy4xNjQuMzIiLCJwb3J0IjoiMzk4NDEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDI0MmQ3NGQtYjc0OC00ZTc0LWE3YzItMmJmYjlkNmVkMTIxIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvcWluMTQiLCJob3N0IjoiIiwidGxzIjoiIn0=
-    vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQyLVVTIiwiYWRkIjoiNDUuNzYuMTguMTk3IiwicG9ydCI6IjIwNzAzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImFlNzEwYmYzLTIyOWEtNGYzMS1kOTkwLTk3MWI4MzFjODk4NSIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL3FpbjE0IiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQzLU5PV0hFUkUiLCJhZGQiOiIzMzB0dy5mYW5zOC54eXoiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjgyYTk2NzQzLTExNWItMzU2ZC05MGFlLTI5MjhmMzJkODk1OCIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcmF5IiwiaG9zdCI6IjMzMHR3LmZhbnM4Lnh5eiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtNjQ0LUhLIiwiYWRkIjoiNDUuMTQ0LjMuMjA0IiwicG9ydCI6IjE4MzU2IiwidHlwZSI6Im5vbmUiLCJpZCI6ImYzNmIxMjhiLTk5YjItNGU1OC1iZDk2LTdhMDc1Y2RiMmIwYSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     trojan://50cbd14f-187c-4a11-859e-8312917366d6@13.231.208.79:20230?allowInsecure=1&sni=421421.xyz#08-645-JP
