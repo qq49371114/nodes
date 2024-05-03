@@ -101,7 +101,6 @@ proxies:
   - {name: 04-044-NOWHERE, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 52.195.81.121, port: 443, type: trojan, password: 350afcbe-83f8-37ca-bc1e-f14781519483, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 35.72.247.12, port: 443, type: trojan, password: 350afcbe-83f8-37ca-bc1e-f14781519483, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-047-US, server: 34.221.109.77, port: 443, type: trojan, password: 350afcbe-83f8-37ca-bc1e-f14781519483, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: 350afcbe-83f8-37ca-bc1e-f14781519483, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: 350afcbe-83f8-37ca-bc1e-f14781519483, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
@@ -421,10 +420,10 @@ proxies:
   - {name: 08-463-US, server: 146.235.223.24, port: 25943, type: vmess, uuid: 520c82fe-3e74-43b9-9dfb-87cae71e8cc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /canada}, udp: true}
   - {name: 08-464-DE, server: 199.247.3.99, port: 5201, type: vmess, uuid: 8ca1dd07-ed4d-45ec-9891-622be7a66971, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-465-SG, server: 146.190.84.34, port: 47390, type: vmess, uuid: 7c99b0a1-3fe6-40b6-95a6-40f33fe00bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-466-HK, server: 141.11.90.115, port: 48897, type: vmess, uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-467-KR, server: 64.110.82.226, port: 58186, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 08-468-KR, server: 152.70.39.9, port: 26022, type: vmess, uuid: e0254dda-dc8c-46b0-8df8-07c453aaafd7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-469-SG, server: 8.222.182.10, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-470-US, server: 140.82.2.34, port: 23670, type: vmess, uuid: 423f6443-f1e9-4e84-d895-a14badc59e88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-471-RELAY, server: 104.18.29.250, port: 2052, type: vmess, uuid: a595e9ba-b641-480f-8597-323612357ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW}, udp: true}
   - {name: 08-472-US, server: 168.235.82.103, port: 16123, type: vmess, uuid: fa09f016-0460-4bcf-d209-197b7f3d270e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-473-HK, server: 47.242.22.171, port: 28681, type: vmess, uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -659,7 +658,6 @@ proxy-groups:
       - 04-044-NOWHERE
       - 04-045-JP
       - 04-046-JP
-      - 04-047-US
       - 04-048-US
       - 04-049-US
       - 04-050-GOOGLE
@@ -979,10 +977,10 @@ proxy-groups:
       - 08-463-US
       - 08-464-DE
       - 08-465-SG
-      - 08-466-HK
       - 08-467-KR
       - 08-468-KR
       - 08-469-SG
+      - 08-470-US
       - 08-471-RELAY
       - 08-472-US
       - 08-473-HK
@@ -1249,7 +1247,6 @@ proxy-groups:
       - 04-451-NOWHERE
       - 06-456-RELAY
       - 08-461-US
-      - 08-466-HK
       - 08-471-RELAY
       - 10-476-RELAY
       - 10-481-RELAY
@@ -1300,7 +1297,6 @@ proxy-groups:
       - 04-032-NOWHERE
       - 04-037-NOWHERE
       - 04-042-NOWHERE
-      - 04-047-US
       - 04-052-GOOGLE
       - 04-157-US
       - 04-162-NOWHERE
@@ -1708,6 +1704,7 @@ proxy-groups:
       - 04-455-NOWHERE
       - 08-460-US
       - 08-465-SG
+      - 08-470-US
       - 10-475-RELAY
       - 10-480-RELAY
       - 10-485-RELAY
