@@ -415,12 +415,12 @@ proxies:
   - {name: 08-456-GB, server: 154.62.185.2, port: 18134, type: vmess, uuid: 0da00a40-7dc6-413f-f8dd-6ed42dd50c06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 08-457-IR, server: 94.182.150.231, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-458-US, server: 205.234.200.104, port: 33164, type: vmess, uuid: 31e8f7b4-ba3e-440a-9f56-8241569c017a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sd23dss}, udp: true}
-  - {name: 08-459-US, server: 23.94.100.187, port: 48889, type: vmess, uuid: ae62156c-16fc-4992-e957-0b46796254cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /awd}, udp: true}
   - {name: 08-460-DE, server: 109.107.181.130, port: 30127, type: vmess, uuid: 891494ae-5bcd-44bc-dbf4-c7132a909930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-461-FR, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-462-US, server: 45.77.218.99, port: 12810, type: vmess, uuid: 469daa04-235a-47be-fdf8-41a9a72f8be2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 08-464-RELAY, server: www.gov.se, port: 8443, type: vmess, uuid: ba9f34d1-ae47-4bd0-9f9e-d5dd5460e4f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@asrnovin_ir, headers: {Host: www.gov.se}}, udp: true}
   - {name: 08-465-US, server: 147.135.3.12, port: 47153, type: vmess, uuid: 8c02b96f-8813-452e-bcdf-9c37bea82661, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-466-US, server: 149.28.226.202, port: 37985, type: vmess, uuid: a36d5f0e-f529-4c83-9279-f4c4ce557031, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-467-US, server: 174.136.205.46, port: 39027, type: vmess, uuid: 26419143-8a06-43ab-d58c-bea7b7da8203, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-468-IN, server: 13.201.236.209, port: 53837, type: vmess, uuid: 252b7ece-80eb-4c7b-93f4-cb0166e53325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-469-RELAY, server: 502.outline-vpn.cloud, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: 502.outline-vpn.cloud}}, udp: true}
@@ -968,12 +968,12 @@ proxy-groups:
       - 08-456-GB
       - 08-457-IR
       - 08-458-US
-      - 08-459-US
       - 08-460-DE
       - 08-461-FR
       - 08-462-US
       - 08-464-RELAY
       - 08-465-US
+      - 08-466-US
       - 08-467-US
       - 08-468-IN
       - 10-469-RELAY
@@ -1239,6 +1239,7 @@ proxy-groups:
       - 04-451-NOWHERE
       - 08-456-GB
       - 08-461-FR
+      - 08-466-US
       - 10-471-RELAY
       - 10-476-RELAY
       - 10-481-US
@@ -1576,7 +1577,6 @@ proxy-groups:
       - 04-444-CN
       - 04-449-CN
       - 04-454-NOWHERE
-      - 08-459-US
       - 08-464-RELAY
       - 10-469-RELAY
       - 10-474-RELAY
