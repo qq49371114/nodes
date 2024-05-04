@@ -457,6 +457,7 @@ proxies:
   - {name: 06-498-RELAY, server: 104.19.44.165, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳\xa0@WangCai_8"}, udp: true}
   - {name: 08-499-RELAY, server: 104.21.4.14, port: 2086, type: vmess, uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-500-RELAY, server: 108.162.192.154, port: 2087, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
+  - {name: 08-501-FR, server: 146.59.17.58, port: 12960, type: vmess, uuid: 48a86563-63c5-4218-e887-d752f801ae82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-502-GB, server: 154.62.185.2, port: 18134, type: vmess, uuid: 0da00a40-7dc6-413f-f8dd-6ed42dd50c06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 08-503-DE, server: 109.107.181.130, port: 30127, type: vmess, uuid: 891494ae-5bcd-44bc-dbf4-c7132a909930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-504-BR, server: 95.164.4.51, port: 8442, type: vmess, uuid: 9e919472-c8af-41db-acdf-e0db57c451eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -647,7 +648,6 @@ proxies:
   - {name: 31-691-NL, server: nl2-full.privateip.net, port: 443, type: vmess, uuid: b7a0cf39-99fa-47a4-8d9f-5263806e8cce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: nl2-full.privateip.net}}, udp: true}
   - {name: 31-692-RELAY, server: 162.159.200.3, port: 80, type: vmess, uuid: ca1af7ca-75b4-4842-a113-7bc34ff06278, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 31-693-KZ, server: 45.82.31.164, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
-  - {name: 31-694-FR, server: 54.38.212.91, port: 80, type: vmess, uuid: 9e660680-e7bb-4725-f1c9-84d1fdbbf5c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 31-695-NL, server: nl2-full.privateip.net, port: 443, type: trojan, password: 6e28f704-29a0-4c86-b25b-dd090603c741, skip-cert-verify: true, udp: true}
   - {name: 40-696-RELAY, server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: 7c42a3f8-cb73-4338-91e6-eef9e7346b12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
 proxy-groups:
@@ -1063,6 +1063,7 @@ proxy-groups:
       - 06-498-RELAY
       - 08-499-RELAY
       - 08-500-RELAY
+      - 08-501-FR
       - 08-502-GB
       - 08-503-DE
       - 08-504-BR
@@ -1253,7 +1254,6 @@ proxy-groups:
       - 31-691-NL
       - 31-692-RELAY
       - 31-693-KZ
-      - 31-694-FR
       - 31-695-NL
       - 40-696-RELAY
   - name: 自动选择
@@ -1352,6 +1352,7 @@ proxy-groups:
       - 06-486-RELAY
       - 06-491-RELAY
       - 06-496-RELAY
+      - 08-501-FR
       - 08-506-JP
       - 10-516-RELAY
       - 10-521-RELAY
@@ -1760,7 +1761,6 @@ proxy-groups:
       - 16-679-CN
       - 16-684-KR
       - 31-689-RELAY
-      - 31-694-FR
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
