@@ -100,7 +100,7 @@ proxies:
   - {name: 04-044-NOWHERE, server: kr.colacloud.site, port: 20352, type: ss, cipher: chacha20-ietf-poly1305, password: 3d545f89-d696-4443-80da-721681ceb1cd, udp: true}
   - {name: 04-045-JP, server: 54.249.62.221, port: 443, type: trojan, password: 598738f7-f98b-3eed-8c22-e894a5730cea, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-046-JP, server: 35.79.16.125, port: 443, type: trojan, password: 598738f7-f98b-3eed-8c22-e894a5730cea, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-048-US, server: 103.136.185.27, port: 5499, type: trojan, password: 598738f7-f98b-3eed-8c22-e894a5730cea, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-047-US, server: 34.219.209.205, port: 443, type: trojan, password: 598738f7-f98b-3eed-8c22-e894a5730cea, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-049-US, server: 103.136.185.28, port: 3504, type: trojan, password: 598738f7-f98b-3eed-8c22-e894a5730cea, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-050-GOOGLE, server: au1.pay.edu.kg, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au1.pay.edu.kg}}, udp: true}
   - {name: 04-051-GOOGLE, server: tw1.daishuvpn.win, port: 443, type: vmess, uuid: 7f961e66-bfbc-4555-84da-8fe171609c68, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1.daishuvpn.win}}, udp: true}
@@ -937,7 +937,7 @@ proxy-groups:
       - 04-044-NOWHERE
       - 04-045-JP
       - 04-046-JP
-      - 04-048-US
+      - 04-047-US
       - 04-049-US
       - 04-050-GOOGLE
       - 04-051-GOOGLE
@@ -1913,6 +1913,7 @@ proxy-groups:
       - 04-032-NOWHERE
       - 04-037-NOWHERE
       - 04-042-NOWHERE
+      - 04-047-US
       - 04-052-GOOGLE
       - 04-157-NOWHERE
       - 04-162-US
@@ -2082,7 +2083,6 @@ proxy-groups:
       - 04-033-RELAY
       - 04-038-NOWHERE
       - 04-043-SG
-      - 04-048-US
       - 04-053-GOOGLE
       - 04-158-US
       - 04-163-NOWHERE
