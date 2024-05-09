@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-000-CN, server: sz.zj.my.1.76po.com, port: 31001, type: trojan, password: 0e9809e9-ed97-4e4c-ac13-ad41c0e186d9, sni: hk-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-001-CN, server: sz.zj.my.1.76po.com, port: 31002, type: trojan, password: 0e9809e9-ed97-4e4c-ac13-ad41c0e186d9, sni: hk-02.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-002-CN, server: sz.zj.my.1.76po.com, port: 31003, type: trojan, password: 0e9809e9-ed97-4e4c-ac13-ad41c0e186d9, sni: hk-03.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-003-CN, server: sz.zj.my.1.76po.com, port: 31004, type: trojan, password: 0e9809e9-ed97-4e4c-ac13-ad41c0e186d9, sni: hk-04.v4vip.top, skip-cert-verify: true, udp: true}
@@ -363,7 +364,6 @@ proxies:
   - {name: 04-407-CN, server: gy.58n.net, port: 24603, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-408-CN, server: gy.58n.net, port: 20278, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-409-CN, server: gy.58n.net, port: 20279, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-410-CN, server: gy.58n.net, port: 59021, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: x100.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-411-CN, server: gy.58n.net, port: 21247, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: x91.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-412-CN, server: gy.58n.net, port: 20302, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: z302.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-413-CN, server: gy.58n.net, port: 20303, type: trojan, password: 901b2baf-c22a-3319-9527-ff3dfbf48e56, sni: z303.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -747,6 +747,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-000-CN
       - 04-001-CN
       - 04-002-CN
       - 04-003-CN
@@ -1056,7 +1057,6 @@ proxy-groups:
       - 04-407-CN
       - 04-408-CN
       - 04-409-CN
-      - 04-410-CN
       - 04-411-CN
       - 04-412-CN
       - 04-413-CN
@@ -2010,6 +2010,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-000-CN
       - 04-005-CN
       - 04-010-CN
       - 04-015-CN
@@ -2072,7 +2073,6 @@ proxy-groups:
       - 04-395-CN
       - 04-400-CN
       - 04-405-CN
-      - 04-410-CN
       - 04-415-CN
       - 04-420-CN
       - 04-425-CN
