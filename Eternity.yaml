@@ -489,6 +489,7 @@ proxies:
   - {name: 08-530-US, server: 155.138.242.207, port: 54316, type: vmess, uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-531-RELAY, server: 172.67.204.84, port: 2082, type: vmess, uuid: 7b39e430-e14d-4920-979b-aa7aa2f5010c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/telegram-impr0vpn,impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,telegram-impr0vpn,hosv2rayng,-V2raynggggg-?ed=2056"}, udp: true}
   - {name: 08-532-IR, server: 213.176.2.83, port: 55222, type: vmess, uuid: 55f62edd-ca88-47f9-81e1-bc9816ea7f9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-533-US, server: 192.210.167.236, port: 1200, type: vmess, uuid: 207da2a6-3c7d-4b6c-cb46-dcfaf5814053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /207da2a6}, udp: true}
   - {name: 08-534-CA, server: 15.156.226.178, port: 25996, type: vmess, uuid: 786c0e71-c2d4-4bdc-913f-5c75dd54721f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-535-US, server: 146.235.223.24, port: 25943, type: vmess, uuid: 520c82fe-3e74-43b9-9dfb-87cae71e8cc0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /canada}, udp: true}
   - {name: 08-536-BR, server: 78.111.102.232, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -506,7 +507,6 @@ proxies:
   - {name: 10-549-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 10-550-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
   - {name: 10-551-RELAY, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 10-552-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-553-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-554-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-555-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -1121,6 +1121,7 @@ proxy-groups:
       - 08-530-US
       - 08-531-RELAY
       - 08-532-IR
+      - 08-533-US
       - 08-534-CA
       - 08-535-US
       - 08-536-BR
@@ -1138,7 +1139,6 @@ proxy-groups:
       - 10-549-RELAY
       - 10-550-RELAY
       - 10-551-RELAY
-      - 10-552-US
       - 10-553-RELAY
       - 10-554-US
       - 10-555-US
@@ -1544,7 +1544,6 @@ proxy-groups:
       - 08-537-DE
       - 08-542-RELAY
       - 10-547-RELAY
-      - 10-552-US
       - 10-557-RELAY
       - 12-562-RELAY
       - 12-567-RELAY
@@ -1669,6 +1668,7 @@ proxy-groups:
       - 06-518-CN
       - 06-523-CN
       - 08-528-IR
+      - 08-533-US
       - 10-543-RELAY
       - 10-548-RELAY
       - 10-553-RELAY
