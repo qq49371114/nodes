@@ -43,7 +43,6 @@ Fork from TopFreeProxies.
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@kr02.freeflyingcloud.xyz:21702?allowInsecure=1&sni=kr02.freeflyingcloud.xyz#04-010-KR
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@jp01.freeflyingcloud.xyz:44402?allowInsecure=1&sni=jp01.freeflyingcloud.xyz#04-011-JP
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg01.freeflyingcloud.xyz:35702?allowInsecure=1&sni=sg01.freeflyingcloud.xyz#04-012-SG
-    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@au01.freeflyingcloud.xyz:42002?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-013-AU
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@us05.freeflyingcloud.xyz:30020?allowInsecure=1&sni=us05.freeflyingcloud.xyz#04-014-US
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg04.freeflyingcloud.xyz:30018?allowInsecure=1&sni=sg04.freeflyingcloud.xyz#04-015-SG
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@ru01.freeflyingcloud.xyz:30003?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-016-RU
@@ -309,6 +308,7 @@ Fork from TopFreeProxies.
     trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:14846?allowInsecure=1&sni=x46.flybar.work#04-374-CN
     trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:30767?allowInsecure=1&sni=z61.hongkongnode.top#04-375-CN
     trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:25238?allowInsecure=1&sni=z267.hongkongnode.top#04-376-CN
+    trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:11215?allowInsecure=1&sni=z268.hongkongnode.top#04-377-CN
     trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-378-CN
     trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:33323?allowInsecure=1&sni=z261.hongkongnode.top#04-379-CN
     trojan://e7ddc3fe-595b-325f-aa10-db2a2705b6c3@gy.58n.net:36821?allowInsecure=1&sni=z262.hongkongnode.top#04-380-CN
@@ -758,11 +758,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `825`
+合并节点总数: `828`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `825`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `828`
 
 
 ## 仓库声明
