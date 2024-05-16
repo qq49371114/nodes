@@ -110,8 +110,8 @@ proxies:
   - {name: 04-053-JP, server: 35.78.71.77, port: 443, type: trojan, password: fbc74e3a-fb61-39ad-84d5-c5e84c96f140, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-054-JP, server: 35.77.53.120, port: 443, type: trojan, password: fbc74e3a-fb61-39ad-84d5-c5e84c96f140, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-US, server: 34.210.69.64, port: 443, type: trojan, password: fbc74e3a-fb61-39ad-84d5-c5e84c96f140, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-056-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-057-US, server: 103.136.185.28, port: 3504, type: trojan, password: fbc74e3a-fb61-39ad-84d5-c5e84c96f140, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-056-US, server: 103.136.185.27, port: 5499, type: trojan, password: fbc74e3a-fb61-39ad-84d5-c5e84c96f140, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-057-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-058-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-059-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-060-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -612,8 +612,8 @@ proxies:
   - {name: 06-653-RELAY, server: 104.19.43.18, port: 80, type: vmess, uuid: 8432c62f-a1cf-46da-a465-f27b5bc0bab3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl}, udp: true}
   - {name: 08-654-RELAY, server: atlasnet1.myatlasnet.ir, port: 8443, type: vmess, uuid: 63e54742-a244-4bb0-c9cb-17a545f4ca3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: atlasnet1.myatlasnet.ir}}, udp: true}
   - {name: 08-655-RELAY, server: 172.64.229.209, port: 80, type: vmess, uuid: f1b6bc05-40dd-4180-ca18-b05288fd33bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-656-SE, server: se1.vpnjantit.com, port: 10000, type: vmess, uuid: 68737d4a-12d6-11ef-b1df-00163c623140, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vpnjantit, headers: {Host: se1.vpnjantit.com}}, udp: true}
   - {name: 08-657-RELAY, server: go.alipay.ovh, port: 8080, type: vmess, uuid: 4f1f8f1e-926c-4edb-a398-8627110973f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: go.alipay.ovh}}, udp: true}
+  - {name: 08-658-IE, server: ie1-vmess.sshmax.xyz, port: 80, type: vmess, uuid: e79042f6-97aa-4caa-9c8a-257a18b0756e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ie1-vmess.sshmax.xyz}}, udp: true}
   - {name: 08-659-US, server: aliensvus.edlaghiye.com, port: 8081, type: vmess, uuid: 4cc70fa3-ee9a-4a80-b8f7-5500f9099c51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-660-RELAY, server: 502.outline-vpn.cloud, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: 502.outline-vpn.cloud}}, udp: true}
   - {name: 10-661-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
@@ -1356,8 +1356,8 @@ proxy-groups:
       - 06-653-RELAY
       - 08-654-RELAY
       - 08-655-RELAY
-      - 08-656-SE
       - 08-657-RELAY
+      - 08-658-IE
       - 08-659-US
       - 10-660-RELAY
       - 10-661-RELAY
@@ -1658,7 +1658,6 @@ proxy-groups:
       - 06-641-RELAY
       - 06-646-RELAY
       - 06-651-RELAY
-      - 08-656-SE
       - 10-661-RELAY
       - 10-666-RELAY
       - 10-671-US
@@ -1962,6 +1961,7 @@ proxy-groups:
       - 06-643-RELAY
       - 06-648-RELAY
       - 06-653-RELAY
+      - 08-658-IE
       - 10-663-RELAY
       - 10-668-RELAY
       - 10-673-RELAY
