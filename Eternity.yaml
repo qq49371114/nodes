@@ -110,6 +110,7 @@ proxies:
   - {name: 04-053-JP, server: 35.78.71.77, port: 443, type: trojan, password: ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-054-JP, server: 35.78.228.133, port: 443, type: trojan, password: ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-US, server: 35.88.178.85, port: 443, type: trojan, password: ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-056-US, server: 103.136.185.27, port: 5499, type: trojan, password: ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-057-US, server: 103.136.185.28, port: 3504, type: trojan, password: ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-058-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-059-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -620,7 +621,6 @@ proxies:
   - {name: 10-662-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 10-663-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
   - {name: 10-664-RELAY, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 10-665-US, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-666-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 10-667-US, server: 64.176.219.18, port: 50706, type: vmess, uuid: a98f5505-8bb1-4d92-e435-21906d9ab89a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-668-US, server: 64.176.216.199, port: 36159, type: vmess, uuid: 4826d728-48f9-43d1-aa1f-27b6850cd8a1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -775,7 +775,6 @@ proxies:
   - {name: 12-817-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
   - {name: 16-819-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
   - {name: 16-820-CN, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
-  - {name: "16-821-HKtrojan//ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8@103.136.185.275499?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-056-US", server: iepl1.forlive.live, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 62b9d2df-b7e4-3bad-88d0-59b2d3fb63dd, udp: true}
   - {name: 16-822-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: c74c2fd1-7e5b-4c20-be9f-f3c3b7fd6248, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Zo98PYfE, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 16-823-CN, server: sui.forlive.live, port: 40396, type: vmess, uuid: 3d9bbb25-d1a9-42dd-b5db-bbd1effaf8da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sui.forlive.live}}, udp: true}
   - {name: 16-824-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: eee2a535-93f1-4640-9cf1-38c9c8c352a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /xn--mes53ddysu0o3gl, headers: {Host: hsj.lbxjc.online}}, udp: true}
@@ -853,6 +852,7 @@ proxy-groups:
       - 04-053-JP
       - 04-054-JP
       - 04-055-US
+      - 04-056-US
       - 04-057-US
       - 04-058-NOWHERE
       - 04-059-NOWHERE
@@ -1363,7 +1363,6 @@ proxy-groups:
       - 10-662-RELAY
       - 10-663-RELAY
       - 10-664-RELAY
-      - 10-665-US
       - 10-666-RELAY
       - 10-667-US
       - 10-668-US
@@ -1518,7 +1517,6 @@ proxy-groups:
       - 12-817-RELAY
       - 16-819-RELAY
       - 16-820-CN
-      - 16-821-HKtrojan//ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8@103.136.185.275499?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-056-US
       - 16-822-RELAY
       - 16-823-CN
       - 16-824-RELAY
@@ -1556,6 +1554,7 @@ proxy-groups:
       - 04-041-NOWHERE
       - 04-046-RELAY
       - 04-051-RELAY
+      - 04-056-US
       - 04-061-NOWHERE
       - 04-066-DE
       - 04-071-SG
@@ -1688,7 +1687,6 @@ proxy-groups:
       - 12-806-CN
       - 12-811-CN
       - 12-816-SE
-      - 16-821-HKtrojan//ce8ef50c-9f86-3a31-aed4-b76a58f9e6d8@103.136.185.275499?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-056-US
       - 31-826-RELAY
       - 40-831-RELAY
   - name: 测速2分组
@@ -2265,7 +2263,6 @@ proxy-groups:
       - 06-650-RELAY
       - 08-655-RELAY
       - 10-660-RELAY
-      - 10-665-US
       - 10-670-RELAY
       - 12-675-RELAY
       - 12-680-RELAY
