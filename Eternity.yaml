@@ -110,8 +110,8 @@ proxies:
   - {name: 04-053-JP, server: 35.78.71.77, port: 443, type: trojan, password: f9e93eb8-d791-30e2-881a-09efaf008bc6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-054-JP, server: 35.78.228.133, port: 443, type: trojan, password: f9e93eb8-d791-30e2-881a-09efaf008bc6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-US, server: 35.86.151.24, port: 443, type: trojan, password: f9e93eb8-d791-30e2-881a-09efaf008bc6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-056-US, server: 103.136.185.27, port: 5499, type: trojan, password: f9e93eb8-d791-30e2-881a-09efaf008bc6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-057-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-056-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-057-US, server: 103.136.185.28, port: 3504, type: trojan, password: f9e93eb8-d791-30e2-881a-09efaf008bc6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-058-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-059-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-060-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -283,7 +283,7 @@ proxies:
   - {name: 04-324-CN, server: sz.zj.my.1.76po.com, port: 31019, type: trojan, password: 26e7dc0c-5100-4cdb-90c6-4f27dbae5719, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-325-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
   - {name: 04-326-CN, server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
-  - {name: 04-327-CN, server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
+  - {name: 04-328-CN, server: 17.v2-ray.cyou, port: 23617, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.v2-ray.cyou}}, udp: true}
   - {name: 04-329-CN, server: 19.v2-ray.cyou, port: 23619, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.v2-ray.cyou}}, udp: true}
   - {name: 04-330-CN, server: 14.v2-ray.cyou, port: 23614, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.v2-ray.cyou}}, udp: true}
   - {name: 04-331-CN, server: 15.v2-ray.cyou, port: 23615, type: vmess, uuid: 748aafb7-492f-3715-8b9c-806eff924ace, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.v2-ray.cyou}}, udp: true}
@@ -798,7 +798,7 @@ proxy-groups:
       - 04-324-CN
       - 04-325-CN
       - 04-326-CN
-      - 04-327-CN
+      - 04-328-CN
       - 04-329-CN
       - 04-330-CN
       - 04-331-CN
@@ -1241,7 +1241,6 @@ proxy-groups:
       - 04-312-CN
       - 04-317-CN
       - 04-322-CN
-      - 04-327-CN
       - 04-332-CN
       - 04-337-HK
       - 04-342-CN
@@ -1348,6 +1347,7 @@ proxy-groups:
       - 04-313-CN
       - 04-318-CN
       - 04-323-CN
+      - 04-328-CN
       - 04-333-CN
       - 04-338-CN
       - 04-343-CN
