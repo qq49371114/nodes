@@ -238,7 +238,6 @@ Fork from TopFreeProxies.
     trojan://cb0a0a2a-917d-48ad-94df-fd23fe12d01b@fly0001.flyflylflyflysbs.sbs:15762?allowInsecure=1&sni=tur01.ckcloud.info#04-304-CN
     trojan://cb0a0a2a-917d-48ad-94df-fd23fe12d01b@fly0001.flyflylflyflysbs.sbs:20943?allowInsecure=1&sni=de01.ckcloud.info#04-305-CN
     trojan://cb0a0a2a-917d-48ad-94df-fd23fe12d01b@fly0001.flyflylflyflysbs.sbs:39788?allowInsecure=1&sni=uk01.ckcloud.info#04-306-CN
-    trojan://33956f07-4ce1-44cf-b6ad-49aa48b61929@hk-01.01-vip.top:31001?allowInsecure=1&sni=hk-01.v4vip.top#04-307-CN
     trojan://33956f07-4ce1-44cf-b6ad-49aa48b61929@hk-02.01-vip.top:31002?allowInsecure=1&sni=hk-02.v4vip.top#04-308-CN
     trojan://33956f07-4ce1-44cf-b6ad-49aa48b61929@hk-03.01-vip.top:31003?allowInsecure=1&sni=hk-03.v4vip.top#04-309-CN
     trojan://33956f07-4ce1-44cf-b6ad-49aa48b61929@hk-04.01-vip.top:31004?allowInsecure=1&sni=hk-04.v4vip.top#04-310-CN
@@ -316,6 +315,7 @@ Fork from TopFreeProxies.
     trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20139?allowInsecure=1&sni=z139.hongkongnode.top#04-382-CN
     trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20140?allowInsecure=1&sni=z140.hongkongnode.top#04-383-CN
     trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20141?allowInsecure=1&sni=z141.hongkongnode.top#04-384-CN
+    trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20142?allowInsecure=1&sni=z142.hongkongnode.top#04-385-CN
     trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20059?allowInsecure=1&sni=x59.flybar.work#04-386-CN
     trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20071?allowInsecure=1&sni=x71.flybar.work#04-387-CN
     trojan://ab6e9221-e597-3bb0-a927-23068acc2fcb@gy.58n.net:20076?allowInsecure=1&sni=x76.flybar.work#04-388-CN
