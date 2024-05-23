@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `508`
+高速节点数量: `507`
 <details>
   <summary>展开复制节点</summary>
 
@@ -43,7 +43,6 @@ Fork from TopFreeProxies.
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@kr02.freeflyingcloud.xyz:21702?allowInsecure=1&sni=kr02.freeflyingcloud.xyz#04-010-KR
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@jp01.freeflyingcloud.xyz:44402?allowInsecure=1&sni=jp01.freeflyingcloud.xyz#04-011-JP
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg01.freeflyingcloud.xyz:35702?allowInsecure=1&sni=sg01.freeflyingcloud.xyz#04-012-SG
-    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@au01.freeflyingcloud.xyz:42002?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-013-AU
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@us05.freeflyingcloud.xyz:30020?allowInsecure=1&sni=us05.freeflyingcloud.xyz#04-014-US
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg04.freeflyingcloud.xyz:30018?allowInsecure=1&sni=sg04.freeflyingcloud.xyz#04-015-SG
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@ru01.freeflyingcloud.xyz:30003?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-016-RU
@@ -532,7 +531,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNTk5LUNOIiwiYWRkIjoiZGF0YS11cy12MS5zaHdqZmt3LmNuIiwicG9ydCI6IjIwNDAxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImIxNDc4ZTI0LTQ5MTYtM2FiZS04ZjE3LTE1OTMxMDEyZWNiZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGViaWFuIiwiaG9zdCI6ImRhdGEtdXMtdjEuc2h3amZrdy5jbiIsInRscyI6IiJ9
     trojan://333b4368-8162-3997-bc38-db1d667cc921@lavip101.qlgq.fun:21156?allowInsecure=1&sni=lavip101.qlgq.fun#31-601-US
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjAyLVJFTEFZIiwiYWRkIjoicnVzc2lhLmNvbSIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjY0YTU3YjVmLTQ1ZTAtNDBjMy04MzE2LTk3ZDBmZjUzZmQ5NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YzL2Rvd25sb2FkLmdldEZpbGUiLCJob3N0IjoicnVzc2lhLmNvbSIsInRscyI6IiJ9
-    vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjA0LVVTIiwiYWRkIjoiMjMuMTU0LjEzNi4yIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoiIiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjAzLVJFTEFZIiwiYWRkIjoiczFjLnYyLnYwMDFzc3MueHl6IiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMTEyYWMzNmYtM2Y1My00ZTI2LTgzNzEtZDI1YzAyOGUxYjlhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiczFjLnYyLnYwMDFzc3MueHl6IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjA1LVJFTEFZIiwiYWRkIjoicnVzc2lhLmNvbSIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjY0YTU3YjVmLTQ1ZTAtNDBjMy04MzE2LTk3ZDBmZjUzZmQ5NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXBpL3YzL2Rvd25sb2FkLmdldEZpbGUiLCJob3N0IjoicnVzc2lhLmNvbSIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjA2LUNOIiwiYWRkIjoiMTgzLjI0MC4xNzkuMjA3IiwicG9ydCI6IjMwMDEzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViZDU4OTlhLTRiNzgtNGQ3NS04NTcwLTRkMjFiNDM0MjJjNCIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AiLCJwYXRoIjoiL2FwaS92My9kb3dubG9hZC5nZXRGaWxlIiwiaG9zdCI6InJ1c3NpYS5jb20iLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjA3LVJFTEFZIiwiYWRkIjoiY2RuY2RuY2RuY2RuLjc4NDY1NC54eXoiLCJwb3J0IjoiMjA1MiIsInR5cGUiOiJub25lIiwiaWQiOiI0YjU4NjdiNS1hOWM0LTRhZmEtOGQ3My0yYzQzMzA3NDVmM2UiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2luZGV4P2VkPTIwIiwiaG9zdCI6ImNkbmNkbmNkbmNkbi43ODQ2NTQueHl6IiwidGxzIjoiIn0=
