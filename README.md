@@ -79,8 +79,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDQ3LVJFTEFZIiwiYWRkIjoiMTcyLjY3Ljc2LjExMSIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImI0YTRmMWRiLThkMDktMzM4OS1hZTg4LTBhZThkZTZkNmYxZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4iLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
     trojan://4510d58c-119d-360e-ba30-c1c95621c416@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-048-JP
     trojan://4510d58c-119d-360e-ba30-c1c95621c416@3.112.93.84:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-049-JP
-    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-050-US
-    trojan://4510d58c-119d-360e-ba30-c1c95621c416@103.136.185.27:5502?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-051-US
+    trojan://4510d58c-119d-360e-ba30-c1c95621c416@35.91.41.198:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-050-US
+    trojan://c2c76420-257f-492a-b20f-6560f3bfa78d@kz.mjt000.com:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-051-US
     trojan://4510d58c-119d-360e-ba30-c1c95621c416@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@gy.lanxingyun.cn:39210#04-053-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:39210#04-054-NOWHERE
@@ -556,11 +556,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `622`
+合并节点总数: `621`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `622`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `621`
 
 
 ## 仓库声明
