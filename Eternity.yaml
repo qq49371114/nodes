@@ -349,15 +349,15 @@ proxies:
   - {name: 04-392-CN, server: gy.58n.net, port: 20304, type: trojan, password: b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-393-CN, server: gy.58n.net, port: 20305, type: trojan, password: b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-394-CN, server: gy.58n.net, port: 20306, type: trojan, password: b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-395-DE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-396-DE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-397-KR, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-395-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-396-IT, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-397-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-398-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-399-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-400-DE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-401-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-399-US, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-400-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-401-US, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-402-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-403-IT, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-403-DE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-404-IT, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-405-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-406-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -877,15 +877,15 @@ proxy-groups:
       - 04-392-CN
       - 04-393-CN
       - 04-394-CN
-      - 04-395-DE
-      - 04-396-DE
-      - 04-397-KR
+      - 04-395-NOWHERE
+      - 04-396-IT
+      - 04-397-NOWHERE
       - 04-398-NOWHERE
-      - 04-399-NOWHERE
-      - 04-400-DE
-      - 04-401-NOWHERE
+      - 04-399-US
+      - 04-400-NOWHERE
+      - 04-401-US
       - 04-402-NOWHERE
-      - 04-403-IT
+      - 04-403-DE
       - 04-404-IT
       - 04-405-CN
       - 04-406-CN
@@ -1174,8 +1174,8 @@ proxy-groups:
       - 04-381-CN
       - 04-386-CN
       - 04-391-CN
-      - 04-396-DE
-      - 04-401-NOWHERE
+      - 04-396-IT
+      - 04-401-US
       - 04-406-CN
       - 04-411-CN
       - 06-416-RELAY
@@ -1283,7 +1283,7 @@ proxy-groups:
       - 04-382-CN
       - 04-387-CN
       - 04-392-CN
-      - 04-397-KR
+      - 04-397-NOWHERE
       - 04-402-NOWHERE
       - 04-407-CN
       - 04-412-CN
@@ -1392,7 +1392,7 @@ proxy-groups:
       - 04-388-CN
       - 04-393-CN
       - 04-398-NOWHERE
-      - 04-403-IT
+      - 04-403-DE
       - 04-408-CN
       - 04-413-CN
       - 06-418-CN
@@ -1499,7 +1499,7 @@ proxy-groups:
       - 04-384-CN
       - 04-389-CN
       - 04-394-CN
-      - 04-399-NOWHERE
+      - 04-399-US
       - 04-404-IT
       - 04-409-CN
       - 04-414-CN
@@ -1608,8 +1608,8 @@ proxy-groups:
       - 04-380-CN
       - 04-385-CN
       - 04-390-CN
-      - 04-395-DE
-      - 04-400-DE
+      - 04-395-NOWHERE
+      - 04-400-NOWHERE
       - 04-405-CN
       - 04-410-CN
       - 04-415-CN
