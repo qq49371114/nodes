@@ -43,7 +43,6 @@ Fork from TopFreeProxies.
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@kr02.freeflyingcloud.xyz:21702?allowInsecure=1&sni=kr02.freeflyingcloud.xyz#04-010-KR
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@jp01.freeflyingcloud.xyz:44402?allowInsecure=1&sni=jp01.freeflyingcloud.xyz#04-011-JP
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg01.freeflyingcloud.xyz:35702?allowInsecure=1&sni=sg01.freeflyingcloud.xyz#04-012-SG
-    trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@au01.freeflyingcloud.xyz:42002?allowInsecure=1&sni=au01.freeflyingcloud.xyz#04-013-AU
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@us05.freeflyingcloud.xyz:30020?allowInsecure=1&sni=us05.freeflyingcloud.xyz#04-014-US
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@sg04.freeflyingcloud.xyz:30018?allowInsecure=1&sni=sg04.freeflyingcloud.xyz#04-015-SG
     trojan://9e6999d5-eae0-4b2d-81cb-404f203ecc58@ru01.freeflyingcloud.xyz:30003?allowInsecure=1&sni=ru01.freeflyingcloud.xyz#04-016-RU
@@ -313,6 +312,7 @@ Fork from TopFreeProxies.
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20142?allowInsecure=1&sni=z142.hongkongnode.top#04-379-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20059?allowInsecure=1&sni=x59.flybar.work#04-380-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20071?allowInsecure=1&sni=x71.flybar.work#04-381-CN
+    trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20076?allowInsecure=1&sni=x76.flybar.work#04-382-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:20299?allowInsecure=1&sni=x299.flybar.work#04-383-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:17806?allowInsecure=1&sni=x65.flybar.work#04-384-CN
     trojan://b99aa28d-c3cb-37c6-9fc8-dabb11e6f6be@gy.58n.net:30712?allowInsecure=1&sni=x83.flybar.work#04-385-CN
@@ -553,11 +553,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `620`
+合并节点总数: `625`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `620`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `625`
 
 
 ## 仓库声明
