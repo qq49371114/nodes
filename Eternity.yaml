@@ -105,8 +105,9 @@ proxies:
   - {name: 04-049-RELAY, server: 172.67.118.125, port: 8880, type: vmess, uuid: b4a4f1db-8d09-3389-ae88-0ae8de6d6f1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.118.125}, udp: true}
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: 05a7b319-130b-3cde-8a56-63d18ba5c66f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 43.206.141.147, port: 443, type: trojan, password: 05a7b319-130b-3cde-8a56-63d18ba5c66f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-052-US, server: 35.94.191.164, port: 443, type: trojan, password: 05a7b319-130b-3cde-8a56-63d18ba5c66f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-053-US, server: 103.136.185.27, port: 5503, type: trojan, password: 05a7b319-130b-3cde-8a56-63d18ba5c66f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: 05a7b319-130b-3cde-8a56-63d18ba5c66f, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-054-US, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-057-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -285,8 +286,7 @@ proxies:
   - {name: 04-328-CN, server: 5.v2-ray.cyou, port: 23605, type: vmess, uuid: 81d34260-6463-305a-ac08-d21ed2ef9ec3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.v2-ray.cyou}}, udp: true}
   - {name: 04-329-CN, server: 13.v2-ray.cyou, port: 23613, type: vmess, uuid: 81d34260-6463-305a-ac08-d21ed2ef9ec3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.v2-ray.cyou}}, udp: true}
   - {name: 04-330-CN, server: 11.v2-ray.cyou, port: 23611, type: vmess, uuid: 81d34260-6463-305a-ac08-d21ed2ef9ec3, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.v2-ray.cyou}}, udp: true}
-  - {name: 04-331-JP, server: jp1.biubiufast.quest, port: 5203, type: trojan, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, skip-cert-verify: true, udp: true}
-  - {name: "04-332-JPtrojan//05a7b319-130b-3cde-8a56-63d18ba5c66f@35.94.191.164443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US", server: jp1.biubiufast.quest, port: 5205, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
+  - {name: 04-332-JP, server: jp1.biubiufast.quest, port: 5205, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
   - {name: 04-333-HK, server: hk1.biubiufast.quest, port: 5204, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
   - {name: 04-334-CN, server: dl.biubiufast.quest, port: 11012, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
   - {name: 04-335-CN, server: dl.biubiufast.quest, port: 11005, type: ss, cipher: chacha20-ietf-poly1305, password: 67c01f24-30e1-4ca0-a059-f1a1ff34858c, udp: true}
@@ -352,16 +352,16 @@ proxies:
   - {name: 04-395-CN, server: gy.58n.net, port: 20304, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-396-CN, server: gy.58n.net, port: 20305, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-397-CN, server: gy.58n.net, port: 20306, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-398-NOWHERE, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-399-IT, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-398-IT, server: hk01.bigmeyear.org, port: 20001, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-399-NOWHERE, server: hk02.bigmeyear.org, port: 20232, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-400-NOWHERE, server: hk03.bigmeyear.org, port: 20233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-401-IT, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-401-NOWHERE, server: hk04.bigmeyear.org, port: 20234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-402-NOWHERE, server: tw01.bigmeyear.org, port: 20334, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-403-IT, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-404-KR, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-403-NOWHERE, server: tw02.bigmeyear.org, port: 20335, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-404-NOWHERE, server: tw03.bigmeyear.org, port: 20336, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-405-NOWHERE, server: sg01.bigmeyear.org, port: 30234, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-406-US, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
-  - {name: 04-407-NOWHERE, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-406-NOWHERE, server: sg02.bigmeyear.org, port: 30235, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
+  - {name: 04-407-US, server: sg03.bigmeyear.org, port: 30233, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-408-CN, server: jp01.bigmeyear.org, port: 30236, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-409-CN, server: jp02.bigmeyear.org, port: 30237, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
   - {name: 04-410-CN, server: jp03.bigmeyear.org, port: 30250, type: ss, cipher: aes-128-gcm, password: b59dfaf2-c430-430b-a075-756964e88592, udp: true}
@@ -625,6 +625,7 @@ proxy-groups:
       - 04-049-RELAY
       - 04-050-JP
       - 04-051-JP
+      - 04-052-US
       - 04-053-US
       - 04-054-US
       - 04-055-NOWHERE
@@ -805,8 +806,7 @@ proxy-groups:
       - 04-328-CN
       - 04-329-CN
       - 04-330-CN
-      - 04-331-JP
-      - 04-332-JPtrojan//05a7b319-130b-3cde-8a56-63d18ba5c66f@35.94.191.164443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
+      - 04-332-JP
       - 04-333-HK
       - 04-334-CN
       - 04-335-CN
@@ -872,16 +872,16 @@ proxy-groups:
       - 04-395-CN
       - 04-396-CN
       - 04-397-CN
-      - 04-398-NOWHERE
-      - 04-399-IT
+      - 04-398-IT
+      - 04-399-NOWHERE
       - 04-400-NOWHERE
-      - 04-401-IT
+      - 04-401-NOWHERE
       - 04-402-NOWHERE
-      - 04-403-IT
-      - 04-404-KR
+      - 04-403-NOWHERE
+      - 04-404-NOWHERE
       - 04-405-NOWHERE
-      - 04-406-US
-      - 04-407-NOWHERE
+      - 04-406-NOWHERE
+      - 04-407-US
       - 04-408-CN
       - 04-409-CN
       - 04-410-CN
@@ -1145,7 +1145,6 @@ proxy-groups:
       - 04-316-CN
       - 04-321-CN
       - 04-326-CN
-      - 04-331-JP
       - 04-336-CN
       - 04-341-CN
       - 04-346-NOWHERE
@@ -1159,8 +1158,8 @@ proxy-groups:
       - 04-386-CN
       - 04-391-CN
       - 04-396-CN
-      - 04-401-IT
-      - 04-406-US
+      - 04-401-NOWHERE
+      - 04-406-NOWHERE
       - 04-411-CN
       - 04-416-CN
       - 06-421-CN
@@ -1217,6 +1216,7 @@ proxy-groups:
       - 04-037-RELAY
       - 04-042-RELAY
       - 04-047-RELAY
+      - 04-052-US
       - 04-057-NOWHERE
       - 04-062-DE
       - 04-067-SG
@@ -1252,7 +1252,7 @@ proxy-groups:
       - 04-317-CN
       - 04-322-CN
       - 04-327-CN
-      - 04-332-JPtrojan//05a7b319-130b-3cde-8a56-63d18ba5c66f@35.94.191.164443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
+      - 04-332-JP
       - 04-337-CN
       - 04-342-CN
       - 04-347-RELAY
@@ -1267,7 +1267,7 @@ proxy-groups:
       - 04-392-CN
       - 04-397-CN
       - 04-402-NOWHERE
-      - 04-407-NOWHERE
+      - 04-407-US
       - 04-412-CN
       - 04-417-CN
       - 06-422-CN
@@ -1370,8 +1370,8 @@ proxy-groups:
       - 04-383-CN
       - 04-388-CN
       - 04-393-CN
-      - 04-398-NOWHERE
-      - 04-403-IT
+      - 04-398-IT
+      - 04-403-NOWHERE
       - 04-408-CN
       - 04-413-CN
       - 04-418-CN
@@ -1464,7 +1464,6 @@ proxy-groups:
       - 04-319-CN
       - 04-324-CN
       - 04-329-CN
-      - 04-332-JPtrojan//05a7b319-130b-3cde-8a56-63d18ba5c66f@35.94.191.164443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
       - 04-334-CN
       - 04-339-CN
       - 04-344-SG
@@ -1478,8 +1477,8 @@ proxy-groups:
       - 04-384-CN
       - 04-389-CN
       - 04-394-CN
-      - 04-399-IT
-      - 04-404-KR
+      - 04-399-NOWHERE
+      - 04-404-NOWHERE
       - 04-409-CN
       - 04-414-CN
       - 06-419-CN
