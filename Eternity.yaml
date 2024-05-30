@@ -320,6 +320,7 @@ proxies:
   - {name: 04-362-CN, server: gy.58n.net, port: 33323, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z261.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-363-CN, server: gy.58n.net, port: 36821, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z262.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-364-CN, server: gy.58n.net, port: 45168, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z263.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-365-CN, server: gy.58n.net, port: 50355, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z264.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-366-CN, server: gy.58n.net, port: 20295, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z295.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-367-CN, server: gy.58n.net, port: 20296, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z296.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-368-CN, server: gy.58n.net, port: 20308, type: trojan, password: 36c0c1d0-c55c-3928-9962-e2e76ade6e37, sni: z308.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -574,7 +575,6 @@ proxies:
   - {name: 31-619-RELAY, server: cfcdn1.sanfencdn9.com, port: 2095, type: vmess, uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/qYZue4zaWS, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 31-620-CN, server: 183.240.179.207, port: 30013, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 32-621-RELAY, server: 104.21.20.148, port: 2087, type: trojan, password: f85e2ad7-3e26-4589-b478-b0b15b9b5907, sni: us1.trojanvpn.de, skip-cert-verify: true, udp: true}
-  - {name: 32-622-FR, server: fr-full.privateip.net, port: 443, type: trojan, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -851,6 +851,7 @@ proxy-groups:
       - 04-362-CN
       - 04-363-CN
       - 04-364-CN
+      - 04-365-CN
       - 04-366-CN
       - 04-367-CN
       - 04-368-CN
@@ -1105,7 +1106,6 @@ proxy-groups:
       - 31-619-RELAY
       - 31-620-CN
       - 32-621-RELAY
-      - 32-622-FR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1335,7 +1335,6 @@ proxy-groups:
       - 12-607-RELAY
       - 16-612-RELAY
       - 31-617-RU
-      - 32-622-FR
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1612,6 +1611,7 @@ proxy-groups:
       - 04-350-NOWHERE
       - 04-355-CN
       - 04-360-CN
+      - 04-365-CN
       - 04-370-CN
       - 04-375-CN
       - 04-380-CN
