@@ -83,8 +83,8 @@ Fork from TopFreeProxies.
     trojan://383c7b82-967a-327f-9fab-c45e793149f1@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-050-JP
     trojan://383c7b82-967a-327f-9fab-c45e793149f1@3.113.112.171:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-051-JP
     trojan://383c7b82-967a-327f-9fab-c45e793149f1@34.221.120.118:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
-    trojan://67c01f24-30e1-4ca0-a059-f1a1ff34858c@jp1.biubiufast.quest:5203?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
-    trojan://383c7b82-967a-327f-9fab-c45e793149f1@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
+    trojan://383c7b82-967a-327f-9fab-c45e793149f1@103.136.185.27:5504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+    trojan://67c01f24-30e1-4ca0-a059-f1a1ff34858c@jp1.biubiufast.quest:5203?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@gy.lanxingyun.cn:39210#04-055-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:39210#04-056-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:22225#04-057-NOWHERE
@@ -548,7 +548,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjE1LVJFTEFZIiwiYWRkIjoiaGsud2lzaC5tbCIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImMyODZkYWEyLTU5ZGUtNDU1Yy04ZGU4LWVjMDMyYjZjZTJlOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImhrLndpc2gubWwiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjE2LVVTIiwiYWRkIjoiMjMuMTU0LjEzNi4yIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoiIiwidGxzIjoiIn0=
     trojan://f85e2ad7-3e26-4589-b478-b0b15b9b5907@104.21.20.148:2087?allowInsecure=1&sni=us1.trojanvpn.de#31-618-RELAY
-    trojan://ba43b064-03f6-4b80-9ba6-f96e491cf2eb@fr-full.privateip.net:443?allowInsecure=1#31-619-FR
+    trojan://ba43b064-03f6-4b80-9ba6-f96e491cf2eb@fr-full.privateip.net:443?allowInsecure=1#40-620-FR
     
 
 
