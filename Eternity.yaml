@@ -415,6 +415,7 @@ proxies:
   - {name: 08-456-RELAY, server: 188.114.99.134, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-457-RELAY, server: 104.21.83.108, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /link}, udp: true}
   - {name: 08-458-RELAY, server: 104.21.15.212, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 08-459-DE, server: 91.107.130.229, port: 35262, type: vmess, uuid: 2d5e5a73-8fa1-4c43-b67f-c0211ba34a03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-460-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-461-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-462-RELAY, server: 172.67.74.4, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws}, udp: true}
@@ -576,7 +577,6 @@ proxies:
   - {name: 16-620-RELAY, server: cfcdn1.sanfencdn9.com, port: 8880, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/bYdJ7Vc2We, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 31-621-US, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 31-623-RELAY, server: 104.21.20.148, port: 2087, type: trojan, password: f85e2ad7-3e26-4589-b478-b0b15b9b5907, sni: us1.trojanvpn.de, skip-cert-verify: true, udp: true}
-  - {name: 31-624-FR, server: fr-full.privateip.net, port: 443, type: trojan, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, skip-cert-verify: true, udp: true}
   - {name: 40-625-FR, server: fr-full.privateip.net, port: 443, type: trojan, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -949,6 +949,7 @@ proxy-groups:
       - 08-456-RELAY
       - 08-457-RELAY
       - 08-458-RELAY
+      - 08-459-DE
       - 08-460-RELAY
       - 10-461-RELAY
       - 10-462-RELAY
@@ -1110,7 +1111,6 @@ proxy-groups:
       - 16-620-RELAY
       - 31-621-US
       - 31-623-RELAY
-      - 31-624-FR
       - 40-625-FR
   - name: 自动选择
     type: url-test
@@ -1526,6 +1526,7 @@ proxy-groups:
       - 06-444-CN
       - 06-449-CN
       - 06-454-CN
+      - 08-459-DE
       - 10-464-RELAY
       - 12-469-RELAY
       - 12-474-RELAY
@@ -1558,7 +1559,6 @@ proxy-groups:
       - 12-609-CN
       - 16-614-CN
       - 16-619-RELAY
-      - 31-624-FR
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
