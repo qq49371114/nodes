@@ -107,7 +107,7 @@ proxies:
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: 658b911d-6a85-3b54-8e52-267b5cf77490, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 3.115.116.198, port: 443, type: trojan, password: 658b911d-6a85-3b54-8e52-267b5cf77490, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-052-US, server: 52.11.123.242, port: 443, type: trojan, password: 658b911d-6a85-3b54-8e52-267b5cf77490, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: 658b911d-6a85-3b54-8e52-267b5cf77490, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-053-US, server: 103.136.185.27, port: 5505, type: trojan, password: 658b911d-6a85-3b54-8e52-267b5cf77490, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-057-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -569,7 +569,7 @@ proxies:
   - {name: 12-612-CN, server: n00005.bzdqsmzngpyyng.sbs, port: 39788, type: ss, cipher: chacha20-ietf-poly1305, password: 02299b42-afe4-4bf5-ac10-0d583eb8fe99, udp: true}
   - {name: 12-613-SE, server: 95.164.33.62, port: 443, type: trojan, password: 0b1371aa-649d-41dc-9126-338c87936500, sni: sourceforge.net, skip-cert-verify: true, udp: true}
   - {name: 12-614-RELAY, server: 104.26.4.57, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
-  - {name: "16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.275505?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US", server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 07cf58cf-79bb-4371-925d-c2f57e5b1169, udp: true}
+  - {name: "16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US", server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 07cf58cf-79bb-4371-925d-c2f57e5b1169, udp: true}
   - {name: 16-617-RELAY, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: ccd92698-4499-472d-a06f-f90e7e89ba4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/3YKfzGw4, headers: {Host: cfcdn2.sanfencdn9.com}}, udp: true}
   - {name: 16-618-CN, server: xiaonangua.lwjyj.com, port: 32652, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee, udp: true}
   - {name: 16-619-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
@@ -646,7 +646,7 @@ proxy-groups:
       - 04-050-JP
       - 04-051-JP
       - 04-052-US
-      - 04-054-US
+      - 04-053-US
       - 04-055-NOWHERE
       - 04-056-NOWHERE
       - 04-057-NOWHERE
@@ -1108,7 +1108,7 @@ proxy-groups:
       - 12-612-CN
       - 12-613-SE
       - 12-614-RELAY
-      - 16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.275505?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 16-617-RELAY
       - 16-618-CN
       - 16-619-RELAY
@@ -1240,7 +1240,7 @@ proxy-groups:
       - 12-601-CN
       - 12-606-CN
       - 12-611-CN
-      - 16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.275505?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 31-621-RELAY
       - 31-626-RELAY
   - name: 测速2分组
@@ -1369,6 +1369,7 @@ proxy-groups:
       - 04-038-RELAY
       - 04-043-NOWHERE
       - 04-048-RELAY
+      - 04-053-US
       - 04-058-NOWHERE
       - 04-063-DE
       - 04-068-SG
@@ -1461,7 +1462,6 @@ proxy-groups:
       - 12-603-CN
       - 12-608-CN
       - 12-613-SE
-      - 16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.275505?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
       - 16-618-CN
       - 31-623-RU
       - 32-628-RU
@@ -1480,7 +1480,6 @@ proxy-groups:
       - 04-039-NOWHERE
       - 04-044-RELAY
       - 04-049-RELAY
-      - 04-054-US
       - 04-059-NOWHERE
       - 04-064-DE
       - 04-069-SG
@@ -1573,6 +1572,7 @@ proxy-groups:
       - 12-604-CN
       - 12-609-CN
       - 12-614-RELAY
+      - 16-616-JPtrojan//658b911d-6a85-3b54-8e52-267b5cf77490@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 16-619-RELAY
       - 31-624-RELAY
       - 40-629-RELAY
