@@ -83,7 +83,8 @@ Fork from TopFreeProxies.
     trojan://e8505f6f-6b29-3aae-b969-6b53e9ead2f4@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-050-JP
     trojan://e8505f6f-6b29-3aae-b969-6b53e9ead2f4@3.115.116.198:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-051-JP
     trojan://e8505f6f-6b29-3aae-b969-6b53e9ead2f4@52.11.123.242:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
-    trojan://e8505f6f-6b29-3aae-b969-6b53e9ead2f4@103.136.185.27:5505?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+    trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:30712?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+    trojan://e8505f6f-6b29-3aae-b969-6b53e9ead2f4@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@gy.lanxingyun.cn:39210#04-055-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:39210#04-056-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:22225#04-057-NOWHERE
@@ -319,7 +320,6 @@ Fork from TopFreeProxies.
     trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:20076?allowInsecure=1&sni=x76.flybar.work#04-385-SG
     trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:20299?allowInsecure=1&sni=x299.flybar.work#04-386-SG
     trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:17806?allowInsecure=1&sni=x65.flybar.work#04-387-SG
-    trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:30712?allowInsecure=1&sni=x83.flybar.work#04-388-SG
     trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:20129?allowInsecure=1&sni=x129.flybar.work#04-389-SG
     trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:20130?allowInsecure=1&sni=x130.flybar.work#04-390-SG
     trojan://aec3b25a-e45b-3656-803c-94cb721e23d8@gy.58n.net:25238?allowInsecure=1&sni=z267.hongkongnode.top#04-391-SG
@@ -562,7 +562,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206ZmNmOWNiN2MtNmJjOS00MDZlLTg3YzAtYmQ4YjA5ZDE3MGVl@xiaonangua.lwjyj.com:32652#16-630-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNjMxLVJFTEFZIiwiYWRkIjoiaGsud2lzaC5tbCIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImMyODZkYWEyLTU5ZGUtNDU1Yy04ZGU4LWVjMDMyYjZjZTJlOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImhrLndpc2gubWwiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjMyLVJFTEFZIiwiYWRkIjoiMTA0LjE2LjM4LjcxIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiYzI4NmRhYTItNTlkZS00NTVjLThkZTgtZWMwMzJiNmNlMmU4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YzBlNTc2Ni0wZDE3LTMxOGItYmZmMi0wNDZjMTRjYjI3YjU@5.forlive.live:60033#31-633-JPtrojan%2F%2Fe8505f6f-6b29-3aae-b969-6b53e9ead2f4%40103.136.185.283504%3FallowInsecure%3D1%26sni%3DAAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM%2304-054-US
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YzBlNTc2Ni0wZDE3LTMxOGItYmZmMi0wNDZjMTRjYjI3YjU@5.forlive.live:60033#31-633-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjM0LVJVIiwiYWRkIjoiNDUuMTQ3LjIwMC4xNzAiLCJwb3J0IjoiMzU5NzIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNmEyYWZkYTgtODc5OC00MzRjLTg5NjQtMWRlYjRlNzY1NWE1IiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMzEtNjM1LVJVIiwiYWRkIjoiNDUuMTM2LjI0NS4yNDAiLCJwb3J0IjoiMTI5MTAiLCJ0eXBlIjoibm9uZSIsImlkIjoiODI1OWNiMWMtZGQ2Yy00NzM5LTljODgtYWY1NTBkOTc3NTI1IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     trojan://ca3d2d6a-f7ea-4a52-ba12-37bd8fcea8d2@45.156.24.4:443?allowInsecure=1&sni=minn2.viraticket.ir#31-636-RU
