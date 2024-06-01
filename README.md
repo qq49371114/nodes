@@ -30,6 +30,7 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
+    trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@b12.ntbq.dynu.net:9755?allowInsecure=1&sni=b12.ntbq.dynu.net#04-000-TW
     trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@b13.ntbq.dynu.net:9489?allowInsecure=1&sni=b13.ntbq.dynu.net#04-001-TW
     trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@b22.ntbq.dynu.net:19489?allowInsecure=1&sni=b22.ntbq.dynu.net#04-002-TW
     trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@b23.ntbq.dynu.net:18701?allowInsecure=1&sni=b23.ntbq.dynu.net#04-003-TW
@@ -82,8 +83,8 @@ Fork from TopFreeProxies.
     trojan://5e767c58-97f5-35c9-bda6-02f4027a0f4c@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-050-JP
     trojan://5e767c58-97f5-35c9-bda6-02f4027a0f4c@57.181.173.202:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-051-JP
     trojan://5e767c58-97f5-35c9-bda6-02f4027a0f4c@34.219.230.174:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-052-US
-    trojan://661ee645-8e3f-42ab-9e60-a19d5e7a89eb@b12.ntbq.dynu.net:9755?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
-    trojan://5e767c58-97f5-35c9-bda6-02f4027a0f4c@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
+    trojan://5e767c58-97f5-35c9-bda6-02f4027a0f4c@103.136.185.27:5506?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+    trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:30712?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@gy.lanxingyun.cn:39210#04-055-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:39210#04-056-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYmNjNDdlYi0xZjc1LTQ0NDgtOTg4NS05N2RhMjU1ZWU5OWE@lsgy.lanxingyun.cn:22225#04-057-NOWHERE
@@ -319,7 +320,6 @@ Fork from TopFreeProxies.
     trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:20076?allowInsecure=1&sni=x76.flybar.work#04-385-SG
     trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:20299?allowInsecure=1&sni=x299.flybar.work#04-386-SG
     trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:17806?allowInsecure=1&sni=x65.flybar.work#04-387-SG
-    trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:30712?allowInsecure=1&sni=x83.flybar.work#04-388-SG
     trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:20129?allowInsecure=1&sni=x129.flybar.work#04-389-SG
     trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:20130?allowInsecure=1&sni=x130.flybar.work#04-390-SG
     trojan://75f8eeae-b8e4-3e38-8513-2acfc32ef449@gy.58n.net:25238?allowInsecure=1&sni=z267.hongkongnode.top#04-391-SG
