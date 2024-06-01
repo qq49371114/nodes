@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 04-000-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-001-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-002-TW, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-003-TW, server: b23.ntbq.dynu.net, port: 18701, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b23.ntbq.dynu.net, skip-cert-verify: true, udp: true}
@@ -106,8 +107,8 @@ proxies:
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: 5e767c58-97f5-35c9-bda6-02f4027a0f4c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 57.181.173.202, port: 443, type: trojan, password: 5e767c58-97f5-35c9-bda6-02f4027a0f4c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-052-US, server: 34.219.230.174, port: 443, type: trojan, password: 5e767c58-97f5-35c9-bda6-02f4027a0f4c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-053-US, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: 5e767c58-97f5-35c9-bda6-02f4027a0f4c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-053-US, server: 103.136.185.27, port: 5506, type: trojan, password: 5e767c58-97f5-35c9-bda6-02f4027a0f4c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-054-US, server: gy.58n.net, port: 30712, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-057-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -343,7 +344,6 @@ proxies:
   - {name: 04-385-SG, server: gy.58n.net, port: 20076, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: x76.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-386-SG, server: gy.58n.net, port: 20299, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: x299.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-387-SG, server: gy.58n.net, port: 17806, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: x65.flybar.work, skip-cert-verify: true, udp: true}
-  - {name: 04-388-SG, server: gy.58n.net, port: 30712, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: x83.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-389-SG, server: gy.58n.net, port: 20129, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: x129.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-390-SG, server: gy.58n.net, port: 20130, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: x130.flybar.work, skip-cert-verify: true, udp: true}
   - {name: 04-391-SG, server: gy.58n.net, port: 25238, type: trojan, password: 75f8eeae-b8e4-3e38-8513-2acfc32ef449, sni: z267.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -604,6 +604,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 04-000-TW
       - 04-001-TW
       - 04-002-TW
       - 04-003-TW
@@ -893,7 +894,6 @@ proxy-groups:
       - 04-385-SG
       - 04-386-SG
       - 04-387-SG
-      - 04-388-SG
       - 04-389-SG
       - 04-390-SG
       - 04-391-SG
@@ -1440,7 +1440,6 @@ proxy-groups:
       - 04-373-SG
       - 04-378-SG
       - 04-383-SG
-      - 04-388-SG
       - 04-393-SG
       - 04-398-CN
       - 04-403-CN
@@ -1610,6 +1609,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-000-TW
       - 04-005-TW
       - 04-010-KR
       - 04-015-SG
