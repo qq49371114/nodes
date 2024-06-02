@@ -107,7 +107,7 @@ proxies:
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: cca00dd9-eabf-3715-ba92-e326a3502012, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 18.180.193.99, port: 443, type: trojan, password: cca00dd9-eabf-3715-ba92-e326a3502012, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-052-US, server: 34.219.230.174, port: 443, type: trojan, password: cca00dd9-eabf-3715-ba92-e326a3502012, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: cca00dd9-eabf-3715-ba92-e326a3502012, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-053-US, server: 103.136.185.27, port: 5506, type: trojan, password: cca00dd9-eabf-3715-ba92-e326a3502012, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-057-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -550,7 +550,7 @@ proxies:
   - {name: 16-594-CN, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}, udp: true}
   - {name: 16-595-CN, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
   - {name: 16-596-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: bb1af7d3-9526-44f1-9155-788773cc629e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
-  - {name: "16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.275506?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US", server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 4001b19b-ad7a-4f09-8008-2e2220e3458d, udp: true}
+  - {name: "16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US", server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 4001b19b-ad7a-4f09-8008-2e2220e3458d, udp: true}
   - {name: 16-598-RELAY, server: yx3.gyyun.top, port: 8880, type: vmess, uuid: e82599ab-9583-48ea-a80f-bf42faf6c72d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed", headers: {Host: yx3.gyyun.top}}, udp: true}
   - {name: 16-599-RELAY, server: cfcdn1.sanfencdn9.com, port: 2082, type: vmess, uuid: bb1af7d3-9526-44f1-9155-788773cc629e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/CuTy87zAzV/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 31-600-IR, server: 188.213.197.27, port: 22452, type: vmess, uuid: f730a0a8-437d-455a-b898-f5c9ff9f8d16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -635,7 +635,7 @@ proxy-groups:
       - 04-050-JP
       - 04-051-JP
       - 04-052-US
-      - 04-054-US
+      - 04-053-US
       - 04-055-NOWHERE
       - 04-056-NOWHERE
       - 04-057-NOWHERE
@@ -1078,7 +1078,7 @@ proxy-groups:
       - 16-594-CN
       - 16-595-CN
       - 16-596-RELAY
-      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.275506?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 16-598-RELAY
       - 16-599-RELAY
       - 31-600-IR
@@ -1322,7 +1322,7 @@ proxy-groups:
       - 12-582-CN
       - 12-587-CN
       - 12-592-RELAY
-      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.275506?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 31-602-RELAY
       - 31-607-RELAY
       - 31-612-CN
@@ -1342,6 +1342,7 @@ proxy-groups:
       - 04-038-RELAY
       - 04-043-NOWHERE
       - 04-048-RELAY
+      - 04-053-US
       - 04-058-NOWHERE
       - 04-063-DE
       - 04-068-SG
@@ -1429,7 +1430,6 @@ proxy-groups:
       - 12-578-CN
       - 12-583-CN
       - 12-588-CN
-      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.275506?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
       - 16-598-RELAY
       - 31-603-RELAY
       - 31-608-RELAY
@@ -1450,7 +1450,6 @@ proxy-groups:
       - 04-039-NOWHERE
       - 04-044-RELAY
       - 04-049-RELAY
-      - 04-054-US
       - 04-059-NOWHERE
       - 04-064-DE
       - 04-069-SG
@@ -1540,6 +1539,7 @@ proxy-groups:
       - 12-584-CN
       - 12-589-CN
       - 16-594-CN
+      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 16-599-RELAY
       - 31-604-RELAY
       - 31-609-RELAY
@@ -1650,7 +1650,7 @@ proxy-groups:
       - 12-585-CN
       - 12-590-CN
       - 16-595-CN
-      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.275506?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
+      - 16-597-JPtrojan//cca00dd9-eabf-3715-ba92-e326a3502012@103.136.185.283504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-054-US
       - 31-600-IR
       - 31-605-RELAY
       - 31-610-RELAY
