@@ -106,8 +106,8 @@ proxies:
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: 674217d0-ba22-3cc7-9d5d-bbda21c19fd8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 35.74.5.186, port: 443, type: trojan, password: 674217d0-ba22-3cc7-9d5d-bbda21c19fd8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-052-US, server: 54.184.9.255, port: 443, type: trojan, password: 674217d0-ba22-3cc7-9d5d-bbda21c19fd8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-053-US, server: 103.136.185.27, port: 5507, type: trojan, password: 674217d0-ba22-3cc7-9d5d-bbda21c19fd8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-054-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-053-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: 674217d0-ba22-3cc7-9d5d-bbda21c19fd8, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-057-NOWHERE, server: lsgy.lanxingyun.cn, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -401,6 +401,7 @@ proxies:
   - {name: 08-443-RELAY, server: Www.speedtest.net, port: 2095, type: vmess, uuid: c8c1e652-fe34-4e04-879f-fea8940d7980, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Www.speedtest.net}}, udp: true}
   - {name: 08-444-RELAY, server: 104.21.44.106, port: 80, type: vmess, uuid: 4359761e-cf09-4eba-9848-e5283c54d19c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 08-445-IR, server: 31.47.51.229, port: 11002, type: vmess, uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-446-IR, server: 194.5.175.162, port: 2053, type: vmess, uuid: 6e31fbfb-031a-467c-b89f-334a7093d382, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-447-IR, server: 178.239.150.171, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-448-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-449-RELAY, server: 172.67.74.4, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws}, udp: true}
@@ -565,7 +566,6 @@ proxies:
   - {name: 31-610-RELAY, server: 104.17.156.224, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 31-611-RELAY, server: cdncdncdncdn.784654.xyz, port: 2052, type: vmess, uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: cdncdncdncdn.784654.xyz}}, udp: true}
   - {name: 31-612-RELAY, server: russia.com, port: 2095, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
-  - {name: 31-613-RU, server: 45.147.200.170, port: 13964, type: vmess, uuid: 2cd0f258-d8cf-4c56-a5ec-5e400c1bbde8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 31-614-RELAY, server: 104.20.18.168, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, udp: true}
   - {name: 40-615-RELAY, server: 104.20.18.168, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, udp: true}
 proxy-groups:
@@ -925,6 +925,7 @@ proxy-groups:
       - 08-443-RELAY
       - 08-444-RELAY
       - 08-445-IR
+      - 08-446-IR
       - 08-447-IR
       - 10-448-RELAY
       - 10-449-RELAY
@@ -1089,7 +1090,6 @@ proxy-groups:
       - 31-610-RELAY
       - 31-611-RELAY
       - 31-612-RELAY
-      - 31-613-RU
       - 31-614-RELAY
       - 40-615-RELAY
   - name: 自动选择
@@ -1176,6 +1176,7 @@ proxy-groups:
       - 06-431-CN
       - 08-436-RELAY
       - 08-441-RELAY
+      - 08-446-IR
       - 10-451-RELAY
       - 12-456-RELAY
       - 12-461-RELAY
@@ -1423,7 +1424,6 @@ proxy-groups:
       - 12-598-RELAY
       - 16-603-RELAY
       - 31-608-RELAY
-      - 31-613-RU
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
