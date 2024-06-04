@@ -56,6 +56,7 @@ sniffer:
 proxies:
   - {name: 04-000-TW, server: b12.ntbq.dynu.net, port: 9755, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b12.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-001-TW, server: b13.ntbq.dynu.net, port: 9489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b13.ntbq.dynu.net, skip-cert-verify: true, udp: true}
+  - {name: 04-002-TW, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b22.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-003-TW, server: b23.ntbq.dynu.net, port: 18701, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b23.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-004-TW, server: b24.ntbq.dynu.net, port: 3271, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: b24.ntbq.dynu.net, skip-cert-verify: true, udp: true}
   - {name: 04-005-TW, server: ty11t.twty.dynu.net, port: 13761, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: ty11t.twty.dynu.net, skip-cert-verify: true, udp: true}
@@ -66,7 +67,6 @@ proxies:
   - {name: 04-010-KR, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-011-JP, server: jp01.freeflyingcloud.xyz, port: 44402, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-012-SG, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-013-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-014-US, server: us05.freeflyingcloud.xyz, port: 30020, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: us05.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-015-SG, server: sg04.freeflyingcloud.xyz, port: 30018, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: sg04.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-016-RU, server: ru01.freeflyingcloud.xyz, port: 30003, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -106,7 +106,6 @@ proxies:
   - {name: 04-050-JP, server: 52.198.230.68, port: 443, type: trojan, password: 0f65acd6-f053-3b83-a5b0-ec9495d46bb6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-051-JP, server: 43.207.64.4, port: 443, type: trojan, password: 0f65acd6-f053-3b83-a5b0-ec9495d46bb6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-052-US, server: 54.213.127.41, port: 443, type: trojan, password: 0f65acd6-f053-3b83-a5b0-ec9495d46bb6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-053-US, server: b22.ntbq.dynu.net, port: 19489, type: trojan, password: 661ee645-8e3f-42ab-9e60-a19d5e7a89eb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-054-US, server: 103.136.185.28, port: 3504, type: trojan, password: 0f65acd6-f053-3b83-a5b0-ec9495d46bb6, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-055-NOWHERE, server: gy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
   - {name: 04-056-NOWHERE, server: lsgy.lanxingyun.cn, port: 39210, type: ss, cipher: chacha20-ietf-poly1305, password: 3bcc47eb-1f75-4448-9885-97da255ee99a, udp: true}
@@ -387,6 +386,7 @@ proxies:
   - {name: 06-429-CN, server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-430-CN, server: 183.232.142.179, port: 15604, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-431-CN, server: 183.232.142.179, port: 62001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 08-432-IR, server: 178.239.150.171, port: 80, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 08-433-RELAY, server: 188.114.99.183, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-434-RELAY, server: 172.67.131.108, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-435-IR, server: 79.175.177.157, port: 43174, type: vmess, uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -568,7 +568,7 @@ proxies:
   - {name: 31-612-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 31-614-RELAY, server: cdncdncdncdn.784654.xyz, port: 2052, type: vmess, uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index?ed=2048", headers: {Host: cdncdncdncdn.784654.xyz}}, udp: true}
   - {name: 31-615-RELAY, server: 104.20.18.168, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, udp: true}
-  - {name: 31-616-JP, server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: 25cb8cd7-800f-359e-81b5-a12863e2018d, udp: true}
+  - {name: "31-616-JPtrojan//0f65acd6-f053-3b83-a5b0-ec9495d46bb6@103.136.185.275508?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US", server: iepl5.forlive.live, port: 50118, type: ss, cipher: chacha20-ietf-poly1305, password: 25cb8cd7-800f-359e-81b5-a12863e2018d, udp: true}
   - {name: 40-617-RELAY, server: 104.20.18.168, port: 443, type: trojan, password: 50e10abd-3920-42a6-ad0c-6ec731d8c826, sni: golinkwuxian.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -582,6 +582,7 @@ proxy-groups:
       - 测速5分组
       - 04-000-TW
       - 04-001-TW
+      - 04-002-TW
       - 04-003-TW
       - 04-004-TW
       - 04-005-TW
@@ -592,7 +593,6 @@ proxy-groups:
       - 04-010-KR
       - 04-011-JP
       - 04-012-SG
-      - 04-013-AU
       - 04-014-US
       - 04-015-SG
       - 04-016-RU
@@ -632,7 +632,6 @@ proxy-groups:
       - 04-050-JP
       - 04-051-JP
       - 04-052-US
-      - 04-053-US
       - 04-054-US
       - 04-055-NOWHERE
       - 04-056-NOWHERE
@@ -913,6 +912,7 @@ proxy-groups:
       - 06-429-CN
       - 06-430-CN
       - 06-431-CN
+      - 08-432-IR
       - 08-433-RELAY
       - 08-434-RELAY
       - 08-435-IR
@@ -1094,7 +1094,7 @@ proxy-groups:
       - 31-612-RELAY
       - 31-614-RELAY
       - 31-615-RELAY
-      - 31-616-JP
+      - 31-616-JPtrojan//0f65acd6-f053-3b83-a5b0-ec9495d46bb6@103.136.185.275508?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
       - 40-617-RELAY
   - name: 自动选择
     type: url-test
@@ -1214,12 +1214,13 @@ proxy-groups:
       - 16-601-RELAY
       - 31-606-CA
       - 31-611-KZ
-      - 31-616-JP
+      - 31-616-JPtrojan//0f65acd6-f053-3b83-a5b0-ec9495d46bb6@103.136.185.275508?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-002-TW
       - 04-007-TW
       - 04-012-SG
       - 04-017-FR
@@ -1285,6 +1286,7 @@ proxy-groups:
       - 04-417-CN
       - 06-422-CN
       - 06-427-CN
+      - 08-432-IR
       - 08-437-RELAY
       - 08-442-RELAY
       - 10-447-RELAY
@@ -1328,7 +1330,6 @@ proxy-groups:
     proxies:
       - 04-003-TW
       - 04-008-TW
-      - 04-013-AU
       - 04-018-GB
       - 04-023-NOWHERE
       - 04-028-NOWHERE
@@ -1336,7 +1337,6 @@ proxy-groups:
       - 04-038-RELAY
       - 04-043-NOWHERE
       - 04-048-RELAY
-      - 04-053-US
       - 04-058-NOWHERE
       - 04-063-DE
       - 04-068-SG
@@ -1428,6 +1428,7 @@ proxy-groups:
       - 16-598-CN
       - 31-603-RELAY
       - 31-608-RU
+      - 31-616-JPtrojan//0f65acd6-f053-3b83-a5b0-ec9495d46bb6@103.136.185.275508?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-053-US
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
