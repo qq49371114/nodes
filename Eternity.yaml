@@ -67,7 +67,6 @@ proxies:
   - {name: 04-010-KR, server: kr02.freeflyingcloud.xyz, port: 21702, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: kr02.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-011-JP, server: jp01.freeflyingcloud.xyz, port: 44402, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: jp01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-012-SG, server: sg01.freeflyingcloud.xyz, port: 35702, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: sg01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
-  - {name: 04-013-AU, server: au01.freeflyingcloud.xyz, port: 42002, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: au01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-014-US, server: us05.freeflyingcloud.xyz, port: 30020, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: us05.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-015-SG, server: sg04.freeflyingcloud.xyz, port: 30018, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: sg04.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
   - {name: 04-016-RU, server: ru01.freeflyingcloud.xyz, port: 30003, type: trojan, password: 9e6999d5-eae0-4b2d-81cb-404f203ecc58, sni: ru01.freeflyingcloud.xyz, skip-cert-verify: true, udp: true}
@@ -554,6 +553,7 @@ proxies:
   - {name: 31-598-RELAY, server: Www.speedtest.net, port: 2095, type: vmess, uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: Www.speedtest.net}}, udp: true}
   - {name: 31-599-RELAY, server: 104.21.69.44, port: 2095, type: vmess, uuid: edf2bc84-8723-4c98-82d3-52a3a59875a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 31-601-CL, server: 64.176.15.74, port: 3389, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 31-602-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 32-603-RELAY, server: www.speedtest.net, port: 2052, type: vmess, uuid: dfa5c809-1021-4e51-8600-8f31f4e3907a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80", headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 32-604-RELAY, server: 172.67.159.232, port: 2052, type: vmess, uuid: 8c8dabbc-93a6-44ad-b878-0d980fa249d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/index?ed=2048"}, udp: true}
   - {name: 32-605-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 31488365-7b6a-434a-8b7b-8f35012c6a22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE, headers: {Host: www.speedtest.net}}, udp: true}
@@ -583,7 +583,6 @@ proxy-groups:
       - 04-010-KR
       - 04-011-JP
       - 04-012-SG
-      - 04-013-AU
       - 04-014-US
       - 04-015-SG
       - 04-016-RU
@@ -1070,6 +1069,7 @@ proxy-groups:
       - 31-598-RELAY
       - 31-599-RELAY
       - 31-601-CL
+      - 31-602-RELAY
       - 32-603-RELAY
       - 32-604-RELAY
       - 32-605-RELAY
@@ -1297,6 +1297,7 @@ proxy-groups:
       - 12-582-RELAY
       - 16-587-RELAY
       - 31-592-RELAY
+      - 31-602-RELAY
       - 32-607-RELAY
   - name: 测速3分组
     type: url-test
@@ -1305,7 +1306,6 @@ proxy-groups:
     proxies:
       - 04-003-TW
       - 04-008-TW
-      - 04-013-AU
       - 04-018-GB
       - 04-023-NOWHERE
       - 04-028-NOWHERE
