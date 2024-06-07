@@ -282,7 +282,6 @@ proxies:
   - {name: 07-323-RELAY, server: yx2.xsjhl.xyz, port: 2082, type: vmess, uuid: e00ddecf-e088-483c-9a4d-b89ca00ef5d8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: yx2.xsjhl.xyz}}, udp: true}
   - {name: 07-324-RELAY, server: 104.19.52.78, port: 2053, type: trojan, password: 8557692d-c228-48f0-b6f9-50d44d4a2096, sni: tjjd.yzyx1.v6.army, skip-cert-verify: true, udp: true}
   - {name: 07-325-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 3b99fe7d-a3e5-46c2-adee-7c9a8e40eb09, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
-  - {name: 07-326-GB, server: 51.38.65.155, port: 443, type: trojan, password: b186b6d0-1af7-11ef-b90d-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-327-RELAY, server: kr01.appleid.bf, port: 2086, type: vmess, uuid: b3e12d5c-7504-4113-a26d-001e1b45ff73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: kr01.appleid.bf}}, udp: true}
   - {name: 07-328-RELAY, server: kr01.appleid.bf, port: 2086, type: vmess, uuid: 06749a5d-4520-456d-b4d7-3f85b4026f95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: kr01.appleid.bf}}, udp: true}
   - {name: 07-329-RELAY, server: kr01.appleid.bf, port: 2086, type: vmess, uuid: 871ad0ed-9afb-41a0-b44f-2027507d0e9d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: kr01.appleid.bf}}, udp: true}
@@ -302,6 +301,7 @@ proxies:
   - {name: 09-343-RELAY, server: cdnjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: cdnjs.com}}, udp: true}
   - {name: 09-344-RELAY, server: bluehost.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: bluehost.com}}, udp: true}
   - {name: 09-345-RELAY, server: hdfy1sub.achaemenidempireofpersia.uk, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: hdfy1sub.achaemenidempireofpersia.uk}}, udp: true}
+  - {name: 09-346-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 09-347-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-348-RELAY, server: caretaker.com, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: caretaker.com}}, udp: true}
   - {name: 09-349-RELAY, server: speed.cloudflare.com, port: 443, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /v149-dskds65, headers: {Host: speed.cloudflare.com}}, udp: true}
@@ -791,7 +791,6 @@ proxy-groups:
       - 07-323-RELAY
       - 07-324-RELAY
       - 07-325-RELAY
-      - 07-326-GB
       - 07-327-RELAY
       - 07-328-RELAY
       - 07-329-RELAY
@@ -811,6 +810,7 @@ proxy-groups:
       - 09-343-RELAY
       - 09-344-RELAY
       - 09-345-RELAY
+      - 09-346-RELAY
       - 09-347-RELAY
       - 09-348-RELAY
       - 09-349-RELAY
@@ -1122,10 +1122,10 @@ proxy-groups:
       - 07-311-HK
       - 07-316-JP
       - 07-321-RELAY
-      - 07-326-GB
       - 08-331-RELAY
       - 08-336-RELAY
       - 09-341-RELAY
+      - 09-346-RELAY
       - 09-351-IR
       - 10-356-RELAY
       - 12-361-RELAY
