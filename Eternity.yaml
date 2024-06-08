@@ -529,7 +529,6 @@ proxies:
   - {name: 14-570-RELAY, server: 172.67.151.228, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2}, udp: true}
   - {name: 14-571-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-572-RELAY, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
-  - {name: 14-573-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-574-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 14-575-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 14-576-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
@@ -542,6 +541,7 @@ proxies:
   - {name: 14-583-RELAY, server: 172.67.199.144, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-585-RELAY, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-586-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
+  - {name: 14-587-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 16-589-CN, server: dc0.forlive.live, port: 41003, type: trojan, password: 187d7254-9574-4da1-9f53-0bbc02dbd027, sni: ssl.sbgfw.info, skip-cert-verify: true, udp: true}
   - {name: 16-590-CN, server: deepf.hjkdsak2.com, port: 50004, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
   - {name: 16-591-CN, server: 20240501.a1t.top, port: 34645, type: ss, cipher: aes-128-gcm, password: 81cbccba-87e1-4322-bb8f-8c26e4e86811, udp: true}
@@ -1132,7 +1132,6 @@ proxy-groups:
       - 14-570-RELAY
       - 14-571-RELAY
       - 14-572-RELAY
-      - 14-573-RELAY
       - 14-574-US
       - 14-575-RELAY
       - 14-576-RELAY
@@ -1145,6 +1144,7 @@ proxy-groups:
       - 14-583-RELAY
       - 14-585-RELAY
       - 14-586-RELAY
+      - 14-587-RELAY
       - 16-589-CN
       - 16-590-CN
       - 16-591-CN
@@ -1486,6 +1486,7 @@ proxy-groups:
       - 14-572-RELAY
       - 14-577-RELAY
       - 14-582-RELAY
+      - 14-587-RELAY
       - 17-592-CN
       - 17-597-CN
       - 27-602-FR
@@ -1606,7 +1607,6 @@ proxy-groups:
       - 13-558-RELAY
       - 13-563-US
       - 13-568-RELAY
-      - 14-573-RELAY
       - 14-578-RELAY
       - 14-583-RELAY
       - 17-593-CN
