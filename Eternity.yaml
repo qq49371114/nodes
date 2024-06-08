@@ -326,8 +326,8 @@ proxies:
   - {name: 09-367-NOWHERE, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: ingress-i1.onebox6.org}}, udp: true}
   - {name: 09-368-JP, server: jp-full.privateip.net, port: 443, type: vmess, uuid: 124fe4ff-0ee4-4189-bd99-ed1a317b42dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: jp-full.privateip.net}}, udp: true}
   - {name: 09-369-RELAY, server: 172.67.204.84, port: 443, type: trojan, password: 520f9a60-0e23-11ef-b6ac-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 09-370-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 09-371-US, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms04.xmivideo.cfd}}, udp: true}
+  - {name: 09-372-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-373-TW, server: tw1g.forlive.live, port: 80, type: vmess, uuid: bb7d0ae0-85bd-4d9f-8391-b3d927ccb497, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw1g.forlive.live}}, udp: true}
   - {name: 09-374-RELAY, server: cefan-scratchpad.research.cloudflare.com, port: 80, type: vmess, uuid: 831201cc-07fb-44dd-a1cb-e70beee00268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /etc, headers: {Host: cefan-scratchpad.research.cloudflare.com}}, udp: true}
   - {name: 09-375-RELAY, server: 855.outline-vpn.cloud, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: 855.outline-vpn.cloud}}, udp: true}
@@ -359,7 +359,6 @@ proxies:
   - {name: 12-401-RELAY, server: 172.67.132.6, port: 2096, type: trojan, password: 4db45bb4-dcca-4d37-a639-cb55213ee406, sni: channel.v2bamdad.tech, skip-cert-verify: true, udp: true}
   - {name: 12-402-RELAY, server: 172.67.152.170, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-403-RELAY, server: russia.com, port: 2095, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
-  - {name: 12-404-US, server: cold-dawn-9246.fly.dev, port: 443, type: vmess, uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm, headers: {Host: cold-dawn-9246.fly.dev}}, udp: true}
   - {name: 12-405-RELAY, server: 162.159.137.249, port: 8080, type: vmess, uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm}, udp: true}
   - {name: 12-406-RELAY, server: 104.21.82.39, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 12-407-RELAY, server: mahilu.site, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
@@ -967,8 +966,8 @@ proxy-groups:
       - 09-367-NOWHERE
       - 09-368-JP
       - 09-369-RELAY
-      - 09-370-RELAY
       - 09-371-US
+      - 09-372-RELAY
       - 09-373-TW
       - 09-374-RELAY
       - 09-375-RELAY
@@ -1000,7 +999,6 @@ proxy-groups:
       - 12-401-RELAY
       - 12-402-RELAY
       - 12-403-RELAY
-      - 12-404-US
       - 12-405-RELAY
       - 12-406-RELAY
       - 12-407-RELAY
@@ -1527,6 +1525,7 @@ proxy-groups:
       - 08-357-RELAY
       - 08-362-US
       - 09-367-NOWHERE
+      - 09-372-RELAY
       - 09-377-RELAY
       - 09-382-US
       - 09-387-RELAY
@@ -1795,7 +1794,6 @@ proxy-groups:
       - 09-389-US
       - 09-394-RELAY
       - 10-399-RELAY
-      - 12-404-US
       - 12-409-RELAY
       - 12-414-RELAY
       - 12-419-RELAY
@@ -1921,7 +1919,6 @@ proxy-groups:
       - 08-355-RELAY
       - 08-360-RELAY
       - 09-365-RELAY
-      - 09-370-RELAY
       - 09-375-RELAY
       - 09-380-RELAY
       - 09-385-RELAY
