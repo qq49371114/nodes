@@ -63,6 +63,7 @@ proxies:
   - {name: 04-006-RELAY, server: 104.25.76.82, port: 80, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.76.82}, udp: true}
   - {name: 04-007-JP, server: 52.198.230.68, port: 443, type: trojan, password: 8f2d15fc-4ef1-3877-afaa-9ddb44a615dc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-008-JP, server: 18.179.2.232, port: 443, type: trojan, password: 8f2d15fc-4ef1-3877-afaa-9ddb44a615dc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-009-US, server: 34.212.79.84, port: 443, type: trojan, password: 8f2d15fc-4ef1-3877-afaa-9ddb44a615dc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.27, port: 5514, type: trojan, password: 8f2d15fc-4ef1-3877-afaa-9ddb44a615dc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-011-US, server: 103.136.185.28, port: 3504, type: trojan, password: 8f2d15fc-4ef1-3877-afaa-9ddb44a615dc, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-012-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 3d4a1e48-57df-3b92-ae18-ac8700f26373, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -413,7 +414,6 @@ proxies:
   - {name: 14-455-RELAY, server: 104.19.47.145, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳 @WangCai2"}, udp: true}
   - {name: 14-456-RELAY, server: 172.67.185.218, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-458-RELAY, server: hms07.xfixedfloat.cfd, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms07.xfixedfloat.cfd}}, udp: true}
-  - {name: 14-459-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-461-CN, server: sui.forlive.live, port: 21949, type: vmess, uuid: 43893a1f-7b14-4a6d-b8e5-48810ba4d13a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sui.forlive.live}}, udp: true}
   - {name: 16-462-CN, server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: m.cnmjin.net}}, udp: true}
   - {name: 16-463-CN, server: yes.cnmjcn.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yes.cnmjcn.net}}, udp: true}
@@ -624,6 +624,7 @@ proxy-groups:
       - 04-006-RELAY
       - 04-007-JP
       - 04-008-JP
+      - 04-009-US
       - 04-010-US
       - 04-011-US
       - 04-012-DE
@@ -974,7 +975,6 @@ proxy-groups:
       - 14-455-RELAY
       - 14-456-RELAY
       - 14-458-RELAY
-      - 14-459-US
       - 16-461-CN
       - 16-462-CN
       - 16-463-CN
@@ -1527,6 +1527,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-004-RELAY
+      - 04-009-US
       - 04-014-DE
       - 04-019-SG
       - 04-024-JP
@@ -1597,7 +1598,6 @@ proxy-groups:
       - 14-444-RELAY
       - 14-449-RELAY
       - 14-454-RELAY
-      - 14-459-US
       - 16-464-CN
       - 27-469-NL
       - 31-474-NL
