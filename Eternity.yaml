@@ -315,7 +315,6 @@ proxies:
   - {name: 09-357-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: dac61bb8-461c-4a4a-b14b-5a5ff6991fee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 09-358-RELAY, server: hms07.xfixedfloat.cfd, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms07.xfixedfloat.cfd}}, udp: true}
   - {name: 09-359-RELAY, server: cdnjs.com, port: 443, type: trojan, password: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, skip-cert-verify: true, udp: true}
-  - {name: 09-360-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-361-RELAY, server: 104.26.8.202, port: 443, type: trojan, password: 559c3b5f-3dd1-47e4-94ad-017cb392a7ba, skip-cert-verify: true, udp: true}
   - {name: 09-362-RELAY, server: zula.ir, port: 2095, type: vmess, uuid: 3e540874-0730-452a-8b2e-e719b5d34470, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-363-RELAY, server: tgju.org, port: 2095, type: vmess, uuid: 3e540874-0730-452a-8b2e-e719b5d34470, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za/@HosseinStore_Za, headers: {Host: tgju.org}}, udp: true}
@@ -536,6 +535,7 @@ proxies:
   - {name: 14-578-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-579-FASTLY, server: www.hkbu.edu.hk, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: www.hkbu.edu.hk}}, udp: true}
   - {name: 14-580-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
+  - {name: 14-581-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-582-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
   - {name: 14-583-FASTLY, server: 151.101.67.10, port: 80, type: vmess, uuid: c0b05000-23dd-4de9-9041-ec130166ff1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048"}, udp: true}
   - {name: 14-584-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
@@ -857,7 +857,6 @@ proxy-groups:
       - 09-357-US
       - 09-358-RELAY
       - 09-359-RELAY
-      - 09-360-RELAY
       - 09-361-RELAY
       - 09-362-RELAY
       - 09-363-RELAY
@@ -1078,6 +1077,7 @@ proxy-groups:
       - 14-578-EC
       - 14-579-FASTLY
       - 14-580-RELAY
+      - 14-581-RELAY
       - 14-582-RELAY
       - 14-583-FASTLY
       - 14-584-RELAY
@@ -1239,6 +1239,7 @@ proxy-groups:
       - 13-566-NOWHERE
       - 14-571-RELAY
       - 14-576-RELAY
+      - 14-581-RELAY
       - 14-586-RELAY
       - 16-591-RELAY
       - 16-596-RELAY
@@ -1641,7 +1642,6 @@ proxy-groups:
       - 07-345-RELAY
       - 07-350-GB
       - 08-355-RELAY
-      - 09-360-RELAY
       - 09-365-RELAY
       - 09-370-DE
       - 09-375-NOWHERE
