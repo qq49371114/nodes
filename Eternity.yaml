@@ -314,8 +314,8 @@ proxies:
   - {name: 07-356-RELAY, server: 104.19.44.182, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 08-357-RELAY, server: 185.146.173.185, port: 2052, type: vmess, uuid: 99f8410f-4f46-4f64-adc7-aa6a41dc9da4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /V2Ray.SeyYeDmt}, udp: true}
   - {name: 09-358-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 7736760d-bc7b-4e08-aabc-4e7873184249, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
-  - {name: 09-359-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-360-AU, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}, udp: true}
+  - {name: 09-361-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 09-362-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 0cf5173c-bc0a-4af6-be7e-2853a41bbe38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-363-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
   - {name: 09-364-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 38fc7abd-f083-451d-b60c-dc952c688592, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
@@ -840,8 +840,8 @@ proxy-groups:
       - 07-356-RELAY
       - 08-357-RELAY
       - 09-358-NOWHERE
-      - 09-359-RELAY
       - 09-360-AU
+      - 09-361-RELAY
       - 09-362-NOWHERE
       - 09-363-RELAY
       - 09-364-NOWHERE
@@ -1163,6 +1163,7 @@ proxy-groups:
       - 07-346-RELAY
       - 07-351-JP
       - 07-356-RELAY
+      - 09-361-RELAY
       - 09-366-RELAY
       - 10-371-RELAY
       - 12-376-RELAY
@@ -1485,7 +1486,6 @@ proxy-groups:
       - 07-344-RELAY
       - 07-349-CN
       - 07-354-RELAY
-      - 09-359-RELAY
       - 09-364-NOWHERE
       - 09-369-NOWHERE
       - 10-374-RELAY
