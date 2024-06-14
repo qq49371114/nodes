@@ -338,7 +338,6 @@ proxies:
   - {name: 09-380-US, server: pa.wqfe1.xyz, port: 16617, type: vmess, uuid: ecf05dec-37cc-484d-b0fe-87ae087d263f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv3/hd.m3u8, headers: {Host: pa.wqfe1.xyz}}, udp: true}
   - {name: 09-381-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 4ddf53d4-722e-4b3b-9191-0e6afd9671d8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-382-RELAY, server: kitab.fun, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: kitab.fun}}, udp: true}
-  - {name: 09-383-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 09-384-RELAY, server: kr01.appleid.bf, port: 2086, type: vmess, uuid: 05a68409-eaf3-4682-8cdd-020480cd27f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: kr01.appleid.bf}}, udp: true}
   - {name: 09-385-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 331ed7d8-1774-4a66-8fce-1d00460f897c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-386-LU, server: lu1.xv2ray.net, port: 80, type: vmess, uuid: 8b592977-6dcd-478a-bc41-cd2870f8cc55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: lu1.xv2ray.net}}, udp: true}
@@ -348,6 +347,7 @@ proxies:
   - {name: 09-390-RELAY, server: zula.ir, port: 443, type: trojan, password: 6008202d-f9b4-4068-890b-298835d7a77a, skip-cert-verify: true, udp: true}
   - {name: 09-391-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 1cf61dc5-7eb0-4630-b6b2-9c88ba5a4217, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-392-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
+  - {name: 09-393-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-394-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-395-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-396-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Zo98PYfE, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -891,7 +891,6 @@ proxy-groups:
       - 09-380-US
       - 09-381-NOWHERE
       - 09-382-RELAY
-      - 09-383-RELAY
       - 09-384-RELAY
       - 09-385-NOWHERE
       - 09-386-LU
@@ -901,6 +900,7 @@ proxy-groups:
       - 09-390-RELAY
       - 09-391-NOWHERE
       - 09-392-HK
+      - 09-393-RELAY
       - 09-394-RELAY
       - 09-395-RELAY
       - 09-396-RELAY
@@ -1446,8 +1446,8 @@ proxy-groups:
       - 09-368-RELAY
       - 09-373-TH
       - 09-378-RELAY
-      - 09-383-RELAY
       - 09-388-RELAY
+      - 09-393-RELAY
       - 09-398-RELAY
       - 10-403-RELAY
       - 12-408-RELAY
