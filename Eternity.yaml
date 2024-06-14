@@ -209,6 +209,7 @@ proxies:
   - {name: 09-250-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 2d7edaa7-7634-4f43-8337-e9ecbef6f35c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-251-RELAY, server: 162.159.136.234, port: 443, type: trojan, password: 559c3b5f-3dd1-47e4-94ad-017cb392a7ba, skip-cert-verify: true, udp: true}
   - {name: 09-252-RELAY, server: hannazah.rafalion.ir., port: 443, type: vmess, uuid: 9b2cd4ff-0621-45b2-8486-12a5b05f080c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hannazah.rafalion.ir.}}, udp: true}
+  - {name: 09-253-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-254-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 3a622fa6-7957-43cd-bd76-3296552aec0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-255-RELAY, server: carsten.rafalion.ir., port: 443, type: vmess, uuid: 9b2cd4ff-0621-45b2-8486-12a5b05f080c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: carsten.rafalion.ir.}}, udp: true}
   - {name: 09-256-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: fe370bfc-3d12-4572-a903-bb73a5efae2c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
@@ -219,7 +220,6 @@ proxies:
   - {name: 09-261-RELAY, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/c9efxRCi, headers: {Host: cfcdn2.sanfencdn9.com}}, udp: true}
   - {name: 09-262-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 6f4bcd94-b0b9-4b7f-ba80-7e311a7214b2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-263-RELAY, server: www.speedtest.net, port: 8080, type: vmess, uuid: 473261f5-90e5-4281-994f-4308a850c262, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80", headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-264-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-265-RELAY, server: www.soccerstarss.ir, port: 2082, type: vmess, uuid: d2c7b321-5e48-4d28-80e2-f64c6ddfad96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/dashboard?ed=2048", headers: {Host: www.soccerstarss.ir}}, udp: true}
   - {name: 09-266-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 37cca696-bdd0-49c4-9bac-8c3a12aa2260, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-267-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 3c5046b4-1a9c-427c-8a55-e355846a9e4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Zo98PYfE, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -687,6 +687,7 @@ proxy-groups:
       - 09-250-NOWHERE
       - 09-251-RELAY
       - 09-252-RELAY
+      - 09-253-RELAY
       - 09-254-NOWHERE
       - 09-255-RELAY
       - 09-256-NOWHERE
@@ -697,7 +698,6 @@ proxy-groups:
       - 09-261-RELAY
       - 09-262-NOWHERE
       - 09-263-RELAY
-      - 09-264-RELAY
       - 09-265-RELAY
       - 09-266-NOWHERE
       - 09-267-RELAY
@@ -1243,6 +1243,7 @@ proxy-groups:
       - 07-238-RELAY
       - 09-243-RELAY
       - 09-248-RELAY
+      - 09-253-RELAY
       - 09-258-NOWHERE
       - 09-263-RELAY
       - 09-268-US
@@ -1343,7 +1344,6 @@ proxy-groups:
       - 09-249-NOWHERE
       - 09-254-NOWHERE
       - 09-259-RELAY
-      - 09-264-RELAY
       - 09-269-NOWHERE
       - 10-274-RELAY
       - 12-279-RELAY
