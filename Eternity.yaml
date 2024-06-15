@@ -224,6 +224,7 @@ proxies:
   - {name: 09-265-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: b8735807-8d94-468d-8b90-623a35f21a81, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-266-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 70121493-3e10-49dd-b110-14ca6078f610, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-267-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: b863e4b5-0e26-4542-875d-a2dd1858b9f5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
+  - {name: 09-268-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-269-RELAY, server: stackpath.bootstrapcdn.com, port: 80, type: vmess, uuid: d1c3765b-f826-42a8-9185-398bae77d35b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: stackpath.bootstrapcdn.com}}, udp: true}
   - {name: 09-270-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 09-271-NOWHERE, server: skyht2.vpndata.vn, port: 80, type: vmess, uuid: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /VPNDATA.VPN, headers: {Host: skyht2.vpndata.vn}}, udp: true}
@@ -434,7 +435,6 @@ proxies:
   - {name: 14-476-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-477-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
   - {name: 14-478-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
-  - {name: 14-479-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 14-480-RELAY, server: 172.67.199.144, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-481-RELAY, server: 104.19.47.145, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&amp;Telegram🇨🇳 @WangCai2"}, udp: true}
   - {name: 14-482-RELAY, server: 172.67.185.218, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -734,6 +734,7 @@ proxy-groups:
       - 09-265-NOWHERE
       - 09-266-NOWHERE
       - 09-267-NOWHERE
+      - 09-268-RELAY
       - 09-269-RELAY
       - 09-270-RELAY
       - 09-271-NOWHERE
@@ -944,7 +945,6 @@ proxy-groups:
       - 14-476-EC
       - 14-477-RELAY
       - 14-478-RELAY
-      - 14-479-RELAY
       - 14-480-RELAY
       - 14-481-RELAY
       - 14-482-RELAY
@@ -1321,6 +1321,7 @@ proxy-groups:
       - 09-253-RELAY
       - 09-258-NOWHERE
       - 09-263-NOWHERE
+      - 09-268-RELAY
       - 09-273-NOWHERE
       - 09-278-NOWHERE
       - 10-283-RELAY
@@ -1468,7 +1469,6 @@ proxy-groups:
       - 13-464-NOWHERE
       - 14-469-RELAY
       - 14-474-RELAY
-      - 14-479-RELAY
       - 14-484-RELAY
       - 14-489-JP
       - 16-494-CN
