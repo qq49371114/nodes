@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `508`
+高速节点数量: `507`
 <details>
   <summary>展开复制节点</summary>
 
@@ -57,7 +57,6 @@ Fork from TopFreeProxies.
     trojan://da385eaa-90a1-3a93-949b-c70728c390e9@jpvip101.qlgq.fun:61237?allowInsecure=1&sni=jpvip101.qlgq.fun#04-024-JP
     trojan://da385eaa-90a1-3a93-949b-c70728c390e9@jpvip101.qlgq.fun:61236?allowInsecure=1&sni=jpvip101.qlgq.fun#04-025-JP
     trojan://da385eaa-90a1-3a93-949b-c70728c390e9@jpvip101.qlgq.fun:61235?allowInsecure=1&sni=jpvip101.qlgq.fun#04-026-JP
-    trojan://da385eaa-90a1-3a93-949b-c70728c390e9@lavip101.qlgq.fun:11156?allowInsecure=1&sni=lavip101.qlgq.fun#04-027-US
     trojan://da385eaa-90a1-3a93-949b-c70728c390e9@lavip101.qlgq.fun:21156?allowInsecure=1&sni=lavip101.qlgq.fun#04-028-US
     trojan://da385eaa-90a1-3a93-949b-c70728c390e9@lavip101.qlgq.fun:31156?allowInsecure=1&sni=lavip101.qlgq.fun#04-029-US
     trojan://da385eaa-90a1-3a93-949b-c70728c390e9@ukvip101.qlgq.fun:14568?allowInsecure=1&sni=ukvip101.qlgq.fun#04-030-GB
@@ -543,11 +542,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `609`
+合并节点总数: `588`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `609`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `588`
 
 
 ## 仓库声明
