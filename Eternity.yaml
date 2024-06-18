@@ -63,7 +63,7 @@ proxies:
   - {name: 04-006-RELAY, server: 104.20.242.37, port: 80, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.242.37}, udp: true}
   - {name: 04-007-JP, server: 52.198.230.68, port: 443, type: trojan, password: fa329ff2-6879-34b5-8cb2-f14938ba8f46, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-008-JP, server: 35.75.8.142, port: 443, type: trojan, password: fa329ff2-6879-34b5-8cb2-f14938ba8f46, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 35.92.246.112, port: 443, type: trojan, password: fa329ff2-6879-34b5-8cb2-f14938ba8f46, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-009-US, server: 47.76.77.103, port: 2087, type: trojan, password: 0fd9b883-0551-4ed1-b978-528183b459a2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.27, port: 5514, type: trojan, password: fa329ff2-6879-34b5-8cb2-f14938ba8f46, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-011-US, server: 103.136.185.28, port: 3504, type: trojan, password: fa329ff2-6879-34b5-8cb2-f14938ba8f46, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-012-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 7e1ce608-96cf-3135-b634-085042f53fb6, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -447,9 +447,10 @@ proxies:
   - {name: 14-488-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
   - {name: 14-489-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-490-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
-  - {name: 14-492-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
+  - {name: 14-491-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 14-493-RELAY, server: hms08.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms08.gwdef.sbs}}, udp: true}
   - {name: 14-494-JP, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14-495-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 14-496-JP, server: 13.113.204.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-497-RELAY, server: geili.mulanwevictory.top, port: 8443, type: vmess, uuid: 09b03d66-b585-48ee-d3f5-6badba645d5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /MGNF44G, headers: {Host: geili.mulanwevictory.top}}, udp: true}
   - {name: 14-498-JP, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -939,9 +940,10 @@ proxy-groups:
       - 14-488-RELAY
       - 14-489-RELAY
       - 14-490-RELAY
-      - 14-492-RELAY
+      - 14-491-RELAY
       - 14-493-RELAY
       - 14-494-JP
+      - 14-495-US
       - 14-496-JP
       - 14-497-RELAY
       - 14-498-JP
@@ -1121,6 +1123,7 @@ proxy-groups:
       - 13-476-NOWHERE
       - 14-481-RELAY
       - 14-486-RELAY
+      - 14-491-RELAY
       - 14-496-JP
       - 16-501-RELAY
       - 31-506-RELAY
@@ -1222,7 +1225,6 @@ proxy-groups:
       - 13-477-RELAY
       - 14-482-NOWHERE
       - 14-487-EC
-      - 14-492-RELAY
       - 14-497-RELAY
       - 16-502-CN
       - 31-507-RELAY
@@ -1529,6 +1531,7 @@ proxy-groups:
       - 14-480-RELAY
       - 14-485-RELAY
       - 14-490-RELAY
+      - 14-495-US
       - 31-505-RELAY
       - 31-510-US
       - 34-515-RELAY
