@@ -63,7 +63,6 @@ proxies:
   - {name: 04-006-RELAY, server: 104.24.213.137, port: 80, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.213.137}, udp: true}
   - {name: 04-007-JP, server: 52.198.230.68, port: 443, type: trojan, password: d39be1a3-8be7-3694-b587-8d67ed560946, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-008-JP, server: 35.75.8.142, port: 443, type: trojan, password: d39be1a3-8be7-3694-b587-8d67ed560946, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 52.39.65.77, port: 443, type: trojan, password: d39be1a3-8be7-3694-b587-8d67ed560946, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.27, port: 5514, type: trojan, password: d39be1a3-8be7-3694-b587-8d67ed560946, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-011-US, server: 103.136.185.28, port: 3504, type: trojan, password: d39be1a3-8be7-3694-b587-8d67ed560946, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-012-DE, server: fkvip101.qlgq.fun, port: 11789, type: trojan, password: 9d0fb4e1-b1db-3d6d-a0b2-967504f9e7ce, sni: fkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -450,6 +449,7 @@ proxies:
   - {name: 14-492-RELAY, server: geili.mulanwevictory.top, port: 8443, type: vmess, uuid: 09b03d66-b585-48ee-d3f5-6badba645d5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /MGNF44G, headers: {Host: geili.mulanwevictory.top}}, udp: true}
   - {name: 14-493-JP, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-494-RELAY, server: hms02opi.fxiaomi.sbs, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02opi.fxiaomi.sbs}}, udp: true}
+  - {name: 14-495-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 14-496-RELAY, server: zula.ir, port: 80, type: vmess, uuid: da62a137-3611-4dd7-8523-b5266afe6fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess @hopev2ray, headers: {Host: zula.ir}}, udp: true}
   - {name: 14-497-JP, server: 13.113.204.156, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 14-498-RELAY, server: 172.67.169.91, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -569,7 +569,6 @@ proxy-groups:
       - 04-006-RELAY
       - 04-007-JP
       - 04-008-JP
-      - 04-009-US
       - 04-010-US
       - 04-011-US
       - 04-012-DE
@@ -956,6 +955,7 @@ proxy-groups:
       - 14-492-RELAY
       - 14-493-JP
       - 14-494-RELAY
+      - 14-495-US
       - 14-496-RELAY
       - 14-497-JP
       - 14-498-RELAY
@@ -1385,7 +1385,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-004-RELAY
-      - 04-009-US
       - 04-014-DE
       - 04-019-SG
       - 04-024-JP
@@ -1567,6 +1566,7 @@ proxy-groups:
       - 13-475-NOWHERE
       - 14-480-RELAY
       - 14-485-RELAY
+      - 14-495-US
       - 16-500-CN
       - 31-505-RELAY
       - 31-510-US
