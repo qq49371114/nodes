@@ -56,7 +56,7 @@ sniffer:
 proxies:
   - {name: 04-000-JP, server: 52.198.230.68, port: 443, type: trojan, password: b9b8ee43-4fe2-3828-b831-e180a7cdd0a2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-001-JP, server: 35.75.8.142, port: 443, type: trojan, password: b9b8ee43-4fe2-3828-b831-e180a7cdd0a2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-003-US, server: 103.136.185.27, port: 5514, type: trojan, password: b9b8ee43-4fe2-3828-b831-e180a7cdd0a2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-002-US, server: 52.39.65.77, port: 443, type: trojan, password: b9b8ee43-4fe2-3828-b831-e180a7cdd0a2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-004-US, server: 103.136.185.28, port: 3504, type: trojan, password: b9b8ee43-4fe2-3828-b831-e180a7cdd0a2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-005-RELAY, server: 104.19.27.137, port: 80, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00104.19.27.137}, udp: true}
   - {name: 04-006-RELAY, server: 104.18.171.151, port: 2082, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.171.151}, udp: true}
@@ -471,7 +471,7 @@ proxies:
   - {name: 14-514-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-515-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
   - {name: 14-516-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
-  - {name: 14-518-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
+  - {name: 14-517-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 14-519-RELAY, server: hms08.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms08.gwdef.sbs}}, udp: true}
   - {name: 14-520-RELAY, server: geili.mulanwevictory.top, port: 8443, type: vmess, uuid: 09b03d66-b585-48ee-d3f5-6badba645d5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /MGNF44G, headers: {Host: geili.mulanwevictory.top}}, udp: true}
   - {name: 14-521-JP, server: 13.113.253.68, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
@@ -594,7 +594,7 @@ proxy-groups:
       - 测速5分组
       - 04-000-JP
       - 04-001-JP
-      - 04-003-US
+      - 04-002-US
       - 04-004-US
       - 04-005-RELAY
       - 04-006-RELAY
@@ -1009,7 +1009,7 @@ proxy-groups:
       - 14-514-EC
       - 14-515-RELAY
       - 14-516-RELAY
-      - 14-518-RELAY
+      - 14-517-RELAY
       - 14-519-RELAY
       - 14-520-RELAY
       - 14-521-JP
@@ -1245,6 +1245,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-002-US
       - 04-007-RELAY
       - 04-012-CN
       - 04-017-CN
@@ -1328,6 +1329,7 @@ proxy-groups:
       - 13-502-US
       - 14-507-RELAY
       - 14-512-RELAY
+      - 14-517-RELAY
       - 14-522-RELAY
       - 14-527-RELAY
       - 16-532-RELAY
@@ -1355,7 +1357,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-003-US
       - 04-008-RELAY
       - 04-013-CN
       - 04-018-CN
@@ -1439,7 +1440,6 @@ proxy-groups:
       - 13-503-NOWHERE
       - 14-508-RELAY
       - 14-513-RELAY
-      - 14-518-RELAY
       - 14-523-JP
       - 14-528-GT
       - 16-533-RELAY
