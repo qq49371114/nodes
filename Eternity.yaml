@@ -56,8 +56,8 @@ sniffer:
 proxies:
   - {name: 04-000-JP, server: 52.198.230.68, port: 443, type: trojan, password: e4a60334-c051-351b-b572-26149b8ac917, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-001-JP, server: 35.75.8.142, port: 443, type: trojan, password: e4a60334-c051-351b-b572-26149b8ac917, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-002-US, server: 54.70.158.166, port: 443, type: trojan, password: e4a60334-c051-351b-b572-26149b8ac917, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-003-US, server: 103.136.185.27, port: 5514, type: trojan, password: e4a60334-c051-351b-b572-26149b8ac917, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-004-US, server: 103.136.185.28, port: 3504, type: trojan, password: e4a60334-c051-351b-b572-26149b8ac917, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-005-RELAY, server: 104.25.17.175, port: 8080, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00104.25.17.175}, udp: true}
   - {name: 04-006-RELAY, server: 104.19.119.237, port: 80, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.119.237}, udp: true}
   - {name: 04-007-RELAY, server: 104.21.251.190, port: 2095, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.251.190}, udp: true}
@@ -257,7 +257,6 @@ proxies:
   - {name: 09-299-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: baab111f-0cad-45ec-9daf-386563606be4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-300-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: a238eb7d-2cec-4085-a7c6-c4db164dfe09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-301-NOWHERE, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: cf.network383.online}}, udp: true}
-  - {name: 09-302-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-303-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
   - {name: 09-304-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: af6b5a56-24b0-4d1b-bbac-0e57ae93a159, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-305-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -472,6 +471,7 @@ proxies:
   - {name: 14-514-RELAY, server: 172.67.151.228, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2}, udp: true}
   - {name: 14-515-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-516-NOWHERE, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
+  - {name: 14-517-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-518-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 14-519-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 14-520-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
@@ -573,8 +573,8 @@ proxy-groups:
       - 测速5分组
       - 04-000-JP
       - 04-001-JP
+      - 04-002-US
       - 04-003-US
-      - 04-004-US
       - 04-005-RELAY
       - 04-006-RELAY
       - 04-007-RELAY
@@ -774,7 +774,6 @@ proxy-groups:
       - 09-299-NOWHERE
       - 09-300-NOWHERE
       - 09-301-NOWHERE
-      - 09-302-RELAY
       - 09-303-RELAY
       - 09-304-NOWHERE
       - 09-305-RELAY
@@ -989,6 +988,7 @@ proxy-groups:
       - 14-514-RELAY
       - 14-515-RELAY
       - 14-516-NOWHERE
+      - 14-517-RELAY
       - 14-518-US
       - 14-519-RELAY
       - 14-520-RELAY
@@ -1199,6 +1199,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-002-US
       - 04-007-RELAY
       - 04-012-CN
       - 04-017-CN
@@ -1239,7 +1240,6 @@ proxy-groups:
       - 09-287-RELAY
       - 09-292-RELAY
       - 09-297-RELAY
-      - 09-302-RELAY
       - 09-307-RELAY
       - 09-312-NOWHERE
       - 09-317-RELAY
@@ -1282,6 +1282,7 @@ proxy-groups:
       - 13-502-RELAY
       - 13-507-RELAY
       - 13-512-NOWHERE
+      - 14-517-RELAY
       - 14-522-RELAY
       - 14-527-JP
       - 14-532-RELAY
@@ -1412,7 +1413,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-004-US
       - 04-009-RELAY
       - 04-014-CN
       - 04-019-CN
