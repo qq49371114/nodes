@@ -333,7 +333,6 @@ proxies:
   - {name: 09-375-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: baab111f-0cad-45ec-9daf-386563606be4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-376-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: a238eb7d-2cec-4085-a7c6-c4db164dfe09, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-377-NOWHERE, server: cf.network383.online, port: 2083, type: vmess, uuid: 055079b7-84cb-4619-8b46-f21e642232ef, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /@apt_mahdi, headers: {Host: cf.network383.online}}, udp: true}
-  - {name: 09-378-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-379-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
   - {name: 09-380-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: af6b5a56-24b0-4d1b-bbac-0e57ae93a159, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-381-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -560,6 +559,7 @@ proxies:
   - {name: 14-602-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
   - {name: 14-603-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
   - {name: 14-604-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
+  - {name: 14-605-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-606-RELAY, server: hms08.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms08.gwdef.sbs}}, udp: true}
   - {name: 14-607-RELAY, server: geili.mulanwevictory.top, port: 8443, type: vmess, uuid: 09b03d66-b585-48ee-d3f5-6badba645d5c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /MGNF44G, headers: {Host: geili.mulanwevictory.top}}, udp: true}
   - {name: 14-608-RELAY, server: hms02opi.fxiaomi.sbs, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02opi.fxiaomi.sbs}}, udp: true}
@@ -943,7 +943,6 @@ proxy-groups:
       - 09-375-NOWHERE
       - 09-376-NOWHERE
       - 09-377-NOWHERE
-      - 09-378-RELAY
       - 09-379-RELAY
       - 09-380-NOWHERE
       - 09-381-RELAY
@@ -1170,6 +1169,7 @@ proxy-groups:
       - 14-602-RELAY
       - 14-603-RELAY
       - 14-604-RELAY
+      - 14-605-RELAY
       - 14-606-RELAY
       - 14-607-RELAY
       - 14-608-RELAY
@@ -1585,7 +1585,6 @@ proxy-groups:
       - 07-363-RELAY
       - 08-368-RELAY
       - 08-373-RELAY
-      - 09-378-RELAY
       - 09-383-RELAY
       - 09-388-NOWHERE
       - 09-393-RELAY
@@ -1881,6 +1880,7 @@ proxy-groups:
       - 13-590-US
       - 14-595-RELAY
       - 14-600-RELAY
+      - 14-605-RELAY
       - 14-610-JP
       - 31-620-RELAY
       - 34-625-RELAY
