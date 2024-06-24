@@ -203,7 +203,7 @@ proxies:
   - {name: 04-146-JP, server: 52.198.230.68, port: 443, type: trojan, password: 859258b9-5368-3929-9977-c285a555c4fb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-147-JP, server: 35.75.8.142, port: 443, type: trojan, password: 859258b9-5368-3929-9977-c285a555c4fb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-148-US, server: 34.214.184.190, port: 443, type: trojan, password: 859258b9-5368-3929-9977-c285a555c4fb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-150-US, server: 103.136.185.28, port: 3504, type: trojan, password: 859258b9-5368-3929-9977-c285a555c4fb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-149-US, server: 103.136.185.27, port: 5514, type: trojan, password: 859258b9-5368-3929-9977-c285a555c4fb, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-151-RELAY, server: 172.67.100.78, port: 8880, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00172.67.100.78}, udp: true}
   - {name: 04-152-RELAY, server: 104.20.189.33, port: 2052, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.189.33}, udp: true}
   - {name: 04-153-RELAY, server: 104.25.14.44, port: 8880, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.14.44}, udp: true}
@@ -873,7 +873,7 @@ proxy-groups:
       - 04-146-JP
       - 04-147-JP
       - 04-148-US
-      - 04-150-US
+      - 04-149-US
       - 04-151-RELAY
       - 04-152-RELAY
       - 04-153-RELAY
@@ -1840,6 +1840,7 @@ proxy-groups:
       - 03-134-CN
       - 03-139-RELAY
       - 03-144-RELAY
+      - 04-149-US
       - 04-154-RELAY
       - 04-159-CN
       - 04-164-CN
@@ -1978,7 +1979,6 @@ proxy-groups:
       - 03-135-TW
       - 03-140-RELAY
       - 03-145-RELAY
-      - 04-150-US
       - 04-155-RELAY
       - 04-160-CN
       - 04-165-CN
