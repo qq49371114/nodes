@@ -274,7 +274,7 @@ proxies:
   - {name: 04-217-JP, server: 52.198.230.68, port: 443, type: trojan, password: 04e37413-a2bf-31ca-be81-33db5eceab23, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-218-JP, server: 35.75.8.142, port: 443, type: trojan, password: 04e37413-a2bf-31ca-be81-33db5eceab23, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-219-US, server: 34.222.63.215, port: 443, type: trojan, password: 04e37413-a2bf-31ca-be81-33db5eceab23, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-220-US, server: 103.136.185.27, port: 5514, type: trojan, password: 04e37413-a2bf-31ca-be81-33db5eceab23, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-221-US, server: 103.136.185.28, port: 3504, type: trojan, password: 04e37413-a2bf-31ca-be81-33db5eceab23, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-222-RELAY, server: 172.67.90.178, port: 2052, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /db00172.67.90.178}, udp: true}
   - {name: 04-223-RELAY, server: 104.25.190.65, port: 2095, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.190.65}, udp: true}
   - {name: 04-224-RELAY, server: 104.25.148.107, port: 2086, type: vmess, uuid: a4df2c0d-1a6c-327d-aab3-f0f66b1a44ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.148.107}, udp: true}
@@ -1003,7 +1003,7 @@ proxy-groups:
       - 04-217-JP
       - 04-218-JP
       - 04-219-US
-      - 04-220-US
+      - 04-221-US
       - 04-222-RELAY
       - 04-223-RELAY
       - 04-224-RELAY
@@ -1561,6 +1561,7 @@ proxy-groups:
       - 03-206-RELAY
       - 03-211-RELAY
       - 03-216-RELAY
+      - 04-221-US
       - 04-226-RELAY
       - 04-231-CN
       - 04-236-CN
@@ -2155,7 +2156,6 @@ proxy-groups:
       - 03-205-RELAY
       - 03-210-RELAY
       - 03-215-RELAY
-      - 04-220-US
       - 04-225-RELAY
       - 04-230-CN
       - 04-235-CN
