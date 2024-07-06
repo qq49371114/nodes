@@ -262,7 +262,7 @@ Fork from TopFreeProxies.
     trojan://34a8f70f-c308-36f3-8796-48a31f187553@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-229-JP
     trojan://34a8f70f-c308-36f3-8796-48a31f187553@35.75.22.230:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-230-JP
     trojan://34a8f70f-c308-36f3-8796-48a31f187553@35.90.233.32:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-231-US
-    trojan://34a8f70f-c308-36f3-8796-48a31f187553@103.136.185.27:5514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-232-US
+    trojan://34a8f70f-c308-36f3-8796-48a31f187553@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-233-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMjM0LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjExMy41NyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI5NWIwMjk5Mi02NzE5LTNjMzItOTY1Ny0xNGYzNmIwMzQ5NzYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjIxLjExMy41NyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMjM1LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjUxLjIzOCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk1YjAyOTkyLTY3MTktM2MzMi05NjU3LTE0ZjM2YjAzNDk3NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjEuNTEuMjM4IiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMjM2LVJFTEFZIiwiYWRkIjoiMTcyLjY3LjQyLjU5IiwicG9ydCI6IjIwOTUiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTViMDI5OTItNjcxOS0zYzMyLTk2NTctMTRmMzZiMDM0OTc2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42Ny40Mi41OSIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
@@ -709,11 +709,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `777`
+合并节点总数: `768`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `777`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `768`
 
 
 ## 仓库声明
