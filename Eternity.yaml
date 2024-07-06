@@ -267,7 +267,6 @@ proxies:
   - {name: 03-210-RELAY, server: 104.26.11.72, port: 8880, type: vmess, uuid: b522ae04-4707-41df-81a8-17163c283675, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile}, udp: true}
   - {name: 04-211-JP, server: 52.198.230.68, port: 443, type: trojan, password: c9c0fed8-cb35-3457-924e-0d5940b5280e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-212-JP, server: 35.75.22.230, port: 443, type: trojan, password: c9c0fed8-cb35-3457-924e-0d5940b5280e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-213-US, server: 35.90.233.32, port: 443, type: trojan, password: c9c0fed8-cb35-3457-924e-0d5940b5280e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-214-US, server: 103.136.185.27, port: 5514, type: trojan, password: c9c0fed8-cb35-3457-924e-0d5940b5280e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-215-US, server: 103.136.185.28, port: 3504, type: trojan, password: c9c0fed8-cb35-3457-924e-0d5940b5280e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-216-RELAY, server: 104.21.113.57, port: 80, type: vmess, uuid: 95b02992-6719-3c32-9657-14f36b034976, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.113.57}, udp: true}
@@ -681,6 +680,7 @@ proxies:
   - {name: 14-725-RELAY, server: speed.cloudflare.com, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-726-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-727-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
+  - {name: 14-728-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-729-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 17-730-CN, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 17-732-RELAY, server: hk.wish.ml, port: 2052, type: vmess, uuid: 071ef7de-1524-44ca-9c00-0b5885cd23a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.wish.ml}}, udp: true}
@@ -957,7 +957,6 @@ proxy-groups:
       - 03-210-RELAY
       - 04-211-JP
       - 04-212-JP
-      - 04-213-US
       - 04-214-US
       - 04-215-US
       - 04-216-RELAY
@@ -1371,6 +1370,7 @@ proxy-groups:
       - 14-725-RELAY
       - 14-726-RELAY
       - 14-727-FR
+      - 14-728-US
       - 16-729-RELAY
       - 17-730-CN
       - 17-732-RELAY
@@ -1764,7 +1764,6 @@ proxy-groups:
       - 03-198-RELAY
       - 03-203-RELAY
       - 03-208-RELAY
-      - 04-213-US
       - 04-218-RELAY
       - 04-223-CN
       - 04-228-CN
@@ -1846,6 +1845,7 @@ proxy-groups:
       - 13-708-NOWHERE
       - 13-713-RELAY
       - 14-723-RELAY
+      - 14-728-US
       - 34-733-RELAY
       - 34-738-RELAY
       - 34-743-RELAY
