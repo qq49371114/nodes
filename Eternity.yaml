@@ -644,6 +644,7 @@ proxies:
   - {name: 14-688-RELAY, server: speed.cloudflare.com, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-689-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-690-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
+  - {name: 14-691-US, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 16-693-CN, server: 120.241.118.157, port: 13049, type: trojan, password: 7745cd82-55ad-39e5-8cb9-bd605b8808d3, sni: ip2648428075.mobgslb.tbcache.com, skip-cert-verify: true, udp: true}
   - {name: 17-694-AT, server: at1.trojanvpn.de, port: 2053, type: trojan, password: 09191dbf-e7f7-4e7d-b405-c4785ea992bf, sni: ftp.debian.org, skip-cert-verify: true, udp: true}
   - {name: 17-695-CN, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
@@ -1299,6 +1300,7 @@ proxy-groups:
       - 14-688-RELAY
       - 14-689-RELAY
       - 14-690-FR
+      - 14-691-US
       - 16-693-CN
       - 17-694-AT
       - 17-695-CN
@@ -1486,6 +1488,7 @@ proxy-groups:
       - 13-676-NOWHERE
       - 14-681-RELAY
       - 14-686-RELAY
+      - 14-691-US
       - 34-696-RELAY
       - 34-701-RELAY
       - 34-706-RELAY
