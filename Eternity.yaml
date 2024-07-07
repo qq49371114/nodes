@@ -442,6 +442,7 @@ proxies:
   - {name: 09-486-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 25c9db48-07c7-4f9f-a739-50bc96c3d4e7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-487-US, server: us.eaxeg.be, port: 443, type: trojan, password: ab602e02-624b-44f0-a51b-25ed53f70048, skip-cert-verify: true, udp: true}
   - {name: 09-488-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: c2d3d528-470c-4617-9bff-04f9785edbcb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
+  - {name: 09-489-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-490-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
   - {name: 09-491-NOWHERE, server: mci.mosi.mosipro.ml, port: 443, type: vmess, uuid: 2f014da7-7a55-441c-9145-490955cd3675, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /speedtest, headers: {Host: mci.mosi.mosipro.ml}}, udp: true}
   - {name: 09-492-RELAY, server: cloudflare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: cloudflare.com}}, udp: true}
@@ -635,7 +636,6 @@ proxies:
   - {name: 14-680-RELAY, server: 172.67.151.228, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2}, udp: true}
   - {name: 14-681-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /glweidf.sbs/linkws, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-682-NOWHERE, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
-  - {name: 14-683-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-684-US, server: bolder-metal-comma.glitch.me, port: 443, type: vmess, uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
   - {name: 14-685-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 14-686-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
@@ -1112,6 +1112,7 @@ proxy-groups:
       - 09-486-NOWHERE
       - 09-487-US
       - 09-488-NOWHERE
+      - 09-489-RELAY
       - 09-490-RELAY
       - 09-491-NOWHERE
       - 09-492-RELAY
@@ -1305,7 +1306,6 @@ proxy-groups:
       - 14-680-RELAY
       - 14-681-RELAY
       - 14-682-NOWHERE
-      - 14-683-RELAY
       - 14-684-US
       - 14-685-RELAY
       - 14-686-RELAY
@@ -1790,7 +1790,6 @@ proxy-groups:
       - 13-668-RELAY
       - 13-673-NOWHERE
       - 13-678-NOWHERE
-      - 14-683-RELAY
       - 14-688-RELAY
       - 14-693-FR
       - 34-698-RELAY
@@ -1889,6 +1888,7 @@ proxy-groups:
       - 07-474-HK
       - 07-479-US
       - 08-484-RELAY
+      - 09-489-RELAY
       - 09-494-NOWHERE
       - 09-499-RELAY
       - 10-504-RELAY
