@@ -317,7 +317,7 @@ proxies:
   - {name: 04-260-JP, server: 52.198.230.68, port: 443, type: trojan, password: 590a9b7b-bad4-3245-bf9f-960b4312cf4d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-261-JP, server: 35.78.218.25, port: 443, type: trojan, password: 590a9b7b-bad4-3245-bf9f-960b4312cf4d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-262-US, server: 35.94.233.196, port: 443, type: trojan, password: 590a9b7b-bad4-3245-bf9f-960b4312cf4d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-264-US, server: 103.136.185.28, port: 3504, type: trojan, password: 590a9b7b-bad4-3245-bf9f-960b4312cf4d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-263-US, server: 103.136.185.27, port: 5514, type: trojan, password: 590a9b7b-bad4-3245-bf9f-960b4312cf4d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-265-RELAY, server: 172.67.54.117, port: 2095, type: vmess, uuid: 95b02992-6719-3c32-9657-14f36b034976, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.54.117}, udp: true}
   - {name: 04-266-RELAY, server: 104.16.29.134, port: 80, type: vmess, uuid: 95b02992-6719-3c32-9657-14f36b034976, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.29.134}, udp: true}
   - {name: 04-267-RELAY, server: 104.24.96.233, port: 80, type: vmess, uuid: 95b02992-6719-3c32-9657-14f36b034976, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.96.233}, udp: true}
@@ -837,7 +837,6 @@ proxies:
   - {name: 14-882-RELAY, server: speed.cloudflare.com, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 14-883-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-884-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
-  - {name: 14-885-US, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 16-886-HK, server: hk03.counsellor.buzz, port: 80, type: vmess, uuid: b7f8cc9d-d7d6-428c-bea4-420c37f76048, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk03.counsellor.buzz}}, udp: true}
   - {name: 16-887-RELAY, server: cdn.awscft.eu.org, port: 2052, type: vmess, uuid: a14fd489-6bf4-40bb-fb74-efb137ac1d42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /aa, headers: {Host: cdn.awscft.eu.org}}, udp: true}
   - {name: 16-888-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 8b03c864-31e3-4cfb-949a-2e7eb13f698d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -1179,7 +1178,7 @@ proxy-groups:
       - 04-260-JP
       - 04-261-JP
       - 04-262-US
-      - 04-264-US
+      - 04-263-US
       - 04-265-RELAY
       - 04-266-RELAY
       - 04-267-RELAY
@@ -1699,7 +1698,6 @@ proxy-groups:
       - 14-882-RELAY
       - 14-883-RELAY
       - 14-884-FR
-      - 14-885-US
       - 16-886-HK
       - 16-887-RELAY
       - 16-888-RELAY
@@ -2186,6 +2184,7 @@ proxy-groups:
       - 03-248-RELAY
       - 03-253-RELAY
       - 03-258-RELAY
+      - 04-263-US
       - 04-268-RELAY
       - 04-273-CN
       - 04-278-CN
@@ -2361,7 +2360,6 @@ proxy-groups:
       - 03-249-RELAY
       - 03-254-RELAY
       - 03-259-TW
-      - 04-264-US
       - 04-269-RELAY
       - 04-274-CN
       - 04-279-CN
@@ -2641,7 +2639,6 @@ proxy-groups:
       - 13-870-RELAY
       - 14-875-NOWHERE
       - 14-880-EC
-      - 14-885-US
       - 17-890-CN
       - 34-895-RELAY
       - 34-900-RELAY
