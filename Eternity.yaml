@@ -449,7 +449,6 @@ proxies:
   - {name: 08-491-RELAY, server: 188.114.97.2, port: 80, type: vmess, uuid: c53b8706-7a23-486c-89c5-4dac1209ef11, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 08-492-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us2ekjds3nay, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 09-493-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /T, headers: {Host: zula.ir}}, udp: true}
-  - {name: 09-494-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-495-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: c712c725-149f-414a-a684-1e17d137fe4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/ibCT6z55, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 09-496-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: b17fd137-b80e-4eda-b7d5-28bd89c735ea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-497-RELAY, server: bamparda.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: bamparda.com}}, udp: true}
@@ -671,6 +670,7 @@ proxies:
   - {name: 14-713-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-714-RELAY, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 14-715-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
+  - {name: 14-716-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-717-RELAY, server: 104.19.21.81, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 14-718-RELAY, server: sareikela.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true}
   - {name: 14-719-RELAY, server: 104.18.189.19, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1162,7 +1162,6 @@ proxy-groups:
       - 08-491-RELAY
       - 08-492-RELAY
       - 09-493-RELAY
-      - 09-494-RELAY
       - 09-495-RELAY
       - 09-496-RELAY
       - 09-497-RELAY
@@ -1384,6 +1383,7 @@ proxy-groups:
       - 14-713-RELAY
       - 14-714-RELAY
       - 14-715-FR
+      - 14-716-RELAY
       - 14-717-RELAY
       - 14-718-RELAY
       - 14-719-RELAY
@@ -1608,6 +1608,7 @@ proxy-groups:
       - 13-701-NOWHERE
       - 14-706-RELAY
       - 14-711-RELAY
+      - 14-716-RELAY
       - 14-721-RELAY
       - 34-731-RELAY
       - 34-736-RELAY
@@ -2000,7 +2001,6 @@ proxy-groups:
       - 07-479-RELAY
       - 07-484-RELAY
       - 08-489-RELAY
-      - 09-494-RELAY
       - 09-499-RELAY
       - 09-504-RELAY
       - 10-509-RELAY
