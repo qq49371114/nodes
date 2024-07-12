@@ -471,7 +471,6 @@ proxies:
   - {name: 08-513-RELAY, server: speed.cloudflare.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us2ekjds3nay, headers: {Host: speed.cloudflare.com}}, udp: true}
   - {name: 09-514-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-515-RELAY, server: azarbayjab1.ca.8.pages.dev, port: 2095, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /max.mankadmu.com/linkvws, headers: {Host: azarbayjab1.ca.8.pages.dev}}, udp: true}
-  - {name: 09-516-RELAY, server: max.mankadmu.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: max.mankadmu.com}}, udp: true}
   - {name: 09-517-ID, server: id-lb.vhax.net, port: 80, type: vmess, uuid: 6fea1649-425b-4092-bf53-29792152c925, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /sshkit/Arsham85231/6347d08022b91/, headers: {Host: id-lb.vhax.net}}, udp: true}
   - {name: 09-518-US, server: us-21.hihu.net, port: 80, type: vmess, uuid: 7fca7f40-4013-11ef-b131-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /18dtcix5, headers: {Host: us-21.hihu.net}}, udp: true}
   - {name: 09-519-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
@@ -674,6 +673,7 @@ proxies:
   - {name: 13-717-RELAY, server: cc2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2.shabijichang.com}}, udp: true}
   - {name: 14-718-RELAY, server: 172.67.151.228, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2}, udp: true}
   - {name: 14-719-NOWHERE, server: hdfy5c1.foriran.trade, port: 443, type: vmess, uuid: 251780c1-1501-43b3-be2a-d144a20d479a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /Nbs2DSTSkFW6MrrFQHeSDQ7, headers: {Host: hdfy5c1.foriran.trade}}, udp: true}
+  - {name: 14-720-RELAY, server: glweidf.cfd, port: 443, type: vmess, uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: glweidf.cfd}}, udp: true}
   - {name: 14-722-RELAY, server: 172.67.229.35, port: 2086, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 14-723-RELAY, server: fr-a.yuji2022.eu.org, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b, headers: {Host: fr-a.yuji2022.eu.org}}, udp: true}
   - {name: 14-724-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -1153,7 +1153,6 @@ proxy-groups:
       - 08-513-RELAY
       - 09-514-RELAY
       - 09-515-RELAY
-      - 09-516-RELAY
       - 09-517-ID
       - 09-518-US
       - 09-519-RELAY
@@ -1356,6 +1355,7 @@ proxy-groups:
       - 13-717-RELAY
       - 14-718-RELAY
       - 14-719-NOWHERE
+      - 14-720-RELAY
       - 14-722-RELAY
       - 14-723-RELAY
       - 14-724-EC
@@ -1506,7 +1506,6 @@ proxy-groups:
       - 07-501-US
       - 07-506-US
       - 08-511-RELAY
-      - 09-516-RELAY
       - 09-521-US
       - 09-526-CN
       - 10-531-RELAY
@@ -2105,6 +2104,7 @@ proxy-groups:
       - 13-705-NOWHERE
       - 13-710-NOWHERE
       - 13-715-RELAY
+      - 14-720-RELAY
       - 14-725-RELAY
       - 14-730-RELAY
       - 14-735-RELAY
