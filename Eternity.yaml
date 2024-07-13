@@ -439,7 +439,6 @@ proxies:
   - {name: 09-482-FASTLY, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /77848824, headers: {Host: gov.uk}}, udp: true}
   - {name: 09-483-NOWHERE, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
   - {name: 09-484-US, server: slime-rhinestone-spy.glitch.me, port: 80, type: vmess, uuid: 1d5fb496-19fb-48fb-9880-a147326dee62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess, headers: {Host: slime-rhinestone-spy.glitch.me}}, udp: true}
-  - {name: 09-485-RELAY, server: max.mankadmu.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: max.mankadmu.com}}, udp: true}
   - {name: 09-486-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-487-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-488-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: 3a5bd596-9642-4816-ab00-e90fc611c682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
@@ -633,6 +632,7 @@ proxies:
   - {name: 14-678-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-679-RELAY, server: 172.67.74.112, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 14-680-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: irvideo.cfd}}, udp: true}
+  - {name: 14-681-RELAY, server: sareikela.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true}
   - {name: 14-682-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-683-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
   - {name: 14-684-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1075,7 +1075,6 @@ proxy-groups:
       - 09-482-FASTLY
       - 09-483-NOWHERE
       - 09-484-US
-      - 09-485-RELAY
       - 09-486-RELAY
       - 09-487-RELAY
       - 09-488-RELAY
@@ -1269,6 +1268,7 @@ proxy-groups:
       - 14-678-RELAY
       - 14-679-RELAY
       - 14-680-FR
+      - 14-681-RELAY
       - 14-682-RELAY
       - 14-683-RELAY
       - 14-684-RELAY
@@ -1447,6 +1447,7 @@ proxy-groups:
       - 13-666-RELAY
       - 14-671-RELAY
       - 14-676-RELAY
+      - 14-681-RELAY
       - 16-686-CN
       - 17-691-AT
       - 34-696-RELAY
@@ -1929,7 +1930,6 @@ proxy-groups:
       - 07-470-US
       - 07-475-RELAY
       - 08-480-RELAY
-      - 09-485-RELAY
       - 09-490-RELAY
       - 10-495-RELAY
       - 10-500-RELAY
