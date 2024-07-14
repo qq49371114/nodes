@@ -519,6 +519,7 @@ proxies:
   - {name: 04-463-HK, server: hkvip101.qlgq.fun, port: 22249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-464-HK, server: hkvip102.qlgq.fun, port: 32249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-465-HK, server: hkvip102.qlgq.fun, port: 42249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip102.qlgq.fun, skip-cert-verify: true, udp: true}
+  - {name: 04-466-HK, server: hkvip103.qlgq.fun, port: 52249, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip103.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-467-HK, server: hkvip103.qlgq.fun, port: 11116, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip103.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-468-HK, server: hkvip104.qlgq.fun, port: 45136, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip104.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-469-HK, server: hkvip104.qlgq.fun, port: 46216, type: trojan, password: bfa90667-7d72-323a-a6b8-233d95259c6b, sni: hkvip104.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -760,7 +761,6 @@ proxies:
   - {name: 14-806-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
   - {name: 14-807-RELAY, server: 104.19.45.129, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-808-RELAY, server: 104.19.45.253, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-809-JP, server: 52.195.1.82, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-811-CN, server: 123.88.148.9, port: 65045, type: ss, cipher: chacha20-ietf-poly1305, password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d, udp: true}
   - {name: 16-812-CN, server: 120.233.128.12, port: 22211, type: ss, cipher: aes-128-gcm, password: 764f7bbd-259c-43b1-996d-bf595ab21618, udp: true}
   - {name: 16-813-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: a174de4b-6126-4b88-b21e-1388004a2e02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/Zo98PYfE, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -1275,6 +1275,7 @@ proxy-groups:
       - 04-463-HK
       - 04-464-HK
       - 04-465-HK
+      - 04-466-HK
       - 04-467-HK
       - 04-468-HK
       - 04-469-HK
@@ -1516,7 +1517,6 @@ proxy-groups:
       - 14-806-RELAY
       - 14-807-RELAY
       - 14-808-RELAY
-      - 14-809-JP
       - 16-811-CN
       - 16-812-CN
       - 16-813-RELAY
@@ -1663,6 +1663,7 @@ proxy-groups:
       - 04-451-JP
       - 04-456-US
       - 04-461-GB
+      - 04-466-HK
       - 04-471-HK
       - 04-576-CN
       - 04-581-CN
@@ -2174,7 +2175,6 @@ proxy-groups:
       - 13-789-RELAY
       - 14-799-RELAY
       - 14-804-RELAY
-      - 14-809-JP
       - 16-814-CN
       - 17-819-CN
       - 34-824-RELAY
