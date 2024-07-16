@@ -441,6 +441,7 @@ proxies:
   - {name: 08-483-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: cc142606-f36d-4004-bd2d-c5c2aa7efd4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 08-484-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: 3a5bd596-9642-4816-ab00-e90fc611c682, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-485-RELAY, server: hms02opi.fxiaomi.sbs, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: hms02opi.fxiaomi.sbs}}, udp: true}
+  - {name: 09-486-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-487-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
   - {name: 09-488-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 3acf68f1-9968-475d-a9da-0614ba3c0d64, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-489-RELAY, server: www.speedtest.net, port: 2052, type: vmess, uuid: ffebe07c-7651-4b6e-8c66-365ca279151c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=1024", headers: {Host: www.speedtest.net}}, udp: true}
@@ -664,7 +665,6 @@ proxies:
   - {name: 14-707-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
   - {name: 14-708-US, server: vc.fly.dev, port: 443, type: vmess, uuid: 35379219-6535-4f2e-a4fe-3e44f61e0eee, alterId: 32, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vc, headers: {Host: vc.fly.dev}}, udp: true}
   - {name: 14-709-RELAY, server: 104.19.47.129, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
-  - {name: 14-710-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-711-RELAY, server: 104.19.47.153, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 16-713-CN, server: 123.88.148.9, port: 65045, type: ss, cipher: chacha20-ietf-poly1305, password: 7514d66e-9bd7-4fd6-91a0-0532aec92f9d, udp: true}
   - {name: 16-714-CN, server: gdyddx500.xiyunchen.cn, port: 30001, type: ss, cipher: aes-256-gcm, password: 6f3562c7-904f-417e-818b-dcd49b564078, udp: true}
@@ -1115,6 +1115,7 @@ proxy-groups:
       - 08-483-RELAY
       - 08-484-RELAY
       - 09-485-RELAY
+      - 09-486-RELAY
       - 09-487-HK
       - 09-488-RELAY
       - 09-489-RELAY
@@ -1338,7 +1339,6 @@ proxy-groups:
       - 14-707-RELAY
       - 14-708-US
       - 14-709-RELAY
-      - 14-710-RELAY
       - 14-711-RELAY
       - 16-713-CN
       - 16-714-CN
@@ -1484,6 +1484,7 @@ proxy-groups:
       - 07-471-US
       - 07-476-RELAY
       - 08-481-RELAY
+      - 09-486-RELAY
       - 09-491-RELAY
       - 09-496-RELAY
       - 09-501-NOWHERE
@@ -2080,7 +2081,6 @@ proxy-groups:
       - 13-695-NOWHERE
       - 14-700-RELAY
       - 14-705-RELAY
-      - 14-710-RELAY
       - 16-715-CN
       - 17-720-CN
       - 17-725-CN
