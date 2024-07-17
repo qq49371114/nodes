@@ -415,7 +415,6 @@ proxies:
   - {name: 09-457-RELAY, server: hms07.xfixedfloat.cfd, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms07.xfixedfloat.cfd}}, udp: true}
   - {name: 09-458-RELAY, server: cake.capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: cake.capellare.com}}, udp: true}
   - {name: 09-459-RELAY, server: f.khilei.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: f.khilei.com}}, udp: true}
-  - {name: 09-460-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-461-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-462-NOWHERE, server: kamnaf.ml, port: 2095, type: vmess, uuid: 1b7594df-1a43-4961-f3a9-741f8b8bee48, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kamnaf.ml}}, udp: true}
   - {name: 09-463-NOWHERE, server: cf.yxjnode.com, port: 80, type: vmess, uuid: 09c1d32d-4458-4ebf-b36d-4dd732bae3aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /yxzbp, headers: {Host: cf.yxjnode.com}}, udp: true}
@@ -437,6 +436,7 @@ proxies:
   - {name: 09-479-RELAY, server: cdnjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: cdnjs.com}}, udp: true}
   - {name: 09-480-US, server: slime-rhinestone-spy.glitch.me, port: 443, type: vmess, uuid: 83a5c82d-a047-418e-9ad9-6ce8c5aaba59, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /83a5c82d-a047-418e-9ad9-6ce8c5aaba59-vmess, headers: {Host: slime-rhinestone-spy.glitch.me}}, udp: true}
   - {name: 09-481-RELAY, server: hms08.gwdef.sbs, port: 443, type: vmess, uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms08.gwdef.sbs}}, udp: true}
+  - {name: 09-482-RELAY, server: nmsl.rnmcnm.com, port: 443, type: vmess, uuid: 27509a72-2dd1-4cea-9155-355543e6c46a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nmsl.rnmcnm.com}}, udp: true}
   - {name: 09-483-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: 30cab746-5ca5-46ef-aa9b-537f20f6a40c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-484-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 238cda2b-edaf-41b0-8fcc-6cf83aa797c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telgram-bluevtowrayng?ed=16", headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-485-NOWHERE, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
@@ -1066,7 +1066,6 @@ proxy-groups:
       - 09-457-RELAY
       - 09-458-RELAY
       - 09-459-RELAY
-      - 09-460-RELAY
       - 09-461-RELAY
       - 09-462-NOWHERE
       - 09-463-NOWHERE
@@ -1088,6 +1087,7 @@ proxy-groups:
       - 09-479-RELAY
       - 09-480-US
       - 09-481-RELAY
+      - 09-482-RELAY
       - 09-483-RELAY
       - 09-484-RELAY
       - 09-485-NOWHERE
@@ -1573,6 +1573,7 @@ proxy-groups:
       - 09-467-RELAY
       - 09-472-RELAY
       - 09-477-RELAY
+      - 09-482-RELAY
       - 10-487-RELAY
       - 10-492-RELAY
       - 10-497-RELAY
@@ -1966,7 +1967,6 @@ proxy-groups:
       - 09-445-NL
       - 09-450-RELAY
       - 09-455-RELAY
-      - 09-460-RELAY
       - 09-465-RELAY
       - 09-470-RELAY
       - 09-475-FR
