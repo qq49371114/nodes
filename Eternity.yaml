@@ -406,7 +406,6 @@ proxies:
   - {name: 09-449-RELAY, server: iranserver.com, port: 80, type: vmess, uuid: 0c367da7-e882-4727-8c29-ecb0bda90528, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: iranserver.com}}, udp: true}
   - {name: 09-450-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 282929a7-7247-4bfd-84f4-39e61484f313, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-451-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 7c5df627-a185-468b-a90a-1b162e673a68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN, headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-452-RELAY, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 09-453-RELAY, server: cumhuriyet.com.tr, port: 443, type: trojan, password: e16e9768-240f-4ff2-8c29-36d220ed2aa4, skip-cert-verify: true, udp: true}
   - {name: 09-454-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: f92701e4-2394-4771-9599-5f291edc19ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-455-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: f92701e4-2394-4771-9599-5f291edc19ff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
@@ -596,6 +595,7 @@ proxies:
   - {name: 14-639-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-640-RELAY, server: 104.16.148.244, port: 8080, type: vmess, uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9aqOiXD2/}, udp: true}
   - {name: 14-641-RELAY, server: speed.cloudflare.com, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: speed.cloudflare.com}}, udp: true}
+  - {name: 14-642-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-643-RELAY, server: sareikela.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true}
   - {name: 14-644-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-645-RELAY, server: 104.19.45.129, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1028,7 +1028,6 @@ proxy-groups:
       - 09-449-RELAY
       - 09-450-RELAY
       - 09-451-RELAY
-      - 09-452-RELAY
       - 09-453-RELAY
       - 09-454-RELAY
       - 09-455-RELAY
@@ -1218,6 +1217,7 @@ proxy-groups:
       - 14-639-EC
       - 14-640-RELAY
       - 14-641-RELAY
+      - 14-642-RELAY
       - 14-643-RELAY
       - 14-644-RELAY
       - 14-645-RELAY
@@ -1500,7 +1500,6 @@ proxy-groups:
       - 09-437-RELAY
       - 09-442-RELAY
       - 09-447-RELAY
-      - 09-452-RELAY
       - 09-457-RELAY
       - 10-462-RELAY
       - 10-467-RELAY
@@ -1538,6 +1537,7 @@ proxy-groups:
       - 13-627-RELAY
       - 13-632-NOWHERE
       - 13-637-RELAY
+      - 14-642-RELAY
       - 14-647-RELAY
       - 14-652-RELAY
       - 14-657-RELAY
