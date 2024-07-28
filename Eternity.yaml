@@ -646,9 +646,9 @@ proxies:
   - {name: 14-689-RELAY, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms04.xmivideo.cfd}}, udp: true}
   - {name: 14-690-RELAY, server: denc36.xtooltech.cfd, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: denc36.xtooltech.cfd}}, udp: true}
   - {name: 14-691-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-692-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-693-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-694-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 14-696-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-697-CN, server: aa01gg.sssyun.xyz, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: b5abc4c0-b518-4195-88b4-57900f16fb65, udp: true}
   - {name: 16-698-CN, server: aa01gg.sssyun.xyz, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: b5abc4c0-b518-4195-88b4-57900f16fb65, udp: true}
   - {name: 16-699-RELAY, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: a223af01-b481-4abf-a305-60d60587d1e4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/9TfVEyku, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -657,7 +657,6 @@ proxies:
   - {name: 16-702-SG, server: 4sgmax02.156786.xyz, port: 718, type: trojan, password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312, sni: 4sgmax02.156786.xyz, skip-cert-verify: true, udp: true}
   - {name: 16-703-TW, server: tw60.233235.xyz, port: 18298, type: trojan, password: cfa36789-94aa-4c4c-ad06-ab35a8eb9312, sni: usmax03.170203.xyz, skip-cert-verify: true, udp: true}
   - {name: 17-705-CN, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: 17-706-HKss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194443#14-696-US, server: 34710.crelay.org, port: 34710, type: ss, cipher: aes-128-gcm, password: a9294cae-282a-43a1-8c3f-867c8329c747, udp: true}
   - {name: 34-707-RELAY, server: 104.19.45.11, port: 8443, type: vmess, uuid: 39135a39-e6ca-43df-a360-d859eea58d86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-708-RELAY, server: 104.17.148.22, port: 2095, type: vmess, uuid: 3bc2168a-93f0-42f8-9a66-d8215bf01ab0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray?ed=2048"}, udp: true}
   - {name: 34-709-RELAY, server: 104.16.61.8, port: 2095, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws}, udp: true}
@@ -1282,9 +1281,9 @@ proxy-groups:
       - 14-689-RELAY
       - 14-690-RELAY
       - 14-691-RELAY
-      - 14-692-US
       - 14-693-RELAY
       - 14-694-RELAY
+      - 14-696-US
       - 16-697-CN
       - 16-698-CN
       - 16-699-RELAY
@@ -1293,7 +1292,6 @@ proxy-groups:
       - 16-702-SG
       - 16-703-TW
       - 17-705-CN
-      - 17-706-HKss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194443#14-696-US
       - 34-707-RELAY
       - 34-708-RELAY
       - 34-709-RELAY
@@ -1450,8 +1448,8 @@ proxy-groups:
       - 14-681-RELAY
       - 14-686-RELAY
       - 14-691-RELAY
+      - 14-696-US
       - 16-701-CN
-      - 17-706-HKss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194443#14-696-US
       - 34-711-RELAY
       - 34-716-RELAY
       - 34-721-RELAY
@@ -1579,7 +1577,6 @@ proxy-groups:
       - 14-677-RELAY
       - 14-682-RELAY
       - 14-687-RELAY
-      - 14-692-US
       - 16-697-CN
       - 16-702-SG
       - 34-707-RELAY
