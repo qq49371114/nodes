@@ -301,6 +301,7 @@ proxies:
   - {name: 04-245-CN, server: au-01.01-vip.top, port: 31019, type: trojan, password: 45e71218-3552-45aa-b745-f1d01b25d668, sni: au-01.v4vip.top, skip-cert-verify: true, udp: true}
   - {name: 04-246-JP, server: 52.198.230.68, port: 443, type: trojan, password: f537647c-4efe-3efb-8183-d4d595fb2bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-247-JP, server: 35.73.226.191, port: 443, type: trojan, password: f537647c-4efe-3efb-8183-d4d595fb2bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-248-US, server: 35.95.148.52, port: 443, type: trojan, password: f537647c-4efe-3efb-8183-d4d595fb2bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-249-US, server: 103.136.185.27, port: 5514, type: trojan, password: f537647c-4efe-3efb-8183-d4d595fb2bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-250-US, server: 103.136.185.28, port: 3504, type: trojan, password: f537647c-4efe-3efb-8183-d4d595fb2bc2, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-251-CN, server: gy.58n.net, port: 20301, type: trojan, password: 824ac722-e526-39c8-9e16-9f825932543d, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -466,30 +467,30 @@ proxies:
   - {name: 07-510-RELAY, server: www.visa.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: www.visa.com}}, udp: true}
   - {name: 07-511-CN, server: free.2weradf.xyz, port: 36641, type: ss, cipher: chacha20-ietf-poly1305, password: 9c472579-9b76-42dd-add9-f8c4223440e8, udp: true}
   - {name: 07-512-SG, server: 8e1fb0.zx.33cq.xyz, port: 55329, type: ss, cipher: aes-128-gcm, password: 107f4b4f-7888-4a49-b20e-86f26cda7625, udp: true}
-  - {name: 08-513-RELAY, server: 104.21.94.64, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 08-514-RELAY, server: 104.21.51.208, port: 80, type: vmess, uuid: cb4fca5f-edf8-415b-aa8f-ac52f415296a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0fpZFB6IbpNptGAxAtI0QM}, udp: true}
-  - {name: 08-515-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 33ae86a0-473d-11ef-a6cd-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws, headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 08-516-RELAY, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
-  - {name: 09-517-CN, server: sui.forlive.live, port: 40396, type: vmess, uuid: 545d58da-5cf4-4dd5-8760-353509720b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sui.forlive.live}}, udp: true}
-  - {name: 09-518-RELAY, server: www.teletrans.ro, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws/obdii.cfd, headers: {Host: www.teletrans.ro}}, udp: true}
-  - {name: 09-519-RELAY, server: nodejs.org, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: nodejs.org}}, udp: true}
-  - {name: 09-520-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
-  - {name: 09-521-RELAY, server: npmjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: npmjs.com}}, udp: true}
-  - {name: 09-522-FR, server: 5po1.09vpn.com, port: 80, type: vmess, uuid: 7bafda81-ac70-47ab-bf32-e7338f136186, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 5po1.09vpn.com}}, udp: true}
-  - {name: 09-523-RELAY, server: www.speedtest.net, port: 2052, type: vmess, uuid: 676063c4-6982-457c-888c-667743853bda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=1024", headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-524-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 5cae2e4e-d275-4c11-a141-e2ca9b99df68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telgram-bluevtowrayng?ed=16", headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-525-FASTLY, server: fastly.com, port: 80, type: vmess, uuid: d6de416e-351d-4138-822b-214cad4b2bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: fastly.com}}, udp: true}
-  - {name: 09-526-RELAY, server: www.speedtest.net, port: 2095, type: vmess, uuid: 8d568a38-ab77-45c8-b3bb-61b57d9e2b35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit?ed=2095", headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-527-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: fa1d73ef-560e-546d-b791-2290f153a92f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /TaHa-Is-ThE-BeSt-AstroVPN_Official, headers: {Host: zula.ir}}, udp: true}
-  - {name: 09-528-DE, server: 4ge1.09vpn.com, port: 80, type: vmess, uuid: b0500f4a-972d-4d2f-b788-4ac4d6d74ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 4ge1.09vpn.com}}, udp: true}
-  - {name: 09-529-RELAY, server: 172.67.204.84, port: 443, type: trojan, password: b8086e70-4d91-11ef-943e-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 09-530-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
-  - {name: 09-531-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
-  - {name: 09-532-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 29ab2315-f7d7-4468-8032-248a61056327, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-533-RELAY, server: zula.ir, port: 2052, type: vmess, uuid: 6dbb6c48-ff95-502a-a92d-4ca8189308f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: zula.ir}}, udp: true}
-  - {name: 09-534-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: feb555e2-2660-494e-899a-2bcecd516eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-535-RELAY, server: www.speedtest.net, port: 2095, type: vmess, uuid: 8d568a38-ab77-45c8-b3bb-61b57d9e2b35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit?ed=2095", headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-536-RELAY, server: www.speedtest.net, port: 2095, type: vmess, uuid: 8d568a38-ab77-45c8-b3bb-61b57d9e2b35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit?ed=2095", headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 08-513-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 08-514-RELAY, server: 104.21.94.64, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
+  - {name: 08-515-RELAY, server: 104.21.51.208, port: 80, type: vmess, uuid: cb4fca5f-edf8-415b-aa8f-ac52f415296a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0fpZFB6IbpNptGAxAtI0QM}, udp: true}
+  - {name: 09-516-CN, server: sui.forlive.live, port: 40396, type: vmess, uuid: 545d58da-5cf4-4dd5-8760-353509720b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sui.forlive.live}}, udp: true}
+  - {name: 09-517-RELAY, server: www.teletrans.ro, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws/obdii.cfd, headers: {Host: www.teletrans.ro}}, udp: true}
+  - {name: 09-518-RELAY, server: nodejs.org, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: nodejs.org}}, udp: true}
+  - {name: 09-519-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
+  - {name: 09-520-RELAY, server: npmjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: npmjs.com}}, udp: true}
+  - {name: 09-521-FR, server: 5po1.09vpn.com, port: 80, type: vmess, uuid: 7bafda81-ac70-47ab-bf32-e7338f136186, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 5po1.09vpn.com}}, udp: true}
+  - {name: 09-522-RELAY, server: www.speedtest.net, port: 2052, type: vmess, uuid: 676063c4-6982-457c-888c-667743853bda, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=1024", headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 09-523-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 5cae2e4e-d275-4c11-a141-e2ca9b99df68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telgram-bluevtowrayng?ed=16", headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 09-524-FASTLY, server: fastly.com, port: 80, type: vmess, uuid: d6de416e-351d-4138-822b-214cad4b2bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: fastly.com}}, udp: true}
+  - {name: 09-525-RELAY, server: www.speedtest.net, port: 2095, type: vmess, uuid: 8d568a38-ab77-45c8-b3bb-61b57d9e2b35, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit,Telegram-MainSecurit?ed=2095", headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 09-526-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: fa1d73ef-560e-546d-b791-2290f153a92f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /TaHa-Is-ThE-BeSt-AstroVPN_Official, headers: {Host: zula.ir}}, udp: true}
+  - {name: 09-527-DE, server: 4ge1.09vpn.com, port: 80, type: vmess, uuid: b0500f4a-972d-4d2f-b788-4ac4d6d74ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 4ge1.09vpn.com}}, udp: true}
+  - {name: 09-528-RELAY, server: 172.67.204.84, port: 443, type: trojan, password: b8086e70-4d91-11ef-943e-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 09-529-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
+  - {name: 09-530-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
+  - {name: 09-531-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 29ab2315-f7d7-4468-8032-248a61056327, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 09-532-RELAY, server: zula.ir, port: 2052, type: vmess, uuid: 6dbb6c48-ff95-502a-a92d-4ca8189308f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: zula.ir}}, udp: true}
+  - {name: 09-533-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: feb555e2-2660-494e-899a-2bcecd516eea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
+  - {name: 09-534-TR, server: irtr1.ngiftcard.com, port: 80, type: vmess, uuid: 7c7af2de-bb97-429f-ac3c-8ef849717491, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /34L4qODA1XwJYopk6e398A, headers: {Host: irtr1.ngiftcard.com}}, udp: true}
+  - {name: 09-535-RELAY, server: www.zula.ir, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.zula.ir}}, udp: true}
+  - {name: 09-536-RELAY, server: www.zula.ir, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.zula.ir}}, udp: true}
   - {name: 10-537-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-538-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
   - {name: 10-539-RELAY, server: 172.67.170.13, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
@@ -520,7 +521,7 @@ proxies:
   - {name: 12-564-RELAY, server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm}, udp: true}
   - {name: 12-565-RELAY, server: 162.159.130.208, port: 8080, type: vmess, uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm}, udp: true}
   - {name: 12-566-RELAY, server: 162.159.5.6, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm}, udp: true}
-  - {name: 12-567-JP, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, skip-cert-verify: true, udp: true}
+  - {name: 12-567-HK, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, skip-cert-verify: true, udp: true}
   - {name: 12-568-RELAY, server: russia.com, port: 8880, type: vmess, uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: russia.com}}, udp: true}
   - {name: 12-569-US, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: yh2.freeh1.xyz}}, udp: true}
   - {name: 12-570-CN, server: gcdddd0005.likeone.lol, port: 51031, type: trojan, password: b4411de3-a52d-45bd-8b17-8ffb9987cd37, sni: sg01.ckcloud.info, skip-cert-verify: true, udp: true}
@@ -684,7 +685,6 @@ proxies:
   - {name: 14-728-RELAY, server: denc36.xtooltech.cfd, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: denc36.xtooltech.cfd}}, udp: true}
   - {name: 14-729-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 14-730-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-731-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-732-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-734-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-735-CN, server: mmhk01.micloud.buzz, port: 46001, type: vmess, uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmhk01.micloud.buzz}}, udp: true}
@@ -692,7 +692,6 @@ proxies:
   - {name: 16-737-CN, server: f10002.flyflylflyflysbs.sbs, port: 29496, type: trojan, password: 4bd14bdb-db19-4de4-a452-58b897046d2c, sni: jp01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 16-738-CN, server: mmsg16.micloud.buzz, port: 46016, type: vmess, uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmsg16.micloud.buzz}}, udp: true}
   - {name: 17-740-CN, server: kr1.mhw7e2.online, port: 20019, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
-  - {name: "17-741-HKtrojan//f537647c-4efe-3efb-8183-d4d595fb2bc2@35.95.148.52443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-248-US", server: 34710.crelay.org, port: 34710, type: ss, cipher: aes-128-gcm, password: a9294cae-282a-43a1-8c3f-867c8329c747, udp: true}
   - {name: 34-742-RELAY, server: 104.19.45.11, port: 8443, type: vmess, uuid: 39135a39-e6ca-43df-a360-d859eea58d86, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 34-743-RELAY, server: 104.17.148.22, port: 2095, type: vmess, uuid: 3bc2168a-93f0-42f8-9a66-d8215bf01ab0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray-Telegram-Mainv2ray?ed=2048"}, udp: true}
   - {name: 34-744-RELAY, server: 104.16.61.8, port: 2095, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ivideos.sbs/linkws}, udp: true}
@@ -964,6 +963,7 @@ proxy-groups:
       - 04-245-CN
       - 04-246-JP
       - 04-247-JP
+      - 04-248-US
       - 04-249-US
       - 04-250-US
       - 04-251-CN
@@ -1132,25 +1132,25 @@ proxy-groups:
       - 08-513-RELAY
       - 08-514-RELAY
       - 08-515-RELAY
-      - 08-516-RELAY
-      - 09-517-CN
+      - 09-516-CN
+      - 09-517-RELAY
       - 09-518-RELAY
       - 09-519-RELAY
       - 09-520-RELAY
-      - 09-521-RELAY
-      - 09-522-FR
+      - 09-521-FR
+      - 09-522-RELAY
       - 09-523-RELAY
-      - 09-524-RELAY
-      - 09-525-FASTLY
+      - 09-524-FASTLY
+      - 09-525-RELAY
       - 09-526-RELAY
-      - 09-527-RELAY
-      - 09-528-DE
+      - 09-527-DE
+      - 09-528-RELAY
       - 09-529-RELAY
-      - 09-530-RELAY
-      - 09-531-HK
+      - 09-530-HK
+      - 09-531-RELAY
       - 09-532-RELAY
       - 09-533-RELAY
-      - 09-534-RELAY
+      - 09-534-TR
       - 09-535-RELAY
       - 09-536-RELAY
       - 10-537-RELAY
@@ -1183,7 +1183,7 @@ proxy-groups:
       - 12-564-RELAY
       - 12-565-RELAY
       - 12-566-RELAY
-      - 12-567-JP
+      - 12-567-HK
       - 12-568-RELAY
       - 12-569-US
       - 12-570-CN
@@ -1347,7 +1347,6 @@ proxy-groups:
       - 14-728-RELAY
       - 14-729-RELAY
       - 14-730-RELAY
-      - 14-731-US
       - 14-732-RELAY
       - 14-734-US
       - 16-735-CN
@@ -1355,7 +1354,6 @@ proxy-groups:
       - 16-737-CN
       - 16-738-CN
       - 17-740-CN
-      - 17-741-HKtrojan//f537647c-4efe-3efb-8183-d4d595fb2bc2@35.95.148.52443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-248-US
       - 34-742-RELAY
       - 34-743-RELAY
       - 34-744-RELAY
@@ -1467,10 +1465,10 @@ proxy-groups:
       - 07-501-SG
       - 07-506-SG
       - 07-511-CN
-      - 08-516-RELAY
-      - 09-521-RELAY
+      - 09-516-CN
+      - 09-521-FR
       - 09-526-RELAY
-      - 09-531-HK
+      - 09-531-RELAY
       - 09-536-RELAY
       - 10-541-RELAY
       - 10-546-RELAY
@@ -1510,9 +1508,7 @@ proxy-groups:
       - 14-716-RELAY
       - 14-721-RELAY
       - 14-726-RELAY
-      - 14-731-US
       - 16-736-CN
-      - 17-741-HKtrojan//f537647c-4efe-3efb-8183-d4d595fb2bc2@35.95.148.52443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-248-US
       - 34-746-RELAY
       - 34-751-RELAY
   - name: 测速2分组
@@ -1603,9 +1599,9 @@ proxy-groups:
       - 07-502-SG
       - 07-507-US
       - 07-512-SG
-      - 09-517-CN
-      - 09-522-FR
-      - 09-527-RELAY
+      - 09-517-RELAY
+      - 09-522-RELAY
+      - 09-527-DE
       - 09-532-RELAY
       - 10-537-RELAY
       - 10-542-RELAY
@@ -1613,7 +1609,7 @@ proxy-groups:
       - 12-552-RELAY
       - 12-557-RELAY
       - 12-562-US
-      - 12-567-JP
+      - 12-567-HK
       - 12-572-CN
       - 12-577-CN
       - 12-582-CN
@@ -1705,6 +1701,7 @@ proxy-groups:
       - 04-233-CN
       - 04-238-CN
       - 04-243-CN
+      - 04-248-US
       - 04-253-CN
       - 04-258-CN
       - 04-263-CN
@@ -1741,7 +1738,7 @@ proxy-groups:
       - 08-513-RELAY
       - 09-518-RELAY
       - 09-523-RELAY
-      - 09-528-DE
+      - 09-528-RELAY
       - 09-533-RELAY
       - 10-538-RELAY
       - 10-543-RELAY
@@ -1783,7 +1780,6 @@ proxy-groups:
       - 14-723-RELAY
       - 14-728-RELAY
       - 16-738-CN
-      - 17-741-HKtrojan//f537647c-4efe-3efb-8183-d4d595fb2bc2@35.95.148.52443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-248-US
       - 34-743-RELAY
       - 34-748-RELAY
       - 34-753-RELAY
@@ -1876,9 +1872,9 @@ proxy-groups:
       - 07-504-RELAY
       - 08-514-RELAY
       - 09-519-RELAY
-      - 09-524-RELAY
+      - 09-524-FASTLY
       - 09-529-RELAY
-      - 09-534-RELAY
+      - 09-534-TR
       - 10-539-RELAY
       - 10-544-RELAY
       - 12-549-RELAY
@@ -2012,8 +2008,8 @@ proxy-groups:
       - 07-510-RELAY
       - 08-515-RELAY
       - 09-520-RELAY
-      - 09-525-FASTLY
-      - 09-530-RELAY
+      - 09-525-RELAY
+      - 09-530-HK
       - 09-535-RELAY
       - 10-540-RELAY
       - 10-545-RELAY
