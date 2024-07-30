@@ -60,6 +60,7 @@ proxies:
   - {name: 03-003-RELAY, server: 104.19.46.63, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 03-004-RELAY, server: 141.101.114.40, port: 80, type: vmess, uuid: 5d214f53-1332-449f-ad0e-0a1888ef5479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 03-005-RELAY, server: 104.19.21.230, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: 03-006-SG, server: 128.199.205.191, port: 10173, type: vmess, uuid: 20cf26c8-873f-4fa7-9f75-df429b54194f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None}, udp: true}
   - {name: 03-007-RELAY, server: 104.17.147.22, port: 80, type: vmess, uuid: 3e5cda0a-6122-4f54-9e3c-3f49e7a526f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-008-RELAY, server: 104.19.59.99, port: 2052, type: vmess, uuid: d6b6d982-d52f-465a-b988-85670b23f64a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 03-009-RELAY, server: 104.19.45.17, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -710,7 +711,6 @@ proxies:
   - {name: 16-755-SG, server: hk02.51feitu.com, port: 29802, type: ss, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true}
   - {name: 16-756-HK, server: tw01.51feitu.com, port: 28111, type: ss, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true}
   - {name: 16-757-CN, server: gg01.6bnw.top, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: b0549224-831d-4cba-bab9-94fdc6a1327e, udp: true}
-  - {name: 16-758-JP, server: jp04.51feitu.com, port: 39104, type: ss, cipher: chacha20-ietf-poly1305, password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841, udp: true}
   - {name: 16-759-RELAY, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: e093ca94-9890-4b06-8384-08572c5d3215, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/3YKfzGw4, headers: {Host: cfcdn2.sanfencdn9.com}}, udp: true}
   - {name: 16-760-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: e093ca94-9890-4b06-8384-08572c5d3215, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/DDC4btA8wc/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 17-761-CA, server: 23.162.200.94, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -771,6 +771,7 @@ proxy-groups:
       - 03-003-RELAY
       - 03-004-RELAY
       - 03-005-RELAY
+      - 03-006-SG
       - 03-007-RELAY
       - 03-008-RELAY
       - 03-009-RELAY
@@ -1421,7 +1422,6 @@ proxy-groups:
       - 16-755-SG
       - 16-756-HK
       - 16-757-CN
-      - 16-758-JP
       - 16-759-RELAY
       - 16-760-RELAY
       - 17-761-CA
@@ -1482,6 +1482,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 03-001-RELAY
+      - 03-006-SG
       - 03-011-RELAY
       - 03-016-RELAY
       - 03-021-CN
@@ -1903,7 +1904,6 @@ proxy-groups:
       - 14-738-RELAY
       - 14-743-DE
       - 16-753-CN
-      - 16-758-JP
       - 17-763-CN
       - 17-768-GB
       - 17-773-NL
