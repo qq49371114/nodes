@@ -483,6 +483,7 @@ proxies:
   - {name: 08-524-RELAY, server: 188.114.97.3, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-525-RELAY, server: 104.21.94.64, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-526-RELAY, server: 104.21.51.208, port: 80, type: vmess, uuid: cb4fca5f-edf8-415b-aa8f-ac52f415296a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /0fpZFB6IbpNptGAxAtI0QM}, udp: true}
+  - {name: 09-527-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 09-528-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
   - {name: 09-529-IR, server: rmm.rmacap.ir, port: 8080, type: vmess, uuid: 4335e9c9-bfc0-44a4-bf40-337f966b0fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rmm.rmacap.ir}}, udp: true}
   - {name: 09-530-IR, server: rmm.rmacap.ir, port: 8084, type: vmess, uuid: 4335e9c9-bfc0-44a4-bf40-337f966b0fea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rmm.rmacap.ir}}, udp: true}
@@ -711,7 +712,6 @@ proxies:
   - {name: 14-753-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-755-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-756-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-757-RELAY, server: jp.rnmcnm.com, port: 443, type: vmess, uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmcnm.com}}, udp: true}
   - {name: 14-758-RELAY, server: 104.19.45.179, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-760-CN, server: 36.139.157.1, port: 10599, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23, udp: true}
   - {name: 16-761-CN, server: hkp11.network-cdn-gw.cc, port: 48810, type: ss, cipher: chacha20-ietf-poly1305, password: 3293037f-210e-4f64-8542-2af0141b8d43, udp: true}
@@ -1195,6 +1195,7 @@ proxy-groups:
       - 08-524-RELAY
       - 08-525-RELAY
       - 08-526-RELAY
+      - 09-527-RELAY
       - 09-528-HK
       - 09-529-IR
       - 09-530-IR
@@ -1423,7 +1424,6 @@ proxy-groups:
       - 14-753-RELAY
       - 14-755-RELAY
       - 14-756-RELAY
-      - 14-757-RELAY
       - 14-758-RELAY
       - 16-760-CN
       - 16-761-CN
@@ -1716,6 +1716,7 @@ proxy-groups:
       - 06-512-RELAY
       - 06-517-RELAY
       - 07-522-HK
+      - 09-527-RELAY
       - 09-532-CN
       - 09-537-RELAY
       - 09-542-RELAY
@@ -1761,7 +1762,6 @@ proxy-groups:
       - 14-742-RELAY
       - 14-747-RELAY
       - 14-752-RELAY
-      - 14-757-RELAY
       - 16-762-CN
       - 17-767-CN
       - 17-772-FR
