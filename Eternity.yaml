@@ -494,7 +494,6 @@ proxies:
   - {name: 09-535-RELAY, server: russia.com, port: 8080, type: vmess, uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: None, headers: {Host: russia.com}}, udp: true}
   - {name: 09-536-CN, server: sui.forlive.live, port: 40396, type: vmess, uuid: 545d58da-5cf4-4dd5-8760-353509720b0a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sui.forlive.live}}, udp: true}
   - {name: 09-537-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: ec26b10b-b8d8-4883-bbdc-da4f6a267c28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
-  - {name: 09-538-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-539-RELAY, server: server31.beheshtbaneh.com, port: 8880, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
   - {name: 09-540-RELAY, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
   - {name: 09-541-RELAY, server: pandor.boats, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: pandor.boats}}, udp: true}
@@ -703,6 +702,7 @@ proxies:
   - {name: 14-744-RELAY, server: 104.19.45.228, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-746-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-747-RELAY, server: 104.19.45.232, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 14-748-RELAY, server: jp.rnmcnm.com, port: 443, type: vmess, uuid: 5662718f-e3e6-4a96-ca43-2394219cfb47, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp.rnmcnm.com}}, udp: true}
   - {name: 14-749-RELAY, server: 104.19.45.179, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-751-CN, server: 36.139.157.1, port: 10599, type: ss, cipher: chacha20-ietf-poly1305, password: bfc552e8-2607-4386-9c90-81437ac5ba23, udp: true}
   - {name: 16-752-CN, server: hkp11.network-cdn-gw.cc, port: 48810, type: ss, cipher: chacha20-ietf-poly1305, password: 3293037f-210e-4f64-8542-2af0141b8d43, udp: true}
@@ -1197,7 +1197,6 @@ proxy-groups:
       - 09-535-RELAY
       - 09-536-CN
       - 09-537-RELAY
-      - 09-538-RELAY
       - 09-539-RELAY
       - 09-540-RELAY
       - 09-541-RELAY
@@ -1406,6 +1405,7 @@ proxy-groups:
       - 14-744-RELAY
       - 14-746-RELAY
       - 14-747-RELAY
+      - 14-748-RELAY
       - 14-749-RELAY
       - 16-751-CN
       - 16-752-CN
@@ -1842,7 +1842,6 @@ proxy-groups:
       - 07-523-CN
       - 09-528-HK
       - 09-533-RELAY
-      - 09-538-RELAY
       - 09-543-RELAY
       - 09-548-RELAY
       - 09-553-RELAY
@@ -1884,6 +1883,7 @@ proxy-groups:
       - 14-733-RELAY
       - 14-738-RELAY
       - 14-743-RELAY
+      - 14-748-RELAY
       - 16-753-CN
       - 17-758-CN
       - 17-763-FR
