@@ -287,6 +287,7 @@ proxies:
   - {name: 03-230-RELAY, server: 104.19.38.12, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 04-231-JP, server: 52.198.230.68, port: 443, type: trojan, password: ccc031ea-ab80-37de-b682-feb56ba4c3dd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-232-JP, server: 35.73.226.191, port: 443, type: trojan, password: ccc031ea-ab80-37de-b682-feb56ba4c3dd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-233-US, server: 52.89.152.118, port: 443, type: trojan, password: ccc031ea-ab80-37de-b682-feb56ba4c3dd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-234-US, server: 103.136.185.27, port: 5514, type: trojan, password: ccc031ea-ab80-37de-b682-feb56ba4c3dd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-235-US, server: 103.136.185.28, port: 3504, type: trojan, password: ccc031ea-ab80-37de-b682-feb56ba4c3dd, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-236-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: fe4167c8-1198-3f36-85ea-435172862533, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -663,7 +664,6 @@ proxies:
   - {name: 14-706-RELAY, server: 104.19.45.139, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-707-RELAY, server: 104.19.45.154, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-708-RELAY, server: 104.19.45.108, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-709-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-710-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-711-RELAY, server: 104.19.45.179, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-712-RELAY, server: icook.tw, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: icook.tw}}, udp: true}
@@ -990,6 +990,7 @@ proxy-groups:
       - 03-230-RELAY
       - 04-231-JP
       - 04-232-JP
+      - 04-233-US
       - 04-234-US
       - 04-235-US
       - 04-236-CN
@@ -1366,7 +1367,6 @@ proxy-groups:
       - 14-706-RELAY
       - 14-707-RELAY
       - 14-708-RELAY
-      - 14-709-US
       - 14-710-RELAY
       - 14-711-RELAY
       - 14-712-RELAY
@@ -1799,6 +1799,7 @@ proxy-groups:
       - 03-218-RELAY
       - 03-223-RELAY
       - 03-228-RELAY
+      - 04-233-US
       - 04-238-CN
       - 04-243-CN
       - 04-248-RELAY
@@ -2017,7 +2018,6 @@ proxy-groups:
       - 13-694-RELAY
       - 14-699-RELAY
       - 14-704-RELAY
-      - 14-709-US
       - 14-714-RELAY
       - 16-719-RELAY
       - 16-724-RELAY
