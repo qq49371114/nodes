@@ -460,7 +460,6 @@ proxies:
   - {name: 09-501-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 09-502-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/P7EExoE2, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
   - {name: 09-503-RELAY, server: 172.67.204.84, port: 443, type: trojan, password: 9b1df370-52b9-11ef-bd4f-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 09-504-RELAY, server: sareikela.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true}
   - {name: 09-505-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /T, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-506-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-507-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 3c960eed-1e3f-4f28-9378-e05df12a263b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
@@ -470,6 +469,7 @@ proxies:
   - {name: 09-511-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 09-512-RELAY, server: baradiha.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: baradiha.com}}, udp: true}
   - {name: 09-513-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
+  - {name: 09-514-RELAY, server: harriscity.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: harriscity.com}}, udp: true}
   - {name: 09-515-US, server: slime-rhinestone-spy.glitch.me, port: 80, type: vmess, uuid: 1d5fb496-19fb-48fb-9880-a147326dee62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1d5fb496-19fb-48fb-9880-a147326dee62-vmess, headers: {Host: slime-rhinestone-spy.glitch.me}}, udp: true}
   - {name: 09-516-US, server: us.eaxeg.be, port: 80, type: vmess, uuid: ec451354-ad9c-4a01-9c93-5dbb9409623d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /5k7oCLn871DU5O2ONZ6a2i, headers: {Host: us.eaxeg.be}}, udp: true}
   - {name: 09-517-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 4488a2d9-373b-4075-83f3-f2dc2b658baa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
@@ -1142,7 +1142,6 @@ proxy-groups:
       - 09-501-RELAY
       - 09-502-RELAY
       - 09-503-RELAY
-      - 09-504-RELAY
       - 09-505-RELAY
       - 09-506-RELAY
       - 09-507-RELAY
@@ -1152,6 +1151,7 @@ proxy-groups:
       - 09-511-RELAY
       - 09-512-RELAY
       - 09-513-RELAY
+      - 09-514-RELAY
       - 09-515-US
       - 09-516-US
       - 09-517-RELAY
@@ -1922,8 +1922,8 @@ proxy-groups:
       - 09-489-RELAY
       - 09-494-RELAY
       - 09-499-NOWHERE
-      - 09-504-RELAY
       - 09-509-RELAY
+      - 09-514-RELAY
       - 09-519-US
       - 10-524-RELAY
       - 12-529-RELAY
