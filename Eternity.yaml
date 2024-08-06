@@ -564,6 +564,7 @@ proxies:
   - {name: 07-605-KR, server: krnode02.oportal.cc, port: 443, type: trojan, password: 40cac3a3-5691-4873-8ed7-5ca184f8d302, skip-cert-verify: true, udp: true}
   - {name: 08-606-RELAY, server: 172.67.219.194, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-607-RELAY, server: 162.159.129.129, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us1}, udp: true}
+  - {name: 09-608-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-609-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: fd43c7a9-19f7-4c3a-88e2-eaac77e08d42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-610-RELAY, server: c1.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 9b5ea917-67fc-45b2-8ae2-b7da679e20ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c1.v2raybrasil.cloud}}, udp: true}
   - {name: 09-611-RELAY, server: www.speedtest.net, port: 2083, type: vmess, uuid: 68c84765-5d67-44c4-86e4-72bec260a0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vppn_store?ed=80", headers: {Host: www.speedtest.net}}, udp: true}
@@ -746,7 +747,6 @@ proxies:
   - {name: 14-789-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-790-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-791-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
-  - {name: 14-792-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-793-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
   - {name: 14-794-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-795-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
@@ -1355,6 +1355,7 @@ proxy-groups:
       - 07-605-KR
       - 08-606-RELAY
       - 08-607-RELAY
+      - 09-608-RELAY
       - 09-609-RELAY
       - 09-610-RELAY
       - 09-611-RELAY
@@ -1537,7 +1538,6 @@ proxy-groups:
       - 14-789-RELAY
       - 14-790-RELAY
       - 14-791-RELAY
-      - 14-792-RELAY
       - 14-793-RELAY
       - 14-794-RELAY
       - 14-795-RELAY
@@ -1940,7 +1940,6 @@ proxy-groups:
       - 13-777-NOWHERE
       - 13-782-RELAY
       - 14-787-RELAY
-      - 14-792-RELAY
       - 14-797-RELAY
       - 14-802-RELAY
       - 14-807-RELAY
@@ -2064,6 +2063,7 @@ proxy-groups:
       - 07-593-RELAY
       - 07-598-RELAY
       - 07-603-KR
+      - 09-608-RELAY
       - 09-613-RELAY
       - 09-618-RELAY
       - 12-623-RELAY
