@@ -617,6 +617,7 @@ proxies:
   - {name: 09-658-NOWHERE, server: server32.beheshtbaneh.com, port: 8880, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
   - {name: 09-659-RELAY, server: pandor.boats, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: pandor.boats}}, udp: true}
   - {name: 09-660-RELAY, server: cdnjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: cdnjs.com}}, udp: true}
+  - {name: 09-661-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
   - {name: 09-662-RELAY, server: npmjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: npmjs.com}}, udp: true}
   - {name: 09-663-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-664-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /T, headers: {Host: zula.ir}}, udp: true}
@@ -624,7 +625,6 @@ proxies:
   - {name: 09-666-RELAY, server: cdn.anymath.ir, port: 80, type: vmess, uuid: ce1348cd-9534-4aa6-d5b9-3fc2deebd944, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: cdn.anymath.ir}}, udp: true}
   - {name: 09-667-RELAY, server: zula.ir, port: 80, type: vmess, uuid: ce1348cd-9534-4aa6-d5b9-3fc2deebd944, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-668-RELAY, server: cdn.anymath.ir, port: 80, type: vmess, uuid: 3fee0930-e510-4027-d7d2-20fbd74b5eb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: cdn.anymath.ir}}, udp: true}
-  - {name: 09-669-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-670-RELAY, server: sareikela.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true}
   - {name: 09-671-RU, server: 22.lwdh.us, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 22.lwdh.us}}, udp: true}
   - {name: 09-672-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /XSjeg73o6ZdsheahCb5JG, headers: {Host: www.speedtest.net}}, udp: true}
@@ -1449,6 +1449,7 @@ proxy-groups:
       - 09-658-NOWHERE
       - 09-659-RELAY
       - 09-660-RELAY
+      - 09-661-RELAY
       - 09-662-RELAY
       - 09-663-RELAY
       - 09-664-RELAY
@@ -1456,7 +1457,6 @@ proxy-groups:
       - 09-666-RELAY
       - 09-667-RELAY
       - 09-668-RELAY
-      - 09-669-RELAY
       - 09-670-RELAY
       - 09-671-RU
       - 09-672-RELAY
@@ -1835,6 +1835,7 @@ proxy-groups:
       - 09-646-NOWHERE
       - 09-651-RELAY
       - 09-656-HK
+      - 09-661-RELAY
       - 09-666-RELAY
       - 09-671-RU
       - 10-676-RELAY
@@ -2344,7 +2345,6 @@ proxy-groups:
       - 09-654-RELAY
       - 09-659-RELAY
       - 09-664-RELAY
-      - 09-669-RELAY
       - 10-674-RELAY
       - 12-679-RELAY
       - 12-684-RELAY
