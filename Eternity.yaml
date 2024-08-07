@@ -500,7 +500,6 @@ proxies:
   - {name: 07-542-RELAY, server: 104.19.44.174, port: 8080, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048"}, udp: true}
   - {name: 08-543-RELAY, server: 172.67.219.194, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-544-RELAY, server: 162.159.129.129, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us1}, udp: true}
-  - {name: 09-545-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 09-546-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: fd43c7a9-19f7-4c3a-88e2-eaac77e08d42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn", headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-547-RELAY, server: c1.v2raybrasil.cloud, port: 2082, type: vmess, uuid: 9b5ea917-67fc-45b2-8ae2-b7da679e20ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c1.v2raybrasil.cloud}}, udp: true}
   - {name: 09-548-RELAY, server: www.speedtest.net, port: 2083, type: vmess, uuid: 68c84765-5d67-44c4-86e4-72bec260a0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/@vppn_store?ed=80", headers: {Host: www.speedtest.net}}, udp: true}
@@ -510,6 +509,7 @@ proxies:
   - {name: 09-552-KZ, server: 3h-kazakhstan1.09vpn.com, port: 80, type: vmess, uuid: 61c3f270-34e8-4345-b6d9-1268528f99f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: 3h-kazakhstan1.09vpn.com}}, udp: true}
   - {name: 09-553-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
   - {name: 09-554-RELAY, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 823b4a45-8728-425b-abb4-2d9ea30fd61e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: cfcdn2.sanfencdn9.com}}, udp: true}
+  - {name: 09-555-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 09-556-RELAY, server: cdnjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: cdnjs.com}}, udp: true}
   - {name: 09-557-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-558-RELAY, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 0921f18e-db32-4c07-939b-4388673bfe59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/P7EExoE2, headers: {Host: cfcdn3.sanfencdn9.com}}, udp: true}
@@ -1217,7 +1217,6 @@ proxy-groups:
       - 07-542-RELAY
       - 08-543-RELAY
       - 08-544-RELAY
-      - 09-545-RELAY
       - 09-546-RELAY
       - 09-547-RELAY
       - 09-548-RELAY
@@ -1227,6 +1226,7 @@ proxy-groups:
       - 09-552-KZ
       - 09-553-HK
       - 09-554-RELAY
+      - 09-555-RELAY
       - 09-556-RELAY
       - 09-557-RELAY
       - 09-558-RELAY
@@ -2168,8 +2168,8 @@ proxy-groups:
       - 07-530-US
       - 07-535-RELAY
       - 07-540-KR
-      - 09-545-RELAY
       - 09-550-RELAY
+      - 09-555-RELAY
       - 09-560-CN
       - 09-565-FASTLY
       - 10-570-RELAY
