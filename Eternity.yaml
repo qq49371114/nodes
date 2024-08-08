@@ -491,6 +491,7 @@ proxies:
   - {name: 08-532-RELAY, server: 172.67.219.194, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 08-533-RELAY, server: 162.159.129.129, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /us1}, udp: true}
   - {name: 09-534-RELAY, server: 104.21.69.44, port: 443, type: trojan, password: dd5527f0-5522-11ef-8fdc-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 09-535-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-536-RELAY, server: pandor.boats, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: pandor.boats}}, udp: true}
   - {name: 09-537-RELAY, server: www.zula.ir, port: 2082, type: vmess, uuid: 3ebb57a2-ee3f-4487-b082-53ea061f03a2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: www.zula.ir}}, udp: true}
   - {name: 09-538-RELAY, server: ctel.dargah.network, port: 80, type: vmess, uuid: 2ced7332-31d2-4b62-b098-fb31ea120359, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/navigate/tr?ed=1048", headers: {Host: ctel.dargah.network}}, udp: true}
@@ -675,7 +676,6 @@ proxies:
   - {name: 14-717-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-718-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-719-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
-  - {name: 14-720-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-721-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-722-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
   - {name: 14-723-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
@@ -1207,6 +1207,7 @@ proxy-groups:
       - 08-532-RELAY
       - 08-533-RELAY
       - 09-534-RELAY
+      - 09-535-RELAY
       - 09-536-RELAY
       - 09-537-RELAY
       - 09-538-RELAY
@@ -1391,7 +1392,6 @@ proxy-groups:
       - 14-717-RELAY
       - 14-718-RELAY
       - 14-719-RELAY
-      - 14-720-RELAY
       - 14-721-RELAY
       - 14-722-RELAY
       - 14-723-RELAY
@@ -2163,6 +2163,7 @@ proxy-groups:
       - 07-520-RELAY
       - 07-525-RELAY
       - 07-530-RELAY
+      - 09-535-RELAY
       - 09-540-RELAY
       - 10-545-RELAY
       - 12-550-RELAY
@@ -2199,7 +2200,6 @@ proxy-groups:
       - 13-705-NOWHERE
       - 13-710-RELAY
       - 14-715-RELAY
-      - 14-720-RELAY
       - 14-725-RELAY
       - 14-730-RELAY
       - 16-735-CN
