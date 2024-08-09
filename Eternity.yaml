@@ -427,7 +427,6 @@ proxies:
   - {name: 07-468-RELAY, server: 141.101.114.40, port: 80, type: vmess, uuid: 5d214f53-1332-449f-ad0e-0a1888ef5479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}, udp: true}
   - {name: 07-469-KR, server: krnode02.oportal.cc, port: 443, type: trojan, password: 2a706bc6-303d-4589-90b9-1779de85d081, skip-cert-verify: true, udp: true}
   - {name: 09-470-HK, server: hrgdvpn.flycdnedc55.vip, port: 80, type: vmess, uuid: 00a1da14-d55f-5f75-e346-79b985e1a723, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /opt/video/images, headers: {Host: hrgdvpn.flycdnedc55.vip}}, udp: true}
-  - {name: 09-471-RELAY, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 09-472-CN, server: mmus36.micloud.buzz, port: 46036, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmus36.micloud.buzz}}, udp: true}
   - {name: 09-473-RELAY, server: www.speedtest.net, port: 8880, type: vmess, uuid: dc9e5e87-6fe9-4361-ac45-42fb6c948dd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 09-474-US, server: us-21.hihu.net, port: 80, type: vmess, uuid: c2abd9c0-561c-11ef-b132-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kqfnrgvc, headers: {Host: us-21.hihu.net}}, udp: true}
@@ -435,6 +434,7 @@ proxies:
   - {name: 09-476-RU, server: 22.lwdh.us, port: 12910, type: vmess, uuid: 8259cb1c-dd6c-4739-9c88-af550d977525, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 22.lwdh.us}}, udp: true}
   - {name: 09-477-RELAY, server: cdn.anymath.ir, port: 80, type: vmess, uuid: 6bb59380-6989-4d91-a7ec-3c2f055f07d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: cdn.anymath.ir}}, udp: true}
   - {name: 09-478-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 6bb59380-6989-4d91-a7ec-3c2f055f07d9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: zula.ir}}, udp: true}
+  - {name: 09-479-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 09-480-FR, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddsz.cfd}}, udp: true}
   - {name: 10-481-RELAY, server: 104.21.15.36, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 10-482-RELAY, server: afrhms16v.bestxray.buzz, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms16v.bestxray.buzz}}, udp: true}
@@ -1101,7 +1101,6 @@ proxy-groups:
       - 07-468-RELAY
       - 07-469-KR
       - 09-470-HK
-      - 09-471-RELAY
       - 09-472-CN
       - 09-473-RELAY
       - 09-474-US
@@ -1109,6 +1108,7 @@ proxy-groups:
       - 09-476-RU
       - 09-477-RELAY
       - 09-478-RELAY
+      - 09-479-RELAY
       - 09-480-FR
       - 10-481-RELAY
       - 10-482-RELAY
@@ -1481,7 +1481,6 @@ proxy-groups:
       - 07-456-JP
       - 07-461-RELAY
       - 07-466-RELAY
-      - 09-471-RELAY
       - 09-476-RU
       - 10-481-RELAY
       - 12-486-RELAY
@@ -1897,6 +1896,7 @@ proxy-groups:
       - 07-464-RELAY
       - 07-469-KR
       - 09-474-US
+      - 09-479-RELAY
       - 10-484-RELAY
       - 12-489-US
       - 12-494-RELAY
