@@ -677,8 +677,8 @@ proxies:
   - {name: 14-719-RELAY, server: 104.19.45.34, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-720-RELAY, server: russia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: russia.com}}, udp: true}
   - {name: 14-721-RELAY, server: 104.19.45.176, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 14-722-RELAY, server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true}
   - {name: 14-723-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
-  - {name: 14-724-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 14-725-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-726-CN, server: gg01.6bnw.top, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 01479b69-268a-4900-854f-83737c5e34fc, udp: true}
   - {name: 16-727-CN, server: aa01gg.sssyun.xyz, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: 01479b69-268a-4900-854f-83737c5e34fc, udp: true}
@@ -1390,8 +1390,8 @@ proxy-groups:
       - 14-719-RELAY
       - 14-720-RELAY
       - 14-721-RELAY
+      - 14-722-RELAY
       - 14-723-RELAY
-      - 14-724-RELAY
       - 14-725-US
       - 16-726-CN
       - 16-727-CN
@@ -1755,6 +1755,7 @@ proxy-groups:
       - 13-707-RELAY
       - 14-712-RELAY
       - 14-717-RELAY
+      - 14-722-RELAY
       - 16-727-CN
       - 17-732-CN
       - 17-737-CN
@@ -2046,7 +2047,6 @@ proxy-groups:
       - 14-709-EC
       - 14-714-RELAY
       - 14-719-RELAY
-      - 14-724-RELAY
       - 16-729-CN
       - 17-734-CN
       - 17-739-CN
