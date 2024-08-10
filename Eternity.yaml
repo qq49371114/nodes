@@ -654,6 +654,7 @@ proxies:
   - {name: 14-695-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-696-RELAY, server: 104.19.45.165, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-697-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
+  - {name: 14-698-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-699-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-700-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
   - {name: 14-701-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
@@ -663,7 +664,6 @@ proxies:
   - {name: 14-706-RELAY, server: icook.tw, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: icook.tw}}, udp: true}
   - {name: 14-707-RELAY, server: 104.19.45.176, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-708-RELAY, server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true}
-  - {name: 14-709-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
   - {name: 14-710-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 14-711-RELAY, server: malaysia.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: malaysia.com}}, udp: true}
   - {name: 14-712-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
@@ -1351,6 +1351,7 @@ proxy-groups:
       - 14-695-RELAY
       - 14-696-RELAY
       - 14-697-RELAY
+      - 14-698-RELAY
       - 14-699-RELAY
       - 14-700-RELAY
       - 14-701-RELAY
@@ -1360,7 +1361,6 @@ proxy-groups:
       - 14-706-RELAY
       - 14-707-RELAY
       - 14-708-RELAY
-      - 14-709-RELAY
       - 14-710-RELAY
       - 14-711-RELAY
       - 14-712-US
@@ -1858,6 +1858,7 @@ proxy-groups:
       - 13-683-NOWHERE
       - 13-688-RELAY
       - 14-693-RELAY
+      - 14-698-RELAY
       - 14-708-RELAY
       - 16-713-CN
       - 16-718-CN
@@ -2001,7 +2002,6 @@ proxy-groups:
       - 14-694-EC
       - 14-699-RELAY
       - 14-704-RELAY
-      - 14-709-RELAY
       - 16-714-CN
       - 17-719-CN
       - 17-724-CN
