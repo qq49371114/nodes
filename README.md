@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `642`
+高速节点数量: `641`
 <details>
   <summary>展开复制节点</summary>
 
@@ -603,7 +603,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjcwLVJFTEFZIiwiYWRkIjoiby5tZXR1amkuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0Ijoiby5tZXR1amkuY29tIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjcxLVJFTEFZIiwiYWRkIjoibWUua2FsYWthdGhhLm9yZyIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6Im1lLmthbGFrYXRoYS5vcmciLCJ0bHMiOiJ0bHMifQ==
     ss://YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@184.170.241.194:443#14-672-US
-    ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@34.219.130.214:443#14-673-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTMzNjZlMC0yMGI4LTRkNWQtYmU1ZC05ODgzMTdlMDg2Yzc@gg01.6bnw.top:40023#16-674-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTMzNjZlMC0yMGI4LTRkNWQtYmU1ZC05ODgzMTdlMDg2Yzc@aa01gg.sssyun.xyz:19527#16-675-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTMzNjZlMC0yMGI4LTRkNWQtYmU1ZC05ODgzMTdlMDg2Yzc@aa01gg.sssyun.xyz:39201#16-676-CN
@@ -677,11 +676,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `741`
+合并节点总数: `745`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `741`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `745`
 
 
 ## 仓库声明
