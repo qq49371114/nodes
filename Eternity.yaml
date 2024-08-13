@@ -582,6 +582,7 @@ proxies:
   - {name: 09-625-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: 723d7523-8740-4d09-9ea6-230e77c46d15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-626-RELAY, server: zula.ir, port: 2096, type: vmess, uuid: 30cab746-5ca5-46ef-aa9b-537f20f6a40c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zula.ir}}, udp: true}
   - {name: 09-627-RELAY, server: zula.ir, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: zula.ir}}, udp: true}
+  - {name: 09-628-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
   - {name: 09-629-FASTLY, server: speedtest.net, port: 443, type: vmess, uuid: 10bcf85d-36af-42bc-bbcf-305b229382e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: speedtest.net}}, udp: true}
   - {name: 09-630-FASTLY, server: speedtest.net, port: 443, type: vmess, uuid: b15f1748-c08e-43fd-9458-a4005fac69c4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: speedtest.net}}, udp: true}
   - {name: 09-631-RELAY, server: 162.159.133.234, port: 443, type: trojan, password: 559c3b5f-3dd1-47e4-94ad-017cb392a7ba, skip-cert-verify: true, udp: true}
@@ -785,7 +786,6 @@ proxies:
   - {name: 14-829-EC, server: 179.49.5.114, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-830-RELAY, server: hms24.ivideos.sbs, port: 443, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms24.ivideos.sbs}}, udp: true}
   - {name: 14-831-RELAY, server: hms23.fixedfloati.cfd, port: 443, type: vmess, uuid: 9072d339-3885-4fe1-b0bc-29fa7505410e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkwsd, headers: {Host: hms23.fixedfloati.cfd}}, udp: true}
-  - {name: 14-832-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-833-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-834-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
   - {name: 14-835-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
@@ -1374,6 +1374,7 @@ proxy-groups:
       - 09-625-RELAY
       - 09-626-RELAY
       - 09-627-RELAY
+      - 09-628-RELAY
       - 09-629-FASTLY
       - 09-630-FASTLY
       - 09-631-RELAY
@@ -1577,7 +1578,6 @@ proxy-groups:
       - 14-829-EC
       - 14-830-RELAY
       - 14-831-RELAY
-      - 14-832-RELAY
       - 14-833-RELAY
       - 14-834-RELAY
       - 14-835-RELAY
@@ -1950,7 +1950,6 @@ proxy-groups:
       - 13-817-RELAY
       - 13-822-RELAY
       - 13-827-RELAY
-      - 14-832-RELAY
       - 14-842-RELAY
       - 16-847-CN
       - 16-852-CN
@@ -2070,6 +2069,7 @@ proxy-groups:
       - 07-613-KR
       - 07-618-RELAY
       - 08-623-RELAY
+      - 09-628-RELAY
       - 09-633-JP
       - 09-638-RELAY
       - 09-643-RELAY
