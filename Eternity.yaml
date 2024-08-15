@@ -616,9 +616,10 @@ proxies:
   - {name: 14-660-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
   - {name: 14-661-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-662-RELAY, server: icook.tw, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: icook.tw}}, udp: true}
+  - {name: 14-663-RELAY, server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true}
   - {name: 14-664-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
-  - {name: 14-665-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 14-666-RELAY, server: singapore.com, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: singapore.com}}, udp: true}
+  - {name: 14-667-US, server: 34.219.130.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-668-CN, server: gg01.6bnw.top, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: 1ac92503-318a-4d8a-a4e5-fca30166f059, udp: true}
   - {name: 16-669-CN, server: 6bhz.6bnw.top, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: 1ac92503-318a-4d8a-a4e5-fca30166f059, udp: true}
   - {name: 16-670-CN, server: 6bhz.6bnw.top, port: 32207, type: ss, cipher: chacha20-ietf-poly1305, password: 1ac92503-318a-4d8a-a4e5-fca30166f059, udp: true}
@@ -1233,9 +1234,10 @@ proxy-groups:
       - 14-660-RELAY
       - 14-661-US
       - 14-662-RELAY
+      - 14-663-RELAY
       - 14-664-RELAY
-      - 14-665-RELAY
       - 14-666-RELAY
+      - 14-667-US
       - 16-668-CN
       - 16-669-CN
       - 16-670-CN
@@ -1533,6 +1535,7 @@ proxy-groups:
       - 13-652-NOWHERE
       - 14-657-RELAY
       - 14-662-RELAY
+      - 14-667-US
       - 16-672-CN
       - 17-677-CN
       - 34-682-RELAY
@@ -1658,6 +1661,7 @@ proxy-groups:
       - 13-648-RELAY
       - 13-653-RELAY
       - 14-658-RELAY
+      - 14-663-RELAY
       - 16-668-CN
       - 16-673-CN
       - 17-678-CN
@@ -1911,7 +1915,6 @@ proxy-groups:
       - 13-650-RELAY
       - 14-655-EC
       - 14-660-RELAY
-      - 14-665-RELAY
       - 16-670-CN
       - 16-675-RELAY
       - 34-680-RELAY
