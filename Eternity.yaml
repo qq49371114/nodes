@@ -603,7 +603,6 @@ proxies:
   - {name: 09-646-US, server: yh3.freeh1.xyz, port: 8080, type: vmess, uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm, headers: {Host: yh3.freeh1.xyz}}, udp: true}
   - {name: 09-647-RELAY, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm, headers: {Host: yh1.dtku41.xyz}}, udp: true}
   - {name: 09-648-RELAY, server: yh2.dtku41.xyz, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: yh2.dtku41.xyz}}, udp: true}
-  - {name: 09-649-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
   - {name: 09-650-FASTLY, server: speedtest.net, port: 443, type: vmess, uuid: 27d6aa7f-e928-43f3-973b-f8e8d52cfe55, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: speedtest.net}}, udp: true}
   - {name: 09-651-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
   - {name: 09-652-RELAY, server: beyonddbc.sbs, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddbc.sbs}}, udp: true}
@@ -797,6 +796,7 @@ proxies:
   - {name: 14-841-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-842-RELAY, server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true}
   - {name: 14-843-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
+  - {name: 14-844-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 16-845-CN, server: 6bhz.6bnw.top, port: 39301, type: ss, cipher: chacha20-ietf-poly1305, password: c054d9f9-be86-4fb1-a03c-b3476d3c9672, udp: true}
   - {name: 16-846-CN, server: gg01.6bnw.top, port: 40011, type: ss, cipher: chacha20-ietf-poly1305, password: c054d9f9-be86-4fb1-a03c-b3476d3c9672, udp: true}
   - {name: 16-847-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: c3d4cd98-a316-45d2-9725-d9be48ed8963, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
@@ -1399,7 +1399,6 @@ proxy-groups:
       - 09-646-US
       - 09-647-RELAY
       - 09-648-RELAY
-      - 09-649-RELAY
       - 09-650-FASTLY
       - 09-651-RELAY
       - 09-652-RELAY
@@ -1593,6 +1592,7 @@ proxy-groups:
       - 14-841-US
       - 14-842-RELAY
       - 14-843-RELAY
+      - 14-844-RELAY
       - 16-845-CN
       - 16-846-CN
       - 16-847-RELAY
@@ -2248,7 +2248,6 @@ proxy-groups:
       - 09-634-RELAY
       - 09-639-RELAY
       - 09-644-RELAY
-      - 09-649-RELAY
       - 09-654-NOWHERE
       - 09-659-RELAY
       - 12-664-RELAY
@@ -2287,6 +2286,7 @@ proxy-groups:
       - 13-829-RELAY
       - 14-834-RELAY
       - 14-839-RELAY
+      - 14-844-RELAY
       - 16-849-CN
       - 16-854-RELAY
       - 17-859-CN
