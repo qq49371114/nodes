@@ -457,6 +457,7 @@ proxies:
   - {name: 06-499-CN, server: r2.xinyo.me, port: 40904, type: vmess, uuid: 2cd840d6-b5e8-4342-ae71-63bf511c77ee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-500-JP, server: jp.mjt000.com, port: 443, type: trojan, password: 6ffa0d17-129b-44fd-9271-804c4b4a0cac, skip-cert-verify: true, udp: true}
   - {name: 06-501-CN, server: netstartwin1.netstar.vip, port: 45513, type: vmess, uuid: 2ec46366-0931-4372-9188-e5ba7910e9f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: netstartwin1.netstar.vip}}, udp: true}
+  - {name: 06-502-GOOGLE, server: 35.199.164.204, port: 50121, type: vmess, uuid: 1c3bf5a6-1ba4-4fdd-c834-2273df1bae20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c3bf5a6}, udp: true}
   - {name: 06-503-CN, server: netstartwin.netstar.vip, port: 1800, type: vmess, uuid: 2ec46366-0931-4372-9188-e5ba7910e9f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: netstartwin.netstar.vip}}, udp: true}
   - {name: 06-504-CN, server: 9527.888888.wtf, port: 27666, type: vmess, uuid: e93a05cf-a881-413b-b704-61d203474427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 06-505-CN, server: 9527.888888.wtf, port: 28900, type: vmess, uuid: e93a05cf-a881-413b-b704-61d203474427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -716,7 +717,6 @@ proxies:
   - {name: 14-760-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
   - {name: 14-762-RELAY, server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true}
   - {name: 14-763-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
-  - {name: 14-764-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 14-765-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
   - {name: 16-766-CN, server: gg01.6bnw.top, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: f4f5d320-dd4d-4abd-bcc2-85b23d392fd0, udp: true}
   - {name: 16-767-CN, server: 6bhz.6bnw.top, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: f4f5d320-dd4d-4abd-bcc2-85b23d392fd0, udp: true}
@@ -1174,6 +1174,7 @@ proxy-groups:
       - 06-499-CN
       - 06-500-JP
       - 06-501-CN
+      - 06-502-GOOGLE
       - 06-503-CN
       - 06-504-CN
       - 06-505-CN
@@ -1433,7 +1434,6 @@ proxy-groups:
       - 14-760-RELAY
       - 14-762-RELAY
       - 14-763-RELAY
-      - 14-764-RELAY
       - 14-765-RELAY
       - 16-766-CN
       - 16-767-CN
@@ -1718,6 +1718,7 @@ proxy-groups:
       - 06-487-CN
       - 06-492-CN
       - 06-497-CN
+      - 06-502-GOOGLE
       - 06-507-RELAY
       - 06-512-CN
       - 06-517-RELAY
@@ -2064,7 +2065,6 @@ proxy-groups:
       - 13-749-RELAY
       - 14-754-RELAY
       - 14-759-RELAY
-      - 14-764-RELAY
       - 16-769-JP
       - 17-774-CN
       - 34-779-RELAY
