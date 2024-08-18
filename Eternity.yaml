@@ -487,6 +487,7 @@ proxies:
   - {name: 07-529-FR, server: fr1.trojanvpn.de, port: 2053, type: trojan, password: 5c7941b5-c393-4eea-a76d-d44b59baf8a0, skip-cert-verify: true, udp: true}
   - {name: 08-530-RELAY, server: 198.41.202.5, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ca1}, udp: true}
   - {name: 09-532-FASTLY, server: speedtest.net, port: 443, type: vmess, uuid: 3d8b4a1b-5660-4031-b55a-5258fc166df1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "ws/?ed=2048", headers: {Host: speedtest.net}}, udp: true}
+  - {name: 09-533-RELAY, server: harriscity.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: harriscity.com}}, udp: true}
   - {name: 09-534-RELAY, server: bamparda.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: bamparda.com}}, udp: true}
   - {name: 09-535-RELAY, server: upload.ir, port: 443, type: vmess, uuid: f584de15-2034-4170-a723-f48c2bae5e0f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: upload.ir}}, udp: true}
   - {name: 09-536-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: indiavideo.sbs}}, udp: true}
@@ -498,7 +499,6 @@ proxies:
   - {name: 09-542-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/6VBhAkCtV4/, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
   - {name: 09-543-CN, server: mmde92.micloud.buzz, port: 46092, type: vmess, uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /zh-cn, headers: {Host: mmde92.micloud.buzz}}, udp: true}
   - {name: 09-544-RELAY, server: npmjs.com, port: 443, type: vmess, uuid: 6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /QvtvPdDXXIlSdZMqnuxG, headers: {Host: npmjs.com}}, udp: true}
-  - {name: 09-545-RELAY, server: s.marktred.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: s.marktred.com}}, udp: true}
   - {name: 09-546-RELAY, server: beyonddbc.sbs, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddbc.sbs}}, udp: true}
   - {name: 09-547-RELAY, server: cdn.anymath.ir, port: 80, type: vmess, uuid: 79a584cd-a4de-49b3-f2c3-747288ce5306, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: cdn.anymath.ir}}, udp: true}
   - {name: 09-548-RELAY, server: zula.ir, port: 80, type: vmess, uuid: 79a584cd-a4de-49b3-f2c3-747288ce5306, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /@CHANGE_IP1, headers: {Host: zula.ir}}, udp: true}
@@ -1204,6 +1204,7 @@ proxy-groups:
       - 07-529-FR
       - 08-530-RELAY
       - 09-532-FASTLY
+      - 09-533-RELAY
       - 09-534-RELAY
       - 09-535-RELAY
       - 09-536-FR
@@ -1215,7 +1216,6 @@ proxy-groups:
       - 09-542-RELAY
       - 09-543-CN
       - 09-544-RELAY
-      - 09-545-RELAY
       - 09-546-RELAY
       - 09-547-RELAY
       - 09-548-RELAY
@@ -1872,6 +1872,7 @@ proxy-groups:
       - 06-518-CN
       - 06-523-RELAY
       - 07-528-FR
+      - 09-533-RELAY
       - 09-538-RELAY
       - 09-543-CN
       - 09-548-RELAY
@@ -2168,7 +2169,6 @@ proxy-groups:
       - 08-530-RELAY
       - 09-535-RELAY
       - 09-540-CN
-      - 09-545-RELAY
       - 09-550-RELAY
       - 09-555-US
       - 09-560-SG
