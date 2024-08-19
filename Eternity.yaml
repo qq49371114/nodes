@@ -304,7 +304,7 @@ proxies:
   - {name: 04-346-CN, server: gy.58n.net, port: 20306, type: trojan, password: 68fcbeaf-49b3-359a-9f02-f4aa10e936aa, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-347-JP, server: 52.198.230.68, port: 443, type: trojan, password: a67d3e7d-8bce-3485-ba06-55cb8a98c8d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-348-JP, server: 35.73.226.191, port: 443, type: trojan, password: a67d3e7d-8bce-3485-ba06-55cb8a98c8d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-349-US, server: 34.220.144.89, port: 443, type: trojan, password: a67d3e7d-8bce-3485-ba06-55cb8a98c8d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-349-US, server: jp007.421421.xyz, port: 20230, type: trojan, password: a3467343-8c87-40a6-a87f-a466b340475c, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-350-US, server: 103.136.185.27, port: 5514, type: trojan, password: a67d3e7d-8bce-3485-ba06-55cb8a98c8d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-351-US, server: 103.136.185.28, port: 3504, type: trojan, password: a67d3e7d-8bce-3485-ba06-55cb8a98c8d1, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-352-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 924b7ff1-a72e-35cb-a016-2aadcbd45084, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -587,6 +587,7 @@ proxies:
   - {name: 14-630-RELAY, server: tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: tilebani.com}}, udp: true}
   - {name: 14-631-RELAY, server: to.tilebani.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: to.tilebani.com}}, udp: true}
   - {name: 14-632-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
+  - {name: 14-633-US, server: 23.254.166.237, port: 2086, type: vmess, uuid: 8d0fd618-5d60-40d6-9f23-e503555f496f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-634-RELAY, server: o.metuji.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: o.metuji.com}}, udp: true}
   - {name: 14-635-RELAY, server: me.kalakatha.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: me.kalakatha.org}}, udp: true}
   - {name: 14-636-RELAY, server: hms182.glweidf.sbs, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms182.glweidf.sbs}}, udp: true}
@@ -1172,6 +1173,7 @@ proxy-groups:
       - 14-630-RELAY
       - 14-631-RELAY
       - 14-632-RELAY
+      - 14-633-US
       - 14-634-RELAY
       - 14-635-RELAY
       - 14-636-RELAY
@@ -1576,6 +1578,7 @@ proxy-groups:
       - 13-618-NOWHERE
       - 13-623-NOWHERE
       - 14-628-RELAY
+      - 14-633-US
       - 14-638-RELAY
       - 16-643-RELAY
       - 34-648-RELAY
