@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `576`
+高速节点数量: `577`
 <details>
   <summary>展开复制节点</summary>
 
@@ -280,7 +280,7 @@ Fork from TopFreeProxies.
     trojan://68fcbeaf-49b3-359a-9f02-f4aa10e936aa@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-346-CN
     trojan://a67d3e7d-8bce-3485-ba06-55cb8a98c8d1@52.198.230.68:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-347-JP
     trojan://a67d3e7d-8bce-3485-ba06-55cb8a98c8d1@35.73.226.191:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-348-JP
-    trojan://a67d3e7d-8bce-3485-ba06-55cb8a98c8d1@34.220.144.89:443?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-349-US
+    trojan://a3467343-8c87-40a6-a87f-a466b340475c@jp007.421421.xyz:20230?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-349-US
     trojan://a67d3e7d-8bce-3485-ba06-55cb8a98c8d1@103.136.185.27:5514?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-350-US
     trojan://a67d3e7d-8bce-3485-ba06-55cb8a98c8d1@103.136.185.28:3504?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-351-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMzUyLUNOIiwiYWRkIjoiMTYudjItcmF5LmN5b3UiLCJwb3J0IjoiMjM2MTYiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTI0YjdmZjEtYTcyZS0zNWNiLWEwMTYtMmFhZGNiZDQ1MDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiMTYudjItcmF5LmN5b3UiLCJ0bHMiOiIifQ==
@@ -563,6 +563,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjMwLVJFTEFZIiwiYWRkIjoidGlsZWJhbmkuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoidGlsZWJhbmkuY29tIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjMxLVJFTEFZIiwiYWRkIjoidG8udGlsZWJhbmkuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoidG8udGlsZWJhbmkuY29tIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjMyLVJFTEFZIiwiYWRkIjoidXMzZS1tbW5uZnI5ZG9wMC52MmZyZWV2cG4uY29tIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJhOGExMGZiLTljYTMtMzY3ZS1hMjM0LWNmMDlmODQxYmU0ZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdjExOC1mY2N4bXhtMzUiLCJob3N0IjoidXMzZS1tbW5uZnI5ZG9wMC52MmZyZWV2cG4uY29tIiwidGxzIjoiIn0=
+    vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjMzLVVTIiwiYWRkIjoiMjMuMjU0LjE2Ni4yMzciLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiI4ZDBmZDYxOC01ZDYwLTQwZDYtOWYyMy1lNTAzNTU1ZjQ5NmYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjM0LVJFTEFZIiwiYWRkIjoiby5tZXR1amkuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0Ijoiby5tZXR1amkuY29tIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjM1LVJFTEFZIiwiYWRkIjoibWUua2FsYWthdGhhLm9yZyIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMDNmY2M2MTgtYjkzZC02Nzk2LTZhZWQtOGEzOGM5NzVkNTgxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9saW5rdndzIiwiaG9zdCI6Im1lLmthbGFrYXRoYS5vcmciLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTQtNjM2LVJFTEFZIiwiYWRkIjoiaG1zMTgyLmdsd2VpZGYuc2JzIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI3NjIyMWJmYi1lOTJmLTRlODAtODFjNS02ZmU0OGY1MGFjMGIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt3cyIsImhvc3QiOiJobXMxODIuZ2x3ZWlkZi5zYnMiLCJ0bHMiOiJ0bHMifQ==
@@ -611,11 +612,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `677`
+合并节点总数: `679`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `677`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `679`
 
 
 ## 仓库声明
