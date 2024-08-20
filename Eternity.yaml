@@ -325,8 +325,8 @@ proxies:
   - {name: 04-367-JP, server: 52.198.230.68, port: 443, type: trojan, password: 8d9407cf-6a96-3bc9-84ad-b5cda853c23e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-368-JP, server: 35.73.226.191, port: 443, type: trojan, password: 8d9407cf-6a96-3bc9-84ad-b5cda853c23e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-369-US, server: 35.90.207.192, port: 443, type: trojan, password: 8d9407cf-6a96-3bc9-84ad-b5cda853c23e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-370-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-371-US, server: 103.136.185.28, port: 3504, type: trojan, password: 8d9407cf-6a96-3bc9-84ad-b5cda853c23e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-370-US, server: 103.136.185.27, port: 5514, type: trojan, password: 8d9407cf-6a96-3bc9-84ad-b5cda853c23e, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-371-US, server: kz.mjt000.com, port: 443, type: trojan, password: c2c76420-257f-492a-b20f-6560f3bfa78d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-372-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 50ce8e0c-8488-3040-aa84-927145bbe5ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
   - {name: 04-373-CN, server: 18.v2-ray.cyou, port: 23618, type: vmess, uuid: 50ce8e0c-8488-3040-aa84-927145bbe5ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.v2-ray.cyou}}, udp: true}
   - {name: 04-374-CN, server: 12.v2-ray.cyou, port: 23612, type: vmess, uuid: 50ce8e0c-8488-3040-aa84-927145bbe5ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.v2-ray.cyou}}, udp: true}
@@ -637,7 +637,6 @@ proxies:
   - {name: 14-681-RELAY, server: jahfkjha.cfd, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: jahfkjha.cfd}}, udp: true}
   - {name: 14-682-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-683-RELAY, server: beyonddbc.sbs, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddbc.sbs}}, udp: true}
-  - {name: 14-684-US, server: 34.219.130.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 16-685-CN, server: 6bhz.6bnw.top, port: 36993, type: ss, cipher: chacha20-ietf-poly1305, password: adf1fbfc-6276-4478-9a08-0fca1da2edda, udp: true}
   - {name: 16-686-CN, server: gg01.6bnw.top, port: 40012, type: ss, cipher: chacha20-ietf-poly1305, password: adf1fbfc-6276-4478-9a08-0fca1da2edda, udp: true}
   - {name: 16-687-CN, server: 6bhz.6bnw.top, port: 39201, type: ss, cipher: chacha20-ietf-poly1305, password: adf1fbfc-6276-4478-9a08-0fca1da2edda, udp: true}
@@ -1266,7 +1265,6 @@ proxy-groups:
       - 14-681-RELAY
       - 14-682-RELAY
       - 14-683-RELAY
-      - 14-684-US
       - 16-685-CN
       - 16-686-CN
       - 16-687-CN
@@ -1819,7 +1817,6 @@ proxy-groups:
       - 13-669-NOWHERE
       - 14-674-RELAY
       - 14-679-RELAY
-      - 14-684-US
       - 16-689-CN
       - 34-694-RELAY
       - 34-699-RELAY
