@@ -428,7 +428,6 @@ proxies:
   - {name: 07-472-KR, server: cn2.cdn.xfltd-cdn.top, port: 12065, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn2.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 07-473-RELAY, server: fr2-july.88888802.xyz, port: 443, type: trojan, password: f2191442-1436-3d79-801e-80d8de896c73, skip-cert-verify: true, udp: true}
   - {name: 07-474-FR, server: 185.234.64.146, port: 2053, type: trojan, password: 5c7941b5-c393-4eea-a76d-d44b59baf8a0, skip-cert-verify: true, udp: true}
-  - {name: 07-475-RELAY, server: us1.1vpn.sbs, port: 443, type: vmess, uuid: 27d274b4-629c-46c5-96ea-416678522ccd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /rfhtrhtrhtrh, headers: {Host: us1.1vpn.sbs}}, udp: true}
   - {name: 07-476-CN, server: zzh2.gouersu.top, port: 47084, type: ss, cipher: aes-256-gcm, password: 2affd0c1-a5b4-4c1c-8800-fb2f866626e7, udp: true}
   - {name: 07-477-RELAY, server: 104.19.38.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-478-US, server: 94.131.122.157, port: 2053, type: trojan, password: 6d25dd28-80a4-4f63-80c6-f36d6ce1d25f, skip-cert-verify: true, udp: true}
@@ -627,6 +626,7 @@ proxies:
   - {name: 13-671-NOWHERE, server: xyfxhiogo.site, port: 443, type: vmess, uuid: 4fa35ea4-668e-4d7b-9bbc-b83681060617, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kwhmvws, headers: {Host: xyfxhiogo.site}}, udp: true}
   - {name: 13-672-RELAY, server: 104.18.154.42, port: 2053, type: vmess, uuid: 754ac3c1-e660-4f7f-bf05-76a7c15556ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-673-RELAY, server: us3e-mmnnfr9dop0.v2freevpn.com, port: 80, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}, udp: true}
+  - {name: 14-674-RELAY, server: sareikela.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true}
   - {name: 14-675-RELAY, server: capellare.com, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: capellare.com}}, udp: true}
   - {name: 14-676-RELAY, server: 104.19.45.5, port: 2095, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-677-RELAY, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms04.xmivideo.cfd}}, udp: true}
@@ -1052,7 +1052,6 @@ proxy-groups:
       - 07-472-KR
       - 07-473-RELAY
       - 07-474-FR
-      - 07-475-RELAY
       - 07-476-CN
       - 07-477-RELAY
       - 07-478-US
@@ -1251,6 +1250,7 @@ proxy-groups:
       - 13-671-NOWHERE
       - 13-672-RELAY
       - 14-673-RELAY
+      - 14-674-RELAY
       - 14-675-RELAY
       - 14-676-RELAY
       - 14-677-RELAY
@@ -1804,6 +1804,7 @@ proxy-groups:
       - 13-659-RELAY
       - 13-664-NOWHERE
       - 13-669-RELAY
+      - 14-674-RELAY
       - 14-679-RELAY
       - 16-684-CN
       - 16-689-RELAY
@@ -1892,7 +1893,6 @@ proxy-groups:
       - 07-460-KR
       - 07-465-KR
       - 07-470-CN
-      - 07-475-RELAY
       - 09-480-FASTLY
       - 09-485-RELAY
       - 09-490-RELAY
