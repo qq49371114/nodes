@@ -343,6 +343,7 @@ proxies:
   - {name: 04-386-CN, server: gy.58n.net, port: 20306, type: trojan, password: 65c7fe69-63bd-3c5f-833f-dc160142e354, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-387-JP, server: 52.198.230.68, port: 443, type: trojan, password: e1a41f0f-b1f3-3d55-ab54-7e4454348734, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-388-JP, server: 35.73.226.191, port: 443, type: trojan, password: e1a41f0f-b1f3-3d55-ab54-7e4454348734, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-389-US, server: 54.187.213.98, port: 443, type: trojan, password: e1a41f0f-b1f3-3d55-ab54-7e4454348734, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-390-US, server: 103.136.185.27, port: 5514, type: trojan, password: e1a41f0f-b1f3-3d55-ab54-7e4454348734, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-391-US, server: 103.136.185.28, port: 3504, type: trojan, password: e1a41f0f-b1f3-3d55-ab54-7e4454348734, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-392-CN, server: 16.v2-ray.cyou, port: 23616, type: vmess, uuid: 50ce8e0c-8488-3040-aa84-927145bbe5ae, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.v2-ray.cyou}}, udp: true}
@@ -662,7 +663,6 @@ proxies:
   - {name: 14-706-RELAY, server: linde06.indiavideo.sbs, port: 443, type: vmess, uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: linde06.indiavideo.sbs}}, udp: true}
   - {name: 14-708-RELAY, server: lin0502.hwcar.sbs, port: 443, type: vmess, uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: lin0502.hwcar.sbs}}, udp: true}
   - {name: 14-709-RELAY, server: beyonddbc.sbs, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddbc.sbs}}, udp: true}
-  - {name: 14-710-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 16-711-RELAY, server: 22.6bnw.top, port: 2052, type: vmess, uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 22.6bnw.top}}, udp: true}
   - {name: 16-712-RELAY, server: 33.6bnw.top, port: 2052, type: vmess, uuid: f9b15148-7fd1-41c6-bd7e-b30e04c4699c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: 33.6bnw.top}}, udp: true}
   - {name: 16-713-RELAY, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: cfcdn1.sanfencdn9.com}}, udp: true}
@@ -997,6 +997,7 @@ proxy-groups:
       - 04-386-CN
       - 04-387-JP
       - 04-388-JP
+      - 04-389-US
       - 04-390-US
       - 04-391-US
       - 04-392-CN
@@ -1316,7 +1317,6 @@ proxy-groups:
       - 14-706-RELAY
       - 14-708-RELAY
       - 14-709-RELAY
-      - 14-710-US
       - 16-711-RELAY
       - 16-712-RELAY
       - 16-713-RELAY
@@ -1825,6 +1825,7 @@ proxy-groups:
       - 04-374-CN
       - 04-379-CN
       - 04-384-CN
+      - 04-389-US
       - 04-394-CN
       - 04-399-CN
       - 04-404-DE
@@ -2023,7 +2024,6 @@ proxy-groups:
       - 13-695-NOWHERE
       - 13-700-RELAY
       - 14-705-RELAY
-      - 14-710-US
       - 16-715-CN
       - 31-720-RELAY
       - 34-725-RELAY
