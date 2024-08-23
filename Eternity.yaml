@@ -1037,10 +1037,10 @@ proxies:
   - {name: 15-1961-RELAY, server: m2-sg2.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-sg2.m2network.icu}}, udp: true}
   - {name: 15-2003-RELAY, server: m2-us3.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us3.m2network.icu}}, udp: true}
   - {name: 15-2013-RELAY, server: m2-sg1.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-sg1.m2network.icu}}, udp: true}
+  - {name: 15-2016-RELAY, server: m2-hk1.go-relay.top, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-hk1.go-relay.top}}, udp: true}
   - {name: 15-2044-RELAY, server: m2-us1.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us1.m2network.icu}}, udp: true}
   - {name: 15-2085-RELAY, server: m2-sg3.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-sg3.m2network.icu}}, udp: true}
   - {name: 15-2176-RELAY, server: m2-us2.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us2.m2network.icu}}, udp: true}
-  - {name: 15-2278-RELAY, server: m2-us1.go-relay.top, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us1.go-relay.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -2034,10 +2034,10 @@ proxy-groups:
       - 15-1961-RELAY
       - 15-2003-RELAY
       - 15-2013-RELAY
+      - 15-2016-RELAY
       - 15-2044-RELAY
       - 15-2085-RELAY
       - 15-2176-RELAY
-      - 15-2278-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2249,6 +2249,7 @@ proxy-groups:
       - 09-1081-RELAY
       - 09-1086-RELAY
       - 15-1961-RELAY
+      - 15-2016-RELAY
       - 15-2176-RELAY
   - name: 测速2分组
     type: url-test
@@ -2654,7 +2655,6 @@ proxy-groups:
       - 09-1088-CN
       - 15-2003-RELAY
       - 15-2013-RELAY
-      - 15-2278-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
