@@ -60,7 +60,6 @@ proxies:
   - {name: 02-0003-KR, server: cn1.cdn.xfltd-cdn.top, port: 12004, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 02-0004-KR, server: cn1.cdn.xfltd-cdn.top, port: 12005, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cn1.cdn.xfltd-cdn.top, skip-cert-verify: true, udp: true}
   - {name: 02-0007-KR, server: cn2.cdn.xfltd-cdn.top, port: 12071, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0008-KR, server: cn2.cdn.xfltd-cdn.top, port: 12031, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0009-KR, server: cn2.cdn.xfltd-cdn.top, port: 12032, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0010-KR, server: cn2.cdn.xfltd-cdn.top, port: 12033, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 02-0011-KR, server: cn2.cdn.xfltd-cdn.top, port: 12034, type: trojan, password: 3698a3e7-2877-4ded-a665-d81ee3cfd449, sni: cdn.alibaba.com, skip-cert-verify: true, udp: true}
@@ -678,8 +677,8 @@ proxies:
   - {name: 04-0727-JP, server: 52.198.230.68, port: 443, type: trojan, password: 19813490-a3d5-3999-85a5-2c92d7e667f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0728-JP, server: 35.73.226.191, port: 443, type: trojan, password: 19813490-a3d5-3999-85a5-2c92d7e667f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0729-US, server: 54.187.213.98, port: 443, type: trojan, password: 19813490-a3d5-3999-85a5-2c92d7e667f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0730-US, server: cdn1.misaka-mikoto.xyz, port: 443, type: trojan, password: 322ce102-b5e8-49ff-a84d-43002f65da47, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0731-US, server: 103.136.185.28, port: 3504, type: trojan, password: 19813490-a3d5-3999-85a5-2c92d7e667f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0730-US, server: 103.136.185.27, port: 5514, type: trojan, password: 19813490-a3d5-3999-85a5-2c92d7e667f7, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0731-US, server: cdn1.misaka-mikoto.xyz, port: 443, type: trojan, password: 322ce102-b5e8-49ff-a84d-43002f65da47, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0732-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9A168vpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
   - {name: 04-0733-CN, server: gdcub.yunnode.win, port: 31641, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
   - {name: 04-0734-CN, server: gdcub.yunnode.win, port: 31645, type: ss, cipher: chacha20-ietf-poly1305, password: 86fe1613-f3b1-4798-9f07-7e5b131b8664, udp: true}
@@ -1038,6 +1037,7 @@ proxies:
   - {name: 15-2030-RELAY, server: m2-sg2.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-sg2.m2network.icu}}, udp: true}
   - {name: 15-2072-RELAY, server: m2-us3.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us3.m2network.icu}}, udp: true}
   - {name: 15-2082-RELAY, server: m2-sg1.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-sg1.m2network.icu}}, udp: true}
+  - {name: 15-2086-RELAY, server: m2-hk1.go-relay.top, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-hk1.go-relay.top}}, udp: true}
   - {name: 15-2114-RELAY, server: m2-us1.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us1.m2network.icu}}, udp: true}
   - {name: 15-2155-RELAY, server: m2-sg3.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-sg3.m2network.icu}}, udp: true}
   - {name: 15-2246-RELAY, server: m2-us2.m2network.icu, port: 80, type: vmess, uuid: f599d1f0-9690-4fb7-bfa5-9bfb19e5dd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: m2-us2.m2network.icu}}, udp: true}
@@ -1057,7 +1057,6 @@ proxy-groups:
       - 02-0003-KR
       - 02-0004-KR
       - 02-0007-KR
-      - 02-0008-KR
       - 02-0009-KR
       - 02-0010-KR
       - 02-0011-KR
@@ -2035,6 +2034,7 @@ proxy-groups:
       - 15-2030-RELAY
       - 15-2072-RELAY
       - 15-2082-RELAY
+      - 15-2086-RELAY
       - 15-2114-RELAY
       - 15-2155-RELAY
       - 15-2246-RELAY
@@ -2250,6 +2250,7 @@ proxy-groups:
       - 08-1076-CN
       - 08-1081-CN
       - 08-1086-CN
+      - 15-2086-RELAY
       - 15-2246-RELAY
   - name: 测速2分组
     type: url-test
@@ -2461,7 +2462,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0003-KR
-      - 02-0008-KR
       - 02-0013-KR
       - 02-0018-KR
       - 02-0023-KR
