@@ -1038,8 +1038,8 @@ proxies:
   - {name: 08-1161-RELAY, server: sg1.1vpn.sbs, port: 80, type: vmess, uuid: e9e40925-c6a1-49c0-b66c-f2b0c214f03e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kuurtreeh, headers: {Host: sg1.1vpn.sbs}}, udp: true}
   - {name: 08-1180-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: e9e40925-c6a1-49c0-b66c-f2b0c214f03e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rgherjwaqw, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 08-1186-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: 09cdf38c-c757-4fa2-ae0f-82388d5d9310, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
+  - {name: 08-1188-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: 09cdf38c-c757-4fa2-ae0f-82388d5d9310, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
   - {name: 12-1550-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: 87f5ff63-c028-4c58-9667-97f3a5beb164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
-  - {name: 12-1579-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: 87f5ff63-c028-4c58-9667-97f3a5beb164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
   - {name: 12-1581-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: 87f5ff63-c028-4c58-9667-97f3a5beb164, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -2035,8 +2035,8 @@ proxy-groups:
       - 08-1161-RELAY
       - 08-1180-RELAY
       - 08-1186-RELAY
+      - 08-1188-RELAY
       - 12-1550-RELAY
-      - 12-1579-RELAY
       - 12-1581-RELAY
   - name: 自动选择
     type: url-test
@@ -2656,6 +2656,7 @@ proxy-groups:
       - 07-1128-RU
       - 07-1133-KR
       - 07-1138-KR
+      - 08-1188-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2857,7 +2858,6 @@ proxy-groups:
       - 07-1129-KR
       - 07-1134-KR
       - 07-1139-KR
-      - 12-1579-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
