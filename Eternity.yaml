@@ -963,7 +963,6 @@ proxies:
   - {name: 06-1042-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 62b44067-c11c-4e78-a384-5fd81851be37, udp: true}
   - {name: 06-1043-CN, server: kr1.iepl.cooc.icu, port: 35101, type: ss, cipher: chacha20-ietf-poly1305, password: 285c4bff-582c-4ec5-8be5-85a76a01376c, udp: true}
   - {name: 06-1044-CN, server: gstdnb.myfczy168.top, port: 25149, type: ss, cipher: chacha20-ietf-poly1305, password: 44b66bc5-1e1a-4e1b-b970-eca31433b332, udp: true}
-  - {name: 06-1045-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: e33c09fc-6c7c-4977-8be9-5539bc3f8825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
   - {name: 06-1046-CN, server: hk1.nima.rip, port: 36200, type: ss, cipher: chacha20-ietf-poly1305, password: 5259f3c4-fecb-45c3-963e-bcb795c3781f, udp: true}
   - {name: 06-1047-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 285c4bff-582c-4ec5-8be5-85a76a01376c, udp: true}
   - {name: 06-1048-CN, server: gstdnb.myfczy168.top, port: 44776, type: ss, cipher: chacha20-ietf-poly1305, password: 44b66bc5-1e1a-4e1b-b970-eca31433b332, udp: true}
@@ -1034,6 +1033,7 @@ proxies:
   - {name: 08-1175-RELAY, server: sg1.1vpn.sbs, port: 80, type: vmess, uuid: 56bcc42a-14ab-4db2-b85c-f6781e5f80a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kuurtreeh, headers: {Host: sg1.1vpn.sbs}}, udp: true}
   - {name: 08-1196-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 56bcc42a-14ab-4db2-b85c-f6781e5f80a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rgherjwaqw, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 08-1202-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: af743d4a-9e49-48cd-ac41-4a95c4620d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
+  - {name: 08-1204-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: af743d4a-9e49-48cd-ac41-4a95c4620d47, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
   - {name: 11-1400-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: 84779715-e8a6-4df1-ac5c-0f58f9b26836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
   - {name: 11-1484-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: 84779715-e8a6-4df1-ac5c-0f58f9b26836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
   - {name: 11-1488-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: 84779715-e8a6-4df1-ac5c-0f58f9b26836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
@@ -1960,7 +1960,6 @@ proxy-groups:
       - 06-1042-CN
       - 06-1043-CN
       - 06-1044-CN
-      - 06-1045-RELAY
       - 06-1046-CN
       - 06-1047-TW
       - 06-1048-CN
@@ -2031,6 +2030,7 @@ proxy-groups:
       - 08-1175-RELAY
       - 08-1196-RELAY
       - 08-1202-RELAY
+      - 08-1204-RELAY
       - 11-1400-RELAY
       - 11-1484-RELAY
       - 11-1488-RELAY
@@ -2856,6 +2856,7 @@ proxy-groups:
       - 07-1099-KR
       - 07-1104-KR
       - 07-1109-KR
+      - 08-1204-RELAY
       - 11-1484-RELAY
   - name: 测速5分组
     type: url-test
@@ -3043,7 +3044,6 @@ proxy-groups:
       - 06-1030-US
       - 06-1035-CN
       - 06-1040-CN
-      - 06-1045-RELAY
       - 06-1050-CN
       - 06-1055-CN
       - 06-1060-CN
