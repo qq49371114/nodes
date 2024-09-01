@@ -1031,6 +1031,7 @@ proxies:
   - {name: 08-1182-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: f4dd530e-a7de-461e-a882-e9fbf40e24a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
   - {name: 08-1208-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: f4dd530e-a7de-461e-a882-e9fbf40e24a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
   - {name: 08-1210-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: f4dd530e-a7de-461e-a882-e9fbf40e24a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
+  - {name: 11-1437-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: a29fe11a-21bf-41eb-b821-0bde8629a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
   - {name: 11-1524-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: a29fe11a-21bf-41eb-b821-0bde8629a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
   - {name: 11-1566-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 0c2a5fd0-c39c-47ce-96f4-ed18bfb5fe98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rgherjwaqw, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 11-1579-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: a29fe11a-21bf-41eb-b821-0bde8629a620, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
@@ -1038,7 +1039,6 @@ proxies:
   - {name: 12-1722-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 1bb393c5-ce7b-4f00-822e-0d422e7a5ab0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /rgherjwaqw, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 12-1728-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: 97ca1db8-2302-41a3-a688-c046d575ecba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
   - {name: 12-1730-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: 97ca1db8-2302-41a3-a688-c046d575ecba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
-  - {name: 13-1967-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: de1cf901-6a3f-4bcc-a446-3a542af123b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
   - {name: 13-1989-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: de1cf901-6a3f-4bcc-a446-3a542af123b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
   - {name: 13-2002-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: de1cf901-6a3f-4bcc-a446-3a542af123b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
 proxy-groups:
@@ -2028,6 +2028,7 @@ proxy-groups:
       - 08-1182-RELAY
       - 08-1208-RELAY
       - 08-1210-RELAY
+      - 11-1437-RELAY
       - 11-1524-RELAY
       - 11-1566-RELAY
       - 11-1579-RELAY
@@ -2035,7 +2036,6 @@ proxy-groups:
       - 12-1722-RELAY
       - 12-1728-RELAY
       - 12-1730-RELAY
-      - 13-1967-RELAY
       - 13-1989-RELAY
       - 13-2002-RELAY
   - name: 自动选择
@@ -2450,8 +2450,8 @@ proxy-groups:
       - 07-1082-RELAY
       - 07-1087-RELAY
       - 08-1182-RELAY
+      - 11-1437-RELAY
       - 12-1722-RELAY
-      - 13-1967-RELAY
       - 13-2002-RELAY
   - name: 测速3分组
     type: url-test
