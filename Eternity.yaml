@@ -1038,8 +1038,8 @@ proxies:
   - {name: 07-1088-RELAY, server: 104.19.32.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 08-1172-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: f4dd530e-a7de-461e-a882-e9fbf40e24a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
   - {name: 08-1198-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: f4dd530e-a7de-461e-a882-e9fbf40e24a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
-  - {name: 08-1200-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: f4dd530e-a7de-461e-a882-e9fbf40e24a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
   - {name: 12-1638-RELAY, server: deji.kcapsys.com, port: 80, type: vmess, uuid: 36c899c1-4119-4427-b34b-6574736f3c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: deji.kcapsys.com}}, udp: true}
+  - {name: 12-1664-RELAY, server: faguoipv6.kcapsys.com, port: 80, type: vmess, uuid: 36c899c1-4119-4427-b34b-6574736f3c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: faguoipv6.kcapsys.com}}, udp: true}
   - {name: 12-1666-RELAY, server: blang.kcapsys.com, port: 80, type: vmess, uuid: 36c899c1-4119-4427-b34b-6574736f3c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: blang.kcapsys.com}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -2035,8 +2035,8 @@ proxy-groups:
       - 07-1088-RELAY
       - 08-1172-RELAY
       - 08-1198-RELAY
-      - 08-1200-RELAY
       - 12-1638-RELAY
+      - 12-1664-RELAY
       - 12-1666-RELAY
   - name: 自动选择
     type: url-test
@@ -2857,6 +2857,7 @@ proxy-groups:
       - 07-1074-RELAY
       - 07-1079-RELAY
       - 07-1084-RELAY
+      - 12-1664-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3059,7 +3060,6 @@ proxy-groups:
       - 07-1075-RELAY
       - 07-1080-RELAY
       - 07-1085-RELAY
-      - 08-1200-RELAY
   - name: 广告拦截
     type: select
     proxies:
