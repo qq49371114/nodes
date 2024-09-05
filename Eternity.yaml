@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 03-0000-CN, server: ge.cooc.icu, port: 35607, type: ss, cipher: chacha20-ietf-poly1305, password: 519a17c1-7ae7-4487-9120-e37593178e5d, udp: true}
-  - {name: 03-0003-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8261a9c8-49c1-42d4-95c8-02b8815c1af7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0004-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0e6304b1-a2bf-472a-9c95-8bbd1f299c3d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0005-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: abd73493-c898-4b25-8244-5c1a2cc34151, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0006-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5a782cfd-3e62-44cc-87fc-b5d1d8c5ba8c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -191,6 +190,7 @@ proxies:
   - {name: 03-0136-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a1ea157a-f0dc-4053-8d11-2b26e3d9cd6e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0137-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e57480f7-1b3c-4fe5-ae84-ae18c2ab57dc, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0138-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 78e49bf5-ac4d-461f-b6e2-941463aa44a4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 03-0139-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 519a17c1-7ae7-4487-9120-e37593178e5d, udp: true}
   - {name: 03-0140-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4104ac46-7685-4d19-ab02-4e334b97b94c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0141-CN, server: gd.xueyejiasu.com, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 9c21d1f2-b449-4816-ab16-78b757f5f9c5, udp: true}
   - {name: 03-0142-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56b07611-1146-4534-bdf8-dce9bf8f00eb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1040,7 +1040,7 @@ proxies:
   - {name: 08-1087-CN, server: uniona.fengwo.site, port: 29396, type: ss, cipher: chacha20-ietf-poly1305, password: a689b814-9132-40d0-9c90-6637712e344d, udp: true}
   - {name: 08-1088-CN, server: unionb.fengwo.site, port: 27943, type: ss, cipher: chacha20-ietf-poly1305, password: ae798ac2-cc45-427c-b6dd-cf81615c64a0, udp: true}
   - {name: 11-1187-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 63286225-0c51-4c12-8e86-b97d3db973ec, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiuluuiuqqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 13-1607-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: d0626025-efcd-4399-a92d-ecd186f065e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiuluuiuqqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 12-1531-CN, server: unionb.fengwo.site, port: 39400, type: ss, cipher: chacha20-ietf-poly1305, password: abc29443-c31a-4c48-bb69-05ce229702c4, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1052,7 +1052,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 03-0000-CN
-      - 03-0003-KR
       - 03-0004-KR
       - 03-0005-KR
       - 03-0006-KR
@@ -1188,6 +1187,7 @@ proxy-groups:
       - 03-0136-KR
       - 03-0137-KR
       - 03-0138-KR
+      - 03-0139-AU
       - 03-0140-KR
       - 03-0141-CN
       - 03-0142-KR
@@ -2037,7 +2037,7 @@ proxy-groups:
       - 08-1087-CN
       - 08-1088-CN
       - 11-1187-RELAY
-      - 13-1607-RELAY
+      - 12-1531-CN
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2249,6 +2249,7 @@ proxy-groups:
       - 08-1076-CN
       - 08-1081-CN
       - 08-1086-CN
+      - 12-1531-CN
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2452,13 +2453,11 @@ proxy-groups:
       - 08-1082-CN
       - 08-1087-CN
       - 11-1187-RELAY
-      - 13-1607-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0003-KR
       - 03-0008-KR
       - 03-0013-KR
       - 03-0018-KR
@@ -2688,6 +2687,7 @@ proxy-groups:
       - 03-0124-KR
       - 03-0129-CN
       - 03-0134-KR
+      - 03-0139-AU
       - 03-0144-CN
       - 03-0149-KR
       - 03-0154-KR
