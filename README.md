@@ -31,7 +31,6 @@ Fork from TopFreeProxies.
   <summary>展开复制节点</summary>
 
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MTlhMTdjMS03YWU3LTQ0ODctOTEyMC1lMzc1OTMxNzhlNWQ@ge.cooc.icu:35607#03-0000-CN
-    trojan://8261a9c8-49c1-42d4-95c8-02b8815c1af7@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0003-KR
     trojan://0e6304b1-a2bf-472a-9c95-8bbd1f299c3d@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0004-KR
     trojan://abd73493-c898-4b25-8244-5c1a2cc34151@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0005-KR
     trojan://5a782cfd-3e62-44cc-87fc-b5d1d8c5ba8c@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0006-KR
@@ -167,6 +166,7 @@ Fork from TopFreeProxies.
     trojan://a1ea157a-f0dc-4053-8d11-2b26e3d9cd6e@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0136-KR
     trojan://e57480f7-1b3c-4fe5-ae84-ae18c2ab57dc@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0137-KR
     trojan://78e49bf5-ac4d-461f-b6e2-941463aa44a4@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0138-KR
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MTlhMTdjMS03YWU3LTQ0ODctOTEyMC1lMzc1OTMxNzhlNWQ@jp.cooc.icu:10001#03-0139-AU
     trojan://4104ac46-7685-4d19-ab02-4e334b97b94c@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0140-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YzIxZDFmMi1iNDQ5LTQ4MTYtYWIxNi03OGI3NTdmNWY5YzU@gd.xueyejiasu.com:47564#03-0141-CN
     trojan://56b07611-1146-4534-bdf8-dce9bf8f00eb@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#03-0142-KR
@@ -1016,18 +1016,18 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNjg5YjgxNC05MTMyLTQwZDAtOWM5MC02NjM3NzEyZTM0NGQ@uniona.fengwo.site:29396#08-1087-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZTc5OGFjMi1jYzQ1LTQyN2MtYjZkZC1jZjgxNjE1YzY0YTA@unionb.fengwo.site:27943#08-1088-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMTE4Ny1SRUxBWSIsImFkZCI6ImpwMi4xdnBuLnNicyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2MzI4NjIyNS0wYzUxLTRjMTItOGU4Ni1iOTdkM2RiOTczZWMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2tpdWx1dWl1cXFzIiwiaG9zdCI6ImpwMi4xdnBuLnNicyIsInRscyI6IiJ9
-    vmess://eyJ2IjoiMiIsInBzIjoiMTMtMTYwNy1SRUxBWSIsImFkZCI6ImpwMi4xdnBuLnNicyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiJkMDYyNjAyNS1lZmNkLTQzOTktYTkyZC1lY2QxODZmMDY1ZTkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2tpdWx1dWl1cXFzIiwiaG9zdCI6ImpwMi4xdnBuLnNicyIsInRscyI6IiJ9
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYmMyOTQ0My1jMzFhLTRjNDgtYmI2OS0wNWNlMjI5NzAyYzQ@unionb.fengwo.site:39400#12-1531-CN
     
 
 
 </details>
 
 ### 所有节点
-合并节点总数: `2020`
+合并节点总数: `1973`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2020`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1973`
 
 
 ## 仓库声明
