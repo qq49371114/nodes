@@ -1037,10 +1037,10 @@ proxies:
   - {name: 25-3035-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 73e68abe-154c-44b3-aa4b-22eaa8a4b897, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 25-3042-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: cd618682-b948-46b9-8df6-920c1f8e2aa1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 25-3043-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 93d0df8f-135a-4f6a-beee-128a35b476df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
-  - {name: 25-3049-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 9bd3cf28-b1d2-47bf-bd99-b85e00540e8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 25-3052-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 073b525b-fd1f-46e7-935a-c63545328ac4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 25-3060-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 344d095d-5ffa-49bf-903d-494111fbc830, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
   - {name: 25-3081-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: b8a422aa-8e1d-4784-98b5-cb9000ea7623, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
+  - {name: 25-3095-RELAY, server: jp2.1vpn.sbs, port: 80, type: vmess, uuid: 6d168ce1-dde6-4622-9baf-7fb56adbe546, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /kiulujunuqs, headers: {Host: jp2.1vpn.sbs}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -2034,10 +2034,10 @@ proxy-groups:
       - 25-3035-RELAY
       - 25-3042-RELAY
       - 25-3043-RELAY
-      - 25-3049-RELAY
       - 25-3052-RELAY
       - 25-3060-RELAY
       - 25-3081-RELAY
+      - 25-3095-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2856,7 +2856,6 @@ proxy-groups:
       - 24-2874-RELAY
       - 24-2914-RELAY
       - 25-3009-RELAY
-      - 25-3049-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3060,6 +3059,7 @@ proxy-groups:
       - 25-3020-RELAY
       - 25-3035-RELAY
       - 25-3060-RELAY
+      - 25-3095-RELAY
   - name: 广告拦截
     type: select
     proxies:
