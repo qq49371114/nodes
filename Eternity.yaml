@@ -55,8 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0424-CN, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: "04-0425-TWtrojan//b01eec43-2ffb-3428-a515-e8bf1a090644@103.136.185.275516?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0502-US", server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0426-US, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
+  - {name: 04-0425-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZGNmMWEwZC04ZGQyLTQ2NDgtYWZjYi1hYTdmMTllNWVmNjc@us.cooc.icu35881#04-0426-US, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0427-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0428-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 04-0429-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
@@ -132,6 +131,7 @@ proxies:
   - {name: 04-0499-JP, server: 43.206.126.97, port: 443, type: trojan, password: b01eec43-2ffb-3428-a515-e8bf1a090644, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0500-JP, server: 54.95.41.90, port: 443, type: trojan, password: b01eec43-2ffb-3428-a515-e8bf1a090644, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0501-US, server: 35.95.109.37, port: 443, type: trojan, password: b01eec43-2ffb-3428-a515-e8bf1a090644, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0502-US, server: 103.136.185.27, port: 5516, type: trojan, password: b01eec43-2ffb-3428-a515-e8bf1a090644, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0503-US, server: 103.136.185.28, port: 3505, type: trojan, password: b01eec43-2ffb-3428-a515-e8bf1a090644, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0504-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9Auuvpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 77768e2a-8bdd-4c2f-96b7-d7237bd0ddff, udp: true}
   - {name: 04-0505-CN, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 77768e2a-8bdd-4c2f-96b7-d7237bd0ddff, udp: true}
@@ -744,6 +744,7 @@ proxies:
   - {name: 23-2538-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2541-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: d477d5e2-57db-4c95-96a8-133a74fa059d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2542-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 3a93862c-83c8-42c9-9280-29d148441743, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
+  - {name: 23-2544-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: d58d0a56-451e-4974-bf76-a397d10a5bb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 23-2547-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 97c878b1-4ca2-4052-84d8-dd31d4dcbc75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2550-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 2570f70b-4e7c-49cb-9ffe-b6cfb732d409, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2555-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 6ded75c5-3fa2-4c5a-ae91-56cf2630d9fb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
@@ -828,7 +829,6 @@ proxies:
   - {name: 23-2712-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: d46f1cab-30af-40b3-a967-f8db1897f1ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2713-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 775ee653-c437-40a1-bb2b-dc691f2d04ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 23-2716-SG, server: sg.huafei888.site, port: 40113, type: vmess, uuid: 4277fabb-9d23-4711-9d7c-4d559121f5da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.huafei888.site}}, udp: true}
-  - {name: 23-2720-RELAY, server: guoguo.lancdn.vip, port: 443, type: vmess, uuid: 1271b966-ce06-4c1e-b24c-3d09f8d32e37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: guoguo.lancdn.vip}}, udp: true}
   - {name: 23-2721-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 3422cb35-29f4-4bdd-a0d6-3de0295adc40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2722-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 5e3f9df9-10cb-4c7e-8925-58b0673e22cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
   - {name: 23-2723-RELAY, server: mz.lancdn.vip, port: 443, type: vmess, uuid: 1c9671c9-6067-4a18-a7be-753dbeb64459, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mz.lancdn.vip}}, udp: true}
@@ -1052,8 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0424-CN
-      - 04-0425-TWtrojan//b01eec43-2ffb-3428-a515-e8bf1a090644@103.136.185.275516?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0502-US
-      - 04-0426-US
+      - 04-0425-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZGNmMWEwZC04ZGQyLTQ2NDgtYWZjYi1hYTdmMTllNWVmNjc@us.cooc.icu35881#04-0426-US
       - 04-0427-AU
       - 04-0428-RELAY
       - 04-0429-RELAY
@@ -1129,6 +1128,7 @@ proxy-groups:
       - 04-0499-JP
       - 04-0500-JP
       - 04-0501-US
+      - 04-0502-US
       - 04-0503-US
       - 04-0504-NOWHERE
       - 04-0505-CN
@@ -1741,6 +1741,7 @@ proxy-groups:
       - 23-2538-RELAY
       - 23-2541-RELAY
       - 23-2542-RELAY
+      - 23-2544-RELAY
       - 23-2547-RELAY
       - 23-2550-RELAY
       - 23-2555-RELAY
@@ -1825,7 +1826,6 @@ proxy-groups:
       - 23-2712-RELAY
       - 23-2713-RELAY
       - 23-2716-SG
-      - 23-2720-RELAY
       - 23-2721-RELAY
       - 23-2722-RELAY
       - 23-2723-RELAY
@@ -2053,7 +2053,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0426-US
+      - 04-0425-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZGNmMWEwZC04ZGQyLTQ2NDgtYWZjYi1hYTdmMTllNWVmNjc@us.cooc.icu35881#04-0426-US
       - 04-0431-RELAY
       - 04-0436-RELAY
       - 04-0441-CN
@@ -2246,7 +2246,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0425-TWtrojan//b01eec43-2ffb-3428-a515-e8bf1a090644@103.136.185.275516?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0502-US
       - 04-0427-AU
       - 04-0432-RELAY
       - 04-0437-RELAY
@@ -2262,6 +2261,7 @@ proxy-groups:
       - 04-0487-CN
       - 04-0492-CN
       - 04-0497-CN
+      - 04-0502-US
       - 04-0507-CN
       - 04-0512-CN
       - 04-0517-CN
@@ -2441,7 +2441,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0425-TWtrojan//b01eec43-2ffb-3428-a515-e8bf1a090644@103.136.185.275516?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0502-US
       - 04-0428-RELAY
       - 04-0433-RELAY
       - 04-0438-RELAY
@@ -2794,6 +2793,7 @@ proxy-groups:
       - 23-2519-RELAY
       - 23-2524-RELAY
       - 23-2529-RELAY
+      - 23-2544-RELAY
       - 23-2559-RELAY
       - 23-2584-RELAY
       - 23-2589-RELAY
@@ -2859,7 +2859,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0425-TWtrojan//b01eec43-2ffb-3428-a515-e8bf1a090644@103.136.185.275516?allowInsecure=1&sni=AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM#04-0502-US
+      - 04-0425-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZGNmMWEwZC04ZGQyLTQ2NDgtYWZjYi1hYTdmMTllNWVmNjc@us.cooc.icu35881#04-0426-US
       - 04-0430-RELAY
       - 04-0435-RELAY
       - 04-0440-CN
@@ -3010,7 +3010,6 @@ proxy-groups:
       - 23-2655-RELAY
       - 23-2665-RELAY
       - 23-2705-RELAY
-      - 23-2720-RELAY
       - 23-2740-RELAY
       - 23-2745-SG
       - 23-2750-RELAY
