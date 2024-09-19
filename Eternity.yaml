@@ -54,7 +54,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-CN, server: cmcc2.blackpink520.cyou, port: 12923, type: ss, cipher: aes-128-gcm, password: e76dc647-9b8a-49b9-94ff-43d6f96a9d71, udp: true}
   - {name: 03-0034-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b8812afc-a10f-499c-a9d8-69c82997c347, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0035-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4a9c6c61-7fc6-4fc1-b6cd-20c3863dc325, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0036-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a1766347-d108-43b5-87d1-d4e3143ede87, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1013,6 +1012,7 @@ proxies:
   - {name: 20-1959-KR, server: 146.56.191.191, port: 443, type: trojan, password: 1dfba761-c1e0-422e-98b6-062da56afb53, sni: jkrf1.969799.xyz, skip-cert-verify: true, udp: true}
   - {name: 20-1963-RO, server: gc-romania1.09vpn.com, port: 80, type: vmess, uuid: a49dea92-a8e0-4b99-9d7f-931b6108b2ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/, headers: {Host: gc-romania1.09vpn.com}}, udp: true}
   - {name: 20-1977-US, server: bolder-metal-comma.glitch.me, port: 80, type: vmess, uuid: dac61bb8-461c-4a4a-b14b-5a5ff6991fee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dac61bb8-461c-4a4a-b14b-5a5ff6991fee-vmess, headers: {Host: bolder-metal-comma.glitch.me}}, udp: true}
+  - {name: 21-2076-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 22-2238-SG, server: sg.huafei888.site, port: 40113, type: vmess, uuid: 465b3f32-4388-4a76-8844-adc260dd83d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.huafei888.site}}, udp: true}
   - {name: 22-2253-SG, server: sg.huafei888.site, port: 40113, type: vmess, uuid: 93487153-167c-4e97-b78d-b6a27e299659, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.huafei888.site}}, udp: true}
   - {name: 22-2311-SG, server: sg.huafei888.site, port: 40113, type: vmess, uuid: 672d76cc-c4a2-4018-8133-2d0a5299687e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg.huafei888.site}}, udp: true}
@@ -1051,7 +1051,6 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0000-CN
       - 03-0034-KR
       - 03-0035-KR
       - 03-0036-KR
@@ -2010,6 +2009,7 @@ proxy-groups:
       - 20-1959-KR
       - 20-1963-RO
       - 20-1977-US
+      - 21-2076-RELAY
       - 22-2238-SG
       - 22-2253-SG
       - 22-2311-SG
@@ -2245,6 +2245,7 @@ proxy-groups:
       - 13-1081-CN
       - 13-1086-CN
       - 20-1946-JP
+      - 21-2076-RELAY
       - 22-2311-SG
       - 22-2346-SG
       - 23-2546-SG
@@ -2863,7 +2864,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-CN
       - 03-0035-KR
       - 03-0040-KR
       - 03-0045-KR
