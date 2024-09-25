@@ -342,6 +342,7 @@ proxies:
   - {name: 03-0287-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c16d9987-76cd-42e9-b2bb-9e5aea408be7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0288-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8fb694eb-c123-4c9f-8623-2d551ca093e8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0289-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b6b3a9a1-cd88-4ed3-9099-36aaba36e250, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 03-0290-CN, server: afa007d388783f3a.cdn.jiashule.com, port: 24226, type: ss, cipher: chacha20-ietf-poly1305, password: 88a6a230-c919-4306-a974-e8c5521e7430, udp: true}
   - {name: 03-0291-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a3d3fee5-064a-44dd-861d-3b6641f4c30f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0292-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 73345312-d575-4ca9-874d-11be26a6e4c6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0293-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 17c43f72-4e82-4600-a834-fab298db1d09, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -803,7 +804,6 @@ proxies:
   - {name: 07-0850-CN, server: yidong1.liulangdiqiu.life, port: 10714, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
   - {name: 07-0851-JP, server: jp007.421421.xyz, port: 20230, type: trojan, password: b44da489-fc70-4fd0-8997-a83b51f59267, sni: 421421.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0852-RELAY, server: aqerdsf_cdn.hfhfb.homes, port: 2086, type: vmess, uuid: 3449a86e-e304-45b2-a543-b6d8ef429012, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=1024", headers: {Host: aqerdsf_cdn.hfhfb.homes}}, udp: true}
-  - {name: 07-0853-CN, server: yidong1.liulangdiqiu.life, port: 10708, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
   - {name: 07-0854-CN, server: yidong1.liulangdiqiu.life, port: 10709, type: ss, cipher: chacha20-ietf-poly1305, password: dd29d7ad-5fda-4f64-a57e-716ca6010e65, udp: true}
   - {name: 07-0855-RELAY, server: 172.64.167.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-0856-RELAY, server: 104.19.46.233, port: 2086, type: vmess, uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -1339,6 +1339,7 @@ proxy-groups:
       - 03-0287-KR
       - 03-0288-KR
       - 03-0289-KR
+      - 03-0290-CN
       - 03-0291-KR
       - 03-0292-KR
       - 03-0293-KR
@@ -1800,7 +1801,6 @@ proxy-groups:
       - 07-0850-CN
       - 07-0851-JP
       - 07-0852-RELAY
-      - 07-0853-CN
       - 07-0854-CN
       - 07-0855-RELAY
       - 07-0856-RELAY
@@ -2608,7 +2608,6 @@ proxy-groups:
       - 06-0838-CN
       - 06-0843-CN
       - 06-0848-CN
-      - 07-0853-CN
       - 07-0858-RELAY
       - 08-0863-CN
       - 08-0868-CN
@@ -2922,6 +2921,7 @@ proxy-groups:
       - 03-0275-CN
       - 03-0280-KR
       - 03-0285-KR
+      - 03-0290-CN
       - 03-0295-KR
       - 03-0300-KR
       - 03-0305-KR
