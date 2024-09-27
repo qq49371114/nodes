@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: 7438974b54cf5c57.cdn.jiashule.com, port: 40220, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 74592:o4fbeopsgcf, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 02-0012-CN, server: jp2.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 02-0013-CN, server: 14.215.169.69, port: 20028, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 02-0014-NOWHERE, server: 95b1cd85a0968ff2.cdn.jiashule.com, port: 40201, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 74592:o4fbeopsgcf, obfs-param: cd5ed74592.6602b8463464108506.microsoft.com, udp: true}
   - {name: 02-0015-CN, server: tw1.mhw7e2.online, port: 20021, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
@@ -506,7 +507,6 @@ proxies:
   - {name: 04-0467-CN, server: ru.cooc.icu, port: 35645, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0468-CN, server: mas.cooc.icu, port: 35603, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0469-TW, server: tw.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
-  - {name: 04-0470-US, server: us.cooc.icu, port: 35881, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0471-AU, server: jp.cooc.icu, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: 4dcf1a0d-8dd2-4648-afcb-aa7f19e5ef67, udp: true}
   - {name: 04-0472-RELAY, server: 1.1.1.1, port: 443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8}, udp: true}
   - {name: 04-0473-RELAY, server: usbk.cfip.top, port: 8443, type: vmess, uuid: c27b9f3e-baf5-4cb0-93df-9d2fb557cc95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv13/hd.m3u8, headers: {Host: usbk.cfip.top}}, udp: true}
@@ -582,7 +582,7 @@ proxies:
   - {name: 04-0543-JP, server: 54.238.135.78, port: 443, type: trojan, password: 68a73b8f-21c0-370e-b641-7b132390ab99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0544-JP, server: 35.75.8.137, port: 443, type: trojan, password: 68a73b8f-21c0-370e-b641-7b132390ab99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0545-US, server: 35.93.203.243, port: 443, type: trojan, password: 68a73b8f-21c0-370e-b641-7b132390ab99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0546-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 69cbb848-45d1-40f7-a431-1e7bf58cc806, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0546-US, server: 103.136.185.27, port: 5518, type: trojan, password: 68a73b8f-21c0-370e-b641-7b132390ab99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0547-US, server: 103.136.185.28, port: 3506, type: trojan, password: 68a73b8f-21c0-370e-b641-7b132390ab99, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0548-NOWHERE, server: "%E6%9C%80%E6%96%B0%E5%AE%98%E7%BD%91%EF%BC%9Auuvpn.cloud", port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: 9d6caf47-91b8-4598-9f98-8ce4477f4cb0, udp: true}
   - {name: 04-0549-CN, server: gdcub.yunnode.win, port: 31640, type: ss, cipher: chacha20-ietf-poly1305, password: 9d6caf47-91b8-4598-9f98-8ce4477f4cb0, udp: true}
@@ -965,7 +965,6 @@ proxies:
   - {name: 07-1025-CN, server: hk5.mhw7e2.online, port: 20027, type: ss, cipher: chacha20-ietf-poly1305, password: 70747514-fb14-4f31-8390-e1f0453eff6d, udp: true}
   - {name: 07-1026-VN, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 07-1027-RELAY, server: 104.26.5.67, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
-  - {name: 07-1028-US, server: us003.421421.xyz, port: 20230, type: trojan, password: cf13832b-4ca0-4fee-8e85-2b2411104e75, skip-cert-verify: true, udp: true}
   - {name: 07-1029-RELAY, server: 104.19.38.88, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-1030-RELAY, server: 172.64.167.44, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 07-1031-RELAY, server: 104.19.45.19, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
@@ -1052,6 +1051,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 02-0012-CN
       - 02-0013-CN
       - 02-0014-NOWHERE
       - 02-0015-CN
@@ -1503,7 +1503,6 @@ proxy-groups:
       - 04-0467-CN
       - 04-0468-CN
       - 04-0469-TW
-      - 04-0470-US
       - 04-0471-AU
       - 04-0472-RELAY
       - 04-0473-RELAY
@@ -1962,7 +1961,6 @@ proxy-groups:
       - 07-1025-CN
       - 07-1026-VN
       - 07-1027-RELAY
-      - 07-1028-US
       - 07-1029-RELAY
       - 07-1030-RELAY
       - 07-1031-RELAY
@@ -2256,6 +2254,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0012-CN
       - 02-0017-CN
       - 03-0027-KR
       - 03-0032-KR
@@ -2638,7 +2637,6 @@ proxy-groups:
       - 07-1013-RELAY
       - 07-1018-CN
       - 07-1023-RELAY
-      - 07-1028-US
       - 07-1033-RELAY
       - 07-1038-RELAY
       - 07-1043-RELAY
@@ -2952,7 +2950,6 @@ proxy-groups:
       - 04-0455-CN
       - 04-0460-CN
       - 04-0465-CN
-      - 04-0470-US
       - 04-0475-RELAY
       - 04-0480-RELAY
       - 04-0485-CN
