@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: hzhz1.sssyun.xyz, port: 39505, type: ss, cipher: chacha20-ietf-poly1305, password: c569d52a-7beb-4a4c-841c-53c098c35881, udp: true}
-  - {name: 02-0063-CLOUDFRONT, server: hkcft01.xqc.best, port: 443, type: vmess, uuid: 54f7ac86-3f15-4fea-900f-eae6fd2f9ff3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: hkcft01.xqc.best}}, udp: true}
   - {name: 02-0064-CLOUDFRONT, server: hkcft01.xqc.best, port: 443, type: vmess, uuid: 7d261ae0-c11d-4962-bde6-52b53ac0cd74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: hkcft01.xqc.best}}, udp: true}
   - {name: 02-0065-CLOUDFRONT, server: hkcft01.xqc.best, port: 443, type: vmess, uuid: 0112665c-8eea-44f0-adba-53250d54aa2d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: hkcft01.xqc.best}}, udp: true}
   - {name: 02-0066-CLOUDFRONT, server: hkcft01.xqc.best, port: 443, type: vmess, uuid: 377faa40-ce33-4211-b06d-3d4e04596fb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /stream, headers: {Host: hkcft01.xqc.best}}, udp: true}
@@ -984,6 +983,7 @@ proxies:
   - {name: 20-1626-KR, server: ent1.imyourdaddy.top, port: 21027, type: vmess, uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ent1.imyourdaddy.top}}, udp: true}
   - {name: 20-1628-KR, server: ent1.imyourdaddy.top, port: 21026, type: vmess, uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ent1.imyourdaddy.top}}, udp: true}
   - {name: 21-1727-KR, server: ent1.imyourdaddy.top, port: 21025, type: vmess, uuid: 64f33df2-4f9d-4cf3-bb69-b82b08cf149a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ent1.imyourdaddy.top}}, udp: true}
+  - {name: 21-1792-VN, server: std1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 22-1797-KR, server: cc112.12123.org, port: 30002, type: vmess, uuid: d9751ad5-e1cc-432f-b2a9-3f7a15aa0f28, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 22-1822-RELAY, server: rbv3.ftko8vzt9w.cyou, port: 2083, type: vmess, uuid: 526aed63-10cd-4a6e-b51c-bec78b61a615, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rbv3.ftko8vzt9w.cyou}}, udp: true}
   - {name: 22-1824-RELAY, server: hlv3.ftko8vzt9w.cyou, port: 2083, type: vmess, uuid: 526aed63-10cd-4a6e-b51c-bec78b61a615, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hlv3.ftko8vzt9w.cyou}}, udp: true}
@@ -1053,7 +1053,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 02-0063-CLOUDFRONT
       - 02-0064-CLOUDFRONT
       - 02-0065-CLOUDFRONT
       - 02-0066-CLOUDFRONT
@@ -1982,6 +1981,7 @@ proxy-groups:
       - 20-1626-KR
       - 20-1628-KR
       - 21-1727-KR
+      - 21-1792-VN
       - 22-1797-KR
       - 22-1822-RELAY
       - 22-1824-RELAY
@@ -2441,6 +2441,7 @@ proxy-groups:
       - 13-1082-CN
       - 13-1087-CN
       - 21-1727-KR
+      - 21-1792-VN
       - 22-1797-KR
       - 22-1822-RELAY
       - 22-1877-RELAY
@@ -2463,7 +2464,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0063-CLOUDFRONT
       - 02-0068-CLOUDFRONT
       - 02-0073-CLOUDFRONT
       - 02-0078-CLOUDFRONT
