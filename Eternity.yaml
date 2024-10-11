@@ -1024,6 +1024,7 @@ proxies:
   - {name: 23-2452-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 443c2247-35e1-47a9-96f8-b555d9a7f722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 23-2453-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 574184f1-7002-46a2-a879-6fc1944b09ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 23-2465-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 4038bd32-eb43-4711-b9e9-01362f1b034a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
+  - {name: 23-2468-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 574184f1-7002-46a2-a879-6fc1944b09ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 23-2481-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 443c2247-35e1-47a9-96f8-b555d9a7f722, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 23-2530-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 0465f65a-34e5-419b-a4f6-cdcb03e367c8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2535-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: f3b68e9a-0482-49c7-9e22-815cba011692, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -1032,7 +1033,6 @@ proxies:
   - {name: 23-2630-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 6948ab86-91b8-411d-ad9f-46c4b4b31196, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2633-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 6fc25ee2-8e14-4783-9b4c-409283df8787, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2650-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 2eabdb96-4bd2-441b-bb82-393d75845e78, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
-  - {name: 23-2672-RELAY, server: us-new01.daluquan.top, port: 8880, type: vmess, uuid: 574184f1-7002-46a2-a879-6fc1944b09ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new01.daluquan.top}}, udp: true}
   - {name: 23-2699-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: f88e8c87-1a0f-48ab-93e9-fe3433e9a343, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 23-2703-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: ff33d877-246b-422a-8695-c795f5ee64a4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
   - {name: 24-2815-KR, server: cc112.12123.org, port: 30004, type: vmess, uuid: 1dae78e5-ebd8-4272-9ba7-cdacc62f1ff9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc112.12123.org}}, udp: true}
@@ -2022,6 +2022,7 @@ proxy-groups:
       - 23-2452-RELAY
       - 23-2453-RELAY
       - 23-2465-KR
+      - 23-2468-RELAY
       - 23-2481-RELAY
       - 23-2530-KR
       - 23-2535-KR
@@ -2030,7 +2031,6 @@ proxy-groups:
       - 23-2630-KR
       - 23-2633-KR
       - 23-2650-KR
-      - 23-2672-RELAY
       - 23-2699-KR
       - 23-2703-KR
       - 24-2815-KR
@@ -2454,7 +2454,6 @@ proxy-groups:
       - 23-2452-RELAY
       - 23-2587-KR
       - 23-2617-KR
-      - 23-2672-RELAY
       - 24-2867-KR
   - name: 测速3分组
     type: url-test
@@ -2657,6 +2656,7 @@ proxy-groups:
       - 23-2203-KR
       - 23-2323-KR
       - 23-2453-RELAY
+      - 23-2468-RELAY
       - 23-2633-KR
       - 23-2703-KR
       - 24-2883-KR
