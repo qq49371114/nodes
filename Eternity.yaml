@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: tg_mfbpn03.52cloud.us.kg, port: 34676, type: ss, cipher: chacha20-ietf-poly1305, password: 5409bf78-b122-4b9b-9050-da36576f5bbc, udp: true}
-  - {name: 03-0021-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 65431080-7093-4336-98c0-9407cf96c8f1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0022-CN, server: gstdnb.myfczy168.top, port: 35846, type: ss, cipher: chacha20-ietf-poly1305, password: a0bf1c59-c77a-46db-9015-8a27a4c7822f, udp: true}
   - {name: 03-0023-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 406e4602-858a-49fc-97f8-ab7eac664b58, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0024-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a55078f4-a726-42ae-8fcd-6c108e9d4d2a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -513,8 +512,8 @@ proxies:
   - {name: 04-0477-JP, server: 54.238.135.78, port: 443, type: trojan, password: d467a33d-dddd-33c6-8227-fecceba7632d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0478-JP, server: 35.75.8.137, port: 443, type: trojan, password: d467a33d-dddd-33c6-8227-fecceba7632d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 04-0479-US, server: 35.93.203.243, port: 443, type: trojan, password: d467a33d-dddd-33c6-8227-fecceba7632d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0480-US, server: 103.136.185.27, port: 5525, type: trojan, password: d467a33d-dddd-33c6-8227-fecceba7632d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
-  - {name: 04-0481-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f3ae6150-0a78-4852-b9ac-f339ae37c1de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0480-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f3ae6150-0a78-4852-b9ac-f339ae37c1de, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
+  - {name: 04-0481-US, server: 103.136.185.28, port: 3508, type: trojan, password: d467a33d-dddd-33c6-8227-fecceba7632d, sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM, skip-cert-verify: true, udp: true}
   - {name: 05-0581-RELAY, server: rbv3.mkgt99z.club, port: 2083, type: vmess, uuid: e84dafcc-a2ec-47c8-981d-da7b69c4425d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rbv3.mkgt99z.club}}, udp: true}
   - {name: 05-0582-RELAY, server: hlv3.mkgt99z.club, port: 2083, type: vmess, uuid: e84dafcc-a2ec-47c8-981d-da7b69c4425d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hlv3.mkgt99z.club}}, udp: true}
   - {name: 05-0583-RELAY, server: elsv3.mkgt99z.club, port: 2087, type: vmess, uuid: e84dafcc-a2ec-47c8-981d-da7b69c4425d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: elsv3.mkgt99z.club}}, udp: true}
@@ -1041,6 +1040,7 @@ proxies:
   - {name: 23-2169-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: cd22fb2d-94eb-4f9b-9d74-da3b01b938d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 23-2250-JP, server: 132.145.123.206, port: 58352, type: vmess, uuid: 4c9c1144-1823-4876-8693-5251cb770229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 23-2257-JP, server: jp.aikx.me, port: 41237, type: vmess, uuid: 4c9c1144-1823-4876-8693-5251cb770229, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222, headers: {Host: jp.aikx.me}}, udp: true}
+  - {name: 23-2279-RELAY, server: elsv3.mkgt99z.club, port: 2087, type: vmess, uuid: 6adc09c0-d4b6-4ab0-9ae8-8fed0c104cf5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: elsv3.mkgt99z.club}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1052,7 +1052,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 03-0021-KR
       - 03-0022-CN
       - 03-0023-KR
       - 03-0024-KR
@@ -2038,6 +2037,7 @@ proxy-groups:
       - 23-2169-RELAY
       - 23-2250-JP
       - 23-2257-JP
+      - 23-2279-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2053,7 +2053,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0021-KR
       - 03-0026-KR
       - 03-0031-KR
       - 03-0036-KR
@@ -2857,6 +2856,7 @@ proxy-groups:
       - 22-1889-JP
       - 23-2144-RELAY
       - 23-2169-RELAY
+      - 23-2279-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
