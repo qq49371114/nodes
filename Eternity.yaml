@@ -1034,8 +1034,8 @@ proxies:
   - {name: 14-1086-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 787d6102-ee23-4e12-a686-43da4713ae38, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1087-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b1f60b6e-2651-4a6e-8a94-f32f0dca40e6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1088-CN, server: gstdnb.myfczy168.top, port: 21743, type: ss, cipher: chacha20-ietf-poly1305, password: 30da125e-09b4-4b22-bf1a-9db65edba9ce, udp: true}
-  - {name: 21-1509-HK, server: 218.252.203.74, port: 15086, type: vmess, uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 21-1511-HK, server: 1.65.205.116, port: 30251, type: vmess, uuid: 9e88a10b-655c-5120-89d0-408634169561, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 21-1608-TW, server: twnode11.oportal.cc, port: 443, type: trojan, password: 981db44e-9f07-49eb-9ba0-6ab4939919a2, sni: twnode11.oportal.cc, skip-cert-verify: true, udp: true}
   - {name: 22-1695-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 92f529ed-b24e-4831-a63f-d68cf516e5d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 22-1783-RELAY, server: uk-new01.daluquan.top, port: 8880, type: vmess, uuid: 92f529ed-b24e-4831-a63f-d68cf516e5d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: uk-new01.daluquan.top}}, udp: true}
   - {name: 22-1817-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 283d76f7-d930-44b9-ae23-2e1dde477b0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
@@ -2032,8 +2032,8 @@ proxy-groups:
       - 14-1086-KR
       - 14-1087-KR
       - 14-1088-CN
-      - 21-1509-HK
       - 21-1511-HK
+      - 21-1608-TW
       - 22-1695-RELAY
       - 22-1783-RELAY
       - 22-1817-RELAY
@@ -2657,6 +2657,7 @@ proxy-groups:
       - 14-1078-CN
       - 14-1083-KR
       - 14-1088-CN
+      - 21-1608-TW
       - 22-1783-RELAY
   - name: 测速4分组
     type: url-test
@@ -2857,7 +2858,6 @@ proxy-groups:
       - 14-1074-CN
       - 14-1079-CN
       - 14-1084-KR
-      - 21-1509-HK
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
