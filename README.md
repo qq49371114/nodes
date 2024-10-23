@@ -376,8 +376,8 @@ Fork from TopFreeProxies.
     trojan://419a2937-ef35-32ea-9a31-1628c215da2c@54.238.135.78:443?allowInsecure=1&sni=steampipe.akamaized.net#04-0349-JP
     trojan://419a2937-ef35-32ea-9a31-1628c215da2c@35.75.8.137:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-0350-JP
     trojan://419a2937-ef35-32ea-9a31-1628c215da2c@54.186.255.249:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-0351-US
-    trojan://64e0ee38-2874-3f3f-b7d2-34f5a03cbaab@54.238.135.78:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-0352-US
-    trojan://419a2937-ef35-32ea-9a31-1628c215da2c@103.136.185.28:3511?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-0353-US
+    trojan://419a2937-ef35-32ea-9a31-1628c215da2c@103.136.185.27:5528?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-0352-US
+    trojan://64e0ee38-2874-3f3f-b7d2-34f5a03cbaab@54.238.135.78:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-0353-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDM1NC1SRUxBWSIsImFkZCI6InMxLmRiLWxpbmswMS50b3AiLCJwb3J0IjoiODg4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2ZjdjMDc4NC1jYTIzLTM3NzUtODlmMS01ZDM5MmViYjMyYTciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY0LjM3LjgyIiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDM1NS1SRUxBWSIsImFkZCI6InM0LmNuLWRiLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjZmN2MwNzg0LWNhMjMtMzc3NS04OWYxLTVkMzkyZWJiMzJhNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTguMTE3LjIyMiIsImhvc3QiOiJzNC5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDM1Ni1SRUxBWSIsImFkZCI6InM0LmNuLWRiLnRvcCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI2ZjdjMDc4NC1jYTIzLTM3NzUtODlmMS01ZDM5MmViYjMyYTciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY0LjU0LjE4NSIsImhvc3QiOiJzNC5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
@@ -1023,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `3481`
+合并节点总数: `3480`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `3481`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `3480`
 
 
 ## 仓库声明
