@@ -1036,11 +1036,11 @@ proxies:
   - {name: 12-1086-CN, server: gstdnb.myfczy168.top, port: 34013, type: ss, cipher: chacha20-ietf-poly1305, password: 6dd32132-017d-4310-949f-fc3978b48485, udp: true}
   - {name: 12-1087-CN, server: gstdnb.myfczy168.top, port: 13708, type: ss, cipher: chacha20-ietf-poly1305, password: 6dd32132-017d-4310-949f-fc3978b48485, udp: true}
   - {name: 12-1088-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fef81454-94a6-4f93-a229-e0910cd8d7ff, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 20-1704-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 20-1720-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 20-1725-TW, server: tw1-vds7.anyhk.co, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 0d43fd02-cb36-4f3c-be19-c9cbed362646, udp: true}
   - {name: 23-2545-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 58d94de3-1a8b-405d-9895-eee691813ceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 23-2701-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 58d94de3-1a8b-405d-9895-eee691813ceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
-  - {name: 23-3067-RELAY, server: uk-new01.daluquan.top, port: 8880, type: vmess, uuid: 58d94de3-1a8b-405d-9895-eee691813ceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: uk-new01.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -2033,11 +2033,11 @@ proxy-groups:
       - 12-1086-CN
       - 12-1087-CN
       - 12-1088-KR
+      - 20-1704-RELAY
       - 20-1720-JP
       - 20-1725-TW
       - 23-2545-RELAY
       - 23-2701-RELAY
-      - 23-3067-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2452,7 +2452,6 @@ proxy-groups:
       - 12-1077-CN
       - 12-1082-CN
       - 12-1087-CN
-      - 23-3067-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2856,6 +2855,7 @@ proxy-groups:
       - 12-1074-CN
       - 12-1079-CN
       - 12-1084-CN
+      - 20-1704-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
