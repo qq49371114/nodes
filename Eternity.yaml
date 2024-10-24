@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: 183.232.229.165, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 54f4e2f4-f0e1-4a15-a0cf-3a3234ab58fb, udp: true}
+  - {name: 02-0008-CN, server: gdcub.yunnode.win, port: 31660, type: ss, cipher: chacha20-ietf-poly1305, password: 0f2dc2f1-4556-4a36-bbb1-f13a23ad73f3, udp: true}
   - {name: 02-0009-CN, server: gy.58n.net, port: 20279, type: trojan, password: 0c752bf8-4421-36bd-b97c-cd0d40726dcd, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 02-0010-CN, server: gdcub.yunnode.win, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: 0f2dc2f1-4556-4a36-bbb1-f13a23ad73f3, udp: true}
   - {name: 02-0011-CN, server: gdcub.yunnode.win, port: 31642, type: ss, cipher: chacha20-ietf-poly1305, password: 0f2dc2f1-4556-4a36-bbb1-f13a23ad73f3, udp: true}
@@ -394,13 +395,13 @@ proxies:
   - {name: 04-0346-US, server: 54.186.255.249, port: 443, type: trojan, password: f3364a86-6705-3326-af64-6f8476ddd977, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0347-US, server: 103.136.185.27, port: 5528, type: trojan, password: f3364a86-6705-3326-af64-6f8476ddd977, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0348-US, server: 103.136.185.28, port: 3511, type: trojan, password: f3364a86-6705-3326-af64-6f8476ddd977, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0349-RELAY, server: s4.cn-db.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.36.98, headers: {Host: s4.cn-db.top}}, udp: true}
-  - {name: 04-0350-RELAY, server: s3.cn-db.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.176.130, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0351-RELAY, server: s3.cn-db.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.118.80, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0352-RELAY, server: s3.cn-db.top, port: 2082, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.4.210, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0353-RELAY, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.28.18, headers: {Host: s3.cn-db.top}}, udp: true}
-  - {name: 04-0354-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.55.79, headers: {Host: s1.db-link01.top}}, udp: true}
-  - {name: 04-0355-RELAY, server: s2.db-link02.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.48.75, headers: {Host: s2.db-link02.top}}, udp: true}
+  - {name: 04-0349-RELAY, server: s3.cn-db.top, port: 2095, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.67.50, headers: {Host: s3.cn-db.top}}, udp: true}
+  - {name: 04-0350-RELAY, server: s3.cn-db.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.26.211, headers: {Host: s3.cn-db.top}}, udp: true}
+  - {name: 04-0351-RELAY, server: s2.db-link02.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.62.218, headers: {Host: s2.db-link02.top}}, udp: true}
+  - {name: 04-0352-RELAY, server: s1.db-link01.top, port: 2086, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.24.92, headers: {Host: s1.db-link01.top}}, udp: true}
+  - {name: 04-0353-RELAY, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.52.254, headers: {Host: s2.db-link02.top}}, udp: true}
+  - {name: 04-0354-RELAY, server: s1.db-link01.top, port: 80, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.68.250, headers: {Host: s1.db-link01.top}}, udp: true}
+  - {name: 04-0355-RELAY, server: s4.cn-db.top, port: 2052, type: vmess, uuid: 6f7c0784-ca23-3775-89f1-5d392ebb32a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.12.9, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-0356-CN, server: gdcub.yunnode.win, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: 9850a84f-58c8-4029-85fe-adfb9333d3c5, udp: true}
   - {name: 04-0357-CN, server: gdcub.yunnode.win, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: 9850a84f-58c8-4029-85fe-adfb9333d3c5, udp: true}
   - {name: 04-0358-CN, server: gdcub.yunnode.win, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: 9850a84f-58c8-4029-85fe-adfb9333d3c5, udp: true}
@@ -1037,7 +1038,6 @@ proxies:
   - {name: 20-1788-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 20-1830-RELAY, server: s1c.v2.v001sss.xyz, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
   - {name: 21-1922-FR, server: 162.19.25.207, port: 44513, type: vmess, uuid: 4552bdb6-e008-43ac-926d-c6c6c5a6fc76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 21-2017-VN, server: bs1.loadingip.com, port: 443, type: trojan, password: 94d219c9-1afc-4d42-b090-8b3794764380, skip-cert-verify: true, udp: true}
   - {name: 23-2863-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 58d94de3-1a8b-405d-9895-eee691813ceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 23-2969-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 58d94de3-1a8b-405d-9895-eee691813ceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 23-3367-RELAY, server: uk-new01.daluquan.top, port: 8880, type: vmess, uuid: 58d94de3-1a8b-405d-9895-eee691813ceb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: uk-new01.daluquan.top}}, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 02-0008-CN
       - 02-0009-CN
       - 02-0010-CN
       - 02-0011-CN
@@ -2034,7 +2035,6 @@ proxy-groups:
       - 20-1788-JP
       - 20-1830-RELAY
       - 21-1922-FR
-      - 21-2017-VN
       - 23-2863-RELAY
       - 23-2969-RELAY
       - 23-3367-RELAY
@@ -2451,13 +2451,13 @@ proxy-groups:
       - 12-1082-CN
       - 12-1087-CN
       - 21-1922-FR
-      - 21-2017-VN
       - 23-3367-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0008-CN
       - 02-0013-CN
       - 02-0018-US
       - 02-0023-RELAY
