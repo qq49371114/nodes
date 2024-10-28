@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: dajbxtw.naikonode1.top, port: 15504, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: plain, protocol-param: 40208:yYyiNvXTethxtYP7, obfs-param: 83e2a40208.microsoft.com, udp: true}
+  - {name: 03-0005-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3056126b-3621-44a5-8d13-e296d0385b71, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0006-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 59e7185a-34b5-463d-be54-4d79dae76d0a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0007-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e1cfc667-2e98-46e7-b4d3-7e94c9520087, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0008-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 0d3f5b39-b6e4-4aa6-88e3-5cccb67d0383, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1040,7 +1041,6 @@ proxies:
   - {name: 14-1088-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 1934af72-ffd0-4c33-ae77-f1d783fc0c88, udp: true}
   - {name: 20-1500-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 23-2136-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: bd27f23e-73c9-4de1-9532-5d4cefc540d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
-  - {name: 23-2344-CN, server: c.sz.huabanmao.xyz, port: 50001, type: trojan, password: 5eb27982-606b-45c1-848f-e0f9c4ac90c8, sni: ssl.catcable.work, skip-cert-verify: true, udp: true}
   - {name: 23-2396-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: bd27f23e-73c9-4de1-9532-5d4cefc540d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1053,6 +1053,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 03-0005-KR
       - 03-0006-KR
       - 03-0007-KR
       - 03-0008-KR
@@ -2038,7 +2039,6 @@ proxy-groups:
       - 14-1088-CN
       - 20-1500-JP
       - 23-2136-RELAY
-      - 23-2344-CN
       - 23-2396-RELAY
   - name: 自动选择
     type: url-test
@@ -2859,13 +2859,13 @@ proxy-groups:
       - 14-1074-CN
       - 14-1079-CN
       - 14-1084-CN
-      - 23-2344-CN
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 02-0000-CN
+      - 03-0005-KR
       - 03-0010-CN
       - 03-0015-CN
       - 03-0020-KR
