@@ -55,8 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: dajbxtw.naikonode1.top, port: 15504, type: ssr, cipher: chacha20-ietf, password: NaikoCloud, protocol: auth_aes128_md5, obfs: plain, protocol-param: 40208:yYyiNvXTethxtYP7, obfs-param: 83e2a40208.microsoft.com, udp: true}
-  - {name: 03-0016-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8870a219-cb16-4668-a1a7-234073f3224f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 03-0017-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d14c6279-c253-44ee-91b8-a37282ff2201, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0018-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ac30ecc5-4fab-4d85-a1bd-f0448017c765, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0019-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 88062b2a-1b4f-405f-b315-95042838ec11, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0020-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 88699a88-76c6-43fb-a67b-e36cf61ef73e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1030,14 +1028,16 @@ proxies:
   - {name: 14-1088-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 81158cea-f3d4-48ce-82cd-02c9c2522afb, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 20-1513-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 22-1733-RELAY, server: rb.zoding.top, port: 2083, type: vmess, uuid: 22c98308-4122-494b-9262-08ef26be96c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: rb.zoding.top}}, udp: true}
-  - {name: 22-1798-RELAY, server: xjpv.zoding.top, port: 2083, type: vmess, uuid: 22c98308-4122-494b-9262-08ef26be96c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xjpv.zoding.top}}, udp: true}
+  - {name: 22-2009-RELAY, server: hk1.zoding.top, port: 2083, type: vmess, uuid: 22c98308-4122-494b-9262-08ef26be96c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.zoding.top}}, udp: true}
   - {name: 22-2083-RELAY, server: hk.zoding.top, port: 2083, type: vmess, uuid: 22c98308-4122-494b-9262-08ef26be96c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.zoding.top}}, udp: true}
   - {name: 23-2186-RELAY, server: dg1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dg1.zoding.top}}, udp: true}
+  - {name: 23-2209-RELAY, server: xjpv.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xjpv.zoding.top}}, udp: true}
   - {name: 23-2464-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: bd27f23e-73c9-4de1-9532-5d4cefc540d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 23-2496-RELAY, server: usv1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: usv1.zoding.top}}, udp: true}
   - {name: 23-2503-RELAY, server: hk.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk.zoding.top}}, udp: true}
   - {name: 23-2557-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: bd27f23e-73c9-4de1-9532-5d4cefc540d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 23-2574-RELAY, server: fg1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fg1.zoding.top}}, udp: true}
+  - {name: 23-2582-RELAY, server: xjp1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xjp1.zoding.top}}, udp: true}
   - {name: 23-2591-RELAY, server: hk1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk1.zoding.top}}, udp: true}
   - {name: 23-2602-RELAY, server: uk1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uk1.zoding.top}}, udp: true}
   - {name: 23-2673-RELAY, server: jnd1.zoding.top, port: 2083, type: vmess, uuid: 105df566-3382-455f-aafc-543e903f8e00, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jnd1.zoding.top}}, udp: true}
@@ -1053,8 +1053,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 03-0016-KR
-      - 03-0017-KR
       - 03-0018-KR
       - 03-0019-KR
       - 03-0020-KR
@@ -2028,14 +2026,16 @@ proxy-groups:
       - 14-1088-KR
       - 20-1513-JP
       - 22-1733-RELAY
-      - 22-1798-RELAY
+      - 22-2009-RELAY
       - 22-2083-RELAY
       - 23-2186-RELAY
+      - 23-2209-RELAY
       - 23-2464-RELAY
       - 23-2496-RELAY
       - 23-2503-RELAY
       - 23-2557-RELAY
       - 23-2574-RELAY
+      - 23-2582-RELAY
       - 23-2591-RELAY
       - 23-2602-RELAY
       - 23-2673-RELAY
@@ -2055,7 +2055,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0016-KR
       - 03-0021-KR
       - 03-0026-KR
       - 03-0031-RELAY
@@ -2258,7 +2257,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0017-KR
       - 03-0022-KR
       - 03-0027-KR
       - 03-0032-KR
@@ -2454,6 +2452,7 @@ proxy-groups:
       - 14-1082-KR
       - 14-1087-CN
       - 23-2557-RELAY
+      - 23-2582-RELAY
       - 23-2602-RELAY
       - 23-2722-RELAY
   - name: 测速3分组
@@ -2658,7 +2657,6 @@ proxy-groups:
       - 14-1088-KR
       - 20-1513-JP
       - 22-1733-RELAY
-      - 22-1798-RELAY
       - 22-2083-RELAY
       - 23-2503-RELAY
       - 23-2673-RELAY
@@ -2861,6 +2859,8 @@ proxy-groups:
       - 14-1074-CN
       - 14-1079-KR
       - 14-1084-KR
+      - 22-2009-RELAY
+      - 23-2209-RELAY
       - 23-2464-RELAY
       - 23-2574-RELAY
   - name: 测速5分组
