@@ -1040,7 +1040,7 @@ proxies:
   - {name: 14-1085-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9fff76e7-b7b6-4dc6-a9b1-89fcbf812963, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1086-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ac4fe557-1be5-4918-adaf-a03ad5f480e2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1088-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 036851c6-5179-41c2-b200-d9dc3c7577f1, udp: true}
-  - {name: 23-2538-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: bd27f23e-73c9-4de1-9532-5d4cefc540d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
+  - {name: 20-1522-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 23-2627-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: bd27f23e-73c9-4de1-9532-5d4cefc540d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -2038,7 +2038,7 @@ proxy-groups:
       - 14-1085-KR
       - 14-1086-KR
       - 14-1088-CN
-      - 23-2538-RELAY
+      - 20-1522-RELAY
       - 23-2627-RELAY
   - name: 自动选择
     type: url-test
@@ -2454,6 +2454,7 @@ proxy-groups:
       - 14-1072-KR
       - 14-1077-KR
       - 14-1082-CN
+      - 20-1522-RELAY
       - 23-2627-RELAY
   - name: 测速3分组
     type: url-test
@@ -2657,7 +2658,6 @@ proxy-groups:
       - 14-1078-KR
       - 14-1083-KR
       - 14-1088-CN
-      - 23-2538-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
