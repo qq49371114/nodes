@@ -30,7 +30,7 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozMDg1ODA5MC1kN2VmLTQxNTItYjBjNi1lMjFkNjgyMDA2NDU@gy.666666222.shop:20032#03-0087-CN
+    trojan://94d219c9-1afc-4d42-b090-8b3794764380@36.50.134.29:443?allowInsecure=1#02-0008-VN
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDA4OC1SRUxBWSIsImFkZCI6ImNmLmh5Mi5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiNjRhNDJhY2EtN2RkOC00MTAxLWJmMTMtMDhkZWE0NWEyYzFhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hZjMyM2QiLCJob3N0IjoiY2YuaHkyLm9uZSIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDZmOWU0My02ZTMwLTRkZjMtYjBhYi00NTE1NDczZWM5ZTk@gstdnb.myfczy168.top:38225#03-0089-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDZmOWU0My02ZTMwLTRkZjMtYjBhYi00NTE1NDczZWM5ZTk@gstdnb.myfczy168.top:15070#03-0090-CN
@@ -1024,11 +1024,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `2743`
+合并节点总数: `2745`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2743`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `2745`
 
 
 ## 仓库声明
