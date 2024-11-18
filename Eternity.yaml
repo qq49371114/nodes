@@ -55,8 +55,8 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
-  - {name: 02-0001-HK, server: 45.146.232.173, port: 27001, type: trojan, password: f181b265-5fd4-456e-ad2d-c9b0446e0d51, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
-  - {name: 02-0002-HK, server: 45.146.232.172, port: 27001, type: trojan, password: f181b265-5fd4-456e-ad2d-c9b0446e0d51, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
+  - {name: 03-0013-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c24db32d-0923-4d77-9020-e35551eea4a6, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 03-0014-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 59f801e3-299b-4785-b305-8636ab2f9951, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0015-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 305ec9e6-a012-4850-ae03-c7dd24ce41bf, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0016-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: fdf13dbc-4ae2-4ec1-bef2-f88cc5904e2a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0017-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7c3ea5e0-b936-4f74-b3a9-e0e4857ce6f4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1053,8 +1053,8 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CA
-      - 02-0001-HK
-      - 02-0002-HK
+      - 03-0013-KR
+      - 03-0014-KR
       - 03-0015-KR
       - 03-0016-KR
       - 03-0017-KR
@@ -2055,7 +2055,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0001-HK
       - 03-0016-KR
       - 03-0021-KR
       - 03-0026-KR
@@ -2256,7 +2255,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0002-HK
       - 03-0017-KR
       - 03-0022-KR
       - 03-0027-KR
@@ -2459,6 +2457,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0013-KR
       - 03-0018-KR
       - 03-0023-KR
       - 03-0028-KR
@@ -2663,6 +2662,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0014-KR
       - 03-0019-KR
       - 03-0024-KR
       - 03-0029-KR
