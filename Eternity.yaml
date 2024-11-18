@@ -164,9 +164,9 @@ proxies:
   - {name: 04-0119-CN, server: jsyd.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: 22b444f7-8726-47d4-b93b-38a287000bd2, udp: true}
   - {name: 04-0120-JP, server: 18.179.44.127, port: 443, type: trojan, password: bf39c88f-2d4f-31a3-a081-ec07ecc2f702, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0121-JP, server: 35.75.8.137, port: 443, type: trojan, password: bf39c88f-2d4f-31a3-a081-ec07ecc2f702, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0122-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6d282037-6662-43fe-a599-2f8ead34578c, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0122-US, server: 54.244.5.189, port: 443, type: trojan, password: bf39c88f-2d4f-31a3-a081-ec07ecc2f702, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-0123-US, server: 103.136.185.27, port: 5535, type: trojan, password: bf39c88f-2d4f-31a3-a081-ec07ecc2f702, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0124-US, server: 103.136.185.28, port: 3516, type: trojan, password: bf39c88f-2d4f-31a3-a081-ec07ecc2f702, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0124-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6d282037-6662-43fe-a599-2f8ead34578c, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0125-RELAY, server: s3.cn-db.top, port: 2095, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.61.237, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-0126-RELAY, server: s4.cn-db.top, port: 2095, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.79.21, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-0127-RELAY, server: s2.db-link02.top, port: 8880, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.30.110, headers: {Host: s2.db-link02.top}}, udp: true}
@@ -1035,13 +1035,13 @@ proxies:
   - {name: 20-1231-KR, server: 158.180.91.206, port: 46271, type: vmess, uuid: f99bfe05-e351-47df-e752-ac0aaea976dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-1233-KR, server: kr.huafei888.site, port: 46271, type: vmess, uuid: f99bfe05-e351-47df-e752-ac0aaea976dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr.huafei888.site}}, udp: true}
   - {name: 22-1250-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: f0be5c22-7b5f-4ff9-9e45-1d3622191fac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
-  - {name: 22-1266-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 5fb14cde-3bf2-40d9-abf9-3c73d2febc98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 22-1302-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: f0be5c22-7b5f-4ff9-9e45-1d3622191fac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
-  - {name: 22-1323-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 5fb14cde-3bf2-40d9-abf9-3c73d2febc98, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
+  - {name: 22-1331-CA, server: us2.vpn.ong, port: 4438, type: trojan, password: 6455744f-e7b7-42e3-b1f8-4c33ec610836, skip-cert-verify: true, udp: true}
   - {name: 23-1386-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 8c1c3f42-a4b5-41ce-afe8-6042925b2666, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 23-1411-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 8c1c3f42-a4b5-41ce-afe8-6042925b2666, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 24-1824-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 4cafc75f-dc27-4912-8f60-f44f6a8bcbf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 24-1835-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: 4cafc75f-dc27-4912-8f60-f44f6a8bcbf4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
+  - {name: 24-1903-CA, server: us2.vpn.ong, port: 4438, type: trojan, password: 3d99308e-74b3-4b5e-b884-67b0736d5f2a, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -2033,13 +2033,13 @@ proxy-groups:
       - 20-1231-KR
       - 20-1233-KR
       - 22-1250-RELAY
-      - 22-1266-RELAY
       - 22-1302-RELAY
-      - 22-1323-RELAY
+      - 22-1331-CA
       - 23-1386-RELAY
       - 23-1411-RELAY
       - 24-1824-RELAY
       - 24-1835-RELAY
+      - 24-1903-CA
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2251,7 +2251,7 @@ proxy-groups:
       - 15-1081-CN
       - 15-1086-CN
       - 20-1231-KR
-      - 22-1266-RELAY
+      - 22-1331-CA
       - 23-1386-RELAY
       - 23-1411-RELAY
   - name: 测速2分组
@@ -2658,7 +2658,7 @@ proxy-groups:
       - 15-1083-CN
       - 15-1088-CN
       - 20-1233-KR
-      - 22-1323-RELAY
+      - 24-1903-CA
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
