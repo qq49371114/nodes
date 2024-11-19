@@ -55,9 +55,10 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: jsyd.yunnode.win, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: f88ad923-3438-4f22-bc51-3ebe35eafaa4, udp: true}
-  - {name: 02-0006-JP, server: 35.75.8.137, port: 443, type: trojan, password: e3fee3b6-fca1-3985-99dc-da7ca03260ea, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 02-0007-JP, server: 18.179.44.127, port: 443, type: trojan, password: e3fee3b6-fca1-3985-99dc-da7ca03260ea, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 02-0008-SG, server: sgtestngxqisel.57257597.xyz, port: 443, type: trojan, password: 9a745aad-7df7-480b-8f6b-068ca21f6954, sni: sgtestngxqisel.57257597.xyz, skip-cert-verify: true, udp: true}
+  - {name: 03-0014-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: d8140a09-6b78-48e8-b1c2-30809bf0d66f, udp: true}
+  - {name: 03-0015-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 0286829d-6576-4fe7-ae29-a1238a7c291f, udp: true}
+  - {name: 03-0016-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ff8313a0-d2aa-460d-aa5b-3dbdb431858c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0017-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 63295c61-6bfb-4a9a-aa61-a99e89105e5d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0018-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b5667e96-ba63-421a-9c26-9f1133f0956f, udp: true}
   - {name: 03-0019-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 27db8814-9667-4146-902b-d3d0fd069b54, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -283,7 +284,6 @@ proxies:
   - {name: 04-0239-US, server: lavip101.qlgq.fun, port: 31156, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: lavip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0240-US, server: lavip102.qlgq.fun, port: 49643, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0241-US, server: lavip102.qlgq.fun, port: 20443, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
-  - {name: 04-0242-US, server: lavip102.qlgq.fun, port: 30443, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: lavip102.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0243-GB, server: ukvip101.qlgq.fun, port: 14568, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: ukvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0244-GB, server: ukvip101.qlgq.fun, port: 14586, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: ukvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0245-GB, server: ukvip101.qlgq.fun, port: 18885, type: trojan, password: c0a1c7a1-b0a1-3241-9c3a-730c1cab9572, sni: ukvip101.qlgq.fun, skip-cert-verify: true, udp: true}
@@ -1052,9 +1052,10 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 02-0006-JP
-      - 02-0007-JP
       - 02-0008-SG
+      - 03-0014-CN
+      - 03-0015-CN
+      - 03-0016-KR
       - 03-0017-KR
       - 03-0018-CN
       - 03-0019-KR
@@ -1280,7 +1281,6 @@ proxy-groups:
       - 04-0239-US
       - 04-0240-US
       - 04-0241-US
-      - 04-0242-US
       - 04-0243-GB
       - 04-0244-GB
       - 04-0245-GB
@@ -2053,7 +2053,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0006-JP
+      - 03-0016-KR
       - 03-0021-KR
       - 03-0026-KR
       - 03-0031-KR
@@ -2256,7 +2256,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0007-JP
       - 03-0017-KR
       - 03-0022-KR
       - 03-0027-CN
@@ -2302,7 +2301,6 @@ proxy-groups:
       - 04-0227-CN
       - 04-0232-SG
       - 04-0237-US
-      - 04-0242-US
       - 04-0247-HK
       - 04-0252-HK
       - 04-0257-MY
@@ -2662,6 +2660,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0014-CN
       - 03-0019-KR
       - 03-0024-KR
       - 03-0029-CN
@@ -2863,6 +2862,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-CN
+      - 03-0015-CN
       - 03-0020-KR
       - 03-0025-KR
       - 03-0030-KR
