@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: jsyd.yunnode.win, port: 31632, type: ss, cipher: chacha20-ietf-poly1305, password: f88ad923-3438-4f22-bc51-3ebe35eafaa4, udp: true}
+  - {name: 03-0010-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: af559e26-edbd-4fda-9e8f-793a3984fd4f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0011-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 90ef1fc1-e420-4cbc-b0b7-c5bc542e5095, udp: true}
   - {name: 03-0012-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7c3ea5e0-b936-4f74-b3a9-e0e4857ce6f4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0013-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4f71aa67-3bc3-4be7-b92f-ceb086d5f017, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -251,8 +252,8 @@ proxies:
   - {name: 04-0204-JP, server: 18.179.44.127, port: 443, type: trojan, password: 0e45e6ca-1bf5-33f4-8f54-8bd0987de6de, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0205-JP, server: 35.75.8.137, port: 443, type: trojan, password: 0e45e6ca-1bf5-33f4-8f54-8bd0987de6de, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0206-US, server: 54.244.5.189, port: 443, type: trojan, password: 0e45e6ca-1bf5-33f4-8f54-8bd0987de6de, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0207-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4033f07c-4a6d-4335-9f61-94a0ebe6169f, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0208-US, server: 103.136.185.28, port: 3516, type: trojan, password: 0e45e6ca-1bf5-33f4-8f54-8bd0987de6de, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0207-US, server: 103.136.185.27, port: 5535, type: trojan, password: 0e45e6ca-1bf5-33f4-8f54-8bd0987de6de, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0208-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3b47b480-2f3e-4e40-8ffd-0a4f4a0721fd, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0209-RELAY, server: s4.cn-db.top, port: 2052, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.103.203, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-0210-RELAY, server: s3.cn-db.top, port: 8080, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.149.220, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-0211-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.57.118, headers: {Host: s1.db-link01.top}}, udp: true}
@@ -947,13 +948,13 @@ proxies:
   - {name: 15-1000-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ca82bafa-e3d7-4741-a599-7c8163620ff4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1001-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9540d418-1246-4d3c-b02a-48afad691632, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1002-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c0d541f1-8476-4a88-a5cf-a96abc1d7f14, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 15-1003-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3b47b480-2f3e-4e40-8ffd-0a4f4a0721fd, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1004-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 4f588bbc-41bd-410f-82c0-a4bda6fdd93d, udp: true}
   - {name: 15-1005-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: bb1e5639-504e-455f-b6c5-6a5bd1024f88, udp: true}
   - {name: 15-1006-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 18a1887d-1187-4ac2-ad75-3aeb1ec0e07d, udp: true}
   - {name: 15-1007-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: bb1e5639-504e-455f-b6c5-6a5bd1024f88, udp: true}
   - {name: 15-1008-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: c70d290d-e70a-4337-b91f-b984030a216a, udp: true}
   - {name: 15-1009-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 18a1887d-1187-4ac2-ad75-3aeb1ec0e07d, udp: true}
+  - {name: 15-1010-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4033f07c-4a6d-4335-9f61-94a0ebe6169f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-1011-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: f8990381-e096-4cd3-b284-2f2b02f41df1, udp: true}
   - {name: 15-1012-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 6b4855a5-ae5b-41b7-b6c4-a8a8e04f8e8a, udp: true}
   - {name: 15-1013-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: d193fc7d-67c2-48fb-937b-a7868d30d605, udp: true}
@@ -1033,7 +1034,6 @@ proxies:
   - {name: 15-1087-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: ad502a92-1bf2-48c9-9819-e0298b2f65d7, udp: true}
   - {name: 15-1088-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: e6e1886b-efea-4187-a995-a6598c608bca, udp: true}
   - {name: 20-1260-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 20-1263-KR, server: kr.huafei888.site, port: 46271, type: vmess, uuid: f99bfe05-e351-47df-e752-ac0aaea976dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kr.huafei888.site}}, udp: true}
   - {name: 22-1384-CA, server: us2.vpn.ong, port: 4438, type: trojan, password: 6455744f-e7b7-42e3-b1f8-4c33ec610836, skip-cert-verify: true, udp: true}
   - {name: 22-1401-CA, server: us2.vpn.ong, port: 4438, type: trojan, password: f0db96a8-94d9-46b7-b094-79dcb8eb1123, skip-cert-verify: true, udp: true}
   - {name: 22-1402-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: f0be5c22-7b5f-4ff9-9e45-1d3622191fac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 03-0010-KR
       - 03-0011-CN
       - 03-0012-KR
       - 03-0013-KR
@@ -1944,13 +1945,13 @@ proxy-groups:
       - 15-1000-KR
       - 15-1001-KR
       - 15-1002-KR
-      - 15-1003-KR
       - 15-1004-CN
       - 15-1005-CN
       - 15-1006-CN
       - 15-1007-CN
       - 15-1008-CN
       - 15-1009-CN
+      - 15-1010-KR
       - 15-1011-CN
       - 15-1012-CN
       - 15-1013-CN
@@ -2030,7 +2031,6 @@ proxy-groups:
       - 15-1087-CN
       - 15-1088-CN
       - 20-1260-JP
-      - 20-1263-KR
       - 22-1384-CA
       - 22-1401-CA
       - 22-1402-RELAY
@@ -2638,7 +2638,6 @@ proxy-groups:
       - 14-0988-CN
       - 15-0993-CN
       - 15-0998-CN
-      - 15-1003-KR
       - 15-1008-CN
       - 15-1013-CN
       - 15-1018-CN
@@ -2656,7 +2655,6 @@ proxy-groups:
       - 15-1078-CN
       - 15-1083-RELAY
       - 15-1088-CN
-      - 20-1263-KR
       - 24-2083-RELAY
   - name: 测速4分组
     type: url-test
@@ -2865,6 +2863,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-CN
+      - 03-0010-KR
       - 03-0015-CN
       - 03-0020-CN
       - 03-0025-CN
@@ -3044,6 +3043,7 @@ proxy-groups:
       - 15-0995-KR
       - 15-1000-KR
       - 15-1005-CN
+      - 15-1010-KR
       - 15-1015-KR
       - 15-1020-KR
       - 15-1025-KR
