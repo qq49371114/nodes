@@ -248,8 +248,8 @@ proxies:
   - {name: 04-0213-JP, server: 18.179.44.127, port: 443, type: trojan, password: 81be21ff-e3f5-3909-90d1-0aaf9053a1eb, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0214-JP, server: 35.75.8.137, port: 443, type: trojan, password: 81be21ff-e3f5-3909-90d1-0aaf9053a1eb, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0215-US, server: 35.88.22.65, port: 443, type: trojan, password: 81be21ff-e3f5-3909-90d1-0aaf9053a1eb, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0216-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec1d613a-5e89-449b-85a6-fc57b807ec9e, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0217-US, server: 103.136.185.28, port: 3516, type: trojan, password: 81be21ff-e3f5-3909-90d1-0aaf9053a1eb, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0216-US, server: 103.136.185.27, port: 5535, type: trojan, password: 81be21ff-e3f5-3909-90d1-0aaf9053a1eb, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0217-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec1d613a-5e89-449b-85a6-fc57b807ec9e, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0218-RELAY, server: s1.db-link01.top, port: 80, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.20.89, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0219-RELAY, server: s1.db-link01.top, port: 8080, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.53.251, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0220-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.77.87, headers: {Host: s2.db-link02.top}}, udp: true}
@@ -1020,8 +1020,8 @@ proxies:
   - {name: 15-1086-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 26fe3c2b-a8d0-4741-917f-edb1cb91c811, udp: true}
   - {name: 15-1087-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 90f0c33e-215e-4194-ba45-3787afec79a8, udp: true}
   - {name: 15-1088-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 126b4f3f-2413-4940-961a-1cdadb62fa88, udp: true}
+  - {name: 20-1264-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 20-1282-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 22-1313-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: ef5c44c0-1008-49f2-8496-48ff535e8fdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 22-1316-SG, server: 159.223.57.143, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: d9760c3c-2e9c-47d7-82fe-f0a3c3f0faad, udp: true}
   - {name: 22-1345-IN, server: 165.232.191.178, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 742cbd9e-91da-4897-8b17-dd94486d30c0, udp: true}
   - {name: 22-1357-CA, server: us2.vpn.ong, port: 4438, type: trojan, password: f0db96a8-94d9-46b7-b094-79dcb8eb1123, skip-cert-verify: true, udp: true}
@@ -2017,8 +2017,8 @@ proxy-groups:
       - 15-1086-CN
       - 15-1087-CN
       - 15-1088-CN
+      - 20-1264-RELAY
       - 20-1282-JP
-      - 22-1313-RELAY
       - 22-1316-SG
       - 22-1345-IN
       - 22-1357-CA
@@ -2652,7 +2652,6 @@ proxy-groups:
       - 15-1078-CN
       - 15-1083-CN
       - 15-1088-CN
-      - 22-1313-RELAY
       - 22-1388-IN
       - 22-1548-RELAY
   - name: 测速4分组
@@ -2853,6 +2852,7 @@ proxy-groups:
       - 15-1074-KR
       - 15-1079-CN
       - 15-1084-CN
+      - 20-1264-RELAY
       - 22-1414-RELAY
       - 22-1434-CA
       - 22-1439-CA
