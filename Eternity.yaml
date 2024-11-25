@@ -1022,7 +1022,6 @@ proxies:
   - {name: 22-1263-TW, server: tw1-vds7.anyhk.co, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: c1e5f133-6b3f-445e-a502-37130eefc271, udp: true}
   - {name: 22-1281-SG, server: 159.223.57.143, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 35d1c116-a727-454b-835e-729aee23ea8f, udp: true}
   - {name: 22-1288-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: ef5c44c0-1008-49f2-8496-48ff535e8fdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
-  - {name: 22-1291-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: e113d0cb-d119-4a89-9b75-9416ac78553b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 22-1305-SG, server: 159.223.57.143, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: c1e5f133-6b3f-445e-a502-37130eefc271, udp: true}
   - {name: 22-1310-IN, server: 165.232.191.178, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 742cbd9e-91da-4897-8b17-dd94486d30c0, udp: true}
   - {name: 22-1313-IN, server: 165.232.191.178, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 35d1c116-a727-454b-835e-729aee23ea8f, udp: true}
@@ -1040,6 +1039,7 @@ proxies:
   - {name: 22-1413-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: ef5c44c0-1008-49f2-8496-48ff535e8fdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 22-1415-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 96af731f-cd17-4d5e-a709-a8b88d2129ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 22-1421-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 63520d98-4be3-4181-a56e-f9d1ee66d174, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
+  - {name: 22-1422-RELAY, server: us-new03.daluquan.top, port: 8880, type: vmess, uuid: e142aec1-3ffc-4a3a-9c12-9d773d6d3b96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: us-new03.daluquan.top}}, udp: true}
   - {name: 24-1962-CA, server: us2.vpn.ong, port: 4438, type: trojan, password: 3d99308e-74b3-4b5e-b884-67b0736d5f2a, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -2019,7 +2019,6 @@ proxy-groups:
       - 22-1263-TW
       - 22-1281-SG
       - 22-1288-RELAY
-      - 22-1291-RELAY
       - 22-1305-SG
       - 22-1310-IN
       - 22-1313-IN
@@ -2037,6 +2036,7 @@ proxy-groups:
       - 22-1413-RELAY
       - 22-1415-RELAY
       - 22-1421-RELAY
+      - 22-1422-RELAY
       - 24-1962-CA
   - name: 自动选择
     type: url-test
@@ -2246,7 +2246,6 @@ proxy-groups:
       - 15-1081-KR
       - 15-1086-KR
       - 22-1281-SG
-      - 22-1291-RELAY
       - 22-1341-CA
       - 22-1386-TW
       - 22-1406-IN
@@ -2451,6 +2450,7 @@ proxy-groups:
       - 22-1252-IN
       - 22-1372-RELAY
       - 22-1382-CA
+      - 22-1422-RELAY
       - 24-1962-CA
   - name: 测速3分组
     type: url-test
