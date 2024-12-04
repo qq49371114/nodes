@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-FASTLY, server: root.mid.al, port: 443, type: vmess, uuid: a983c698-cae4-4254-d047-51898ccd8ee7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/aries?ed=2048", headers: {Host: root.mid.al}}, udp: true}
+  - {name: 03-0011-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: f42ca757-3e90-40a0-9271-3161c1a0064e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0012-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b8265296-f805-444c-8d7a-2ec47e70b86a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0013-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: f558e72d-c851-4c70-8e7d-50dbc2cbda5f, udp: true}
   - {name: 03-0014-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dee173d6-677d-402a-b9ac-41d8f508b21a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -270,8 +271,8 @@ proxies:
   - {name: 04-0224-CN, server: jsyd.yunnode.win, port: 31650, type: ss, cipher: chacha20-ietf-poly1305, password: 72a22201-2e21-48a6-baae-42370cf81ce5, udp: true}
   - {name: 04-0225-JP, server: 18.179.44.127, port: 443, type: trojan, password: 4038a283-b2be-38f0-b384-bd8d03fc3cde, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0226-JP, server: 43.206.140.241, port: 443, type: trojan, password: 4038a283-b2be-38f0-b384-bd8d03fc3cde, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0227-US, server: 35.92.83.30, port: 443, type: trojan, password: 4038a283-b2be-38f0-b384-bd8d03fc3cde, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0228-US, server: 103.136.185.27, port: 5535, type: trojan, password: 4038a283-b2be-38f0-b384-bd8d03fc3cde, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0229-US, server: 103.136.185.28, port: 3516, type: trojan, password: 4038a283-b2be-38f0-b384-bd8d03fc3cde, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0230-RELAY, server: s3.db-link01.top, port: 2082, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.113.240, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-0231-RELAY, server: s5.cn-db.top, port: 2095, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.111.150, headers: {Host: s5.cn-db.top}}, udp: true}
   - {name: 04-0232-RELAY, server: s3.db-link01.top, port: 2086, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.53.169, headers: {Host: s3.db-link01.top}}, udp: true}
@@ -675,8 +676,8 @@ proxies:
   - {name: 07-0730-HK, server: hk.miaolianyunapp.com, port: 51107, type: ss, cipher: chacha20-ietf-poly1305, password: 4adb777a-067f-4ecf-b06c-b29c5365ff1c, udp: true}
   - {name: 07-0731-HK, server: hk.miaolianyunapp.com, port: 51102, type: ss, cipher: chacha20-ietf-poly1305, password: 4aaba3ee-2f8d-4b7c-973c-b344467dc60a, udp: true}
   - {name: 07-0732-HK, server: hk.miaolianyunapp.com, port: 51112, type: ss, cipher: chacha20-ietf-poly1305, password: 4aaba3ee-2f8d-4b7c-973c-b344467dc60a, udp: true}
-  - {name: 07-0733-HK, server: hk.miaolianyunapp.com, port: 51108, type: ss, cipher: chacha20-ietf-poly1305, password: 4aaba3ee-2f8d-4b7c-973c-b344467dc60a, udp: true}
-  - {name: "07-0734-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@35.92.83.30443?allowInsecure=1&sni=www.microsoft365.com#04-0227-US", server: hk.miaolianyunapp.com, port: 51118, type: ss, cipher: chacha20-ietf-poly1305, password: 4adb777a-067f-4ecf-b06c-b29c5365ff1c, udp: true}
+  - {name: "07-0733-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@103.136.185.283516?allowInsecure=1&sni=origin-a.akamaihd.net#04-0229-US", server: hk.miaolianyunapp.com, port: 51108, type: ss, cipher: chacha20-ietf-poly1305, password: 4aaba3ee-2f8d-4b7c-973c-b344467dc60a, udp: true}
+  - {name: 07-0734-HK, server: hk.miaolianyunapp.com, port: 51118, type: ss, cipher: chacha20-ietf-poly1305, password: 4adb777a-067f-4ecf-b06c-b29c5365ff1c, udp: true}
   - {name: 07-0735-HK, server: hk.miaolianyunapp.com, port: 51114, type: ss, cipher: chacha20-ietf-poly1305, password: 4adb777a-067f-4ecf-b06c-b29c5365ff1c, udp: true}
   - {name: 07-0736-HK, server: hk.miaolianyunapp.com, port: 51106, type: ss, cipher: chacha20-ietf-poly1305, password: 4aaba3ee-2f8d-4b7c-973c-b344467dc60a, udp: true}
   - {name: 07-0737-HK, server: hk.miaolianyunapp.com, port: 51117, type: ss, cipher: chacha20-ietf-poly1305, password: 4adb777a-067f-4ecf-b06c-b29c5365ff1c, udp: true}
@@ -709,7 +710,6 @@ proxies:
   - {name: 08-0764-SG, server: westsg2-ddns.oraclenat.cc, port: 23451, type: vmess, uuid: 09fd3340-36a5-40f2-b58f-bf1d01536343, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 08-0765-RELAY, server: visa.com, port: 443, type: vmess, uuid: 09fd3340-36a5-40f2-b58f-bf1d01536343, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 08-0766-RELAY, server: jp2.127414.xyz, port: 80, type: vmess, uuid: 0c0eb8dd-fbbb-4270-8d77-dec25bd34093, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp2.127414.xyz}}, udp: true}
-  - {name: 08-0767-AU, server: syd-01.oci.ee, port: 23451, type: vmess, uuid: 09fd3340-36a5-40f2-b58f-bf1d01536343, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
   - {name: 08-0768-RELAY, server: au2.127414.xyz, port: 80, type: vmess, uuid: 0c0eb8dd-fbbb-4270-8d77-dec25bd34093, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: au2.127414.xyz}}, udp: true}
   - {name: 08-0769-RELAY, server: yx.sulink.one, port: 80, type: vmess, uuid: 3b980748-8995-4e51-a9a3-b264b4138ded, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 08-0770-RELAY, server: ae2.127414.xyz, port: 80, type: vmess, uuid: 0c0eb8dd-fbbb-4270-8d77-dec25bd34093, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ae2.127414.xyz}}, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-FASTLY
+      - 03-0011-KR
       - 03-0012-KR
       - 03-0013-CN
       - 03-0014-KR
@@ -1267,8 +1268,8 @@ proxy-groups:
       - 04-0224-CN
       - 04-0225-JP
       - 04-0226-JP
+      - 04-0227-US
       - 04-0228-US
-      - 04-0229-US
       - 04-0230-RELAY
       - 04-0231-RELAY
       - 04-0232-RELAY
@@ -1672,8 +1673,8 @@ proxy-groups:
       - 07-0730-HK
       - 07-0731-HK
       - 07-0732-HK
-      - 07-0733-HK
-      - 07-0734-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@35.92.83.30443?allowInsecure=1&sni=www.microsoft365.com#04-0227-US
+      - 07-0733-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@103.136.185.283516?allowInsecure=1&sni=origin-a.akamaihd.net#04-0229-US
+      - 07-0734-HK
       - 07-0735-HK
       - 07-0736-HK
       - 07-0737-HK
@@ -1706,7 +1707,6 @@ proxy-groups:
       - 08-0764-SG
       - 08-0765-RELAY
       - 08-0766-RELAY
-      - 08-0767-AU
       - 08-0768-RELAY
       - 08-0769-RELAY
       - 08-0770-RELAY
@@ -2053,6 +2053,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 03-0011-KR
       - 03-0016-KR
       - 03-0021-CN
       - 03-0026-KR
@@ -2298,6 +2299,7 @@ proxy-groups:
       - 04-0212-CN
       - 04-0217-CN
       - 04-0222-CN
+      - 04-0227-US
       - 04-0232-RELAY
       - 04-0237-CN
       - 04-0242-CN
@@ -2379,14 +2381,12 @@ proxy-groups:
       - 07-0722-HK
       - 07-0727-HK
       - 07-0732-HK
-      - 07-0734-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@35.92.83.30443?allowInsecure=1&sni=www.microsoft365.com#04-0227-US
       - 07-0737-HK
       - 07-0742-HK
       - 07-0747-HK
       - 07-0752-CN
       - 08-0757-RELAY
       - 08-0762-RELAY
-      - 08-0767-AU
       - 08-0772-KR
       - 08-0777-CN
       - 08-0782-CN
@@ -2584,8 +2584,7 @@ proxy-groups:
       - 07-0718-HK
       - 07-0723-HK
       - 07-0728-HK
-      - 07-0733-HK
-      - 07-0734-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@35.92.83.30443?allowInsecure=1&sni=www.microsoft365.com#04-0227-US
+      - 07-0733-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@103.136.185.283516?allowInsecure=1&sni=origin-a.akamaihd.net#04-0229-US
       - 07-0738-HK
       - 07-0743-HK
       - 07-0748-HK
@@ -2707,7 +2706,6 @@ proxy-groups:
       - 04-0214-CN
       - 04-0219-CN
       - 04-0224-CN
-      - 04-0229-US
       - 04-0234-RELAY
       - 04-0239-CN
       - 04-0244-CN
@@ -2787,7 +2785,8 @@ proxy-groups:
       - 07-0719-HK
       - 07-0724-HK
       - 07-0729-HK
-      - 07-0734-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@35.92.83.30443?allowInsecure=1&sni=www.microsoft365.com#04-0227-US
+      - 07-0733-HKtrojan//4038a283-b2be-38f0-b384-bd8d03fc3cde@103.136.185.283516?allowInsecure=1&sni=origin-a.akamaihd.net#04-0229-US
+      - 07-0734-HK
       - 07-0739-HK
       - 07-0744-HK
       - 07-0749-HK
