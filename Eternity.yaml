@@ -55,8 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: 183.240.255.75, port: 11001, type: ss, cipher: chacha20-ietf-poly1305, password: 6b475a32-8065-4407-b852-c9e26da30ef4, udp: true}
-  - {name: 02-0002-RELAY, server: 104.18.114.29, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
-  - {name: 02-0003-RELAY, server: 104.18.114.3, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0004-RELAY, server: 104.18.114.1, port: 8880, type: vmess, uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0005-RELAY, server: 104.18.114.17, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0006-RELAY, server: 104.18.114.107, port: 2095, type: vmess, uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
@@ -469,7 +467,6 @@ proxies:
   - {name: 04-0413-JP, server: 18.179.44.127, port: 443, type: trojan, password: 221aef01-2e35-3027-bd02-6d63c35a2c2e, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0414-JP, server: 43.206.140.241, port: 443, type: trojan, password: 221aef01-2e35-3027-bd02-6d63c35a2c2e, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0415-US, server: 35.91.137.19, port: 443, type: trojan, password: 221aef01-2e35-3027-bd02-6d63c35a2c2e, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0416-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56a16166-de5d-4301-b794-925b3b3a28b8, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0417-US, server: 103.136.185.28, port: 3516, type: trojan, password: 221aef01-2e35-3027-bd02-6d63c35a2c2e, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0418-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.88.217, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0419-RELAY, server: s4.cn-db.top, port: 8880, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.251.99, headers: {Host: s4.cn-db.top}}, udp: true}
@@ -1038,9 +1035,11 @@ proxies:
   - {name: 11-1082-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 76a7a37a-9fd1-4823-aa7a-774d852d7952, udp: true}
   - {name: 11-1083-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 76a7a37a-9fd1-4823-aa7a-774d852d7952, udp: true}
   - {name: 11-1084-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 76a7a37a-9fd1-4823-aa7a-774d852d7952, udp: true}
+  - {name: 11-1085-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 56a16166-de5d-4301-b794-925b3b3a28b8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 11-1086-CN, server: zhuanxian168.top, port: 26679, type: ss, cipher: chacha20-ietf-poly1305, password: d62560ae-5ccc-4edd-8868-0f4900bc1e8f, udp: true}
   - {name: 11-1087-RELAY, server: br1.127414.xyz, port: 80, type: vmess, uuid: da673eb6-055d-46c1-aea6-38ae8ea3438a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br1.127414.xyz}}, udp: true}
   - {name: 11-1088-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 76a7a37a-9fd1-4823-aa7a-774d852d7952, udp: true}
+  - {name: 22-1681-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 7d4a1fe7-37c5-4aee-ad27-844cb3f25ae4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1052,8 +1051,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 02-0002-RELAY
-      - 02-0003-RELAY
       - 02-0004-RELAY
       - 02-0005-RELAY
       - 02-0006-RELAY
@@ -1466,7 +1463,6 @@ proxy-groups:
       - 04-0413-JP
       - 04-0414-JP
       - 04-0415-US
-      - 04-0416-US
       - 04-0417-US
       - 04-0418-RELAY
       - 04-0419-RELAY
@@ -2035,9 +2031,11 @@ proxy-groups:
       - 11-1082-CN
       - 11-1083-CN
       - 11-1084-CN
+      - 11-1085-KR
       - 11-1086-CN
       - 11-1087-RELAY
       - 11-1088-CN
+      - 22-1681-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2135,7 +2133,6 @@ proxy-groups:
       - 04-0401-CN
       - 04-0406-CN
       - 04-0411-CN
-      - 04-0416-US
       - 04-0421-RELAY
       - 04-0426-CN
       - 04-0431-CN
@@ -2251,12 +2248,12 @@ proxy-groups:
       - 11-1076-CN
       - 11-1081-CN
       - 11-1086-CN
+      - 22-1681-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0002-RELAY
       - 02-0007-RELAY
       - 02-0012-RELAY
       - 02-0017-RELAY
@@ -2459,7 +2456,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0003-RELAY
       - 02-0008-RELAY
       - 02-0013-RELAY
       - 02-0018-RELAY
@@ -3060,6 +3056,7 @@ proxy-groups:
       - 11-1070-CN
       - 11-1075-CN
       - 11-1080-CN
+      - 11-1085-KR
   - name: 广告拦截
     type: select
     proxies:
