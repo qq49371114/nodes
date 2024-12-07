@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-NOWHERE, server: j-p02.loveroise.com, port: 54098, type: ss, cipher: chacha20-ietf-poly1305, password: 09833a6f-4d46-426e-87fe-7793a5489f84, udp: true}
-  - {name: 02-0010-RELAY, server: 104.21.238.221, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0011-RELAY, server: 104.21.238.85, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0012-RELAY, server: 104.18.114.3, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
   - {name: 02-0013-RELAY, server: 104.18.114.1, port: 2086, type: vmess, uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /github.com/Alvin9999}, udp: true}
@@ -497,7 +496,8 @@ proxies:
   - {name: 04-0449-JP, server: 18.179.44.127, port: 443, type: trojan, password: e9b93a6e-3a61-34c0-a970-cf9cc5c0658d, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0450-JP, server: 43.206.140.241, port: 443, type: trojan, password: e9b93a6e-3a61-34c0-a970-cf9cc5c0658d, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0451-US, server: 35.91.137.19, port: 443, type: trojan, password: e9b93a6e-3a61-34c0-a970-cf9cc5c0658d, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0453-US, server: 103.136.185.28, port: 3516, type: trojan, password: e9b93a6e-3a61-34c0-a970-cf9cc5c0658d, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0452-US, server: 103.136.185.27, port: 5535, type: trojan, password: e9b93a6e-3a61-34c0-a970-cf9cc5c0658d, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0453-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 81f5a6ba-5414-4762-bd9c-b48392c1000b, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0454-RELAY, server: s2.db-link02.top, port: 80, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.58.17, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 04-0455-RELAY, server: s1.cn-db.top, port: 80, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.180.28, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-0456-RELAY, server: s2.cn-db.top, port: 8880, type: vmess, uuid: e50bb174-f2cb-3081-931e-fa4bfd69f42d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.49.199, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -993,6 +993,7 @@ proxies:
   - {name: 13-1045-JP, server: osaka002-a.oraclenat.cc, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: 582c6e0e-1a9a-4074-8bfe-4a442128b265, udp: true}
   - {name: 13-1046-CN, server: 221.181.185.182, port: 40979, type: ss, cipher: aes-128-gcm, password: 0e92901d-bb37-456b-87d1-1644bd794ff7, udp: true}
   - {name: 13-1047-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: ba3d9258-3a9d-415b-ad58-243f20f79f6a, udp: true}
+  - {name: 13-1048-SG, server: xjpx5.12123.org, port: 30002, type: vmess, uuid: ba39a38d-43b4-4468-8591-f6051b2bef99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /12123.org, headers: {Host: xjpx5.12123.org}}, udp: true}
   - {name: 13-1049-DE, server: gstdnb.myfczy168.top, port: 27110, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-1050-CN, server: 110.40.59.61, port: 51203, type: ss, cipher: chacha20-ietf-poly1305, password: e5e5b6e2-1e2e-4bf4-bbe1-b320bf285cab, udp: true}
   - {name: 13-1051-DE, server: gstdnb.myfczy168.top, port: 26858, type: ss, cipher: chacha20-ietf-poly1305, password: e31eb8ea-9cc5-4deb-af2f-a44d82c516dd, udp: true}
@@ -1002,7 +1003,6 @@ proxies:
   - {name: 13-1055-DE, server: gstdnb.myfczy168.top, port: 11599, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-1056-DE, server: gstdnb.myfczy168.top, port: 23631, type: ss, cipher: chacha20-ietf-poly1305, password: 9c6dbc66-2135-4c4c-8340-6d22216b9dec, udp: true}
   - {name: 13-1057-DE, server: gstdnb.myfczy168.top, port: 44776, type: ss, cipher: chacha20-ietf-poly1305, password: e31eb8ea-9cc5-4deb-af2f-a44d82c516dd, udp: true}
-  - {name: 14-1058-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 81f5a6ba-5414-4762-bd9c-b48392c1000b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1059-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b85a3908-bb46-46be-b7cb-25eaf636c75a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 14-1060-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: ed1cb45a-9622-46b5-a5bd-4c70f36232a5, udp: true}
   - {name: 14-1061-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6a1f7389-ab89-4ade-b555-e28f271c0425, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1033,6 +1033,7 @@ proxies:
   - {name: 14-1086-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: d7b712f5-ce79-4f06-af98-63da0a85080d, udp: true}
   - {name: 14-1087-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: d7b712f5-ce79-4f06-af98-63da0a85080d, udp: true}
   - {name: 14-1088-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 3e3590e9-6ae9-4dc1-a370-d64f89e437d0, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 22-1484-SG, server: westsg2-ddns.oraclenat.cc, port: 23451, type: vmess, uuid: 7d4a1fe7-37c5-4aee-ad27-844cb3f25ae4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 22-1497-SG, server: 103.253.146.222, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: d9760c3c-2e9c-47d7-82fe-f0a3c3f0faad, udp: true}
   - {name: 22-1503-SG, server: 103.253.146.222, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 35d1c116-a727-454b-835e-729aee23ea8f, udp: true}
   - {name: 22-1530-SG, server: 146.190.91.101, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: 742cbd9e-91da-4897-8b17-dd94486d30c0, udp: true}
@@ -1052,7 +1053,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-NOWHERE
-      - 02-0010-RELAY
       - 02-0011-RELAY
       - 02-0012-RELAY
       - 02-0013-RELAY
@@ -1494,6 +1494,7 @@ proxy-groups:
       - 04-0449-JP
       - 04-0450-JP
       - 04-0451-US
+      - 04-0452-US
       - 04-0453-US
       - 04-0454-RELAY
       - 04-0455-RELAY
@@ -1990,6 +1991,7 @@ proxy-groups:
       - 13-1045-JP
       - 13-1046-CN
       - 13-1047-CN
+      - 13-1048-SG
       - 13-1049-DE
       - 13-1050-CN
       - 13-1051-DE
@@ -1999,7 +2001,6 @@ proxy-groups:
       - 13-1055-DE
       - 13-1056-DE
       - 13-1057-DE
-      - 14-1058-KR
       - 14-1059-KR
       - 14-1060-CN
       - 14-1061-KR
@@ -2030,6 +2031,7 @@ proxy-groups:
       - 14-1086-CN
       - 14-1087-CN
       - 14-1088-KR
+      - 22-1484-SG
       - 22-1497-SG
       - 22-1503-SG
       - 22-1530-SG
@@ -2343,6 +2345,7 @@ proxy-groups:
       - 04-0437-CN
       - 04-0442-CN
       - 04-0447-CN
+      - 04-0452-US
       - 04-0457-RELAY
       - 04-0462-CN
       - 04-0467-CN
@@ -2644,8 +2647,8 @@ proxy-groups:
       - 13-1033-DE
       - 13-1038-US
       - 13-1043-DE
+      - 13-1048-SG
       - 13-1053-DE
-      - 14-1058-KR
       - 14-1063-KR
       - 14-1068-KR
       - 14-1073-KR
@@ -2853,6 +2856,7 @@ proxy-groups:
       - 14-1074-KR
       - 14-1079-KR
       - 14-1084-CN
+      - 22-1484-SG
       - 22-1544-SG
       - 22-1559-SG
       - 22-1584-SG
@@ -2863,7 +2867,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-NOWHERE
-      - 02-0010-RELAY
       - 02-0015-RELAY
       - 02-0020-RELAY
       - 02-0025-RELAY
