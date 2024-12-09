@@ -367,9 +367,9 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1Y2EwODkwNS0zM2YxLTRiYmMtOTI3NC01YTMxYjIwY2ZiYzk@jsyd.yunnode.win:31650#04-0349-CN
     trojan://6a6a1d08-5a63-3082-afb4-c855e10b16fd@18.179.44.127:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-0350-JP
     trojan://6a6a1d08-5a63-3082-afb4-c855e10b16fd@43.206.140.241:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-0351-JP
-    trojan://6a6a1d08-5a63-3082-afb4-c855e10b16fd@35.91.137.19:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-0352-US
+    trojan://b8982832-6139-32c1-be70-f78a8dfd155a@hkvip104.qlgq.fun:46216?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-0352-US
     trojan://6a6a1d08-5a63-3082-afb4-c855e10b16fd@103.136.185.27:5535?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-0353-US
-    trojan://b8982832-6139-32c1-be70-f78a8dfd155a@hkvip104.qlgq.fun:46216?allowInsecure=1&sni=steampipe.akamaized.net#04-0354-US
+    trojan://6a6a1d08-5a63-3082-afb4-c855e10b16fd@103.136.185.28:3516?allowInsecure=1&sni=steampipe.akamaized.net#04-0354-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDM1NS1SRUxBWSIsImFkZCI6InMxLmRiLWxpbmswMS50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiJlNTBiYjE3NC1mMmNiLTMwODEtOTMxZS1mYTRiZmQ2OWY0MmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI0LjIwMi4xMyIsImhvc3QiOiJzMS5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDM1Ni1SRUxBWSIsImFkZCI6InMzLmNuLWRiLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU1MGJiMTc0LWYyY2ItMzA4MS05MzFlLWZhNGJmZDY5ZjQyZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTkuMTAxLjIwMyIsImhvc3QiOiJzMy5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDM1Ny1SRUxBWSIsImFkZCI6InMxLmRiLWxpbmswMi50b3AiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiJlNTBiYjE3NC1mMmNiLTMwODEtOTMxZS1mYTRiZmQ2OWY0MmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI1LjMyLjE5MyIsImhvc3QiOiJzMS5kYi1saW5rMDIudG9wIiwidGxzIjoiIn0=
