@@ -78,7 +78,7 @@ class update():
     def find_link(self,id,current_url):
         if id == 38:
             try:
-                res_json = requests.get('https://api.github.com/repos/mianfeifq/share/contents/').json()
+                res_json = requests.get('https://api.github.com/repos/mianfeifq/share/contents/', timeout=60).json()
                 for file in res_json:
                     if file['name'].startswith('data'):
                         return file['download_url'] 
