@@ -462,7 +462,6 @@ proxies:
   - {name: 11-0515-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 772567da-7fc7-4188-b9f4-ec0b792fadca, udp: true}
   - {name: 11-0516-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 8b6617a9-6f29-41f9-87a2-5222cd4e2fdf, udp: true}
   - {name: 11-0517-RELAY, server: visa.com, port: 443, type: vmess, uuid: 77686ba0-2410-4ed1-b1bf-25c618fbe01e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 11-0518-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 77686ba0-2410-4ed1-b1bf-25c618fbe01e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 11-0519-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 772567da-7fc7-4188-b9f4-ec0b792fadca, udp: true}
   - {name: 11-0520-KR, server: seoul-1ddns.aboutanime.eu.org, port: 23451, type: vmess, uuid: 77686ba0-2410-4ed1-b1bf-25c618fbe01e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: seoul-1ddns.aboutanime.eu.org}}, udp: true}
   - {name: 11-0521-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 772567da-7fc7-4188-b9f4-ec0b792fadca, udp: true}
@@ -1040,6 +1039,7 @@ proxies:
   - {name: 22-1255-HK, server: l0-hk-01.dpp.pp.ua, port: 50021, type: trojan, password: 2cea0418-91b6-4a44-9a37-19778b44f0d4, skip-cert-verify: true, udp: true}
   - {name: 22-1271-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 4872d902-a54e-490a-93da-f0cfdb730c8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 22-1323-SG, server: 103.253.146.222, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: c1e5f133-6b3f-445e-a502-37130eefc271, udp: true}
+  - {name: 22-1328-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: 0813208f-0970-474c-9871-6a45e1e4fd95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
   - {name: 22-1330-RELAY, server: de-new01.daluquan.top, port: 8080, type: vmess, uuid: de301a02-abef-4912-af3d-c1b07f2b5910, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de-new01.daluquan.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1459,7 +1459,6 @@ proxy-groups:
       - 11-0515-CN
       - 11-0516-CN
       - 11-0517-RELAY
-      - 11-0518-RELAY
       - 11-0519-CN
       - 11-0520-KR
       - 11-0521-CN
@@ -2037,6 +2036,7 @@ proxy-groups:
       - 22-1255-HK
       - 22-1271-RELAY
       - 22-1323-SG
+      - 22-1328-RELAY
       - 22-1330-RELAY
   - name: 自动选择
     type: url-test
@@ -2542,7 +2542,6 @@ proxy-groups:
       - 10-0503-CN
       - 10-0508-CN
       - 11-0513-CN
-      - 11-0518-RELAY
       - 11-0523-CN
       - 11-0528-CN
       - 11-0533-GOOGLE
@@ -2659,6 +2658,7 @@ proxy-groups:
       - 15-1088-KR
       - 22-1248-SG
       - 22-1323-SG
+      - 22-1328-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
