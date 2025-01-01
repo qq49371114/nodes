@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: 171.111.216.155, port: 30002, type: ss, cipher: chacha20-ietf-poly1305, password: d9ad3deb-7638-4c95-b44a-1f786b0a31fd, udp: true}
-  - {name: 02-0019-CN, server: 223.113.53.141, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 83aab5c7-ee19-4aad-90d4-743afd8f7bb6, udp: true}
   - {name: 02-0020-CN, server: zx2.1010520.xyz, port: 18779, type: ss, cipher: chacha20-ietf-poly1305, password: f5136746-de79-46d0-b3be-d15d9992fa07, udp: true}
   - {name: 02-0021-CN, server: zx3.1010520.xyz, port: 25971, type: ss, cipher: chacha20-ietf-poly1305, password: f5136746-de79-46d0-b3be-d15d9992fa07, udp: true}
   - {name: 02-0022-CN, server: zx3.1010520.xyz, port: 56315, type: ss, cipher: chacha20-ietf-poly1305, password: f5136746-de79-46d0-b3be-d15d9992fa07, udp: true}
@@ -929,6 +928,7 @@ proxies:
   - {name: 15-0992-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 242fcc95-25ee-4387-86d3-4f073780b555, udp: true}
   - {name: 15-0993-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d6a26db5-ed56-4975-9583-75d3136cf100, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 15-0994-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 148dc294-ff4f-4439-bbf6-99f7b25533d8, udp: true}
+  - {name: 20-0995-US, server: 23.154.136.2, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0996-US, server: 69.50.93.90, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0997-RELAY, server: 3.clarity168.com, port: 443, type: vmess, uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tk, headers: {Host: 3.clarity168.com}}, udp: true}
   - {name: 20-0998-US, server: 38.91.106.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -1025,20 +1025,20 @@ proxies:
   - {name: 22-1108-US, server: 156.229.162.206, port: 8014, type: vmess, uuid: 64f8f872-fc9b-4782-967f-185c79e3c6a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1123-SG, server: 103.106.229.29, port: 47935, type: vmess, uuid: 0a9abdbd-7389-4630-acd2-d9ddc1691d95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1126-SG, server: 134.209.101.165, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: c1e5f133-6b3f-445e-a502-37130eefc271, udp: true}
-  - {name: 22-1134-US, server: 156.229.162.206, port: 8014, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
-  - {name: 22-1180-HK, server: 156.226.173.218, port: 8014, type: vmess, uuid: 64f8f872-fc9b-4782-967f-185c79e3c6a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1256-SG, server: 103.106.229.29, port: 47935, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1275-US, server: 38.150.7.183, port: 8888, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1276-HK, server: 156.226.173.218, port: 8014, type: vmess, uuid: 0a9abdbd-7389-4630-acd2-d9ddc1691d95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
+  - {name: 22-1291-US, server: 38.150.7.183, port: 8888, type: vmess, uuid: 0a9abdbd-7389-4630-acd2-d9ddc1691d95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1297-SG, server: 152.42.222.25, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: c1e5f133-6b3f-445e-a502-37130eefc271, udp: true}
   - {name: 22-1300-HK, server: 156.226.173.218, port: 8014, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
+  - {name: 22-1317-US, server: 156.229.162.206, port: 8014, type: vmess, uuid: 0a9abdbd-7389-4630-acd2-d9ddc1691d95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1400-SG, server: 103.106.229.29, port: 47935, type: vmess, uuid: 64f8f872-fc9b-4782-967f-185c79e3c6a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-1910-HK, server: 156.226.173.218, port: 8014, type: vmess, uuid: c1b539db-9fe3-4daa-aa78-70b32ae6256b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-1913-US, server: 156.229.162.206, port: 8014, type: vmess, uuid: c1b539db-9fe3-4daa-aa78-70b32ae6256b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
+  - {name: 24-1936-US, server: 38.150.7.183, port: 8888, type: vmess, uuid: 03fc3c2a-99bd-43e4-bdc9-a6a3cdc6c62c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-1962-HK, server: 156.226.173.218, port: 8014, type: vmess, uuid: 03fc3c2a-99bd-43e4-bdc9-a6a3cdc6c62c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-1997-SG, server: 103.106.229.29, port: 47935, type: vmess, uuid: 03fc3c2a-99bd-43e4-bdc9-a6a3cdc6c62c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-2008-US, server: 156.229.162.206, port: 8014, type: vmess, uuid: 03fc3c2a-99bd-43e4-bdc9-a6a3cdc6c62c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
-  - {name: 24-2009-US, server: 38.150.7.183, port: 8888, type: vmess, uuid: c1b539db-9fe3-4daa-aa78-70b32ae6256b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 24-2011-SG, server: 103.106.229.29, port: 47935, type: vmess, uuid: c1b539db-9fe3-4daa-aa78-70b32ae6256b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -1051,7 +1051,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 02-0019-CN
       - 02-0020-CN
       - 02-0021-CN
       - 02-0022-CN
@@ -1925,6 +1924,7 @@ proxy-groups:
       - 15-0992-CN
       - 15-0993-KR
       - 15-0994-CN
+      - 20-0995-US
       - 20-0996-US
       - 20-0997-RELAY
       - 20-0998-US
@@ -2021,20 +2021,20 @@ proxy-groups:
       - 22-1108-US
       - 22-1123-SG
       - 22-1126-SG
-      - 22-1134-US
-      - 22-1180-HK
       - 22-1256-SG
       - 22-1275-US
       - 22-1276-HK
+      - 22-1291-US
       - 22-1297-SG
       - 22-1300-HK
+      - 22-1317-US
       - 22-1400-SG
       - 24-1910-HK
       - 24-1913-US
+      - 24-1936-US
       - 24-1962-HK
       - 24-1997-SG
       - 24-2008-US
-      - 24-2009-US
       - 24-2011-SG
   - name: 自动选择
     type: url-test
@@ -2247,6 +2247,8 @@ proxy-groups:
       - 22-1126-SG
       - 22-1256-SG
       - 22-1276-HK
+      - 22-1291-US
+      - 24-1936-US
       - 24-2011-SG
   - name: 测速2分组
     type: url-test
@@ -2446,6 +2448,7 @@ proxy-groups:
       - 22-1082-HK
       - 22-1087-CN
       - 22-1297-SG
+      - 22-1317-US
       - 24-1962-HK
       - 24-1997-SG
   - name: 测速3分组
@@ -2656,7 +2659,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0019-CN
       - 02-0024-CN
       - 02-0029-CN
       - 02-0034-CN
@@ -2850,8 +2852,6 @@ proxy-groups:
       - 22-1074-SG
       - 22-1079-SG
       - 22-1084-CN
-      - 22-1134-US
-      - 24-2009-US
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3034,6 +3034,7 @@ proxy-groups:
       - 15-0980-KR
       - 15-0985-CN
       - 15-0990-RELAY
+      - 20-0995-US
       - 20-1000-RELAY
       - 20-1005-US
       - 20-1010-FR
@@ -3052,7 +3053,6 @@ proxy-groups:
       - 22-1075-CN
       - 22-1080-CN
       - 22-1085-CN
-      - 22-1180-HK
       - 22-1275-US
       - 22-1300-HK
       - 22-1400-SG
