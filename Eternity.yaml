@@ -176,7 +176,7 @@ proxies:
   - {name: 04-0122-MY, server: klvip101.qlgq.fun, port: 30443, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0123-JP, server: 35.78.173.41, port: 443, type: trojan, password: d21bfd9e-ce8e-362d-860f-1f49dc63868a, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0124-JP, server: 43.206.140.0, port: 443, type: trojan, password: d21bfd9e-ce8e-362d-860f-1f49dc63868a, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0125-US, server: 52.34.94.52, port: 443, type: trojan, password: d21bfd9e-ce8e-362d-860f-1f49dc63868a, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0125-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 11914b59-5675-44c1-867c-820853604db9, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0126-US, server: 103.136.185.27, port: 5535, type: trojan, password: d21bfd9e-ce8e-362d-860f-1f49dc63868a, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0127-US, server: 103.136.185.28, port: 3516, type: trojan, password: d21bfd9e-ce8e-362d-860f-1f49dc63868a, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0128-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -348,6 +348,7 @@ proxies:
   - {name: 07-0393-CN, server: hk4.wanwanyun.icu, port: 44023, type: ss, cipher: chacha20-ietf-poly1305, password: 46f12bd6-97c0-4b74-a4c6-de39ac76fea2, udp: true}
   - {name: 07-0394-FASTLY, server: 151.101.128.155, port: 80, type: vmess, uuid: 03231e6e-2251-498b-8e0a-6ab9222309ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=80/#id-telegram:--->@vpn_whal<---"}, udp: true}
   - {name: 07-0395-DE, server: hms04.xmivideo.cfd, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms04.xmivideo.cfd}}, udp: true}
+  - {name: 07-0396-US, server: hms19.best-tizi.top, port: 443, type: vmess, uuid: 62aa5f80-0328-4004-a375-7f5a59df4022, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: hms19.best-tizi.top}}, udp: true}
   - {name: 07-0397-US, server: obdii.cfd, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true}
   - {name: 07-0398-RELAY, server: visa.cn, port: 80, type: vmess, uuid: 688f98b0-d4c5-415a-b561-42024922f6ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.cn}}, udp: true}
   - {name: 07-0399-US, server: edcwork.com, port: 52689, type: vmess, uuid: 7a13a626-df89-4728-af94-355023fd35ba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /7a13a62, headers: {Host: edcwork.com}}, udp: true}
@@ -1344,6 +1345,7 @@ proxy-groups:
       - 07-0393-CN
       - 07-0394-FASTLY
       - 07-0395-DE
+      - 07-0396-US
       - 07-0397-US
       - 07-0398-RELAY
       - 07-0399-US
@@ -2109,6 +2111,7 @@ proxy-groups:
       - 06-0381-RELAY
       - 06-0386-CN
       - 06-0391-NOWHERE
+      - 07-0396-US
       - 08-0401-CN
       - 08-0406-RELAY
       - 08-0411-RELAY
