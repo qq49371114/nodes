@@ -795,11 +795,11 @@ proxies:
   - {name: 20-0843-JP, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 20-0844-JP, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 20-0845-JP, server: us01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 20-0846-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 20-0847-JP, server: us02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 20-0848-AU, server: 172.105.172.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0849-JP, server: de01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: de01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 20-0850-JP, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: uk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: 20-0851-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 20-0852-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 20-0853-FR, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: beyonddsz.cfd}}, udp: true}
   - {name: 20-0854-JP, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: ru01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
@@ -1792,11 +1792,11 @@ proxy-groups:
       - 20-0843-JP
       - 20-0844-JP
       - 20-0845-JP
+      - 20-0846-RELAY
       - 20-0847-JP
       - 20-0848-AU
       - 20-0849-JP
       - 20-0850-JP
-      - 20-0851-BR
       - 20-0852-BR
       - 20-0853-FR
       - 20-0854-JP
@@ -2201,7 +2201,7 @@ proxy-groups:
       - 20-0831-FR
       - 20-0836-JP
       - 20-0841-JP
-      - 20-0851-BR
+      - 20-0846-RELAY
       - 20-0856-FR
       - 22-0861-RELAY
       - 22-0866-CN
