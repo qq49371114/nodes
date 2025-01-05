@@ -148,7 +148,7 @@ proxies:
   - {name: 04-0120-MY, server: klvip101.qlgq.fun, port: 30443, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0121-JP, server: 35.78.173.41, port: 443, type: trojan, password: 2040fbcc-ff95-3216-ba77-7fe4f372de77, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0122-JP, server: 43.206.140.0, port: 443, type: trojan, password: 2040fbcc-ff95-3216-ba77-7fe4f372de77, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0124-US, server: 103.136.185.27, port: 5535, type: trojan, password: 2040fbcc-ff95-3216-ba77-7fe4f372de77, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0123-US, server: 52.34.94.52, port: 443, type: trojan, password: 2040fbcc-ff95-3216-ba77-7fe4f372de77, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0125-US, server: 103.136.185.28, port: 3516, type: trojan, password: 2040fbcc-ff95-3216-ba77-7fe4f372de77, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0126-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0127-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -1145,7 +1145,7 @@ proxy-groups:
       - 04-0120-MY
       - 04-0121-JP
       - 04-0122-JP
-      - 04-0124-US
+      - 04-0123-US
       - 04-0125-US
       - 04-0126-CN
       - 04-0127-CN
@@ -2480,6 +2480,7 @@ proxy-groups:
       - 04-0108-HK
       - 04-0113-HK
       - 04-0118-MY
+      - 04-0123-US
       - 04-0128-CN
       - 04-0133-CN
       - 04-0138-CN
@@ -2680,7 +2681,6 @@ proxy-groups:
       - 04-0109-HK
       - 04-0114-HK
       - 04-0119-MY
-      - 04-0124-US
       - 04-0129-CN
       - 04-0134-CN
       - 04-0139-CN
