@@ -124,7 +124,7 @@ Fork from TopFreeProxies.
     trojan://fe79556e-853e-3d41-a321-09b1d07d29d9@klvip101.qlgq.fun:30443?allowInsecure=1&sni=klvip101.qlgq.fun#04-0120-MY
     trojan://2040fbcc-ff95-3216-ba77-7fe4f372de77@35.78.173.41:443?allowInsecure=1&sni=steampipe.akamaized.net#04-0121-JP
     trojan://2040fbcc-ff95-3216-ba77-7fe4f372de77@43.206.140.0:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-0122-JP
-    trojan://2040fbcc-ff95-3216-ba77-7fe4f372de77@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-0124-US
+    trojan://2040fbcc-ff95-3216-ba77-7fe4f372de77@52.34.94.52:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-0123-US
     trojan://2040fbcc-ff95-3216-ba77-7fe4f372de77@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-0125-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzJiZGRiNC03MDk4LTQ3NTItYjM1YS0zNTI3NDBjYWE2NTk@jsyd.yeahfast.com:35627#04-0126-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzJiZGRiNC03MDk4LTQ3NTItYjM1YS0zNTI3NDBjYWE2NTk@jsyd.yeahfast.com:35628#04-0127-CN
@@ -1023,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1779`
+合并节点总数: `1765`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1779`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1765`
 
 
 ## 仓库声明
