@@ -56,8 +56,7 @@ sniffer:
 proxies:
   - {name: 02-0022-CN, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: ba9d2c35-523c-459e-b288-b7103d106d29, udp: true}
   - {name: 02-0024-JP, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
-  - {name: 02-0026-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: 03-0028-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a3500ca5-dbce-4dcb-88a6-971d2acd6802, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 02-0025-JP, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-0029-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 8105acdf-579c-41fb-b947-af571267a950, udp: true}
   - {name: 03-0030-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1f51f1ce-1f24-4eeb-b0a7-b628758575a1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0031-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 96fad447-18d9-40f1-a005-79da68f7fb07, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -153,7 +152,7 @@ proxies:
   - {name: 04-0121-JP, server: 43.206.140.0, port: 443, type: trojan, password: bf1048fe-d0e8-3941-9cdd-3f1d6bf6382a, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-0122-US, server: 52.34.94.52, port: 443, type: trojan, password: bf1048fe-d0e8-3941-9cdd-3f1d6bf6382a, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0123-US, server: 103.136.185.27, port: 5535, type: trojan, password: bf1048fe-d0e8-3941-9cdd-3f1d6bf6382a, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0124-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2df143ba-4dec-4546-8e39-44af585c9073, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0124-US, server: 103.136.185.28, port: 3516, type: trojan, password: bf1048fe-d0e8-3941-9cdd-3f1d6bf6382a, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-0125-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0126-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0127-CN, server: jsyd.yeahfast.com, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -1053,8 +1052,7 @@ proxy-groups:
       - 测速5分组
       - 02-0022-CN
       - 02-0024-JP
-      - 02-0026-US
-      - 03-0028-KR
+      - 02-0025-JP
       - 03-0029-CN
       - 03-0030-KR
       - 03-0031-KR
@@ -2053,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0026-US
       - 03-0031-KR
       - 03-0036-KR
       - 03-0041-KR
@@ -2456,7 +2453,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0028-KR
       - 03-0033-RELAY
       - 03-0038-CN
       - 03-0043-CN
@@ -2862,6 +2858,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0025-JP
       - 03-0030-KR
       - 03-0035-CN
       - 03-0040-KR
