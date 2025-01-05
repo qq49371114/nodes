@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0026-CN, server: zx3.1010520.xyz, port: 18769, type: ss, cipher: chacha20-ietf-poly1305, password: f5136746-de79-46d0-b3be-d15d9992fa07, udp: true}
-  - {name: 02-0027-US, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 03-0032-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 96fad447-18d9-40f1-a005-79da68f7fb07, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0033-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b0671ab1-ea6a-4447-8233-8239a4150668, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0034-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 3dc6d855-03cd-4b57-9acb-fee483538a6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
@@ -148,7 +147,7 @@ proxies:
   - {name: 04-0121-JP, server: 35.78.173.41, port: 443, type: trojan, password: d4dedf37-1b81-30c3-8304-8d16ab62c85f, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0122-JP, server: 43.206.140.0, port: 443, type: trojan, password: d4dedf37-1b81-30c3-8304-8d16ab62c85f, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0123-US, server: 52.34.94.52, port: 443, type: trojan, password: d4dedf37-1b81-30c3-8304-8d16ab62c85f, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0124-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b820b3ba-36c3-4d0a-912c-e51cebf231e9, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0124-US, server: 103.136.185.27, port: 5535, type: trojan, password: d4dedf37-1b81-30c3-8304-8d16ab62c85f, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-0125-US, server: 103.136.185.28, port: 3516, type: trojan, password: d4dedf37-1b81-30c3-8304-8d16ab62c85f, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0126-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0127-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -1053,7 +1052,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0026-CN
-      - 02-0027-US
       - 03-0032-KR
       - 03-0033-KR
       - 03-0034-RELAY
@@ -2261,7 +2259,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0027-US
       - 03-0032-KR
       - 03-0037-KR
       - 03-0042-KR
