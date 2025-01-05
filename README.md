@@ -318,7 +318,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMDQxMC1VUyIsImFkZCI6IjM4LjExLjUwLjY4IiwicG9ydCI6IjMxMDA1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjQxODA0OGFmLWEyOTMtNGI5OS05YjBjLTk4Y2EzNTgwZGQyNCIsImFpZCI6IjY0IiwibmV0Ijoid3MiLCJwYXRoIjoiL3BhdGgvMTczNTk4NDEwMjY1NiIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     trojan://243eab52-9ac1-405c-887c-eb112c0985b8@uk01.trojanyyds.xyz:443?allowInsecure=1&sni=uk01.trojanyyds.xyz#07-0411-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMDQxMi1GQVNUTFkiLCJhZGQiOiIxNTEuMTAxLjE5NC4xMzMiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiZmQ3OTEwNmUtMGY2Yy00YWQ3LWFmMWItNDBhMDc5YWZkZjY3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9SQUNFVlBOIiwiaG9zdCI6IiIsInRscyI6IiJ9
-    trojan://34ec6bdf-602c-4bbe-933a-5c0823524201@Cmc6.5gsieuvip.vn:443?allowInsecure=1#07-0413-VN
+    trojan://34ec6bdf-602c-4bbe-933a-5c0823524201@Cmc5.5gsieuvip.vn:443?allowInsecure=1#07-0414-VN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNWE1N2JjMC1kNDAwLTRjNGItYTVjYS0zMDJkYzMyMTk2MDE@gy.666666222.shop:20032#08-0415-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNWE1N2JjMC1kNDAwLTRjNGItYTVjYS0zMDJkYzMyMTk2MDE@gy.666666222.shop:47564#08-0416-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMDQxNy1SRUxBWSIsImFkZCI6ImNmLmh5Mi5vbmUiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiY2NmNDVkZjUtYjgxNy00NzI3LWIzZDktOTQ0MDU3MTk1MmQzIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hZjMyM2QiLCJob3N0IjoiY2YuaHkyLm9uZSIsInRscyI6IiJ9
@@ -1022,11 +1022,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1816`
+合并节点总数: `1817`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1816`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1817`
 
 
 ## 仓库声明
