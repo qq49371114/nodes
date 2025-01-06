@@ -55,8 +55,8 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0022-CN, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: ba9d2c35-523c-459e-b288-b7103d106d29, udp: true}
-  - {name: 03-0029-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: ca0f4e56-a9d7-413c-a169-d4824bba6963, udp: true}
-  - {name: 03-0030-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 08db890d-60e0-4d57-9b2a-95dbb9618d73, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 02-0024-JP, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: us01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: 02-0025-JP, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-0031-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9be90020-8589-412a-abf5-4f9535fb536c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0032-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e11def13-18d3-49fe-9f26-bd6a611105f2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 03-0033-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7a0d1aee-ae79-45c3-8c48-805788633d4c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -1051,8 +1051,8 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0022-CN
-      - 03-0029-CN
-      - 03-0030-KR
+      - 02-0024-JP
+      - 02-0025-JP
       - 03-0031-KR
       - 03-0032-KR
       - 03-0033-KR
@@ -2659,7 +2659,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0029-CN
+      - 02-0024-JP
       - 03-0034-KR
       - 03-0039-KR
       - 03-0044-KR
@@ -2862,7 +2862,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 03-0030-KR
+      - 02-0025-JP
       - 03-0035-KR
       - 03-0040-CN
       - 03-0045-CN
