@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0020-CA, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 02-0021-VN, server: Cmc5.5gsieuvip.vn, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true, udp: true}
   - {name: 03-0022-RELAY, server: yx.sulink.one, port: 2052, type: vmess, uuid: 7151ba7e-3105-478d-b117-a358b3ca50ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
   - {name: 03-0023-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: adf4bf5d-bbd7-4dc2-b5c0-21b220202f54, udp: true}
   - {name: 03-0024-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: adf4bf5d-bbd7-4dc2-b5c0-21b220202f54, udp: true}
@@ -309,7 +310,6 @@ proxies:
   - {name: 07-0372-US, server: 38.11.50.68, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1735984102656}, udp: true}
   - {name: 07-0373-JP, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: uk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0374-FASTLY, server: 151.101.194.133, port: 80, type: vmess, uuid: fd79106e-0f6c-4ad7-af1b-40a079afdf67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN}, udp: true}
-  - {name: 07-0375-VN, server: Cmc6.5gsieuvip.vn, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true, udp: true}
   - {name: 07-0376-CN, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
   - {name: 08-0377-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 90d76e3b-a481-4b4e-ab89-d2943cd9bcce, udp: true}
   - {name: 08-0378-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 90d76e3b-a481-4b4e-ab89-d2943cd9bcce, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0020-CA
+      - 02-0021-VN
       - 03-0022-RELAY
       - 03-0023-CN
       - 03-0024-CN
@@ -1306,7 +1307,6 @@ proxy-groups:
       - 07-0372-US
       - 07-0373-JP
       - 07-0374-FASTLY
-      - 07-0375-VN
       - 07-0376-CN
       - 08-0377-CN
       - 08-0378-CN
@@ -2053,6 +2053,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0021-VN
       - 03-0026-CN
       - 03-0031-RELAY
       - 03-0036-CN
@@ -2914,7 +2915,6 @@ proxy-groups:
       - 07-0360-JP
       - 07-0365-CN
       - 07-0370-JP
-      - 07-0375-VN
       - 08-0380-RELAY
       - 08-0385-CN
       - 08-0390-CN
