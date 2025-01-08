@@ -125,9 +125,9 @@ proxies:
   - {name: 04-0088-MY, server: klvip101.qlgq.fun, port: 30443, type: trojan, password: fe79556e-853e-3d41-a321-09b1d07d29d9, sni: klvip101.qlgq.fun, skip-cert-verify: true, udp: true}
   - {name: 04-0089-JP, server: 35.78.173.41, port: 443, type: trojan, password: 49b405b6-0c3a-38bc-8878-f4a80b57e8a5, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-0090-JP, server: 43.206.140.0, port: 443, type: trojan, password: 49b405b6-0c3a-38bc-8878-f4a80b57e8a5, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0091-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7136b823-2baf-4d57-9abb-819c08f623b4, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0091-US, server: 52.34.94.52, port: 443, type: trojan, password: 49b405b6-0c3a-38bc-8878-f4a80b57e8a5, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0092-US, server: 103.136.185.27, port: 5535, type: trojan, password: 49b405b6-0c3a-38bc-8878-f4a80b57e8a5, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0093-US, server: 103.136.185.28, port: 3516, type: trojan, password: 49b405b6-0c3a-38bc-8878-f4a80b57e8a5, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0093-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7136b823-2baf-4d57-9abb-819c08f623b4, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0094-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0095-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0096-CN, server: jsyd.yeahfast.com, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -313,6 +313,7 @@ proxies:
   - {name: 07-0375-US, server: 38.11.50.68, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1735984102656}, udp: true}
   - {name: 07-0376-JP, server: uk01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: uk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-0377-FASTLY, server: 151.101.194.133, port: 80, type: vmess, uuid: fd79106e-0f6c-4ad7-af1b-40a079afdf67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /RACEVPN}, udp: true}
+  - {name: 07-0378-VN, server: Cmc6.5gsieuvip.vn, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true, udp: true}
   - {name: 07-0379-CN, server: cu.awslcn.info, port: 25284, type: vmess, uuid: 243eab52-9ac1-405c-887c-eb112c0985b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}, udp: true}
   - {name: 08-0380-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 90d76e3b-a481-4b4e-ab89-d2943cd9bcce, udp: true}
   - {name: 08-0381-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 90d76e3b-a481-4b4e-ab89-d2943cd9bcce, udp: true}
@@ -704,7 +705,6 @@ proxies:
   - {name: 20-0767-GB, server: 149.7.16.194, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0768-US, server: gs09.guoshi1520.com, port: 443, type: vmess, uuid: 681e76bc-c19e-4614-ca47-95ba2253a5a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /681e76bc, headers: {Host: gs09.guoshi1520.com}}, udp: true}
   - {name: 20-0769-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 20-0770-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 20-0771-AU, server: 172.105.172.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0772-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: indiavideo.sbs}}, udp: true}
   - {name: 20-0773-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /link, headers: {Host: az05.beyondy.cfd}}, udp: true}
@@ -1310,6 +1310,7 @@ proxy-groups:
       - 07-0375-US
       - 07-0376-JP
       - 07-0377-FASTLY
+      - 07-0378-VN
       - 07-0379-CN
       - 08-0380-CN
       - 08-0381-CN
@@ -1701,7 +1702,6 @@ proxy-groups:
       - 20-0767-GB
       - 20-0768-US
       - 20-0769-JP
-      - 20-0770-BR
       - 20-0771-AU
       - 20-0772-FR
       - 20-0773-FR
@@ -2509,6 +2509,7 @@ proxy-groups:
       - 07-0363-JP
       - 07-0368-CN
       - 07-0373-JP
+      - 07-0378-VN
       - 08-0383-RELAY
       - 08-0388-CN
       - 08-0393-CN
@@ -2992,7 +2993,6 @@ proxy-groups:
       - 20-0755-US
       - 20-0760-GB
       - 20-0765-DE
-      - 20-0770-BR
       - 20-0775-FR
       - 22-0780-RELAY
       - 22-0785-RELAY
