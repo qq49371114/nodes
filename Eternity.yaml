@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 02-0020-CA, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
   - {name: 02-0021-VN, server: Cmc5.5gsieuvip.vn, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true, udp: true}
   - {name: 03-0025-CN, server: forward-03.sudatech.store, port: 43500, type: trojan, password: 144b4f97-5baa-4ee9-a3ac-c207f592e105, sni: vpn-4-6.sudatech.store, skip-cert-verify: true, udp: true}
   - {name: 03-0026-AU, server: syd-01.oci.ee, port: 23451, type: vmess, uuid: 2c8e4d6d-e64e-407d-8175-07c9ba84dcd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
@@ -122,7 +123,7 @@ proxies:
   - {name: 04-0089-JP, server: 35.78.173.41, port: 443, type: trojan, password: 209f2a52-0be3-3850-b64b-768bf61ee105, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0090-JP, server: 43.206.140.0, port: 443, type: trojan, password: 209f2a52-0be3-3850-b64b-768bf61ee105, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0091-US, server: 54.148.225.94, port: 443, type: trojan, password: 209f2a52-0be3-3850-b64b-768bf61ee105, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0092-US, server: 103.136.185.27, port: 5535, type: trojan, password: 209f2a52-0be3-3850-b64b-768bf61ee105, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0092-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7136b823-2baf-4d57-9abb-819c08f623b4, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0093-US, server: 103.136.185.28, port: 3516, type: trojan, password: 209f2a52-0be3-3850-b64b-768bf61ee105, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0094-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0095-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -696,7 +697,6 @@ proxies:
   - {name: 20-0762-GB, server: 68.168.31.242, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0763-GB, server: 68.168.31.196, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0764-FR, server: 57.128.184.119, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
-  - {name: 20-0765-GB, server: 5.39.254.196, port: 23169, type: vmess, uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-0767-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 20-0768-FR, server: denc36.xtooltech.cfd, port: 443, type: vmess, uuid: b321fd5d-e6ec-4293-a644-164e3885f52e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: denc36.xtooltech.cfd}}, udp: true}
   - {name: 20-0769-DE, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
@@ -713,6 +713,7 @@ proxies:
   - {name: 20-0780-FR, server: 194.9.172.65, port: 443, type: vmess, uuid: 8d90c129-4156-4d6c-9115-24df25f26a02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 20-0781-FR, server: indiavideo.sbs, port: 443, type: vmess, uuid: 425c5e6e-30a0-4984-8a13-ee6f72053162, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws, headers: {Host: indiavideo.sbs}}, udp: true}
   - {name: 20-0782-AU, server: 172.105.172.209, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
+  - {name: 20-0783-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, skip-cert-verify: true, udp: true}
   - {name: 20-0784-RELAY, server: 104.21.89.219, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-0785-RELAY, server: 172.67.165.53, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 20-0786-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
@@ -1050,6 +1051,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 02-0020-CA
       - 02-0021-VN
       - 03-0025-CN
       - 03-0026-AU
@@ -1692,7 +1694,6 @@ proxy-groups:
       - 20-0762-GB
       - 20-0763-GB
       - 20-0764-FR
-      - 20-0765-GB
       - 20-0767-FR
       - 20-0768-FR
       - 20-0769-DE
@@ -1709,6 +1710,7 @@ proxy-groups:
       - 20-0780-FR
       - 20-0781-FR
       - 20-0782-AU
+      - 20-0783-BR
       - 20-0784-RELAY
       - 20-0785-RELAY
       - 20-0786-RELAY
@@ -2588,6 +2590,7 @@ proxy-groups:
       - 20-0768-FR
       - 20-0773-DE
       - 20-0778-FR
+      - 20-0783-BR
       - 20-0788-RELAY
       - 22-0793-RELAY
       - 22-0798-AU
@@ -2860,6 +2863,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0020-CA
       - 03-0025-CN
       - 03-0030-CN
       - 03-0035-CN
@@ -2989,7 +2993,6 @@ proxy-groups:
       - 20-0750-US
       - 20-0755-CA
       - 20-0760-GB
-      - 20-0765-GB
       - 20-0770-ES
       - 20-0775-DE
       - 20-0780-FR
