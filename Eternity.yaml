@@ -127,7 +127,7 @@ proxies:
   - {name: 04-0090-JP, server: 35.78.173.41, port: 443, type: trojan, password: 44ffd043-e285-3a6e-9017-5104418ab1c1, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0091-JP, server: 43.206.140.0, port: 443, type: trojan, password: 44ffd043-e285-3a6e-9017-5104418ab1c1, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0092-US, server: 54.148.225.94, port: 443, type: trojan, password: 44ffd043-e285-3a6e-9017-5104418ab1c1, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0094-US, server: 103.136.185.28, port: 3516, type: trojan, password: 44ffd043-e285-3a6e-9017-5104418ab1c1, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0093-US, server: 103.136.185.27, port: 5535, type: trojan, password: 44ffd043-e285-3a6e-9017-5104418ab1c1, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-0095-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0096-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0097-CN, server: jsyd.yeahfast.com, port: 35630, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -1124,7 +1124,7 @@ proxy-groups:
       - 04-0090-JP
       - 04-0091-JP
       - 04-0092-US
-      - 04-0094-US
+      - 04-0093-US
       - 04-0095-CN
       - 04-0096-CN
       - 04-0097-CN
@@ -2472,6 +2472,7 @@ proxy-groups:
       - 04-0078-HK
       - 04-0083-HK
       - 04-0088-MY
+      - 04-0093-US
       - 04-0098-CN
       - 04-0103-CN
       - 04-0108-NOWHERE
@@ -2674,7 +2675,6 @@ proxy-groups:
       - 04-0079-HK
       - 04-0084-HK
       - 04-0089-MY
-      - 04-0094-US
       - 04-0099-CN
       - 04-0104-CN
       - 04-0109-CN
