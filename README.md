@@ -103,7 +103,7 @@ Fork from TopFreeProxies.
     trojan://44ffd043-e285-3a6e-9017-5104418ab1c1@35.78.173.41:443?allowInsecure=1&sni=steampipe.akamaized.net#04-0090-JP
     trojan://44ffd043-e285-3a6e-9017-5104418ab1c1@43.206.140.0:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-0091-JP
     trojan://44ffd043-e285-3a6e-9017-5104418ab1c1@54.148.225.94:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-0092-US
-    trojan://44ffd043-e285-3a6e-9017-5104418ab1c1@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-0094-US
+    trojan://44ffd043-e285-3a6e-9017-5104418ab1c1@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-0093-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzJiZGRiNC03MDk4LTQ3NTItYjM1YS0zNTI3NDBjYWE2NTk@jsyd.yeahfast.com:35627#04-0095-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzJiZGRiNC03MDk4LTQ3NTItYjM1YS0zNTI3NDBjYWE2NTk@jsyd.yeahfast.com:35628#04-0096-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjYzJiZGRiNC03MDk4LTQ3NTItYjM1YS0zNTI3NDBjYWE2NTk@jsyd.yeahfast.com:35630#04-0097-CN
@@ -1023,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1794`
+合并节点总数: `1795`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1794`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1795`
 
 
 ## 仓库声明
