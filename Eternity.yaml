@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 02-0020-CA, server: ssca.irundns.net, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
   - {name: 02-0021-VN, server: Cmc5.5gsieuvip.vn, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true, udp: true}
   - {name: 03-0022-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: 72733981-e6af-48d8-ab3e-cbba497d68b4, udp: true}
   - {name: 03-0023-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: 3bfc9e16-20b9-47d8-aa80-5c59689f0eff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
@@ -127,7 +128,7 @@ proxies:
   - {name: 04-0091-JP, server: 35.78.173.41, port: 443, type: trojan, password: 992c5cc0-606e-3bb6-ad0d-1329838908c7, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-0092-JP, server: 43.206.140.0, port: 443, type: trojan, password: 992c5cc0-606e-3bb6-ad0d-1329838908c7, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0093-US, server: 54.148.225.94, port: 443, type: trojan, password: 992c5cc0-606e-3bb6-ad0d-1329838908c7, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0094-US, server: 103.136.185.27, port: 5535, type: trojan, password: 992c5cc0-606e-3bb6-ad0d-1329838908c7, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0094-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4f925e4b-c4d2-40f9-8e05-6a27c466cf3b, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0095-US, server: 103.136.185.28, port: 3516, type: trojan, password: 992c5cc0-606e-3bb6-ad0d-1329838908c7, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0096-CN, server: jsyd.yeahfast.com, port: 35627, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
   - {name: 04-0097-CN, server: jsyd.yeahfast.com, port: 35628, type: ss, cipher: chacha20-ietf-poly1305, password: cc2bddb4-7098-4752-b35a-352740caa659, udp: true}
@@ -1051,6 +1052,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 02-0020-CA
       - 02-0021-VN
       - 03-0022-CN
       - 03-0023-RELAY
@@ -2863,6 +2865,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0020-CA
       - 03-0025-RELAY
       - 03-0030-CN
       - 03-0035-CN
