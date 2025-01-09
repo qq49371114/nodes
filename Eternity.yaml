@@ -55,7 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: gw.liangyuandianwan.com, port: 35501, type: ss, cipher: chacha20-ietf-poly1305, password: c4843eba-b070-403f-b43f-ef1ef7db571e, udp: true}
-  - {name: 02-0010-US, server: 35.85.33.177, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 02-0005-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 03-0012-RELAY, server: cf.hy2.one, port: 80, type: vmess, uuid: e2919dab-442f-4d1d-9160-ac7af0a5d44b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /af323d, headers: {Host: cf.hy2.one}}, udp: true}
   - {name: 03-0013-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d8e8ae54-e99b-424f-afbe-cecefa2a540b, udp: true}
   - {name: 03-0014-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: d8e8ae54-e99b-424f-afbe-cecefa2a540b, udp: true}
@@ -283,7 +283,6 @@ proxies:
   - {name: 07-0336-US, server: 54.200.223.152, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0337-US, server: 34.219.80.203, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0338-US, server: 54.244.200.142, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 07-0339-VN, server: 160.30.160.134, port: 443, type: trojan, password: 34ec6bdf-602c-4bbe-933a-5c0823524201, skip-cert-verify: true, udp: true}
   - {name: 08-0340-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: f3375bc0-fbdc-4081-8b6d-6d15839ca3c3, udp: true}
   - {name: 08-0341-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: f3375bc0-fbdc-4081-8b6d-6d15839ca3c3, udp: true}
   - {name: 08-0342-RELAY, server: yx.sulink.one, port: 2052, type: vmess, uuid: 8b730826-893c-4d06-aa14-f80b86c2b64a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yx.sulink.one}}, udp: true}
@@ -1035,6 +1034,7 @@ proxies:
   - {name: 17-1254-KR, server: 131.186.16.245, port: 40499, type: vmess, uuid: 8ce12007-8685-4cb1-baee-fbcee164330e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 17-1424-KR, server: 131.186.16.245, port: 40499, type: vmess, uuid: ec7bac4a-29e0-4590-9bfa-72f279d65892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 18-1554-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
+  - {name: 18-1557-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, skip-cert-verify: true, udp: true}
   - {name: 22-1612-KR, server: 131.186.16.245, port: 40499, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1675-KR, server: 131.186.16.245, port: 40499, type: vmess, uuid: 0a9abdbd-7389-4630-acd2-d9ddc1691d95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1756-KR, server: 131.186.16.245, port: 40499, type: vmess, uuid: 64f8f872-fc9b-4782-967f-185c79e3c6a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
@@ -1051,7 +1051,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 02-0010-US
+      - 02-0005-GB
       - 03-0012-RELAY
       - 03-0013-CN
       - 03-0014-CN
@@ -1279,7 +1279,6 @@ proxy-groups:
       - 07-0336-US
       - 07-0337-US
       - 07-0338-US
-      - 07-0339-VN
       - 08-0340-CN
       - 08-0341-CN
       - 08-0342-RELAY
@@ -2031,6 +2030,7 @@ proxy-groups:
       - 17-1254-KR
       - 17-1424-KR
       - 18-1554-RELAY
+      - 18-1557-BR
       - 22-1612-KR
       - 22-1675-KR
       - 22-1756-KR
@@ -2450,6 +2450,7 @@ proxy-groups:
       - 16-1082-RELAY
       - 16-1087-RELAY
       - 16-1172-TW
+      - 18-1557-BR
       - 22-1612-KR
   - name: 测速3分组
     type: url-test
@@ -2703,7 +2704,6 @@ proxy-groups:
       - 06-0324-CN
       - 06-0329-RELAY
       - 07-0334-DK
-      - 07-0339-VN
       - 08-0344-RELAY
       - 08-0349-CN
       - 08-0354-CN
@@ -2863,7 +2863,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0000-CN
-      - 02-0010-US
+      - 02-0005-GB
       - 03-0015-CN
       - 03-0020-CN
       - 03-0025-RELAY
