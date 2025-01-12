@@ -1024,12 +1024,12 @@ proxies:
   - {name: 16-1086-SG, server: 122.248.224.109, port: 80, type: vmess, uuid: 3c40b090-25b2-4985-8b62-4788ff740eb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 16-1087-US, server: 164.152.24.3, port: 27302, type: vmess, uuid: ca79fec1-2a41-47ee-a83f-91aeb452e381, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 16-1088-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: c754caff-3959-4a76-aa3c-5cc9e9f5dd60, udp: true}
-  - {name: 16-1170-RELAY, server: ucatus.kxxd.site, port: 2082, type: vmess, uuid: d6b555be-fb1d-4d7b-b918-2b098f87a15f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: ucatus.kxxd.site}}, udp: true}
   - {name: 17-1339-KR, server: 132.226.20.31, port: 43153, type: vmess, uuid: ec7bac4a-29e0-4590-9bfa-72f279d65892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 17-1361-US, server: 192.9.147.146, port: 49353, type: vmess, uuid: ec7bac4a-29e0-4590-9bfa-72f279d65892, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 17-1423-US, server: 192.9.147.146, port: 49353, type: vmess, uuid: 8ce12007-8685-4cb1-baee-fbcee164330e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 17-1545-KR, server: 132.226.20.31, port: 43153, type: vmess, uuid: 8ce12007-8685-4cb1-baee-fbcee164330e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 18-1619-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
+  - {name: 20-1636-JP, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 22-1690-US, server: 192.9.147.146, port: 49353, type: vmess, uuid: 0a9abdbd-7389-4630-acd2-d9ddc1691d95, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1723-US, server: 192.9.147.146, port: 49353, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
   - {name: 22-1754-KR, server: 132.226.20.31, port: 43153, type: vmess, uuid: c4e70094-a6a8-415e-9a57-783f34042b52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
@@ -2020,12 +2020,12 @@ proxy-groups:
       - 16-1086-SG
       - 16-1087-US
       - 16-1088-CN
-      - 16-1170-RELAY
       - 17-1339-KR
       - 17-1361-US
       - 17-1423-US
       - 17-1545-KR
       - 18-1619-RELAY
+      - 20-1636-JP
       - 22-1690-US
       - 22-1723-US
       - 22-1754-KR
@@ -2245,6 +2245,7 @@ proxy-groups:
       - 16-1081-AU
       - 16-1086-SG
       - 17-1361-US
+      - 20-1636-JP
       - 22-1996-KR
       - 24-2271-KR
       - 24-2291-US
@@ -3053,7 +3054,6 @@ proxy-groups:
       - 16-1075-CN
       - 16-1080-HK
       - 16-1085-CN
-      - 16-1170-RELAY
       - 17-1545-KR
       - 22-1690-US
       - 22-1975-KR
