@@ -51,8 +51,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE4LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiIyMDQwMDE4NS0yYjdlLTNlMWItOTMxMy1iYjM5YTI3OWNkNmEiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     trojan://30f5820f-1e5a-3a49-803d-2a0e9f6a7e55@35.78.173.41:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-019-JP
     trojan://30f5820f-1e5a-3a49-803d-2a0e9f6a7e55@43.206.140.0:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-020-JP
-    trojan://30f5820f-1e5a-3a49-803d-2a0e9f6a7e55@54.218.139.233:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-021-US
-    trojan://0df43ecb-44fb-4a6f-a7bc-1d821c4cc3cd@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=www.microsoft365.com#04-022-US
+    trojan://0df43ecb-44fb-4a6f-a7bc-1d821c4cc3cd@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-021-US
+    trojan://30f5820f-1e5a-3a49-803d-2a0e9f6a7e55@103.136.185.27:5535?allowInsecure=1&sni=www.microsoft365.com#04-022-US
     trojan://30f5820f-1e5a-3a49-803d-2a0e9f6a7e55@103.136.185.28:3516?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-023-US
     trojan://e4fd671a-9f6e-3aa0-93aa-145089a6a5f4@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-024-CN
     trojan://e4fd671a-9f6e-3aa0-93aa-145089a6a5f4@gy.58n.net:20301?allowInsecure=1&sni=z301.hongkongnode.top#04-025-CN
@@ -144,7 +144,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjEwLVVTIiwiYWRkIjoianA0LnNkd2FuLmRheSIsInBvcnQiOiI0NDMxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImZhZGUyYjM1LTc4NzItNDQyZS1hNTRlLTZjY2Y5Yjk3MDQ3NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvc3RyZWFtIiwiaG9zdCI6ImpwNC5zZHdhbi5kYXkiLCJ0bHMiOiJ0bHMifQ==
     trojan://243eab52-9ac1-405c-887c-eb112c0985b8@sg02.trojanyyds.xyz:443?allowInsecure=1#07-211-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjEyLVVTIiwiYWRkIjoiMzguOTEuMTA3LjM2IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2xpbmt2d3MiLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
-    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48:989#07-213-GB
+    trojan://34ec6bdf-602c-4bbe-933a-5c0823524201@103.152.164.39:443?allowInsecure=1#07-214-VN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjE1LVJFTEFZIiwiYWRkIjoiMTk1Ljg1LjU5LjE2MSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMzNmNmQ4YjAtODFmOC00ZmNlLWIzZGYtNzlkYzhmZDZkOGM1IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9yb25nc2V2ZW4/ZWQ9MjA0OCIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTVjYjM0YS03NTVmLTQ2NTQtOGM5Ni1jMmExNDMxNzc0Mzk@gy.666666222.shop:20032#08-216-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphOTVjYjM0YS03NTVmLTQ2NTQtOGM5Ni1jMmExNDMxNzc0Mzk@gy.666666222.shop:47564#08-217-CN
