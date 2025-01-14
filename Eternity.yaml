@@ -75,8 +75,8 @@ proxies:
   - {name: 04-018-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 20400185-2b7e-3e1b-9313-bb39a279cd6a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
   - {name: 04-019-JP, server: 35.78.173.41, port: 443, type: trojan, password: 19c032f0-efaf-3626-ba07-ebd5e571e5eb, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-020-JP, server: 43.206.140.0, port: 443, type: trojan, password: 19c032f0-efaf-3626-ba07-ebd5e571e5eb, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-021-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2f819537-8845-4487-b4e7-08cdb2da7cb9, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-022-US, server: 103.136.185.27, port: 5535, type: trojan, password: 19c032f0-efaf-3626-ba07-ebd5e571e5eb, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-021-US, server: 54.218.139.233, port: 443, type: trojan, password: 19c032f0-efaf-3626-ba07-ebd5e571e5eb, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-022-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2f819537-8845-4487-b4e7-08cdb2da7cb9, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-023-US, server: 103.136.185.28, port: 3516, type: trojan, password: 19c032f0-efaf-3626-ba07-ebd5e571e5eb, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-024-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 2d1841e1-489d-30a2-b325-35c727b38b1d, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-025-CN, server: gy.58n.net, port: 20301, type: trojan, password: 2d1841e1-489d-30a2-b325-35c727b38b1d, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -129,6 +129,7 @@ proxies:
   - {name: 07-171-US, server: 199.188.105.57, port: 31004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1736415675034}, udp: true}
   - {name: 07-172-HK, server: 41699d8ad5e758d2c6e42c1e7f40e820.v1.cac.node-is.green, port: 49782, type: trojan, password: 299beacf-37f0-41c6-a122-9260c75731bf, sni: hk12.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-173-HK, server: hk3.sdwan.day, port: 443, type: vmess, uuid: fade2b35-7872-442e-a54e-6ccf9b970476, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /auth, headers: {Host: hk3.sdwan.day}}, udp: true}
+  - {name: 07-174-DK, server: 185.186.79.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-175-JP, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 07-176-JP, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 07-177-FASTLY, server: 151.101.0.155, port: 80, type: vmess, uuid: 67650521-85de-4679-bf72-920a09781374, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=80/#id-telegram:--->@vpn_whal<---"}, udp: true}
@@ -828,7 +829,6 @@ proxies:
   - {name: 18-873-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-874-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-875-RELAY, server: 104.17.221.248, port: 2082, type: vmess, uuid: 65c003b7-d0b5-3751-8e22-b959f46463bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-876-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -914,6 +914,7 @@ proxy-groups:
       - 07-171-US
       - 07-172-HK
       - 07-173-HK
+      - 07-174-DK
       - 07-175-JP
       - 07-176-JP
       - 07-177-FASTLY
@@ -1613,7 +1614,6 @@ proxy-groups:
       - 18-873-BR
       - 18-874-RELAY
       - 18-875-RELAY
-      - 18-876-BR
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1784,7 +1784,6 @@ proxy-groups:
       - 18-861-RELAY
       - 18-866-RELAY
       - 18-871-RELAY
-      - 18-876-BR
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2123,6 +2122,7 @@ proxy-groups:
       - 04-059-CN
       - 04-064-CN
       - 04-069-CN
+      - 07-174-DK
       - 07-179-CN
       - 07-184-US
       - 07-189-RELAY
