@@ -77,7 +77,7 @@ proxies:
   - {name: 04-020-JP, server: 43.206.140.0, port: 443, type: trojan, password: 54ea7254-3779-3fe9-9a44-cdfe0f219d73, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-021-US, server: 54.218.139.233, port: 443, type: trojan, password: 54ea7254-3779-3fe9-9a44-cdfe0f219d73, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-022-US, server: 103.136.185.27, port: 5535, type: trojan, password: 54ea7254-3779-3fe9-9a44-cdfe0f219d73, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-023-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e03766c8-e8a8-4121-b2c2-21ed9fc527cf, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-023-US, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-024-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 2d1841e1-489d-30a2-b325-35c727b38b1d, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-025-CN, server: gy.58n.net, port: 20301, type: trojan, password: 2d1841e1-489d-30a2-b325-35c727b38b1d, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-026-CN, server: gy.58n.net, port: 43337, type: trojan, password: 2d1841e1-489d-30a2-b325-35c727b38b1d, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -766,6 +766,7 @@ proxies:
   - {name: 17-810-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: fe397ea7-753f-4577-9d16-727be9186f96, udp: true}
   - {name: 17-811-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 11ffd945-34ed-49cb-908b-6254ba4b5ccd, udp: true}
   - {name: 17-812-KR, server: 132.226.20.31, port: 43154, type: vmess, uuid: 8ce12007-8685-4cb1-baee-fbcee164330e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /wada12222}, udp: true}
+  - {name: 17-813-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e03766c8-e8a8-4121-b2c2-21ed9fc527cf, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-814-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 7bf5ef38-59e0-4dbc-b4b2-b0552805e6b6, udp: true}
   - {name: 17-815-CN, server: jehw72eh.97kb.com, port: 49709, type: ss, cipher: aes-256-gcm, password: b052812d-6cfe-4e58-b4c1-915bc10bc3a0, udp: true}
   - {name: 17-816-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 2e882e8d-b35a-4e22-b9bb-e0b38c9d8f7d, udp: true}
@@ -827,7 +828,6 @@ proxies:
   - {name: 18-873-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
   - {name: 18-874-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 18-875-FR, server: 146.19.168.161, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-876-JP, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1550,6 +1550,7 @@ proxy-groups:
       - 17-810-CN
       - 17-811-CN
       - 17-812-KR
+      - 17-813-KR
       - 17-814-CN
       - 17-815-CN
       - 17-816-CN
@@ -1611,7 +1612,6 @@ proxy-groups:
       - 18-873-RELAY
       - 18-874-RELAY
       - 18-875-FR
-      - 18-876-JP
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1780,7 +1780,6 @@ proxy-groups:
       - 18-861-FR
       - 18-866-RELAY
       - 18-871-JP
-      - 18-876-JP
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2088,6 +2087,7 @@ proxy-groups:
       - 17-798-CN
       - 17-803-KR
       - 17-808-KR
+      - 17-813-KR
       - 17-818-CN
       - 17-823-CN
       - 17-828-CN
