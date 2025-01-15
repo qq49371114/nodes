@@ -51,9 +51,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE4LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiI4NDJlOGZjYi1jMDhjLTM5YjUtYTc0NC1lOTg2NTM2M2VmZjEiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     trojan://5db00be1-5a73-3bfa-8eb0-b480dd32723a@35.78.173.41:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-019-JP
     trojan://5db00be1-5a73-3bfa-8eb0-b480dd32723a@43.206.140.0:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-020-JP
-    trojan://2f819537-8845-4487-b4e7-08cdb2da7cb9@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-021-US
+    trojan://5db00be1-5a73-3bfa-8eb0-b480dd32723a@34.221.13.182:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-021-US
     trojan://5db00be1-5a73-3bfa-8eb0-b480dd32723a@103.136.185.27:5535?allowInsecure=1&sni=origin-a.akamaihd.net#04-022-US
-    trojan://5db00be1-5a73-3bfa-8eb0-b480dd32723a@103.136.185.28:3516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-023-US
+    trojan://2f819537-8845-4487-b4e7-08cdb2da7cb9@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-023-US
     trojan://cb6ddc66-71a8-3b6d-9258-71df05f58206@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-024-CN
     trojan://cb6ddc66-71a8-3b6d-9258-71df05f58206@gy.58n.net:20301?allowInsecure=1&sni=z301.hongkongnode.top#04-025-CN
     trojan://cb6ddc66-71a8-3b6d-9258-71df05f58206@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-026-CN
