@@ -55,8 +55,8 @@ Fork from TopFreeProxies.
     trojan://e6aa8c3b-f6d6-318c-8065-3093a4a1c60d@35.78.173.41:443?allowInsecure=1&sni=steampipe.akamaized.net#04-024-JP
     trojan://e6aa8c3b-f6d6-318c-8065-3093a4a1c60d@43.206.140.0:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-025-JP
     trojan://e6aa8c3b-f6d6-318c-8065-3093a4a1c60d@34.220.42.202:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-026-US
-    trojan://e6aa8c3b-f6d6-318c-8065-3093a4a1c60d@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-027-US
-    trojan://0df43ecb-44fb-4a6f-a7bc-1d821c4cc3cd@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-028-US
+    trojan://0df43ecb-44fb-4a6f-a7bc-1d821c4cc3cd@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-027-US
+    trojan://e6aa8c3b-f6d6-318c-8065-3093a4a1c60d@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-028-US
     trojan://f4f93dfe-9418-32ad-96b4-9f9eddb3bd7a@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-029-CN
     trojan://f4f93dfe-9418-32ad-96b4-9f9eddb3bd7a@gy.58n.net:20301?allowInsecure=1&sni=z301.hongkongnode.top#04-030-CN
     trojan://f4f93dfe-9418-32ad-96b4-9f9eddb3bd7a@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-031-CN
@@ -822,11 +822,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `889`
+合并节点总数: `890`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `889`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `890`
 
 
 ## 仓库声明
