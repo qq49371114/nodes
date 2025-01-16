@@ -61,7 +61,7 @@ proxies:
   - {name: 02-004-CN, server: 120.232.217.96, port: 21142, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
   - {name: 02-005-CN, server: 120.232.217.96, port: 39431, type: trojan, password: 0bc68743-cff8-4730-9818-9d8192ee335c, skip-cert-verify: true, udp: true}
   - {name: 02-006-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 02-007-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 02-008-GB, server: 77.72.5.113, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 04-009-RELAY, server: s2.db-link01.top, port: 2095, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.26.140, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 04-010-RELAY, server: s5.db-link01.top, port: 2082, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.10.165, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 04-011-RELAY, server: s5.db-link02.top, port: 2086, type: vmess, uuid: 5088c21f-c3b9-3c51-8c69-0d5137cac427, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.123.29, headers: {Host: s5.db-link02.top}}, udp: true}
@@ -846,7 +846,7 @@ proxy-groups:
       - 02-004-CN
       - 02-005-CN
       - 02-006-CN
-      - 02-007-GB
+      - 02-008-GB
       - 04-009-RELAY
       - 04-010-RELAY
       - 04-011-RELAY
@@ -1792,7 +1792,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-002-CN
-      - 02-007-GB
       - 04-012-RELAY
       - 04-017-CN
       - 04-022-CN
@@ -1952,6 +1951,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-003-SG
+      - 02-008-GB
       - 04-013-RELAY
       - 04-018-CN
       - 04-023-CN
