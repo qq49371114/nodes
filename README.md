@@ -37,7 +37,7 @@ Fork from TopFreeProxies.
     trojan://0bc68743-cff8-4730-9818-9d8192ee335c@120.232.217.96:21142?allowInsecure=1#02-004-CN
     trojan://0bc68743-cff8-4730-9818-9d8192ee335c@120.232.217.96:39431?allowInsecure=1#02-005-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDA2LUNOIiwiYWRkIjoidGsuaHpsdC50a2RkbnMueHl6IiwicG9ydCI6IjIyNjQzIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk4ZTk2YzlmLTRiYjMtMzlkNC05YTJjLWZhYzA0MjU3ZjdjNyIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InRrLmh6bHQudGtkZG5zLnh5eiIsInRscyI6InRscyJ9
-    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48:989#02-007-GB
+    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@77.72.5.113:989#02-008-GB
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA5LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjUwODhjMjFmLWMzYjktM2M1MS04YzY5LTBkNTEzN2NhYzQyNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuMjYuMTQwIiwiaG9zdCI6InMyLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDEwLVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjUwODhjMjFmLWMzYjktM2M1MS04YzY5LTBkNTEzN2NhYzQyNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjQuMTAuMTY1IiwiaG9zdCI6InM1LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDExLVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjUwODhjMjFmLWMzYjktM2M1MS04YzY5LTBkNTEzN2NhYzQyNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjAuMTIzLjI5IiwiaG9zdCI6InM1LmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
@@ -811,11 +811,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `878`
+合并节点总数: `893`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `878`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `893`
 
 
 ## 仓库声明
