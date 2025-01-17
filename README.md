@@ -729,11 +729,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `796`
+合并节点总数: `795`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `796`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `795`
 
 
 ## 仓库声明
