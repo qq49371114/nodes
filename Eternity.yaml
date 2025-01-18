@@ -78,8 +78,8 @@ proxies:
   - {name: 04-021-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 505eb293-f3f5-3119-9b90-e19109bb000c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
   - {name: 04-022-JP, server: 35.78.173.41, port: 443, type: trojan, password: bc122073-9bf8-30e0-b77c-252dbc80d912, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-023-JP, server: 43.206.140.0, port: 443, type: trojan, password: bc122073-9bf8-30e0-b77c-252dbc80d912, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-024-US, server: 44.245.153.141, port: 443, type: trojan, password: bc122073-9bf8-30e0-b77c-252dbc80d912, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-025-US, server: 103.136.185.27, port: 5535, type: trojan, password: bc122073-9bf8-30e0-b77c-252dbc80d912, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-026-US, server: 103.136.185.28, port: 3516, type: trojan, password: bc122073-9bf8-30e0-b77c-252dbc80d912, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-027-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 0614d404-98ca-3a52-bb59-80398391c234, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-028-CN, server: gy.58n.net, port: 20301, type: trojan, password: 0614d404-98ca-3a52-bb59-80398391c234, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-029-CN, server: gy.58n.net, port: 43337, type: trojan, password: 0614d404-98ca-3a52-bb59-80398391c234, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -785,7 +785,7 @@ proxies:
   - {name: 18-829-RELAY, server: 104.17.213.241, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-830-BR, server: 168.138.142.53, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-831-RELAY, server: 104.19.48.236, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@103.136.185.283516?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-026-US", server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111, udp: true}
+  - {name: "18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@44.245.153.141443?allowInsecure=1&sni=steampipe.akamaized.net#04-024-US", server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 82fb692e-1c8b-3a65-ad83-23ad9deee111, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -820,8 +820,8 @@ proxy-groups:
       - 04-021-CN
       - 04-022-JP
       - 04-023-JP
-      - 04-024-US
       - 04-025-US
+      - 04-026-US
       - 04-027-CN
       - 04-028-CN
       - 04-029-CN
@@ -1527,7 +1527,7 @@ proxy-groups:
       - 18-829-RELAY
       - 18-830-BR
       - 18-831-RELAY
-      - 18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@103.136.185.283516?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-026-US
+      - 18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@44.245.153.141443?allowInsecure=1&sni=steampipe.akamaized.net#04-024-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1548,6 +1548,7 @@ proxy-groups:
       - 04-011-RELAY
       - 04-016-CN
       - 04-021-CN
+      - 04-026-US
       - 04-031-CN
       - 04-036-CN
       - 04-041-CN
@@ -1689,7 +1690,6 @@ proxy-groups:
       - 18-821-DE
       - 18-826-DE
       - 18-831-RELAY
-      - 18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@103.136.185.283516?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-026-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1992,7 +1992,7 @@ proxy-groups:
       - 18-818-DE
       - 18-823-FR
       - 18-828-US
-      - 18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@103.136.185.283516?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-026-US
+      - 18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@44.245.153.141443?allowInsecure=1&sni=steampipe.akamaized.net#04-024-US
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2002,7 +2002,6 @@ proxy-groups:
       - 04-009-RELAY
       - 04-014-CN
       - 04-019-CN
-      - 04-024-US
       - 04-029-CN
       - 04-034-CN
       - 04-039-CN
@@ -2144,6 +2143,7 @@ proxy-groups:
       - 18-819-DE
       - 18-824-FR
       - 18-829-RELAY
+      - 18-833-JPtrojan//bc122073-9bf8-30e0-b77c-252dbc80d912@44.245.153.141443?allowInsecure=1&sni=steampipe.akamaized.net#04-024-US
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
