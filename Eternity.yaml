@@ -95,8 +95,8 @@ proxies:
   - {name: 04-038-JP, server: 35.78.173.41, port: 443, type: trojan, password: 245af017-f23a-30ec-b596-fcdb7aa328b0, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-039-JP, server: 43.206.140.0, port: 443, type: trojan, password: 245af017-f23a-30ec-b596-fcdb7aa328b0, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-040-US, server: 44.245.153.141, port: 443, type: trojan, password: 245af017-f23a-30ec-b596-fcdb7aa328b0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-041-US, server: 103.136.185.27, port: 5535, type: trojan, password: 245af017-f23a-30ec-b596-fcdb7aa328b0, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-042-US, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-041-US, server: 74.226.136.204, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-042-US, server: 103.136.185.28, port: 3516, type: trojan, password: 245af017-f23a-30ec-b596-fcdb7aa328b0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-043-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 17b69e3b-d847-3c69-ae78-531bdca90c83, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-044-CN, server: gy.58n.net, port: 20301, type: trojan, password: 17b69e3b-d847-3c69-ae78-531bdca90c83, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-045-CN, server: gy.58n.net, port: 43337, type: trojan, password: 17b69e3b-d847-3c69-ae78-531bdca90c83, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -680,9 +680,9 @@ proxies:
   - {name: 18-722-SG, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 18-723-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-724-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-725-BR, server: bz02.ssr.ee, port: 443, type: trojan, password: 9d0a75d2-f747-4afa-b43f-d208af9e8f9a, sni: bz02.ssr.ee, skip-cert-verify: true, udp: true}
   - {name: 18-726-JP, server: us02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 18-728-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
+  - {name: 18-729-TH, server: 103.117.148.22, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 29fefcc3-9ae1-4e01-a1d0-534fc1671121, udp: true}
   - {name: 18-730-RELAY, server: 172.67.165.53, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-731-JP, server: ru01.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, sni: ru01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
   - {name: 18-732-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
@@ -1325,9 +1325,9 @@ proxy-groups:
       - 18-722-SG
       - 18-723-RELAY
       - 18-724-RELAY
-      - 18-725-BR
       - 18-726-JP
       - 18-728-RELAY
+      - 18-729-TH
       - 18-730-RELAY
       - 18-731-JP
       - 18-732-RELAY
@@ -1871,6 +1871,7 @@ proxy-groups:
       - 18-714-US
       - 18-719-RELAY
       - 18-724-RELAY
+      - 18-729-TH
       - 18-734-RELAY
   - name: 测速5分组
     type: url-test
@@ -2002,7 +2003,6 @@ proxy-groups:
       - 18-710-US
       - 18-715-US
       - 18-720-RELAY
-      - 18-725-BR
       - 18-730-RELAY
   - name: 广告拦截
     type: select
