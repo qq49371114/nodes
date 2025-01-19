@@ -96,7 +96,6 @@ proxies:
   - {name: 04-039-JP, server: 35.78.173.41, port: 443, type: trojan, password: 29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-040-JP, server: 43.206.140.0, port: 443, type: trojan, password: 29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-041-US, server: 34.216.90.162, port: 443, type: trojan, password: 29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-042-US, server: 103.136.185.27, port: 5535, type: trojan, password: 29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-043-US, server: 103.136.185.28, port: 3516, type: trojan, password: 29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-044-CN, server: gyl.58n.net, port: 20309, type: trojan, password: c713c810-f67a-383f-812f-2fcf1a5c0abb, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-045-CN, server: gy.58n.net, port: 20301, type: trojan, password: c713c810-f67a-383f-812f-2fcf1a5c0abb, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -173,6 +172,7 @@ proxies:
   - {name: 07-216-US, server: t7.emovpn.buzz, port: 12443, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-217-US, server: t6.emovpn.buzz, port: 1370, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-218-US, server: t16.emovpn.buzz, port: 1599, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 07-219-US, server: t25.emovpn.buzz, port: 6115, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-220-US, server: t24.emovpn.buzz, port: 3109, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-221-CN, server: sd3.forlive.live, port: 40396, type: vmess, uuid: 81e16736-5ede-4050-bc4c-3062a63c926d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sd3.forlive.live}}, udp: true}
   - {name: 08-222-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: f331a201-0dbe-4c17-a941-b439853f2acb, udp: true}
@@ -705,7 +705,7 @@ proxies:
   - {name: 18-750-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-751-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-752-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
-  - {name: "18-753-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t25.emovpn.buzz6115?allowInsecure=1&sni=www.baidu.com#07-219-US", server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9, udp: true}
+  - {name: "18-753-JPtrojan//29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2@103.136.185.275535?allowInsecure=1&sni=www.microsoft365.com#04-042-US", server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9, udp: true}
   - {name: 18-754-RELAY, server: 104.19.48.236, port: 2086, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-755-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-756-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -763,7 +763,6 @@ proxy-groups:
       - 04-039-JP
       - 04-040-JP
       - 04-041-US
-      - 04-042-US
       - 04-043-US
       - 04-044-CN
       - 04-045-CN
@@ -840,6 +839,7 @@ proxy-groups:
       - 07-216-US
       - 07-217-US
       - 07-218-US
+      - 07-219-US
       - 07-220-US
       - 07-221-CN
       - 08-222-CN
@@ -1372,7 +1372,7 @@ proxy-groups:
       - 18-750-RELAY
       - 18-751-RELAY
       - 18-752-RELAY
-      - 18-753-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t25.emovpn.buzz6115?allowInsecure=1&sni=www.baidu.com#07-219-US
+      - 18-753-JPtrojan//29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2@103.136.185.275535?allowInsecure=1&sni=www.microsoft365.com#04-042-US
       - 18-754-RELAY
       - 18-755-RELAY
       - 18-756-RELAY
@@ -1524,7 +1524,6 @@ proxy-groups:
       - 18-741-US
       - 18-746-RELAY
       - 18-751-RELAY
-      - 18-753-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t25.emovpn.buzz6115?allowInsecure=1&sni=www.baidu.com#07-219-US
       - 18-756-RELAY
   - name: 测速2分组
     type: url-test
@@ -1539,7 +1538,6 @@ proxy-groups:
       - 04-027-RELAY
       - 04-032-CN
       - 04-037-CN
-      - 04-042-US
       - 04-047-CN
       - 04-052-CN
       - 04-057-CN
@@ -1661,6 +1659,7 @@ proxy-groups:
       - 17-737-KR
       - 18-742-US
       - 18-752-RELAY
+      - 18-753-JPtrojan//29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2@103.136.185.275535?allowInsecure=1&sni=www.microsoft365.com#04-042-US
       - 18-757-BR
   - name: 测速3分组
     type: url-test
@@ -1797,7 +1796,7 @@ proxy-groups:
       - 17-738-KR
       - 18-743-US
       - 18-748-SG
-      - 18-753-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t25.emovpn.buzz6115?allowInsecure=1&sni=www.baidu.com#07-219-US
+      - 18-753-JPtrojan//29aa1ebc-e9b0-395c-a09a-3ec5a471ecf2@103.136.185.275535?allowInsecure=1&sni=www.microsoft365.com#04-042-US
       - 18-758-RELAY
   - name: 测速4分组
     type: url-test
@@ -1826,6 +1825,7 @@ proxy-groups:
       - 07-204-SG
       - 07-209-JP
       - 07-214-RELAY
+      - 07-219-US
       - 08-224-RELAY
       - 08-229-CN
       - 08-234-KR
@@ -1932,7 +1932,6 @@ proxy-groups:
       - 18-739-US
       - 18-744-FR
       - 18-749-JP
-      - 18-753-JPtrojan//82667668-4bfd-4906-ab31-c2745d0de78e@t25.emovpn.buzz6115?allowInsecure=1&sni=www.baidu.com#07-219-US
       - 18-754-RELAY
   - name: 测速5分组
     type: url-test
