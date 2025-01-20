@@ -74,10 +74,10 @@ proxies:
   - {name: 04-017-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-018-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-019-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
-  - {name: 04-020-JP, server: 35.78.173.41, port: 443, type: trojan, password: d0040bfc-2d73-3027-8dad-762e0ab04912, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-021-JP, server: 43.206.140.0, port: 443, type: trojan, password: d0040bfc-2d73-3027-8dad-762e0ab04912, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-022-US, server: 34.216.90.162, port: 443, type: trojan, password: d0040bfc-2d73-3027-8dad-762e0ab04912, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-023-US, server: 103.136.185.27, port: 5535, type: trojan, password: d0040bfc-2d73-3027-8dad-762e0ab04912, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-020-JP, server: 35.78.173.41, port: 443, type: trojan, password: c8145ad8-159e-377c-a468-0cba447cdcfa, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-021-JP, server: 43.206.140.0, port: 443, type: trojan, password: c8145ad8-159e-377c-a468-0cba447cdcfa, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-022-US, server: 34.216.90.162, port: 443, type: trojan, password: c8145ad8-159e-377c-a468-0cba447cdcfa, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-023-US, server: 103.136.185.27, port: 5535, type: trojan, password: c8145ad8-159e-377c-a468-0cba447cdcfa, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-025-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-026-CN, server: gy.58n.net, port: 20301, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-027-CN, server: gy.58n.net, port: 43337, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -745,7 +745,7 @@ proxies:
   - {name: 17-789-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 872a2635-9c40-41db-8e87-a89217e0bef0, udp: true}
   - {name: 17-790-KR, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e5dcbf31-2a38-43c0-93e2-c74210136c98, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-791-CN, server: relay002.queqiao.xyz, port: 39013, type: ss, cipher: chacha20-ietf-poly1305, password: 92a264b3-71e8-4fc6-85d0-8500662891d1, udp: true}
-  - {name: "17-792-HKtrojan//d0040bfc-2d73-3027-8dad-762e0ab04912@103.136.185.283516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-024-US", server: hk001.queqiao.xyz, port: 30000, type: ss, cipher: chacha20-ietf-poly1305, password: 92a264b3-71e8-4fc6-85d0-8500662891d1, udp: true}
+  - {name: "17-792-HKtrojan//c8145ad8-159e-377c-a468-0cba447cdcfa@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-024-US", server: hk001.queqiao.xyz, port: 30000, type: ss, cipher: chacha20-ietf-poly1305, password: 92a264b3-71e8-4fc6-85d0-8500662891d1, udp: true}
   - {name: 17-793-AU, server: syd-01.oci.ee, port: 23452, type: vmess, uuid: 3edd1f5b-32a1-445d-8837-e8302a2b75ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: syd-01.oci.ee}}, udp: true}
   - {name: 17-794-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 509261d0-379b-4abd-8507-f77685f2ac47, udp: true}
   - {name: 17-795-RELAY, server: visa.com, port: 443, type: vmess, uuid: 3edd1f5b-32a1-445d-8837-e8302a2b75ca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -1487,7 +1487,7 @@ proxy-groups:
       - 17-789-CN
       - 17-790-KR
       - 17-791-CN
-      - 17-792-HKtrojan//d0040bfc-2d73-3027-8dad-762e0ab04912@103.136.185.283516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-024-US
+      - 17-792-HKtrojan//c8145ad8-159e-377c-a468-0cba447cdcfa@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-024-US
       - 17-793-AU
       - 17-794-CN
       - 17-795-RELAY
@@ -1833,7 +1833,7 @@ proxy-groups:
       - 17-777-AU
       - 17-782-CN
       - 17-787-KR
-      - 17-792-HKtrojan//d0040bfc-2d73-3027-8dad-762e0ab04912@103.136.185.283516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-024-US
+      - 17-792-HKtrojan//c8145ad8-159e-377c-a468-0cba447cdcfa@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-024-US
       - 18-797-US
       - 18-802-US
       - 18-807-US
@@ -1985,6 +1985,7 @@ proxy-groups:
       - 17-778-CN
       - 17-783-CN
       - 17-788-CN
+      - 17-792-HKtrojan//c8145ad8-159e-377c-a468-0cba447cdcfa@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-024-US
       - 17-793-AU
       - 18-798-US
       - 18-803-US
@@ -2136,7 +2137,7 @@ proxy-groups:
       - 17-779-KR
       - 17-784-CN
       - 17-789-CN
-      - 17-792-HKtrojan//d0040bfc-2d73-3027-8dad-762e0ab04912@103.136.185.283516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-024-US
+      - 17-792-HKtrojan//c8145ad8-159e-377c-a468-0cba447cdcfa@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-024-US
       - 17-794-CN
       - 18-799-US
       - 18-804-US
