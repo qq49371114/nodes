@@ -76,9 +76,9 @@ proxies:
   - {name: 04-019-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 9d119e16-2272-3cfe-91d3-ff320d167408, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
   - {name: 04-020-JP, server: 35.78.173.41, port: 443, type: trojan, password: f7abb31c-5afb-3f23-8096-cecfb10e14bf, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-021-JP, server: 43.206.140.0, port: 443, type: trojan, password: f7abb31c-5afb-3f23-8096-cecfb10e14bf, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-022-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec5d1968-e49c-4f60-8f58-756bd462f9fb, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-022-US, server: 34.216.90.162, port: 443, type: trojan, password: f7abb31c-5afb-3f23-8096-cecfb10e14bf, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-023-US, server: 103.136.185.27, port: 5535, type: trojan, password: f7abb31c-5afb-3f23-8096-cecfb10e14bf, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-024-US, server: 103.136.185.28, port: 3516, type: trojan, password: f7abb31c-5afb-3f23-8096-cecfb10e14bf, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-024-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec5d1968-e49c-4f60-8f58-756bd462f9fb, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-025-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-026-CN, server: gy.58n.net, port: 20301, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-027-CN, server: gy.58n.net, port: 43337, type: trojan, password: 80b18c3a-2bc6-3d64-83e9-198d5fc2a99f, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -136,7 +136,6 @@ proxies:
   - {name: 07-178-HK, server: v88.emovpn.buzz, port: 8158, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v88.emovpn.buzz}}, udp: true}
   - {name: 07-179-HK, server: t29.emovpn.buzz, port: 6093, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-180-JP, server: v3.emovpn.buzz, port: 3188, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v3.emovpn.buzz}}, udp: true}
-  - {name: 07-181-DK, server: 185.186.79.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-182-SG, server: t8.emovpn.buzz, port: 1275, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-183-SG, server: t13.emovpn.buzz, port: 1734, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-184-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
@@ -712,6 +711,7 @@ proxies:
   - {name: 18-755-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-756-US, server: 96.126.102.150, port: 443, type: vmess, uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-757-RELAY, server: vip3.pmy666.xyz, port: 8080, type: vmess, uuid: 20666f30-0add-4da4-bba0-28f985426978, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vip3.pmy666.xyz}}, udp: true}
+  - {name: 18-758-DE, server: frankfurt03.zgjok.com, port: 443, type: vmess, uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt03.zgjok.com}}, udp: true}
   - {name: 18-759-RELAY, server: yaml777.133010.xyz, port: 80, type: vmess, uuid: 4a1cb611-381c-4fff-ca35-99be316eee17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: yaml777.133010.xyz}}, udp: true}
   - {name: 18-760-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-761-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -722,7 +722,6 @@ proxies:
   - {name: 18-766-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-767-US, server: 38.91.106.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-768-RELAY, server: 104.21.81.115, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-769-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-770-RELAY, server: s1.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 18-771-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
@@ -817,7 +816,6 @@ proxy-groups:
       - 07-178-HK
       - 07-179-HK
       - 07-180-JP
-      - 07-181-DK
       - 07-182-SG
       - 07-183-SG
       - 07-184-SG
@@ -1393,6 +1391,7 @@ proxy-groups:
       - 18-755-US
       - 18-756-US
       - 18-757-RELAY
+      - 18-758-DE
       - 18-759-RELAY
       - 18-760-RELAY
       - 18-761-RELAY
@@ -1403,7 +1402,6 @@ proxy-groups:
       - 18-766-FR
       - 18-767-US
       - 18-768-RELAY
-      - 18-769-CA
       - 18-770-RELAY
       - 18-771-RELAY
   - name: 自动选择
@@ -1438,7 +1436,6 @@ proxy-groups:
       - 04-071-CN
       - 07-171-TW
       - 07-176-HK
-      - 07-181-DK
       - 07-186-SG
       - 07-191-CN
       - 07-196-US
@@ -1832,6 +1829,7 @@ proxy-groups:
       - 17-743-KR
       - 17-748-CN
       - 18-753-US
+      - 18-758-DE
       - 18-763-RELAY
       - 18-768-RELAY
   - name: 测速4分组
@@ -1971,7 +1969,6 @@ proxy-groups:
       - 18-754-RELAY
       - 18-759-RELAY
       - 18-764-DE
-      - 18-769-CA
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
