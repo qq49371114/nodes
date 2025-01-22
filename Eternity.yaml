@@ -141,7 +141,6 @@ proxies:
   - {name: 07-184-HK, server: v88.emovpn.buzz, port: 8158, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v88.emovpn.buzz}}, udp: true}
   - {name: 07-185-HK, server: t29.emovpn.buzz, port: 6093, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-186-JP, server: v3.emovpn.buzz, port: 3188, type: vmess, uuid: 82667668-4bfd-4906-ab31-c2745d0de78e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v3.emovpn.buzz}}, udp: true}
-  - {name: 07-187-DK, server: 185.186.79.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-188-SG, server: t8.emovpn.buzz, port: 1275, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-189-SG, server: t13.emovpn.buzz, port: 1734, type: trojan, password: 82667668-4bfd-4906-ab31-c2745d0de78e, sni: www.baidu.com, skip-cert-verify: true, udp: true}
   - {name: 07-190-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
@@ -640,6 +639,7 @@ proxies:
   - {name: 18-684-RELAY, server: phoenix.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phoenix.899994.xyz}}, udp: true}
   - {name: 18-685-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 18-686-RELAY, server: s5.db-link02.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
+  - {name: 18-687-GB, server: 92.242.164.42, port: 8882, type: ss, cipher: aes-128-gcm, password: c592ee0b-807b-4d72-b8af-b8ee3666b494, udp: true}
   - {name: 18-688-RELAY, server: s2.db-link01.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 18-689-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-690-DE, server: gt021.bestforxray.buzz, port: 443, type: vmess, uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: gt021.bestforxray.buzz}}, udp: true}
@@ -754,7 +754,6 @@ proxy-groups:
       - 07-184-HK
       - 07-185-HK
       - 07-186-JP
-      - 07-187-DK
       - 07-188-SG
       - 07-189-SG
       - 07-190-SG
@@ -1253,6 +1252,7 @@ proxy-groups:
       - 18-684-RELAY
       - 18-685-FR
       - 18-686-RELAY
+      - 18-687-GB
       - 18-688-RELAY
       - 18-689-DE
       - 18-690-DE
@@ -1429,7 +1429,6 @@ proxy-groups:
       - 04-077-CN
       - 07-177-TW
       - 07-182-HK
-      - 07-187-DK
       - 07-192-SG
       - 07-197-CN
       - 07-202-US
@@ -1528,6 +1527,7 @@ proxy-groups:
       - 18-667-RELAY
       - 18-677-RELAY
       - 18-682-RELAY
+      - 18-687-GB
       - 18-692-RELAY
       - 18-697-RELAY
       - 18-702-RELAY
