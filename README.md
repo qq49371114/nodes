@@ -59,7 +59,7 @@ Fork from TopFreeProxies.
     trojan://0136de7f-c4c4-3b88-aca0-11f7cd8256a0@35.78.173.41:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-026-JP
     trojan://0136de7f-c4c4-3b88-aca0-11f7cd8256a0@43.206.140.0:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-027-JP
     trojan://0136de7f-c4c4-3b88-aca0-11f7cd8256a0@35.92.2.22:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-028-US
-    trojan://0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.27:5535?allowInsecure=1&sni=origin-a.akamaihd.net#04-029-US
+    trojan://0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.28:3516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-030-US
     trojan://2ee75ad9-3ae9-3d4b-972c-5ba61c9a29d4@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-031-CN
     trojan://2ee75ad9-3ae9-3d4b-972c-5ba61c9a29d4@gy.58n.net:20301?allowInsecure=1&sni=z301.hongkongnode.top#04-032-CN
     trojan://2ee75ad9-3ae9-3d4b-972c-5ba61c9a29d4@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-033-CN
@@ -656,7 +656,7 @@ Fork from TopFreeProxies.
     trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us02.trojanyyds.xyz:443?allowInsecure=1#18-725-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNzI2LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiMzY2MjVjLWI5ZDktM2VhNi1hZWQ1LTg2ZDYyYzcwZTE2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNzI3LVJFTEFZIiwiYWRkIjoiMTA0LjE2LjE1NS4xMCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiMzY2MjVjLWI5ZDktM2VhNi1hZWQ1LTg2ZDYyYzcwZTE2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NGQ3M2U0Yi0wNTRkLTQxNDgtYmFiNi0yMjY0NmY0NDMxYTk@5.forlive.live:60033#18-728-JPtrojan%2F%2F0136de7f-c4c4-3b88-aca0-11f7cd8256a0%40103.136.185.283516%3FallowInsecure%3D1%26sni%3Dcloudsync-prod.s3.amazonaws.com%2304-030-US
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NGQ3M2U0Yi0wNTRkLTQxNDgtYmFiNi0yMjY0NmY0NDMxYTk@5.forlive.live:60033#18-728-JPtrojan%2F%2F0136de7f-c4c4-3b88-aca0-11f7cd8256a0%40103.136.185.275535%3FallowInsecure%3D1%26sni%3Dorigin-a.akamaihd.net%2304-029-US
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNzI5LVJFTEFZIiwiYWRkIjoiaXQwLjg5OTk5NC54eXoiLCJwb3J0IjoiODQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJhMDYwNTUyNy0yOGU0LTQ0OWMtODBlZS01NjQyY2MxNmE4YWYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJpdDAuODk5OTk0Lnh5eiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNzMwLVJFTEFZIiwiYWRkIjoicG9ydGxhbmQuODk5OTk0Lnh5eiIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImEwNjA1NTI3LTI4ZTQtNDQ5Yy04MGVlLTU2NDJjYzE2YThhZiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InBvcnRsYW5kLjg5OTk5NC54eXoiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNzMxLVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiMzY2MjVjLWI5ZDktM2VhNi1hZWQ1LTg2ZDYyYzcwZTE2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InM1LmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
@@ -668,11 +668,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `734`
+合并节点总数: `743`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `734`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `743`
 
 
 ## 仓库声明
