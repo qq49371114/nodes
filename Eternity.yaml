@@ -83,7 +83,7 @@ proxies:
   - {name: 04-026-JP, server: 35.78.173.41, port: 443, type: trojan, password: 0136de7f-c4c4-3b88-aca0-11f7cd8256a0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-027-JP, server: 43.206.140.0, port: 443, type: trojan, password: 0136de7f-c4c4-3b88-aca0-11f7cd8256a0, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-028-US, server: 35.92.2.22, port: 443, type: trojan, password: 0136de7f-c4c4-3b88-aca0-11f7cd8256a0, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-029-US, server: 103.136.185.27, port: 5535, type: trojan, password: 0136de7f-c4c4-3b88-aca0-11f7cd8256a0, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-030-US, server: 103.136.185.28, port: 3516, type: trojan, password: 0136de7f-c4c4-3b88-aca0-11f7cd8256a0, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-031-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 2ee75ad9-3ae9-3d4b-972c-5ba61c9a29d4, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-032-CN, server: gy.58n.net, port: 20301, type: trojan, password: 2ee75ad9-3ae9-3d4b-972c-5ba61c9a29d4, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-033-CN, server: gy.58n.net, port: 43337, type: trojan, password: 2ee75ad9-3ae9-3d4b-972c-5ba61c9a29d4, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -680,7 +680,7 @@ proxies:
   - {name: 18-725-JP, server: us02.trojanyyds.xyz, port: 443, type: trojan, password: 243eab52-9ac1-405c-887c-eb112c0985b8, skip-cert-verify: true, udp: true}
   - {name: 18-726-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-727-RELAY, server: 104.16.155.10, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-030-US", server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9, udp: true}
+  - {name: "18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.275535?allowInsecure=1&sni=origin-a.akamaihd.net#04-029-US", server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9, udp: true}
   - {name: 18-729-RELAY, server: it0.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: it0.899994.xyz}}, udp: true}
   - {name: 18-730-RELAY, server: portland.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: portland.899994.xyz}}, udp: true}
   - {name: 18-731-RELAY, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
@@ -725,7 +725,7 @@ proxy-groups:
       - 04-026-JP
       - 04-027-JP
       - 04-028-US
-      - 04-029-US
+      - 04-030-US
       - 04-031-CN
       - 04-032-CN
       - 04-033-CN
@@ -1322,7 +1322,7 @@ proxy-groups:
       - 18-725-JP
       - 18-726-RELAY
       - 18-727-RELAY
-      - 18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-030-US
+      - 18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.275535?allowInsecure=1&sni=origin-a.akamaihd.net#04-029-US
       - 18-729-RELAY
       - 18-730-RELAY
       - 18-731-RELAY
@@ -1731,7 +1731,7 @@ proxy-groups:
       - 18-713-RELAY
       - 18-718-DE
       - 18-723-RELAY
-      - 18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-030-US
+      - 18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.275535?allowInsecure=1&sni=origin-a.akamaihd.net#04-029-US
       - 18-733-RELAY
   - name: 测速4分组
     type: url-test
@@ -1743,7 +1743,6 @@ proxy-groups:
       - 04-014-RELAY
       - 04-019-CN
       - 04-024-CN
-      - 04-029-US
       - 04-034-CN
       - 04-039-CN
       - 04-044-CN
@@ -1863,6 +1862,7 @@ proxy-groups:
       - 18-714-FR
       - 18-719-DE
       - 18-724-JP
+      - 18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.275535?allowInsecure=1&sni=origin-a.akamaihd.net#04-029-US
       - 18-729-RELAY
   - name: 测速5分组
     type: url-test
@@ -1875,6 +1875,7 @@ proxy-groups:
       - 04-015-RELAY
       - 04-020-CN
       - 04-025-CN
+      - 04-030-US
       - 04-035-CN
       - 04-040-CN
       - 04-045-CN
@@ -1994,7 +1995,6 @@ proxy-groups:
       - 18-715-RELAY
       - 18-720-RELAY
       - 18-725-JP
-      - 18-728-JPtrojan//0136de7f-c4c4-3b88-aca0-11f7cd8256a0@103.136.185.283516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-030-US
       - 18-730-RELAY
   - name: 广告拦截
     type: select
