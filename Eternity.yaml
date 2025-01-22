@@ -114,8 +114,8 @@ proxies:
   - {name: 04-058-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 1b511dfd-a71a-374a-89de-2b907b720920, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
   - {name: 04-059-JP, server: 35.78.173.41, port: 443, type: trojan, password: d487b8b9-fd9d-3c61-b17e-b1de4148bb10, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-060-JP, server: 43.206.140.0, port: 443, type: trojan, password: d487b8b9-fd9d-3c61-b17e-b1de4148bb10, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-061-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e98a1ac3-cb68-4993-af46-958408632fcd, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-062-US, server: 103.136.185.27, port: 5535, type: trojan, password: d487b8b9-fd9d-3c61-b17e-b1de4148bb10, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-061-US, server: 35.92.2.22, port: 443, type: trojan, password: d487b8b9-fd9d-3c61-b17e-b1de4148bb10, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-062-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e98a1ac3-cb68-4993-af46-958408632fcd, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-063-US, server: 103.136.185.28, port: 3516, type: trojan, password: d487b8b9-fd9d-3c61-b17e-b1de4148bb10, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-064-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 705dc524-f8f0-36ac-8a8f-fc5c2befa8f2, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-065-CN, server: gy.58n.net, port: 20301, type: trojan, password: 705dc524-f8f0-36ac-8a8f-fc5c2befa8f2, sni: z301.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -9871,6 +9871,12 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
+ - DOMAIN-SUFFIX,v1.mk,全球直连
+ - DOMAIN-SUFFIX,d1.mk,全球直连
+ - DOMAIN-SUFFIX,dlj.mk,全球直连
+ - DOMAIN-SUFFIX,suo.yt,全球直连
+ - DOMAIN-SUFFIX,sub.cm,全球直连
+ - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
