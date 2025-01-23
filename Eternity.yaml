@@ -710,7 +710,7 @@ proxies:
   - {name: 18-753-RELAY, server: 104.16.155.10, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-754-RELAY, server: s1.db-link02.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-755-RELAY, server: s1.cn-db.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
-  - {name: 18-756-RELAY, server: shs.xiaoqi666.xyz, port: 2086, type: vmess, uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shs.xiaoqi666.xyz}}, udp: true}
+  - {name: 18-757-RU, server: 45.8.159.241, port: 33395, type: vmess, uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1377,7 +1377,7 @@ proxy-groups:
       - 18-753-RELAY
       - 18-754-RELAY
       - 18-755-RELAY
-      - 18-756-RELAY
+      - 18-757-RU
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1525,7 +1525,6 @@ proxy-groups:
       - 18-741-RELAY
       - 18-746-RELAY
       - 18-751-RELAY
-      - 18-756-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1662,6 +1661,7 @@ proxy-groups:
       - 18-742-RELAY
       - 18-747-RELAY
       - 18-752-RELAY
+      - 18-757-RU
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
