@@ -107,6 +107,7 @@ proxies:
   - {name: 04-149-CN, server: gy.58n.net, port: 20306, type: trojan, password: d6938fc0-be8d-3b95-bb3e-c544558c278c, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 35.78.173.41, port: 443, type: trojan, password: a15e5002-b6c4-3685-8811-5a005971fdb0, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-151-JP, server: 35.79.23.58, port: 443, type: trojan, password: a15e5002-b6c4-3685-8811-5a005971fdb0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-152-US, server: 52.27.195.4, port: 443, type: trojan, password: a15e5002-b6c4-3685-8811-5a005971fdb0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-153-US, server: 103.136.185.27, port: 5535, type: trojan, password: a15e5002-b6c4-3685-8811-5a005971fdb0, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-154-US, server: 103.136.185.28, port: 3516, type: trojan, password: a15e5002-b6c4-3685-8811-5a005971fdb0, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-155-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 3735a478-cd75-3248-b356-db4a40825c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.94.117, headers: {Host: s1.db-link01.top}}, udp: true}
@@ -596,7 +597,6 @@ proxies:
   - {name: 18-639-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-640-RELAY, server: buffalo.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: buffalo.899994.xyz}}, udp: true}
   - {name: 18-641-RELAY, server: br.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: br.899994.xyz}}, udp: true}
-  - {name: 18-642-US, server: ny1.bulkcash.top, port: 41507, type: vmess, uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec, alterId: 5, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.bulkcash.top}}, udp: true}
   - {name: 18-643-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-644-RELAY, server: 104.21.81.115, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-645-RELAY, server: www.speedtest.net, port: 80, type: vmess, uuid: 36500750-d9b5-11ef-b136-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, udp: true}
@@ -604,7 +604,6 @@ proxies:
   - {name: 18-647-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-648-JP, server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 54d73e4b-054d-4148-bab6-22646f4431a9, udp: true}
   - {name: 18-649-RELAY, server: s2.cn-db.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.cn-db.top}}, udp: true}
-  - {name: 18-650-DE, server: frankfurt03.zgjok.com, port: 443, type: vmess, uuid: 4f7c2243-a38a-4672-983b-f1378aee0a7f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt03.zgjok.com}}, udp: true}
   - {name: 18-651-RELAY, server: s2.cn-db.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 18-652-RELAY, server: 104.19.48.236, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-653-RELAY, server: s2.db-link01.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link01.top}}, udp: true}
@@ -612,13 +611,13 @@ proxies:
   - {name: 18-655-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-656-RELAY, server: 104.16.155.10, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-657-RELAY, server: hsj.lbxjc.online, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hsj.lbxjc.online}}, udp: true}
+  - {name: 18-658-RELAY, server: ovhwuxian.pai50288.uk, port: 8443, type: vmess, uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ovhwuxian.pai50288.uk}}, udp: true}
   - {name: 18-659-RELAY, server: s2.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 18-660-RELAY, server: s5.db-link02.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 18-661-RELAY, server: 00.likelike.us.kg, port: 443, type: vmess, uuid: 680e91d7-01ff-4082-b71a-472d5236adee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 00.likelike.us.kg}}, udp: true}
   - {name: 18-662-RELAY, server: ca0.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ca0.899994.xyz}}, udp: true}
   - {name: 18-663-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-664-RELAY, server: 104.21.112.1, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "18-665-TWtrojan//a15e5002-b6c4-3685-8811-5a005971fdb0@52.27.195.4443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-152-US", server: tw1.ydso.xyz, port: 30443, type: ss, cipher: chacha20-ietf-poly1305, password: ae19b38a-a89f-4934-9b97-82cbd816ca33, udp: true}
   - {name: 18-666-RELAY, server: 104.21.96.1, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-667-RELAY, server: s1.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-668-RELAY, server: nl.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: nl.899994.xyz}}, udp: true}
@@ -696,6 +695,7 @@ proxy-groups:
       - 04-149-CN
       - 04-150-JP
       - 04-151-JP
+      - 04-152-US
       - 04-153-US
       - 04-154-US
       - 04-155-RELAY
@@ -1185,7 +1185,6 @@ proxy-groups:
       - 18-639-US
       - 18-640-RELAY
       - 18-641-RELAY
-      - 18-642-US
       - 18-643-FR
       - 18-644-RELAY
       - 18-645-RELAY
@@ -1193,7 +1192,6 @@ proxy-groups:
       - 18-647-DE
       - 18-648-JP
       - 18-649-RELAY
-      - 18-650-DE
       - 18-651-RELAY
       - 18-652-RELAY
       - 18-653-RELAY
@@ -1201,13 +1199,13 @@ proxy-groups:
       - 18-655-RELAY
       - 18-656-RELAY
       - 18-657-RELAY
+      - 18-658-RELAY
       - 18-659-RELAY
       - 18-660-RELAY
       - 18-661-RELAY
       - 18-662-RELAY
       - 18-663-CA
       - 18-664-RELAY
-      - 18-665-TWtrojan//a15e5002-b6c4-3685-8811-5a005971fdb0@52.27.195.4443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-152-US
       - 18-666-RELAY
       - 18-667-RELAY
       - 18-668-RELAY
@@ -1350,7 +1348,6 @@ proxy-groups:
       - 18-651-RELAY
       - 18-656-RELAY
       - 18-661-RELAY
-      - 18-665-TWtrojan//a15e5002-b6c4-3685-8811-5a005971fdb0@52.27.195.4443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-152-US
       - 18-666-RELAY
       - 18-671-RELAY
       - 18-676-FR
@@ -1369,6 +1366,7 @@ proxy-groups:
       - 04-137-CN
       - 04-142-CN
       - 04-147-CN
+      - 04-152-US
       - 04-157-RELAY
       - 04-162-CN
       - 04-167-CN
@@ -1466,12 +1464,10 @@ proxy-groups:
       - 17-627-CN
       - 18-632-US
       - 18-637-US
-      - 18-642-US
       - 18-647-DE
       - 18-652-RELAY
       - 18-657-RELAY
       - 18-662-RELAY
-      - 18-665-TWtrojan//a15e5002-b6c4-3685-8811-5a005971fdb0@52.27.195.4443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-152-US
       - 18-667-RELAY
       - 18-672-FR
       - 18-677-RELAY
@@ -1592,6 +1588,7 @@ proxy-groups:
       - 18-643-FR
       - 18-648-JP
       - 18-653-RELAY
+      - 18-658-RELAY
       - 18-663-CA
       - 18-668-RELAY
       - 18-673-RELAY
@@ -1832,10 +1829,8 @@ proxy-groups:
       - 18-635-US
       - 18-640-RELAY
       - 18-645-RELAY
-      - 18-650-DE
       - 18-655-RELAY
       - 18-660-RELAY
-      - 18-665-TWtrojan//a15e5002-b6c4-3685-8811-5a005971fdb0@52.27.195.4443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-152-US
       - 18-670-RELAY
       - 18-675-RELAY
   - name: 广告拦截
@@ -9681,6 +9676,12 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
+ - DOMAIN-SUFFIX,v1.mk,全球直连
+ - DOMAIN-SUFFIX,d1.mk,全球直连
+ - DOMAIN-SUFFIX,dlj.mk,全球直连
+ - DOMAIN-SUFFIX,suo.yt,全球直连
+ - DOMAIN-SUFFIX,sub.cm,全球直连
+ - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
