@@ -107,7 +107,7 @@ proxies:
   - {name: 04-149-CN, server: gy.58n.net, port: 20306, type: trojan, password: 89aad863-d522-3cf1-b4da-5ad850ae11ed, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-150-JP, server: 35.78.173.41, port: 443, type: trojan, password: 847141c5-522e-3fce-a81b-c5aa970bb2f9, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-151-JP, server: 35.79.23.58, port: 443, type: trojan, password: 847141c5-522e-3fce-a81b-c5aa970bb2f9, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-153-US, server: 103.136.185.27, port: 5535, type: trojan, password: 847141c5-522e-3fce-a81b-c5aa970bb2f9, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-152-US, server: 52.27.195.4, port: 443, type: trojan, password: 847141c5-522e-3fce-a81b-c5aa970bb2f9, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-154-US, server: 103.136.185.28, port: 3516, type: trojan, password: 847141c5-522e-3fce-a81b-c5aa970bb2f9, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-155-RELAY, server: s4.cn-db.top, port: 2082, type: vmess, uuid: f8000b21-197c-310e-b278-4241cd57d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.2.142, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-156-RELAY, server: s3.db-link01.top, port: 80, type: vmess, uuid: f8000b21-197c-310e-b278-4241cd57d146, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.141.79, headers: {Host: s3.db-link01.top}}, udp: true}
@@ -882,7 +882,7 @@ proxy-groups:
       - 04-149-CN
       - 04-150-JP
       - 04-151-JP
-      - 04-153-US
+      - 04-152-US
       - 04-154-US
       - 04-155-RELAY
       - 04-156-RELAY
@@ -1778,6 +1778,7 @@ proxy-groups:
       - 04-137-CN
       - 04-142-CN
       - 04-147-CN
+      - 04-152-US
       - 04-157-RELAY
       - 04-162-CN
       - 04-167-CN
@@ -1937,7 +1938,6 @@ proxy-groups:
       - 04-138-CN
       - 04-143-CN
       - 04-148-CN
-      - 04-153-US
       - 04-158-RELAY
       - 04-163-CN
       - 04-168-CN
