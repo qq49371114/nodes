@@ -94,8 +94,8 @@ Fork from TopFreeProxies.
     trojan://424102ed-0073-3e0a-81f0-0a986e5e46ce@35.78.173.41:443?allowInsecure=1&sni=steampipe.akamaized.net#04-160-JP
     trojan://424102ed-0073-3e0a-81f0-0a986e5e46ce@35.79.23.58:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-161-JP
     trojan://424102ed-0073-3e0a-81f0-0a986e5e46ce@54.191.225.185:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-162-US
-    trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-163-US
-    trojan://424102ed-0073-3e0a-81f0-0a986e5e46ce@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-164-US
+    trojan://424102ed-0073-3e0a-81f0-0a986e5e46ce@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-163-US
+    trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-164-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTY1LVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNWQ2NDc5ZDktZGE5Ni0zMmM3LThhYzUtNGIzN2UwNzg0MjViIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42NC4xMS4xNjciLCJob3N0IjoiczEuY24tZGIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTY2LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI1ZDY0NzlkOS1kYTk2LTMyYzctOGFjNS00YjM3ZTA3ODQyNWIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI1LjExMy4xOTIiLCJob3N0IjoiczIuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTY3LVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjIwOTUiLCJ0eXBlIjoibm9uZSIsImlkIjoiNWQ2NDc5ZDktZGE5Ni0zMmM3LThhYzUtNGIzN2UwNzg0MjViIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4yMC4yMTYuMTU4IiwiaG9zdCI6InMxLmNuLWRiLnRvcCIsInRscyI6IiJ9
@@ -868,11 +868,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `934`
+合并节点总数: `968`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `934`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `968`
 
 
 ## 仓库声明
