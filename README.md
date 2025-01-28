@@ -93,9 +93,9 @@ Fork from TopFreeProxies.
     trojan://c209a9cd-6816-33fd-a7e9-546419a7dafd@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-159-CN
     trojan://b4aeb978-5fc4-373c-9462-ad342e35831f@35.78.173.41:443?allowInsecure=1&sni=www.microsoft365.com#04-160-JP
     trojan://b4aeb978-5fc4-373c-9462-ad342e35831f@35.79.23.58:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-161-JP
-    trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-162-US
+    trojan://b4aeb978-5fc4-373c-9462-ad342e35831f@54.191.225.185:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-162-US
     trojan://b4aeb978-5fc4-373c-9462-ad342e35831f@103.136.185.27:5535?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-163-US
-    trojan://b4aeb978-5fc4-373c-9462-ad342e35831f@103.136.185.28:3516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-164-US
+    trojan://243eab52-9ac1-405c-887c-eb112c0985b8@us01.trojanyyds.xyz:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-164-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTY1LVJFTEFZIiwiYWRkIjoiczMuY24tZGIudG9wIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiNWQ2NDc5ZDktZGE5Ni0zMmM3LThhYzUtNGIzN2UwNzg0MjViIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42Ny4yMS4yNDkiLCJob3N0IjoiczMuY24tZGIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTY2LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjVkNjQ3OWQ5LWRhOTYtMzJjNy04YWM1LTRiMzdlMDc4NDI1YiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjEuMzAuNTAiLCJob3N0IjoiczIuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTY3LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjVkNjQ3OWQ5LWRhOTYtMzJjNy04YWM1LTRiMzdlMDc4NDI1YiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuNDguMTk0IiwiaG9zdCI6InM1LmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
