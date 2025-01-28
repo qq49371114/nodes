@@ -117,8 +117,8 @@ proxies:
   - {name: 04-159-CN, server: gy.58n.net, port: 20306, type: trojan, password: e5aec864-6849-38b7-af49-a2e687547ef4, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-160-JP, server: 35.78.173.41, port: 443, type: trojan, password: 72632df4-8985-3084-9764-df1e94233147, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-161-JP, server: 35.79.23.58, port: 443, type: trojan, password: 72632df4-8985-3084-9764-df1e94233147, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-162-US, server: 54.191.225.185, port: 443, type: trojan, password: 72632df4-8985-3084-9764-df1e94233147, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-163-US, server: 103.136.185.27, port: 5535, type: trojan, password: 72632df4-8985-3084-9764-df1e94233147, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-164-US, server: 103.136.185.28, port: 3516, type: trojan, password: 72632df4-8985-3084-9764-df1e94233147, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-165-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 5d6479d9-da96-32c7-8ac5-4b37e078425b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.61.130, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-166-RELAY, server: s4.db-link02.top, port: 2052, type: vmess, uuid: 5d6479d9-da96-32c7-8ac5-4b37e078425b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.227.150, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 04-167-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 5d6479d9-da96-32c7-8ac5-4b37e078425b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.191.214, headers: {Host: s2.db-link02.top}}, udp: true}
@@ -990,8 +990,8 @@ proxy-groups:
       - 04-159-CN
       - 04-160-JP
       - 04-161-JP
-      - 04-162-US
       - 04-163-US
+      - 04-164-US
       - 04-165-RELAY
       - 04-166-RELAY
       - 04-167-RELAY
@@ -1995,7 +1995,6 @@ proxy-groups:
       - 04-147-CN
       - 04-152-CN
       - 04-157-CN
-      - 04-162-US
       - 04-167-RELAY
       - 04-172-CN
       - 04-177-CN
@@ -2351,6 +2350,7 @@ proxy-groups:
       - 04-149-CN
       - 04-154-CN
       - 04-159-CN
+      - 04-164-US
       - 04-169-RELAY
       - 04-174-CN
       - 04-179-CN
