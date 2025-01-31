@@ -109,7 +109,6 @@ proxies:
   - {name: 04-0153-CN, server: gy.58n.net, port: 20306, type: trojan, password: d4c1ee37-e4cd-3c3c-8a98-3d1f0c9135e1, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0154-JP, server: 35.78.173.41, port: 443, type: trojan, password: 270166a4-7080-347e-895b-a51298e66452, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0155-JP, server: 35.79.23.58, port: 443, type: trojan, password: 270166a4-7080-347e-895b-a51298e66452, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0156-US, server: 378321e50a52da38e2a6ba8ac0c4e8a0.node.tro.node-is.green, port: 48047, type: trojan, password: a196577e-1b11-4e51-b719-a3cd77ff2620, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-0157-US, server: 103.136.185.27, port: 5535, type: trojan, password: 270166a4-7080-347e-895b-a51298e66452, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0158-US, server: 103.136.185.28, port: 3516, type: trojan, password: 270166a4-7080-347e-895b-a51298e66452, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0159-RELAY, server: s4.cn-db.top, port: 2086, type: vmess, uuid: a2c9f7c1-a671-3892-9487-d2d5bc8b822f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.7.125, headers: {Host: s4.cn-db.top}}, udp: true}
@@ -183,6 +182,7 @@ proxies:
   - {name: 10-0227-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: d534dbbc-9edf-44da-bb40-e7b1b7c18507, udp: true}
   - {name: 10-0228-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: d534dbbc-9edf-44da-bb40-e7b1b7c18507, udp: true}
   - {name: 11-0229-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 08e1b5cb-0cee-43f2-a16c-f56002eb005b, udp: true}
+  - {name: 11-0230-HK, server: 378321e50a52da38e2a6ba8ac0c4e8a0.node.tro.node-is.green, port: 48047, type: trojan, password: a196577e-1b11-4e51-b719-a3cd77ff2620, sni: passport.ucloud.cn, skip-cert-verify: true, udp: true}
   - {name: 11-0231-HK, server: ef068571eaa6ef685ffaf24bbd0ab9e5.node.tro.node-is.green, port: 40242, type: trojan, password: a196577e-1b11-4e51-b719-a3cd77ff2620, sni: api.ucloud.cn, skip-cert-verify: true, udp: true}
   - {name: 11-0232-HK, server: c1680f8ebd24d35223e570234552bfb4.node.tro.node-is.green, port: 49921, type: trojan, password: a196577e-1b11-4e51-b719-a3cd77ff2620, sni: www.ucloud.cn, skip-cert-verify: true, udp: true}
   - {name: 11-0233-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 08e1b5cb-0cee-43f2-a16c-f56002eb005b, udp: true}
@@ -1016,7 +1016,6 @@ proxies:
   - {name: 17-1061-RELAY, server: visa.com, port: 443, type: vmess, uuid: f0a6b306-328b-4b93-8b25-a2c6f1e73547, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-1062-RELAY, server: visa.com, port: 443, type: vmess, uuid: ed901be8-c1ae-4654-a210-49e842af257a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-1063-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: aes-256-gcm, password: 43e58628-217f-4747-8f79-d1ed8fd0d9c1, udp: true}
-  - {name: 17-1064-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 272c6512-8d6d-4b65-838e-1452df1ed4fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-1065-CN, server: yoyo.cmyiphone.top, port: 49308, type: ss, cipher: chacha20-ietf-poly1305, password: ec55c87a-0537-46ff-8e8c-f7eb5bc39eb3, udp: true}
   - {name: 18-1066-RELAY, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgfqkqmltcy.site}}, udp: true}
   - {name: 18-1067-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1038,10 +1037,10 @@ proxies:
   - {name: 18-1083-DE, server: 23.158.56.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1084-RELAY, server: tokyo.899994.xyz, port: 443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tokyo.899994.xyz}}, udp: true}
   - {name: 18-1085-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
+  - {name: 18-1086-RELAY, server: lamusa.daozhang.site, port: 8880, type: vmess, uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lamusa.daozhang.site}}, udp: true}
   - {name: 18-1087-RELAY, server: 104.16.155.10, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1088-RELAY, server: portland.899994.xyz, port: 8443, type: vmess, uuid: a0605527-28e4-449c-80ee-5642cc16a8af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: portland.899994.xyz}}, udp: true}
   - {name: 18-1096-RELAY, server: mods-destruction-academy-gear.trycloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mods-destruction-academy-gear.trycloudflare.com}}, udp: true}
-  - {name: 18-1097-RELAY, server: ovhwuxian.pai50288.uk, port: 8443, type: vmess, uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ovhwuxian.pai50288.uk}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1107,7 +1106,6 @@ proxy-groups:
       - 04-0153-CN
       - 04-0154-JP
       - 04-0155-JP
-      - 04-0156-US
       - 04-0157-US
       - 04-0158-US
       - 04-0159-RELAY
@@ -1181,6 +1179,7 @@ proxy-groups:
       - 10-0227-CN
       - 10-0228-CN
       - 11-0229-CN
+      - 11-0230-HK
       - 11-0231-HK
       - 11-0232-HK
       - 11-0233-CN
@@ -2014,7 +2013,6 @@ proxy-groups:
       - 17-1061-RELAY
       - 17-1062-RELAY
       - 17-1063-CN
-      - 17-1064-SG
       - 17-1065-CN
       - 18-1066-RELAY
       - 18-1067-US
@@ -2036,10 +2034,10 @@ proxy-groups:
       - 18-1083-DE
       - 18-1084-RELAY
       - 18-1085-RELAY
+      - 18-1086-RELAY
       - 18-1087-RELAY
       - 18-1088-RELAY
       - 18-1096-RELAY
-      - 18-1097-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2065,7 +2063,6 @@ proxy-groups:
       - 04-0141-CN
       - 04-0146-CN
       - 04-0151-CN
-      - 04-0156-US
       - 04-0161-RELAY
       - 04-0166-CN
       - 04-0171-CN
@@ -2251,6 +2248,7 @@ proxy-groups:
       - 18-1071-RELAY
       - 18-1076-CA
       - 18-1081-RELAY
+      - 18-1086-RELAY
       - 18-1096-RELAY
   - name: 测速2分组
     type: url-test
@@ -2455,7 +2453,6 @@ proxy-groups:
       - 18-1077-RELAY
       - 18-1082-FR
       - 18-1087-RELAY
-      - 18-1097-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2856,7 +2853,6 @@ proxy-groups:
       - 17-1049-CN
       - 17-1054-CN
       - 17-1059-CN
-      - 17-1064-SG
       - 18-1069-US
       - 18-1074-RELAY
       - 18-1079-FR
@@ -2892,6 +2888,7 @@ proxy-groups:
       - 08-0215-HK
       - 10-0220-CN
       - 10-0225-CN
+      - 11-0230-HK
       - 11-0235-CN
       - 11-0240-CN
       - 11-0245-CN
