@@ -111,8 +111,8 @@ proxies:
   - {name: 04-153-CN, server: gy.58n.net, port: 20306, type: trojan, password: b75074f7-8a91-3d49-acc0-d15b63395d62, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-154-JP, server: 35.78.173.41, port: 443, type: trojan, password: e4901c25-1021-3735-bd0e-3ce432505f42, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-155-JP, server: 35.79.23.58, port: 443, type: trojan, password: e4901c25-1021-3735-bd0e-3ce432505f42, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-156-US, server: 34.220.132.151, port: 443, type: trojan, password: e4901c25-1021-3735-bd0e-3ce432505f42, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-157-US, server: 103.136.185.27, port: 5535, type: trojan, password: e4901c25-1021-3735-bd0e-3ce432505f42, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-158-US, server: 103.136.185.28, port: 3516, type: trojan, password: e4901c25-1021-3735-bd0e-3ce432505f42, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-159-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 7f32fcb1-262f-3d57-adef-5b64110aed4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.131.166, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-160-RELAY, server: s4.db-link01.top, port: 2095, type: vmess, uuid: 7f32fcb1-262f-3d57-adef-5b64110aed4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.220.151, headers: {Host: s4.db-link01.top}}, udp: true}
   - {name: 04-161-RELAY, server: s2.db-link02.top, port: 2082, type: vmess, uuid: 7f32fcb1-262f-3d57-adef-5b64110aed4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.81.83, headers: {Host: s2.db-link02.top}}, udp: true}
@@ -992,8 +992,8 @@ proxy-groups:
       - 04-153-CN
       - 04-154-JP
       - 04-155-JP
+      - 04-156-US
       - 04-157-US
-      - 04-158-US
       - 04-159-RELAY
       - 04-160-RELAY
       - 04-161-RELAY
@@ -1832,6 +1832,7 @@ proxy-groups:
       - 04-141-CN
       - 04-146-CN
       - 04-151-CN
+      - 04-156-US
       - 04-161-RELAY
       - 04-166-CN
       - 04-171-CN
@@ -2192,7 +2193,6 @@ proxy-groups:
       - 04-143-CN
       - 04-148-CN
       - 04-153-CN
-      - 04-158-US
       - 04-163-RELAY
       - 04-168-CN
       - 04-173-CN
