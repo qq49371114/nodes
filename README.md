@@ -87,8 +87,8 @@ Fork from TopFreeProxies.
     trojan://b75074f7-8a91-3d49-acc0-d15b63395d62@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-153-CN
     trojan://e4901c25-1021-3735-bd0e-3ce432505f42@35.78.173.41:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-154-JP
     trojan://e4901c25-1021-3735-bd0e-3ce432505f42@35.79.23.58:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-155-JP
+    trojan://e4901c25-1021-3735-bd0e-3ce432505f42@34.220.132.151:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-156-US
     trojan://e4901c25-1021-3735-bd0e-3ce432505f42@103.136.185.27:5535?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-157-US
-    trojan://e4901c25-1021-3735-bd0e-3ce432505f42@103.136.185.28:3516?allowInsecure=1&sni=www.microsoft365.com#04-158-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTU5LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjdmMzJmY2IxLTI2MmYtM2Q1Ny1hZGVmLTViNjQxMTBhZWQ0ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTcuMTMxLjE2NiIsImhvc3QiOiJzMS5kYi1saW5rMDIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTYwLVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjdmMzJmY2IxLTI2MmYtM2Q1Ny1hZGVmLTViNjQxMTBhZWQ0ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjUuMjIwLjE1MSIsImhvc3QiOiJzNC5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTYxLVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjdmMzJmY2IxLTI2MmYtM2Q1Ny1hZGVmLTViNjQxMTBhZWQ0ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuODEuODMiLCJob3N0IjoiczIuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
