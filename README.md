@@ -87,7 +87,7 @@ Fork from TopFreeProxies.
     trojan://7737257a-03ed-3e37-844c-c26d5c435646@gy.58n.net:20306?allowInsecure=1&sni=z306.hongkongnode.top#04-153-CN
     trojan://46506f1a-bbfc-3f1e-892f-70c939f0e860@35.78.173.41:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-154-JP
     trojan://46506f1a-bbfc-3f1e-892f-70c939f0e860@35.79.23.58:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-155-JP
-    trojan://46506f1a-bbfc-3f1e-892f-70c939f0e860@103.136.185.27:5535?allowInsecure=1&sni=origin-a.akamaihd.net#04-157-US
+    trojan://46506f1a-bbfc-3f1e-892f-70c939f0e860@34.220.132.151:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-156-US
     trojan://46506f1a-bbfc-3f1e-892f-70c939f0e860@103.136.185.28:3516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-158-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTU5LVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAyLnRvcCIsInBvcnQiOiI4MDgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjEzNTE0YzJjLWQ1YTQtMzM1Zi05NjVhLTVkYzI5MmUzNjc1OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjAuMjQzLjEzMCIsImhvc3QiOiJzNC5kYi1saW5rMDIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTYwLVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6IjEzNTE0YzJjLWQ1YTQtMzM1Zi05NjVhLTVkYzI5MmUzNjc1OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuMTUuMjkiLCJob3N0IjoiczUuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
