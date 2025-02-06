@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0099-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 3b4da0c0-9daf-3a41-9817-ec5333e3c86e, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0101-CN, server: gy.58n.net, port: 43337, type: trojan, password: 3b4da0c0-9daf-3a41-9817-ec5333e3c86e, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0102-CN, server: gy.58n.net, port: 20307, type: trojan, password: 3b4da0c0-9daf-3a41-9817-ec5333e3c86e, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0103-CN, server: gy.58n.net, port: 28678, type: trojan, password: 3b4da0c0-9daf-3a41-9817-ec5333e3c86e, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0104-CN, server: gy.58n.net, port: 24603, type: trojan, password: 3b4da0c0-9daf-3a41-9817-ec5333e3c86e, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1032,7 +1033,6 @@ proxies:
   - {name: 16-1079-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: e282ccdb-f950-46f5-a6e2-e53874460a24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-1080-CN, server: southvip1.pkyun.xyz, port: 34004, type: ss, cipher: chacha20-ietf-poly1305, password: f93ebe68-645f-45b8-b069-01d972f4e7b0, udp: true}
   - {name: 16-1081-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: b1611426-55b1-4949-a2a6-cacb63daa15c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 16-1082-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: c55fc606-05f7-4ffb-98bb-0857f60cec88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-1083-CN, server: sg-04.douyucdn.top, port: 25654, type: ss, cipher: aes-128-gcm, password: 1eaf31aa-a678-4e86-b148-8496d7f6e8d3, udp: true}
   - {name: 16-1084-RELAY, server: visa.com, port: 443, type: vmess, uuid: b1611426-55b1-4949-a2a6-cacb63daa15c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-1085-CN, server: southvip1.pkyun.xyz, port: 58801, type: ss, cipher: chacha20-ietf-poly1305, password: ba43481b-d394-43e5-87ba-39caccf72562, udp: true}
@@ -1051,6 +1051,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0099-CN
+      - 04-0101-CN
       - 04-0102-CN
       - 04-0103-CN
       - 04-0104-CN
@@ -2028,7 +2029,6 @@ proxy-groups:
       - 16-1079-DE
       - 16-1080-CN
       - 16-1081-DE
-      - 16-1082-SG
       - 16-1083-CN
       - 16-1084-RELAY
       - 16-1085-CN
@@ -2051,6 +2051,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0101-CN
       - 04-0106-CN
       - 04-0111-CN
       - 04-0116-CN
@@ -2448,7 +2449,6 @@ proxy-groups:
       - 16-1062-US
       - 16-1067-DE
       - 16-1072-CN
-      - 16-1082-SG
       - 16-1087-CN
   - name: 测速3分组
     type: url-test
