@@ -55,11 +55,13 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-0099-CN, server: gyl.58n.net, port: 20309, type: trojan, password: e1866a76-416b-33d8-999a-ae6fc5c748c3, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0142-CN, server: gy.58n.net, port: 20304, type: trojan, password: e1866a76-416b-33d8-999a-ae6fc5c748c3, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0143-CN, server: gy.58n.net, port: 20305, type: trojan, password: e1866a76-416b-33d8-999a-ae6fc5c748c3, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0144-CN, server: gy.58n.net, port: 20306, type: trojan, password: e1866a76-416b-33d8-999a-ae6fc5c748c3, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0145-JP, server: 35.78.173.41, port: 443, type: trojan, password: 2fb0bc2f-3995-310f-a52f-01624dc52c18, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0146-JP, server: 35.74.5.159, port: 443, type: trojan, password: 2fb0bc2f-3995-310f-a52f-01624dc52c18, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0147-US, server: 34.211.189.88, port: 443, type: trojan, password: 2fb0bc2f-3995-310f-a52f-01624dc52c18, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0148-US, server: 103.136.185.27, port: 5535, type: trojan, password: 2fb0bc2f-3995-310f-a52f-01624dc52c18, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0149-US, server: 103.136.185.28, port: 3516, type: trojan, password: 2fb0bc2f-3995-310f-a52f-01624dc52c18, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0150-RELAY, server: s5.db-link01.top, port: 8080, type: vmess, uuid: b086ad48-9c38-34e3-8d1c-30ac31d7a24d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.99.14, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 04-0151-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: b086ad48-9c38-34e3-8d1c-30ac31d7a24d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.7.143, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0152-RELAY, server: s3.db-link01.top, port: 80, type: vmess, uuid: b086ad48-9c38-34e3-8d1c-30ac31d7a24d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.51.120, headers: {Host: s3.db-link01.top}}, udp: true}
@@ -998,10 +1000,6 @@ proxies:
   - {name: 16-1086-RELAY, server: visa.com, port: 443, type: vmess, uuid: 6f8f9727-f03c-4d91-8e75-e724b388565e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-1087-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 4d584b04-60c6-42b7-94c0-5bb899b6a86e, udp: true}
   - {name: 16-1088-CN, server: southvip1.pkyun.xyz, port: 58822, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
-  - {name: 16-1097-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 9efecce0-e5b0-48de-9b91-4d9cc133bf75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
-  - {name: 16-1098-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 19ee1011-d8e1-416e-8aff-82e3fea04e55, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
-  - {name: 16-1099-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 36f6572a-d787-4464-9a6a-9e94a72e1bcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
-  - {name: 16-1104-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 71622500-265f-4a1b-ba9e-e068f6408f6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-1123-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 212fdded-1a56-4b33-91e1-0b4e0cd24ec1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-1156-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 70cbb616-0ed0-4e97-b45b-8bca12f243a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-1160-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 11d8282a-2179-45cb-8932-db15732db587, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
@@ -1014,12 +1012,10 @@ proxies:
   - {name: 17-1249-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 21cdc003-4e54-4e5c-9369-bf13491f6e7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1250-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: c149eaac-0567-4025-afcc-4e436873926c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1313-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 59a81a57-4e30-43c2-a6b8-7a41e060ef05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1330-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 4606a131-3fd6-4042-b79a-401583030e20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1341-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 2a3c9638-489c-41d8-accb-5d2a1b5f4dde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1359-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 46eb022d-926b-486d-83bd-5dfd0d010ced, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1363-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 4b1c1101-c648-493b-ad64-9aedb9347a33, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1382-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: f068c93d-94cb-468d-8093-47da0017da69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1395-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 14401184-5ab7-4562-8ee0-af6c98218839, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
+  - {name: 17-1406-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 91484031-14fa-4491-876b-7ae2cad9dabe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1408-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 2b0241b8-e617-453c-8393-a3f37e89108f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1410-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 4ac30eff-cf32-49a8-b0a8-7279d9383add, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1411-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: f11d91f2-a39b-43d2-9cb7-25fc4446410f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
@@ -1032,12 +1028,16 @@ proxies:
   - {name: 17-1487-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 6e8b9125-eb43-41a7-9f3e-9c4d438619c2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1496-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 97eedf63-9def-419f-9481-11a8eb3407d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1507-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 272c6512-8d6d-4b65-838e-1452df1ed4fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
+  - {name: 17-1511-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: e6f7971c-ab0f-42ba-b033-147e65f782b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
+  - {name: 17-1519-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 792c9382-5008-4d99-98b9-9fd0a733d8f1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
+  - {name: 17-1524-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 36d67102-db6f-4b7b-b724-149cd0abbef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1531-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 13d61262-8bb9-409e-9e8f-e2de76bd9d98, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1536-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 76fc2f5c-425e-405d-b297-046523be0f05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1544-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 2e51bfd3-7651-4496-b290-b581a487168c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1551-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 5f95c22e-5976-42ee-bb58-eb0113dca43a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1601-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 44ff2224-557c-41ba-8729-ff1490d5654e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
+  - {name: 17-1560-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: 306370b3-eac5-4cb6-8ac8-dc98626f5004, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1609-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 8e22e06f-617a-490c-96aa-6df3030180bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
+  - {name: 17-1707-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: b0f4b862-8c58-4b3a-a7a1-208bffb776fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1720-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: df9b41a2-bf76-4223-a2e5-d8c9cb2d5fb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 17-1722-RELAY, server: zlgifpup.whmvmkwuey.store, port: 443, type: vmess, uuid: b3b57598-7f20-4afa-baae-bc4f576a3040, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zlgifpup.whmvmkwuey.store}}, udp: true}
   - {name: 18-1767-RELAY, server: ovhwuxian.pai50288.uk, port: 8443, type: vmess, uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ovhwuxian.pai50288.uk}}, udp: true}
@@ -1052,11 +1052,13 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 04-0099-CN
+      - 04-0142-CN
+      - 04-0143-CN
       - 04-0144-CN
       - 04-0145-JP
       - 04-0146-JP
       - 04-0147-US
-      - 04-0148-US
+      - 04-0149-US
       - 04-0150-RELAY
       - 04-0151-RELAY
       - 04-0152-RELAY
@@ -1995,10 +1997,6 @@ proxy-groups:
       - 16-1086-RELAY
       - 16-1087-CN
       - 16-1088-CN
-      - 16-1097-US
-      - 16-1098-US
-      - 16-1099-US
-      - 16-1104-US
       - 16-1123-US
       - 16-1156-US
       - 16-1160-US
@@ -2011,12 +2009,10 @@ proxy-groups:
       - 17-1249-US
       - 17-1250-RELAY
       - 17-1313-RELAY
-      - 17-1330-RELAY
-      - 17-1341-RELAY
-      - 17-1359-RELAY
       - 17-1363-RELAY
       - 17-1382-RELAY
       - 17-1395-RELAY
+      - 17-1406-US
       - 17-1408-RELAY
       - 17-1410-RELAY
       - 17-1411-RELAY
@@ -2029,12 +2025,16 @@ proxy-groups:
       - 17-1487-US
       - 17-1496-RELAY
       - 17-1507-US
+      - 17-1511-RELAY
+      - 17-1519-RELAY
+      - 17-1524-US
       - 17-1531-RELAY
       - 17-1536-RELAY
       - 17-1544-RELAY
       - 17-1551-RELAY
-      - 17-1601-RELAY
+      - 17-1560-RELAY
       - 17-1609-US
+      - 17-1707-RELAY
       - 17-1720-RELAY
       - 17-1722-RELAY
       - 18-1767-RELAY
@@ -2244,20 +2244,21 @@ proxy-groups:
       - 16-1086-RELAY
       - 16-1156-US
       - 17-1221-RELAY
-      - 17-1341-RELAY
+      - 17-1406-US
       - 17-1411-RELAY
       - 17-1441-RELAY
       - 17-1476-RELAY
       - 17-1496-RELAY
+      - 17-1511-RELAY
       - 17-1531-RELAY
       - 17-1536-RELAY
       - 17-1551-RELAY
-      - 17-1601-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 04-0142-CN
       - 04-0147-US
       - 04-0152-RELAY
       - 04-0157-CN
@@ -2447,11 +2448,11 @@ proxy-groups:
       - 16-1077-CN
       - 16-1082-CN
       - 16-1087-CN
-      - 16-1097-US
       - 17-1382-RELAY
       - 17-1452-RELAY
       - 17-1487-US
       - 17-1507-US
+      - 17-1707-RELAY
       - 17-1722-RELAY
       - 18-1767-RELAY
   - name: 测速3分组
@@ -2459,7 +2460,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0148-US
+      - 04-0143-CN
       - 04-0153-RELAY
       - 04-0158-CN
       - 04-0163-CN
@@ -2647,7 +2648,6 @@ proxy-groups:
       - 16-1073-RELAY
       - 16-1083-CN
       - 16-1088-CN
-      - 16-1098-US
       - 16-1123-US
       - 16-1163-US
       - 17-1188-US
@@ -2663,6 +2663,7 @@ proxy-groups:
     proxies:
       - 04-0099-CN
       - 04-0144-CN
+      - 04-0149-US
       - 04-0154-RELAY
       - 04-0159-CN
       - 04-0164-CN
@@ -2850,13 +2851,12 @@ proxy-groups:
       - 16-1074-DE
       - 16-1079-CN
       - 16-1084-DE
-      - 16-1099-US
-      - 16-1104-US
       - 17-1184-US
       - 17-1249-US
-      - 17-1359-RELAY
       - 17-1429-RELAY
       - 17-1449-US
+      - 17-1519-RELAY
+      - 17-1524-US
       - 17-1544-RELAY
       - 17-1609-US
   - name: 测速5分组
@@ -3055,10 +3055,10 @@ proxy-groups:
       - 16-1085-CN
       - 16-1160-US
       - 17-1250-RELAY
-      - 17-1330-RELAY
       - 17-1395-RELAY
       - 17-1410-RELAY
       - 17-1450-RELAY
+      - 17-1560-RELAY
       - 17-1720-RELAY
   - name: 广告拦截
     type: select
