@@ -78,7 +78,7 @@ Fork from TopFreeProxies.
     trojan://c0e1750d-88d6-394a-8b96-994bef4f7f82@35.78.173.41:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-0145-JP
     trojan://c0e1750d-88d6-394a-8b96-994bef4f7f82@35.74.5.159:443?allowInsecure=1&sni=origin-a.akamaihd.net#04-0146-JP
     trojan://c0e1750d-88d6-394a-8b96-994bef4f7f82@34.211.189.88:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-0147-US
-    trojan://c0e1750d-88d6-394a-8b96-994bef4f7f82@103.136.185.28:3516?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-0149-US
+    trojan://c0e1750d-88d6-394a-8b96-994bef4f7f82@103.136.185.27:5535?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-0148-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE1MC1SRUxBWSIsImFkZCI6InMyLmRiLWxpbmswMi50b3AiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiJiMDg2YWQ0OC05YzM4LTM0ZTMtOGQxYy0zMGFjMzFkN2EyNGQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY3LjIxLjg2IiwiaG9zdCI6InMyLmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE1MS1SRUxBWSIsImFkZCI6InM1LmRiLWxpbmswMi50b3AiLCJwb3J0IjoiMjA5NSIsInR5cGUiOiJub25lIiwiaWQiOiJiMDg2YWQ0OC05YzM4LTM0ZTMtOGQxYy0zMGFjMzFkN2EyNGQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI1LjAuMjAyIiwiaG9zdCI6InM1LmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE1Mi1SRUxBWSIsImFkZCI6InMzLmNuLWRiLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImIwODZhZDQ4LTljMzgtMzRlMy04ZDFjLTMwYWMzMWQ3YTI0ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjAuMzUuMzQiLCJob3N0IjoiczMuY24tZGIudG9wIiwidGxzIjoiIn0=
@@ -1023,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1780`
+合并节点总数: `1844`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1780`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1844`
 
 
 ## 仓库声明
