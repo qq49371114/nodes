@@ -119,7 +119,8 @@ proxies:
   - {name: 07-0170-CN, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 25bb46e8-d80f-4b48-9272-7129e88366b2, udp: true}
   - {name: 07-0171-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-0172-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: "07-0174-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN", server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 07-0174-US, server: 54.190.43.178, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: "07-0175-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN", server: 34.217.145.61, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0177-RELAY, server: s2.cn-db.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.31.68, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 07-0178-RELAY, server: s2.cn-db.top, port: 80, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.88.75, headers: {Host: s2.cn-db.top}}, udp: true}
   - {name: 08-0179-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 3500932a-6725-4591-a15b-c1e72843c685, udp: true}
@@ -638,7 +639,6 @@ proxies:
   - {name: 16-0696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: aa997b36-1c2a-4724-855a-73b69f3dd061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0697-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: de0b7027-0f49-447e-8ca8-b54c544873bf, udp: true}
   - {name: 16-0698-CN, server: southvip1.pkyun.xyz, port: 58840, type: ss, cipher: chacha20-ietf-poly1305, password: 838917ae-a819-4ece-93b6-4aa3f01a2c9c, udp: true}
-  - {name: 18-1759-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1760-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1761-RELAY, server: 172.67.153.156, port: 8443, type: vmess, uuid: 86455bfc-dd02-4a3b-9f03-7668f39375d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1763-RELAY, server: northflank.107421.xyz, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: northflank.107421.xyz}}, udp: true}
@@ -733,7 +733,8 @@ proxy-groups:
       - 07-0170-CN
       - 07-0171-CN
       - 07-0172-CN
-      - 07-0174-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN
+      - 07-0174-US
+      - 07-0175-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN
       - 07-0177-RELAY
       - 07-0178-RELAY
       - 08-0179-CN
@@ -1252,7 +1253,6 @@ proxy-groups:
       - 16-0696-DE
       - 16-0697-CN
       - 16-0698-CN
-      - 18-1759-US
       - 18-1760-US
       - 18-1761-RELAY
       - 18-1763-RELAY
@@ -1522,7 +1522,7 @@ proxy-groups:
       - 04-0144-CN
       - 04-0154-RELAY
       - 04-0164-CN
-      - 07-0174-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN
+      - 07-0174-US
       - 08-0184-CN
       - 08-0194-CN
       - 08-0204-CN
@@ -1588,6 +1588,7 @@ proxy-groups:
       - 04-0135-CN
       - 04-0155-RELAY
       - 04-0165-CN
+      - 07-0175-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN
       - 08-0185-CN
       - 08-0195-CN
       - 08-0205-CN
@@ -1847,7 +1848,7 @@ proxy-groups:
       - 04-0139-CN
       - 04-0159-CN
       - 07-0169-CN
-      - 07-0174-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN
+      - 07-0175-UStrojan//e1866a76-416b-33d8-999a-ae6fc5c748c3@gyl.58n.net20309?allowInsecure=1&sni=z309.hongkongnode.top#04-0099-CN
       - 08-0179-CN
       - 08-0189-CN
       - 08-0199-CN
@@ -1900,7 +1901,6 @@ proxy-groups:
       - 16-0669-HK
       - 16-0679-CN
       - 16-0689-US
-      - 18-1759-US
       - 18-1769-RELAY
   - name: 测速10分组
     type: url-test
