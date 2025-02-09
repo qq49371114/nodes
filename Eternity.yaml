@@ -118,6 +118,7 @@ proxies:
   - {name: 04-0169-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: b311c42d-c864-3bd0-9def-4bd6f0ac3607, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-0170-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: b311c42d-c864-3bd0-9def-4bd6f0ac3607, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-0171-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: b311c42d-c864-3bd0-9def-4bd6f0ac3607, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
+  - {name: 07-0173-US, server: 54.187.27.197, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0174-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-0175-RELAY, server: s2.db-link02.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.41.150, headers: {Host: s2.db-link02.top}}, udp: true}
   - {name: 07-0176-RELAY, server: s2.cn-db.top, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.13.172, headers: {Host: s2.cn-db.top}}, udp: true}
@@ -637,7 +638,6 @@ proxies:
   - {name: 16-0691-NOWHERE, server: imnjmlav.whmvmkwuey.store, port: 443, type: vmess, uuid: 7498f01c-c2cf-44f2-93da-d3f3d39ef389, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: imnjmlav.whmvmkwuey.store}}, udp: true}
   - {name: 16-0692-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 220aeea0-f813-499e-8ef6-1d8a074c18cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-0693-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 59b5a7eb-7433-4b00-a8fd-a2da12e8aafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 16-0694-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 7d10e00c-c75a-4619-8b55-b399349b89ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-0695-NOWHERE, server: imnjmlav.whmvmkwuey.store, port: 443, type: vmess, uuid: 81de2b17-c28a-4484-aaa5-29b8b9314254, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: imnjmlav.whmvmkwuey.store}}, udp: true}
   - {name: 16-0696-CN, server: southvip1.pkyun.xyz, port: 58801, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 58801, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
@@ -731,6 +731,7 @@ proxy-groups:
       - 04-0169-CN
       - 04-0170-CN
       - 04-0171-CN
+      - 07-0173-US
       - 07-0174-CN
       - 07-0175-RELAY
       - 07-0176-RELAY
@@ -1250,7 +1251,6 @@ proxy-groups:
       - 16-0691-NOWHERE
       - 16-0692-US
       - 16-0693-DE
-      - 16-0694-US
       - 16-0695-NOWHERE
       - 16-0696-CN
       - 16-0697-CN
@@ -1451,6 +1451,7 @@ proxy-groups:
       - 04-0133-CN
       - 04-0143-CN
       - 04-0163-CN
+      - 07-0173-US
       - 08-0183-CN
       - 08-0193-CN
       - 08-0203-CN
@@ -1567,7 +1568,6 @@ proxy-groups:
       - 12-0664-CN
       - 12-0674-CN
       - 16-0684-NOWHERE
-      - 16-0694-US
       - 18-1884-RELAY
   - name: 测速5分组
     type: url-test
