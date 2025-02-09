@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 04-0101-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 1cdcdb42-a526-3b5b-b8b9-6e7989b586bf, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0102-CN, server: gy.58n.net, port: 43337, type: trojan, password: 1cdcdb42-a526-3b5b-b8b9-6e7989b586bf, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0103-CN, server: gy.58n.net, port: 20307, type: trojan, password: 1cdcdb42-a526-3b5b-b8b9-6e7989b586bf, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0104-CN, server: gy.58n.net, port: 28678, type: trojan, password: 1cdcdb42-a526-3b5b-b8b9-6e7989b586bf, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1040,6 +1039,7 @@ proxies:
   - {name: 16-1086-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: de5522a3-7480-43f8-8ccc-6f204a5fa5f4, udp: true}
   - {name: 16-1087-RELAY, server: visa.com, port: 443, type: vmess, uuid: 7d10e00c-c75a-4619-8b55-b399349b89ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-1088-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: a8850fb7-33c0-4715-868f-309cd70d8503, udp: true}
+  - {name: 18-1851-RELAY, server: vu-mumbai-01.vnode.info, port: 2053, type: vmess, uuid: a04001f3-2dba-40ed-8c2e-d0c765d9afaa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vu-mumbai-01.vnode.info}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1051,7 +1051,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 04-0101-CN
       - 04-0102-CN
       - 04-0103-CN
       - 04-0104-CN
@@ -2036,6 +2035,7 @@ proxy-groups:
       - 16-1086-CN
       - 16-1087-RELAY
       - 16-1088-CN
+      - 18-1851-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2051,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 04-0101-CN
       - 04-0106-CN
       - 04-0111-CN
       - 04-0116-CN
@@ -2247,6 +2246,7 @@ proxy-groups:
       - 16-1076-NOWHERE
       - 16-1081-CN
       - 16-1086-CN
+      - 18-1851-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
