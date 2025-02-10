@@ -117,6 +117,7 @@ proxies:
   - {name: 02-0088-JP, server: it.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: it.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 02-0089-JP, server: uk.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: uk.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 02-0090-HK, server: tr.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: tr.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0091-JP, server: ni.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: ni.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 04-0191-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0192-CN, server: gy.58n.net, port: 43337, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0193-CN, server: gy.58n.net, port: 20307, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -192,6 +193,7 @@ proxies:
   - {name: 08-0270-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: b45a4e96-bd68-4477-8e3e-230e3adcdf3f, udp: true}
   - {name: 08-0271-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: b45a4e96-bd68-4477-8e3e-230e3adcdf3f, udp: true}
   - {name: 08-0272-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: b45a4e96-bd68-4477-8e3e-230e3adcdf3f, udp: true}
+  - {name: 08-0273-RELAY, server: fgukeyky.whmvmkwuey.store, port: 443, type: vmess, uuid: 7380e688-fefe-4b04-acb7-fc3ac643eb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fgukeyky.whmvmkwuey.store}}, udp: true}
   - {name: 08-0274-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a17c0bf5-9bc9-4ca7-b99d-be648f55ef0a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 08-0275-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: b45a4e96-bd68-4477-8e3e-230e3adcdf3f, udp: true}
   - {name: 08-0276-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: b45a4e96-bd68-4477-8e3e-230e3adcdf3f, udp: true}
@@ -617,8 +619,6 @@ proxies:
   - {name: 16-0696-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 947e49a8-344c-4cac-adb2-1ef45bb8c1b4, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 58809, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0698-RELAY, server: visa.com, port: 443, type: vmess, uuid: 4da0c91c-b925-4467-aab5-eab2a26c0aaf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 17-1694-CN, server: southvip1.pkyun.xyz, port: 58846, type: ss, cipher: chacha20-ietf-poly1305, password: 554bd41f-bb70-4d99-b215-a2a2e251c64e, udp: true}
-  - {name: 17-1695-CN, server: southvip1.pkyun.xyz, port: 58815, type: ss, cipher: chacha20-ietf-poly1305, password: 956c5f48-d572-48d7-9b67-46a32916777b, udp: true}
   - {name: 17-1696-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 4ff93969-a1bd-47ec-a89c-0d7f688b3a81, udp: true}
   - {name: 17-1697-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: b18f466b-cd68-4ac6-ae2a-937956cd44ec, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1698-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 028ff4d7-1de8-4a63-a495-6878a1693dea, udp: true}
@@ -730,6 +730,7 @@ proxy-groups:
       - 02-0088-JP
       - 02-0089-JP
       - 02-0090-HK
+      - 02-0091-JP
       - 04-0191-CN
       - 04-0192-CN
       - 04-0193-CN
@@ -805,6 +806,7 @@ proxy-groups:
       - 08-0270-CN
       - 08-0271-CN
       - 08-0272-CN
+      - 08-0273-RELAY
       - 08-0274-NOWHERE
       - 08-0275-CN
       - 08-0276-CN
@@ -1230,8 +1232,6 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-CN
       - 16-0698-RELAY
-      - 17-1694-CN
-      - 17-1695-CN
       - 17-1696-CN
       - 17-1697-NOWHERE
       - 17-1698-CN
@@ -1322,6 +1322,7 @@ proxy-groups:
       - 02-0061-CN
       - 02-0071-CN
       - 02-0081-CN
+      - 02-0091-JP
       - 04-0191-CN
       - 04-0201-CN
       - 04-0211-CN
@@ -1461,6 +1462,7 @@ proxy-groups:
       - 04-0243-RELAY
       - 04-0253-CN
       - 07-0263-RELAY
+      - 08-0273-RELAY
       - 08-0283-CN
       - 08-0293-CN
       - 08-0303-CN
@@ -1569,7 +1571,6 @@ proxy-groups:
       - 12-0674-CN
       - 12-0684-CN
       - 16-0694-CN
-      - 17-1694-CN
       - 17-1704-CN
       - 18-1714-RELAY
   - name: 测速5分组
@@ -1635,7 +1636,6 @@ proxy-groups:
       - 12-0675-CN
       - 12-0685-CN
       - 16-0695-CN
-      - 17-1695-CN
       - 18-1705-RELAY
       - 18-1715-RELAY
       - 18-1725-FR
