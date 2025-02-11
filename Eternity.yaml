@@ -58,6 +58,26 @@ proxies:
   - {name: 02-0001-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0002-US, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0003-KR, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
+  - {name: 02-0008-CN, server: dozo01.flztjc.top, port: 6306, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: jp-6-559.flztjc.net, skip-cert-verify: true, udp: true}
+  - {name: 02-0009-CN, server: dozo01.flztjc.top, port: 9301, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: sgp-1-546.flztjc.net, skip-cert-verify: true, udp: true}
+  - {name: 02-0010-CN, server: dozo01.flztjc.top, port: 5306, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: tw-06-592.flztjc.net, skip-cert-verify: true, udp: true}
+  - {name: 02-0011-CN, server: dozo01.flztjc.top, port: 6304, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: jp-4-557.flztjc.net, skip-cert-verify: true, udp: true}
+  - {name: 02-0012-CN, server: mdss-sg.04z3susick.download, port: 12017, type: ss, cipher: aes-128-gcm, password: 896fe3b1-aff4-4795-aa8b-48cabbff8e2d, udp: true}
+  - {name: 02-0013-CN, server: mdss-tw.04z3susick.download, port: 12031, type: ss, cipher: aes-128-gcm, password: 896fe3b1-aff4-4795-aa8b-48cabbff8e2d, udp: true}
+  - {name: 02-0014-CN, server: mdss-hk.04z3susick.download, port: 12005, type: ss, cipher: aes-128-gcm, password: 896fe3b1-aff4-4795-aa8b-48cabbff8e2d, udp: true}
+  - {name: 02-0015-CN, server: dozo01.flztjc.top, port: 5303, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: tw-03-505.flztjc.net, skip-cert-verify: true, udp: true}
+  - {name: 02-0016-CN, server: 2.hublink.pro, port: 40211, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 02-0017-CN, server: mdss-tw.04z3susick.download, port: 12029, type: ss, cipher: aes-128-gcm, password: 896fe3b1-aff4-4795-aa8b-48cabbff8e2d, udp: true}
+  - {name: 02-0018-CN, server: cs.ktmhy.cc, port: 12889, type: vmess, uuid: 89718007-5cb2-42db-bbb6-15b6dcdd8e41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.ktmhy.cc}}, udp: true}
+  - {name: 02-0019-HK, server: vn.mjt000.com, port: 443, type: trojan, password: 6557bf4a-852b-4a69-ad35-d53293386a13, sni: vn.mjt000.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0020-RELAY, server: theo.ns.cloudflare.com, port: 80, type: vmess, uuid: 329fd5ca-e104-43c1-b0d9-a73f7939a6f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessbr.trevely.us.kg, headers: {Host: theo.ns.cloudflare.com}}, udp: true}
+  - {name: 02-0021-US, server: 23.94.243.79, port: 443, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.27.115}, udp: true}
+  - {name: 04-0121-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0122-CN, server: gy.58n.net, port: 43337, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0123-CN, server: gy.58n.net, port: 20307, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0124-CN, server: gy.58n.net, port: 28678, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z143.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0125-CN, server: gy.58n.net, port: 24603, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z259.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0126-CN, server: gy.58n.net, port: 22741, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: dufu.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0127-CN, server: gy.58n.net, port: 20278, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z278.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0128-CN, server: gy.58n.net, port: 20279, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z279.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0129-CN, server: gy.58n.net, port: 20294, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z294.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -1015,32 +1035,11 @@ proxies:
   - {name: 16-1082-CN, server: southvip1.pkyun.xyz, port: 58710, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-1083-CN, server: southvip1.pkyun.xyz, port: 58837, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-1084-CN, server: yoyo.cmyiphone.top, port: 49306, type: ss, cipher: chacha20-ietf-poly1305, password: de5522a3-7480-43f8-8ccc-6f204a5fa5f4, udp: true}
-  - {name: 16-1085-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 36f6572a-d787-4464-9a6a-9e94a72e1bcb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-1087-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: fc996722-c430-4d27-a78f-dcee089a7563, udp: true}
   - {name: 16-1088-NOWHERE, server: fgukeyky.whmvmkwuey.store, port: 443, type: vmess, uuid: 14140549-fa11-4a1e-a56f-f850c6e1b4e4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fgukeyky.whmvmkwuey.store}}, udp: true}
   - {name: 16-1089-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: f9bc72f2-51a6-4177-a34f-9e6d16e0359a, udp: true}
-  - {name: 17-1151-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 49066f47-ab5e-4fc3-a5b3-ec189835e678, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1153-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 39db7e44-7142-4732-8c07-260f5cac8c23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1171-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 46eb022d-926b-486d-83bd-5dfd0d010ced, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1173-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 71a6c453-2d4f-4bfb-9432-e5a5e6b73d46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1184-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 97eedf63-9def-419f-9481-11a8eb3407d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1198-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 5fe0f538-a793-4794-b378-163b12a4864b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1212-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 76fc2f5c-425e-405d-b297-046523be0f05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1214-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 79667b17-fef9-49f1-b465-35007be7870e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1216-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 24f21ea5-0fdf-4d2f-b6fc-bc3852b43c40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1230-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 14401184-5ab7-4562-8ee0-af6c98218839, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1249-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: ae997f17-6c75-4107-9b13-8819a1f5fdd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1250-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 4606a131-3fd6-4042-b79a-401583030e20, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1394-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 2a3c9638-489c-41d8-accb-5d2a1b5f4dde, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1395-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: b7ad07a2-adf8-46a9-9c61-a0e5c3c36fc2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1399-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: e6f7971c-ab0f-42ba-b033-147e65f782b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1415-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 2399da92-3099-429e-9642-db68916a2bf0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1433-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 59a81a57-4e30-43c2-a6b8-7a41e060ef05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1435-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 4ac30eff-cf32-49a8-b0a8-7279d9383add, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1446-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 7b32046c-18a5-430f-8dc7-99e2092fb3ed, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1448-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 0a28e565-bff9-4529-9a5f-9b398a93e930, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1450-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: e229cfd6-3ea9-4d7c-a331-b6513426dd3a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1452-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: e1f32f1d-f1ce-4259-8725-8022fe839fc7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
+  - {name: 17-1370-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 306370b3-eac5-4cb6-8ac8-dc98626f5004, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
+  - {name: 17-1374-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 37d79e4e-acb1-47b6-815e-60e0fe215a3d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1055,6 +1054,26 @@ proxy-groups:
       - 02-0001-SG
       - 02-0002-US
       - 02-0003-KR
+      - 02-0008-CN
+      - 02-0009-CN
+      - 02-0010-CN
+      - 02-0011-CN
+      - 02-0012-CN
+      - 02-0013-CN
+      - 02-0014-CN
+      - 02-0015-CN
+      - 02-0016-CN
+      - 02-0017-CN
+      - 02-0018-CN
+      - 02-0019-HK
+      - 02-0020-RELAY
+      - 02-0021-US
+      - 04-0121-CN
+      - 04-0122-CN
+      - 04-0123-CN
+      - 04-0124-CN
+      - 04-0125-CN
+      - 04-0126-CN
       - 04-0127-CN
       - 04-0128-CN
       - 04-0129-CN
@@ -2012,32 +2031,11 @@ proxy-groups:
       - 16-1082-CN
       - 16-1083-CN
       - 16-1084-CN
-      - 16-1085-US
       - 16-1087-CN
       - 16-1088-NOWHERE
       - 16-1089-CN
-      - 17-1151-RELAY
-      - 17-1153-RELAY
-      - 17-1171-RELAY
-      - 17-1173-RELAY
-      - 17-1184-RELAY
-      - 17-1198-RELAY
-      - 17-1212-RELAY
-      - 17-1214-RELAY
-      - 17-1216-RELAY
-      - 17-1230-RELAY
-      - 17-1249-RELAY
-      - 17-1250-RELAY
-      - 17-1394-RELAY
-      - 17-1395-RELAY
-      - 17-1399-RELAY
-      - 17-1415-RELAY
-      - 17-1433-RELAY
-      - 17-1435-RELAY
-      - 17-1446-RELAY
-      - 17-1448-RELAY
-      - 17-1450-RELAY
-      - 17-1452-RELAY
+      - 17-1370-RELAY
+      - 17-1374-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2054,6 +2052,11 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0001-SG
+      - 02-0011-CN
+      - 02-0016-CN
+      - 02-0021-US
+      - 04-0121-CN
+      - 04-0126-CN
       - 04-0131-CN
       - 04-0136-CN
       - 04-0141-CN
@@ -2244,16 +2247,15 @@ proxy-groups:
       - 16-1071-CN
       - 16-1076-CN
       - 16-1081-RELAY
-      - 17-1151-RELAY
-      - 17-1171-RELAY
-      - 17-1216-RELAY
-      - 17-1446-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 02-0002-US
+      - 02-0012-CN
+      - 02-0017-CN
+      - 04-0122-CN
       - 04-0127-CN
       - 04-0132-CN
       - 04-0137-CN
@@ -2447,14 +2449,16 @@ proxy-groups:
       - 16-1077-CN
       - 16-1082-CN
       - 16-1087-CN
-      - 17-1212-RELAY
-      - 17-1452-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 02-0003-KR
+      - 02-0008-CN
+      - 02-0013-CN
+      - 02-0018-CN
+      - 04-0123-CN
       - 04-0128-CN
       - 04-0133-CN
       - 04-0138-CN
@@ -2648,16 +2652,15 @@ proxy-groups:
       - 16-1078-CN
       - 16-1083-CN
       - 16-1088-NOWHERE
-      - 17-1153-RELAY
-      - 17-1173-RELAY
-      - 17-1198-RELAY
-      - 17-1433-RELAY
-      - 17-1448-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0009-CN
+      - 02-0014-CN
+      - 02-0019-HK
+      - 04-0124-CN
       - 04-0129-CN
       - 04-0134-CN
       - 04-0139-CN
@@ -2851,17 +2854,17 @@ proxy-groups:
       - 16-1079-US
       - 16-1084-CN
       - 16-1089-CN
-      - 17-1184-RELAY
-      - 17-1214-RELAY
-      - 17-1249-RELAY
-      - 17-1394-RELAY
-      - 17-1399-RELAY
+      - 17-1374-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - 02-0000-CN
+      - 02-0010-CN
+      - 02-0015-CN
+      - 02-0020-RELAY
+      - 04-0125-CN
       - 04-0130-CN
       - 04-0135-CN
       - 04-0140-CN
@@ -3053,13 +3056,7 @@ proxy-groups:
       - 16-1070-NOWHERE
       - 16-1075-SG
       - 16-1080-CN
-      - 16-1085-US
-      - 17-1230-RELAY
-      - 17-1250-RELAY
-      - 17-1395-RELAY
-      - 17-1415-RELAY
-      - 17-1435-RELAY
-      - 17-1450-RELAY
+      - 17-1370-RELAY
   - name: 广告拦截
     type: select
     proxies:
