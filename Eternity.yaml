@@ -616,7 +616,6 @@ proxies:
   - {name: 16-0696-CN, server: southvip1.pkyun.xyz, port: 58816, type: ss, cipher: chacha20-ietf-poly1305, password: 51631bb0-b854-4a42-afea-f3d8c24daefd, udp: true}
   - {name: 16-0697-CN, server: southvip1.pkyun.xyz, port: 58835, type: ss, cipher: chacha20-ietf-poly1305, password: 51631bb0-b854-4a42-afea-f3d8c24daefd, udp: true}
   - {name: 16-0698-CN, server: yoyo.cmyiphone.top, port: 49314, type: ss, cipher: chacha20-ietf-poly1305, password: 3282c5a4-5ca1-4940-ba50-5e0bf4f6f565, udp: true}
-  - {name: 17-1615-CN, server: southvip1.pkyun.xyz, port: 34303, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1616-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 74a8ab97-fb87-430b-818a-ab368a792992, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1617-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d2802354-1529-4a61-9756-6a168500bc06, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1618-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e710124b-8ea4-4527-8fa1-1233a568d6ad, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -626,6 +625,7 @@ proxies:
   - {name: 17-1622-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 7a835934-123b-4c45-a2a6-5fe2901e0b35, udp: true}
   - {name: 17-1623-CN, server: southvip1.pkyun.xyz, port: 34301, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1625-CN, server: southvip1.pkyun.xyz, port: 58824, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
+  - {name: 17-1626-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 21cdc003-4e54-4e5c-9369-bf13491f6e7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-1627-CN, server: southvip1.pkyun.xyz, port: 58850, type: ss, cipher: chacha20-ietf-poly1305, password: 4db6d281-36f5-4290-a1c1-51a6b5a4c3ae, udp: true}
   - {name: 17-1628-CN, server: southvip1.pkyun.xyz, port: 58853, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 18-1629-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
@@ -1229,7 +1229,6 @@ proxy-groups:
       - 16-0696-CN
       - 16-0697-CN
       - 16-0698-CN
-      - 17-1615-CN
       - 17-1616-NOWHERE
       - 17-1617-NOWHERE
       - 17-1618-NOWHERE
@@ -1239,6 +1238,7 @@ proxy-groups:
       - 17-1622-CN
       - 17-1623-CN
       - 17-1625-CN
+      - 17-1626-SG
       - 17-1627-CN
       - 17-1628-CN
       - 18-1629-RELAY
@@ -1635,7 +1635,6 @@ proxy-groups:
       - 16-0675-DE
       - 16-0685-CN
       - 16-0695-CN
-      - 17-1615-CN
       - 17-1625-CN
       - 18-1635-US
       - 18-1645-RELAY
@@ -1703,6 +1702,7 @@ proxy-groups:
       - 16-0686-US
       - 16-0696-CN
       - 17-1616-NOWHERE
+      - 17-1626-SG
       - 18-1636-DE
       - 18-1646-RELAY
   - name: 测速7分组
