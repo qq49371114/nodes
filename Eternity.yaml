@@ -54,7 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0001-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
+  - {name: 02-0000-CN, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 8886d2da-6252-468c-8e6a-6d76d0a4d5dc, udp: true}
   - {name: 02-0002-US, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0003-KR, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0005-CN, server: 2.hublink.pro, port: 40219, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
@@ -130,7 +130,7 @@ proxies:
   - {name: 04-0075-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 122fc663-2e53-3df8-9d4e-c96ef576aa94, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-0175-JP, server: 35.78.173.41, port: 443, type: trojan, password: 5ebdb343-6e56-3381-a2e2-e9978ec13cae, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0176-JP, server: 35.74.5.159, port: 443, type: trojan, password: 5ebdb343-6e56-3381-a2e2-e9978ec13cae, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0178-US, server: 103.136.185.27, port: 5535, type: trojan, password: 5ebdb343-6e56-3381-a2e2-e9978ec13cae, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0177-US, server: 34.219.248.179, port: 443, type: trojan, password: 5ebdb343-6e56-3381-a2e2-e9978ec13cae, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0179-US, server: 103.136.185.28, port: 3516, type: trojan, password: 5ebdb343-6e56-3381-a2e2-e9978ec13cae, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 08-0180-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 50d246c3-ce27-4840-a0fb-3d9d2131f031, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 08-0181-CN, server: southvip1.pkyun.xyz, port: 34001, type: ss, cipher: chacha20-ietf-poly1305, password: 12e738e5-3bea-4cb0-93eb-a33ed533fd8d, udp: true}
@@ -1050,7 +1050,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0001-SG
+      - 02-0000-CN
       - 02-0002-US
       - 02-0003-KR
       - 02-0005-CN
@@ -1126,7 +1126,7 @@ proxy-groups:
       - 04-0075-CN
       - 04-0175-JP
       - 04-0176-JP
-      - 04-0178-US
+      - 04-0177-US
       - 04-0179-US
       - 08-0180-NOWHERE
       - 08-0181-CN
@@ -2051,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0001-SG
       - 02-0006-CN
       - 02-0011-CN
       - 04-0016-RELAY
@@ -2269,6 +2268,7 @@ proxy-groups:
       - 04-0062-CN
       - 04-0067-CN
       - 04-0072-CN
+      - 04-0177-US
       - 08-0182-CN
       - 08-0187-CN
       - 08-0192-CN
@@ -2471,7 +2471,6 @@ proxy-groups:
       - 04-0063-CN
       - 04-0068-CN
       - 04-0073-CN
-      - 04-0178-US
       - 08-0183-CN
       - 08-0188-CN
       - 08-0193-CN
@@ -2860,6 +2859,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0000-CN
       - 02-0005-CN
       - 02-0010-CN
       - 04-0015-RELAY
