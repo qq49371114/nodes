@@ -58,7 +58,6 @@ proxies:
   - {name: 02-0002-US, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0003-KR, server: kr.fastsoonlink.com, port: 40032, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0005-CN, server: 2.hublink.pro, port: 40219, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 02-0006-CN, server: dozo01.flztjc.top, port: 6306, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: jp-6-559.flztjc.net, skip-cert-verify: true, udp: true}
   - {name: 02-0007-CN, server: dozo01.flztjc.top, port: 9301, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: sgp-1-546.flztjc.net, skip-cert-verify: true, udp: true}
   - {name: 02-0008-CN, server: dozo01.flztjc.top, port: 5306, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: tw-06-592.flztjc.net, skip-cert-verify: true, udp: true}
   - {name: 02-0009-CN, server: dozo01.flztjc.top, port: 6304, type: trojan, password: 069a7054-7269-554b-bfab-a7f2651f92e5, sni: jp-4-557.flztjc.net, skip-cert-verify: true, udp: true}
@@ -116,7 +115,7 @@ proxies:
   - {name: 04-0160-JP, server: 35.78.173.41, port: 443, type: trojan, password: 69397da4-d607-3415-8c77-89f89dc63030, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0161-JP, server: 35.74.5.159, port: 443, type: trojan, password: 69397da4-d607-3415-8c77-89f89dc63030, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0162-US, server: 34.219.248.179, port: 443, type: trojan, password: 69397da4-d607-3415-8c77-89f89dc63030, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0164-US, server: 103.136.185.28, port: 3516, type: trojan, password: 69397da4-d607-3415-8c77-89f89dc63030, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0163-US, server: 103.136.185.27, port: 5535, type: trojan, password: 69397da4-d607-3415-8c77-89f89dc63030, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0165-RELAY, server: s5.db-link01.top, port: 2095, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.251.149, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 04-0166-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.48.87, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0167-RELAY, server: s4.db-link01.top, port: 8880, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.122.140, headers: {Host: s4.db-link01.top}}, udp: true}
@@ -1040,6 +1039,7 @@ proxies:
   - {name: 17-1086-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: c21d83a0-c994-4c8f-81c7-32551d753dd9, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1088-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 24f21ea5-0fdf-4d2f-b6fc-bc3852b43c40, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
   - {name: 17-1089-CN, server: southvip1.pkyun.xyz, port: 58845, type: ss, cipher: chacha20-ietf-poly1305, password: b6ff6eee-1f3f-4afe-985f-a3c326e30ad6, udp: true}
+  - {name: 18-1487-SE, server: 176.124.202.137, port: 81, type: ss, cipher: chacha20-ietf-poly1305, password: a0605527-28e4-449c-80ee-5642cc16a8af, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1054,7 +1054,6 @@ proxy-groups:
       - 02-0002-US
       - 02-0003-KR
       - 02-0005-CN
-      - 02-0006-CN
       - 02-0007-CN
       - 02-0008-CN
       - 02-0009-CN
@@ -1112,7 +1111,7 @@ proxy-groups:
       - 04-0160-JP
       - 04-0161-JP
       - 04-0162-US
-      - 04-0164-US
+      - 04-0163-US
       - 04-0165-RELAY
       - 04-0166-RELAY
       - 04-0167-RELAY
@@ -2036,6 +2035,7 @@ proxy-groups:
       - 17-1086-NOWHERE
       - 17-1088-RELAY
       - 17-1089-CN
+      - 18-1487-SE
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2051,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0006-CN
       - 02-0011-CN
       - 04-0116-CN
       - 04-0121-CN
@@ -2449,6 +2448,7 @@ proxy-groups:
       - 17-1072-CN
       - 17-1077-CN
       - 17-1082-DE
+      - 18-1487-SE
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2466,6 +2466,7 @@ proxy-groups:
       - 04-0148-CN
       - 04-0153-CN
       - 04-0158-CN
+      - 04-0163-US
       - 04-0168-RELAY
       - 04-0173-CN
       - 04-0178-CN
@@ -2668,7 +2669,6 @@ proxy-groups:
       - 04-0149-CN
       - 04-0154-CN
       - 04-0159-CN
-      - 04-0164-US
       - 04-0169-RELAY
       - 04-0174-CN
       - 04-0179-CN
