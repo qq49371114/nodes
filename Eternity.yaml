@@ -826,6 +826,7 @@ proxies:
   - {name: 16-0871-CN, server: yoyo.cmyiphone.top, port: 49314, type: ss, cipher: chacha20-ietf-poly1305, password: e54d1000-17e6-4f46-8937-6f6b164cea9e, udp: true}
   - {name: 16-0872-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: d1a2122a-c141-45e5-ac39-617ebcda7b77, udp: true}
   - {name: 16-0873-CN, server: yoyo.cmyiphone.top, port: 49319, type: ss, cipher: chacha20-ietf-poly1305, password: 7a2fc5f5-61f5-4792-bbab-96a531668da3, udp: true}
+  - {name: 16-0874-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 7898a9d5-ad7b-490f-baa9-2bcdd58ffdee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
   - {name: 16-0875-RELAY, server: cf1.yunduanjc.top, port: 2082, type: vmess, uuid: 6831525a-b706-4fdc-9652-3e32f6abd3b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf1.yunduanjc.top}}, udp: true}
   - {name: 16-0876-CN, server: southvip1.pkyun.xyz, port: 58841, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-0877-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 7d8a0801-bff9-4901-b503-401b962c9505, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -1019,7 +1020,6 @@ proxies:
   - {name: 17-1065-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 46eb022d-926b-486d-83bd-5dfd0d010ced, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
   - {name: 17-1066-CN, server: southvip1.pkyun.xyz, port: 58828, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1067-RELAY, server: iqdpduvc.whmvmkwuey.store, port: 443, type: vmess, uuid: 71a6c453-2d4f-4bfb-9432-e5a5e6b73d46, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: iqdpduvc.whmvmkwuey.store}}, udp: true}
-  - {name: 17-1068-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 272c6512-8d6d-4b65-838e-1452df1ed4fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1069-CN, server: southvip1.pkyun.xyz, port: 58813, type: ss, cipher: chacha20-ietf-poly1305, password: 8a979634-9397-46f2-9896-77a298a994c9, udp: true}
   - {name: 17-1070-CN, server: southvip1.pkyun.xyz, port: 58840, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1071-CN, server: southvip1.pkyun.xyz, port: 58811, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
@@ -1040,7 +1040,6 @@ proxies:
   - {name: 17-1087-RELAY, server: cf1.yunduanjc.top, port: 2082, type: vmess, uuid: 6810df0c-32da-4b64-a891-ee21160e7133, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: cf1.yunduanjc.top}}, udp: true}
   - {name: 17-1088-CN, server: southvip1.pkyun.xyz, port: 58833, type: ss, cipher: chacha20-ietf-poly1305, password: 2dea86e5-ea4a-409d-bdfa-46ebc60d6930, udp: true}
   - {name: 17-1089-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 25be1a61-f9cd-4e4b-8e9d-3745c3e9bb26, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 18-1476-SE, server: 176.124.202.137, port: 81, type: ss, cipher: chacha20-ietf-poly1305, password: a0605527-28e4-449c-80ee-5642cc16a8af, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1823,6 +1822,7 @@ proxy-groups:
       - 16-0871-CN
       - 16-0872-CN
       - 16-0873-CN
+      - 16-0874-RELAY
       - 16-0875-RELAY
       - 16-0876-CN
       - 16-0877-SG
@@ -2016,7 +2016,6 @@ proxy-groups:
       - 17-1065-RELAY
       - 17-1066-CN
       - 17-1067-RELAY
-      - 17-1068-US
       - 17-1069-CN
       - 17-1070-CN
       - 17-1071-CN
@@ -2037,7 +2036,6 @@ proxy-groups:
       - 17-1087-RELAY
       - 17-1088-CN
       - 17-1089-NOWHERE
-      - 18-1476-SE
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2250,7 +2248,6 @@ proxy-groups:
       - 17-1076-DE
       - 17-1081-CN
       - 17-1086-NOWHERE
-      - 18-1476-SE
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2652,7 +2649,6 @@ proxy-groups:
       - 17-1053-CN
       - 17-1058-CN
       - 17-1063-US
-      - 17-1068-US
       - 17-1073-RELAY
       - 17-1078-RELAY
       - 17-1083-CN
@@ -2815,6 +2811,7 @@ proxy-groups:
       - 16-0859-CN
       - 16-0864-CN
       - 16-0869-RELAY
+      - 16-0874-RELAY
       - 16-0879-CN
       - 16-0884-CN
       - 16-0889-CN
