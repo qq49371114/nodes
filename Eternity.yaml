@@ -54,7 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-CN, server: cn05.closeai.one, port: 8126, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: 02-0001-CN, server: mdss-hk.04z3susick.download, port: 12008, type: ss, cipher: aes-128-gcm, password: 6419ff34-6c3e-4cbf-b58b-b6bb34e1ccff, udp: true}
   - {name: 02-0002-CN, server: cn05.closeai.one, port: 8124, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0003-CN, server: cn01.closeai.one, port: 8103, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0004-CN, server: cn10.closeai.one, port: 8303, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
@@ -63,6 +63,7 @@ proxies:
   - {name: 02-0007-CN, server: cn08.closeai.one, port: 8213, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0008-CN, server: cn06.closeai.one, port: 8205, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0009-CN, server: cn06.closeai.one, port: 8204, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
+  - {name: 02-0010-CN, server: cn06.closeai.one, port: 8233, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0011-CN, server: cn09.closeai.one, port: 8214, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0012-CN, server: cn08.closeai.one, port: 8210, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
   - {name: 02-0013-CN, server: cn09.closeai.one, port: 8217, type: ssr, cipher: chacha20-ietf, password: passwd, protocol: origin, obfs: http_simple, protocol-param: "", obfs-param: 18104-oDTLA)27x8on9..download.microsoft.com, udp: true}
@@ -1039,7 +1040,6 @@ proxies:
   - {name: 16-1085-RELAY, server: visa.com, port: 443, type: vmess, uuid: d0f8eb24-0cbb-483a-8657-f9766797b16e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-1086-CN, server: southvip1.pkyun.xyz, port: 58854, type: ss, cipher: chacha20-ietf-poly1305, password: 2a2861d1-5f38-4963-963b-54af1f6b48c0, udp: true}
   - {name: 16-1087-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 1ac155f4-f3b2-4ef2-84f9-7b37ef72162a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 18-1650-SE, server: 176.124.202.137, port: 81, type: ss, cipher: chacha20-ietf-poly1305, password: a0605527-28e4-449c-80ee-5642cc16a8af, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1050,7 +1050,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0000-CN
+      - 02-0001-CN
       - 02-0002-CN
       - 02-0003-CN
       - 02-0004-CN
@@ -1059,6 +1059,7 @@ proxy-groups:
       - 02-0007-CN
       - 02-0008-CN
       - 02-0009-CN
+      - 02-0010-CN
       - 02-0011-CN
       - 02-0012-CN
       - 02-0013-CN
@@ -2035,7 +2036,6 @@ proxy-groups:
       - 16-1085-RELAY
       - 16-1086-CN
       - 16-1087-DE
-      - 18-1650-SE
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2051,6 +2051,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0001-CN
       - 02-0006-CN
       - 02-0011-CN
       - 02-0016-CN
@@ -2860,8 +2861,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-CN
       - 02-0005-CN
+      - 02-0010-CN
       - 02-0015-CN
       - 02-0020-CN
       - 02-0025-CN
@@ -3056,7 +3057,6 @@ proxy-groups:
       - 16-1075-US
       - 16-1080-RELAY
       - 16-1085-RELAY
-      - 18-1650-SE
   - name: 广告拦截
     type: select
     proxies:
