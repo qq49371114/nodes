@@ -107,7 +107,6 @@ proxies:
   - {name: 04-0157-CN, server: gy.58n.net, port: 20304, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0158-CN, server: gy.58n.net, port: 20305, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0159-CN, server: gy.58n.net, port: 20306, type: trojan, password: 2003f679-24aa-3ad9-b56e-90bcfdaf4e2b, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
-  - {name: 04-0160-JP, server: 35.78.173.41, port: 443, type: trojan, password: 69397da4-d607-3415-8c77-89f89dc63030, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0165-RELAY, server: s5.db-link01.top, port: 2095, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.251.149, headers: {Host: s5.db-link01.top}}, udp: true}
   - {name: 04-0166-RELAY, server: s1.db-link01.top, port: 2082, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.48.87, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0167-RELAY, server: s4.db-link01.top, port: 8880, type: vmess, uuid: f2d8c67a-0117-3896-a6fa-8beb5adea16c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.122.140, headers: {Host: s4.db-link01.top}}, udp: true}
@@ -638,6 +637,7 @@ proxies:
   - {name: 16-0697-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
   - {name: 16-0698-CN, server: yoyo.cmyiphone.top, port: 49311, type: ss, cipher: chacha20-ietf-poly1305, password: 3282c5a4-5ca1-4940-ba50-5e0bf4f6f565, udp: true}
   - {name: 16-0699-CN, server: southvip1.pkyun.xyz, port: 58801, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
+  - {name: 18-1496-RELAY, server: 104.17.221.248, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1497-RELAY, server: 198.41.209.70, port: 80, type: vmess, uuid: e6543319-0574-42ac-b778-1c4325d626f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-1498-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-1499-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f16b60f9-562c-46af-b420-5a8d71a9267b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
@@ -720,7 +720,6 @@ proxy-groups:
       - 04-0157-CN
       - 04-0158-CN
       - 04-0159-CN
-      - 04-0160-JP
       - 04-0165-RELAY
       - 04-0166-RELAY
       - 04-0167-RELAY
@@ -1251,6 +1250,7 @@ proxy-groups:
       - 16-0697-CN
       - 16-0698-CN
       - 16-0699-CN
+      - 18-1496-RELAY
       - 18-1497-RELAY
       - 18-1498-RELAY
       - 18-1499-DE
@@ -1698,6 +1698,7 @@ proxy-groups:
       - 16-0676-CN
       - 16-0686-CN
       - 16-0696-DE
+      - 18-1496-RELAY
       - 18-1506-RELAY
   - name: 测速7分组
     type: url-test
@@ -1911,7 +1912,6 @@ proxy-groups:
       - 04-0130-CN
       - 04-0140-CN
       - 04-0150-CN
-      - 04-0160-JP
       - 04-0170-RELAY
       - 04-0180-CN
       - 08-0190-CN
