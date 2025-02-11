@@ -34,7 +34,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NWFiZGIxYy0xY2RmLTQ2MzAtYTMyYi04YWU1NjZiNDhjMDA@us.fastsoonlink.com:40001#02-0002-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NWFiZGIxYy0xY2RmLTQ2MzAtYTMyYi04YWU1NjZiNDhjMDA@kr.fastsoonlink.com:40032#02-0003-KR
     ssr://Mi5odWJsaW5rLnBybzo0MDIxOTphdXRoX2FlczEyOF9tZDU6cmM0LW1kNTpwbGFpbjpSVTVhTlRKTC8_Z3JvdXA9VTFOU1VISnZkbWxrWlhJJnJlbWFya3M9TURJdE1EQXdOUzFEVGcmb2Jmc3BhcmFtPVkyUXlZalk1TWprd01pNDJOakF5WWpnME5qTTBOalF4TURnMU1EWXViV2xqY205emIyWjBMbU52YlEmcHJvdG9wYXJhbT1PVEk1TURJNmNFWlhSMDlS
-    trojan://069a7054-7269-554b-bfab-a7f2651f92e5@dozo01.flztjc.top:6306?allowInsecure=1&sni=jp-6-559.flztjc.net#02-0006-CN
     trojan://069a7054-7269-554b-bfab-a7f2651f92e5@dozo01.flztjc.top:9301?allowInsecure=1&sni=sgp-1-546.flztjc.net#02-0007-CN
     trojan://069a7054-7269-554b-bfab-a7f2651f92e5@dozo01.flztjc.top:5306?allowInsecure=1&sni=tw-06-592.flztjc.net#02-0008-CN
     trojan://069a7054-7269-554b-bfab-a7f2651f92e5@dozo01.flztjc.top:6304?allowInsecure=1&sni=jp-4-557.flztjc.net#02-0009-CN
@@ -92,7 +91,7 @@ Fork from TopFreeProxies.
     trojan://69397da4-d607-3415-8c77-89f89dc63030@35.78.173.41:443?allowInsecure=1&sni=www.microsoft365.com#04-0160-JP
     trojan://69397da4-d607-3415-8c77-89f89dc63030@35.74.5.159:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-0161-JP
     trojan://69397da4-d607-3415-8c77-89f89dc63030@34.219.248.179:443?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-0162-US
-    trojan://69397da4-d607-3415-8c77-89f89dc63030@103.136.185.28:3516?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-0164-US
+    trojan://69397da4-d607-3415-8c77-89f89dc63030@103.136.185.27:5535?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-0163-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE2NS1SRUxBWSIsImFkZCI6InM1LmRiLWxpbmswMS50b3AiLCJwb3J0IjoiMjA5NSIsInR5cGUiOiJub25lIiwiaWQiOiJmMmQ4YzY3YS0wMTE3LTM4OTYtYTZmYS04YmViNWFkZWExNmMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjIxLjI1MS4xNDkiLCJob3N0IjoiczUuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE2Ni1SRUxBWSIsImFkZCI6InMxLmRiLWxpbmswMS50b3AiLCJwb3J0IjoiMjA4MiIsInR5cGUiOiJub25lIiwiaWQiOiJmMmQ4YzY3YS0wMTE3LTM4OTYtYTZmYS04YmViNWFkZWExNmMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTcyLjY3LjQ4Ljg3IiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDE2Ny1SRUxBWSIsImFkZCI6InM0LmRiLWxpbmswMS50b3AiLCJwb3J0IjoiODg4MCIsInR5cGUiOiJub25lIiwiaWQiOiJmMmQ4YzY3YS0wMTE3LTM4OTYtYTZmYS04YmViNWFkZWExNmMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2RhYmFpLmluMTA0LjI0LjEyMi4xNDAiLCJob3N0IjoiczQuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
@@ -1016,6 +1015,7 @@ Fork from TopFreeProxies.
     trojan://c21d83a0-c994-4c8f-81c7-32551d753dd9@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-1086-NOWHERE
     vmess://eyJ2IjoiMiIsInBzIjoiMTctMTA4OC1SRUxBWSIsImFkZCI6ImlxZHBkdXZjLndobXZta3d1ZXkuc3RvcmUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjI0ZjIxZWE1LTBmZGYtNGQyZi1iNmZjLWJjMzg1MmI0M2M0MCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImlxZHBkdXZjLndobXZta3d1ZXkuc3RvcmUiLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNmZmNmVlZS0xZjNmLTRhZmUtOTg1Zi1hM2MzMjZlMzBhZDY@southvip1.pkyun.xyz:58845#17-1089-CN
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphMDYwNTUyNy0yOGU0LTQ0OWMtODBlZS01NjQyY2MxNmE4YWY@176.124.202.137:81#18-1487-SE
     
 
 
