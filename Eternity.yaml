@@ -385,7 +385,6 @@ proxies:
   - {name: 12-0438-RELAY, server: visa.com, port: 443, type: vmess, uuid: 05e853e4-8276-465d-b8af-444f7af21246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 12-0439-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 05e853e4-8276-465d-b8af-444f7af21246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 12-0440-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 05e853e4-8276-465d-b8af-444f7af21246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
-  - {name: 12-0441-JP, server: 1-osaka-p.aboutanime.eu.org, port: 23451, type: vmess, uuid: 05e853e4-8276-465d-b8af-444f7af21246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1-osaka-p.aboutanime.eu.org}}, udp: true}
   - {name: 12-0442-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 05e853e4-8276-465d-b8af-444f7af21246, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 12-0443-NOWHERE, server: fgukeyky.whmvmkwuey.store, port: 443, type: vmess, uuid: f9588fd4-a28b-4aef-b725-4aca44a68764, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fgukeyky.whmvmkwuey.store}}, udp: true}
   - {name: 12-0444-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 85c77132-ba7e-4893-b2e2-2afaf2c45ae8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -636,6 +635,7 @@ proxies:
   - {name: 16-0691-CN, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
   - {name: 16-0692-CN, server: chiyu.myfczy169.top, port: 37958, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
   - {name: 16-0693-CN, server: chiyu.myfczy169.top, port: 41512, type: ss, cipher: chacha20-ietf-poly1305, password: 3021f945-f078-4635-adc6-185d3152e0a1, udp: true}
+  - {name: 16-0694-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: c58c24f4-56a6-452f-bb13-b1781cf11b6e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-0695-CN, server: southvip1.pkyun.xyz, port: 58847, type: ss, cipher: chacha20-ietf-poly1305, password: 25d24806-25c0-4470-80c6-34736bdf23d4, udp: true}
   - {name: 16-0696-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 09a24222-b1e9-4c02-aea9-0fccac77c09c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0697-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: 8204fe3a-300d-433c-8a97-e605e57dc097, udp: true}
@@ -998,7 +998,6 @@ proxy-groups:
       - 12-0438-RELAY
       - 12-0439-DE
       - 12-0440-SG
-      - 12-0441-JP
       - 12-0442-US
       - 12-0443-NOWHERE
       - 12-0444-NOWHERE
@@ -1249,6 +1248,7 @@ proxy-groups:
       - 16-0691-CN
       - 16-0692-CN
       - 16-0693-CN
+      - 16-0694-SG
       - 16-0695-CN
       - 16-0696-DE
       - 16-0697-CN
@@ -1349,7 +1349,6 @@ proxy-groups:
       - 11-0411-CN
       - 11-0421-CN
       - 11-0431-CN
-      - 12-0441-JP
       - 12-0451-CN
       - 12-0461-CN
       - 12-0471-CN
@@ -1569,6 +1568,7 @@ proxy-groups:
       - 16-0664-CN
       - 16-0674-CN
       - 16-0684-CN
+      - 16-0694-SG
       - 18-1504-RELAY
   - name: 测速5分组
     type: url-test
