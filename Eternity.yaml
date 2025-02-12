@@ -102,6 +102,7 @@ proxies:
   - {name: 04-0149-CN, server: gy.58n.net, port: 20304, type: trojan, password: 2992fcf9-4dbd-37e6-8f7b-ff7d6241e740, sni: z304.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0150-CN, server: gy.58n.net, port: 20305, type: trojan, password: 2992fcf9-4dbd-37e6-8f7b-ff7d6241e740, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-0151-CN, server: gy.58n.net, port: 20306, type: trojan, password: 2992fcf9-4dbd-37e6-8f7b-ff7d6241e740, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
+  - {name: 04-0152-JP, server: 35.78.173.41, port: 443, type: trojan, password: 752bfa49-7e63-3129-9843-87192a42cd07, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0157-RELAY, server: s3.cn-db.top, port: 2052, type: vmess, uuid: d95d43f6-6eb5-3da9-9b20-de95536371bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.3.104, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-0158-RELAY, server: s3.db-link01.top, port: 2086, type: vmess, uuid: d95d43f6-6eb5-3da9-9b20-de95536371bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.244.244, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-0159-RELAY, server: s4.db-link02.top, port: 2052, type: vmess, uuid: d95d43f6-6eb5-3da9-9b20-de95536371bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.16.206, headers: {Host: s4.db-link02.top}}, udp: true}
@@ -630,7 +631,6 @@ proxies:
   - {name: 16-0684-CN, server: southvip1.pkyun.xyz, port: 58841, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0685-CN, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 87c2a03d-db17-4b4f-9ecc-bceed43c9a3e, udp: true}
   - {name: 16-0686-RELAY, server: visa.com, port: 443, type: vmess, uuid: 1151bfd3-cf3f-4065-9f8e-35c6fef1052d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 16-0687-RELAY, server: ezpaselv.whmvmkwuey.store, port: 443, type: vmess, uuid: 9986dee4-d63e-43dd-98fe-4fe186a2d314, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezpaselv.whmvmkwuey.store}}, udp: true}
   - {name: 16-0688-CN, server: chiyu.myfczy169.top, port: 19161, type: ss, cipher: chacha20-ietf-poly1305, password: 61655d04-4585-42cf-9a2e-db3df88dfdb2, udp: true}
   - {name: 16-0689-CN, server: southvip1.pkyun.xyz, port: 58819, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-0690-CN, server: southvip1.pkyun.xyz, port: 58840, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
@@ -715,6 +715,7 @@ proxy-groups:
       - 04-0149-CN
       - 04-0150-CN
       - 04-0151-CN
+      - 04-0152-JP
       - 04-0157-RELAY
       - 04-0158-RELAY
       - 04-0159-RELAY
@@ -1243,7 +1244,6 @@ proxy-groups:
       - 16-0684-CN
       - 16-0685-CN
       - 16-0686-RELAY
-      - 16-0687-RELAY
       - 16-0688-CN
       - 16-0689-CN
       - 16-0690-CN
@@ -1388,6 +1388,7 @@ proxy-groups:
       - 04-0122-CN
       - 04-0132-CN
       - 04-0142-CN
+      - 04-0152-JP
       - 04-0162-RELAY
       - 04-0172-CN
       - 08-0182-CN
@@ -1765,7 +1766,6 @@ proxy-groups:
       - 16-0657-RELAY
       - 16-0667-US
       - 16-0677-CN
-      - 16-0687-RELAY
       - 18-1467-RELAY
   - name: 测速8分组
     type: url-test
