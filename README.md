@@ -549,6 +549,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNmM2Y2I5YS1iZWExLTQ5YWUtOWY3Yy04N2M4YjMyNjUxMjI@gy.666666222.shop:20013#16-0617-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDYxOC1SRUxBWSIsImFkZCI6InZpc2EuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwZGJmODE5Mi1mZTYzLTRhZGUtOWE0NS1iNDY0N2JmYjZjY2UiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2aXNhLmNvbSIsInRscyI6IiJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ODMxZDNjOC0wODk3LTRiMjAtOTVkZS0xMzFiYzgyNTk0YzQ@southvip1.pkyun.xyz:34303#16-0619-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMTYtMDYyMC1SRUxBWSIsImFkZCI6ImV6cGFzZWx2LndobXZta3d1ZXkuc3RvcmUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjY0ZDRiMGIyLTQwYTQtNGU1Zi04ZTA1LWMxYWY3MzUxY2E3NiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImV6cGFzZWx2LndobXZta3d1ZXkuc3RvcmUiLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NmY2MWFlYy1lNTNmLTQyYTEtYjU4NC1kNDExNjVlNGFhNjc@southvip1.pkyun.xyz:58835#16-0621-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ODMxZDNjOC0wODk3LTRiMjAtOTVkZS0xMzFiYzgyNTk0YzQ@southvip1.pkyun.xyz:58832#16-0622-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NmY2MWFlYy1lNTNmLTQyYTEtYjU4NC1kNDExNjVlNGFhNjc@southvip1.pkyun.xyz:58827#16-0623-CN
@@ -942,7 +943,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NWU0OTgwYy05ZTVkLTQ4ZDAtOTRkNi0zN2IwZTdhODZiYmM@southvip1.pkyun.xyz:58821#16-1011-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTAxMi1VUyIsImFkZCI6InNoaGgwMDEub3JhY2xlbmF0LmNjIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjBjY2M1OTM2LTExNTktNGIzZi1hYzZkLWNlODdjZTUwMWU0MyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InNoaGgwMDEub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NWU0OTgwYy05ZTVkLTQ4ZDAtOTRkNi0zN2IwZTdhODZiYmM@southvip1.pkyun.xyz:58820#16-1013-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTAxNC1SRUxBWSIsImFkZCI6ImV6cGFzZWx2LndobXZta3d1ZXkuc3RvcmUiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImM2NTk1OWEwLTE2MmYtNGMzOS1hMThkLWMwYzg2OTBjNDQ3OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImV6cGFzZWx2LndobXZta3d1ZXkuc3RvcmUiLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNDY4ZGRiNC1mMDZmLTRhMTAtYmUyYi0yYjg5NTE2OTliNmM@jg647hf446ghvw.eucs.cn:49709#16-1015-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTAxNi1TRyIsImFkZCI6Indlc3RzZzItZGRucy5vcmFjbGVuYXQuY2MiLCJwb3J0IjoiMjM0NTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMTE1MWJmZDMtY2YzZi00MDY1LTlmOGUtMzVjNmZlZjEwNTJkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoid2VzdHNnMi1kZG5zLm9yYWNsZW5hdC5jYyIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMTAxNy1SRUxBWSIsImFkZCI6InZpc2EuY29tIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiI1OWRhZmIyZC00NzVlLTQ1NjMtYWVmMy0zNTRkYmI4OThhNjciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ2aXNhLmNvbSIsInRscyI6IiJ9
@@ -1023,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1468`
+合并节点总数: `1467`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1468`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1467`
 
 
 ## 仓库声明
