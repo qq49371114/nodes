@@ -102,7 +102,7 @@ Fork from TopFreeProxies.
     trojan://62383e1c-9c2b-351b-b6eb-895fa5196572@35.77.198.143:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-0169-JP
     trojan://62383e1c-9c2b-351b-b6eb-895fa5196572@35.74.5.159:443?allowInsecure=1&sni=steampipe.akamaized.net#04-0170-JP
     trojan://62383e1c-9c2b-351b-b6eb-895fa5196572@34.219.248.179:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-0171-US
-    trojan://62383e1c-9c2b-351b-b6eb-895fa5196572@103.136.185.27:5535?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-0172-US
+    trojan://62383e1c-9c2b-351b-b6eb-895fa5196572@103.136.185.28:3516?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-0173-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNGE5ZTNiZi1lYzUwLTQ2M2QtYTg5Ny1hZGVmNWY3NjY1NjQ@gy.666666222.shop:20032#08-0174-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNGE5ZTNiZi1lYzUwLTQ2M2QtYTg5Ny1hZGVmNWY3NjY1NjQ@gy.666666222.shop:47564#08-0175-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNGE5ZTNiZi1lYzUwLTQ2M2QtYTg5Ny1hZGVmNWY3NjY1NjQ@gy.666666222.shop:20002#08-0176-CN
@@ -1022,11 +1022,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1514`
+合并节点总数: `1516`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1514`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1516`
 
 
 ## 仓库声明
