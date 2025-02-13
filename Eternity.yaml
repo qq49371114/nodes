@@ -54,7 +54,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0001-CN, server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com, port: 52149, type: ss, cipher: chacha20-ietf-poly1305, password: 7c28b43c-41c4-4af1-81c4-48690133d1cd, udp: true}
   - {name: 02-0002-CN, server: js.wnwwv.cn, port: 28029, type: ss, cipher: aes-128-gcm, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
   - {name: 02-0003-CN, server: js.wnwwv.cn, port: 41895, type: ss, cipher: aes-128-gcm, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
   - {name: 02-0004-AU, server: frk.fastsoonlink.com, port: 40011, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
@@ -125,7 +124,7 @@ proxies:
   - {name: 04-0069-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 8682b4b7-9d36-3a39-8a02-a11b5ade98e6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-0169-JP, server: 35.77.198.143, port: 443, type: trojan, password: 1cc6a422-df2f-3ff0-82e1-e8ce958c18b4, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0170-JP, server: 35.74.5.159, port: 443, type: trojan, password: 1cc6a422-df2f-3ff0-82e1-e8ce958c18b4, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0172-US, server: 103.136.185.27, port: 5535, type: trojan, password: 1cc6a422-df2f-3ff0-82e1-e8ce958c18b4, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0171-US, server: 54.203.165.227, port: 443, type: trojan, password: 1cc6a422-df2f-3ff0-82e1-e8ce958c18b4, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0173-US, server: 103.136.185.28, port: 3516, type: trojan, password: 1cc6a422-df2f-3ff0-82e1-e8ce958c18b4, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 08-0174-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 13369ed2-7a95-4423-a3a6-b326719daaf2, udp: true}
   - {name: 08-0175-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 13369ed2-7a95-4423-a3a6-b326719daaf2, udp: true}
@@ -1040,6 +1039,7 @@ proxies:
   - {name: 16-1085-CN, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: f92fa4f4-d6c6-4d7b-8222-597281f9938c, udp: true}
   - {name: 16-1086-CN, server: southvip1.pkyun.xyz, port: 34103, type: ss, cipher: chacha20-ietf-poly1305, password: e5dab882-cb8a-47cb-ab44-b7a2ec17698d, udp: true}
   - {name: 16-1087-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: be541f49-fe27-4bde-9761-8d6831271b1f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 17-1458-RELAY, server: zghoeouy.whmvmkwuey.store, port: 443, type: vmess, uuid: 2b0241b8-e617-453c-8393-a3f37e89108f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zghoeouy.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1050,7 +1050,6 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0001-CN
       - 02-0002-CN
       - 02-0003-CN
       - 02-0004-AU
@@ -1121,7 +1120,7 @@ proxy-groups:
       - 04-0069-CN
       - 04-0169-JP
       - 04-0170-JP
-      - 04-0172-US
+      - 04-0171-US
       - 04-0173-US
       - 08-0174-CN
       - 08-0175-CN
@@ -2036,6 +2035,7 @@ proxy-groups:
       - 16-1085-CN
       - 16-1086-CN
       - 16-1087-DE
+      - 17-1458-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2051,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0001-CN
       - 02-0006-US
       - 04-0011-RELAY
       - 04-0016-CN
@@ -2065,6 +2064,7 @@ proxy-groups:
       - 04-0056-CN
       - 04-0061-CN
       - 04-0066-CN
+      - 04-0171-US
       - 08-0176-CN
       - 08-0181-CN
       - 08-0186-CN
@@ -2267,7 +2267,6 @@ proxy-groups:
       - 04-0057-CN
       - 04-0062-CN
       - 04-0067-CN
-      - 04-0172-US
       - 08-0177-CN
       - 08-0182-NOWHERE
       - 08-0187-CN
@@ -2652,6 +2651,7 @@ proxy-groups:
       - 16-1073-CN
       - 16-1078-RELAY
       - 16-1083-DE
+      - 17-1458-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
