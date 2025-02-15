@@ -54,9 +54,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0001-CN, server: 0.o.0.cdn-node.ss.one.57.gmaes-cdn-usercontent.com, port: 52149, type: ss, cipher: chacha20-ietf-poly1305, password: 7c28b43c-41c4-4af1-81c4-48690133d1cd, udp: true}
-  - {name: 02-0002-CN, server: js.wnwwv.cn, port: 28029, type: ss, cipher: aes-128-gcm, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
-  - {name: 02-0003-CN, server: js.wnwwv.cn, port: 41895, type: ss, cipher: aes-128-gcm, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
   - {name: 02-0004-AU, server: frk.fastsoonlink.com, port: 40011, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0005-CN, server: js.wnwwv.cn, port: 27436, type: ss, cipher: chacha20-ietf-poly1305, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
   - {name: 02-0006-US, server: 38.11.50.72, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1737194780660}, udp: true}
@@ -125,8 +122,8 @@ proxies:
   - {name: 04-0069-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: be39dff7-2d6a-317a-9b94-333d1d1eac30, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-0169-JP, server: 35.77.198.143, port: 443, type: trojan, password: db560f34-688b-3a19-81d4-315ae24dc82c, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0170-JP, server: 35.74.5.159, port: 443, type: trojan, password: db560f34-688b-3a19-81d4-315ae24dc82c, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0171-US, server: 54.203.165.227, port: 443, type: trojan, password: db560f34-688b-3a19-81d4-315ae24dc82c, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0172-US, server: 103.136.185.27, port: 5535, type: trojan, password: db560f34-688b-3a19-81d4-315ae24dc82c, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0173-US, server: 103.136.185.28, port: 3516, type: trojan, password: db560f34-688b-3a19-81d4-315ae24dc82c, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 08-0174-CN, server: ct1.notinsmingrsfsorg.lol, port: 51892, type: ss, cipher: chacha20-ietf-poly1305, password: 9608ed79-ca35-4466-a07c-1d3589d84e76, udp: true}
   - {name: 08-0175-CN, server: ct1.notinsmingrsfsorg.lol, port: 51893, type: ss, cipher: chacha20-ietf-poly1305, password: 9608ed79-ca35-4466-a07c-1d3589d84e76, udp: true}
   - {name: 08-0176-CN, server: ct1.notinsmingrsfsorg.lol, port: 51894, type: ss, cipher: chacha20-ietf-poly1305, password: 9608ed79-ca35-4466-a07c-1d3589d84e76, udp: true}
@@ -1025,6 +1022,7 @@ proxies:
   - {name: 16-1069-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: fc7bd112-9154-42f6-baa2-e7254dd75293, udp: true}
   - {name: 16-1070-CN, server: chiyu.myfczy169.top, port: 22834, type: ss, cipher: chacha20-ietf-poly1305, password: 05b7c55a-f774-46b2-983f-3c0c641a0d2b, udp: true}
   - {name: 16-1071-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 4e949627-d0c5-452d-9740-502a9c59459f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
+  - {name: 16-1072-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: b2df6953-f656-44eb-ae0d-ab3ca7a28afd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-1073-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 947e49a8-344c-4cac-adb2-1ef45bb8c1b4, udp: true}
   - {name: 16-1074-RELAY, server: kvctjruk.whmvmkwuey.store, port: 443, type: vmess, uuid: 12ffd7c9-b29c-478e-a06f-95701701a2af, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kvctjruk.whmvmkwuey.store}}, udp: true}
   - {name: 16-1075-CN, server: chiyu.myfczy169.top, port: 26480, type: ss, cipher: chacha20-ietf-poly1305, password: 05b7c55a-f774-46b2-983f-3c0c641a0d2b, udp: true}
@@ -1040,6 +1038,8 @@ proxies:
   - {name: 16-1085-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 71622500-265f-4a1b-ba9e-e068f6408f6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-1087-CN, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: 05b7c55a-f774-46b2-983f-3c0c641a0d2b, udp: true}
   - {name: 16-1088-CN, server: southvip1.pkyun.xyz, port: 34401, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
+  - {name: 17-1336-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 884fd35b-be21-4ed3-93aa-dd81c3f76b67, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 17-1365-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: e0375875-9029-487f-8114-cc52fd52e934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1050,9 +1050,6 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0001-CN
-      - 02-0002-CN
-      - 02-0003-CN
       - 02-0004-AU
       - 02-0005-CN
       - 02-0006-US
@@ -1121,8 +1118,8 @@ proxy-groups:
       - 04-0069-CN
       - 04-0169-JP
       - 04-0170-JP
+      - 04-0171-US
       - 04-0172-US
-      - 04-0173-US
       - 08-0174-CN
       - 08-0175-CN
       - 08-0176-CN
@@ -2021,6 +2018,7 @@ proxy-groups:
       - 16-1069-CN
       - 16-1070-CN
       - 16-1071-US
+      - 16-1072-SG
       - 16-1073-CN
       - 16-1074-RELAY
       - 16-1075-CN
@@ -2036,6 +2034,8 @@ proxy-groups:
       - 16-1085-DE
       - 16-1087-CN
       - 16-1088-CN
+      - 17-1336-SG
+      - 17-1365-SG
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2051,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0001-CN
       - 02-0006-US
       - 04-0011-RELAY
       - 04-0016-CN
@@ -2065,6 +2064,7 @@ proxy-groups:
       - 04-0056-CN
       - 04-0061-CN
       - 04-0066-CN
+      - 04-0171-US
       - 08-0176-CN
       - 08-0181-CN
       - 08-0186-CN
@@ -2247,12 +2247,12 @@ proxy-groups:
       - 16-1071-US
       - 16-1076-CN
       - 16-1081-CN
+      - 17-1336-SG
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0002-CN
       - 04-0007-RELAY
       - 04-0012-RELAY
       - 04-0017-CN
@@ -2446,6 +2446,7 @@ proxy-groups:
       - 16-1057-RELAY
       - 16-1062-CN
       - 16-1067-RELAY
+      - 16-1072-SG
       - 16-1077-CN
       - 16-1082-CN
       - 16-1087-CN
@@ -2454,7 +2455,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0003-CN
       - 04-0008-RELAY
       - 04-0013-RELAY
       - 04-0018-CN
@@ -2468,7 +2468,6 @@ proxy-groups:
       - 04-0058-CN
       - 04-0063-CN
       - 04-0068-CN
-      - 04-0173-US
       - 08-0178-CN
       - 08-0183-CN
       - 08-0188-CN
@@ -3057,6 +3056,7 @@ proxy-groups:
       - 16-1075-CN
       - 16-1080-CN
       - 16-1085-DE
+      - 17-1365-SG
   - name: 广告拦截
     type: select
     proxies:
