@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: southvip1.pkyun.xyz, port: 34103, type: ss, cipher: chacha20-ietf-poly1305, password: 1f2a2f7f-d95e-43b6-bab9-212f679b749e, udp: true}
+  - {name: 02-0003-CN, server: js.wnwwv.cn, port: 41895, type: ss, cipher: aes-128-gcm, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
   - {name: 02-0004-AU, server: frk.fastsoonlink.com, port: 40011, type: ss, cipher: chacha20-ietf-poly1305, password: 65abdb1c-1cdf-4630-a32b-8ae566b48c00, udp: true}
   - {name: 02-0005-CN, server: js.wnwwv.cn, port: 27436, type: ss, cipher: chacha20-ietf-poly1305, password: 32c41b01-84be-11ef-bb6b-bc241111d95d, udp: true}
   - {name: 02-0006-US, server: 38.11.50.72, port: 31005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1737194780660}, udp: true}
@@ -122,7 +123,7 @@ proxies:
   - {name: 04-0068-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: e02d1e3a-3982-3bcc-9c56-d042e23df469, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-0168-JP, server: 35.77.198.143, port: 443, type: trojan, password: 22e2ea96-8bd3-3344-acdf-1a9e3edbf62c, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0169-JP, server: 35.74.5.159, port: 443, type: trojan, password: 22e2ea96-8bd3-3344-acdf-1a9e3edbf62c, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0171-US, server: 103.136.185.27, port: 5535, type: trojan, password: 22e2ea96-8bd3-3344-acdf-1a9e3edbf62c, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0170-US, server: 52.34.108.127, port: 443, type: trojan, password: 22e2ea96-8bd3-3344-acdf-1a9e3edbf62c, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0172-US, server: 103.136.185.28, port: 3516, type: trojan, password: 22e2ea96-8bd3-3344-acdf-1a9e3edbf62c, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-0173-TW, server: 111.243.144.236, port: 20072, type: trojan, password: 061a01f1-704b-4712-8e12-6d3fc95a127d, sni: taobao.phantasy.life, skip-cert-verify: true, udp: true}
   - {name: 07-0174-NL, server: 45.199.138.226, port: 41003, type: vmess, uuid: f9fa3a9c-f7d5-414f-88e6-6970585d9949, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739796397157}, udp: true}
@@ -1039,8 +1040,6 @@ proxies:
   - {name: 17-1086-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 21cdc003-4e54-4e5c-9369-bf13491f6e7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1087-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 30cc89b9-49d9-4f98-bdfc-2f5c68fe66fc, udp: true}
   - {name: 17-1088-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d5be123d-20b0-4d50-9779-f8e8ddffd1e2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 17-1399-RELAY, server: kcbmwhds.whmvmkwuey.store, port: 443, type: vmess, uuid: e37c416f-d360-436e-bdcc-611857f61c02, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kcbmwhds.whmvmkwuey.store}}, udp: true}
-  - {name: 18-1477-US, server: ny1.bulkcash.top, port: 41507, type: vmess, uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec, alterId: 5, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.bulkcash.top}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1052,6 +1051,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 02-0003-CN
       - 02-0004-AU
       - 02-0005-CN
       - 02-0006-US
@@ -1119,7 +1119,7 @@ proxy-groups:
       - 04-0068-CN
       - 04-0168-JP
       - 04-0169-JP
-      - 04-0171-US
+      - 04-0170-US
       - 04-0172-US
       - 07-0173-TW
       - 07-0174-NL
@@ -2036,8 +2036,6 @@ proxy-groups:
       - 17-1086-US
       - 17-1087-CN
       - 17-1088-NOWHERE
-      - 17-1399-RELAY
-      - 18-1477-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2066,7 +2064,6 @@ proxy-groups:
       - 04-0056-CN
       - 04-0061-CN
       - 04-0066-CN
-      - 04-0171-US
       - 07-0176-US
       - 07-0181-US
       - 07-0186-US
@@ -2452,12 +2449,12 @@ proxy-groups:
       - 17-1077-RELAY
       - 17-1082-RELAY
       - 17-1087-CN
-      - 18-1477-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0003-CN
       - 04-0008-RELAY
       - 04-0013-CN
       - 04-0018-CN
@@ -2857,7 +2854,6 @@ proxy-groups:
       - 17-1074-CN
       - 17-1079-US
       - 17-1084-CN
-      - 17-1399-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2877,6 +2873,7 @@ proxy-groups:
       - 04-0055-CN
       - 04-0060-CN
       - 04-0065-CN
+      - 04-0170-US
       - 07-0175-CN
       - 07-0180-US
       - 07-0185-TW
