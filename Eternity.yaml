@@ -55,6 +55,7 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: twn-02-zz.manatraffic.top, port: 12822, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
+  - {name: 02-0002-CN, server: sgp-02-zz.manatraffic.top, port: 11562, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
   - {name: 02-0003-CN, server: yy1.vyunyunnode.top, port: 19013, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0004-CN, server: yy1.vyunyunnode.top, port: 19088, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0005-CN, server: yy1.vyunyunnode.top, port: 19006, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
@@ -78,7 +79,6 @@ proxies:
   - {name: 02-0023-CN, server: 103.216.253.197, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
   - {name: 02-0024-CN, server: mmt.shlta.microsoft.51douyintv.top, port: 57813, type: ss, cipher: chacha20-ietf-poly1305, password: f807f0b8-ead7-4d6a-badd-faec149d3101, udp: true}
   - {name: 02-0025-CN, server: mmt.hzyd.microsoft.51douyintv.top, port: 54192, type: ss, cipher: chacha20-ietf-poly1305, password: f807f0b8-ead7-4d6a-badd-faec149d3101, udp: true}
-  - {name: 02-0026-US, server: 38.11.69.35, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1738143533474}, udp: true}
   - {name: 04-0027-RELAY, server: s1.db-link01.top, port: 2095, type: vmess, uuid: 97f98282-e55f-3612-8d35-0a787df202ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.116.129, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-0028-RELAY, server: s1.cn-db.top, port: 2086, type: vmess, uuid: 97f98282-e55f-3612-8d35-0a787df202ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.91.25, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-0029-RELAY, server: s4.db-link01.top, port: 2095, type: vmess, uuid: 97f98282-e55f-3612-8d35-0a787df202ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.185.73, headers: {Host: s4.db-link01.top}}, udp: true}
@@ -1052,6 +1052,7 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
+      - 02-0002-CN
       - 02-0003-CN
       - 02-0004-CN
       - 02-0005-CN
@@ -1075,7 +1076,6 @@ proxy-groups:
       - 02-0023-CN
       - 02-0024-CN
       - 02-0025-CN
-      - 02-0026-US
       - 04-0027-RELAY
       - 04-0028-RELAY
       - 04-0029-RELAY
@@ -2057,7 +2057,6 @@ proxy-groups:
       - 02-0011-CN
       - 02-0016-CN
       - 02-0021-CN
-      - 02-0026-US
       - 04-0031-RELAY
       - 04-0036-CN
       - 04-0041-CN
@@ -2254,6 +2253,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-0002-CN
       - 02-0007-CN
       - 02-0012-CN
       - 02-0017-MU
