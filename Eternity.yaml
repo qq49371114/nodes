@@ -398,6 +398,7 @@ proxies:
   - {name: 11-0446-CN, server: southvip1.pkyun.xyz, port: 58824, type: ss, cipher: chacha20-ietf-poly1305, password: 1e1de5da-047c-4673-bc8d-aad350523e5a, udp: true}
   - {name: 11-0447-CN, server: southvip1.pkyun.xyz, port: 58734, type: ss, cipher: chacha20-ietf-poly1305, password: 1e1de5da-047c-4673-bc8d-aad350523e5a, udp: true}
   - {name: 11-0448-CN, server: southvip1.pkyun.xyz, port: 58804, type: ss, cipher: chacha20-ietf-poly1305, password: 1e1de5da-047c-4673-bc8d-aad350523e5a, udp: true}
+  - {name: 11-0449-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 38e8c7b6-417a-4949-967e-1a9501f73d7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
   - {name: 11-0450-CN, server: southvip1.pkyun.xyz, port: 58835, type: ss, cipher: chacha20-ietf-poly1305, password: 1e1de5da-047c-4673-bc8d-aad350523e5a, udp: true}
   - {name: 11-0451-CN, server: southvip1.pkyun.xyz, port: 58821, type: ss, cipher: chacha20-ietf-poly1305, password: a40a167d-9e78-4c7a-8183-13812394ba9e, udp: true}
   - {name: 11-0452-CN, server: southvip1.pkyun.xyz, port: 32306, type: ss, cipher: chacha20-ietf-poly1305, password: a40a167d-9e78-4c7a-8183-13812394ba9e, udp: true}
@@ -596,7 +597,6 @@ proxies:
   - {name: 16-0645-RELAY, server: visa.com, port: 443, type: vmess, uuid: 06eb7462-4f43-4340-a348-13528b88c9f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-0646-CN, server: southvip1.pkyun.xyz, port: 58821, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0647-CN, server: southvip1.pkyun.xyz, port: 58823, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
-  - {name: 16-0648-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 3e7bf962-73f0-40a3-b44d-05c9bdae02ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
   - {name: 16-0649-CN, server: southvip1.pkyun.xyz, port: 58809, type: ss, cipher: chacha20-ietf-poly1305, password: 45d5ed5a-3759-4d9e-9146-15fc822ff68d, udp: true}
   - {name: 16-0650-CN, server: southvip1.pkyun.xyz, port: 58853, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-0651-RELAY, server: visa.com, port: 443, type: vmess, uuid: 6f8f9727-f03c-4d91-8e75-e724b388565e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -1011,6 +1011,7 @@ proxy-groups:
       - 11-0446-CN
       - 11-0447-CN
       - 11-0448-CN
+      - 11-0449-RELAY
       - 11-0450-CN
       - 11-0451-CN
       - 11-0452-CN
@@ -1209,7 +1210,6 @@ proxy-groups:
       - 16-0645-RELAY
       - 16-0646-CN
       - 16-0647-CN
-      - 16-0648-RELAY
       - 16-0649-CN
       - 16-0650-CN
       - 16-0651-RELAY
@@ -1829,7 +1829,6 @@ proxy-groups:
       - 12-0618-CN
       - 12-0628-CN
       - 12-0638-CN
-      - 16-0648-RELAY
       - 16-0658-US
       - 16-0668-US
       - 16-0678-CN
@@ -1877,6 +1876,7 @@ proxy-groups:
       - 11-0419-CN
       - 11-0429-CN
       - 11-0439-CN
+      - 11-0449-RELAY
       - 11-0459-CN
       - 11-0469-CN
       - 11-0479-CN
