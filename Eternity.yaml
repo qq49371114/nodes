@@ -55,7 +55,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-CN, server: twn-02-zz.manatraffic.top, port: 12822, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
-  - {name: 02-0003-CN, server: yy1.vyunyunnode.top, port: 19013, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0004-CN, server: yy1.vyunyunnode.top, port: 19088, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0005-CN, server: yy1.vyunyunnode.top, port: 19006, type: ss, cipher: chacha20-ietf-poly1305, password: 1834fc79-7f4b-4e2b-9048-17c7b809fc44, udp: true}
   - {name: 02-0006-CN, server: sgp-01-zz.manatraffic.top, port: 11561, type: ss, cipher: chacha20-ietf-poly1305, password: 8771d456-6779-4c33-a796-b6defc67bc75, udp: true}
@@ -1041,6 +1040,7 @@ proxies:
   - {name: 17-1085-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: ad73eae3-6955-4550-894e-c478fee17cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1087-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7c3a311f-f9a6-4d42-ba12-333fa0153b89, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1088-CN, server: southvip1.pkyun.xyz, port: 58736, type: ss, cipher: chacha20-ietf-poly1305, password: 9204aed1-cafb-4c3f-8db0-564d7c5174b1, udp: true}
+  - {name: 17-1402-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 9636d61c-6f60-4890-af72-a67eb1bf1c44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1052,7 +1052,6 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-CN
-      - 02-0003-CN
       - 02-0004-CN
       - 02-0005-CN
       - 02-0006-CN
@@ -2038,6 +2037,7 @@ proxy-groups:
       - 17-1085-US
       - 17-1087-NOWHERE
       - 17-1088-CN
+      - 17-1402-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2451,12 +2451,12 @@ proxy-groups:
       - 17-1077-RELAY
       - 17-1082-CN
       - 17-1087-NOWHERE
+      - 17-1402-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0003-CN
       - 02-0008-CN
       - 02-0013-CN
       - 02-0018-CN
