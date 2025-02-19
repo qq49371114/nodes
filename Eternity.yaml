@@ -121,7 +121,7 @@ proxies:
   - {name: 04-0165-JP, server: 35.77.198.143, port: 443, type: trojan, password: acbdb25a-e177-3b82-bab2-7a59ff99c38f, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0166-JP, server: 35.74.5.159, port: 443, type: trojan, password: acbdb25a-e177-3b82-bab2-7a59ff99c38f, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0167-US, server: 54.244.147.169, port: 443, type: trojan, password: acbdb25a-e177-3b82-bab2-7a59ff99c38f, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0169-US, server: 103.136.185.28, port: 3516, type: trojan, password: acbdb25a-e177-3b82-bab2-7a59ff99c38f, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0168-US, server: 103.136.185.27, port: 5535, type: trojan, password: acbdb25a-e177-3b82-bab2-7a59ff99c38f, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 07-0170-US, server: 192.74.241.135, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739980378395}, udp: true}
   - {name: 07-0171-US, server: 198.2.195.1, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973894418}, udp: true}
   - {name: 07-0172-US, server: 38.11.49.57, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973313415}, udp: true}
@@ -1040,7 +1040,7 @@ proxies:
   - {name: 17-1086-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: f53845cc-ecc9-4931-8534-14f7a57eb583, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-1087-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2eaa1a54-fbce-4555-9c11-29bad2033308, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-1088-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: dec3f97c-c631-4101-a05e-9df815b24694, udp: true}
-  - {name: 17-1093-RELAY, server: ezrehrfh.whmvmkwuey.store, port: 443, type: vmess, uuid: 5f95c22e-5976-42ee-bb58-eb0113dca43a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ezrehrfh.whmvmkwuey.store}}, udp: true}
+  - {name: 18-1240-RELAY, server: mods-destruction-academy-gear.trycloudflare.com, port: 443, type: vmess, uuid: ffffffff-ffff-ffff-ffff-ffffffffffff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mods-destruction-academy-gear.trycloudflare.com}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1118,7 +1118,7 @@ proxy-groups:
       - 04-0165-JP
       - 04-0166-JP
       - 04-0167-US
-      - 04-0169-US
+      - 04-0168-US
       - 07-0170-US
       - 07-0171-US
       - 07-0172-US
@@ -2037,7 +2037,7 @@ proxy-groups:
       - 17-1086-US
       - 17-1087-NOWHERE
       - 17-1088-CN
-      - 17-1093-RELAY
+      - 18-1240-RELAY
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2470,6 +2470,7 @@ proxy-groups:
       - 04-0053-CN
       - 04-0058-CN
       - 04-0063-CN
+      - 04-0168-US
       - 07-0173-HK
       - 07-0178-SG
       - 07-0183-US
@@ -2654,7 +2655,6 @@ proxy-groups:
       - 17-1078-RELAY
       - 17-1083-CN
       - 17-1088-CN
-      - 17-1093-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2673,7 +2673,6 @@ proxy-groups:
       - 04-0054-CN
       - 04-0059-CN
       - 04-0064-CN
-      - 04-0169-US
       - 07-0174-DK
       - 07-0179-FR
       - 07-0184-CN
@@ -3060,6 +3059,7 @@ proxy-groups:
       - 17-1070-CN
       - 17-1080-CN
       - 17-1085-NOWHERE
+      - 18-1240-RELAY
   - name: 广告拦截
     type: select
     proxies:
