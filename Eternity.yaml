@@ -131,7 +131,7 @@ proxies:
   - {name: 04-0174-JP, server: 35.77.198.143, port: 443, type: trojan, password: 84c6d3b5-4908-3193-b39a-1e41e37e1daa, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0175-JP, server: 35.74.5.159, port: 443, type: trojan, password: 84c6d3b5-4908-3193-b39a-1e41e37e1daa, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0176-US, server: 54.244.147.169, port: 443, type: trojan, password: 84c6d3b5-4908-3193-b39a-1e41e37e1daa, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0177-US, server: 103.136.185.27, port: 5535, type: trojan, password: 84c6d3b5-4908-3193-b39a-1e41e37e1daa, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0178-US, server: 103.136.185.28, port: 3516, type: trojan, password: 84c6d3b5-4908-3193-b39a-1e41e37e1daa, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 07-0179-RELAY, server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: e9ff847b-e8ff-4690-bd68-d024c63c381e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess_ws/smjc/index?ed=8192", headers: {Host: cdncdncdn.aikunapp.com}}, udp: true}
   - {name: 07-0180-CN, server: gdgs.tarioblink.me, port: 30003, type: ss, cipher: chacha20-ietf-poly1305, password: 4619d5a0-258a-48f4-98bf-88843d5d7a83, udp: true}
   - {name: 07-0181-AU, server: 170.64.237.214, port: 8443, type: ss, cipher: aes-256-gcm, password: ef713649-c164-4a36-9fc2-ebf93d76e14f, udp: true}
@@ -1128,7 +1128,7 @@ proxy-groups:
       - 04-0174-JP
       - 04-0175-JP
       - 04-0176-US
-      - 04-0177-US
+      - 04-0178-US
       - 07-0179-RELAY
       - 07-0180-CN
       - 07-0181-AU
@@ -2269,7 +2269,6 @@ proxy-groups:
       - 04-0062-CN
       - 04-0067-CN
       - 04-0072-CN
-      - 04-0177-US
       - 07-0182-RELAY
       - 07-0187-RELAY
       - 08-0192-CN
@@ -2472,6 +2471,7 @@ proxy-groups:
       - 04-0063-CN
       - 04-0068-CN
       - 04-0073-CN
+      - 04-0178-US
       - 07-0183-RELAY
       - 08-0188-CN
       - 08-0193-CN
