@@ -230,6 +230,7 @@ proxies:
   - {name: 16-292-CN, server: southvip1.pkyun.xyz, port: 58736, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-293-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: b1838017-306f-404e-8f5b-89e62dfb9666, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 16-294-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f55cdc98-4d7b-4c48-8abb-72cbf683fcab, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 16-295-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: aa4e61e2-2713-4e2d-87ec-76a536370b0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-296-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 0ccc5936-1159-4b3f-ac6d-ce87ce501e43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-297-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: a161d465-dda2-4b3a-90e2-89de5a213a4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-298-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 0ccc5936-1159-4b3f-ac6d-ce87ce501e43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
@@ -632,8 +633,7 @@ proxies:
   - {name: 17-696-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 69c9e10b-425e-40a1-a9b3-07dca47cf1f6, udp: true}
   - {name: 17-697-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 272c6512-8d6d-4b65-838e-1452df1ed4fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-698-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: a2b07df2-b922-4999-ab61-d7315d94eb5b, udp: true}
-  - {name: 17-887-RELAY, server: visa.com, port: 443, type: vmess, uuid: 074636de-aaed-4a77-bd38-fd0ed022215b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
-  - {name: 18-889-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
+  - {name: 18-888-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-890-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-891-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-893-RELAY, server: s5.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link01.top}}, udp: true}
@@ -844,6 +844,7 @@ proxy-groups:
       - 16-292-CN
       - 16-293-US
       - 16-294-DE
+      - 16-295-SG
       - 16-296-DE
       - 16-297-SG
       - 16-298-US
@@ -1246,8 +1247,7 @@ proxy-groups:
       - 17-696-CN
       - 17-697-US
       - 17-698-CN
-      - 17-887-RELAY
-      - 18-889-RELAY
+      - 18-888-CA
       - 18-890-US
       - 18-891-US
       - 18-893-RELAY
@@ -1600,6 +1600,7 @@ proxy-groups:
       - 16-265-NOWHERE
       - 16-275-US
       - 16-285-RELAY
+      - 16-295-SG
       - 16-305-CN
       - 16-315-CN
       - 16-325-US
@@ -1773,7 +1774,6 @@ proxy-groups:
       - 17-677-CN
       - 17-687-SG
       - 17-697-US
-      - 17-887-RELAY
       - 18-897-FR
   - name: 测速8分组
     type: url-test
@@ -1838,6 +1838,7 @@ proxy-groups:
       - 17-678-CN
       - 17-688-SG
       - 17-698-CN
+      - 18-888-CA
       - 18-898-FR
   - name: 测速9分组
     type: url-test
@@ -1902,7 +1903,6 @@ proxy-groups:
       - 17-669-NOWHERE
       - 17-679-RELAY
       - 17-689-CN
-      - 18-889-RELAY
       - 18-899-RELAY
   - name: 测速10分组
     type: url-test
