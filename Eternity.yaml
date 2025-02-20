@@ -135,8 +135,8 @@ proxies:
   - {name: 04-0078-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 7c4fedf9-f648-328d-8fd1-a44e62b2cb4a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-0178-JP, server: 35.77.198.143, port: 443, type: trojan, password: aa578ef2-79e2-340e-a270-15f2a43488a1, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0179-JP, server: 35.74.5.159, port: 443, type: trojan, password: aa578ef2-79e2-340e-a270-15f2a43488a1, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0180-US, server: 54.244.147.169, port: 443, type: trojan, password: aa578ef2-79e2-340e-a270-15f2a43488a1, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0181-US, server: 103.136.185.27, port: 5535, type: trojan, password: aa578ef2-79e2-340e-a270-15f2a43488a1, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0182-US, server: 103.136.185.28, port: 3516, type: trojan, password: aa578ef2-79e2-340e-a270-15f2a43488a1, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 07-0183-US, server: 192.74.241.135, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739980378395}, udp: true}
   - {name: 07-0184-US, server: 198.2.195.1, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973894418}, udp: true}
   - {name: 07-0185-US, server: 38.11.49.57, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973313415}, udp: true}
@@ -1045,8 +1045,8 @@ proxy-groups:
       - 04-0078-CN
       - 04-0178-JP
       - 04-0179-JP
+      - 04-0180-US
       - 04-0181-US
-      - 04-0182-US
       - 07-0183-US
       - 07-0184-US
       - 07-0185-US
@@ -2080,7 +2080,6 @@ proxy-groups:
       - 04-0067-CN
       - 04-0072-CN
       - 04-0077-CN
-      - 04-0182-US
       - 07-0187-DK
       - 07-0192-US
       - 07-0197-RELAY
@@ -2635,6 +2634,7 @@ proxy-groups:
       - 04-0065-CN
       - 04-0070-CN
       - 04-0075-CN
+      - 04-0180-US
       - 07-0185-US
       - 07-0190-AU
       - 07-0195-RELAY
