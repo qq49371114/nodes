@@ -123,17 +123,18 @@ proxies:
   - {name: 04-165-JP, server: 35.74.5.159, port: 443, type: trojan, password: f72af92e-8eb7-3881-b701-478605f9b96c, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-166-US, server: 54.244.147.169, port: 443, type: trojan, password: f72af92e-8eb7-3881-b701-478605f9b96c, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-167-US, server: 103.136.185.27, port: 5535, type: trojan, password: f72af92e-8eb7-3881-b701-478605f9b96c, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-168-US, server: 103.136.185.28, port: 3516, type: trojan, password: f72af92e-8eb7-3881-b701-478605f9b96c, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-169-US, server: 192.74.241.135, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739980378395}, udp: true}
   - {name: 07-170-US, server: 198.2.195.1, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973894418}, udp: true}
   - {name: 07-171-US, server: 38.11.49.57, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973313415}, udp: true}
   - {name: 07-172-HK, server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
   - {name: 07-173-DK, server: 185.186.79.53, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-174-ID, server: idn.fastsoonlink.com, port: 40033, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
-  - {name: 07-175-TR, server: tur.fastsoonlink.com, port: 40019, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
   - {name: 07-176-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 3fb23a19-9424-40c7-9139-3540228283fa, udp: true}
   - {name: 07-177-SG, server: sgp.fastsoonlink.com, port: 40005, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
   - {name: 07-178-FR, server: fr.fastsoonlink.com, port: 40034, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
   - {name: 07-179-TH, server: th.fastsoonlink.com, port: 40009, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
+  - {name: 07-180-AU, server: frk.fastsoonlink.com, port: 40011, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
   - {name: 07-181-US, server: 198.200.48.230, port: 37006, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973894418}, udp: true}
   - {name: 07-182-US, server: 199.180.101.28, port: 38004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739875088754}, udp: true}
   - {name: 07-183-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
@@ -780,7 +781,6 @@ proxies:
   - {name: 17-824-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 57e87249-1121-4b00-9a4c-6f494fb2ea45, udp: true}
   - {name: 17-825-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 57e87249-1121-4b00-9a4c-6f494fb2ea45, udp: true}
   - {name: 17-826-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7c3a311f-f9a6-4d42-ba12-333fa0153b89, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 17-827-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: adb16b96-cee2-461b-a154-ddd991d49183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-828-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: ec60694c-c679-4ca5-bf16-b769a74f8649, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-829-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: d9b244f4-76b3-47c6-952f-d87d06957f44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-830-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 0deadd17-344e-422c-816d-d7a0e9a0bd12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
@@ -828,6 +828,7 @@ proxies:
   - {name: 17-872-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 9509d831-377f-432f-9637-aa1a2191e3a1, udp: true}
   - {name: 17-873-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 17c71f26-0ca1-461a-9a24-785b707526ef, udp: true}
   - {name: 17-874-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: ad73eae3-6955-4550-894e-c478fee17cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 17-875-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: e8d95654-388e-4f77-82a6-dfeec70fa47a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-876-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: e18ce136-9ce4-4ca3-b722-16b709c98b69, udp: true}
   - {name: 17-877-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 69c9e10b-425e-40a1-a9b3-07dca47cf1f6, udp: true}
   - {name: 17-878-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d8fe76a7-cb84-4916-b862-7e31a6918ce7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -938,17 +939,18 @@ proxy-groups:
       - 04-165-JP
       - 04-166-US
       - 04-167-US
+      - 04-168-US
       - 07-169-US
       - 07-170-US
       - 07-171-US
       - 07-172-HK
       - 07-173-DK
       - 07-174-ID
-      - 07-175-TR
       - 07-176-SG
       - 07-177-SG
       - 07-178-FR
       - 07-179-TH
+      - 07-180-AU
       - 07-181-US
       - 07-182-US
       - 07-183-CN
@@ -1595,7 +1597,6 @@ proxy-groups:
       - 17-824-CN
       - 17-825-CN
       - 17-826-NOWHERE
-      - 17-827-US
       - 17-828-NOWHERE
       - 17-829-SG
       - 17-830-DE
@@ -1643,6 +1644,7 @@ proxy-groups:
       - 17-872-CN
       - 17-873-CN
       - 17-874-SG
+      - 17-875-SG
       - 17-876-CN
       - 17-877-CN
       - 17-878-NOWHERE
@@ -2001,7 +2003,6 @@ proxy-groups:
       - 17-812-DE
       - 17-817-NOWHERE
       - 17-822-CN
-      - 17-827-US
       - 17-832-CN
       - 17-837-SG
       - 17-842-CN
@@ -2035,6 +2036,7 @@ proxy-groups:
       - 04-053-CN
       - 04-058-CN
       - 04-063-CN
+      - 04-168-US
       - 07-173-DK
       - 07-178-FR
       - 07-183-CN
@@ -2369,7 +2371,7 @@ proxy-groups:
       - 04-060-CN
       - 04-165-JP
       - 07-170-US
-      - 07-175-TR
+      - 07-180-AU
       - 07-185-RELAY
       - 07-190-GB
       - 08-195-RELAY
@@ -2508,6 +2510,7 @@ proxy-groups:
       - 17-860-NOWHERE
       - 17-865-SG
       - 17-870-DE
+      - 17-875-SG
       - 17-880-CN
       - 17-885-CN
       - 18-890-US
