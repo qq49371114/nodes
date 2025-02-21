@@ -123,6 +123,7 @@ proxies:
   - {name: 04-165-JP, server: 35.74.5.159, port: 443, type: trojan, password: 2aaec07a-cf1a-3408-b5cb-609e32daab6f, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-166-US, server: 18.236.194.16, port: 443, type: trojan, password: 2aaec07a-cf1a-3408-b5cb-609e32daab6f, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-167-US, server: 103.136.185.27, port: 5535, type: trojan, password: 2aaec07a-cf1a-3408-b5cb-609e32daab6f, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-168-US, server: 103.136.185.28, port: 3516, type: trojan, password: 2aaec07a-cf1a-3408-b5cb-609e32daab6f, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-169-US, server: 192.74.241.135, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739980378395}, udp: true}
   - {name: 07-170-US, server: 198.2.195.1, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973894418}, udp: true}
   - {name: 07-171-US, server: 38.11.49.57, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973313415}, udp: true}
@@ -830,6 +831,7 @@ proxies:
   - {name: 17-874-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4125b1c3-34f3-42df-a8ee-80b24f2b9a2d, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-875-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a4a55659-32f2-42f0-b0ba-7dfce094cab5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-876-RELAY, server: visa.com, port: 443, type: vmess, uuid: 074636de-aaed-4a77-bd38-fd0ed022215b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
+  - {name: 17-877-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 36d67102-db6f-4b7b-b724-149cd0abbef6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-878-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 80736140-3333-4540-b02a-c41b156ea54e, udp: true}
   - {name: 17-879-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: a2b07df2-b922-4999-ab61-d7315d94eb5b, udp: true}
   - {name: 18-880-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -850,7 +852,6 @@ proxies:
   - {name: 18-895-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 18-896-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 18-897-RELAY, server: s5.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
-  - {name: 18-898-US, server: ny1.bulkcash.top, port: 41507, type: vmess, uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec, alterId: 5, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.bulkcash.top}}, udp: true}
   - {name: 18-899-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-900-RELAY, server: 104.16.155.10, port: 2095, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-901-RELAY, server: s1.cn-db.top, port: 8080, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.cn-db.top}}, udp: true}
@@ -941,6 +942,7 @@ proxy-groups:
       - 04-165-JP
       - 04-166-US
       - 04-167-US
+      - 04-168-US
       - 07-169-US
       - 07-170-US
       - 07-171-US
@@ -1648,6 +1650,7 @@ proxy-groups:
       - 17-874-NOWHERE
       - 17-875-NOWHERE
       - 17-876-RELAY
+      - 17-877-SG
       - 17-878-CN
       - 17-879-CN
       - 18-880-CA
@@ -1668,7 +1671,6 @@ proxy-groups:
       - 18-895-FR
       - 18-896-RELAY
       - 18-897-RELAY
-      - 18-898-US
       - 18-899-RELAY
       - 18-900-RELAY
       - 18-901-RELAY
@@ -2017,6 +2019,7 @@ proxy-groups:
       - 17-862-US
       - 17-867-CN
       - 17-872-DE
+      - 17-877-SG
       - 18-882-RELAY
       - 18-887-DE
       - 18-892-RELAY
@@ -2041,6 +2044,7 @@ proxy-groups:
       - 04-053-CN
       - 04-058-CN
       - 04-063-CN
+      - 04-168-US
       - 07-173-DK
       - 07-178-FR
       - 07-183-CN
@@ -2186,7 +2190,6 @@ proxy-groups:
       - 18-883-RELAY
       - 18-888-US
       - 18-893-RELAY
-      - 18-898-US
       - 18-903-RELAY
   - name: 测速4分组
     type: url-test
