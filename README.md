@@ -137,7 +137,7 @@ Fork from TopFreeProxies.
     trojan://bbb1e305-c5d9-3dbb-a2e8-bb159d5bef54@35.77.198.143:443?allowInsecure=1&sni=steampipe.akamaized.net#04-203-JP
     trojan://bbb1e305-c5d9-3dbb-a2e8-bb159d5bef54@35.74.5.159:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-204-JP
     trojan://bbb1e305-c5d9-3dbb-a2e8-bb159d5bef54@35.166.172.187:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-205-US
-    trojan://bbb1e305-c5d9-3dbb-a2e8-bb159d5bef54@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-207-US
+    trojan://bbb1e305-c5d9-3dbb-a2e8-bb159d5bef54@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-206-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjA5LVJFTEFZIiwiYWRkIjoiY2RuY2RuY2RuLmFpa3VuYXBwLmNvbSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiODMwYTYwODUtOWFlYi00NDliLWJmZDItMTkyNGViOTcyOTQxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii92bWVzc193cy9zbWpjL2luZGV4P2VkPTgxOTIiLCJob3N0IjoiY2RuY2RuY2RuLmFpa3VuYXBwLmNvbSIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjEwLVJFTEFZIiwiYWRkIjoiZXU5Ljk5ODk5OC5iZXN0IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwN2I3YjU2My1mODY4LTQ5ZmItOTQzYS02NDI1ZTNkYzM0ZDkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL2pzZWRyNmRlZXJzZWQ2aD9lZD0yNTYwIiwiaG9zdCI6ImV1OS45OTg5OTguYmVzdCIsInRscyI6InRscyJ9
     ss://YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@54.189.149.15:443#07-212-US
