@@ -121,7 +121,7 @@ proxies:
   - {name: 04-064-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: b6214bb8-b6e8-34e6-9d42-d3e1a2262f92, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-164-JP, server: 35.77.198.143, port: 443, type: trojan, password: df78ed58-1d84-3717-acc3-612302fcd564, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-165-JP, server: 35.74.5.159, port: 443, type: trojan, password: df78ed58-1d84-3717-acc3-612302fcd564, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-167-US, server: 103.136.185.27, port: 5535, type: trojan, password: df78ed58-1d84-3717-acc3-612302fcd564, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-166-US, server: 54.244.147.169, port: 443, type: trojan, password: df78ed58-1d84-3717-acc3-612302fcd564, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-168-US, server: 103.136.185.28, port: 3516, type: trojan, password: df78ed58-1d84-3717-acc3-612302fcd564, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 07-169-US, server: 192.74.241.135, port: 30003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739980378395}, udp: true}
   - {name: 07-170-US, server: 198.2.195.1, port: 38005, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1739973894418}, udp: true}
@@ -870,7 +870,7 @@ proxies:
   - {name: 18-914-RELAY, server: 104.17.221.248, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-915-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.186.79.53989#07-173-DK, server: us.fastsoonlink.com, port: 40001, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
   - {name: 18-916-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
-  - {name: "18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@54.244.147.169443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-166-US", server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
+  - {name: "18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@103.136.185.275535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-167-US", server: hk.fastsoonlink.com, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 72bb3072-7efd-4d67-9beb-2cd9c18e69f4, udp: true}
   - {name: 18-918-RELAY, server: 193.9.49.89, port: 8443, type: vmess, uuid: 191babc5-2aaf-4fe5-a563-f14244aefb4e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-919-RELAY, server: s5.db-link02.top, port: 2082, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s5.db-link02.top}}, udp: true}
 proxy-groups:
@@ -950,7 +950,7 @@ proxy-groups:
       - 04-064-CN
       - 04-164-JP
       - 04-165-JP
-      - 04-167-US
+      - 04-166-US
       - 04-168-US
       - 07-169-US
       - 07-170-US
@@ -1699,7 +1699,7 @@ proxy-groups:
       - 18-914-RELAY
       - 18-915-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.186.79.53989#07-173-DK
       - 18-916-RELAY
-      - 18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@54.244.147.169443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-166-US
+      - 18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@103.136.185.275535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-167-US
       - 18-918-RELAY
       - 18-919-RELAY
   - name: 自动选择
@@ -1730,6 +1730,7 @@ proxy-groups:
       - 04-051-CN
       - 04-056-CN
       - 04-061-CN
+      - 04-166-US
       - 07-171-US
       - 07-176-SG
       - 07-181-US
@@ -1880,7 +1881,6 @@ proxy-groups:
       - 18-906-RELAY
       - 18-911-JP
       - 18-916-RELAY
-      - 18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@54.244.147.169443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-166-US
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1899,7 +1899,6 @@ proxy-groups:
       - 04-052-CN
       - 04-057-CN
       - 04-062-CN
-      - 04-167-US
       - 07-172-HK
       - 07-177-SG
       - 07-182-US
@@ -2049,7 +2048,7 @@ proxy-groups:
       - 18-902-RELAY
       - 18-907-RELAY
       - 18-912-RU
-      - 18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@54.244.147.169443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-166-US
+      - 18-917-HKtrojan//df78ed58-1d84-3717-acc3-612302fcd564@103.136.185.275535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-167-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
