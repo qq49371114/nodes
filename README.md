@@ -97,7 +97,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDY0LUNOIiwiYWRkIjoiMTQubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNCIsInR5cGUiOiJub25lIiwiaWQiOiJiNjIxNGJiOC1iNmU4LTM0ZTYtOWQ0Mi1kM2UxYTIyNjJmOTIiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNC5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     trojan://df78ed58-1d84-3717-acc3-612302fcd564@35.77.198.143:443?allowInsecure=1&sni=steampipe.akamaized.net#04-164-JP
     trojan://df78ed58-1d84-3717-acc3-612302fcd564@35.74.5.159:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-165-JP
-    trojan://df78ed58-1d84-3717-acc3-612302fcd564@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-167-US
+    trojan://df78ed58-1d84-3717-acc3-612302fcd564@54.244.147.169:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-166-US
     trojan://df78ed58-1d84-3717-acc3-612302fcd564@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-168-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTY5LVVTIiwiYWRkIjoiMTkyLjc0LjI0MS4xMzUiLCJwb3J0IjoiMzAwMDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcGF0aC8xNzM5OTgwMzc4Mzk1IiwiaG9zdCI6IiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTcwLVVTIiwiYWRkIjoiMTk4LjIuMTk1LjEiLCJwb3J0IjoiMzgwMDUiLCJ0eXBlIjoibm9uZSIsImlkIjoiNDE4MDQ4YWYtYTI5My00Yjk5LTliMGMtOThjYTM1ODBkZDI0IiwiYWlkIjoiNjQiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcGF0aC8xNzM5OTczODk0NDE4IiwiaG9zdCI6IiIsInRscyI6InRscyJ9
@@ -846,7 +846,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTE0LVJFTEFZIiwiYWRkIjoiMTA0LjE3LjIyMS4yNDgiLCJwb3J0IjoiMjA1MiIsInR5cGUiOiJub25lIiwiaWQiOiI0YjM2NjI1Yy1iOWQ5LTNlYTYtYWVkNS04NmQ2MmM3MGUxNmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MmJiMzA3Mi03ZWZkLTRkNjctOWJlYi0yY2Q5YzE4ZTY5ZjQ@us.fastsoonlink.com:40001#18-915-USss%2F%2FYWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw%40185.186.79.53989%2307-173-DK
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTE2LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiMzY2MjVjLWI5ZDktM2VhNi1hZWQ1LTg2ZDYyYzcwZTE2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MmJiMzA3Mi03ZWZkLTRkNjctOWJlYi0yY2Q5YzE4ZTY5ZjQ@hk.fastsoonlink.com:40000#18-917-HKtrojan%2F%2Fdf78ed58-1d84-3717-acc3-612302fcd564%4054.244.147.169443%3FallowInsecure%3D1%26sni%3Dsteampipe-partner.akamaized.net%2304-166-US
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MmJiMzA3Mi03ZWZkLTRkNjctOWJlYi0yY2Q5YzE4ZTY5ZjQ@hk.fastsoonlink.com:40000#18-917-HKtrojan%2F%2Fdf78ed58-1d84-3717-acc3-612302fcd564%40103.136.185.275535%3FallowInsecure%3D1%26sni%3Dedge.steam-dns.top.comcast.net%2304-167-US
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTE4LVJFTEFZIiwiYWRkIjoiMTkzLjkuNDkuODkiLCJwb3J0IjoiODQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIxOTFiYWJjNS0yYWFmLTRmZTUtYTU2My1mMTQyNDRhZWZiNGUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTE5LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiMzY2MjVjLWI5ZDktM2VhNi1hZWQ1LTg2ZDYyYzcwZTE2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InM1LmRiLWxpbmswMi50b3AiLCJ0bHMiOiIifQ==
     
@@ -855,11 +855,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `920`
+合并节点总数: `912`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `920`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `912`
 
 
 ## 仓库声明
