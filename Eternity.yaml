@@ -128,7 +128,6 @@ proxies:
   - {name: 07-172-RELAY, server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 830a6085-9aeb-449b-bfd2-1924eb972941, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/vmess_ws/smjc/index?ed=8192", headers: {Host: cdncdncdn.aikunapp.com}}, udp: true}
   - {name: 07-173-RELAY, server: eu9.998998.best, port: 443, type: vmess, uuid: 07b7b563-f868-49fb-943a-6425e3dc34d9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/jsedr6deersed6h?ed=2560", headers: {Host: eu9.998998.best}}, udp: true}
   - {name: 07-174-CN, server: 1.link-hub.blog, port: 40202, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 07-175-FR, server: 141.94.115.231, port: 8443, type: ss, cipher: aes-256-gcm, password: 1cc7ad5f-c9bc-4138-849a-02aeec8e37a7, udp: true}
   - {name: 07-176-US, server: 54.189.149.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-177-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-178-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
@@ -760,6 +759,7 @@ proxies:
   - {name: 17-804-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 26be7643-c892-4928-ac61-e2c7a0aaa65e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-805-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: d72ab445-a39d-4056-a70c-7c87b832e5e2, udp: true}
   - {name: 17-806-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 272c6512-8d6d-4b65-838e-1452df1ed4fe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
+  - {name: 17-807-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: c4b1c14b-a0be-4b12-8e8f-c3bfb6a84ac4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
   - {name: 17-808-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 29417523-21d9-47d5-ab4e-edd823911976, udp: true}
   - {name: 17-809-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d72ab445-a39d-4056-a70c-7c87b832e5e2, udp: true}
   - {name: 17-810-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a4a55659-32f2-42f0-b0ba-7dfce094cab5, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -950,7 +950,6 @@ proxy-groups:
       - 07-172-RELAY
       - 07-173-RELAY
       - 07-174-CN
-      - 07-175-FR
       - 07-176-US
       - 08-177-CN
       - 08-178-CN
@@ -1582,6 +1581,7 @@ proxy-groups:
       - 17-804-SG
       - 17-805-CN
       - 17-806-DE
+      - 17-807-RELAY
       - 17-808-CN
       - 17-809-CN
       - 17-810-NOWHERE
@@ -2011,6 +2011,7 @@ proxy-groups:
       - 17-792-CN
       - 17-797-NOWHERE
       - 17-802-NOWHERE
+      - 17-807-RELAY
       - 17-812-NOWHERE
       - 17-817-RELAY
       - 17-822-NOWHERE
@@ -2387,7 +2388,6 @@ proxy-groups:
       - 04-060-CN
       - 04-065-CN
       - 04-170-US
-      - 07-175-FR
       - 08-180-CN
       - 08-185-RELAY
       - 10-190-NOWHERE
