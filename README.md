@@ -106,7 +106,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDc0LUNOIiwiYWRkIjoiMTQubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNCIsInR5cGUiOiJub25lIiwiaWQiOiIxNGI4NmIzZS04ZjAzLTNlMDgtYTcxYi02MTdhOWQ5ZDdkOWYiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNC5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     trojan://8942a514-2f67-326b-a51f-255dab55c101@35.77.198.143:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-174-JP
     trojan://8942a514-2f67-326b-a51f-255dab55c101@35.74.5.159:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-175-JP
-    trojan://8942a514-2f67-326b-a51f-255dab55c101@103.136.185.27:5535?allowInsecure=1&sni=origin-a.akamaihd.net#04-177-US
+    trojan://8942a514-2f67-326b-a51f-255dab55c101@35.166.172.187:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-176-US
     trojan://8942a514-2f67-326b-a51f-255dab55c101@103.136.185.28:3516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-178-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YWI4MDI0ZC05NjY1LTQ3ZjgtYWQ1Zi0wZGE1ZGZiYmU1ZGI@gy.666666222.shop:20032#08-179-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4YWI4MDI0ZC05NjY1LTQ3ZjgtYWQ1Zi0wZGE1ZGZiYmU1ZGI@gy.666666222.shop:47564#08-180-CN
