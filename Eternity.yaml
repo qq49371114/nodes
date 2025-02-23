@@ -130,7 +130,7 @@ proxies:
   - {name: 04-074-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 14b86b3e-8f03-3e08-a71b-617a9d9d7d9f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
   - {name: 04-174-JP, server: 35.77.198.143, port: 443, type: trojan, password: 8942a514-2f67-326b-a51f-255dab55c101, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-175-JP, server: 35.74.5.159, port: 443, type: trojan, password: 8942a514-2f67-326b-a51f-255dab55c101, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
-  - {name: 04-177-US, server: 103.136.185.27, port: 5535, type: trojan, password: 8942a514-2f67-326b-a51f-255dab55c101, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-176-US, server: 35.166.172.187, port: 443, type: trojan, password: 8942a514-2f67-326b-a51f-255dab55c101, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-178-US, server: 103.136.185.28, port: 3516, type: trojan, password: 8942a514-2f67-326b-a51f-255dab55c101, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 08-179-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
   - {name: 08-180-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 8ab8024d-9665-47f8-ad5f-0da5dfbbe5db, udp: true}
@@ -1036,7 +1036,7 @@ proxy-groups:
       - 04-074-CN
       - 04-174-JP
       - 04-175-JP
-      - 04-177-US
+      - 04-176-US
       - 04-178-US
       - 08-179-CN
       - 08-180-CN
@@ -1886,6 +1886,7 @@ proxy-groups:
       - 04-061-CN
       - 04-066-CN
       - 04-071-CN
+      - 04-176-US
       - 08-181-CN
       - 08-186-CN
       - 08-191-CN
@@ -2069,7 +2070,6 @@ proxy-groups:
       - 04-062-CN
       - 04-067-CN
       - 04-072-CN
-      - 04-177-US
       - 08-182-CN
       - 08-187-RELAY
       - 10-192-NOWHERE
