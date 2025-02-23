@@ -61,7 +61,7 @@ proxies:
   - {name: 02-004-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-005-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 02-006-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 02-008-US, server: us1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928, sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: 02-009-US, server: 137.184.120.86, port: 443, type: trojan, password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928, sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
   - {name: 02-010-US, server: www.39676427.xyz, port: 30000, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.39676427.xyz}}, udp: true}
   - {name: 02-011-US, server: 64.23.162.126, port: 443, type: trojan, password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928, sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
   - {name: 02-012-US, server: jp1.8b1c7c70-ecf1-6891-9fa7-68a86662f902.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: 6d0a7f2f-c26c-466a-8f90-d6630ba97928, sni: 829D7BDE-64B9-E759-C661-78BC73E582A0.1c2871ba-6025-61e2-e87f-a5c9e0ac8c1d.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
@@ -948,7 +948,7 @@ proxy-groups:
       - 02-004-CN
       - 02-005-CN
       - 02-006-CN
-      - 02-008-US
+      - 02-009-US
       - 02-010-US
       - 02-011-US
       - 02-012-US
@@ -2195,7 +2195,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-003-CN
-      - 02-008-US
       - 04-013-RELAY
       - 04-018-RELAY
       - 04-023-CN
@@ -2376,6 +2375,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-004-CN
+      - 02-009-US
       - 04-014-RELAY
       - 04-019-RELAY
       - 04-024-CN
