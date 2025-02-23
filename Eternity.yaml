@@ -399,6 +399,7 @@ proxies:
   - {name: 16-442-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 17353f26-5f77-48c0-a53e-504210e2cec9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-443-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: 87f71db4-1a2b-440f-bbdd-67f244b31437, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
   - {name: 16-444-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: 380ee6e3-02cc-419b-a9ee-c9c1af90305a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
+  - {name: 16-445-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: aeea418f-1ed5-4562-939e-3dfb64c4ebaf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
   - {name: 16-446-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 20df3273-39af-40a1-b13d-18dca857d739, udp: true}
   - {name: 16-447-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: a8144270-951e-4ac1-9bf0-e36aac440e3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-448-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 4ba7513d-0dba-418e-9179-46267f18222a, udp: true}
@@ -791,7 +792,6 @@ proxies:
   - {name: 17-835-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: ad73eae3-6955-4550-894e-c478fee17cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-836-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: adac13c8-dddc-4b33-91c0-4e784127c35a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-837-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 979bcd55-5ece-4c45-884f-eae8ee52360c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 17-838-RELAY, server: lisvlhel.whmvmkwuey.store, port: 443, type: vmess, uuid: b3b57598-7f20-4afa-baae-bc4f576a3040, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lisvlhel.whmvmkwuey.store}}, udp: true}
   - {name: 17-839-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: ce8b1728-26fe-4dcd-83b2-4a077bbddc61, udp: true}
   - {name: 17-840-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 1c124d21-3272-41a7-85a8-7dec42a3c0b2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-841-RELAY, server: visa.com, port: 443, type: vmess, uuid: adb16b96-cee2-461b-a154-ddd991d49183, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
@@ -1231,6 +1231,7 @@ proxy-groups:
       - 16-442-DE
       - 16-443-RELAY
       - 16-444-RELAY
+      - 16-445-RELAY
       - 16-446-CN
       - 16-447-DE
       - 16-448-CN
@@ -1623,7 +1624,6 @@ proxy-groups:
       - 17-835-DE
       - 17-836-US
       - 17-837-DE
-      - 17-838-RELAY
       - 17-839-CN
       - 17-840-NOWHERE
       - 17-841-RELAY
@@ -2211,7 +2211,6 @@ proxy-groups:
       - 17-823-US
       - 17-828-CN
       - 17-833-US
-      - 17-838-RELAY
       - 17-843-SG
       - 17-848-NOWHERE
       - 17-853-SG
@@ -2470,6 +2469,7 @@ proxy-groups:
       - 16-430-CN
       - 16-435-CN
       - 16-440-RELAY
+      - 16-445-RELAY
       - 16-450-RELAY
       - 16-455-CN
       - 16-460-CN
