@@ -257,7 +257,6 @@ proxies:
   - {name: 16-300-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: a8144270-951e-4ac1-9bf0-e36aac440e3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-301-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: e0441379-23d0-48e1-8911-e35bd0a9173b, udp: true}
   - {name: 16-302-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 70cbb616-0ed0-4e97-b45b-8bca12f243a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
-  - {name: 16-303-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 11fd64ff-d550-467d-8c1f-72aebe6574ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-304-CN, server: southvip1.pkyun.xyz, port: 34004, type: ss, cipher: chacha20-ietf-poly1305, password: 76f61aec-e53f-42a1-b584-d41165e4aa67, udp: true}
   - {name: 16-305-RELAY, server: visa.com, port: 443, type: vmess, uuid: a2de060e-721a-42ff-9e0c-c69cf314ba63, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-306-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 99086bdc-a4da-4b50-a35e-4fdcad6035a4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -725,6 +724,7 @@ proxies:
   - {name: 17-768-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: be91a3f0-3b12-443e-a923-f284acf700a7, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-769-RELAY, server: visa.com, port: 443, type: vmess, uuid: e31633ba-af38-46b6-b6b0-933a5c1b2383, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-770-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 979bcd55-5ece-4c45-884f-eae8ee52360c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
+  - {name: 17-771-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 1aae1620-95dc-4571-86a2-9b2bb7f06bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-772-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e6d6b984-3a0a-4002-b588-49434fcfdcf1, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-773-RELAY, server: visa.com, port: 443, type: vmess, uuid: 1aae1620-95dc-4571-86a2-9b2bb7f06bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-774-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: f1659ce6-6993-4d20-8124-c8472439ae4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
@@ -958,7 +958,6 @@ proxy-groups:
       - 16-300-SG
       - 16-301-CN
       - 16-302-US
-      - 16-303-SG
       - 16-304-CN
       - 16-305-RELAY
       - 16-306-SG
@@ -1426,6 +1425,7 @@ proxy-groups:
       - 17-768-NOWHERE
       - 17-769-RELAY
       - 17-770-SG
+      - 17-771-SG
       - 17-772-NOWHERE
       - 17-773-RELAY
       - 17-774-DE
@@ -1595,6 +1595,7 @@ proxy-groups:
       - 17-756-NOWHERE
       - 17-761-US
       - 17-766-CN
+      - 17-771-SG
       - 17-776-CN
       - 18-786-FR
       - 18-791-RELAY
@@ -1787,7 +1788,6 @@ proxy-groups:
       - 16-288-DE
       - 16-293-DE
       - 16-298-DE
-      - 16-303-SG
       - 16-308-US
       - 16-313-CN
       - 16-318-DE
