@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `841`
+高速节点数量: `842`
 <details>
   <summary>展开复制节点</summary>
 
@@ -99,6 +99,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDY2LUNOIiwiYWRkIjoiMTQubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNCIsInR5cGUiOiJub25lIiwiaWQiOiI2NmI5YjE5MS1hZjFjLTMyMjYtYTcwNC0wYWFiMDYzMGE0MWUiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNC5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     trojan://212ca21d-488b-3eba-9ec6-f0ea137f344f@35.77.198.143:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-166-JP
     trojan://212ca21d-488b-3eba-9ec6-f0ea137f344f@35.74.5.159:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-167-JP
+    trojan://212ca21d-488b-3eba-9ec6-f0ea137f344f@34.222.40.184:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-168-US
     trojan://212ca21d-488b-3eba-9ec6-f0ea137f344f@103.136.185.27:5535?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-169-US
     trojan://212ca21d-488b-3eba-9ec6-f0ea137f344f@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-170-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMTcxLVJFTEFZIiwiYWRkIjoicWFxbmFqc3AubW16aGsud2Vic2l0ZSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMGQxNGQ3ZDYtNzVkOC00OTljLWE2NjEtNThmNjdiZjBkMDNhIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoicWFxbmFqc3AubW16aGsud2Vic2l0ZSIsInRscyI6InRscyJ9
@@ -813,6 +814,7 @@ Fork from TopFreeProxies.
     trojan://59d98a22-fa3d-4e94-a440-ad29e6899f2a@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-880-NOWHERE
     vmess://eyJ2IjoiMiIsInBzIjoiMTctODgxLVJFTEFZIiwiYWRkIjoicWFxbmFqc3AubW16aGsud2Vic2l0ZSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjA3ZWQ4NDMtMGY4ZC00ZWMyLTgzYjgtMzcwMTkxMTk1NjdkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoicWFxbmFqc3AubW16aGsud2Vic2l0ZSIsInRscyI6InRscyJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkODAxNTRkZi02OTA1LTQ0ZjYtOGE2Yy1iZWZmNDU4NDFjMmE@jg647hf446ghvw.eucs.cn:49709#17-882-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMTctODgzLVNHIiwiYWRkIjoid2VzdHNnMi1kZG5zLm9yYWNsZW5hdC5jYyIsInBvcnQiOiIyMzQ1MiIsInR5cGUiOiJub25lIiwiaWQiOiJlMzE2MzNiYS1hZjM4LTQ2YjYtYjZiMC05MzNhNWMxYjIzODMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3ZXN0c2cyLWRkbnMub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTctODg0LURFIiwiYWRkIjoiZnJhbmtmdXJ0LmZhZm9yZXguZXUub3JnIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjFhYWUxNjIwLTk1ZGMtNDU3MS04NmEyLTliMmJiN2YwNmJiYyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXRkb2c/ZWQ9MjU2MCIsImhvc3QiOiJmcmFua2Z1cnQuZmFmb3JleC5ldS5vcmciLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiYzJkZTcwNC1iYzhhLTQ2YWItYjI2Yi0zMzgwYzkyMmM4MWM@jg647hf446ghvw.eucs.cn:49709#17-885-CN
     trojan://c011a229-b2f4-448d-a616-c3f113977b7d@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-886-NOWHERE
@@ -853,7 +855,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTctOTIxLVJFTEFZIiwiYWRkIjoicWFxbmFqc3AubW16aGsud2Vic2l0ZSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMjgxZTFhNzktY2E1My00MGNiLWExYzItNGIzMDFjY2M2ZTEwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoicWFxbmFqc3AubW16aGsud2Vic2l0ZSIsInRscyI6InRscyJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4ZjExZTI0MC0zYzM2LTQyZWYtOWViZi02OTRmYjUzNDUwNmI@gy.666666222.shop:34338#17-922-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTIzLVJFTEFZIiwiYWRkIjoiMTA0LjIxLjMuMjE5IiwicG9ydCI6Ijg0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiYzMxMzYwNmYtOThjMi00ZDdiLWJhNzQtNDhiOTRmNjFiMTFkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoidGxzIn0=
-    vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTI1LVVTIiwiYWRkIjoibnkxLmJ1bGtjYXNoLnRvcCIsInBvcnQiOiI0MTUwNyIsInR5cGUiOiJub25lIiwiaWQiOiI2OTVhYzBhMy00MDZhLTQxZDctODNjNS01YWY4YzM5ZDNiZWMiLCJhaWQiOiI1IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJueTEuYnVsa2Nhc2gudG9wIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTI2LVVTIiwiYWRkIjoiMTcyLjExMS4zNi4xMDgiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjAzZmNjNjE4LWI5M2QtNjc5Ni02YWVkLThhMzhjOTc1ZDU4MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTI3LUNBIiwiYWRkIjoiMTM0LjE5NS4xOTguMTQ3IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIwM2ZjYzYxOC1iOTNkLTY3OTYtNmFlZC04YTM4Yzk3NWQ1ODEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtOTI4LVJFTEFZIiwiYWRkIjoiaGtuYnlpdmZmZmouc2l0ZSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDEzZmMyZjUtM2UwNS00Nzk1LTgxZWItNDQxNDNhMDllNTUyIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiaGtuYnlpdmZmZmouc2l0ZSIsInRscyI6InRscyJ9
@@ -876,11 +877,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `942`
+合并节点总数: `940`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `942`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `940`
 
 
 ## 仓库声明
