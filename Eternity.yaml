@@ -735,9 +735,10 @@ proxies:
   - {name: 18-779-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-780-US, server: ny1.bulkcash.top, port: 41507, type: vmess, uuid: 695ac0a3-406a-41d7-83c5-5af8c39d3bec, alterId: 5, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ny1.bulkcash.top}}, udp: true}
   - {name: 18-781-RELAY, server: 104.21.3.219, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-782-RELAY, server: uswuxian.pai50288.uk, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswuxian.pai50288.uk}}, udp: true}
   - {name: 18-783-US, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-784-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-785-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-786-DE, server: shadow-de01.gproxy.gratis, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 8fcf64c4-2ac5-4f2f-8298-5052d8cff826, udp: true}
   - {name: 18-787-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-788-RELAY, server: 104.31.16.9, port: 2053, type: vmess, uuid: ad3d0eb7-24a6-403b-9225-feeacb8219b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-789-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1436,9 +1437,10 @@ proxy-groups:
       - 18-779-CA
       - 18-780-US
       - 18-781-RELAY
-      - 18-782-RELAY
       - 18-783-US
       - 18-784-US
+      - 18-785-US
+      - 18-786-DE
       - 18-787-FR
       - 18-788-RELAY
       - 18-789-DE
@@ -1598,6 +1600,7 @@ proxy-groups:
       - 17-771-SG
       - 17-776-CN
       - 18-781-RELAY
+      - 18-786-DE
       - 18-791-FR
   - name: 测速2分组
     type: url-test
@@ -1738,7 +1741,6 @@ proxy-groups:
       - 17-762-US
       - 17-767-CN
       - 17-777-CN
-      - 18-782-RELAY
       - 18-787-FR
       - 18-792-RELAY
   - name: 测速3分组
@@ -2171,6 +2173,7 @@ proxy-groups:
       - 17-770-RELAY
       - 17-775-DE
       - 18-780-US
+      - 18-785-US
       - 18-790-RELAY
   - name: 广告拦截
     type: select
