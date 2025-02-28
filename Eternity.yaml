@@ -169,6 +169,7 @@ proxies:
   - {name: 12-214-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 5a81b9f0-3fa2-45be-b2bc-5b8cc66f459d, udp: true}
   - {name: 12-215-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 5a81b9f0-3fa2-45be-b2bc-5b8cc66f459d, udp: true}
   - {name: 12-216-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 5a81b9f0-3fa2-45be-b2bc-5b8cc66f459d, udp: true}
+  - {name: 12-217-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 3b36c979-a12b-4be7-a0cd-d210f757afd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 12-218-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 3b36c979-a12b-4be7-a0cd-d210f757afd8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 12-219-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 8f3eb4c9-b4c4-44aa-9fc5-5fcbc4306365, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 12-220-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: 5a81b9f0-3fa2-45be-b2bc-5b8cc66f459d, udp: true}
@@ -792,10 +793,8 @@ proxies:
   - {name: 18-839-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-840-RELAY, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgfqkqmltcy.site}}, udp: true}
   - {name: 18-841-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
-  - {name: 18-842-DE, server: shadow-de01.gproxy.gratis, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 8fcf64c4-2ac5-4f2f-8298-5052d8cff826, udp: true}
   - {name: 18-843-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-844-RELAY, server: 104.21.16.100, port: 2053, type: vmess, uuid: eb817168-5f83-4fba-af99-881ec0e547b1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-845-US, server: 38.14.107.233, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-846-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-847-RELAY, server: 104.31.16.9, port: 2053, type: vmess, uuid: ad3d0eb7-24a6-403b-9225-feeacb8219b9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-848-RELAY, server: 6b2a30.50f8-2268-45e0.cfd, port: 80, type: vmess, uuid: 0ba4a240-1586-4a54-929c-26389c8a4111, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6b2a30.50f8-2268-45e0.cfd}}, udp: true}
@@ -929,6 +928,7 @@ proxy-groups:
       - 12-214-CN
       - 12-215-CN
       - 12-216-CN
+      - 12-217-RELAY
       - 12-218-RELAY
       - 12-219-US
       - 12-220-CN
@@ -1552,10 +1552,8 @@ proxy-groups:
       - 18-839-CA
       - 18-840-RELAY
       - 18-841-RELAY
-      - 18-842-DE
       - 18-843-US
       - 18-844-RELAY
-      - 18-845-US
       - 18-846-FR
       - 18-847-RELAY
       - 18-848-RELAY
@@ -1759,6 +1757,7 @@ proxy-groups:
       - 11-202-CN
       - 11-207-CN
       - 12-212-CN
+      - 12-217-RELAY
       - 12-222-CN
       - 16-227-JP
       - 16-232-DE
@@ -1882,7 +1881,6 @@ proxy-groups:
       - 17-827-US
       - 17-832-RELAY
       - 17-837-US
-      - 18-842-DE
       - 18-847-RELAY
       - 18-852-RELAY
   - name: 测速3分组
@@ -2347,7 +2345,6 @@ proxy-groups:
       - 17-830-CN
       - 17-835-RELAY
       - 18-840-RELAY
-      - 18-845-US
       - 18-850-DE
   - name: 广告拦截
     type: select
