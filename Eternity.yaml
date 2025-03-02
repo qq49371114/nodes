@@ -64,7 +64,7 @@ proxies:
   - {name: 04-007-JP, server: 35.77.198.143, port: 443, type: trojan, password: 7c209292-6786-37c0-a9e7-aa284f47bf13, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-008-JP, server: 35.74.5.159, port: 443, type: trojan, password: 7c209292-6786-37c0-a9e7-aa284f47bf13, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 54.218.137.230, port: 443, type: trojan, password: 7c209292-6786-37c0-a9e7-aa284f47bf13, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: 7c209292-6786-37c0-a9e7-aa284f47bf13, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 7c209292-6786-37c0-a9e7-aa284f47bf13, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 33936f40-3322-3916-b450-d48ec206e73a, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: 33936f40-3322-3916-b450-d48ec206e73a, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-014-CN, server: gy.58n.net, port: 20307, type: trojan, password: 33936f40-3322-3916-b450-d48ec206e73a, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -284,7 +284,7 @@ proxies:
   - {name: 16-327-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: ae0481cc-d380-47ff-88a8-c2be0c454970, udp: true}
   - {name: 16-328-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 78a044fe-6d6a-4a82-8744-6e63cc75495c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-329-CN, server: southvip1.pkyun.xyz, port: 58824, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
-  - {name: 16-330-JP, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 6b7016af-98ab-43a0-bda2-922f936e7601, udp: true}
+  - {name: "16-330-JPtrojan//7c209292-6786-37c0-a9e7-aa284f47bf13@103.136.185.283516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US", server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 6b7016af-98ab-43a0-bda2-922f936e7601, udp: true}
   - {name: 16-331-RELAY, server: visa.com, port: 443, type: vmess, uuid: 6b770fee-54ef-48f2-8aeb-88d61cc30858, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 16-332-CN, server: southvip1.pkyun.xyz, port: 58830, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
   - {name: 16-333-CN, server: southvip1.pkyun.xyz, port: 58835, type: ss, cipher: chacha20-ietf-poly1305, password: 65e4980c-9e5d-48d0-94d6-37b0e7a86bbc, udp: true}
@@ -929,6 +929,7 @@ proxies:
   - {name: 17-972-RELAY, server: visa.com, port: 443, type: vmess, uuid: 8e22e06f-617a-490c-96aa-6df3030180bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-973-RELAY, server: pdizy.whmvmkwuey.store, port: 443, type: vmess, uuid: 2917ad23-d550-41be-a0f6-18456bcdb07f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pdizy.whmvmkwuey.store}}, udp: true}
   - {name: 17-974-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 306370b3-eac5-4cb6-8ac8-dc98626f5004, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
+  - {name: 17-975-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: b8f33154-0f89-495d-ba5f-8ec0b2eb570f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 18-976-US, server: 38.14.107.228, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-977-US, server: 38.14.107.225, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-978-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
@@ -968,7 +969,7 @@ proxy-groups:
       - 04-007-JP
       - 04-008-JP
       - 04-009-US
-      - 04-011-US
+      - 04-010-US
       - 04-012-CN
       - 04-013-CN
       - 04-014-CN
@@ -1188,7 +1189,7 @@ proxy-groups:
       - 16-327-CN
       - 16-328-RELAY
       - 16-329-CN
-      - 16-330-JP
+      - 16-330-JPtrojan//7c209292-6786-37c0-a9e7-aa284f47bf13@103.136.185.283516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
       - 16-331-RELAY
       - 16-332-CN
       - 16-333-CN
@@ -1833,6 +1834,7 @@ proxy-groups:
       - 17-972-RELAY
       - 17-973-RELAY
       - 17-974-RELAY
+      - 17-975-SG
       - 18-976-US
       - 18-977-US
       - 18-978-RELAY
@@ -1869,7 +1871,6 @@ proxy-groups:
     proxies:
       - 04-001-RELAY
       - 04-006-RELAY
-      - 04-011-US
       - 04-016-CN
       - 04-021-CN
       - 04-026-CN
@@ -1913,6 +1914,7 @@ proxy-groups:
       - 16-316-RELAY
       - 16-321-CN
       - 16-326-CN
+      - 16-330-JPtrojan//7c209292-6786-37c0-a9e7-aa284f47bf13@103.136.185.283516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
       - 16-331-RELAY
       - 16-336-RELAY
       - 16-341-DE
@@ -2098,6 +2100,7 @@ proxy-groups:
       - 16-317-RELAY
       - 16-322-CN
       - 16-327-CN
+      - 16-330-JPtrojan//7c209292-6786-37c0-a9e7-aa284f47bf13@103.136.185.283516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
       - 16-332-CN
       - 16-337-RELAY
       - 16-342-CN
@@ -2605,6 +2608,7 @@ proxy-groups:
     proxies:
       - 04-000-RELAY
       - 04-005-RELAY
+      - 04-010-US
       - 04-015-CN
       - 04-020-CN
       - 04-025-CN
@@ -2648,7 +2652,7 @@ proxy-groups:
       - 16-315-US
       - 16-320-CN
       - 16-325-CN
-      - 16-330-JP
+      - 16-330-JPtrojan//7c209292-6786-37c0-a9e7-aa284f47bf13@103.136.185.283516?allowInsecure=1&sni=steampipe.akamaized.net#04-011-US
       - 16-335-CN
       - 16-340-CN
       - 16-345-CN
@@ -2777,6 +2781,7 @@ proxy-groups:
       - 17-960-DE
       - 17-965-US
       - 17-970-SG
+      - 17-975-SG
       - 18-980-CA
       - 18-985-RELAY
       - 18-990-RELAY
