@@ -1,5 +1,6 @@
 import json, base64, os
 import subprocess, argparse
+from security import safe_command
 
 def speedtest(subscription,output_range,other_config={'concurrency': 16, 'timeout': 2}):
     """Wrapper for litespeedtest.
@@ -24,7 +25,7 @@ def speedtest(subscription,output_range,other_config={'concurrency': 16, 'timeou
         args = ['./lite-linux-amd64', '--config', './config.json', '--test', 'Eternity']
     elif os.name == 'nt':
         args = ['.\lite-windows-amd64.exe', '--config', './config.json', '--test', 'Eternity']
-    litespeedtest = subprocess.Popen(args,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,universal_newlines=True,encoding='utf-8',bufsize=1)
+    litespeedtest = safe_command.run(subprocess.Popen, args,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,universal_newlines=True,encoding='utf-8',bufsize=1)
 
     # Progress bar
     max_node = 1
