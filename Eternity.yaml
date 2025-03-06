@@ -822,7 +822,6 @@ proxies:
   - {name: 17-864-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 1098b90b-86a6-48b7-9abb-cfae036e69a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-865-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: d9b244f4-76b3-47c6-952f-d87d06957f44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-866-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 9f908d80-9d91-4659-910b-ee44840f9e4c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
-  - {name: 17-867-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 124339a2-f385-42b6-831b-dba27e546b3b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-868-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: 26be7643-c892-4928-ac61-e2c7a0aaa65e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-869-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 1aae1620-95dc-4571-86a2-9b2bb7f06bbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-870-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 0deadd17-344e-422c-816d-d7a0e9a0bd12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -921,6 +920,7 @@ proxies:
   - {name: 17-963-RELAY, server: visa.com, port: 443, type: vmess, uuid: f57b038a-8c0d-4a12-bfab-d9cb46fa9633, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 18-964-RELAY, server: 104.21.3.219, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-965-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 18-966-RELAY, server: uswuxian.pai50288.uk, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswuxian.pai50288.uk}}, udp: true}
   - {name: 18-967-RELAY, server: hknbyivfffj.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hknbyivfffj.site}}, udp: true}
   - {name: 18-968-RELAY, server: sgfqkqmltcy.site, port: 443, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sgfqkqmltcy.site}}, udp: true}
   - {name: 18-969-FR, server: 51.77.20.137, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1726,7 +1726,6 @@ proxy-groups:
       - 17-864-US
       - 17-865-DE
       - 17-866-SG
-      - 17-867-RELAY
       - 17-868-US
       - 17-869-SG
       - 17-870-SG
@@ -1825,6 +1824,7 @@ proxy-groups:
       - 17-963-RELAY
       - 18-964-RELAY
       - 18-965-CA
+      - 18-966-RELAY
       - 18-967-RELAY
       - 18-968-RELAY
       - 18-969-FR
@@ -2040,6 +2040,7 @@ proxy-groups:
       - 17-951-DE
       - 17-956-US
       - 17-961-SG
+      - 18-966-RELAY
       - 18-971-US
       - 18-976-RELAY
       - 18-981-RELAY
@@ -2204,7 +2205,6 @@ proxy-groups:
       - 17-852-CN
       - 17-857-RELAY
       - 17-862-CN
-      - 17-867-RELAY
       - 17-872-US
       - 17-877-RELAY
       - 17-882-CN
