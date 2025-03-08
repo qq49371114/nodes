@@ -588,6 +588,7 @@ proxies:
   - {name: 17-631-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 43e63f0e-27a4-4cc0-839b-939bbe3b4572, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-632-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2ce345d2-057e-46f1-be0f-ce889915446b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-633-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 4d8700e7-d253-4d88-8cb0-298b25e3cea8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-634-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 71272a21-39ff-4855-a1ca-96558697b313, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-635-RELAY, server: visa.com, port: 443, type: vmess, uuid: 96c03d43-839d-48bf-a09e-2fdabb269335, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-636-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 7a2b216d-2548-4c5a-91d7-0050398cfb5f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-637-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 49efa23e-13cd-489b-8e51-2f7e60eaf33e, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -684,7 +685,6 @@ proxies:
   - {name: 18-729-RELAY, server: 172.67.183.220, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-730-RELAY, server: 104.21.18.227, port: 443, type: vmess, uuid: 950db6aa-4926-4616-816e-ec0312dcb87b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-731-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-732-RELAY, server: uswuxian.pai50288.uk, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswuxian.pai50288.uk}}, udp: true}
   - {name: 18-733-RELAY, server: s1.db-link01.top, port: 2052, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 18-734-RELAY, server: cdncdncdn.aikunapp.com, port: 443, type: vmess, uuid: 96cad374-7573-4463-8804-4665c2c3d932, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cdncdncdn.aikunapp.com}}, udp: true}
   - {name: 18-735-RELAY, server: 104.17.221.248, port: 8880, type: vmess, uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -1274,6 +1274,7 @@ proxy-groups:
       - 17-631-DE
       - 17-632-US
       - 17-633-US
+      - 17-634-RELAY
       - 17-635-RELAY
       - 17-636-DE
       - 17-637-US
@@ -1370,7 +1371,6 @@ proxy-groups:
       - 18-729-RELAY
       - 18-730-RELAY
       - 18-731-CA
-      - 18-732-RELAY
       - 18-733-RELAY
       - 18-734-RELAY
       - 18-735-RELAY
@@ -1699,7 +1699,6 @@ proxy-groups:
       - 17-717-US
       - 18-722-RELAY
       - 18-727-RELAY
-      - 18-732-RELAY
       - 18-737-RELAY
       - 18-742-RELAY
       - 18-747-FR
@@ -1959,6 +1958,7 @@ proxy-groups:
       - 17-619-CN
       - 17-624-US
       - 17-629-US
+      - 17-634-RELAY
       - 17-639-CN
       - 17-644-DE
       - 17-649-CN
