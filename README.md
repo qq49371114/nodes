@@ -39,8 +39,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU5ZTJjMTc5LThkM2EtM2IxYS1hZjA1LWNlNTNhNjI3MDcxYyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjQuMTk5LjIxNyIsImhvc3QiOiJzNS5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     trojan://eb439f56-92fd-387d-90b2-90cc2219490c@54.168.236.31:443?allowInsecure=1&sni=steampipe.akamaized.net#04-007-JP
     trojan://eb439f56-92fd-387d-90b2-90cc2219490c@35.74.248.202:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-008-JP
+    trojan://eb439f56-92fd-387d-90b2-90cc2219490c@52.38.254.152:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-009-US
     trojan://eb439f56-92fd-387d-90b2-90cc2219490c@103.136.185.27:5535?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-010-US
-    trojan://eb439f56-92fd-387d-90b2-90cc2219490c@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-011-US
     trojan://98c2bdc0-bfda-3684-9aaa-d2df2a54526b@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://98c2bdc0-bfda-3684-9aaa-d2df2a54526b@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://98c2bdc0-bfda-3684-9aaa-d2df2a54526b@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
