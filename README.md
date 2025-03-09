@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `598`
+高速节点数量: `599`
 <details>
   <summary>展开复制节点</summary>
 
@@ -367,6 +367,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDYyLVJFTEFZIiwiYWRkIjoidmlzYS5jb20iLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImVlY2Q2ZTNjLTc2NDMtNDBjMC1hNDQzLTM4YTIzYzA4NDg1OCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InZpc2EuY29tIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZDJkNTZlNy0yNGUwLTQ5NDgtOGFmNC05NTkzMTdhZDZkNWE@chiyu.myfczy169.top:26867#16-463-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1MWU3ODA5ZS0yZWU5LTQ0NTYtYjQ0OS04YThjODE2NmFmMTA@chiyu2.myfczy169.top:57141#16-464-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDY1LVVTIiwiYWRkIjoic2hoaDAwMS5vcmFjbGVuYXQuY2MiLCJwb3J0IjoiMjM0NTEiLCJ0eXBlIjoibm9uZSIsImlkIjoiZDQ0NThkNzItNmRlOS00OTc0LWI3NGUtNzc4NzhkZmI2NGMxIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoic2hoaDAwMS5vcmFjbGVuYXQuY2MiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDY2LVVTIiwiYWRkIjoic2hoaDAwMS5vcmFjbGVuYXQuY2MiLCJwb3J0IjoiMjM0NTEiLCJ0eXBlIjoibm9uZSIsImlkIjoiNzQ3NDI0ZTEtNTVkMS00MmU2LTlhMzQtY2RmNWYwYmUyNGY2IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0Ijoic2hoaDAwMS5vcmFjbGVuYXQuY2MiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtNDY3LURFIiwiYWRkIjoiZnJhbmtmdXJ0LmZhZm9yZXguZXUub3JnIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJkNDI5YTI4LTEyZDctNGViOS1iMGFiLTEwYjI3NWVlMzBmMiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXRkb2c/ZWQ9MjU2MCIsImhvc3QiOiJmcmFua2Z1cnQuZmFmb3JleC5ldS5vcmciLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyNWRmMmFhNS1mYzBkLTRmZWUtOWE4Mi01NWRmODZmMGUxZDE@chiyu2.myfczy169.top:39886#16-469-CN
@@ -633,11 +634,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `778`
+合并节点总数: `779`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `778`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `779`
 
 
 ## 仓库声明
