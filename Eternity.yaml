@@ -61,8 +61,8 @@ proxies:
   - {name: 04-004-RELAY, server: s4.db-link02.top, port: 80, type: vmess, uuid: e9e2c179-8d3a-3b1a-af05-ce53a627071c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.38.125, headers: {Host: s4.db-link02.top}}, udp: true}
   - {name: 04-005-JP, server: 54.168.236.31, port: 443, type: trojan, password: c192a10d-6654-3dc5-82f0-8e5286ddbb1a, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-006-JP, server: 35.74.248.202, port: 443, type: trojan, password: c192a10d-6654-3dc5-82f0-8e5286ddbb1a, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-007-US, server: 52.38.254.152, port: 443, type: trojan, password: c192a10d-6654-3dc5-82f0-8e5286ddbb1a, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-008-US, server: 103.136.185.27, port: 5535, type: trojan, password: c192a10d-6654-3dc5-82f0-8e5286ddbb1a, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 103.136.185.28, port: 3516, type: trojan, password: c192a10d-6654-3dc5-82f0-8e5286ddbb1a, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-010-CN, server: gyl.58n.net, port: 20309, type: trojan, password: bea9386a-c5b5-3ea5-ab26-981767e5f806, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gy.58n.net, port: 43337, type: trojan, password: bea9386a-c5b5-3ea5-ab26-981767e5f806, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 20307, type: trojan, password: bea9386a-c5b5-3ea5-ab26-981767e5f806, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -449,7 +449,7 @@ proxies:
   - {name: 16-492-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: d72b2f12-90df-424b-aa53-9990653aced5, udp: true}
   - {name: 16-493-CN, server: chiyu.myfczy169.top, port: 20289, type: ss, cipher: chacha20-ietf-poly1305, password: bd3c2fff-3b20-43fa-b9c0-2d18d9e8bca0, udp: true}
   - {name: 16-494-CN, server: chiyu.myfczy169.top, port: 20936, type: ss, cipher: chacha20-ietf-poly1305, password: a6394248-aa4a-4652-ad16-b7dd0d88ba1e, udp: true}
-  - {name: "16-495-JPtrojan//c192a10d-6654-3dc5-82f0-8e5286ddbb1a@52.38.254.152443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-US", server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 93f69198-4113-4264-ab7f-519aee0756fd, udp: true}
+  - {name: 16-495-JP, server: hk.kfsldflk.xyz, port: 1200, type: ss, cipher: aes-256-gcm, password: 93f69198-4113-4264-ab7f-519aee0756fd, udp: true}
   - {name: 16-496-CN, server: chiyu.myfczy169.top, port: 21061, type: ss, cipher: chacha20-ietf-poly1305, password: a6394248-aa4a-4652-ad16-b7dd0d88ba1e, udp: true}
   - {name: 16-497-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 4d584b04-60c6-42b7-94c0-5bb899b6a86e, udp: true}
   - {name: 16-498-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: aefba090-1b5f-47f9-a4bd-62430615c96d, udp: true}
@@ -623,7 +623,6 @@ proxies:
   - {name: 17-666-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: c1f4d4f8-c082-461f-a8fd-acedebc0c3c7, udp: true}
   - {name: 17-667-CN, server: chiyu2.myfczy169.top, port: 39886, type: ss, cipher: chacha20-ietf-poly1305, password: 62502f09-781c-4e63-83f0-49c9e686696d, udp: true}
   - {name: 17-668-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 46eb3402-0c4d-41b1-be5a-c421ddb924cc, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 17-669-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: bd24887a-79f0-4443-b6de-02e06bec845d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-670-CN, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: 62502f09-781c-4e63-83f0-49c9e686696d, udp: true}
   - {name: 17-671-RELAY, server: cainiao999.top, port: 8888, type: ss, cipher: chacha20-ietf-poly1305, password: 62502f09-781c-4e63-83f0-49c9e686696d, udp: true}
   - {name: 17-672-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 11f8f8c0-ef31-49c8-b8b7-c63368d3f227, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -723,8 +722,8 @@ proxy-groups:
       - 04-004-RELAY
       - 04-005-JP
       - 04-006-JP
+      - 04-007-US
       - 04-008-US
-      - 04-009-US
       - 04-010-CN
       - 04-011-CN
       - 04-012-CN
@@ -1111,7 +1110,7 @@ proxy-groups:
       - 16-492-CN
       - 16-493-CN
       - 16-494-CN
-      - 16-495-JPtrojan//c192a10d-6654-3dc5-82f0-8e5286ddbb1a@52.38.254.152443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-US
+      - 16-495-JP
       - 16-496-CN
       - 16-497-CN
       - 16-498-CN
@@ -1285,7 +1284,6 @@ proxy-groups:
       - 17-666-CN
       - 17-667-CN
       - 17-668-US
-      - 17-669-SG
       - 17-670-CN
       - 17-671-RELAY
       - 17-672-US
@@ -1520,6 +1518,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-002-RELAY
+      - 04-007-US
       - 04-012-CN
       - 04-017-CN
       - 04-022-CN
@@ -1597,7 +1596,6 @@ proxy-groups:
       - 16-482-CN
       - 16-487-CN
       - 16-492-CN
-      - 16-495-JPtrojan//c192a10d-6654-3dc5-82f0-8e5286ddbb1a@52.38.254.152443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-US
       - 16-497-CN
       - 16-502-CN
       - 16-507-CN
@@ -1791,7 +1789,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-004-RELAY
-      - 04-009-US
       - 04-014-CN
       - 04-019-CN
       - 04-024-CN
@@ -1869,7 +1866,6 @@ proxy-groups:
       - 16-484-CN
       - 16-489-RELAY
       - 16-494-CN
-      - 16-495-JPtrojan//c192a10d-6654-3dc5-82f0-8e5286ddbb1a@52.38.254.152443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-US
       - 16-499-CN
       - 16-504-CN
       - 16-509-CN
@@ -1904,7 +1900,6 @@ proxy-groups:
       - 17-654-CN
       - 17-659-DE
       - 17-664-US
-      - 17-669-SG
       - 17-674-US
       - 18-679-RELAY
       - 18-684-RELAY
@@ -2006,7 +2001,7 @@ proxy-groups:
       - 16-480-CN
       - 16-485-CN
       - 16-490-CN
-      - 16-495-JPtrojan//c192a10d-6654-3dc5-82f0-8e5286ddbb1a@52.38.254.152443?allowInsecure=1&sni=origin-a.akamaihd.net#04-007-US
+      - 16-495-JP
       - 16-500-CN
       - 16-505-RELAY
       - 16-510-CN
