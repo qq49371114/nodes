@@ -58,7 +58,7 @@ proxies:
   - {name: 04-004-RELAY, server: s2.db-link01.top, port: 80, type: vmess, uuid: 550422fa-01d1-3d8c-aa28-f8b2a14f7e7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.3.53, headers: {Host: s2.db-link01.top}}, udp: true}
   - {name: 04-005-RELAY, server: s5.db-link02.top, port: 2095, type: vmess, uuid: 550422fa-01d1-3d8c-aa28-f8b2a14f7e7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.37.3, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 04-006-RELAY, server: s4.db-link01.top, port: 8080, type: vmess, uuid: 550422fa-01d1-3d8c-aa28-f8b2a14f7e7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.241.57, headers: {Host: s4.db-link01.top}}, udp: true}
-  - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: 621e667c-ec98-3ecb-bec5-4e0df2223601, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-007-JP, server: 54.168.236.31, port: 443, type: trojan, password: 621e667c-ec98-3ecb-bec5-4e0df2223601, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 52.38.254.152, port: 443, type: trojan, password: 621e667c-ec98-3ecb-bec5-4e0df2223601, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 621e667c-ec98-3ecb-bec5-4e0df2223601, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 368bb526-a218-3b3d-b77f-1910c40f7a28, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -620,7 +620,7 @@ proxy-groups:
       - 04-004-RELAY
       - 04-005-RELAY
       - 04-006-RELAY
-      - 04-008-JP
+      - 04-007-JP
       - 04-009-US
       - 04-010-US
       - 04-012-CN
@@ -1578,6 +1578,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-007-JP
       - 04-017-CN
       - 04-027-CN
       - 04-037-CN
@@ -1639,7 +1640,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-008-JP
       - 04-018-CN
       - 04-028-CN
       - 04-038-CN
