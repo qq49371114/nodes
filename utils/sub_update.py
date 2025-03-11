@@ -3,6 +3,7 @@
 from datetime import datetime
 import json, re
 import requests
+from security import safe_requests
 
 
 class update():
@@ -91,7 +92,7 @@ class update():
 
             if self.url_updated(url_update):
                 try:
-                    resp = requests.get(url_update, timeout=5)
+                    resp = safe_requests.get(url_update, timeout=5)
                     raw_content = resp.text
 
                     raw_content = raw_content.replace('amp;', '')
