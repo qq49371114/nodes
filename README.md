@@ -30,7 +30,6 @@ Fork from TopFreeProxies.
 <details>
   <summary>展开复制节点</summary>
 
-    vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAwLVJFTEFZIiwiYWRkIjoiczUuY24tZGIudG9wIiwicG9ydCI6IjIwOTUiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTVmNGYyYmUtMjBjNi0zYTRkLTliOTMtOTA4MzE4NmNlMTVlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4yMS43My4xNDUiLCJob3N0IjoiczUuY24tZGIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAxLVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk1ZjRmMmJlLTIwYzYtM2E0ZC05YjkzLTkwODMxODZjZTE1ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjEuMjAuNDQiLCJob3N0IjoiczEuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAyLVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk1ZjRmMmJlLTIwYzYtM2E0ZC05YjkzLTkwODMxODZjZTE1ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjQuMTAuNTciLCJob3N0IjoiczQuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAzLVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTVmNGYyYmUtMjBjNi0zYTRkLTliOTMtOTA4MzE4NmNlMTVlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjE3Mi42Ny44Ny4yMCIsImhvc3QiOiJzMS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
@@ -141,6 +140,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM3ODYzNC1mMWIwLTQzNjYtYmU5MS01MzRiZDI1NGMyMDQ@chiyu.myfczy169.top:21048#11-209-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNmVmN2ZiNC01NGQ3LTQ5Y2YtYjAzYS01NTY0NTY5ZTU5Nzk@gy.666666222.shop:20035#11-210-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM3ODYzNC1mMWIwLTQzNjYtYmU5MS01MzRiZDI1NGMyMDQ@chiyu2.myfczy169.top:19055#11-211-CN
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM3ODYzNC1mMWIwLTQzNjYtYmU5MS01MzRiZDI1NGMyMDQ@chiyu2.myfczy169.top:47639#11-212-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM3ODYzNC1mMWIwLTQzNjYtYmU5MS01MzRiZDI1NGMyMDQ@chiyu.myfczy169.top:57329#11-213-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM3ODYzNC1mMWIwLTQzNjYtYmU5MS01MzRiZDI1NGMyMDQ@chiyu.myfczy169.top:21081#11-214-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZTM3ODYzNC1mMWIwLTQzNjYtYmU5MS01MzRiZDI1NGMyMDQ@chiyu.myfczy169.top:13489#11-215-CN
@@ -539,11 +539,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `606`
+合并节点总数: `607`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `606`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `607`
 
 
 ## 仓库声明
