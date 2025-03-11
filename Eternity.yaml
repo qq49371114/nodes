@@ -52,7 +52,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-000-RELAY, server: s5.cn-db.top, port: 2095, type: vmess, uuid: 95f4f2be-20c6-3a4d-9b93-9083186ce15e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.73.145, headers: {Host: s5.cn-db.top}}, udp: true}
   - {name: 04-001-RELAY, server: s1.db-link02.top, port: 2095, type: vmess, uuid: 95f4f2be-20c6-3a4d-9b93-9083186ce15e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.20.44, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-002-RELAY, server: s4.db-link01.top, port: 2095, type: vmess, uuid: 95f4f2be-20c6-3a4d-9b93-9083186ce15e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.10.57, headers: {Host: s4.db-link01.top}}, udp: true}
   - {name: 04-003-RELAY, server: s1.cn-db.top, port: 2082, type: vmess, uuid: 95f4f2be-20c6-3a4d-9b93-9083186ce15e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.87.20, headers: {Host: s1.cn-db.top}}, udp: true}
@@ -163,6 +162,7 @@ proxies:
   - {name: 11-209-CN, server: chiyu.myfczy169.top, port: 21048, type: ss, cipher: chacha20-ietf-poly1305, password: 0e378634-f1b0-4366-be91-534bd254c204, udp: true}
   - {name: 11-210-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 16ef7fb4-54d7-49cf-b03a-5564569e5979, udp: true}
   - {name: 11-211-CN, server: chiyu2.myfczy169.top, port: 19055, type: ss, cipher: chacha20-ietf-poly1305, password: 0e378634-f1b0-4366-be91-534bd254c204, udp: true}
+  - {name: 11-212-CN, server: chiyu2.myfczy169.top, port: 47639, type: ss, cipher: chacha20-ietf-poly1305, password: 0e378634-f1b0-4366-be91-534bd254c204, udp: true}
   - {name: 11-213-CN, server: chiyu.myfczy169.top, port: 57329, type: ss, cipher: chacha20-ietf-poly1305, password: 0e378634-f1b0-4366-be91-534bd254c204, udp: true}
   - {name: 11-214-CN, server: chiyu.myfczy169.top, port: 21081, type: ss, cipher: chacha20-ietf-poly1305, password: 0e378634-f1b0-4366-be91-534bd254c204, udp: true}
   - {name: 11-215-CN, server: chiyu.myfczy169.top, port: 13489, type: ss, cipher: chacha20-ietf-poly1305, password: 0e378634-f1b0-4366-be91-534bd254c204, udp: true}
@@ -572,7 +572,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 04-000-RELAY
       - 04-001-RELAY
       - 04-002-RELAY
       - 04-003-RELAY
@@ -683,6 +682,7 @@ proxy-groups:
       - 11-209-CN
       - 11-210-CN
       - 11-211-CN
+      - 11-212-CN
       - 11-213-CN
       - 11-214-CN
       - 11-215-CN
@@ -1198,6 +1198,7 @@ proxy-groups:
       - 07-182-RELAY
       - 11-192-CN
       - 11-202-CN
+      - 11-212-CN
       - 11-222-CN
       - 11-232-CN
       - 12-242-CN
@@ -1637,7 +1638,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-000-RELAY
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
