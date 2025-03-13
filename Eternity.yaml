@@ -277,7 +277,6 @@ proxies:
   - {name: 16-320-CN, server: chiyu.myfczy169.top, port: 26867, type: ss, cipher: chacha20-ietf-poly1305, password: e9951d61-c0e3-4e81-8292-03d35c6d88ac, udp: true}
   - {name: 16-321-CN, server: chiyu.myfczy169.top, port: 21091, type: ss, cipher: chacha20-ietf-poly1305, password: c7edd194-7050-4467-920b-8e622df6b232, udp: true}
   - {name: 16-322-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 576771d7-aa0b-44d8-9426-0346a3a176f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
-  - {name: 16-323-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: bce7082e-d79b-4f37-b996-0fcc6c9ca476, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 16-324-CN, server: chiyu.myfczy169.top, port: 57329, type: ss, cipher: chacha20-ietf-poly1305, password: e9951d61-c0e3-4e81-8292-03d35c6d88ac, udp: true}
   - {name: 16-325-CN, server: jg647hf446ghvw.eucs.cn, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: fc996722-c430-4d27-a78f-dcee089a7563, udp: true}
   - {name: 16-326-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: b6117a95-9a96-4ff1-8d4c-f2596bb37cc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
@@ -356,6 +355,7 @@ proxies:
   - {name: 17-399-RELAY, server: visa.com, port: 443, type: vmess, uuid: 576c70f6-9129-4cfc-85ac-cfe078d2fbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-400-RELAY, server: visa.com, port: 443, type: vmess, uuid: dd9800c8-f3e4-48fa-a839-85ade3faa197, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: visa.com}}, udp: true}
   - {name: 17-401-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 8e74df5e-2d75-4b07-9659-d10a93115efe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
+  - {name: 17-402-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: c31ac013-c2dd-433f-b884-32f003460a54, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 17-403-RELAY, server: dibai.kxxd.site, port: 2082, type: vmess, uuid: 5800af0e-9049-4001-b77c-3eb0f80592f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ccc, headers: {Host: dibai.kxxd.site}}, udp: true}
   - {name: 17-404-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 9873a8e4-7c3a-4418-9dee-da1d554a6794, udp: true}
   - {name: 17-405-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: f69f0575-45be-471f-83cc-3e0beced8aba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
@@ -703,7 +703,6 @@ proxy-groups:
       - 16-320-CN
       - 16-321-CN
       - 16-322-RELAY
-      - 16-323-RELAY
       - 16-324-CN
       - 16-325-CN
       - 16-326-SG
@@ -782,6 +781,7 @@ proxy-groups:
       - 17-399-RELAY
       - 17-400-RELAY
       - 17-401-RELAY
+      - 17-402-RELAY
       - 17-403-RELAY
       - 17-404-CN
       - 17-405-RELAY
@@ -1061,6 +1061,7 @@ proxy-groups:
       - 17-387-CN
       - 17-392-SG
       - 17-397-RELAY
+      - 17-402-RELAY
       - 17-407-CN
       - 17-412-US
       - 17-417-RELAY
@@ -1133,7 +1134,6 @@ proxy-groups:
       - 16-308-SG
       - 16-313-CN
       - 16-318-CN
-      - 16-323-RELAY
       - 16-328-CN
       - 16-333-CN
       - 16-338-CN
