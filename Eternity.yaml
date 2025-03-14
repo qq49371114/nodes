@@ -59,8 +59,8 @@ proxies:
   - {name: 04-005-RELAY, server: s3.cn-db.top, port: 2086, type: vmess, uuid: eb5de792-9d8a-32a8-a887-e6d2450b9577, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.17.104.175, headers: {Host: s3.cn-db.top}}, udp: true}
   - {name: 04-006-RELAY, server: s4.db-link01.top, port: 8880, type: vmess, uuid: eb5de792-9d8a-32a8-a887-e6d2450b9577, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.5.203, headers: {Host: s4.db-link01.top}}, udp: true}
   - {name: 04-007-JP, server: 54.168.236.31, port: 443, type: trojan, password: 2ad3bcc3-70cb-3b68-bc94-246c969af196, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 54.212.230.98, port: 443, type: trojan, password: 2ad3bcc3-70cb-3b68-bc94-246c969af196, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: 2ad3bcc3-70cb-3b68-bc94-246c969af196, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-009-US, server: 35.74.248.202, port: 443, type: trojan, password: 2ad3bcc3-70cb-3b68-bc94-246c969af196, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 2ad3bcc3-70cb-3b68-bc94-246c969af196, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: b7a64406-194e-3161-a359-bb419969cfce, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: b7a64406-194e-3161-a359-bb419969cfce, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-014-CN, server: gy.58n.net, port: 20307, type: trojan, password: b7a64406-194e-3161-a359-bb419969cfce, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -342,7 +342,7 @@ proxies:
   - {name: 17-389-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 71272a21-39ff-4855-a1ca-96558697b313, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-390-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 63e7e8c8-f746-4f55-82bf-951e846516d8, udp: true}
   - {name: 17-391-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: ad2ceef2-4371-4464-ab3a-73f2c1d90b51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
-  - {name: 17-392-US, server: 35.74.248.202, port: 443, type: trojan, password: 2ad3bcc3-70cb-3b68-bc94-246c969af196, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-392-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 759dfe8b-a93c-49a8-97ed-39c8ed00ec61, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-393-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 576c70f6-9129-4cfc-85ac-cfe078d2fbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-394-US, server: shhh001.oraclenat.cc, port: 23451, type: vmess, uuid: ad2ceef2-4371-4464-ab3a-73f2c1d90b51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shhh001.oraclenat.cc}}, udp: true}
   - {name: 17-395-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: f69f0575-45be-471f-83cc-3e0beced8aba, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
@@ -546,7 +546,7 @@ proxy-groups:
       - 04-006-RELAY
       - 04-007-JP
       - 04-009-US
-      - 04-011-US
+      - 04-010-US
       - 04-012-CN
       - 04-013-CN
       - 04-014-CN
@@ -1063,7 +1063,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-001-RELAY
-      - 04-011-US
       - 04-021-CN
       - 04-031-CN
       - 04-041-CN
@@ -1539,6 +1538,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-010-US
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
