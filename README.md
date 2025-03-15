@@ -35,7 +35,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDAzLVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViODQyMjIwLTEzM2QtMzQ1Ni1hYTFlLWJlYmQ3M2NiMmQ5OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjUuMTExLjEyOSIsImhvc3QiOiJzMS5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczQuZGItbGluazAxLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViODQyMjIwLTEzM2QtMzQ1Ni1hYTFlLWJlYmQ3M2NiMmQ5OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuNTcuMTUxIiwiaG9zdCI6InM0LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczMuZGItbGluazAxLnRvcCIsInBvcnQiOiI4ODgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjViODQyMjIwLTEzM2QtMzQ1Ni1hYTFlLWJlYmQ3M2NiMmQ5OSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjQuNDYuODYiLCJob3N0IjoiczMuZGItbGluazAxLnRvcCIsInRscyI6IiJ9
-    trojan://5afbce9b-787e-3ee2-bcc7-aeb2c443d3a5@54.168.236.31:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-006-JP
+    trojan://5afbce9b-787e-3ee2-bcc7-aeb2c443d3a5@35.74.248.202:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-007-JP
     trojan://5afbce9b-787e-3ee2-bcc7-aeb2c443d3a5@54.201.215.147:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-008-US
     trojan://5afbce9b-787e-3ee2-bcc7-aeb2c443d3a5@103.136.185.28:3516?allowInsecure=1&sni=www.microsoft365.com#04-010-US
     trojan://df9e0b7d-71b0-3df5-9207-00b8881c7398@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-011-CN
@@ -310,7 +310,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTctMzc5LVJFTEFZIiwiYWRkIjoidmlzYS5jb20iLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImIyYzJiNzQ3LTczZjUtNDEzOS05MzE2LWQwMDhiOWNlNjEwNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InZpc2EuY29tIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphY2JiYTdkOS04Yjc1LTQzYTQtOGE5Yi1mMjA1ODRkMzg5YzQ@gy.666666222.shop:20002#17-380-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTctMzgxLVJFTEFZIiwiYWRkIjoiZGliYWkua3h4ZC5zaXRlIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMzdjOTI4YTUtNzg5MC00YWUzLWI0Y2YtZTE1ZWY3YzRkZDBkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jY2MiLCJob3N0IjoiZGliYWkua3h4ZC5zaXRlIiwidGxzIjoiIn0=
-    trojan://5afbce9b-787e-3ee2-bcc7-aeb2c443d3a5@35.74.248.202:443?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-382-US
+    trojan://5afbce9b-787e-3ee2-bcc7-aeb2c443d3a5@54.168.236.31:443?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-382-US
     vmess://eyJ2IjoiMiIsInBzIjoiMTctMzgzLVJFTEFZIiwiYWRkIjoiZGliYWkua3h4ZC5zaXRlIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiZjcxODVhMzUtZmU5OS00NDhjLWI4OWYtNDY1Zjk4M2NkYjczIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jY2MiLCJob3N0IjoiZGliYWkua3h4ZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTctMzg0LURFIiwiYWRkIjoiZnJhbmtmdXJ0LmZhZm9yZXguZXUub3JnIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImJkMjQ4ODdhLTc5ZjAtNDQ0My1iNmRlLTAyZTA2YmVjODQ1ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXRkb2c/ZWQ9MjU2MCIsImhvc3QiOiJmcmFua2Z1cnQuZmFmb3JleC5ldS5vcmciLCJ0bHMiOiIifQ==
     trojan://1daf5837-08b5-4b09-9cf8-c999ab0e3e37@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-385-US
@@ -472,11 +472,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `538`
+合并节点总数: `539`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `538`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `539`
 
 
 ## 仓库声明
