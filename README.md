@@ -36,9 +36,9 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJkMjcyMDE4LTlkMjctM2Q5Mi1iNDI0LWUyMWU0OWNhNGMxMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjUuNjUuMTAiLCJob3N0IjoiczIuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczUuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJkMjcyMDE4LTlkMjctM2Q5Mi1iNDI0LWUyMWU0OWNhNGMxMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjAuNTYuMjE1IiwiaG9zdCI6InM1LmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczEuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDg2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjJkMjcyMDE4LTlkMjctM2Q5Mi1iNDI0LWUyMWU0OWNhNGMxMCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMTguOTIuMTU5IiwiaG9zdCI6InMxLmRiLWxpbmswMS50b3AiLCJ0bHMiOiIifQ==
-    trojan://bd01da63-e6fe-3260-9bb2-1a15afca4f07@54.168.236.31:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-007-JP
-    trojan://bd01da63-e6fe-3260-9bb2-1a15afca4f07@54.201.215.147:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
-    trojan://bd01da63-e6fe-3260-9bb2-1a15afca4f07@103.136.185.27:5535?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-010-US
+    trojan://d92c2a3b-b1e0-344f-bd9f-a839380984e8@54.168.236.31:443?allowInsecure=1&sni=steampipe.akamaized.net#04-007-JP
+    trojan://d92c2a3b-b1e0-344f-bd9f-a839380984e8@54.201.215.147:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-009-US
+    trojan://d92c2a3b-b1e0-344f-bd9f-a839380984e8@103.136.185.28:3516?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-011-US
     trojan://df9e0b7d-71b0-3df5-9207-00b8881c7398@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://df9e0b7d-71b0-3df5-9207-00b8881c7398@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://df9e0b7d-71b0-3df5-9207-00b8881c7398@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
