@@ -61,8 +61,8 @@ proxies:
   - {name: 04-005-RELAY, server: s4.db-link01.top, port: 2086, type: vmess, uuid: cb39a591-70c5-3294-8973-5639b5fb72e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.39.47, headers: {Host: s4.db-link01.top}}, udp: true}
   - {name: 04-006-JP, server: 54.168.236.31, port: 443, type: trojan, password: f85aeeec-e002-3d39-a0fc-0c2012f59597, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-007-JP, server: 35.74.248.202, port: 443, type: trojan, password: f85aeeec-e002-3d39-a0fc-0c2012f59597, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-008-US, server: 54.201.215.147, port: 443, type: trojan, password: f85aeeec-e002-3d39-a0fc-0c2012f59597, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 103.136.185.27, port: 5535, type: trojan, password: f85aeeec-e002-3d39-a0fc-0c2012f59597, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-010-US, server: 103.136.185.28, port: 3516, type: trojan, password: f85aeeec-e002-3d39-a0fc-0c2012f59597, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gyl.58n.net, port: 20309, type: trojan, password: df9e0b7d-71b0-3df5-9207-00b8881c7398, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 43337, type: trojan, password: df9e0b7d-71b0-3df5-9207-00b8881c7398, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 20307, type: trojan, password: df9e0b7d-71b0-3df5-9207-00b8881c7398, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -483,8 +483,8 @@ proxy-groups:
       - 04-005-RELAY
       - 04-006-JP
       - 04-007-JP
-      - 04-008-US
       - 04-009-US
+      - 04-010-US
       - 04-011-CN
       - 04-012-CN
       - 04-013-CN
@@ -1081,7 +1081,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-003-RELAY
-      - 04-008-US
       - 04-013-CN
       - 04-018-CN
       - 04-023-CN
@@ -1255,6 +1254,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-005-RELAY
+      - 04-010-US
       - 04-015-CN
       - 04-020-CN
       - 04-025-CN
