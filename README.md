@@ -39,8 +39,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczEuY24tZGIudG9wIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiYjIxZjYwOWMtNDNhMS0zZDA2LThmMTgtNjEwMTkwMGE4YjVlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4yMC4yNy4yMCIsImhvc3QiOiJzMS5jbi1kYi50b3AiLCJ0bHMiOiIifQ==
     trojan://6b5da3fb-16f1-3753-b1cc-8134c723e3f2@54.168.236.31:443?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-007-JP
     trojan://6b5da3fb-16f1-3753-b1cc-8134c723e3f2@35.74.248.202:443?allowInsecure=1&sni=steampipe.akamaized.net#04-008-JP
+    trojan://6b5da3fb-16f1-3753-b1cc-8134c723e3f2@52.10.16.223:443?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-009-US
     trojan://6b5da3fb-16f1-3753-b1cc-8134c723e3f2@103.136.185.27:5535?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-010-US
-    trojan://6b5da3fb-16f1-3753-b1cc-8134c723e3f2@103.136.185.28:3516?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-011-US
     trojan://c30901a9-0b04-35f9-bfa6-95d442bf9ef4@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://c30901a9-0b04-35f9-bfa6-95d442bf9ef4@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://c30901a9-0b04-35f9-bfa6-95d442bf9ef4@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
@@ -133,7 +133,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYjIzZWU4OS0zMzRjLTRiYjYtODQzNi1iZDlkYjU4NjRlMzI@gy.666666222.shop:20016#11-200-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYjIzZWU4OS0zMzRjLTRiYjYtODQzNi1iZDlkYjU4NjRlMzI@gy.666666222.shop:20032#11-201-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYjIzZWU4OS0zMzRjLTRiYjYtODQzNi1iZDlkYjU4NjRlMzI@gy.666666222.shop:20008#11-202-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMTEtMjAzLVJFTEFZIiwiYWRkIjoiYmlhemgubW16aGsud2Vic2l0ZSIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiMzhkY2U5NGMtNGI3Mi00ZTM0LTg4MWMtZmIzNTM3NWQzNzBkIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiYmlhemgubW16aGsud2Vic2l0ZSIsInRscyI6InRscyJ9
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYjIzZWU4OS0zMzRjLTRiYjYtODQzNi1iZDlkYjU4NjRlMzI@gy.666666222.shop:20002#11-204-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYjIzZWU4OS0zMzRjLTRiYjYtODQzNi1iZDlkYjU4NjRlMzI@gy.666666222.shop:20004#11-205-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozYjIzZWU4OS0zMzRjLTRiYjYtODQzNi1iZDlkYjU4NjRlMzI@gy.666666222.shop:20035#11-206-CN
@@ -162,6 +161,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2YWY2NjBkMC1hZDdkLTQ3MjAtYWE1OC0yNjFiNGViZWZhZjE@chiyu2.myfczy169.top:47695#16-229-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmZTZlMGVjMC1jOTFhLTQ0YmUtODY5Yy1mYjJlNmU5M2ZlNGM@gy.666666222.shop:20004#16-230-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMjMxLURFIiwiYWRkIjoiZnJhbmtmdXJ0LmZhZm9yZXguZXUub3JnIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjQ2MjA2ZGI0LWMxMzItNDljNy1iNWU4LTRkYWYxZmJjNGFiMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXRkb2c/ZWQ9MjU2MCIsImhvc3QiOiJmcmFua2Z1cnQuZmFmb3JleC5ldS5vcmciLCJ0bHMiOiIifQ==
+    vmess://eyJ2IjoiMiIsInBzIjoiMTYtMjMyLVJFTEFZIiwiYWRkIjoiZGliYWkua3h4ZC5zaXRlIiwicG9ydCI6IjIwODIiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmIwYzNjZGItNGE4Ny00Y2QwLTg3ZTYtMWQ5M2U3ODE4Yzk5IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jY2MiLCJob3N0IjoiZGliYWkua3h4ZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTYtMjMzLVNHIiwiYWRkIjoid2VzdHNnMi1kZG5zLm9yYWNsZW5hdC5jYyIsInBvcnQiOiIyMzQ1MiIsInR5cGUiOiJub25lIiwiaWQiOiJkMzJjNmE0NS1iNDdiLTQxNGItOTA1YS0xYzg3MGZiNTMwOGUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3ZXN0c2cyLWRkbnMub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZDRmNDdkNy0xYzMwLTRmZjEtODU5OS1kM2JhOTI2ZGQ5ODQ@gy.666666222.shop:20013#16-234-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkZjhjZGY4Zi1hOTcwLTQ5OWYtYjBjYy1lMzJmMGEzNWVkMWY@chiyu2.myfczy169.top:16542#16-235-CN
