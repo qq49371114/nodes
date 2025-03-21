@@ -39,8 +39,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NTFmMTVhLTI2MTMtMzJjZS1iYmUzLWU5ZTk0MDEzNTA2MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjUuMTI1LjI0NiIsImhvc3QiOiJzMi5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     trojan://9581cdef-4d48-39be-adc9-ea7f51344ffc@54.168.236.31:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-007-JP
     trojan://9581cdef-4d48-39be-adc9-ea7f51344ffc@35.74.248.202:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-008-JP
+    trojan://9581cdef-4d48-39be-adc9-ea7f51344ffc@35.87.148.97:443?allowInsecure=1&sni=steampipe.akamaized.net#04-009-US
     trojan://9581cdef-4d48-39be-adc9-ea7f51344ffc@103.136.185.27:5535?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-010-US
-    trojan://9581cdef-4d48-39be-adc9-ea7f51344ffc@103.136.185.28:3516?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-011-US
     trojan://6efe8a0e-0125-3d37-b640-70f6678ae2c9@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://6efe8a0e-0125-3d37-b640-70f6678ae2c9@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://6efe8a0e-0125-3d37-b640-70f6678ae2c9@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
