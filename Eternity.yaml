@@ -59,8 +59,8 @@ proxies:
   - {name: 04-005-RELAY, server: s3.db-link01.top, port: 8880, type: vmess, uuid: 82547ed4-fc5b-3282-b084-27b70c8a872a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.81.157, headers: {Host: s3.db-link01.top}}, udp: true}
   - {name: 04-006-RELAY, server: s1.cn-db.top, port: 8080, type: vmess, uuid: 82547ed4-fc5b-3282-b084-27b70c8a872a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.25.248.43, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: 56e21092-fd3a-3532-8b87-9afcf2104583, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 35.87.148.97, port: 443, type: trojan, password: 56e21092-fd3a-3532-8b87-9afcf2104583, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 56e21092-fd3a-3532-8b87-9afcf2104583, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: 56e21092-fd3a-3532-8b87-9afcf2104583, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 7370e1f9-6dc2-3f1d-9f78-5dc08030249b, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: 7370e1f9-6dc2-3f1d-9f78-5dc08030249b, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-014-CN, server: gy.58n.net, port: 20307, type: trojan, password: 7370e1f9-6dc2-3f1d-9f78-5dc08030249b, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -502,8 +502,8 @@ proxy-groups:
       - 04-005-RELAY
       - 04-006-RELAY
       - 04-008-JP
-      - 04-009-US
       - 04-010-US
+      - 04-011-US
       - 04-012-CN
       - 04-013-CN
       - 04-014-CN
@@ -977,6 +977,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-001-RELAY
+      - 04-011-US
       - 04-021-CN
       - 04-031-CN
       - 04-041-CN
@@ -1367,7 +1368,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-009-US
       - 04-019-CN
       - 04-029-CN
       - 04-039-CN
