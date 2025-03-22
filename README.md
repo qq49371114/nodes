@@ -40,7 +40,7 @@ Fork from TopFreeProxies.
     trojan://bb28b34d-903b-3fe1-9b34-39188311dded@54.168.236.31:443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-007-JP
     trojan://bb28b34d-903b-3fe1-9b34-39188311dded@35.74.248.202:443?allowInsecure=1&sni=steamcdn-a.akamaihd.net#04-008-JP
     trojan://bb28b34d-903b-3fe1-9b34-39188311dded@35.87.148.97:443?allowInsecure=1&sni=steampipe.akamaized.net#04-009-US
-    trojan://bb28b34d-903b-3fe1-9b34-39188311dded@103.136.185.27:5535?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-010-US
+    trojan://bb28b34d-903b-3fe1-9b34-39188311dded@103.136.185.28:3516?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-011-US
     trojan://b830dc2f-65a5-32a6-a98b-2fd9db5f86b8@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://b830dc2f-65a5-32a6-a98b-2fd9db5f86b8@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
     trojan://b830dc2f-65a5-32a6-a98b-2fd9db5f86b8@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-014-CN
