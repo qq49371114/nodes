@@ -64,7 +64,7 @@ proxies:
   - {name: 04-007-JP, server: 54.168.236.31, port: 443, type: trojan, password: ed6de709-0767-381e-8e0d-665f9667327b, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: ed6de709-0767-381e-8e0d-665f9667327b, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 54.68.231.3, port: 443, type: trojan, password: ed6de709-0767-381e-8e0d-665f9667327b, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: ed6de709-0767-381e-8e0d-665f9667327b, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: ed6de709-0767-381e-8e0d-665f9667327b, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: c705b377-2afa-3826-aa02-67e02160391d, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: c705b377-2afa-3826-aa02-67e02160391d, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-014-CN, server: gy.58n.net, port: 20307, type: trojan, password: c705b377-2afa-3826-aa02-67e02160391d, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -484,7 +484,6 @@ proxies:
   - {name: 17-527-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 1f7c586a-9db7-4fd8-bd37-504e07039d37, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-528-CN, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 238281e6-1c15-45b7-8c7b-2d9e088c6f87, udp: true}
   - {name: 17-529-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: bf93b22b-d26a-4c62-adc9-034faf2ab5d2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
-  - {name: 17-530-RELAY, server: de01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 3f008ec7-6b8e-4062-a08c-770a4ca59029, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-531-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 9988800a-9ffe-4555-8e2b-a99dd0000466, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-532-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 3d3a0d7f-7368-4b9d-9e62-98e6c2a56fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-533-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: 74c01f79-f0c9-436d-959b-191d6856ac84, udp: true}
@@ -589,6 +588,7 @@ proxies:
   - {name: 17-633-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 238281e6-1c15-45b7-8c7b-2d9e088c6f87, udp: true}
   - {name: 17-634-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: dba3220c-195a-4cd5-b49d-241212ecf704, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-635-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 74c01f79-f0c9-436d-959b-191d6856ac84, udp: true}
+  - {name: 17-636-RELAY, server: de01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 78aeddec-3dbf-459c-a7c6-076cc33985e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-637-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: c1d485d5-5ef9-4ad9-a696-f84769a7228d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-638-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 7caa2ba9-cd2c-4c76-b9d0-cc2ac6a667ac, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-639-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: ee4a64e8-d3d9-4275-9bc1-54dde85c5606, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
@@ -630,7 +630,7 @@ proxy-groups:
       - 04-007-JP
       - 04-008-JP
       - 04-009-US
-      - 04-011-US
+      - 04-010-US
       - 04-012-CN
       - 04-013-CN
       - 04-014-CN
@@ -1050,7 +1050,6 @@ proxy-groups:
       - 17-527-RELAY
       - 17-528-CN
       - 17-529-RELAY
-      - 17-530-RELAY
       - 17-531-RELAY
       - 17-532-US
       - 17-533-CN
@@ -1155,6 +1154,7 @@ proxy-groups:
       - 17-633-CN
       - 17-634-US
       - 17-635-CN
+      - 17-636-RELAY
       - 17-637-US
       - 17-638-US
       - 17-639-RELAY
@@ -1193,7 +1193,6 @@ proxy-groups:
     proxies:
       - 04-001-RELAY
       - 04-006-RELAY
-      - 04-011-US
       - 04-016-CN
       - 04-021-CN
       - 04-026-CN
@@ -1297,6 +1296,7 @@ proxy-groups:
       - 17-616-US
       - 17-621-RELAY
       - 17-631-US
+      - 17-636-RELAY
       - 17-641-RELAY
       - 17-646-US
       - 17-651-RELAY
@@ -1659,6 +1659,7 @@ proxy-groups:
     proxies:
       - 04-000-RELAY
       - 04-005-RELAY
+      - 04-010-US
       - 04-015-CN
       - 04-020-CN
       - 04-025-CN
@@ -1742,7 +1743,6 @@ proxy-groups:
       - 17-515-RELAY
       - 17-520-RELAY
       - 17-525-US
-      - 17-530-RELAY
       - 17-535-CN
       - 17-540-US
       - 17-545-US
