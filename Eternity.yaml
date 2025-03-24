@@ -62,7 +62,7 @@ proxies:
   - {name: 04-005-JP, server: 54.168.236.31, port: 443, type: trojan, password: e03c01d5-7c7e-3af2-bacb-22cb58045eeb, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-006-JP, server: 35.74.248.202, port: 443, type: trojan, password: e03c01d5-7c7e-3af2-bacb-22cb58045eeb, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-007-US, server: 54.68.231.3, port: 443, type: trojan, password: e03c01d5-7c7e-3af2-bacb-22cb58045eeb, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-009-US, server: 103.136.185.28, port: 3516, type: trojan, password: e03c01d5-7c7e-3af2-bacb-22cb58045eeb, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-008-US, server: 103.136.185.27, port: 5535, type: trojan, password: e03c01d5-7c7e-3af2-bacb-22cb58045eeb, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-010-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-011-CN, server: gy.58n.net, port: 43337, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gy.58n.net, port: 20307, type: trojan, password: 1950a010-1628-3124-a667-202ab8e9d2d8, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -131,11 +131,11 @@ proxies:
   - {name: 07-174-RELAY, server: support.sabapardaziran.ir, port: 8443, type: vmess, uuid: 7ed20512-1da6-4154-b023-6dd14c353f64, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: support.sabapardaziran.ir}}, udp: true}
   - {name: 07-175-RELAY, server: support.sabapardaziran.ir, port: 8443, type: vmess, uuid: e626a28b-9d91-41f6-e917-d219bc461b5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: support.sabapardaziran.ir}}, udp: true}
   - {name: 07-176-RELAY, server: support.sabapardaziran.ir, port: 8443, type: vmess, uuid: 5ac7ae10-4025-41c4-cb03-deb8255da22c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /🆔@M3HDIO1, headers: {Host: support.sabapardaziran.ir}}, udp: true}
-  - {name: 07-177-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-178-HK, server: 150.107.46.21, port: 8083, type: ssr, cipher: aes-256-cfb, password: iFqnzSscN, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: 11-179-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: d8f7b51b-a8c1-4f95-a793-07be49252e16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 11-180-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: 53bbedc0-e0f0-4c0c-9425-c0c9ced382c6, udp: true}
   - {name: 11-181-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9cbf9fa5-9d98-44dc-bb77-87ffb8e3cc69, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 11-182-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 41c16a23-a000-41e6-a775-609e58cba743, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 11-183-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: d8f7b51b-a8c1-4f95-a793-07be49252e16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 11-184-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 53bbedc0-e0f0-4c0c-9425-c0c9ced382c6, udp: true}
   - {name: 11-185-CN, server: gy.666666222.shop, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: 53bbedc0-e0f0-4c0c-9425-c0c9ced382c6, udp: true}
@@ -614,7 +614,7 @@ proxy-groups:
       - 04-005-JP
       - 04-006-JP
       - 04-007-US
-      - 04-009-US
+      - 04-008-US
       - 04-010-CN
       - 04-011-CN
       - 04-012-CN
@@ -683,11 +683,11 @@ proxy-groups:
       - 07-174-RELAY
       - 07-175-RELAY
       - 07-176-RELAY
-      - 07-177-GB
       - 07-178-HK
       - 11-179-US
       - 11-180-CN
       - 11-181-US
+      - 11-182-RELAY
       - 11-183-DE
       - 11-184-CN
       - 11-185-CN
@@ -1292,7 +1292,7 @@ proxy-groups:
       - 04-062-CN
       - 07-167-RELAY
       - 07-172-RELAY
-      - 07-177-GB
+      - 11-182-RELAY
       - 11-187-CN
       - 11-192-CN
       - 12-197-CN
@@ -1391,6 +1391,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-003-RELAY
+      - 04-008-US
       - 04-013-CN
       - 04-018-CN
       - 04-023-CN
@@ -1503,7 +1504,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 04-004-RELAY
-      - 04-009-US
       - 04-014-CN
       - 04-019-CN
       - 04-024-CN
