@@ -206,6 +206,7 @@ proxies:
   - {name: 16-249-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 1e9e0f78-4a87-4a39-9724-b0d82620e545, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-250-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: a077ab08-e288-44e6-a2e1-af8aa170cd67, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-251-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 4d83b397-d2f1-44db-a2c0-b1f739506bf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
+  - {name: 16-252-RELAY, server: de01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 6b1faa37-3e8a-47f1-9782-ddb0bc37e7cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-253-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 6131dc75-81d4-4b44-82aa-26102a9bff83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-254-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 9d5ec96e-d7de-4517-8efa-1ef039062010, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 16-255-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 6131dc75-81d4-4b44-82aa-26102a9bff83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
@@ -472,7 +473,6 @@ proxies:
   - {name: 17-516-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: a38af733-72c4-414b-8cae-1d2273dbce5e, udp: true}
   - {name: 17-517-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 1e4a3e3f-ca1a-47aa-a517-3c56231bfde5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-518-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 3d3a0d7f-7368-4b9d-9e62-98e6c2a56fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
-  - {name: 17-519-RELAY, server: de01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 8ad9085d-69f4-4c18-b4b8-c909b6c12997, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-520-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 8c3d97b5-9062-4484-9de1-35ee70283f4a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-521-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: 17b1bea2-69b3-43fd-b788-75f0bd593426, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
   - {name: 17-522-RELAY, server: biazh.mmzhk.website, port: 443, type: vmess, uuid: f1265d8c-16af-41a1-b9bc-cf650441a140, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: biazh.mmzhk.website}}, udp: true}
@@ -657,6 +657,7 @@ proxy-groups:
       - 16-249-US
       - 16-250-RELAY
       - 16-251-RELAY
+      - 16-252-RELAY
       - 16-253-DE
       - 16-254-RELAY
       - 16-255-US
@@ -923,7 +924,6 @@ proxy-groups:
       - 17-516-CN
       - 17-517-RELAY
       - 17-518-US
-      - 17-519-RELAY
       - 17-520-DE
       - 17-521-RELAY
       - 17-522-RELAY
@@ -1085,6 +1085,7 @@ proxy-groups:
       - 16-237-DE
       - 16-242-CN
       - 16-247-CN
+      - 16-252-RELAY
       - 16-257-DE
       - 16-262-SG
       - 16-267-DE
@@ -1324,7 +1325,6 @@ proxy-groups:
       - 17-504-DE
       - 17-509-US
       - 17-514-RELAY
-      - 17-519-RELAY
       - 17-524-RELAY
       - 17-529-SG
       - 17-534-US
