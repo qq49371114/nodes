@@ -60,7 +60,7 @@ proxies:
   - {name: 04-006-RELAY, server: s1.cn-db.top, port: 2095, type: vmess, uuid: 7267dc6a-1399-3e7b-ab7b-517d6021c930, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.140.216, headers: {Host: s1.cn-db.top}}, udp: true}
   - {name: 04-008-JP, server: 35.74.248.202, port: 443, type: trojan, password: 45609f4f-1f28-3482-b1d3-727c7a5ac0df, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 52.24.249.216, port: 443, type: trojan, password: 45609f4f-1f28-3482-b1d3-727c7a5ac0df, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: 45609f4f-1f28-3482-b1d3-727c7a5ac0df, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 45609f4f-1f28-3482-b1d3-727c7a5ac0df, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: ee4dc557-2e23-3b5e-8397-1e7b5148fe3f, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: ee4dc557-2e23-3b5e-8397-1e7b5148fe3f, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-014-CN, server: gy.58n.net, port: 20307, type: trojan, password: ee4dc557-2e23-3b5e-8397-1e7b5148fe3f, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -525,7 +525,7 @@ proxy-groups:
       - 04-006-RELAY
       - 04-008-JP
       - 04-009-US
-      - 04-011-US
+      - 04-010-US
       - 04-012-CN
       - 04-013-CN
       - 04-014-CN
@@ -1021,7 +1021,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-001-RELAY
-      - 04-011-US
       - 04-021-CN
       - 04-031-CN
       - 04-041-CN
@@ -1478,6 +1477,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 04-010-US
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
