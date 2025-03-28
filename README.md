@@ -36,8 +36,8 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA0LVJFTEFZIiwiYWRkIjoiczMuY24tZGIudG9wIiwicG9ydCI6IjIwNTIiLCJ0eXBlIjoibm9uZSIsImlkIjoiYmUyMzdjMTQtYTQ2Yy0zMDMyLTk1M2EtYjY2NDlmYjQzNzdlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9kYWJhaS5pbjEwNC4xOS45OS4yNDQiLCJob3N0IjoiczMuY24tZGIudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA1LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAxLnRvcCIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImJlMjM3YzE0LWE0NmMtMzAzMi05NTNhLWI2NjQ5ZmI0Mzc3ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xMDQuMjEuMjAwLjE4MSIsImhvc3QiOiJzMi5kYi1saW5rMDEudG9wIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMDA2LVJFTEFZIiwiYWRkIjoiczIuZGItbGluazAyLnRvcCIsInBvcnQiOiIyMDk1IiwidHlwZSI6Im5vbmUiLCJpZCI6ImJlMjM3YzE0LWE0NmMtMzAzMi05NTNhLWI2NjQ5ZmI0Mzc3ZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGFiYWkuaW4xNzIuNjcuMzYuNzMiLCJob3N0IjoiczIuZGItbGluazAyLnRvcCIsInRscyI6IiJ9
-    trojan://c5f58d92-f5e1-3ccc-9049-5b20959ebf63@54.168.236.31:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-007-JP
-    trojan://c5f58d92-f5e1-3ccc-9049-5b20959ebf63@103.136.185.27:5535?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-010-US
+    trojan://c5f58d92-f5e1-3ccc-9049-5b20959ebf63@35.74.248.202:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-008-JP
+    trojan://c5f58d92-f5e1-3ccc-9049-5b20959ebf63@52.24.249.216:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-009-US
     trojan://c5f58d92-f5e1-3ccc-9049-5b20959ebf63@103.136.185.28:3516?allowInsecure=1&sni=www.microsoft365.com#04-011-US
     trojan://e4151e11-aa95-3692-a127-8dffb4937133@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-012-CN
     trojan://e4151e11-aa95-3692-a127-8dffb4937133@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-013-CN
@@ -474,11 +474,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `541`
+合并节点总数: `540`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `541`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `540`
 
 
 ## 仓库声明
