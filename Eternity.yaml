@@ -216,6 +216,7 @@ proxies:
   - {name: 12-259-CN, server: gy.666666222.shop, port: 34338, type: ss, cipher: chacha20-ietf-poly1305, password: b85150c5-7c51-45cf-b909-26caba53619f, udp: true}
   - {name: 12-260-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: b85150c5-7c51-45cf-b909-26caba53619f, udp: true}
   - {name: 12-261-CN, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: b85150c5-7c51-45cf-b909-26caba53619f, udp: true}
+  - {name: 12-262-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 4b2c0d60-4a38-4825-8fb6-3eacaff70703, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 12-263-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 7843d9e3-ed9a-4def-ab57-3ccf52c10cca, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-264-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 84f21fd8-2ca6-4710-a218-d0986908fc74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 16-265-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: da2920b7-ba82-492f-9b67-75e196afb746, udp: true}
@@ -516,7 +517,6 @@ proxies:
   - {name: 17-560-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: a17b7e66-e7c1-450c-80f4-3a21a03bcad7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-561-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 341c7f0a-01d4-4458-8bfc-dd6bede6ff51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-562-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e8e4e120-f253-4178-aa39-4b21412df932, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 17-563-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: e912e722-afab-41c9-aead-98bfb314e0c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-564-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 4c3d5b01-75a8-426d-b3d7-42bbe229ac23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-565-NOWHERE, server: ip6-in3.vp1000.net, port: 443, type: vmess, uuid: 946ed147-4199-4513-a7ed-bf4f3d9b52da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip6-in3.vp1000.net}}, udp: true}
   - {name: 17-566-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2dcbb05f-5907-4812-8b1f-6f17e87db277, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -808,6 +808,7 @@ proxy-groups:
       - 12-259-CN
       - 12-260-CN
       - 12-261-CN
+      - 12-262-RELAY
       - 12-263-RELAY
       - 16-264-SG
       - 16-265-CN
@@ -1108,7 +1109,6 @@ proxy-groups:
       - 17-560-RELAY
       - 17-561-RELAY
       - 17-562-US
-      - 17-563-RELAY
       - 17-564-SG
       - 17-565-NOWHERE
       - 17-566-US
@@ -1398,6 +1398,7 @@ proxy-groups:
       - 12-247-CN
       - 12-252-CN
       - 12-257-US
+      - 12-262-RELAY
       - 16-267-CN
       - 16-272-RELAY
       - 16-277-DE
@@ -1579,7 +1580,6 @@ proxy-groups:
       - 17-548-RELAY
       - 17-553-RELAY
       - 17-558-RELAY
-      - 17-563-RELAY
       - 17-568-RELAY
       - 17-573-DE
       - 17-578-RELAY
