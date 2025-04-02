@@ -84,8 +84,8 @@ proxies:
   - {name: 04-027-RELAY, server: s1.db-link01.top, port: 2052, type: vmess, uuid: ef3d3fcd-a7ba-34eb-a70b-b8a4f59a032c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.0.32, headers: {Host: s1.db-link01.top}}, udp: true}
   - {name: 04-028-JP, server: 54.178.237.21, port: 443, type: trojan, password: c471747f-dda6-3800-af34-95eb6343141a, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-029-JP, server: 35.77.24.250, port: 443, type: trojan, password: c471747f-dda6-3800-af34-95eb6343141a, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-030-US, server: 54.184.1.239, port: 443, type: trojan, password: c471747f-dda6-3800-af34-95eb6343141a, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-031-US, server: 103.136.185.27, port: 5535, type: trojan, password: c471747f-dda6-3800-af34-95eb6343141a, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-032-US, server: 103.136.185.28, port: 3516, type: trojan, password: c471747f-dda6-3800-af34-95eb6343141a, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-033-CN, server: gyl.58n.net, port: 20309, type: trojan, password: dbf5f936-004f-3c71-812c-1111821727a4, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-034-CN, server: gy.58n.net, port: 43337, type: trojan, password: dbf5f936-004f-3c71-812c-1111821727a4, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-035-CN, server: gy.58n.net, port: 20307, type: trojan, password: dbf5f936-004f-3c71-812c-1111821727a4, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -169,6 +169,7 @@ proxies:
   - {name: 07-212-CN, server: 111.62.241.211, port: 20093, type: trojan, password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc, sni: 13.p5zqtpj2n7.xyz, skip-cert-verify: true, udp: true}
   - {name: 07-213-KR, server: kr.ttcc.tech, port: 443, type: vmess, uuid: 41cfbd9d-d2da-4300-a142-b49068f7ad3d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /41cfbd9d-d2da-4300-a142-b49068f7ad3d, headers: {Host: kr.ttcc.tech}}, udp: true}
   - {name: 11-214-RELAY, server: ip6-jp1.vp1000.net, port: 443, type: vmess, uuid: 2d1736ac-520a-475a-9b8c-d4ff76defe42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip6-jp1.vp1000.net}}, udp: true}
+  - {name: 11-215-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 5ce0c6ad-2ad4-45fb-baa6-57d1f2c292bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 11-216-IN, server: ip4-in4.vp1000.net, port: 443, type: vmess, uuid: 2d1736ac-520a-475a-9b8c-d4ff76defe42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
   - {name: 11-217-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: 91e7a6a6-c63e-4816-b395-2893be22eb8e, udp: true}
   - {name: 11-218-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 91e7a6a6-c63e-4816-b395-2893be22eb8e, udp: true}
@@ -547,7 +548,6 @@ proxies:
   - {name: 17-591-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: 722c7920-8526-4391-bb7d-8ff08c9bd4aa, udp: true}
   - {name: 17-592-CN, server: gy.666666222.shop, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: 722c7920-8526-4391-bb7d-8ff08c9bd4aa, udp: true}
   - {name: 17-593-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 4b4eb3a6-7ccd-4496-bd57-dbcfbe6eeafb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
-  - {name: 17-594-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 091143f0-acbd-4ac5-8102-9f10a0ae8330, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-595-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: c1d485d5-5ef9-4ad9-a696-f84769a7228d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-596-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1c071838-88d7-4ffa-8e62-4a288aee7b83, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-597-RELAY, server: us148.vp1000.net, port: 443, type: vmess, uuid: 932d0bec-ec7e-42a9-9ec2-f2fd735b9f43, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cp100vp800kkkdsnx, headers: {Host: us148.vp1000.net}}, udp: true}
@@ -682,8 +682,8 @@ proxy-groups:
       - 04-027-RELAY
       - 04-028-JP
       - 04-029-JP
+      - 04-030-US
       - 04-031-US
-      - 04-032-US
       - 04-033-CN
       - 04-034-CN
       - 04-035-CN
@@ -767,6 +767,7 @@ proxy-groups:
       - 07-212-CN
       - 07-213-KR
       - 11-214-RELAY
+      - 11-215-RELAY
       - 11-216-IN
       - 11-217-CN
       - 11-218-CN
@@ -1145,7 +1146,6 @@ proxy-groups:
       - 17-591-CN
       - 17-592-CN
       - 17-593-RELAY
-      - 17-594-RELAY
       - 17-595-US
       - 17-596-RELAY
       - 17-597-RELAY
@@ -1384,7 +1384,6 @@ proxy-groups:
       - 02-017-CN
       - 04-022-RELAY
       - 04-027-RELAY
-      - 04-032-US
       - 04-037-CN
       - 04-042-CN
       - 04-047-CN
@@ -1722,7 +1721,6 @@ proxy-groups:
       - 17-579-RELAY
       - 17-584-RELAY
       - 17-589-US
-      - 17-594-RELAY
       - 17-599-RELAY
       - 17-604-RELAY
       - 17-609-RELAY
@@ -1753,6 +1751,7 @@ proxy-groups:
       - 02-015-CN
       - 02-020-RELAY
       - 04-025-RELAY
+      - 04-030-US
       - 04-035-CN
       - 04-040-CN
       - 04-045-CN
@@ -1769,6 +1768,7 @@ proxy-groups:
       - 07-200-RELAY
       - 07-205-RELAY
       - 07-210-US
+      - 11-215-RELAY
       - 11-220-CN
       - 11-225-BR
       - 11-230-RELAY
