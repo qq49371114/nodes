@@ -56,6 +56,7 @@ proxies:
   - {name: 02-001-HK, server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 10465, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
   - {name: 02-002-HK, server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27002, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
   - {name: 02-003-HK, server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43395, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
+  - {name: 02-004-CN, server: gdgs.tarioblink.me, port: 30001, type: ss, cipher: chacha20-ietf-poly1305, password: 65d3c960-41fb-46d0-bd6c-b9bd5cc100a3, udp: true}
   - {name: 02-005-HK, server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 33506, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
   - {name: 02-006-CN, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v7.heduian.link}}, udp: true}
   - {name: 02-007-HK, server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43583, type: trojan, password: c4a51598-fb4d-4b70-bf19-f58e6ae704bf, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
@@ -470,7 +471,6 @@ proxies:
   - {name: 17-520-RELAY, server: ip4-jp2.vp1000.net, port: 443, type: vmess, uuid: 32c062e2-2de7-451d-ac38-68aee021fd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}
   - {name: 17-521-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d2ac65c9-135c-4125-97a5-ced06086269f, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-522-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: dbe29a43-7e89-46ae-83ff-5d495df2c2a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-523-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 9a1f5501-7cc1-4a1d-9290-8d6d9a2a70b8, udp: true}
   - {name: 17-524-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 9a498db9-f3c2-428e-8398-aa62dc4a546d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-525-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: d7218a0f-8a34-4e81-b804-867292ce1458, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-526-CN, server: gy.666666222.shop, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: d6386f0e-87e3-42f0-b155-5cdb0afdf8ee, udp: true}
@@ -669,6 +669,7 @@ proxy-groups:
       - 02-001-HK
       - 02-002-HK
       - 02-003-HK
+      - 02-004-CN
       - 02-005-HK
       - 02-006-CN
       - 02-007-HK
@@ -1083,7 +1084,6 @@ proxy-groups:
       - 17-520-RELAY
       - 17-521-US
       - 17-522-RELAY
-      - 17-523-CN
       - 17-524-RELAY
       - 17-525-SG
       - 17-526-CN
@@ -1488,7 +1488,6 @@ proxy-groups:
       - 17-493-RELAY
       - 17-503-US
       - 17-513-RELAY
-      - 17-523-CN
       - 17-533-RELAY
       - 17-543-RELAY
       - 17-553-RELAY
@@ -1512,6 +1511,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-004-CN
       - 04-014-RELAY
       - 04-034-CN
       - 04-044-CN
