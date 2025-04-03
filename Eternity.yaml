@@ -60,7 +60,7 @@ proxies:
   - {name: 04-006-RELAY, server: s4.cn-db.top, port: 8880, type: vmess, uuid: 5ae6f9ed-4977-3569-8090-501fc2166b42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.165.202, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-007-JP, server: 54.178.237.21, port: 443, type: trojan, password: 97b2e109-c5f9-3d1d-bfc4-cff232802227, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-009-US, server: 54.218.102.128, port: 443, type: trojan, password: 97b2e109-c5f9-3d1d-bfc4-cff232802227, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-010-US, server: 103.136.185.27, port: 5535, type: trojan, password: 97b2e109-c5f9-3d1d-bfc4-cff232802227, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-011-US, server: 103.136.185.28, port: 3516, type: trojan, password: 97b2e109-c5f9-3d1d-bfc4-cff232802227, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-012-CN, server: gyl.58n.net, port: 20309, type: trojan, password: f660d68f-9c69-3471-b209-15aa878e85e9, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-013-CN, server: gy.58n.net, port: 43337, type: trojan, password: f660d68f-9c69-3471-b209-15aa878e85e9, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-014-CN, server: gy.58n.net, port: 20307, type: trojan, password: f660d68f-9c69-3471-b209-15aa878e85e9, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -659,7 +659,7 @@ proxy-groups:
       - 04-006-RELAY
       - 04-007-JP
       - 04-009-US
-      - 04-010-US
+      - 04-011-US
       - 04-012-CN
       - 04-013-CN
       - 04-014-CN
@@ -1289,6 +1289,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-001-RELAY
+      - 04-011-US
       - 04-021-CN
       - 04-031-CN
       - 04-041-CN
@@ -1866,7 +1867,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-010-US
       - 04-020-CN
       - 04-030-CN
       - 04-040-CN
