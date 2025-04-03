@@ -390,12 +390,12 @@ proxies:
   - {name: 17-437-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 65d34f6e-a22d-4307-9c75-46ec6e673259, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-438-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 9a498db9-f3c2-428e-8398-aa62dc4a546d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-439-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: ae143ad8-c6ed-4bb7-903d-13e32042cb42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-440-BR, server: 2603:c021:c006:3fee:8575:5336:6f66:6900, port: 443, type: vmess, uuid: eab28fc6-bd80-484f-a5f1-8dd488ed6d6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney}, udp: true}
   - {name: 17-441-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 097edbcb-49e2-45f1-9bbb-9190e04276a2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-442-CN, server: gy.666666222.shop, port: 20016, type: ss, cipher: chacha20-ietf-poly1305, password: f1de4b14-9111-457a-b761-5efaefabdd98, udp: true}
   - {name: 17-443-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: ce806c08-7f4c-40ff-965e-2b1df3f36b15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-444-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5c18518b-b443-4e48-bece-0c867009c76b, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-445-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 19eb20f0-f58e-4526-af67-e6cba295c274, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-446-CN, server: gy.666666222.shop, port: 20032, type: ss, cipher: chacha20-ietf-poly1305, password: cc36cb88-be41-486a-a44e-a036a7b45024, udp: true}
   - {name: 17-447-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 62ec2a63-2114-4876-85d7-f50d34c7ce56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-448-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 1df4ca6e-4db8-4738-a693-1a45aa5b29ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-449-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: fd70f2d5-eab1-4a5d-834b-e266f6bacd18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -992,12 +992,12 @@ proxy-groups:
       - 17-437-RELAY
       - 17-438-RELAY
       - 17-439-RELAY
+      - 17-440-BR
       - 17-441-RELAY
       - 17-442-CN
       - 17-443-US
       - 17-444-US
       - 17-445-RELAY
-      - 17-446-CN
       - 17-447-RELAY
       - 17-448-US
       - 17-449-RELAY
@@ -1652,7 +1652,6 @@ proxy-groups:
       - 17-416-RELAY
       - 17-426-RELAY
       - 17-436-RELAY
-      - 17-446-CN
       - 17-456-SG
       - 17-466-CN
       - 17-476-US
@@ -1909,6 +1908,7 @@ proxy-groups:
       - 17-410-RELAY
       - 17-420-US
       - 17-430-CN
+      - 17-440-BR
       - 17-450-RELAY
       - 17-460-RELAY
       - 17-470-RELAY
