@@ -34,6 +34,7 @@ Fork from TopFreeProxies.
     trojan://c4a51598-fb4d-4b70-bf19-f58e6ae704bf@aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz:10465?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#02-001-HK
     trojan://c4a51598-fb4d-4b70-bf19-f58e6ae704bf@aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz:27002?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#02-002-HK
     trojan://c4a51598-fb4d-4b70-bf19-f58e6ae704bf@aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz:43395?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#02-003-HK
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NWQzYzk2MC00MWZiLTQ2ZDAtYmQ2Yy1iOWJkNWNjMTAwYTM@gdgs.tarioblink.me:30001#02-004-CN
     trojan://c4a51598-fb4d-4b70-bf19-f58e6ae704bf@aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz:33506?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#02-005-HK
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDA2LUNOIiwiYWRkIjoidjcuaGVkdWlhbi5saW5rIiwicG9ydCI6IjMwODA3IiwidHlwZSI6Im5vbmUiLCJpZCI6ImNiYjNmODc3LWQxZmItMzQ0Yy04N2E5LWQxNTNiZmZkNTQ4NCIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvb29vbyIsImhvc3QiOiJ2Ny5oZWR1aWFuLmxpbmsiLCJ0bHMiOiIifQ==
     trojan://c4a51598-fb4d-4b70-bf19-f58e6ae704bf@aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz:43583?allowInsecure=1&sni=q08m.vgraxiw73s.hasyaf.cn#02-007-HK
@@ -448,7 +449,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTIwLVJFTEFZIiwiYWRkIjoiaXA0LWpwMi52cDEwMDAubmV0IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiIzMmMwNjJlMi0yZGU3LTQ1MWQtYWMzOC02OGFlZTAyMWZkNzAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3B1bGljcGF5bGZhc3RwRGlzbmV5IiwiaG9zdCI6ImlwNC1qcDIudnAxMDAwLm5ldCIsInRscyI6InRscyJ9
     trojan://d2ac65c9-135c-4125-97a5-ced06086269f@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-521-US
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTIyLVJFTEFZIiwiYWRkIjoiZGUwMS5zaC1jbG91ZGZsYXJlLnNicyIsInBvcnQiOiIyMDk2IiwidHlwZSI6Im5vbmUiLCJpZCI6ImRiZTI5YTQzLTdlODktNDZhZS04M2ZmLTVkNDk1ZGYyYzJhOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImRlMDEuc2gtY2xvdWRmbGFyZS5zYnMiLCJ0bHMiOiJ0bHMifQ==
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5YTFmNTUwMS03Y2MxLTRhMWQtOTI5MC04ZDZkOWEyYTcwYjg@gy.666666222.shop:20035#17-523-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTI0LVJFTEFZIiwiYWRkIjoiZGUwMS5zaC1jbG91ZGZsYXJlLnNicyIsInBvcnQiOiIyMDk2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjlhNDk4ZGI5LWYzYzItNDI4ZS04Mzk4LWFhNjJkYzRhNTQ2ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImRlMDEuc2gtY2xvdWRmbGFyZS5zYnMiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTI1LVNHIiwiYWRkIjoid2VzdHNnMi1kZG5zLm9yYWNsZW5hdC5jYyIsInBvcnQiOiIyMzQ1MiIsInR5cGUiOiJub25lIiwiaWQiOiJkNzIxOGEwZi04YTM0LTRlODEtYjgwNC04NjcyOTJjZTE0NTgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3ZXN0c2cyLWRkbnMub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNjM4NmYwZS04N2UzLTQyZjAtYjE1NS01Y2RiMGFmZGY4ZWU@gy.666666222.shop:20008#17-526-CN
@@ -632,11 +632,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `701`
+合并节点总数: `698`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `701`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `698`
 
 
 ## 仓库声明
