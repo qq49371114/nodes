@@ -46,7 +46,7 @@ Fork from TopFreeProxies.
     trojan://3d34952f-1119-37aa-a97a-15700eebed65@54.178.237.21:443?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-013-JP
     trojan://3d34952f-1119-37aa-a97a-15700eebed65@35.77.24.250:443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-014-JP
     trojan://3d34952f-1119-37aa-a97a-15700eebed65@54.218.102.128:443?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-015-US
-    trojan://3d34952f-1119-37aa-a97a-15700eebed65@103.136.185.28:3516?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-017-US
+    trojan://3d34952f-1119-37aa-a97a-15700eebed65@103.136.185.27:5535?allowInsecure=1&sni=origin-a.akamaihd.net#04-016-US
     trojan://9f3a9483-a529-3545-8178-ab882b72f702@gyl.58n.net:20309?allowInsecure=1&sni=z309.hongkongnode.top#04-018-CN
     trojan://9f3a9483-a529-3545-8178-ab882b72f702@gy.58n.net:43337?allowInsecure=1&sni=z102.hongkongnode.top#04-019-CN
     trojan://9f3a9483-a529-3545-8178-ab882b72f702@gy.58n.net:20307?allowInsecure=1&sni=z307.hongkongnode.top#04-020-CN
@@ -484,7 +484,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTUxLURFIiwiYWRkIjoiZnJhbmtmdXJ0LmZhZm9yZXguZXUub3JnIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImMxZDQ4NWQ1LTVlZjktNGFkOS1hNjk2LWY4NDc2OWE3MjI4ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXRkb2c/ZWQ9MjU2MCIsImhvc3QiOiJmcmFua2Z1cnQuZmFmb3JleC5ldS5vcmciLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTUyLVJFTEFZIiwiYWRkIjoiaXA0LWpwMi52cDEwMDAubmV0IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJkYWVkNjNkNi0yMDRjLTRiNjktYWI5Yy0yNTI2NWM4YTY2ZTEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3B1bGljcGF5bGZhc3RwRGlzbmV5IiwiaG9zdCI6ImlwNC1qcDIudnAxMDAwLm5ldCIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTUzLVJFTEFZIiwiYWRkIjoiZGUwMS5zaC1jbG91ZGZsYXJlLnNicyIsInBvcnQiOiIyMDk2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjFmYjU2NWUzLTFhNjEtNDU3MS05ZjdlLWMxNjhlZjgyZWI0ZCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImRlMDEuc2gtY2xvdWRmbGFyZS5zYnMiLCJ0bHMiOiJ0bHMifQ==
-    vmess://eyJ2IjoiMiIsInBzIjoiMTctNTU0LUlOIiwiYWRkIjoiaXA0LWluNC52cDEwMDAubmV0IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJkZGM4NGRhNi1hNzg0LTRhNjctOTgyMC1lYmJjZjgzMWM5MDgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3B1bGljZmFzdHBEaXNuZXkiLCJob3N0IjoiaXA0LWluNC52cDEwMDAubmV0IiwidGxzIjoidGxzIn0=
     trojan://9d26cf03-3d6e-4836-94ea-ac65ab46ce15@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-555-US
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTU2LVNHIiwiYWRkIjoid2VzdHNnMi1kZG5zLm9yYWNsZW5hdC5jYyIsInBvcnQiOiIyMzQ1MiIsInR5cGUiOiJub25lIiwiaWQiOiIxMDYyNWY4OC0wOWU4LTQyNTQtYWEwZS01ZDhhOTcxY2U1YTkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ3ZXN0c2cyLWRkbnMub3JhY2xlbmF0LmNjIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNTU3LURFIiwiYWRkIjoiZnJhbmtmdXJ0LmZhZm9yZXguZXUub3JnIiwicG9ydCI6IjIzNDUxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjRiNGViM2E2LTdjY2QtNDQ5Ni1iZDU3LWRiY2ZiZTZlZWFmYiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvaXRkb2c/ZWQ9MjU2MCIsImhvc3QiOiJmcmFua2Z1cnQuZmFmb3JleC5ldS5vcmciLCJ0bHMiOiIifQ==
@@ -621,6 +620,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNjg4LVJFTEFZIiwiYWRkIjoidXMxNDgudnAxMDAwLm5ldCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZGRjODRkYTYtYTc4NC00YTY3LTk4MjAtZWJiY2Y4MzFjOTA4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9jcDEwMHZwODAwa2trZHNueCIsImhvc3QiOiJ1czE0OC52cDEwMDAubmV0IiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNjg5LVJFTEFZIiwiYWRkIjoiZGUwMS5zaC1jbG91ZGZsYXJlLnNicyIsInBvcnQiOiIyMDk2IiwidHlwZSI6Im5vbmUiLCJpZCI6IjQyZDAwZDZiLTM5MTgtNGUwNS04ZjcwLWM3YjZkNzllYmYxMiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImRlMDEuc2gtY2xvdWRmbGFyZS5zYnMiLCJ0bHMiOiJ0bHMifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiODJlN2EzYS02YmZhLTQ3OGItOTgxMi0yMTZmZjBiMWYzMWQ@gy.666666222.shop:20002#17-690-CN
+    vmess://eyJ2IjoiMiIsInBzIjoiMTctNjkxLUlOIiwiYWRkIjoiaXA0LWluNC52cDEwMDAubmV0IiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJkYWVkNjNkNi0yMDRjLTRiNjktYWI5Yy0yNTI2NWM4YTY2ZTEiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3B1bGljZmFzdHBEaXNuZXkiLCJob3N0IjoiaXA0LWluNC52cDEwMDAubmV0IiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTctNjkyLUJSIiwiYWRkIjoiMTQ0LjIyLjIxNi42OCIsInBvcnQiOiI4NDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImRkYzg0ZGE2LWE3ODQtNGE2Ny05ODIwLWViYmNmODMxYzkwOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvcHVsaWNwRGlzbmV5IiwiaG9zdCI6IiIsInRscyI6InRscyJ9
     trojan://5ba7fa62-db7a-4a7a-9569-5e01b19cacd8@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-693-US
     trojan://cc848604-27f4-45d7-9d72-92cccbf44b6a@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#17-694-US
