@@ -70,7 +70,7 @@ proxies:
   - {name: 04-013-JP, server: 54.178.237.21, port: 443, type: trojan, password: 3d34952f-1119-37aa-a97a-15700eebed65, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-014-JP, server: 35.77.24.250, port: 443, type: trojan, password: 3d34952f-1119-37aa-a97a-15700eebed65, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-015-US, server: 54.218.102.128, port: 443, type: trojan, password: 3d34952f-1119-37aa-a97a-15700eebed65, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-017-US, server: 103.136.185.28, port: 3516, type: trojan, password: 3d34952f-1119-37aa-a97a-15700eebed65, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
+  - {name: 04-016-US, server: 103.136.185.27, port: 5535, type: trojan, password: 3d34952f-1119-37aa-a97a-15700eebed65, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-018-CN, server: gyl.58n.net, port: 20309, type: trojan, password: 9f3a9483-a529-3545-8178-ab882b72f702, sni: z309.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-019-CN, server: gy.58n.net, port: 43337, type: trojan, password: 9f3a9483-a529-3545-8178-ab882b72f702, sni: z102.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-020-CN, server: gy.58n.net, port: 20307, type: trojan, password: 9f3a9483-a529-3545-8178-ab882b72f702, sni: z307.hongkongnode.top, skip-cert-verify: true, udp: true}
@@ -508,7 +508,6 @@ proxies:
   - {name: 17-551-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: c1d485d5-5ef9-4ad9-a696-f84769a7228d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-552-RELAY, server: ip4-jp2.vp1000.net, port: 443, type: vmess, uuid: daed63d6-204c-4b69-ab9c-25265c8a66e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpaylfastpDisney, headers: {Host: ip4-jp2.vp1000.net}}, udp: true}
   - {name: 17-553-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1fb565e3-1a61-4571-9f7e-c168ef82eb4d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-554-IN, server: ip4-in4.vp1000.net, port: 443, type: vmess, uuid: ddc84da6-a784-4a67-9820-ebbcf831c908, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
   - {name: 17-555-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 9d26cf03-3d6e-4836-94ea-ac65ab46ce15, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-556-SG, server: westsg2-ddns.oraclenat.cc, port: 23452, type: vmess, uuid: 10625f88-09e8-4254-aa0e-5d8a971ce5a9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: westsg2-ddns.oraclenat.cc}}, udp: true}
   - {name: 17-557-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 4b4eb3a6-7ccd-4496-bd57-dbcfbe6eeafb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
@@ -645,6 +644,7 @@ proxies:
   - {name: 17-688-RELAY, server: us148.vp1000.net, port: 443, type: vmess, uuid: ddc84da6-a784-4a67-9820-ebbcf831c908, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /cp100vp800kkkdsnx, headers: {Host: us148.vp1000.net}}, udp: true}
   - {name: 17-689-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 42d00d6b-3918-4e05-8f70-c7b6d79ebf12, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-690-CN, server: gy.666666222.shop, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b82e7a3a-6bfa-478b-9812-216ff0b1f31d, udp: true}
+  - {name: 17-691-IN, server: ip4-in4.vp1000.net, port: 443, type: vmess, uuid: daed63d6-204c-4b69-ab9c-25265c8a66e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicfastpDisney, headers: {Host: ip4-in4.vp1000.net}}, udp: true}
   - {name: 17-692-BR, server: 144.22.216.68, port: 8443, type: vmess, uuid: ddc84da6-a784-4a67-9820-ebbcf831c908, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /pulicpDisney}, udp: true}
   - {name: 17-693-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 5ba7fa62-db7a-4a7a-9569-5e01b19cacd8, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-694-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cc848604-27f4-45d7-9d72-92cccbf44b6a, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -791,7 +791,7 @@ proxy-groups:
       - 04-013-JP
       - 04-014-JP
       - 04-015-US
-      - 04-017-US
+      - 04-016-US
       - 04-018-CN
       - 04-019-CN
       - 04-020-CN
@@ -1229,7 +1229,6 @@ proxy-groups:
       - 17-551-DE
       - 17-552-RELAY
       - 17-553-RELAY
-      - 17-554-IN
       - 17-555-US
       - 17-556-SG
       - 17-557-DE
@@ -1366,6 +1365,7 @@ proxy-groups:
       - 17-688-RELAY
       - 17-689-RELAY
       - 17-690-CN
+      - 17-691-IN
       - 17-692-BR
       - 17-693-US
       - 17-694-US
@@ -1504,6 +1504,7 @@ proxy-groups:
       - 02-001-CN
       - 04-006-RELAY
       - 04-011-RELAY
+      - 04-016-US
       - 04-021-CN
       - 04-026-CN
       - 04-031-CN
@@ -1618,6 +1619,7 @@ proxy-groups:
       - 17-676-SG
       - 17-681-US
       - 17-686-US
+      - 17-691-IN
       - 17-696-RELAY
       - 17-701-RELAY
       - 17-706-US
@@ -1650,7 +1652,6 @@ proxy-groups:
       - 02-002-CN
       - 04-007-RELAY
       - 04-012-RELAY
-      - 04-017-US
       - 04-022-CN
       - 04-027-CN
       - 04-032-CN
@@ -2032,7 +2033,6 @@ proxy-groups:
       - 17-539-RELAY
       - 17-544-RELAY
       - 17-549-RELAY
-      - 17-554-IN
       - 17-559-RELAY
       - 17-564-RELAY
       - 17-569-RELAY
@@ -10635,12 +10635,6 @@ rules:
  - PROCESS-NAME,DownloadService.exe,全球直连
  - PROCESS-NAME,Weiyun.exe,全球直连
  - PROCESS-NAME,baidunetdisk.exe,全球直连
- - DOMAIN-SUFFIX,v1.mk,全球直连
- - DOMAIN-SUFFIX,d1.mk,全球直连
- - DOMAIN-SUFFIX,dlj.mk,全球直连
- - DOMAIN-SUFFIX,suo.yt,全球直连
- - DOMAIN-SUFFIX,sub.cm,全球直连
- - DOMAIN-SUFFIX,bihai.cf,全球直连
  - DOMAIN-KEYWORD,admarvel,广告拦截
  - DOMAIN-KEYWORD,admaster,广告拦截
  - DOMAIN-KEYWORD,adsage,广告拦截
