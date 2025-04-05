@@ -339,6 +339,7 @@ proxies:
   - {name: 16-0382-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 55cc1427-692e-4b10-b9cc-8d6ae293f931, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-0383-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 3a489a4d-b1e1-4f4c-9eed-9f9a4b496897, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 16-0384-CN, server: chiyu.myfczy169.top, port: 19946, type: ss, cipher: chacha20-ietf-poly1305, password: d110cfbd-d8c3-4bc2-8b6c-e9c8b3a13cbb, udp: true}
+  - {name: 16-0385-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 22604157-1635-403f-8482-f72a4d09f2e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0386-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 8b465334-ed85-429e-a421-83dcfcda90d9, udp: true}
   - {name: 16-0387-CN, server: chiyu.myfczy169.top, port: 19946, type: ss, cipher: chacha20-ietf-poly1305, password: 792db391-c6c0-47d5-86b4-02a0a5955a8f, udp: true}
   - {name: 16-0388-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: a383d0b6-2adc-4920-9ae8-75e317e0224e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
@@ -488,7 +489,6 @@ proxies:
   - {name: 16-0532-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 0c83e3b1-7d9c-4630-b0b6-055373699d16, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0533-CN, server: gy.tangu.win, port: 45627, type: ss, cipher: chacha20-ietf-poly1305, password: 689b7620-59c5-4fa9-a3a8-1fcefb116272, udp: true}
   - {name: 16-0534-CN, server: iepl.ytxfx.xyz, port: 45632, type: ss, cipher: chacha20-ietf-poly1305, password: 689b7620-59c5-4fa9-a3a8-1fcefb116272, udp: true}
-  - {name: 16-0535-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2898b055-3db9-4cd7-9927-e55a8f38022e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0536-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 9bcb5c91-3fce-4d14-8ba2-050327af7e10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0537-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: c8d705a7-15c0-4ffd-aede-18333c9d08ab, udp: true}
   - {name: 16-0538-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: b83332bd-3f2d-4c61-b829-1bffdeab083c, udp: true}
@@ -1253,6 +1253,7 @@ proxy-groups:
       - 16-0382-US
       - 16-0383-RELAY
       - 16-0384-CN
+      - 16-0385-RELAY
       - 16-0386-CN
       - 16-0387-CN
       - 16-0388-US
@@ -1402,7 +1403,6 @@ proxy-groups:
       - 16-0532-RELAY
       - 16-0533-CN
       - 16-0534-CN
-      - 16-0535-RELAY
       - 16-0536-RELAY
       - 16-0537-CN
       - 16-0538-CN
@@ -2688,6 +2688,7 @@ proxy-groups:
       - 16-0370-RELAY
       - 16-0375-RELAY
       - 16-0380-CN
+      - 16-0385-RELAY
       - 16-0390-CN
       - 16-0395-CN
       - 16-0400-CN
@@ -2717,7 +2718,6 @@ proxy-groups:
       - 16-0520-SG
       - 16-0525-CN
       - 16-0530-RELAY
-      - 16-0535-RELAY
       - 16-0540-CN
       - 17-0545-RELAY
       - 17-0550-RELAY
