@@ -276,6 +276,7 @@ proxies:
   - {name: 16-0319-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: d72b2f12-90df-424b-aa53-9990653aced5, udp: true}
   - {name: 16-0320-CN, server: chiyu.myfczy169.top, port: 25578, type: ss, cipher: chacha20-ietf-poly1305, password: 5db9f9e3-8007-4345-bf1a-5dde94c9c0db, udp: true}
   - {name: 16-0321-CN, server: gy.666666222.shop, port: 20035, type: ss, cipher: chacha20-ietf-poly1305, password: 0d2fe40b-01ed-4482-89e5-2046cecc598c, udp: true}
+  - {name: 16-0322-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 62b1cbdd-1821-4858-ad7a-923623fb5bd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 16-0323-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 3a489a4d-b1e1-4f4c-9eed-9f9a4b496897, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 16-0324-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 616a28a4-05fd-4c60-9d0d-62f7786a8ac1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 16-0325-CN, server: chiyu.myfczy169.top, port: 21091, type: ss, cipher: chacha20-ietf-poly1305, password: 5db9f9e3-8007-4345-bf1a-5dde94c9c0db, udp: true}
@@ -588,7 +589,6 @@ proxies:
   - {name: 17-0632-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: ac54d225-48f2-44ff-8e1c-f4556011345d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0633-CN, server: gy.666666222.shop, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: 1f0fadc9-bffa-43cd-b618-2038d76e8e08, udp: true}
   - {name: 17-0634-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 1f26f6ad-03c2-4c46-b75f-9982c2bdba05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-0635-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 341c7f0a-01d4-4458-8bfc-dd6bede6ff51, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0636-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 955eabca-3ce8-4bb8-bc7d-a45a8035dc27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 17-0637-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: bad81c7c-2985-4037-bdcc-009e4e450888, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-0638-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: f785d004-fd99-4d02-a463-d8ad9aa5e82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
@@ -1212,6 +1212,7 @@ proxy-groups:
       - 16-0319-CN
       - 16-0320-CN
       - 16-0321-CN
+      - 16-0322-RELAY
       - 16-0323-US
       - 16-0324-DE
       - 16-0325-CN
@@ -1524,7 +1525,6 @@ proxy-groups:
       - 17-0632-RELAY
       - 17-0633-CN
       - 17-0634-RELAY
-      - 17-0635-RELAY
       - 17-0636-RELAY
       - 17-0637-RELAY
       - 17-0638-RELAY
@@ -2165,6 +2165,7 @@ proxy-groups:
       - 16-0307-CN
       - 16-0312-CN
       - 16-0317-RELAY
+      - 16-0322-RELAY
       - 16-0327-RELAY
       - 16-0332-CN
       - 16-0337-RELAY
@@ -2799,7 +2800,6 @@ proxy-groups:
       - 17-0620-US
       - 17-0625-SG
       - 17-0630-SG
-      - 17-0635-RELAY
       - 17-0640-RELAY
       - 17-0645-US
       - 17-0650-US
