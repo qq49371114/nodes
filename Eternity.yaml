@@ -566,6 +566,7 @@ proxies:
   - {name: 17-609-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 96097710-f960-4813-b579-c14af9d0b7f4, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 17-610-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 5d5ad778-6839-49de-a768-63c3afbce63c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-611-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: c3b396e6-c028-4cc9-8acc-5027098f8698, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 17-612-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 4529ad7b-e6ca-40a2-a960-ab734014cec5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-613-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 0e990b2d-2735-4682-9eb9-a19009d65443, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-614-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: f77e62f9-f659-4ce8-88a3-c72020b2f83a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-615-US, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: a72125ef-87a5-4c14-829c-94a7a6c4eb49, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -661,7 +662,6 @@ proxies:
   - {name: 17-705-CN, server: chiyu.myfczy169.top, port: 41473, type: ss, cipher: chacha20-ietf-poly1305, password: 5e934612-59b5-433e-96ce-586d6ef45053, udp: true}
   - {name: 17-706-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: 6994c3e8-7477-435b-9a8b-2beafb40d202, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-707-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: efd8e877-92d3-427b-b32c-34d12ea5c112, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
-  - {name: 17-708-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 48d392f6-b0b2-4dc0-9d77-d58aebc4cb0a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-709-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1c071838-88d7-4ffa-8e62-4a288aee7b83, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-710-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 72f7474f-7369-45c8-bb8d-3c251351bebe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-711-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: f785d004-fd99-4d02-a463-d8ad9aa5e82f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
@@ -1399,6 +1399,7 @@ proxy-groups:
       - 17-609-US
       - 17-610-RELAY
       - 17-611-RELAY
+      - 17-612-RELAY
       - 17-613-RELAY
       - 17-614-RELAY
       - 17-615-US
@@ -1494,7 +1495,6 @@ proxy-groups:
       - 17-705-CN
       - 17-706-US
       - 17-707-RELAY
-      - 17-708-RELAY
       - 17-709-RELAY
       - 17-710-RELAY
       - 17-711-RELAY
@@ -1996,6 +1996,7 @@ proxy-groups:
       - 17-597-RELAY
       - 17-602-US
       - 17-607-RELAY
+      - 17-612-RELAY
       - 17-617-DE
       - 17-622-RELAY
       - 17-627-RELAY
@@ -2185,7 +2186,6 @@ proxy-groups:
       - 17-693-SG
       - 17-698-RELAY
       - 17-703-RELAY
-      - 17-708-RELAY
       - 17-713-RELAY
       - 17-718-RELAY
       - 17-723-RELAY
