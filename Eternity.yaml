@@ -606,6 +606,7 @@ proxies:
   - {name: 17-649-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 6b0bd8de-83dd-4193-8e99-2448edc9c630, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-650-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 7f6c48ad-65fd-4146-bd89-ad9e5dc60f7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-651-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: e8ecf32b-1dd3-4395-b043-7de6bcdef3a2, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 17-652-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 488de15e-5a4c-449b-bdda-492de75d5efc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-653-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 4c3d5b01-75a8-426d-b3d7-42bbe229ac23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 17-654-DE, server: frankfurt.faforex.eu.org, port: 23451, type: vmess, uuid: 84ed95d1-2e91-4897-a93a-a24a596ec3ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/itdog?ed=2560", headers: {Host: frankfurt.faforex.eu.org}}, udp: true}
   - {name: 17-655-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 96fd4ce8-2959-4b6e-bea7-8570dec7c42e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
@@ -714,7 +715,6 @@ proxies:
   - {name: 17-759-RELAY, server: freeyx.cloudflare88.eu.org, port: 443, type: vmess, uuid: 896bb996-fcea-4493-91fd-b31e16982e6f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: freeyx.cloudflare88.eu.org}}, udp: true}
   - {name: 17-760-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 9b043fa3-dff2-467e-a63c-eb7bcb8cd769, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-761-NOWHERE, server: gy.666666222.shop, port: 20052, type: ss, cipher: chacha20-ietf-poly1305, password: 4b59ed01-3f32-4f5f-abe7-70bd25a5b192, udp: true}
-  - {name: 17-762-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 9d8f8380-074f-4358-9fa4-d8f8e5e0a670, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-763-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 1d9102c5-7845-4153-bb90-5e734d866314, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 17-764-US, server: phx-plus-1ddns.faforex.eu.org, port: 23451, type: vmess, uuid: b9941612-1cae-4d2f-9cf8-60cffbe5a45a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: phx-plus-1ddns.faforex.eu.org}}, udp: true}
   - {name: 17-765-NOWHERE, server: gy.666666222.shop, port: 47564, type: ss, cipher: chacha20-ietf-poly1305, password: 4b59ed01-3f32-4f5f-abe7-70bd25a5b192, udp: true}
@@ -1291,6 +1291,7 @@ proxy-groups:
       - 17-649-RELAY
       - 17-650-RELAY
       - 17-651-NOWHERE
+      - 17-652-RELAY
       - 17-653-RELAY
       - 17-654-DE
       - 17-655-RELAY
@@ -1399,7 +1400,6 @@ proxy-groups:
       - 17-759-RELAY
       - 17-760-RELAY
       - 17-761-NOWHERE
-      - 17-762-RELAY
       - 17-763-RELAY
       - 17-764-US
       - 17-765-NOWHERE
@@ -1679,6 +1679,7 @@ proxy-groups:
       - 17-637-US
       - 17-642-NOWHERE
       - 17-647-RELAY
+      - 17-652-RELAY
       - 17-657-NOWHERE
       - 17-662-RELAY
       - 17-667-RELAY
@@ -1700,7 +1701,6 @@ proxy-groups:
       - 17-747-RELAY
       - 17-752-RELAY
       - 17-757-RELAY
-      - 17-762-RELAY
       - 17-767-RELAY
       - 17-772-NOWHERE
   - name: 测速3分组
