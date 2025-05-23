@@ -304,6 +304,7 @@ proxies:
   - {name: 16-348-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: 45a99e2f-53a0-4e62-8115-323cb9f90fe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
   - {name: 16-349-RELAY, server: time.is, port: 80, type: vmess, uuid: 6b7ab2f1-939e-43b2-b115-cf03672e2fbe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 16-350-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: dba5440c-ca57-478c-a16b-80028baafae2, udp: true}
+  - {name: 16-351-RELAY, server: tiamo3.tiamocloud.us.kg, port: 80, type: vmess, uuid: 3fe6eb55-4416-4eb8-9640-3ffd4e18673b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiamo3.tiamocloud.us.kg}}, udp: true}
   - {name: 16-352-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: b4c10020-a87f-4808-b8f4-9a25b651ce56, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
   - {name: 16-353-RELAY, server: time.is, port: 443, type: vmess, uuid: b5a3433c-0320-4b26-a2fa-a93809cb45df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
   - {name: 16-354-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 30027fec-c518-4c67-aa1a-6c7c97273692, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
@@ -540,7 +541,6 @@ proxies:
   - {name: 16-585-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: f25b1a18-e49f-49f1-b04d-e3d6b0dfa5bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
   - {name: 16-586-NOWHERE, server: zz.xiao666666.site, port: 10001, type: vmess, uuid: 8f699f9d-e173-4078-a39f-59a3f8723e15, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zz.xiao666666.site}}, udp: true}
   - {name: 16-587-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 6b7ab2f1-939e-43b2-b115-cf03672e2fbe, udp: true}
-  - {name: 16-588-RELAY, server: tiamo3.tiamocloud.us.kg, port: 80, type: vmess, uuid: 522fa614-323a-4c63-8495-35f3995613d7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiamo3.tiamocloud.us.kg}}, udp: true}
   - {name: 16-589-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: 6d678e9a-f931-45ed-9bae-d2eb03ecb495, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
   - {name: 16-590-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 45a99e2f-53a0-4e62-8115-323cb9f90fe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
   - {name: 16-591-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 1dffc3e6-490d-47fe-9ab2-157ec6bca60e, udp: true}
@@ -836,6 +836,7 @@ proxy-groups:
       - 16-348-RELAY
       - 16-349-RELAY
       - 16-350-TW
+      - 16-351-RELAY
       - 16-352-RELAY
       - 16-353-RELAY
       - 16-354-RELAY
@@ -1072,7 +1073,6 @@ proxy-groups:
       - 16-585-RELAY
       - 16-586-NOWHERE
       - 16-587-CN
-      - 16-588-RELAY
       - 16-589-RELAY
       - 16-590-RELAY
       - 16-591-CN
@@ -1172,6 +1172,7 @@ proxy-groups:
       - 16-336-NOWHERE
       - 16-341-RELAY
       - 16-346-NOWHERE
+      - 16-351-RELAY
       - 16-356-NOWHERE
       - 16-361-CN
       - 16-366-NOWHERE
@@ -1439,7 +1440,6 @@ proxy-groups:
       - 16-573-NOWHERE
       - 16-578-NOWHERE
       - 16-583-RELAY
-      - 16-588-RELAY
       - 16-593-RELAY
       - 16-598-RELAY
       - 16-603-NOWHERE
