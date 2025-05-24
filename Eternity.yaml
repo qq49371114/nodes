@@ -137,6 +137,7 @@ proxies:
   - {name: 04-183-CN, server: gy.58n.net, port: 20306, type: trojan, password: fd7f40c2-072e-3f0f-be8d-79007bcaf789, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-184-CN, server: 43.100.9.65, port: 443, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-185-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-186-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-187-JP, server: 47.245.40.60, port: 28453, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-188-JP, server: 47.245.31.103, port: 28452, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 11-190-RELAY, server: tiamo.tiamocloud.us.kg, port: 80, type: vmess, uuid: ebf322e2-94a9-4af8-b919-55c0424d166a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiamo.tiamocloud.us.kg}}, udp: true}
@@ -569,7 +570,7 @@ proxies:
   - {name: 16-617-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: dabe51f2-f96e-423d-9b90-f5f87bd53108, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 16-618-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: 756de283-697a-47e4-bcf3-c32d1ecfbf43, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
   - {name: 16-619-RELAY, server: time.is, port: 443, type: vmess, uuid: 13a5acc7-660a-40fe-ae1a-38db32520733, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: time.is}}, udp: true}
-  - {name: 16-620-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: f7f39a47-9276-4c6b-b190-7c83def23e8b, udp: true}
+  - {name: 16-620-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: f7f39a47-9276-4c6b-b190-7c83def23e8b, udp: true}
   - {name: 16-621-NOWHERE, server: zz.xiao666666.site, port: 10001, type: vmess, uuid: 8450db42-a8f8-42f7-be1b-7169126f982f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zz.xiao666666.site}}, udp: true}
   - {name: 16-622-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: 756de283-697a-47e4-bcf3-c32d1ecfbf43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
 proxy-groups:
@@ -674,6 +675,7 @@ proxy-groups:
       - 04-183-CN
       - 04-184-CN
       - 04-185-HK
+      - 04-186-HK
       - 04-187-JP
       - 04-188-JP
       - 11-190-RELAY
@@ -1106,7 +1108,7 @@ proxy-groups:
       - 16-617-NOWHERE
       - 16-618-RELAY
       - 16-619-RELAY
-      - 16-620-TW
+      - 16-620-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US
       - 16-621-NOWHERE
       - 16-622-NOWHERE
   - name: 负载均衡
@@ -1215,6 +1217,7 @@ proxy-groups:
       - 16-591-RELAY
       - 16-601-NOWHERE
       - 16-611-RELAY
+      - 16-620-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US
       - 16-621-NOWHERE
   - name: 测速2分组
     type: url-test
@@ -1463,6 +1466,7 @@ proxy-groups:
       - 04-156-CN
       - 04-166-CN
       - 04-176-CN
+      - 04-186-HK
       - 16-196-TW
       - 16-206-RELAY
       - 16-216-CN
@@ -1737,7 +1741,7 @@ proxy-groups:
       - 16-590-CN
       - 16-600-CN
       - 16-610-RELAY
-      - 16-620-TW
+      - 16-620-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US
   - name: 广告拦截
     type: select
     proxies:
