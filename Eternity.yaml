@@ -54,6 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 02-000-CN, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v28.heduian.link}}, udp: true}
   - {name: 02-001-CN, server: 120.233.154.102, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-002-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 04-003-RELAY, server: s1.db-link02.top, port: 2082, type: vmess, uuid: 820883a5-eef6-3807-9589-819afb2d94ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.15.245, headers: {Host: s1.db-link02.top}}, udp: true}
@@ -142,7 +143,6 @@ proxies:
   - {name: 04-186-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-187-JP, server: 47.245.40.60, port: 28453, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-188-JP, server: 47.245.31.103, port: 28452, type: trojan, password: e41be5ed-ff6f-335b-9313-1fa838ce26d0, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 11-190-RELAY, server: tiamo.tiamocloud.us.kg, port: 80, type: vmess, uuid: ebf322e2-94a9-4af8-b919-55c0424d166a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiamo.tiamocloud.us.kg}}, udp: true}
   - {name: 11-191-RELAY, server: tiamo3.tiamocloud.us.kg, port: 80, type: vmess, uuid: ebf322e2-94a9-4af8-b919-55c0424d166a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiamo3.tiamocloud.us.kg}}, udp: true}
   - {name: 11-192-RELAY, server: tiamo2.tiamocloud.us.kg, port: 80, type: vmess, uuid: ebf322e2-94a9-4af8-b919-55c0424d166a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tiamo2.tiamocloud.us.kg}}, udp: true}
   - {name: 11-193-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2018dd67-7bc9-45e1-8b9a-4dc2c47188fc, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
@@ -585,6 +585,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
+      - 02-000-CN
       - 02-001-CN
       - 02-002-CN
       - 04-003-RELAY
@@ -673,7 +674,6 @@ proxy-groups:
       - 04-186-HK
       - 04-187-JP
       - 04-188-JP
-      - 11-190-RELAY
       - 11-191-RELAY
       - 11-192-RELAY
       - 11-193-NOWHERE
@@ -1559,6 +1559,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - 02-000-CN
       - 04-005-RELAY
       - 04-110-CN
       - 04-115-CN
@@ -1576,7 +1577,6 @@ proxy-groups:
       - 04-175-CN
       - 04-180-CN
       - 04-185-HK
-      - 11-190-RELAY
       - 12-195-NOWHERE
       - 16-200-RELAY
       - 16-205-RELAY
