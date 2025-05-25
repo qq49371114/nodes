@@ -65,7 +65,6 @@ proxies:
   - {name: 04-009-RELAY, server: s4.cn-db.top, port: 8880, type: vmess, uuid: 3fbfd136-ef29-30d3-b953-2ebac3309671, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.38.1, headers: {Host: s4.cn-db.top}}, udp: true}
   - {name: 04-109-CN, server: a.api.studyservice.top, port: 51001, type: trojan, password: af72833f-e71f-44da-8432-7c2e6ec261b5, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: 04-110-CN, server: b.api.studyservice.top, port: 51002, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
-  - {name: 04-111-US, server: c.api.studyservice.top, port: 51003, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-112-CN, server: a.api.studyservice.top, port: 51004, type: trojan, password: af72833f-e71f-44da-8432-7c2e6ec261b5, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-CN, server: b.api.studyservice.top, port: 51005, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
   - {name: 04-114-US, server: c.api.studyservice.top, port: 51006, type: ss, cipher: aes-256-gcm, password: af72833f-e71f-44da-8432-7c2e6ec261b5, udp: true}
@@ -143,6 +142,7 @@ proxies:
   - {name: 04-186-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: e15284b9-8e37-3da3-a513-bdd32994f7ec, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-187-JP, server: 47.245.40.60, port: 28454, type: trojan, password: e15284b9-8e37-3da3-a513-bdd32994f7ec, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-188-JP, server: 47.245.31.103, port: 28453, type: trojan, password: e15284b9-8e37-3da3-a513-bdd32994f7ec, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-189-US, server: 103.136.185.28, port: 447, type: trojan, password: e15284b9-8e37-3da3-a513-bdd32994f7ec, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 07-190-CN, server: tw004.dogsvip.site, port: 17004, type: ss, cipher: aes-256-gcm, password: 324970cf-e758-44d2-982d-32983fad93bb, udp: true}
   - {name: 07-191-HK, server: 795e8ef2e2d56417b3a368b42c2a3c1c.v1.cac.node-is.green, port: 46808, type: trojan, password: c983a532-d8ee-4074-991c-c4a721178fdc, sni: tw1.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-192-HK, server: 4af53bc9f7c5b726b024b33f84cd88d1.v1.cac.node-is.green, port: 49317, type: trojan, password: ce71384b-7966-4139-a2f5-5d2ef263afb3, sni: tw1.bilibili.com, skip-cert-verify: true, udp: true}
@@ -689,7 +689,7 @@ proxies:
   - {name: 16-734-NOWHERE, server: bestcf.top, port: 80, type: vmess, uuid: f25b1a18-e49f-49f1-b04d-e3d6b0dfa5bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.top}}, udp: true}
   - {name: 16-735-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: b4c10020-a87f-4808-b8f4-9a25b651ce56, udp: true}
   - {name: 16-736-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 49a8db5f-ea98-4da3-a865-7491fd2aa3f6, udp: true}
-  - {name: "16-737-TWtrojan//e15284b9-8e37-3da3-a513-bdd32994f7ec@103.136.185.28447?allowInsecure=1&sni=www.microsoft365.com#04-189-US", server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 7ce93238-bce0-4008-bdd8-802e97ecf9f2, udp: true}
+  - {name: 16-737-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 7ce93238-bce0-4008-bdd8-802e97ecf9f2, udp: true}
   - {name: 16-738-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: dabe51f2-f96e-423d-9b90-f5f87bd53108, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 16-739-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: 1dffc3e6-490d-47fe-9ab2-157ec6bca60e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 16-740-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 45a99e2f-53a0-4e62-8115-323cb9f90fe4, udp: true}
@@ -724,7 +724,6 @@ proxy-groups:
       - 04-009-RELAY
       - 04-109-CN
       - 04-110-CN
-      - 04-111-US
       - 04-112-CN
       - 04-113-CN
       - 04-114-US
@@ -802,6 +801,7 @@ proxy-groups:
       - 04-186-HK
       - 04-187-JP
       - 04-188-JP
+      - 04-189-US
       - 07-190-CN
       - 07-191-HK
       - 07-192-HK
@@ -1348,7 +1348,7 @@ proxy-groups:
       - 16-734-NOWHERE
       - 16-735-TW
       - 16-736-TW
-      - 16-737-TWtrojan//e15284b9-8e37-3da3-a513-bdd32994f7ec@103.136.185.28447?allowInsecure=1&sni=www.microsoft365.com#04-189-US
+      - 16-737-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US
       - 16-738-NOWHERE
       - 16-739-NOWHERE
       - 16-740-CN
@@ -1379,7 +1379,6 @@ proxy-groups:
     proxies:
       - 02-001-CN
       - 04-006-RELAY
-      - 04-111-US
       - 04-116-CN
       - 04-121-CN
       - 04-126-SG
@@ -1505,6 +1504,7 @@ proxy-groups:
       - 16-726-RELAY
       - 16-731-RELAY
       - 16-736-TW
+      - 16-737-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US
       - 16-741-RELAY
       - 16-746-NOWHERE
   - name: 测速2分组
@@ -1639,7 +1639,7 @@ proxy-groups:
       - 16-722-CN
       - 16-727-CN
       - 16-732-RELAY
-      - 16-737-TWtrojan//e15284b9-8e37-3da3-a513-bdd32994f7ec@103.136.185.28447?allowInsecure=1&sni=www.microsoft365.com#04-189-US
+      - 16-737-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-111-US
       - 16-742-RELAY
       - 16-747-RELAY
   - name: 测速3分组
@@ -1774,7 +1774,6 @@ proxy-groups:
       - 16-723-RELAY
       - 16-728-NOWHERE
       - 16-733-NOWHERE
-      - 16-737-TWtrojan//e15284b9-8e37-3da3-a513-bdd32994f7ec@103.136.185.28447?allowInsecure=1&sni=www.microsoft365.com#04-189-US
       - 16-738-NOWHERE
       - 16-743-CN
       - 16-748-RELAY
@@ -1801,6 +1800,7 @@ proxy-groups:
       - 04-174-CN
       - 04-179-CN
       - 04-184-CN
+      - 04-189-US
       - 07-194-TW
       - 07-199-US
       - 07-204-US
@@ -1910,7 +1910,6 @@ proxy-groups:
       - 16-724-RELAY
       - 16-729-NOWHERE
       - 16-734-NOWHERE
-      - 16-737-TWtrojan//e15284b9-8e37-3da3-a513-bdd32994f7ec@103.136.185.28447?allowInsecure=1&sni=www.microsoft365.com#04-189-US
       - 16-739-NOWHERE
       - 16-744-NOWHERE
       - 16-749-CN
