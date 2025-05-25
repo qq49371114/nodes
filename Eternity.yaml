@@ -134,6 +134,11 @@ proxies:
   - {name: 04-180-CN, server: gy.58n.net, port: 20305, type: trojan, password: 694e61bf-a06e-38e5-a43c-f4afb4471083, sni: z305.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-181-CN, server: gy.58n.net, port: 20306, type: trojan, password: 694e61bf-a06e-38e5-a43c-f4afb4471083, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-182-CN, server: 43.100.9.65, port: 443, type: trojan, password: 87d6d97b-f914-3ce4-99a9-dedd2a2ae476, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-183-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 87d6d97b-f914-3ce4-99a9-dedd2a2ae476, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-184-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 87d6d97b-f914-3ce4-99a9-dedd2a2ae476, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-185-JP, server: 47.245.40.60, port: 28454, type: trojan, password: 87d6d97b-f914-3ce4-99a9-dedd2a2ae476, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-186-JP, server: 47.245.31.103, port: 28453, type: trojan, password: 87d6d97b-f914-3ce4-99a9-dedd2a2ae476, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-187-US, server: 103.136.185.28, port: 447, type: trojan, password: 87d6d97b-f914-3ce4-99a9-dedd2a2ae476, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 07-188-CN, server: tw004.dogsvip.site, port: 17004, type: ss, cipher: aes-256-gcm, password: 324970cf-e758-44d2-982d-32983fad93bb, udp: true}
   - {name: 07-189-HK, server: 795e8ef2e2d56417b3a368b42c2a3c1c.v1.cac.node-is.green, port: 46808, type: trojan, password: c983a532-d8ee-4074-991c-c4a721178fdc, sni: tw1.bilibili.com, skip-cert-verify: true, udp: true}
   - {name: 07-190-HK, server: 4af53bc9f7c5b726b024b33f84cd88d1.v1.cac.node-is.green, port: 49317, type: trojan, password: ce71384b-7966-4139-a2f5-5d2ef263afb3, sni: tw1.bilibili.com, skip-cert-verify: true, udp: true}
@@ -368,6 +373,7 @@ proxies:
   - {name: 16-422-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: 30027fec-c518-4c67-aa1a-6c7c97273692, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
   - {name: 16-423-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: af9d4168-5dfd-41a6-bc74-e3c5b437dd28, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
   - {name: 16-424-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: f25b1a18-e49f-49f1-b04d-e3d6b0dfa5bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
+  - {name: 16-425-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 6b7ab2f1-939e-43b2-b115-cf03672e2fbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 16-426-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 6b7ab2f1-939e-43b2-b115-cf03672e2fbe, udp: true}
   - {name: 16-427-RELAY, server: bookmyshow.com, port: 443, type: vmess, uuid: 559ed8e5-db2e-44ba-b4b0-72a23477a605, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bookmyshow.com}}, udp: true}
   - {name: 16-428-NOWHERE, server: zz.xiao666666.site, port: 10001, type: vmess, uuid: 13a5acc7-660a-40fe-ae1a-38db32520733, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zz.xiao666666.site}}, udp: true}
@@ -641,12 +647,6 @@ proxies:
   - {name: 16-696-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: d549bdfe-0b83-4db2-9e9a-a0e40e26ebfd, udp: true}
   - {name: 16-697-TW, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 09341cc5-23d8-4c33-8c53-ee6c06c3132c, udp: true}
   - {name: 16-698-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-109-US, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 13a5acc7-660a-40fe-ae1a-38db32520733, udp: true}
-  - {name: 16-741-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 30027fec-c518-4c67-aa1a-6c7c97273692, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
-  - {name: 16-743-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: 8b465334-ed85-429e-a421-83dcfcda90d9, udp: true}
-  - {name: 16-744-NOWHERE, server: bestcf.mfwl.art, port: 80, type: vmess, uuid: 3306f863-3d85-470c-9528-c27c3a6d71e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bestcf.mfwl.art}}, udp: true}
-  - {name: 16-745-CN, server: jg647hf446ghvw.gym0boy.com, port: 49709, type: ss, cipher: chacha20-ietf-poly1305, password: f9bc72f2-51a6-4177-a34f-9e6d16e0359a, udp: true}
-  - {name: 16-746-NOWHERE, server: zz.xiao666666.site, port: 10001, type: vmess, uuid: 45a99e2f-53a0-4e62-8115-323cb9f90fe4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zz.xiao666666.site}}, udp: true}
-  - {name: 16-747-RELAY, server: cf.090227.xyz, port: 80, type: vmess, uuid: d549bdfe-0b83-4db2-9e9a-a0e40e26ebfd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cf.090227.xyz}}, udp: true}
   - {name: 16-748-RELAY, server: www.visa.com, port: 443, type: vmess, uuid: 3306f863-3d85-470c-9528-c27c3a6d71e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.visa.com}}, udp: true}
   - {name: 16-749-CN, server: 1c4.bulldognet-dstat.uk, port: 45679, type: ss, cipher: chacha20-ietf-poly1305, password: 1dffc3e6-490d-47fe-9ab2-157ec6bca60e, udp: true}
 proxy-groups:
@@ -748,6 +748,11 @@ proxy-groups:
       - 04-180-CN
       - 04-181-CN
       - 04-182-CN
+      - 04-183-HK
+      - 04-184-HK
+      - 04-185-JP
+      - 04-186-JP
+      - 04-187-US
       - 07-188-CN
       - 07-189-HK
       - 07-190-HK
@@ -982,6 +987,7 @@ proxy-groups:
       - 16-422-NOWHERE
       - 16-423-RELAY
       - 16-424-RELAY
+      - 16-425-RELAY
       - 16-426-TW
       - 16-427-RELAY
       - 16-428-NOWHERE
@@ -1255,12 +1261,6 @@ proxy-groups:
       - 16-696-TW
       - 16-697-TW
       - 16-698-TWss//YWVzLTI1Ni1nY206YWY3MjgzM2YtZTcxZi00NGRhLTg0MzItN2MyZTZlYzI2MWI1@c.api.studyservice.top51003#04-109-US
-      - 16-741-RELAY
-      - 16-743-CN
-      - 16-744-NOWHERE
-      - 16-745-CN
-      - 16-746-NOWHERE
-      - 16-747-RELAY
       - 16-748-RELAY
       - 16-749-CN
   - name: 负载均衡
@@ -1378,7 +1378,6 @@ proxy-groups:
       - 16-671-TW
       - 16-681-NOWHERE
       - 16-691-NOWHERE
-      - 16-741-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1459,6 +1458,7 @@ proxy-groups:
       - 04-153-CN
       - 04-163-CN
       - 04-173-CN
+      - 04-183-HK
       - 07-193-CN
       - 07-203-CN
       - 07-213-HK
@@ -1509,7 +1509,6 @@ proxy-groups:
       - 16-673-CN
       - 16-683-NOWHERE
       - 16-693-RELAY
-      - 16-743-CN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1524,6 +1523,7 @@ proxy-groups:
       - 04-154-CN
       - 04-164-CN
       - 04-174-CN
+      - 04-184-HK
       - 07-194-CN
       - 07-204-HK
       - 07-214-HK
@@ -1575,7 +1575,6 @@ proxy-groups:
       - 16-674-NOWHERE
       - 16-684-NOWHERE
       - 16-694-RELAY
-      - 16-744-NOWHERE
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1590,6 +1589,7 @@ proxy-groups:
       - 04-155-CN
       - 04-165-CN
       - 04-175-CN
+      - 04-185-JP
       - 07-195-CN
       - 07-205-US
       - 07-215-HK
@@ -1613,6 +1613,7 @@ proxy-groups:
       - 16-395-NOWHERE
       - 16-405-RELAY
       - 16-415-CN
+      - 16-425-RELAY
       - 16-435-RELAY
       - 16-445-RELAY
       - 16-455-TW
@@ -1640,7 +1641,6 @@ proxy-groups:
       - 16-675-RELAY
       - 16-685-NOWHERE
       - 16-695-RELAY
-      - 16-745-CN
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1655,6 +1655,7 @@ proxy-groups:
       - 04-156-CN
       - 04-166-CN
       - 04-176-CN
+      - 04-186-JP
       - 07-196-CN
       - 07-206-HK
       - 07-216-HK
@@ -1706,7 +1707,6 @@ proxy-groups:
       - 16-676-RELAY
       - 16-686-TW
       - 16-696-TW
-      - 16-746-NOWHERE
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1722,6 +1722,7 @@ proxy-groups:
       - 04-157-CN
       - 04-167-CN
       - 04-177-CN
+      - 04-187-US
       - 07-197-US
       - 07-207-HK
       - 07-217-HK
@@ -1773,7 +1774,6 @@ proxy-groups:
       - 16-677-NOWHERE
       - 16-687-NOWHERE
       - 16-697-TW
-      - 16-747-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
