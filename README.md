@@ -696,11 +696,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `763`
+合并节点总数: `762`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `763`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `762`
 
 
 ## 仓库声明
