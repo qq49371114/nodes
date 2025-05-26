@@ -55,14 +55,13 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 02-0000-JP, server: 35.77.68.24, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0001-US, server: 44.244.37.212, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0002-KR, server: 43.203.156.18, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-0004-JP, server: 35.77.68.24, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0005-US, server: 44.244.37.212, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0006-KR, server: 43.203.156.18, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0008-JP, server: 35.77.68.24, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0009-US, server: 44.244.37.212, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0010-KR, server: 43.203.156.18, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 03-0013-CN, server: sq02.sucloud.uk, port: 49297, type: ss, cipher: chacha20-ietf-poly1305, password: caa27c2e-3dc6-414a-93e1-cfdd537605b4, udp: true}
+  - {name: 03-0014-CN, server: dxzx.flyby-world.top, port: 59058, type: ss, cipher: aes-128-gcm, password: caa27c2e-3dc6-414a-93e1-cfdd537605b4, udp: true}
+  - {name: 03-0015-CN, server: dxzx.flyby-world.top, port: 44574, type: ss, cipher: chacha20-ietf-poly1305, password: caa27c2e-3dc6-414a-93e1-cfdd537605b4, udp: true}
   - {name: 03-0016-CN, server: dxzx.flyby-world.top, port: 30397, type: ss, cipher: chacha20-ietf-poly1305, password: caa27c2e-3dc6-414a-93e1-cfdd537605b4, udp: true}
   - {name: 03-0017-RELAY, server: test.api-aws.com, port: 443, type: trojan, password: 53d3a712-881b-4185-8971-cd8b234d75da, sni: test.api-aws.com, skip-cert-verify: true, udp: true}
   - {name: 03-0018-US, server: 38.130.98.152, port: 23655, type: ss, cipher: aes-256-gcm, password: 53d3a712-881b-4185-8971-cd8b234d75da, udp: true}
@@ -98,6 +97,7 @@ proxies:
   - {name: 03-0048-JP, server: jp007.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0049-JP, server: jp008.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0050-US, server: us003.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0051-US, server: us004.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0052-CN, server: next1.orz.my.id, port: 53030, type: vmess, uuid: ed1b106e-dcc2-4918-90fd-6f5df1cde802, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: next1.orz.my.id}}, udp: true}
   - {name: 03-0053-CN, server: next2.orz.my.id, port: 53240, type: vmess, uuid: ed1b106e-dcc2-4918-90fd-6f5df1cde802, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: next2.orz.my.id}}, udp: true}
   - {name: 03-0054-CN, server: next1.orz.my.id, port: 53520, type: ss, cipher: chacha20-ietf-poly1305, password: ed1b106e-dcc2-4918-90fd-6f5df1cde802, udp: true}
@@ -109,7 +109,7 @@ proxies:
   - {name: 03-0060-DE, server: netcp4.616626.xyz, port: 10027, type: trojan, password: c184c42e-ba05-4dab-85e0-1ebaae802b4b, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-0061-US, server: test2.xiaoshihoukepangle.sbs, port: 1083, type: trojan, password: f1747d31-07f2-456d-91b6-3828ca434780, sni: test2.xiaoshihoukepangle.sbs, skip-cert-verify: true, udp: true}
   - {name: 03-0063-US, server: test1.xiaoshihoukepangle.sbs, port: 1082, type: vmess, uuid: f1747d31-07f2-456d-91b6-3828ca434780, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xiaoshihoukepangleVmess, headers: {Host: test1.xiaoshihoukepangle.sbs}}, udp: true}
-  - {name: 03-0065-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
+  - {name: 03-0064-RELAY, server: us01.sh-cloudflare.sbs, port: 8443, type: vmess, uuid: 2703867d-dd8f-4f7f-93f4-ac6e4f56c7e8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us01.sh-cloudflare.sbs}}, udp: true}
   - {name: 03-0066-CN, server: cnamepc01-drwtbltc3xwmfzhd.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 6b9f59ec-65aa-40da-ac7b-263338f1bb79, udp: true}
   - {name: 03-0067-CN, server: cnamepc02-tdkdep2xnpmwi4ga.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 6b9f59ec-65aa-40da-ac7b-263338f1bb79, udp: true}
   - {name: 03-0068-CN, server: cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki, port: 40000, type: ss, cipher: chacha20-ietf-poly1305, password: 6b9f59ec-65aa-40da-ac7b-263338f1bb79, udp: true}
@@ -1051,14 +1051,13 @@ proxy-groups:
       - 测速4分组
       - 测速5分组
       - 02-0000-JP
-      - 02-0001-US
-      - 02-0002-KR
       - 02-0004-JP
       - 02-0005-US
-      - 02-0006-KR
       - 02-0008-JP
       - 02-0009-US
-      - 02-0010-KR
+      - 03-0013-CN
+      - 03-0014-CN
+      - 03-0015-CN
       - 03-0016-CN
       - 03-0017-RELAY
       - 03-0018-US
@@ -1094,6 +1093,7 @@ proxy-groups:
       - 03-0048-JP
       - 03-0049-JP
       - 03-0050-US
+      - 03-0051-US
       - 03-0052-CN
       - 03-0053-CN
       - 03-0054-CN
@@ -1105,7 +1105,7 @@ proxy-groups:
       - 03-0060-DE
       - 03-0061-US
       - 03-0063-US
-      - 03-0065-RELAY
+      - 03-0064-RELAY
       - 03-0066-CN
       - 03-0067-CN
       - 03-0068-CN
@@ -2051,8 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0001-US
-      - 02-0006-KR
       - 03-0016-CN
       - 03-0021-HK
       - 03-0026-NL
@@ -2060,6 +2058,7 @@ proxy-groups:
       - 03-0036-US
       - 03-0041-CN
       - 03-0046-JP
+      - 03-0051-US
       - 03-0056-NOWHERE
       - 03-0061-US
       - 03-0066-CN
@@ -2252,7 +2251,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0002-KR
       - 03-0017-RELAY
       - 03-0022-US
       - 03-0027-DE
@@ -2454,6 +2452,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-0008-JP
+      - 03-0013-CN
       - 03-0018-US
       - 03-0023-JP
       - 03-0028-US
@@ -2657,6 +2656,7 @@ proxy-groups:
     proxies:
       - 02-0004-JP
       - 02-0009-US
+      - 03-0014-CN
       - 03-0019-RELAY
       - 03-0024-JP
       - 03-0029-US
@@ -2666,6 +2666,7 @@ proxy-groups:
       - 03-0049-JP
       - 03-0054-CN
       - 03-0059-NL
+      - 03-0064-RELAY
       - 03-0069-CN
       - 03-0074-CN
       - 03-0079-CN
@@ -2860,7 +2861,7 @@ proxy-groups:
     proxies:
       - 02-0000-JP
       - 02-0005-US
-      - 02-0010-KR
+      - 03-0015-CN
       - 03-0020-CN
       - 03-0025-JP
       - 03-0030-US
@@ -2870,7 +2871,6 @@ proxy-groups:
       - 03-0050-US
       - 03-0055-NOWHERE
       - 03-0060-DE
-      - 03-0065-RELAY
       - 03-0070-CN
       - 03-0075-CN
       - 03-0080-CN
