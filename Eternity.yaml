@@ -647,8 +647,8 @@ proxies:
   - {name: 03-0650-CN, server: jp001.dogsvip.site, port: 19001, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0651-CN, server: jp002.dogsvip.site, port: 19002, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0652-CN, server: jp003.dogsvip.site, port: 19004, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
-  - {name: 40-1672-CN, server: c3a8632f-swzb40-sx3h07-1g8k0.cu.plebai.net, port: 15229, type: trojan, password: d4018e28-e328-11ed-98a7-f23c913c8d2b, skip-cert-verify: true, udp: true}
-  - {name: 40-1673-CN, server: hk014.dogsvip.site, port: 16014, type: ss, cipher: aes-256-gcm, password: 3030b609-f36f-4fd1-a4ef-a6e653780536, udp: true}
+  - {name: 40-1682-RELAY, server: 104.21.23.162, port: 443, type: trojan, password: 5453ae26-250d-4e79-b4ec-016baf806865, sni: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA, skip-cert-verify: true, udp: true}
+  - {name: 40-1683-CN, server: aa858ce9-sx15s0-sznzxg-1jfvb.cu.plebai.net, port: 15229, type: trojan, password: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1261,8 +1261,8 @@ proxy-groups:
       - 03-0650-CN
       - 03-0651-CN
       - 03-0652-CN
-      - 40-1672-CN
-      - 40-1673-CN
+      - 40-1682-RELAY
+      - 40-1683-CN
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1444,7 +1444,7 @@ proxy-groups:
       - 03-0632-CN
       - 03-0642-CN
       - 03-0652-CN
-      - 40-1672-CN
+      - 40-1682-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1511,7 +1511,7 @@ proxy-groups:
       - 03-0623-CN
       - 03-0633-CN
       - 03-0643-CN
-      - 40-1673-CN
+      - 40-1683-CN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
