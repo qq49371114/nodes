@@ -54,9 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: "02-0000-JPtrojan//f1747d31-07f2-456d-91b6-3828ca434780@test2.xiaoshihoukepangle.sbs1083?allowInsecure=1&sni=test2.xiaoshihoukepangle.sbs#03-0305-US", server: 18.179.2.110, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0006-KR, server: 3.38.110.97, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0007-SG, server: 47.129.208.173, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0000-JP, server: 18.179.2.110, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-0008-JP, server: 18.179.2.110, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0009-US, server: 35.90.86.243, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0010-KR, server: 3.38.110.97, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -921,7 +919,6 @@ proxies:
   - {name: 03-0923-CN, server: yydsonehsy.onemg.top, port: 39798, type: ss, cipher: chacha20-ietf-poly1305, password: 502d1748-d4da-461f-a3f1-3343711132c7, udp: true}
   - {name: 03-0924-CN, server: yydsonehsy.onemg.top, port: 11685, type: ss, cipher: chacha20-ietf-poly1305, password: 502d1748-d4da-461f-a3f1-3343711132c7, udp: true}
   - {name: 03-0925-CN, server: yydsonehsy.onemg.top, port: 46216, type: ss, cipher: chacha20-ietf-poly1305, password: 502d1748-d4da-461f-a3f1-3343711132c7, udp: true}
-  - {name: 03-0926-SG, server: tls.07.node-for-bigairport.win, port: 34443, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
   - {name: 03-0927-SG, server: tls.08.node-for-bigairport.win, port: 443, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.08.node-for-bigairport.win}}, udp: true}
   - {name: 03-0928-SG, server: tls.09.node-for-bigairport.win, port: 55443, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.09.node-for-bigairport.win}}, udp: true}
   - {name: 03-0929-HK, server: tls.13.node-for-bigairport.win, port: 44443, type: vmess, uuid: 5ac8224f-6126-4ffb-9fad-97e3207f8c33, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.13.node-for-bigairport.win}}, udp: true}
@@ -1040,7 +1037,9 @@ proxies:
   - {name: 07-1631-RELAY, server: xcvbghy4.999165.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xcvbghy4.999165.xyz}}, udp: true}
   - {name: 07-1632-RELAY, server: dfrty.freevpnatm.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: dfrty.freevpnatm.dpdns.org}}, udp: true}
   - {name: 07-1633-RELAY, server: ssscdfr5.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: ssscdfr5.freevpnatm2025.dpdns.org}}, udp: true}
-  - {name: 40-1674-SG, server: tls.07.node-for-bigairport.win, port: 34443, type: vmess, uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tls.07.node-for-bigairport.win}}, udp: true}
+  - {name: 40-1660-HK, server: 169766fc-sx15s0-sy1j4r-1mqag.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 169766fc-sx15s0-sy1j4r-1mqag.hgc1.tcpbbr.net}}, udp: true}
+  - {name: 40-1669-HK, server: 6ab77055-sx15s0-tfnoge-1luqs.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 788328ee-d49f-11ef-bd97-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6ab77055-sx15s0-tfnoge-1luqs.hgc1.tcpbbr.net}}, udp: true}
+  - {name: 40-1670-HK, server: 781ec9c7-sx15s0-t5vrf3-716s.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: 088a0bbe-4f9f-11ea-a15d-f23c913c8d2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 781ec9c7-sx15s0-t5vrf3-716s.hgc1.tcpbbr.net}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1051,9 +1050,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0000-JPtrojan//f1747d31-07f2-456d-91b6-3828ca434780@test2.xiaoshihoukepangle.sbs1083?allowInsecure=1&sni=test2.xiaoshihoukepangle.sbs#03-0305-US
-      - 02-0006-KR
-      - 02-0007-SG
+      - 02-0000-JP
       - 02-0008-JP
       - 02-0009-US
       - 02-0010-KR
@@ -1918,7 +1915,6 @@ proxy-groups:
       - 03-0923-CN
       - 03-0924-CN
       - 03-0925-CN
-      - 03-0926-SG
       - 03-0927-SG
       - 03-0928-SG
       - 03-0929-HK
@@ -2037,7 +2033,9 @@ proxy-groups:
       - 07-1631-RELAY
       - 07-1632-RELAY
       - 07-1633-RELAY
-      - 40-1674-SG
+      - 40-1660-HK
+      - 40-1669-HK
+      - 40-1670-HK
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2053,7 +2051,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0006-KR
       - 02-0011-SG
       - 03-0016-JP
       - 03-0021-US
@@ -2227,7 +2224,6 @@ proxy-groups:
       - 03-0911-CN
       - 03-0916-CN
       - 03-0921-CN
-      - 03-0926-SG
       - 03-0931-HK
       - 03-0936-HK
       - 03-0941-HK
@@ -2257,7 +2253,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0007-SG
       - 03-0012-HK
       - 03-0017-NL
       - 03-0022-US
@@ -2858,13 +2853,13 @@ proxy-groups:
       - 03-1029-CN
       - 03-1034-CN
       - 03-1039-CN
-      - 40-1674-SG
+      - 40-1669-HK
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-JPtrojan//f1747d31-07f2-456d-91b6-3828ca434780@test2.xiaoshihoukepangle.sbs1083?allowInsecure=1&sni=test2.xiaoshihoukepangle.sbs#03-0305-US
+      - 02-0000-JP
       - 02-0010-KR
       - 03-0015-JP
       - 03-0020-US
@@ -3060,6 +3055,8 @@ proxy-groups:
       - 03-1030-CN
       - 03-1035-CN
       - 03-1040-CN
+      - 40-1660-HK
+      - 40-1670-HK
   - name: 广告拦截
     type: select
     proxies:
