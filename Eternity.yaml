@@ -595,6 +595,7 @@ proxies:
   - {name: 03-0596-JP, server: jp005.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0597-JP, server: jp006.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0598-JP, server: jp007.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
+  - {name: 03-0599-JP, server: jp008.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0600-US, server: us003.421421.xyz, port: 20230, type: trojan, password: d0d98f45-15ec-4a5a-9ccd-d4089e2204d9, sni: www.alibaba.com, skip-cert-verify: true, udp: true}
   - {name: 03-0602-CN, server: hry200.2228333.xyz, port: 52510, type: ss, cipher: chacha20-ietf-poly1305, password: 6d14e1ee-68dd-48e2-ba20-52b37f04f0f3, udp: true}
   - {name: 03-0603-CN, server: hry200.2228333.xyz, port: 52511, type: ss, cipher: chacha20-ietf-poly1305, password: 6d14e1ee-68dd-48e2-ba20-52b37f04f0f3, udp: true}
@@ -647,8 +648,8 @@ proxies:
   - {name: 03-0650-CN, server: jp001.dogsvip.site, port: 19001, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0651-CN, server: jp002.dogsvip.site, port: 19002, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0652-CN, server: jp003.dogsvip.site, port: 19004, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
-  - {name: 40-1682-RELAY, server: 104.21.23.162, port: 443, type: trojan, password: 5453ae26-250d-4e79-b4ec-016baf806865, sni: D05F4aA7-92B1-a659-E3b9-695Dd2870B3c.131.Pp.UA, skip-cert-verify: true, udp: true}
-  - {name: 40-1683-CN, server: aa858ce9-sx15s0-sznzxg-1jfvb.cu.plebai.net, port: 15229, type: trojan, password: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: 40-1667-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.90.86.2439898#02-0001-US, server: hinetiw0k.yooddns.stream, port: 26900, type: ss, cipher: chacha20-ietf-poly1305, password: 81e32ceb-5730-4a29-aabf-88b80a20b251, udp: true}
+  - {name: 40-1668-CN, server: tk.hzlt.tkddns.xyz, port: 22643, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1209,6 +1210,7 @@ proxy-groups:
       - 03-0596-JP
       - 03-0597-JP
       - 03-0598-JP
+      - 03-0599-JP
       - 03-0600-US
       - 03-0602-CN
       - 03-0603-CN
@@ -1261,8 +1263,8 @@ proxy-groups:
       - 03-0650-CN
       - 03-0651-CN
       - 03-0652-CN
-      - 40-1682-RELAY
-      - 40-1683-CN
+      - 40-1667-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.90.86.2439898#02-0001-US
+      - 40-1668-CN
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -1377,6 +1379,7 @@ proxy-groups:
       - 03-0631-CN
       - 03-0641-CN
       - 03-0651-CN
+      - 40-1667-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.90.86.2439898#02-0001-US
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1444,7 +1447,6 @@ proxy-groups:
       - 03-0632-CN
       - 03-0642-CN
       - 03-0652-CN
-      - 40-1682-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1511,7 +1513,6 @@ proxy-groups:
       - 03-0623-CN
       - 03-0633-CN
       - 03-0643-CN
-      - 40-1683-CN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1771,6 +1772,7 @@ proxy-groups:
       - 03-0627-CN
       - 03-0637-CN
       - 03-0647-CN
+      - 40-1667-TWss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.90.86.2439898#02-0001-US
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1837,6 +1839,7 @@ proxy-groups:
       - 03-0628-CN
       - 03-0638-CN
       - 03-0648-CN
+      - 40-1668-CN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1897,6 +1900,7 @@ proxy-groups:
       - 03-0569-CN
       - 03-0579-CN
       - 03-0589-US
+      - 03-0599-JP
       - 03-0609-CN
       - 03-0619-CN
       - 03-0629-CN
