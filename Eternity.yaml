@@ -560,7 +560,7 @@ proxies:
   - {name: 03-0507-CN, server: dxzx.flyby-world.top, port: 46178, type: ss, cipher: chacha20-ietf-poly1305, password: 56128ff2-d648-4fa6-9f4f-1857cbbd0d3c, udp: true}
   - {name: 03-0508-JP, server: 66.42.39.93, port: 25873, type: trojan, password: 67040055-9b83-4655-b760-0be7f886a43b, skip-cert-verify: true, udp: true}
   - {name: 03-0509-SG, server: 45.76.152.235, port: 12443, type: trojan, password: 67040055-9b83-4655-b760-0be7f886a43b, skip-cert-verify: true, udp: true}
-  - {name: 03-0510-GB, server: us3.pptv-tv.store, port: 17743, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: "data.52daishu.life#03-0804-UStrojan://67040055-9b83-4655-b760-0be7f886a43b@95.179.199.36:15443?allowInsecure=1", skip-cert-verify: true, udp: true}
+  - {name: 03-0510-GB, server: 95.179.199.36, port: 15443, type: trojan, password: 67040055-9b83-4655-b760-0be7f886a43b, skip-cert-verify: true, udp: true}
   - {name: 03-0511-CN, server: gate.jiasudu.buzz, port: 47000, type: ss, cipher: aes-256-gcm, password: 7d178eda-313a-45db-8bc5-1c38955a1a89, udp: true}
   - {name: 03-0512-NL, server: nara.189.ovh, port: 10027, type: trojan, password: 5a82a4a9-e43b-4b91-b5df-f8c712bd3f4d, sni: nara.189.ovh, skip-cert-verify: true, udp: true}
   - {name: 03-0513-DE, server: netcp4.616626.xyz, port: 10027, type: trojan, password: 5a82a4a9-e43b-4b91-b5df-f8c712bd3f4d, sni: netcp4.616626.xyz, skip-cert-verify: true, udp: true}
@@ -1038,7 +1038,6 @@ proxies:
   - {name: 03-1040-CN, server: t18.jafi2025.xyz, port: 23128, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t18.jafi2025.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-1041-CN, server: t19.jafi2025.xyz, port: 23124, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t19.jafi2025.xyz, skip-cert-verify: true, udp: true}
   - {name: 03-1042-CN, server: t20.jafiyun2024.cloud, port: 23129, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t20.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
-  - {name: 07-1746-RELAY, server: hjuyitu.222856.xyz, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: hjuyitu.222856.xyz}}, udp: true}
   - {name: 07-1747-RELAY, server: xcvbghy4.999165.xyz, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: xcvbghy4.999165.xyz}}, udp: true}
   - {name: 07-1748-RELAY, server: dfrty.freevpnatm.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: dfrty.freevpnatm.dpdns.org}}, udp: true}
   - {name: 07-1749-RELAY, server: ssscdfr5.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: ssscdfr5.freevpnatm2025.dpdns.org}}, udp: true}
@@ -2036,7 +2035,6 @@ proxy-groups:
       - 03-1040-CN
       - 03-1041-CN
       - 03-1042-CN
-      - 07-1746-RELAY
       - 07-1747-RELAY
       - 07-1748-RELAY
       - 07-1749-RELAY
@@ -2252,7 +2250,6 @@ proxy-groups:
       - 03-1031-CN
       - 03-1036-CN
       - 03-1041-CN
-      - 07-1746-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
