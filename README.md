@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `989`
+高速节点数量: `988`
 <details>
   <summary>展开复制节点</summary>
 
@@ -536,7 +536,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1NjEyOGZmMi1kNjQ4LTRmYTYtOWY0Zi0xODU3Y2JiZDBkM2M@dxzx.flyby-world.top:46178#03-0507-CN
     trojan://67040055-9b83-4655-b760-0be7f886a43b@66.42.39.93:25873?allowInsecure=1#03-0508-JP
     trojan://67040055-9b83-4655-b760-0be7f886a43b@45.76.152.235:12443?allowInsecure=1#03-0509-SG
-    trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us3.pptv-tv.store:17743?allowInsecure=1&sni=data.52daishu.life#03-0804-UStrojan://67040055-9b83-4655-b760-0be7f886a43b@95.179.199.36:15443?allowInsecure=1#03-0510-GB
+    trojan://67040055-9b83-4655-b760-0be7f886a43b@95.179.199.36:15443?allowInsecure=1#03-0510-GB
     ss://YWVzLTI1Ni1nY206N2QxNzhlZGEtMzEzYS00NWRiLThiYzUtMWMzODk1NWExYTg5@gate.jiasudu.buzz:47000#03-0511-CN
     trojan://5a82a4a9-e43b-4b91-b5df-f8c712bd3f4d@nara.189.ovh:10027?allowInsecure=1&sni=nara.189.ovh#03-0512-NL
     trojan://5a82a4a9-e43b-4b91-b5df-f8c712bd3f4d@netcp4.616626.xyz:10027?allowInsecure=1&sni=netcp4.616626.xyz#03-0513-DE
@@ -1014,7 +1014,6 @@ Fork from TopFreeProxies.
     trojan://2db5c495-5e53-4a1c-b6c5-42abcba1ff70@t18.jafi2025.xyz:23128?allowInsecure=1&sni=t18.jafi2025.xyz#03-1040-CN
     trojan://2db5c495-5e53-4a1c-b6c5-42abcba1ff70@t19.jafi2025.xyz:23124?allowInsecure=1&sni=t19.jafi2025.xyz#03-1041-CN
     trojan://2db5c495-5e53-4a1c-b6c5-42abcba1ff70@t20.jafiyun2024.cloud:23129?allowInsecure=1&sni=t20.jafiyun2024.cloud#03-1042-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMDctMTc0Ni1SRUxBWSIsImFkZCI6ImhqdXlpdHUuMjIyODU2Lnh5eiIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiZWNiMzE5NDYtYjgxZC00ZTM3LWJmZDktMmViN2ZhNWM0ZTUyIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii9CYmNrcktzYnYyMlBLMXF1MlR2TSIsImhvc3QiOiJoanV5aXR1LjIyMjg1Ni54eXoiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTc0Ny1SRUxBWSIsImFkZCI6InhjdmJnaHk0Ljk5OTE2NS54eXoiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTBmMzU3ZGQtNzlhYy00N2M2LWIwYjgtOTU4ZTJkMTlkZTA3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMFc2U0phSzBGMG9WWGVOVTZTMlJWUlAiLCJob3N0IjoieGN2YmdoeTQuOTk5MTY1Lnh5eiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTc0OC1SRUxBWSIsImFkZCI6ImRmcnR5LmZyZWV2cG5hdG0uZHBkbnMub3JnIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjkwZjM1N2RkLTc5YWMtNDdjNi1iMGI4LTk1OGUyZDE5ZGUwNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMTBXNlNKYUswRjBvVlhlTlU2UzJSVlJQIiwiaG9zdCI6ImRmcnR5LmZyZWV2cG5hdG0uZHBkbnMub3JnIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTc0OS1SRUxBWSIsImFkZCI6InNzc2NkZnI1LmZyZWV2cG5hdG0yMDI1LmRwZG5zLm9yZyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI5MGYzNTdkZC03OWFjLTQ3YzYtYjBiOC05NThlMmQxOWRlMDciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzEwVzZTSmFLMEYwb1ZYZU5VNlMyUlZSUCIsImhvc3QiOiJzc3NjZGZyNS5mcmVldnBuYXRtMjAyNS5kcGRucy5vcmciLCJ0bHMiOiIifQ==
@@ -1024,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1763`
+合并节点总数: `1761`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1763`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1761`
 
 
 ## 仓库声明
