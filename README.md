@@ -42,6 +42,10 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwOS1VUyIsImFkZCI6IjM1LjkzLjE1LjkxIiwicG9ydCI6IjY4NjgiLCJ0eXBlIjoibm9uZSIsImlkIjoiMWExN2IxOWQtNDg5Ni00NTMxLWFmNzktNmU5MWQ4ZWY4MjI4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAxMC1LUiIsImFkZCI6IjMuMzguMTM5LjE3MiIsInBvcnQiOiI2ODY4IiwidHlwZSI6Im5vbmUiLCJpZCI6IjFhMTdiMTlkLTQ4OTYtNDUzMS1hZjc5LTZlOTFkOGVmODIyOCIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAxMS1TRyIsImFkZCI6IjE4LjEzOC4yMzEuNjQiLCJwb3J0IjoiNjg2OCIsInR5cGUiOiJub25lIiwiaWQiOiIxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjgiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
+    ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk001.dogsvip.site:16001#03-0021-CN
+    ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk002.dogsvip.site:16002#03-0022-CN
+    ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk003.dogsvip.site:16003#03-0023-CN
+    ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk004.dogsvip.site:16004#03-0024-CN
     ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk005.dogsvip.site:16005#03-0025-CN
     ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk006.dogsvip.site:16006#03-0026-CN
     ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@hk007.dogsvip.site:16007#03-0027-CN
@@ -174,7 +178,6 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206MDdhMGU4NzUtOWI5YS00ZTExLWE4MWYtOGFmODVmODJlNzRk@alibaba1.xn--z7x16bf6t.com:54889#03-0154-CN
     ss://YWVzLTEyOC1nY206MDdhMGU4NzUtOWI5YS00ZTExLWE4MWYtOGFmODVmODJlNzRk@aawssb6.xn--z7x16bf6t.com:54889#03-0155-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NmM2ZTFmMi0xOTcyLTRjMjgtOWQzZS01MTcwY2Q0MzA2Yzc@dxzx.flyby-world.top:46178#03-0156-CN
-    trojan://f1747d31-07f2-456d-91b6-3828ca434780@test2.xiaoshihoukepangle.sbs:1083?allowInsecure=1&sni=test2.xiaoshihoukepangle.sbs#03-0157-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTc0N2QzMS0wN2YyLTQ1NmQtOTFiNi0zODI4Y2E0MzQ3ODA@test.xiaoshihoukepangle.sbs:1081#03-0158-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMDE1OS1VUyIsImFkZCI6InRlc3QxLnhpYW9zaGlob3VrZXBhbmdsZS5zYnMiLCJwb3J0IjoiMTA4MiIsInR5cGUiOiJub25lIiwiaWQiOiJmMTc0N2QzMS0wN2YyLTQ1NmQtOTFiNi0zODI4Y2E0MzQ3ODAiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3hpYW9zaGlob3VrZXBhbmdsZVZtZXNzIiwiaG9zdCI6InRlc3QxLnhpYW9zaGlob3VrZXBhbmdsZS5zYnMiLCJ0bHMiOiJ0bHMifQ==
     trojan://d516b33d-86ee-49e8-9af7-4eb7405e5cfe@cshgz1.fuckcdn.top:10506?allowInsecure=1#03-0160-CN
@@ -591,6 +594,7 @@ Fork from TopFreeProxies.
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@sg2.pptv-tv.store:17712?allowInsecure=1&sni=data.52daishu.life#03-0571-SG
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@sg3.pptv-tv.store:17713?allowInsecure=1&sni=data.52daishu.life#03-0572-SG
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@tw1.pptv-tv.store:17786?allowInsecure=1&sni=data.52daishu.life#03-0573-TW
+    trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us1.pptv-tv.store:17741?allowInsecure=1&sni=data.52daishu.life#03-0574-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us2.pptv-tv.store:17742?allowInsecure=1&sni=data.52daishu.life#03-0575-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us3.pptv-tv.store:17743?allowInsecure=1&sni=data.52daishu.life#03-0576-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@gb1.pptv-tv.store:17756?allowInsecure=1&sni=data.52daishu.life#03-0577-GB
@@ -809,9 +813,9 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@188.64.106.92:10050#03-0790-MY
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.109.65:10050#03-0791-TW
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.108.252:10050#03-0792-TW
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.109.178:10050#03-0793-TW
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.109.178:10050#03-0793-TWtrojan%2F%2Ff1747d31-07f2-456d-91b6-3828ca434780%40test2.xiaoshihoukepangle.sbs1083%3FallowInsecure%3D1%26sni%3Dtest2.xiaoshihoukepangle.sbs%2303-0157-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.108.3:10050#03-0794-TW
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.109.219:10050#03-0795-TWtrojan%2F%2Fe5b3ae20-a3de-37a7-8cd9-89a0af636884%40103.136.185.28447%3FallowInsecure%3D1%26sni%3Dsteamcdn-a.akamaihd.net%2304-1837-US
+    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@103.115.109.219:10050#03-0795-TW
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@154.91.200.232:10050#03-0796-BR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@62.112.143.197:10050#03-0797-TH
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjM2VlNjNhNS1iNmUxLTQ1ZTctYjBkYS1hMDgyNDgzMzUwYmU@62.112.143.130:10050#03-0798-TH
@@ -883,7 +887,6 @@ Fork from TopFreeProxies.
     trojan://d0d98f45-15ec-4a5a-9ccd-d4089e2204d9@jp007.421421.xyz:20230?allowInsecure=1&sni=www.alibaba.com#03-0917-JP
     trojan://d0d98f45-15ec-4a5a-9ccd-d4089e2204d9@jp008.421421.xyz:20230?allowInsecure=1&sni=www.alibaba.com#03-0918-JP
     trojan://d0d98f45-15ec-4a5a-9ccd-d4089e2204d9@us003.421421.xyz:20230?allowInsecure=1&sni=www.alibaba.com#03-0919-US
-    trojan://d0d98f45-15ec-4a5a-9ccd-d4089e2204d9@us004.421421.xyz:20230?allowInsecure=1&sni=www.alibaba.com#03-0920-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNWUyZDE3YS05NjFhLTQ3MWYtYTlmMS05MDhkNWMyOGJlODc@dxzx.flyby-world.top:46178#03-0921-CN
     trojan://1d2f277c-a1d4-458a-b320-4d84e8f89539@nara.189.ovh:10027?allowInsecure=1&sni=nara.189.ovh#03-0922-NL
     trojan://1d2f277c-a1d4-458a-b320-4d84e8f89539@netcp4.616626.xyz:10027?allowInsecure=1&sni=netcp4.616626.xyz#03-0923-DE
@@ -1010,9 +1013,6 @@ Fork from TopFreeProxies.
     trojan://67040055-9b83-4655-b760-0be7f886a43b@66.42.39.93:25873?allowInsecure=1#03-1083-JP
     trojan://67040055-9b83-4655-b760-0be7f886a43b@45.76.152.235:12443?allowInsecure=1#03-1084-SG
     trojan://67040055-9b83-4655-b760-0be7f886a43b@95.179.199.36:15443?allowInsecure=1#03-1085-GB
-    trojan://e5b3ae20-a3de-37a7-8cd9-89a0af636884@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=edge.steam-dns.top.comcast.net#04-1834-HK
-    trojan://e5b3ae20-a3de-37a7-8cd9-89a0af636884@47.245.40.60:28457?allowInsecure=1&sni=www.microsoft365.com#04-1835-JP
-    trojan://e5b3ae20-a3de-37a7-8cd9-89a0af636884@47.245.31.103:28455?allowInsecure=1&sni=upos-hz-mirrorakam.akamaized.net#04-1836-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg0Mi1SRUxBWSIsImFkZCI6InhjdmJnaHk0Ljk5OTE2NS54eXoiLCJwb3J0IjoiODAiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTBmMzU3ZGQtNzlhYy00N2M2LWIwYjgtOTU4ZTJkMTlkZTA3IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8xMFc2U0phSzBGMG9WWGVOVTZTMlJWUlAiLCJob3N0IjoieGN2YmdoeTQuOTk5MTY1Lnh5eiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg0My1SRUxBWSIsImFkZCI6ImRmcnR5LmZyZWV2cG5hdG0uZHBkbnMub3JnIiwicG9ydCI6IjgwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjkwZjM1N2RkLTc5YWMtNDdjNi1iMGI4LTk1OGUyZDE5ZGUwNyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvMTBXNlNKYUswRjBvVlhlTlU2UzJSVlJQIiwiaG9zdCI6ImRmcnR5LmZyZWV2cG5hdG0uZHBkbnMub3JnIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTg0NC1SRUxBWSIsImFkZCI6InNzc2NkZnI1LmZyZWV2cG5hdG0yMDI1LmRwZG5zLm9yZyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI5MGYzNTdkZC03OWFjLTQ3YzYtYjBiOC05NThlMmQxOWRlMDciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzEwVzZTSmFLMEYwb1ZYZU5VNlMyUlZSUCIsImhvc3QiOiJzc3NjZGZyNS5mcmVldnBuYXRtMjAyNS5kcGRucy5vcmciLCJ0bHMiOiIifQ==
@@ -1023,11 +1023,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1859`
+合并节点总数: `1828`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1859`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1828`
 
 
 ## 仓库声明
