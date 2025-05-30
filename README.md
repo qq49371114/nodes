@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `988`
+高速节点数量: `987`
 <details>
   <summary>展开复制节点</summary>
 
@@ -1009,8 +1009,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkNWFmMzNiMS0zZTVmLTRiMzEtOWUwYS1lMjYzZWQ3OTU2Yzk@dxzx.flyby-world.top:46178#03-1040-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiODNhOTRiMC03MTRjLTQ2ODctYmMxOS1jNGJlNTBhNDlmNTE@120.233.44.206:39221#03-1041-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiODNhOTRiMC03MTRjLTQ2ODctYmMxOS1jNGJlNTBhNDlmNTE@120.233.44.206:33727#03-1042-CN
-    trojan://ad3d9e8d-35b7-4be0-b932-60bf372b9c23@5c305371a9d252317ef70883b1d7bdf8.v1.cac.node-is.green:46577?allowInsecure=1&sni=test2.xiaoshihoukepangle.sbs#03-1055-US
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmMTc0N2QzMS0wN2YyLTQ1NmQtOTFiNi0zODI4Y2E0MzQ3ODA@test.xiaoshihoukepangle.sbs:1081#03-1056-US
+    trojan://f1747d31-07f2-456d-91b6-3828ca434780@test2.xiaoshihoukepangle.sbs:1083?allowInsecure=1&sni=test2.xiaoshihoukepangle.sbs#03-1055-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4OWUwMjFkNS1hOTNmLTQ0OWEtYjMxOS0yNDgzYjc3OGU2ZjA@132.145.102.60:21001#03-1182-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkYzZlY2JiNy1hM2UwLTRiOGQtOTg0Yi1kNGQ1ZmIwZWE5MWI@154.3.32.49:30000#03-1408-HK
     vmess://eyJ2IjoiMiIsInBzIjoiMDMtMTQ3Ni1ISyIsImFkZCI6InhiLXZtLWhrLjcxODE4MS54eXoiLCJwb3J0IjoiMTY4OTQiLCJ0eXBlIjoibm9uZSIsImlkIjoiMmE1YjZlZWItYmQ5Mi00ZjQ3LThkODItNzQ5MDFhYTdjYzIwIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoieGItdm0taGsuNzE4MTgxLnh5eiIsInRscyI6IiJ9
@@ -1023,11 +1022,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `1879`
+合并节点总数: `1880`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1879`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `1880`
 
 
 ## 仓库声明
