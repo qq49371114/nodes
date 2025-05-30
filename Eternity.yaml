@@ -52,15 +52,17 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JP, server: 3.113.113.170, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0002-KR, server: 3.37.175.48, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0003-SG, server: 13.214.165.191, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-0004-JP, server: 3.113.113.170, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0006-KR, server: 3.37.175.48, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0007-SG, server: 13.214.165.191, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 02-0008-JP, server: 3.113.113.170, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0010-KR, server: 3.37.175.48, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 02-0011-SG, server: 13.214.165.191, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0000-JP, server: 35.74.252.155, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0002-KR, server: 15.165.47.161, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0003-SG, server: 47.129.103.133, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0004-JP, server: 35.74.252.155, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0005-US, server: 52.27.99.208, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0006-KR, server: 15.165.47.161, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0007-SG, server: 47.129.103.133, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0008-JP, server: 35.74.252.155, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0009-US, server: 52.27.99.208, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0010-KR, server: 15.165.47.161, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0011-SG, server: 47.129.103.133, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0013-RELAY, server: 1748607141.tencentapp.cn, port: 8880, type: vmess, uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1748607141.tencentapp.cn}}, udp: true}
   - {name: 03-0014-RELAY, server: 1748607141.tencentapp.cn, port: 2082, type: vmess, uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1748607141.tencentapp.cn}}, udp: true}
   - {name: 03-0015-RELAY, server: 1748607141.tencentapp.cn, port: 8880, type: vmess, uuid: ffad2ef2-7b55-4f71-bc81-de5e0f769adc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1748607141.tencentapp.cn}}, udp: true}
@@ -82,6 +84,7 @@ proxies:
   - {name: 03-0031-TW, server: green.cdntencentmusic.com, port: 28507, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0032-TW, server: green.cdntencentmusic.com, port: 28506, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0033-HK, server: hkvm4.656888.xyz, port: 30026, type: trojan, password: 885c5d55-eb9d-4652-b6cc-52d4ba6f1233, sni: hkvm4.656888.xyz, skip-cert-verify: true, udp: true}
+  - {name: 03-0034-US, server: hytro.91ai.de, port: 10022, type: trojan, password: 885c5d55-eb9d-4652-b6cc-52d4ba6f1233, sni: hytro.91ai.de, skip-cert-verify: true, udp: true}
   - {name: 03-0035-JP, server: greenjp2.yueyun.de, port: 11030, type: trojan, password: 885c5d55-eb9d-4652-b6cc-52d4ba6f1233, sni: greenjp2.yueyun.de, skip-cert-verify: true, udp: true}
   - {name: 03-0036-JP, server: vpsjp.yueyun.de, port: 13036, type: trojan, password: 885c5d55-eb9d-4652-b6cc-52d4ba6f1233, sni: vpsjp.yueyun.de, skip-cert-verify: true, udp: true}
   - {name: 03-0037-JP, server: cloud.yueyun.de, port: 10389, type: trojan, password: 885c5d55-eb9d-4652-b6cc-52d4ba6f1233, sni: cloud.yueyun.de, skip-cert-verify: true, udp: true}
@@ -643,13 +646,10 @@ proxies:
   - {name: 03-0596-HK, server: api-wx-5.rancho.gay, port: 50033, type: ss, cipher: aes-128-gcm, password: 85b17adf-2af5-4756-96c4-c4124c0797f5, udp: true}
   - {name: 03-0597-HK, server: api-wx-5.rancho.gay, port: 50013, type: ss, cipher: aes-128-gcm, password: 85b17adf-2af5-4756-96c4-c4124c0797f5, udp: true}
   - {name: 03-0598-HK, server: api-wx-5.rancho.gay, port: 50017, type: ss, cipher: aes-128-gcm, password: 85b17adf-2af5-4756-96c4-c4124c0797f5, udp: true}
-  - {name: "03-0599-HKtrojan//885c5d55-eb9d-4652-b6cc-52d4ba6f1233@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0034-US", server: api-wx-5.rancho.gay, port: 50026, type: ss, cipher: aes-128-gcm, password: 85b17adf-2af5-4756-96c4-c4124c0797f5, udp: true}
-  - {name: 07-1891-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
-  - {name: 07-1892-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
-  - {name: 11-1893-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 29158fea-b9a5-4dba-bc78-0c868c5476da, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 12-1894-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cb828908-fd96-4b92-987c-7d51269fae10, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
-  - {name: 14-1896-CN, server: 120.236.198.165, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 14-1897-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+  - {name: 03-0599-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.27.99.2089898#02-0001-US, server: api-wx-5.rancho.gay, port: 50026, type: ss, cipher: aes-128-gcm, password: 85b17adf-2af5-4756-96c4-c4124c0797f5, udp: true}
+  - {name: 12-1893-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: cb828908-fd96-4b92-987c-7d51269fae10, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 14-1896-CN, server: tk.hzlt.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
+  - {name: 14-1897-CN, server: 120.236.198.165, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -671,9 +671,11 @@ proxy-groups:
       - 02-0002-KR
       - 02-0003-SG
       - 02-0004-JP
+      - 02-0005-US
       - 02-0006-KR
       - 02-0007-SG
       - 02-0008-JP
+      - 02-0009-US
       - 02-0010-KR
       - 02-0011-SG
       - 03-0013-RELAY
@@ -697,6 +699,7 @@ proxy-groups:
       - 03-0031-TW
       - 03-0032-TW
       - 03-0033-HK
+      - 03-0034-US
       - 03-0035-JP
       - 03-0036-JP
       - 03-0037-JP
@@ -1258,11 +1261,8 @@ proxy-groups:
       - 03-0596-HK
       - 03-0597-HK
       - 03-0598-HK
-      - 03-0599-HKtrojan//885c5d55-eb9d-4652-b6cc-52d4ba6f1233@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0034-US
-      - 07-1891-RELAY
-      - 07-1892-CN
-      - 11-1893-NOWHERE
-      - 12-1894-NOWHERE
+      - 03-0599-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.27.99.2089898#02-0001-US
+      - 12-1893-NOWHERE
       - 14-1896-CN
       - 14-1897-CN
   - name: 负载均衡
@@ -1379,7 +1379,7 @@ proxy-groups:
       - 03-0571-HK
       - 03-0581-HK
       - 03-0591-HK
-      - 07-1891-RELAY
+      - 03-0599-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.27.99.2089898#02-0001-US
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1445,8 +1445,6 @@ proxy-groups:
       - 03-0572-HK
       - 03-0582-HK
       - 03-0592-HK
-      - 03-0599-HKtrojan//885c5d55-eb9d-4652-b6cc-52d4ba6f1233@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0034-US
-      - 07-1892-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1513,7 +1511,7 @@ proxy-groups:
       - 03-0573-HK
       - 03-0583-HK
       - 03-0593-HK
-      - 11-1893-NOWHERE
+      - 12-1893-NOWHERE
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -1523,6 +1521,7 @@ proxy-groups:
       - 02-0004-JP
       - 03-0014-RELAY
       - 03-0024-RELAY
+      - 03-0034-US
       - 03-0044-GB
       - 03-0054-CN
       - 03-0064-CN
@@ -1579,14 +1578,13 @@ proxy-groups:
       - 03-0574-HK
       - 03-0584-HK
       - 03-0594-HK
-      - 03-0599-HKtrojan//885c5d55-eb9d-4652-b6cc-52d4ba6f1233@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0034-US
-      - 12-1894-NOWHERE
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0005-US
       - 03-0015-RELAY
       - 03-0025-RELAY
       - 03-0035-JP
@@ -1850,6 +1848,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0009-US
       - 03-0019-RELAY
       - 03-0029-TW
       - 03-0039-DE
@@ -1907,7 +1906,7 @@ proxy-groups:
       - 03-0569-HK
       - 03-0579-HK
       - 03-0589-HK
-      - 03-0599-HKtrojan//885c5d55-eb9d-4652-b6cc-52d4ba6f1233@hytro.91ai.de10022?allowInsecure=1&sni=hytro.91ai.de#03-0034-US
+      - 03-0599-HKss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.27.99.2089898#02-0001-US
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
