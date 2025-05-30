@@ -1033,8 +1033,7 @@ proxies:
   - {name: 03-1040-CN, server: dxzx.flyby-world.top, port: 46178, type: ss, cipher: chacha20-ietf-poly1305, password: d5af33b1-3e5f-4b31-9e0a-e263ed7956c9, udp: true}
   - {name: 03-1041-CN, server: 120.233.44.206, port: 39221, type: ss, cipher: chacha20-ietf-poly1305, password: b83a94b0-714c-4687-bc19-c4be50a49f51, udp: true}
   - {name: 03-1042-CN, server: 120.233.44.206, port: 33727, type: ss, cipher: chacha20-ietf-poly1305, password: b83a94b0-714c-4687-bc19-c4be50a49f51, udp: true}
-  - {name: 03-1055-US, server: 5c305371a9d252317ef70883b1d7bdf8.v1.cac.node-is.green, port: 46577, type: trojan, password: ad3d9e8d-35b7-4be0-b932-60bf372b9c23, sni: test2.xiaoshihoukepangle.sbs, skip-cert-verify: true, udp: true}
-  - {name: 03-1056-US, server: test.xiaoshihoukepangle.sbs, port: 1081, type: ss, cipher: chacha20-ietf-poly1305, password: f1747d31-07f2-456d-91b6-3828ca434780, udp: true}
+  - {name: 03-1055-US, server: test2.xiaoshihoukepangle.sbs, port: 1083, type: trojan, password: f1747d31-07f2-456d-91b6-3828ca434780, sni: test2.xiaoshihoukepangle.sbs, skip-cert-verify: true, udp: true}
   - {name: 03-1182-CA, server: 132.145.102.60, port: 21001, type: ss, cipher: chacha20-ietf-poly1305, password: 89e021d5-a93f-449a-b319-2483b778e6f0, udp: true}
   - {name: 03-1408-HK, server: 154.3.32.49, port: 30000, type: ss, cipher: chacha20-ietf-poly1305, password: dc6ecbb7-a3e0-4b8d-984b-d4d5fb0ea91b, udp: true}
   - {name: 03-1476-HK, server: xb-vm-hk.718181.xyz, port: 16894, type: vmess, uuid: 2a5b6eeb-bd92-4f47-8d82-74901aa7cc20, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xb-vm-hk.718181.xyz}}, udp: true}
@@ -2031,7 +2030,6 @@ proxy-groups:
       - 03-1041-CN
       - 03-1042-CN
       - 03-1055-US
-      - 03-1056-US
       - 03-1182-CA
       - 03-1408-HK
       - 03-1476-HK
@@ -2248,7 +2246,6 @@ proxy-groups:
       - 03-1031-CN
       - 03-1036-CN
       - 03-1041-CN
-      - 03-1056-US
       - 03-1476-HK
       - 07-1861-RELAY
   - name: 测速2分组
