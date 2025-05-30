@@ -26,12 +26,10 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `597`
+高速节点数量: `598`
 <details>
   <summary>展开复制节点</summary>
 
-    trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@35.93.15.91:6668?allowInsecure=1&sni=baidu.com#02-0005-US
-    vmess://eyJ2IjoiMiIsInBzIjoiMDItMDAwOS1VUyIsImFkZCI6IjM1LjkzLjE1LjkxIiwicG9ydCI6IjY4NjgiLCJ0eXBlIjoibm9uZSIsImlkIjoiMWExN2IxOWQtNDg5Ni00NTMxLWFmNzktNmU5MWQ4ZWY4MjI4IiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     trojan://53d627b0-5ea4-494e-8d94-b425d8840ed8@green.cdntencentmusic.com:28503?allowInsecure=1&sni=green.cdntencentmusic.com#03-0012-TW
     trojan://53d627b0-5ea4-494e-8d94-b425d8840ed8@green.cdntencentmusic.com:28504?allowInsecure=1&sni=green.cdntencentmusic.com#03-0013-TW
     trojan://53d627b0-5ea4-494e-8d94-b425d8840ed8@green.cdntencentmusic.com:28505?allowInsecure=1&sni=green.cdntencentmusic.com#03-0014-TW
@@ -91,7 +89,7 @@ Fork from TopFreeProxies.
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@sg2.pptv-tv.store:17712?allowInsecure=1&sni=data.52daishu.life#03-0069-SG
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@sg3.pptv-tv.store:17713?allowInsecure=1&sni=data.52daishu.life#03-0070-SG
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@tw1.pptv-tv.store:17786?allowInsecure=1&sni=data.52daishu.life#03-0071-TW
-    trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us1.pptv-tv.store:17741?allowInsecure=1&sni=data.52daishu.life#03-0072-US
+    trojan://5b0e8d9b-9eb0-33aa-8819-733945a4d4ff@47.245.31.103:28455?allowInsecure=1&sni=data.52daishu.life#03-0072-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us2.pptv-tv.store:17742?allowInsecure=1&sni=data.52daishu.life#03-0073-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@us3.pptv-tv.store:17743?allowInsecure=1&sni=data.52daishu.life#03-0074-US
     trojan://fe066c73-d2f4-4471-9d38-beb1ea6c2068@gb1.pptv-tv.store:17756?allowInsecure=1&sni=data.52daishu.life#03-0075-GB
@@ -613,9 +611,12 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@sg003.dogsvip.site:18003#03-0597-CN
     ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@sg004.dogsvip.site:18004#03-0598-CN
     ss://YWVzLTI1Ni1nY206MzIzNTM3ZGYtZGJkZi00ZjdlLWE0YzctNmMyOTBkOGU1M2Zm@sg005.dogsvip.site:18005#03-0599-CN
+    trojan://5b0e8d9b-9eb0-33aa-8819-733945a4d4ff@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=steampipe.akamaized.net#04-1826-HK
+    trojan://5b0e8d9b-9eb0-33aa-8819-733945a4d4ff@47.245.40.60:28457?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-1827-JP
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZmJlZDZjOS0wZmI0LTRlYzMtODU4Mi1mNTY5ZjhkNzczZDU@120.233.147.197:23335#07-1830-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzMS1DTiIsImFkZCI6InYzNS5oZWR1aWFuLmxpbmsiLCJwb3J0IjoiMzA4MzUiLCJ0eXBlIjoibm9uZSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii9vb29vIiwiaG9zdCI6InYzNS5oZWR1aWFuLmxpbmsiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzMi1DTiIsImFkZCI6InRrLmh6bHQudGtkZG5zLnh5eiIsInBvcnQiOiIyMjY0MSIsInR5cGUiOiJub25lIiwiaWQiOiI5OGU5NmM5Zi00YmIzLTM5ZDQtOWEyYy1mYWMwNDI1N2Y3YzciLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ0ay5oemx0LnRrZGRucy54eXoiLCJ0bHMiOiJ0bHMifQ==
+    vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzNi1SRUxBWSIsImFkZCI6InNzc2NkZnI1LmZyZWV2cG5hdG0yMDI1LmRwZG5zLm9yZyIsInBvcnQiOiI4MCIsInR5cGUiOiJub25lIiwiaWQiOiI5MGYzNTdkZC03OWFjLTQ3YzYtYjBiOC05NThlMmQxOWRlMDciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzEwVzZTSmFLMEYwb1ZYZU5VNlMyUlZSUCIsImhvc3QiOiJzc3NjZGZyNS5mcmVldnBuYXRtMjAyNS5kcGRucy5vcmciLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzNy1DTiIsImFkZCI6IjExMS4yNi4xMDkuNzkiLCJwb3J0IjoiMzA4MjgiLCJ0eXBlIjoibm9uZSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii9vb29vIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTgzOC1DTiIsImFkZCI6InYyOS5oZWR1aWFuLmxpbmsiLCJwb3J0IjoiMzA4MjkiLCJ0eXBlIjoibm9uZSIsImlkIjoiY2JiM2Y4NzctZDFmYi0zNDRjLTg3YTktZDE1M2JmZmQ1NDg0IiwiYWlkIjoiMiIsIm5ldCI6IndzIiwicGF0aCI6Ii9vb29vIiwiaG9zdCI6InYyOS5oZWR1aWFuLmxpbmsiLCJ0bHMiOiIifQ==
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZmJlZDZjOS0wZmI0LTRlYzMtODU4Mi1mNTY5ZjhkNzczZDU@120.233.147.197:23340#07-1839-CN

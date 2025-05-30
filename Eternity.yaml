@@ -52,6 +52,17 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
+  - {name: 02-0000-JP, server: 52.195.15.105, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0002-KR, server: 3.38.139.172, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0003-SG, server: 18.138.231.64, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0004-JP, server: 52.195.15.105, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0005-US, server: 34.210.69.217, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0006-KR, server: 3.38.139.172, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0007-SG, server: 18.138.231.64, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 02-0008-JP, server: 52.195.15.105, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0009-US, server: 34.210.69.217, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0010-KR, server: 3.38.139.172, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-0011-SG, server: 18.138.231.64, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-0012-TW, server: green.cdntencentmusic.com, port: 28503, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0013-TW, server: green.cdntencentmusic.com, port: 28504, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
   - {name: 03-0014-TW, server: green.cdntencentmusic.com, port: 28505, type: trojan, password: 53d627b0-5ea4-494e-8d94-b425d8840ed8, sni: green.cdntencentmusic.com, skip-cert-verify: true, udp: true}
@@ -111,7 +122,7 @@ proxies:
   - {name: 03-0069-SG, server: sg2.pptv-tv.store, port: 17712, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0070-SG, server: sg3.pptv-tv.store, port: 17713, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0071-TW, server: tw1.pptv-tv.store, port: 17786, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
-  - {name: 03-0072-US, server: 47.245.31.103, port: 28455, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
+  - {name: 03-0072-US, server: us1.pptv-tv.store, port: 17741, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0073-US, server: us2.pptv-tv.store, port: 17742, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0074-US, server: us3.pptv-tv.store, port: 17743, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
   - {name: 03-0075-GB, server: gb1.pptv-tv.store, port: 17756, type: trojan, password: fe066c73-d2f4-4471-9d38-beb1ea6c2068, sni: data.52daishu.life, skip-cert-verify: true, udp: true}
@@ -563,7 +574,6 @@ proxies:
   - {name: 03-0524-CN, server: 120.233.44.206, port: 39622, type: ss, cipher: chacha20-ietf-poly1305, password: 7d303894-95a9-4d45-b64b-78c73dbff51d, udp: true}
   - {name: 03-0525-CN, server: 120.233.44.206, port: 33922, type: ss, cipher: chacha20-ietf-poly1305, password: 7d303894-95a9-4d45-b64b-78c73dbff51d, udp: true}
   - {name: 03-0526-SG, server: www.jafi.cc, port: 23111, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: www.jafi.cc, skip-cert-verify: true, udp: true}
-  - {name: 03-0527-SG, server: www.jafi.cc, port: 23111, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: www.jafi.cc, skip-cert-verify: true, udp: true}
   - {name: 03-0528-CN, server: t02.jafiyun2024.cloud, port: 53112, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t02.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
   - {name: 03-0529-CN, server: t03.jafiyun2024.cloud, port: 53113, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t03.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
   - {name: 03-0530-CN, server: t04.jafiyun2024.cloud, port: 53114, type: trojan, password: 2db5c495-5e53-4a1c-b6c5-42abcba1ff70, sni: t04.jafiyun2024.cloud, skip-cert-verify: true, udp: true}
@@ -633,22 +643,12 @@ proxies:
   - {name: 03-0597-CN, server: sg003.dogsvip.site, port: 18003, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0598-CN, server: sg004.dogsvip.site, port: 18004, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
   - {name: 03-0599-CN, server: sg005.dogsvip.site, port: 18005, type: ss, cipher: aes-256-gcm, password: 323537df-dbdf-4f7e-a4c7-6c290d8e53ff, udp: true}
-  - {name: 04-1826-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-1827-JP, server: 47.245.40.60, port: 28457, type: trojan, password: 5b0e8d9b-9eb0-33aa-8819-733945a4d4ff, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 07-1830-CN, server: 120.233.147.197, port: 23335, type: ss, cipher: chacha20-ietf-poly1305, password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5, udp: true}
-  - {name: 07-1831-CN, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, udp: true}
-  - {name: 07-1832-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
-  - {name: 07-1836-RELAY, server: ssscdfr5.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /10W6SJaK0F0oVXeNU6S2RVRP, headers: {Host: ssscdfr5.freevpnatm2025.dpdns.org}}, udp: true}
-  - {name: 07-1837-CN, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
-  - {name: 07-1838-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
-  - {name: 07-1839-CN, server: 120.233.147.197, port: 23340, type: ss, cipher: chacha20-ietf-poly1305, password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5, udp: true}
-  - {name: 07-1840-RELAY, server: 172.67.172.91, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: Ty.457.pP.uA, skip-cert-verify: true, udp: true}
   - {name: 07-1841-RELAY, server: 172.67.200.117, port: 443, type: trojan, password: c6840587-7ac4-40be-aa4b-ae327eb4fa53, sni: ccdfRt6.890634.Xyz, skip-cert-verify: true, udp: true}
   - {name: 07-1842-RELAY, server: 172.67.144.126, port: 443, type: trojan, password: 895552fa-6284-4c1d-ba00-3944e0c7c626, sni: CFR56ty7890.288288.sHOP, skip-cert-verify: true, udp: true}
   - {name: 07-1843-CN, server: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net, port: 15229, type: trojan, password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9, sni: eac1462b-swxgg0-sxkd63-17z95.cu.plebai.net, skip-cert-verify: true, udp: true}
   - {name: 07-1844-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
   - {name: 07-1845-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
-  - {name: 11-1846-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: d80a7385-df07-40b0-b91b-f2cf95be5e39, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
+  - {name: 11-1846-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 29158fea-b9a5-4dba-bc78-0c868c5476da, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -666,6 +666,17 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
+      - 02-0000-JP
+      - 02-0002-KR
+      - 02-0003-SG
+      - 02-0004-JP
+      - 02-0005-US
+      - 02-0006-KR
+      - 02-0007-SG
+      - 02-0008-JP
+      - 02-0009-US
+      - 02-0010-KR
+      - 02-0011-SG
       - 03-0012-TW
       - 03-0013-TW
       - 03-0014-TW
@@ -1177,7 +1188,6 @@ proxy-groups:
       - 03-0524-CN
       - 03-0525-CN
       - 03-0526-SG
-      - 03-0527-SG
       - 03-0528-CN
       - 03-0529-CN
       - 03-0530-CN
@@ -1247,16 +1257,6 @@ proxy-groups:
       - 03-0597-CN
       - 03-0598-CN
       - 03-0599-CN
-      - 04-1826-HK
-      - 04-1827-JP
-      - 07-1830-CN
-      - 07-1831-CN
-      - 07-1832-CN
-      - 07-1836-RELAY
-      - 07-1837-CN
-      - 07-1838-CN
-      - 07-1839-CN
-      - 07-1840-RELAY
       - 07-1841-RELAY
       - 07-1842-RELAY
       - 07-1843-CN
@@ -1318,6 +1318,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0011-SG
       - 03-0021-JP
       - 03-0031-JP
       - 03-0041-CN
@@ -1376,7 +1377,6 @@ proxy-groups:
       - 03-0571-CN
       - 03-0581-CN
       - 03-0591-CN
-      - 07-1831-CN
       - 07-1841-RELAY
   - name: 测速2分组
     type: url-test
@@ -1384,6 +1384,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0002-KR
       - 03-0012-TW
       - 03-0022-JP
       - 03-0032-JP
@@ -1442,7 +1443,6 @@ proxy-groups:
       - 03-0562-CN
       - 03-0582-CN
       - 03-0592-CN
-      - 07-1832-CN
       - 07-1842-RELAY
   - name: 测速3分组
     type: url-test
@@ -1450,6 +1450,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0003-SG
       - 03-0013-TW
       - 03-0023-JP
       - 03-0033-JP
@@ -1515,6 +1516,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0004-JP
       - 03-0014-TW
       - 03-0024-CN
       - 03-0034-CN
@@ -1580,6 +1582,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0005-US
       - 03-0015-TW
       - 03-0025-CN
       - 03-0035-CN
@@ -1646,6 +1649,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0006-KR
       - 03-0016-TW
       - 03-0026-CN
       - 03-0036-CN
@@ -1704,8 +1708,6 @@ proxy-groups:
       - 03-0576-CN
       - 03-0586-CN
       - 03-0596-CN
-      - 04-1826-HK
-      - 07-1836-RELAY
       - 11-1846-NOWHERE
   - name: 测速7分组
     type: url-test
@@ -1713,6 +1715,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0007-SG
       - 03-0027-CN
       - 03-0037-CN
       - 03-0047-CN
@@ -1762,7 +1765,6 @@ proxy-groups:
       - 03-0497-CN
       - 03-0507-CN
       - 03-0517-TW
-      - 03-0527-SG
       - 03-0537-CN
       - 03-0547-CN
       - 03-0557-CN
@@ -1770,14 +1772,13 @@ proxy-groups:
       - 03-0577-CN
       - 03-0587-CN
       - 03-0597-CN
-      - 04-1827-JP
-      - 07-1837-CN
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0008-JP
       - 03-0018-CN
       - 03-0028-CN
       - 03-0038-CN
@@ -1837,13 +1838,13 @@ proxy-groups:
       - 03-0578-CN
       - 03-0588-CN
       - 03-0598-CN
-      - 07-1838-CN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0009-US
       - 03-0019-CN
       - 03-0029-CN
       - 03-0039-CN
@@ -1903,13 +1904,14 @@ proxy-groups:
       - 03-0579-CN
       - 03-0589-CN
       - 03-0599-CN
-      - 07-1839-CN
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 02-0000-JP
+      - 02-0010-KR
       - 03-0020-JP
       - 03-0030-CN
       - 03-0040-CN
@@ -1967,8 +1969,6 @@ proxy-groups:
       - 03-0570-CN
       - 03-0580-CN
       - 03-0590-CN
-      - 07-1830-CN
-      - 07-1840-RELAY
   - name: 广告拦截
     type: select
     proxies:
