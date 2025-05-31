@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `129`
+高速节点数量: `128`
 <details>
   <summary>展开复制节点</summary>
 
@@ -126,7 +126,6 @@ Fork from TopFreeProxies.
     trojan://3abd28f2-501a-36ff-ba27-03c65b151104@qoi.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=steampipe.akamaized.net#04-194-HK
     trojan://3abd28f2-501a-36ff-ba27-03c65b151104@qfb.smp-paymentservices-apple.com:8443?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-195-HK
     trojan://3abd28f2-501a-36ff-ba27-03c65b151104@47.245.40.60:28458?allowInsecure=1&sni=steampipe-kr.akamaized.net#04-196-JP
-    trojan://3abd28f2-501a-36ff-ba27-03c65b151104@47.245.31.103:28456?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-197-JP
     trojan://3abd28f2-501a-36ff-ba27-03c65b151104@103.136.185.28:447?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-198-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTk5LVVTIiwiYWRkIjoidXMtMDEuZm94c3Bpcml0MDE4LnRvcCIsInBvcnQiOiIxMDkwIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijc5MjdjNDM3LWVjYzAtNGFiNC05MDZlLWQzZmExZTk2Y2U1NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGRkYWEiLCJob3N0IjoidXMtMDEuZm94c3Bpcml0MDE4LnRvcCIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjAwLVVTIiwiYWRkIjoidXMtMDEuZm94c3Bpcml0MDE4LnRvcCIsInBvcnQiOiIxMDkwIiwidHlwZSI6Im5vbmUiLCJpZCI6IjM3MDBjZDcxLWZkZTYtNDM2ZC04Njg3LTUxYWExMjNiYzY4MSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvZGRkYWEiLCJob3N0IjoidXMtMDEuZm94c3Bpcml0MDE4LnRvcCIsInRscyI6InRscyJ9
@@ -164,11 +163,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `231`
+合并节点总数: `228`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `231`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `228`
 
 
 ## 仓库声明
