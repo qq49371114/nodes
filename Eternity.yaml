@@ -182,7 +182,7 @@ proxies:
   - {name: 09-227-RELAY, server: 162.159.45.236, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 09-228-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-229-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 09-230-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
+  - {name: 09-231-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 11-232-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 2866559e-62ff-48e4-aed2-ac041879a133, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 12-233-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 809232b7-99ce-40bf-985d-0a8da870997c, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 13-234-CN, server: gya.tangu.win, port: 45635, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
@@ -465,7 +465,7 @@ proxy-groups:
       - 09-227-RELAY
       - 09-228-US
       - 09-229-FR
-      - 09-230-US
+      - 09-231-CA
       - 11-232-NOWHERE
       - 12-233-NOWHERE
       - 13-234-CN
@@ -669,6 +669,7 @@ proxy-groups:
       - 07-201-US
       - 07-211-CN
       - 07-221-RELAY
+      - 09-231-CA
       - 13-241-CN
       - 13-251-GOOGLE
       - 13-261-NOWHERE
@@ -963,7 +964,6 @@ proxy-groups:
       - 07-200-US
       - 07-210-CN
       - 07-220-RELAY
-      - 09-230-US
       - 13-240-CN
       - 13-250-JP
       - 13-260-CN
