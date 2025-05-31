@@ -160,7 +160,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMjI3LVJFTEFZIiwiYWRkIjoiMTYyLjE1OS40NS4yMzYiLCJwb3J0IjoiMjA4NiIsInR5cGUiOiJub25lIiwiaWQiOiI3ZDkyZmZjOS0wMmUxLTQwODctOGE0Ni1jYzRkNzY1NjA5MTciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiZ2l0aHViLmNvbS9BbHZpbjk5OTkiLCJob3N0IjoiIiwidGxzIjoiIn0=
     ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@107.151.182.253:8080#09-228-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NGZlNGI3ZC1jZDQ4LTQ1ZmMtYTAzNi02MGVhNDBlNGE5NmM@107.191.63.241:30665#09-229-FR
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0NmU2N2Y1YS02M2U0LTQ1NjYtODcwYy03NmVhYTljZjc2ZmU@149.28.106.134:31444#09-230-US
+    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#09-231-CA
     trojan://2866559e-62ff-48e4-aed2-ac041879a133@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#11-232-NOWHERE
     trojan://809232b7-99ce-40bf-985d-0a8da870997c@kr-qingyun.dwyun.me:44732?allowInsecure=1&sni=kr-qingyun.dwyun.me#12-233-NOWHERE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplODIxMWM4OS1iMzRjLTRjYmEtOTAyNy01YjBkMDgzOTA1NjU@gya.tangu.win:45635#13-234-CN
@@ -302,11 +302,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `368`
+合并节点总数: `379`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `368`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `379`
 
 
 ## 仓库声明
