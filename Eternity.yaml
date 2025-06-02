@@ -152,6 +152,7 @@ proxies:
   - {name: 04-198-CN, server: gy.58n.net, port: 20306, type: trojan, password: 29c7e59b-5e96-32d6-9d57-fccde1bc3ada, sni: z306.hongkongnode.top, skip-cert-verify: true, udp: true}
   - {name: 04-199-CN, server: 43.100.9.65, port: 443, type: trojan, password: e56af499-b541-3025-bc0f-9535b8887930, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-200-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: e56af499-b541-3025-bc0f-9535b8887930, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-201-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: e56af499-b541-3025-bc0f-9535b8887930, sni: cloudsync-prod.s3.amazonaws.com, skip-cert-verify: true, udp: true}
   - {name: 04-202-JP, server: 47.245.40.60, port: 28460, type: trojan, password: e56af499-b541-3025-bc0f-9535b8887930, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-203-JP, server: 47.245.31.103, port: 28458, type: trojan, password: e56af499-b541-3025-bc0f-9535b8887930, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-204-US, server: 103.136.185.28, port: 447, type: trojan, password: e56af499-b541-3025-bc0f-9535b8887930, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
@@ -251,7 +252,7 @@ proxies:
   - {name: 18-328-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-329-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-330-RELAY, server: 9uyiopsdfh.iran.pp.ua, port: 443, type: vmess, uuid: 906ba92f-ef96-4133-8eee-f33202a5a721, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 9uyiopsdfh.iran.pp.ua}}, udp: true}
-  - {name: 18-331-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
+  - {name: 18-331-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.42.150.1539898#02-003-US, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-332-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 18-333-RELAY, server: de01.sh-cloudflare.sbs, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.sh-cloudflare.sbs}}, udp: true}
   - {name: 18-334-KR, server: lv4.789900.xyz, port: 2087, type: vmess, uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lv4.789900.xyz}}, udp: true}
@@ -454,6 +455,7 @@ proxy-groups:
       - 04-198-CN
       - 04-199-CN
       - 04-200-HK
+      - 04-201-HK
       - 04-202-JP
       - 04-203-JP
       - 04-204-US
@@ -553,7 +555,7 @@ proxy-groups:
       - 18-328-RELAY
       - 18-329-RELAY
       - 18-330-RELAY
-      - 18-331-KR
+      - 18-331-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.42.150.1539898#02-003-US
       - 18-332-RELAY
       - 18-333-RELAY
       - 18-334-KR
@@ -704,6 +706,7 @@ proxy-groups:
       - 04-171-CN
       - 04-181-CN
       - 04-191-CN
+      - 04-201-HK
       - 07-211-US
       - 07-221-RELAY
       - 07-231-CN
@@ -713,7 +716,7 @@ proxy-groups:
       - 13-271-CN
       - 13-281-RELAY
       - 13-291-CN
-      - 18-331-KR
+      - 18-331-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.42.150.1539898#02-003-US
       - 18-341-RELAY
       - 18-351-HK
       - 18-361-HK
@@ -782,6 +785,7 @@ proxy-groups:
       - 13-283-GOOGLE
       - 13-293-NOWHERE
       - 14-323-NO
+      - 18-331-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@52.42.150.1539898#02-003-US
       - 18-333-RELAY
       - 18-343-HK
       - 18-353-HK
