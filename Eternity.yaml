@@ -55,7 +55,6 @@ proxies:
   - {name: 02-000-JP, server: 3.112.1.63, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-001-KR, server: 43.202.68.135, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-002-JP, server: 57.183.11.135, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-003-US, server: 35.89.197.164, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-004-KR, server: 3.38.218.140, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-005-SG, server: 18.142.118.103, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-006-JP, server: 3.112.1.63, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
@@ -277,6 +276,7 @@ proxies:
   - {name: 18-326-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 18-327-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-328-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
+  - {name: 18-329-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-330-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
   - {name: 18-331-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-332-PT, server: 45.159.251.33, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: eats-rigor-judge.stark-industries.solutions, skip-cert-verify: true, udp: true}
@@ -287,7 +287,7 @@ proxies:
   - {name: 18-337-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 18-338-MD, server: 45.67.229.222, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: morse-stank-most.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-339-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "18-340-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-329-US", server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
+  - {name: 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.89.197.1649898#02-003-US, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-341-NO, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-342-RELAY, server: 104.21.96.1, port: 8443, type: vmess, uuid: 914584ee-3515-46ac-a09d-4677a2e9dc9a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-343-RELAY, server: 104.21.96.1, port: 2096, type: vmess, uuid: b3928f8d-ea81-4d75-bcec-4016a072adff, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -389,7 +389,6 @@ proxy-groups:
       - 02-000-JP
       - 02-001-KR
       - 02-002-JP
-      - 02-003-US
       - 02-004-KR
       - 02-005-SG
       - 02-006-JP
@@ -611,6 +610,7 @@ proxy-groups:
       - 18-326-US
       - 18-327-RELAY
       - 18-328-RELAY
+      - 18-329-US
       - 18-330-FR
       - 18-331-US
       - 18-332-PT
@@ -621,7 +621,7 @@ proxy-groups:
       - 18-337-FR
       - 18-338-MD
       - 18-339-CA
-      - 18-340-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-329-US
+      - 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.89.197.1649898#02-003-US
       - 18-341-NO
       - 18-342-RELAY
       - 18-343-RELAY
@@ -781,7 +781,6 @@ proxy-groups:
       - 13-311-RELAY
       - 13-321-CN
       - 18-331-US
-      - 18-340-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-329-US
       - 18-341-NO
       - 18-351-RELAY
       - 18-361-HK
@@ -835,7 +834,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 02-003-US
       - 02-013-KR
       - 04-023-RELAY
       - 04-133-CN
@@ -858,6 +856,7 @@ proxy-groups:
       - 13-313-CN
       - 13-323-CN
       - 18-333-US
+      - 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.89.197.1649898#02-003-US
       - 18-343-RELAY
       - 18-353-HK
       - 18-363-HK
@@ -1082,8 +1081,8 @@ proxy-groups:
       - 13-299-RELAY
       - 13-309-CN
       - 13-319-CN
+      - 18-329-US
       - 18-339-CA
-      - 18-340-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-329-US
       - 18-349-RELAY
       - 18-359-HK
       - 18-369-HK
@@ -1122,7 +1121,7 @@ proxy-groups:
       - 13-310-RELAY
       - 13-320-CN
       - 18-330-FR
-      - 18-340-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-329-US
+      - 18-340-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.89.197.1649898#02-003-US
       - 18-350-HK
       - 18-360-HK
       - 18-370-HK
