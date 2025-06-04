@@ -153,7 +153,9 @@ proxies:
   - {name: 04-198-CN, server: 43.100.9.65, port: 443, type: trojan, password: f9a4aa5b-b285-3e42-9fa5-c90fa71a4d82, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-199-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: f9a4aa5b-b285-3e42-9fa5-c90fa71a4d82, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-200-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: f9a4aa5b-b285-3e42-9fa5-c90fa71a4d82, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-201-JP, server: 47.245.40.60, port: 28462, type: trojan, password: f9a4aa5b-b285-3e42-9fa5-c90fa71a4d82, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-202-JP, server: 47.245.31.103, port: 28459, type: trojan, password: f9a4aa5b-b285-3e42-9fa5-c90fa71a4d82, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-203-US, server: 103.136.185.28, port: 447, type: trojan, password: f9a4aa5b-b285-3e42-9fa5-c90fa71a4d82, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 06-204-NOWHERE, server: kr-qingyun.dwyun.me, port: 44732, type: trojan, password: 6137d8d3-b2cf-46c6-8b4e-180bcee31057, sni: kr-qingyun.dwyun.me, skip-cert-verify: true, udp: true}
   - {name: 07-205-CN, server: 113.96.190.245, port: 10888, type: ss, cipher: chacha20-ietf-poly1305, password: 5e8fa330-fb4d-42a3-87c7-8ccd3a81743f, udp: true}
   - {name: 07-207-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -259,11 +261,9 @@ proxies:
   - {name: 13-308-CN, server: gya.tangu.win, port: 45628, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
   - {name: 13-309-CN, server: qqa813.198139.xyz, port: 26641, type: ss, cipher: chacha20-ietf-poly1305, password: e8211c89-b34c-4cba-9027-5b0d08390565, udp: true}
   - {name: 18-341-RELAY, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.hdmoli.com}}, udp: true}
-  - {name: 18-342-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 18-344-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-345-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-346-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 18-347-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-348-US, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
   - {name: 18-349-US, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-350-RELAY, server: 104.21.64.1, port: 2096, type: vmess, uuid: 8f78e709-2c5f-4c19-9f44-b5b5f80ab74c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -455,7 +455,9 @@ proxy-groups:
       - 04-198-CN
       - 04-199-HK
       - 04-200-HK
+      - 04-201-JP
       - 04-202-JP
+      - 04-203-US
       - 06-204-NOWHERE
       - 07-205-CN
       - 07-207-CN
@@ -561,11 +563,9 @@ proxy-groups:
       - 13-308-CN
       - 13-309-CN
       - 18-341-RELAY
-      - 18-342-US
       - 18-344-RELAY
       - 18-345-RELAY
       - 18-346-US
-      - 18-347-KR
       - 18-348-US
       - 18-349-US
       - 18-350-RELAY
@@ -704,6 +704,7 @@ proxy-groups:
       - 04-171-CN
       - 04-181-CN
       - 04-191-CN
+      - 04-201-JP
       - 07-211-CN
       - 07-221-CN
       - 07-231-CN
@@ -749,7 +750,6 @@ proxy-groups:
       - 13-282-RELAY
       - 13-292-CN
       - 13-302-CN
-      - 18-342-US
       - 18-352-DE
       - 18-362-RELAY
       - 18-372-RELAY
@@ -773,6 +773,7 @@ proxy-groups:
       - 04-173-CN
       - 04-183-CN
       - 04-193-CN
+      - 04-203-US
       - 07-213-CN
       - 07-223-CN
       - 07-233-CN
@@ -923,7 +924,6 @@ proxy-groups:
       - 13-287-CN
       - 13-297-GOOGLE
       - 13-307-NOWHERE
-      - 18-347-KR
       - 18-357-FR
       - 18-367-DE
       - 18-377-HK
