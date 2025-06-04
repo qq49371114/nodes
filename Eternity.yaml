@@ -307,6 +307,7 @@ proxies:
   - {name: 09-354-RELAY, server: 162.159.45.236, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 09-355-CA, server: 51.79.103.76, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 09-356-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
+  - {name: 09-357-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-358-RELAY, server: 172.67.214.33, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-359-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-360-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
@@ -447,7 +448,6 @@ proxies:
   - {name: 13-495-CN, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 57a78155-f57c-4a3c-9d40-b5b1cb1ab53a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 13-496-NOWHERE, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 57a78155-f57c-4a3c-9d40-b5b1cb1ab53a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 18-528-RELAY, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.hdmoli.com}}, udp: true}
-  - {name: 18-529-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 18-531-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-532-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-533-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -794,6 +794,7 @@ proxy-groups:
       - 09-354-RELAY
       - 09-355-CA
       - 09-356-RELAY
+      - 09-357-US
       - 09-358-RELAY
       - 09-359-RELAY
       - 09-360-RELAY
@@ -934,7 +935,6 @@ proxy-groups:
       - 13-495-CN
       - 13-496-NOWHERE
       - 18-528-RELAY
-      - 18-529-US
       - 18-531-CA
       - 18-532-RELAY
       - 18-533-RELAY
@@ -1409,6 +1409,7 @@ proxy-groups:
       - 08-327-CN
       - 08-337-CN
       - 08-347-NOWHERE
+      - 09-357-US
       - 11-367-NOWHERE
       - 11-377-HK
       - 11-387-CN
@@ -1526,7 +1527,6 @@ proxy-groups:
       - 13-469-CN
       - 13-479-CN
       - 13-489-CN
-      - 18-529-US
       - 18-539-US
       - 18-549-FR
       - 18-559-RELAY
