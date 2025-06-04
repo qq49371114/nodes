@@ -57,7 +57,6 @@ proxies:
   - {name: 02-000-JP, server: 54.168.27.189, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-001-KR, server: 43.203.120.53, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-002-JP, server: 35.74.66.42, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: "02-003-UStrojan//0fc9c5ff-9531-4178-966f-7d958e1df64b@95.164.38.151443?allowInsecure=1&sni=copy-wifi-twins.stark-industries.solutions#18-566-NO", server: 44.248.33.184, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-004-KR, server: 43.203.187.43, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-005-SG, server: 13.212.156.162, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-006-JP, server: 54.168.27.189, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
@@ -333,7 +332,6 @@ proxies:
   - {name: 09-377-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-378-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
   - {name: 09-379-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-380-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 09-381-US, server: 43.153.104.62, port: 45113, type: vmess, uuid: 97cc0323-de53-4a75-d69d-c6acdac5fdc7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /97cc0323}, udp: true}
   - {name: 11-382-CN, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: ae313fe3-49a8-4150-a984-01e906bb6475, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 11-383-NOWHERE, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: ae313fe3-49a8-4150-a984-01e906bb6475, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
@@ -488,6 +486,7 @@ proxies:
   - {name: 18-563-FR, server: irvideo.cfd, port: 443, type: vmess, uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irvideo.cfd}}, udp: true}
   - {name: 18-564-FR, server: az05.beyondy.cfd, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: az05.beyondy.cfd}}, udp: true}
   - {name: 18-565-JP, server: 45.89.109.184, port: 10001, type: ss, cipher: aes-128-gcm, password: 0dc0a0ee-008c-4063-b2f6-b1fd2b8ef47b, udp: true}
+  - {name: 18-566-NO, server: 95.164.38.151, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: copy-wifi-twins.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-567-FR, server: 146.19.168.161, port: 443, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-568-RELAY, server: 185.174.138.209, port: 2095, type: vmess, uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-569-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
@@ -557,7 +556,6 @@ proxy-groups:
       - 02-000-JP
       - 02-001-KR
       - 02-002-JP
-      - 02-003-UStrojan//0fc9c5ff-9531-4178-966f-7d958e1df64b@95.164.38.151443?allowInsecure=1&sni=copy-wifi-twins.stark-industries.solutions#18-566-NO
       - 02-004-KR
       - 02-005-SG
       - 02-006-JP
@@ -833,7 +831,6 @@ proxy-groups:
       - 09-377-RELAY
       - 09-378-RELAY
       - 09-379-CA
-      - 09-380-RELAY
       - 09-381-US
       - 11-382-CN
       - 11-383-NOWHERE
@@ -988,6 +985,7 @@ proxy-groups:
       - 18-563-FR
       - 18-564-FR
       - 18-565-JP
+      - 18-566-NO
       - 18-567-FR
       - 18-568-RELAY
       - 18-569-US
@@ -1060,7 +1058,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 02-001-KR
-      - 02-003-UStrojan//0fc9c5ff-9531-4178-966f-7d958e1df64b@95.164.38.151443?allowInsecure=1&sni=copy-wifi-twins.stark-industries.solutions#18-566-NO
       - 02-006-JP
       - 02-011-SG
       - 02-016-KR
@@ -1147,6 +1144,7 @@ proxy-groups:
       - 18-551-RELAY
       - 18-556-RELAY
       - 18-561-US
+      - 18-566-NO
       - 18-571-US
       - 18-576-RELAY
       - 18-581-HK
@@ -1266,7 +1264,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-003-UStrojan//0fc9c5ff-9531-4178-966f-7d958e1df64b@95.164.38.151443?allowInsecure=1&sni=copy-wifi-twins.stark-industries.solutions#18-566-NO
       - 02-008-JP
       - 02-013-KR
       - 04-018-JP
@@ -1528,7 +1525,6 @@ proxy-groups:
       - 08-365-RU
       - 08-370-CN
       - 09-375-US
-      - 09-380-RELAY
       - 11-385-NOWHERE
       - 11-390-CN
       - 11-395-HK
