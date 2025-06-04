@@ -26,14 +26,13 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `491`
+高速节点数量: `490`
 <details>
   <summary>展开复制节点</summary>
 
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@54.168.27.189:9898#02-000-JP
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@43.203.120.53:9898#02-001-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@35.74.66.42:9898#02-002-JP
-    ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.248.33.184:9898#02-003-UStrojan%2F%2F0fc9c5ff-9531-4178-966f-7d958e1df64b%4095.164.38.151443%3FallowInsecure%3D1%26sni%3Dcopy-wifi-twins.stark-industries.solutions%2318-566-NO
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@43.203.187.43:9898#02-004-KR
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@13.212.156.162:9898#02-005-SG
     trojan://1a17b19d-4896-4531-af79-6e91d8ef8228@54.168.27.189:6668?allowInsecure=1&sni=baidu.com#02-006-JP
@@ -309,7 +308,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMzc3LVJFTEFZIiwiYWRkIjoiMTA0LjIxLjIzLjIzMSIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJmODIxMTUyLWMzZTktNDA3NC05MTg1LTI3OTBlNzQyNWY0MiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMzc4LVJFTEFZIiwiYWRkIjoiY3MuZmxoYS5ydSIsInBvcnQiOiIyMDgyIiwidHlwZSI6Im5vbmUiLCJpZCI6IjJmODIxMTUyLWMzZTktNDA3NC05MTg1LTI3OTBlNzQyNWY0MiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImNzLmZsaGEucnUiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@79.127.233.170:989#09-379-CA
-    vmess://eyJ2IjoiMiIsInBzIjoiMDktMzgwLVJFTEFZIiwiYWRkIjoiMWEyZDUxNGItMzdjZi00OTlmLThkMDgtZDAxN2E5MmFiNWJiLmFzb3VsLWF2YS50b3AiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjVmNzI2ZmUzLWQ4MmUtNGRhNS1hNzExLThhZjBjYmIyYjY4MiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvYXp1bWFzZS5yZW4iLCJob3N0IjoiMWEyZDUxNGItMzdjZi00OTlmLThkMDgtZDAxN2E5MmFiNWJiLmFzb3VsLWF2YS50b3AiLCJ0bHMiOiJ0bHMifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDktMzgxLVVTIiwiYWRkIjoiNDMuMTUzLjEwNC42MiIsInBvcnQiOiI0NTExMyIsInR5cGUiOiJub25lIiwiaWQiOiI5N2NjMDMyMy1kZTUzLTRhNzUtZDY5ZC1jNmFjZGFjNWZkYzciLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLzk3Y2MwMzIzIiwiaG9zdCI6IiIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMzgyLUNOIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA2MSIsInR5cGUiOiJub25lIiwiaWQiOiJhZTMxM2ZlMy00OWE4LTQxNTAtYTk4NC0wMWU5MDZiYjY0NzUiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ4ZGQuZGFzaHVhaS5jeW91IiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTEtMzgzLU5PV0hFUkUiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDUyIiwidHlwZSI6Im5vbmUiLCJpZCI6ImFlMzEzZmUzLTQ5YTgtNDE1MC1hOTg0LTAxZTkwNmJiNjQ3NSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImhhYS5kYXNodWFpLmN5b3UiLCJ0bHMiOiIifQ==
@@ -464,6 +462,7 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNTYzLUZSIiwiYWRkIjoiaXJ2aWRlby5jZmQiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6ImU1MzdmMmY1LTJhMGMtNGY1OS05MmM5LTgzMmNhNjQzM2JmMyIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImlydmlkZW8uY2ZkIiwidGxzIjoidGxzIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNTY0LUZSIiwiYWRkIjoiYXowNS5iZXlvbmR5LmNmZCIsInBvcnQiOiI0NDMiLCJ0eXBlIjoibm9uZSIsImlkIjoiM2Y2MzhmMzQtOGRiYS00MTg2LWJjNDMtMjcxNmE3ZGRkNGJlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiYXowNS5iZXlvbmR5LmNmZCIsInRscyI6InRscyJ9
     ss://YWVzLTEyOC1nY206MGRjMGEwZWUtMDA4Yy00MDYzLWIyZjYtYjFmZDJiOGVmNDdi@45.89.109.184:10001#18-565-JP
+    trojan://0fc9c5ff-9531-4178-966f-7d958e1df64b@95.164.38.151:443?allowInsecure=1&sni=copy-wifi-twins.stark-industries.solutions#18-566-NO
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNTY3LUZSIiwiYWRkIjoiMTQ2LjE5LjE2OC4xNjEiLCJwb3J0IjoiNDQzIiwidHlwZSI6Im5vbmUiLCJpZCI6IjNmNjM4ZjM0LThkYmEtNDE4Ni1iYzQzLTI3MTZhN2RkZDRiZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMTgtNTY4LVJFTEFZIiwiYWRkIjoiMTg1LjE3NC4xMzguMjA5IiwicG9ydCI6IjIwOTUiLCJ0eXBlIjoibm9uZSIsImlkIjoiM2Y2MzhmMzQtOGRiYS00MTg2LWJjNDMtMjcxNmE3ZGRkNGJlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiIiwidGxzIjoiIn0=
     trojan://3482c71a-d01c-4ae5-b454-fa8cb3785f66@94.131.20.3:443?allowInsecure=1&sni=chop-wrist-bud.stark-industries.solutions#18-569-US
@@ -526,11 +525,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `594`
+合并节点总数: `581`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `594`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `581`
 
 
 ## 仓库声明
