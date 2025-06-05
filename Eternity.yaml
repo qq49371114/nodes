@@ -384,8 +384,8 @@ proxies:
   - {name: 18-469-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-470-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-471-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
+  - {name: 18-472-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-473-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 18-474-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-476-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-477-US, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-478-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -930,8 +930,8 @@ proxy-groups:
       - 18-469-US
       - 18-470-RELAY
       - 18-471-RELAY
+      - 18-472-US
       - 18-473-US
-      - 18-474-US
       - 18-476-US
       - 18-477-US
       - 18-478-US
@@ -1274,6 +1274,7 @@ proxy-groups:
       - 13-422-NOWHERE
       - 13-432-NOWHERE
       - 14-462-CN
+      - 18-472-US
       - 18-482-GB
       - 18-492-LT
       - 18-502-NL
@@ -1390,7 +1391,6 @@ proxy-groups:
       - 13-414-CN
       - 13-424-CN
       - 13-434-CN
-      - 18-474-US
       - 18-484-US
       - 18-494-US
       - 18-504-US
