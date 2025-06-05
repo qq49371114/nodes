@@ -54,10 +54,10 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-000-JP, server: 54.168.27.189, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US, server: 54.168.27.189, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-001-KR, server: 43.203.120.53, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-002-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US, server: 35.74.66.42, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
-  - {name: 02-003-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#18-683-NL, server: 44.248.33.184, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-002-JP, server: 35.74.66.42, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-003-US, server: 44.248.33.184, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-004-KR, server: 43.203.187.43, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-005-SG, server: 13.212.156.162, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-006-JP, server: 54.168.27.189, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
@@ -537,7 +537,6 @@ proxies:
   - {name: 18-610-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-611-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-612-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 18-613-GB, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-614-LT, server: 45.87.175.157, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 18-615-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-616-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
@@ -607,6 +606,7 @@ proxies:
   - {name: 18-680-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-681-GB, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-682-FR, server: beyonddsz.cfd, port: 443, type: vmess, uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: beyonddsz.cfd}}, udp: true}
+  - {name: 18-683-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
   - {name: 18-684-CH, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-685-US, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-686-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -621,7 +621,7 @@ proxies:
   - {name: 18-695-MD, server: 45.67.229.222, port: 443, type: trojan, password: 0fc9c5ff-9531-4178-966f-7d958e1df64b, sni: morse-stank-most.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-696-PY, server: 38.165.233.18, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-697-FI, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 18-698-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 18-698-USss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@146.70.61.188080#18-613-GB, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-699-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-700-FR, server: 51.195.119.47, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: qXvO7zYU7KeaB0Md7DQLow, udp: true}
   - {name: 18-701-PL, server: war.ssvpnapp.win, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: d3837224ed465f00, udp: true}
@@ -734,10 +734,10 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-000-JP
+      - 02-000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US
       - 02-001-KR
-      - 02-002-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US
-      - 02-003-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#18-683-NL
+      - 02-002-JP
+      - 02-003-US
       - 02-004-KR
       - 02-005-SG
       - 02-006-JP
@@ -1217,7 +1217,6 @@ proxy-groups:
       - 18-610-CA
       - 18-611-US
       - 18-612-GB
-      - 18-613-GB
       - 18-614-LT
       - 18-615-US
       - 18-616-LT
@@ -1287,6 +1286,7 @@ proxy-groups:
       - 18-680-US
       - 18-681-GB
       - 18-682-FR
+      - 18-683-NL
       - 18-684-CH
       - 18-685-US
       - 18-686-SK
@@ -1301,7 +1301,7 @@ proxy-groups:
       - 18-695-MD
       - 18-696-PY
       - 18-697-FI
-      - 18-698-US
+      - 18-698-USss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@146.70.61.188080#18-613-GB
       - 18-699-DE
       - 18-700-FR
       - 18-701-PL
@@ -1559,7 +1559,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-002-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US
+      - 02-002-JP
       - 02-007-KR
       - 02-012-JP
       - 02-017-SG
@@ -1696,8 +1696,8 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-002-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US
-      - 02-003-USss//YWVzLTEyOC1jZmI6c2hhZG93c29ja3M@109.201.152.181443#18-683-NL
+      - 02-000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US
+      - 02-003-US
       - 02-008-JP
       - 02-013-KR
       - 04-018-JP
@@ -1793,7 +1793,6 @@ proxy-groups:
       - 13-568-NOWHERE
       - 18-603-US
       - 18-608-US
-      - 18-613-GB
       - 18-618-NL
       - 18-623-LT
       - 18-628-GB
@@ -1807,9 +1806,10 @@ proxy-groups:
       - 18-668-CZ
       - 18-673-PL
       - 18-678-LT
+      - 18-683-NL
       - 18-688-GB
       - 18-693-CH
-      - 18-698-US
+      - 18-698-USss//cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@146.70.61.188080#18-613-GB
       - 18-703-US
       - 18-708-ES
       - 18-713-US
@@ -1975,7 +1975,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-000-JP
+      - 02-000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243443#18-598-US
       - 02-005-SG
       - 02-010-KR
       - 02-015-US
