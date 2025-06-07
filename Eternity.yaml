@@ -54,7 +54,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 02-0000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#18-0722-US, server: 18.177.136.10, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
+  - {name: 02-0000-JP, server: 18.177.136.10, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-0001-JP, server: 18.177.136.10, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-0002-JP, server: 18.177.136.10, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 02-0003-KR, server: 13.125.14.155, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
@@ -209,6 +209,7 @@ proxies:
   - {name: 09-0387-NL, server: 62.60.247.40, port: 52461, type: ss, cipher: chacha20-ietf-poly1305, password: UL1HmJsOsD21h9665oGrRv, udp: true}
   - {name: 09-0388-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
   - {name: 09-0389-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
+  - {name: 09-0390-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-0391-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 10-0392-CN, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
   - {name: 10-0393-CN, server: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com, port: 27231, type: trojan, password: d076280a-0d5f-11f0-8a7b-f23c913c8d2b, sni: 6a98e275-sx8kg0-tcum62-se45.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
@@ -454,19 +455,16 @@ proxies:
   - {name: 18-0654-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0655-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0656-US, server: 45.55.2.232, port: 14293, type: ss, cipher: aes-256-cfb, password: 2170f8, udp: true}
-  - {name: 18-0657-US, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0658-US, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-0659-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0660-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0661-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0662-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-0663-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-0664-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-0665-GT, server: 185.47.254.177, port: 20007, type: ss, cipher: aes-256-gcm, password: 4QHLWJ3KNY7GIS40, udp: true}
   - {name: 18-0666-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-0667-JP, server: 57.180.28.64, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 18-0668-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 18-0669-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-0670-GB, server: 146.70.61.18, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-0671-KR, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-0672-FR, server: 195.154.185.174, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -519,6 +517,7 @@ proxies:
   - {name: 18-0719-CH, server: 156.146.62.161, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0720-GB, server: admin.c4.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 69MUii7VDwMqh7Hz, udp: true}
   - {name: 18-0721-DE, server: 80.92.204.106, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 18-0722-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0723-RELAY, server: 172.67.200.13, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-0724-CH, server: 156.146.62.164, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-0725-CH, server: 156.146.62.163, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -549,6 +548,7 @@ proxies:
   - {name: 18-0750-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 18-0751-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-0752-PL, server: 45.43.137.114, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wZEYrB25eLpiLhB27u7cuLDoRL6jhZMfCxrsrMvOxcS2EMGbvWiJdK2itiWUHAQ=, udp: true}
+  - {name: 18-0753-US, server: 194.116.173.21, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
   - {name: 18-0754-TH, server: 116.206.124.41, port: 34045, type: ss, cipher: aes-256-gcm, password: TG:@Enkelte_notif&&TG:@Notif_Chat, udp: true}
   - {name: 18-0755-DE, server: 80.92.204.106, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
   - {name: 18-0756-CA, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
@@ -666,7 +666,6 @@ proxies:
   - {name: 20-0868-VN, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 20-0869-HK, server: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com, port: 80, type: vmess, uuid: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 6dbaea45-sv0xs0-t9i7o2-1lt20.hk3.p5pv.com}}, udp: true}
   - {name: 20-0870-HK, server: 0ecc2654-sv2sg0-svvk7h-1tgdw.hk3.p5pv.com, port: 80, type: vmess, uuid: a19397b8-f7fa-11ef-836a-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0ecc2654-sv2sg0-svvk7h-1tgdw.hk3.p5pv.com}}, udp: true}
-  - {name: 20-0871-HK, server: 5ab2e53a-sv2sg0-sywxsy-e54r.hk3.p5pv.com, port: 80, type: vmess, uuid: c4f3a1ca-8d10-11eb-a8bf-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5ab2e53a-sv2sg0-sywxsy-e54r.hk3.p5pv.com}}, udp: true}
   - {name: 20-0872-HK, server: c25c61db-sv2sg0-tbpu76-1thmd.hk3.p5pv.com, port: 80, type: vmess, uuid: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c25c61db-sv2sg0-tbpu76-1thmd.hk3.p5pv.com}}, udp: true}
   - {name: 20-0873-RELAY, server: xxxsde4.freevpnatm2025.dpdns.org, port: 80, type: vmess, uuid: 90f357dd-79ac-47c6-b0b8-958e2d19de07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xxxsde4.freevpnatm2025.dpdns.org}}, udp: true}
   - {name: 20-0874-VN, server: 103.186.154.29, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
@@ -843,7 +842,7 @@ proxy-groups:
       - 测速3分组
       - 测速4分组
       - 测速5分组
-      - 02-0000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#18-0722-US
+      - 02-0000-JP
       - 02-0001-JP
       - 02-0002-JP
       - 02-0003-KR
@@ -998,6 +997,7 @@ proxy-groups:
       - 09-0387-NL
       - 09-0388-FR
       - 09-0389-US
+      - 09-0390-RELAY
       - 09-0391-DE
       - 10-0392-CN
       - 10-0393-CN
@@ -1243,19 +1243,16 @@ proxy-groups:
       - 18-0654-US
       - 18-0655-US
       - 18-0656-US
-      - 18-0657-US
       - 18-0658-US
       - 18-0659-US
       - 18-0660-US
       - 18-0661-US
       - 18-0662-CA
-      - 18-0663-CA
       - 18-0664-RELAY
       - 18-0665-GT
       - 18-0666-RELAY
       - 18-0667-JP
       - 18-0668-US
-      - 18-0669-GB
       - 18-0670-GB
       - 18-0671-KR
       - 18-0672-FR
@@ -1308,6 +1305,7 @@ proxy-groups:
       - 18-0719-CH
       - 18-0720-GB
       - 18-0721-DE
+      - 18-0722-US
       - 18-0723-RELAY
       - 18-0724-CH
       - 18-0725-CH
@@ -1338,6 +1336,7 @@ proxy-groups:
       - 18-0750-FR
       - 18-0751-DE
       - 18-0752-PL
+      - 18-0753-US
       - 18-0754-TH
       - 18-0755-DE
       - 18-0756-CA
@@ -1455,7 +1454,6 @@ proxy-groups:
       - 20-0868-VN
       - 20-0869-HK
       - 20-0870-HK
-      - 20-0871-HK
       - 20-0872-HK
       - 20-0873-RELAY
       - 20-0874-VN
@@ -1759,7 +1757,6 @@ proxy-groups:
       - 20-0856-VN
       - 20-0861-VN
       - 20-0866-HK
-      - 20-0871-HK
       - 20-0876-HK
       - 20-0881-VN
       - 20-0886-HK
@@ -1797,7 +1794,6 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#18-0722-US
       - 02-0002-JP
       - 02-0007-JP
       - 04-0112-JP
@@ -1880,7 +1876,6 @@ proxy-groups:
       - 17-0642-CN
       - 18-0647-US
       - 18-0652-US
-      - 18-0657-US
       - 18-0662-CA
       - 18-0667-JP
       - 18-0672-FR
@@ -1893,6 +1888,7 @@ proxy-groups:
       - 18-0707-LT
       - 18-0712-DE
       - 18-0717-DE
+      - 18-0722-US
       - 18-0727-GB
       - 18-0732-GB
       - 18-0737-PY
@@ -2041,7 +2037,6 @@ proxy-groups:
       - 18-0648-US
       - 18-0653-US
       - 18-0658-US
-      - 18-0663-CA
       - 18-0668-US
       - 18-0673-FR
       - 18-0678-JP
@@ -2059,6 +2054,7 @@ proxy-groups:
       - 18-0738-GB
       - 18-0743-FR
       - 18-0748-US
+      - 18-0753-US
       - 18-0758-CA
       - 18-0763-VN
       - 18-0768-RELAY
@@ -2203,7 +2199,6 @@ proxy-groups:
       - 18-0654-US
       - 18-0659-US
       - 18-0664-RELAY
-      - 18-0669-GB
       - 18-0674-FR
       - 18-0679-LT
       - 18-0684-LT
@@ -2284,7 +2279,7 @@ proxy-groups:
     url: https://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - 02-0000-JPss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167443#18-0722-US
+      - 02-0000-JP
       - 02-0005-KR
       - 02-0010-US
       - 04-0115-NOWHERE
@@ -2313,6 +2308,7 @@ proxy-groups:
       - 09-0375-LT
       - 09-0380-RELAY
       - 09-0385-RELAY
+      - 09-0390-RELAY
       - 10-0395-CN
       - 10-0400-CN
       - 11-0405-NOWHERE
