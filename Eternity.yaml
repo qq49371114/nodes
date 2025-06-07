@@ -61,6 +61,7 @@ proxies:
   - {name: 02-006-JP, server: 35.74.238.25, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-007-JP, server: 35.74.238.25, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-008-JP, server: 35.74.238.25, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 02-009-US, server: 44.247.241.102, port: 9898, type: ss, cipher: chacha20-ietf-poly1305, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, udp: true}
   - {name: 02-010-US, server: 44.247.241.102, port: 6668, type: trojan, password: 1a17b19d-4896-4531-af79-6e91d8ef8228, sni: baidu.com, skip-cert-verify: true, udp: true}
   - {name: 02-011-US, server: 44.247.241.102, port: 6868, type: vmess, uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 03-043-RELAY, server: 104.18.121.219, port: 2052, type: vmess, uuid: 277fda65-47b7-4095-8d57-c0e00776053e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -170,7 +171,7 @@ proxies:
   - {name: 09-329-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
   - {name: 09-330-RELAY, server: 162.159.45.236, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
   - {name: 09-331-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
-  - {name: "09-332-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH", server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 09-332-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-333-RELAY, server: 172.67.214.33, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-334-RELAY, server: 104.21.23.231, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-335-RELAY, server: cs.flha.ru, port: 2082, type: vmess, uuid: 2f821152-c3e9-4074-9185-2790e7425f42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cs.flha.ru}}, udp: true}
@@ -178,7 +179,7 @@ proxies:
   - {name: 09-337-RELAY, server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top}}, udp: true}
   - {name: 09-338-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-339-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 09-340-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
+  - {name: "09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH", server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 09-341-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-342-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-343-DE, server: 193.108.119.230, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
@@ -342,11 +343,10 @@ proxies:
   - {name: 18-523-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
   - {name: 18-524-US, server: a.1314lovelydog.top, port: 443, type: vmess, uuid: 29d9535b-f25b-4936-e524-7368f67f2d7d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.1314lovelydog.top}}, udp: true}
   - {name: 18-525-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-526-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-527-US, server: chop-wrist-bud.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-528-US, server: 94.131.20.3, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, sni: chop-wrist-bud.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-529-CA, server: 134.195.198.147, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 18-530-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.247.241.1029898#02-009-US, server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
+  - {name: "18-530-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-526-US", server: 141.164.63.32, port: 30936, type: ss, cipher: chacha20-ietf-poly1305, password: b25727df-15ea-453c-a006-13fe98fee1d2, udp: true}
   - {name: 18-531-HK, server: n1737850919.ryjml.cn, port: 443, type: vmess, uuid: 224840e7-bde6-473a-b824-20ea10b91448, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: n1737850919.ryjml.cn}}, udp: true}
   - {name: 18-532-US, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-533-RELAY, server: 104.18.149.76, port: 443, type: vmess, uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -481,6 +481,7 @@ proxy-groups:
       - 02-006-JP
       - 02-007-JP
       - 02-008-JP
+      - 02-009-US
       - 02-010-US
       - 02-011-US
       - 03-043-RELAY
@@ -590,7 +591,7 @@ proxy-groups:
       - 09-329-CA
       - 09-330-RELAY
       - 09-331-RELAY
-      - 09-332-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
+      - 09-332-US
       - 09-333-RELAY
       - 09-334-RELAY
       - 09-335-RELAY
@@ -598,7 +599,7 @@ proxy-groups:
       - 09-337-RELAY
       - 09-338-RELAY
       - 09-339-FR
-      - 09-340-US
+      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 09-341-RELAY
       - 09-342-RELAY
       - 09-343-DE
@@ -762,11 +763,10 @@ proxy-groups:
       - 18-523-RELAY
       - 18-524-US
       - 18-525-RELAY
-      - 18-526-US
       - 18-527-US
       - 18-528-US
       - 18-529-CA
-      - 18-530-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.247.241.1029898#02-009-US
+      - 18-530-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-526-US
       - 18-531-HK
       - 18-532-US
       - 18-533-RELAY
@@ -961,6 +961,7 @@ proxy-groups:
       - 13-481-CN
       - 13-491-CN
       - 14-501-HK
+      - 18-530-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-526-US
       - 18-531-HK
       - 18-541-HK
       - 18-551-HK
@@ -988,7 +989,8 @@ proxy-groups:
       - 08-302-CN
       - 08-312-RU
       - 08-322-NOWHERE
-      - 09-332-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
+      - 09-332-US
+      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 09-342-RELAY
       - 10-352-CN
       - 11-362-CN
@@ -1077,8 +1079,8 @@ proxy-groups:
       - 06-284-NOWHERE
       - 08-294-CN
       - 08-314-NOWHERE
-      - 09-332-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 09-334-RELAY
+      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 10-344-CN
       - 10-354-CN
       - 11-364-CN
@@ -1190,7 +1192,7 @@ proxy-groups:
       - 13-486-CN
       - 13-496-CN
       - 14-506-CN
-      - 18-526-US
+      - 18-530-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-526-US
       - 18-536-HK
       - 18-546-HK
       - 18-556-HK
@@ -1303,6 +1305,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 02-009-US
       - 04-109-NOWHERE
       - 04-119-CN
       - 04-229-JP
@@ -1330,7 +1333,6 @@ proxy-groups:
       - 13-479-CN
       - 13-489-CN
       - 18-529-CA
-      - 18-530-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.247.241.1029898#02-009-US
       - 18-539-HK
       - 18-549-HK
       - 18-559-HK
@@ -1362,7 +1364,7 @@ proxy-groups:
       - 08-310-RU
       - 08-320-NOWHERE
       - 09-330-RELAY
-      - 09-340-US
+      - 09-340-UStrojan//6884d714-d3c4-4b49-aa20-767ea92837d6@140.238.212.95443?allowInsecure=1&sni=icecream.955850.xyz&ws=1&wspath=%252F#03-022-CH
       - 10-350-RELAY
       - 11-360-RU
       - 11-370-CN
@@ -1378,7 +1380,7 @@ proxy-groups:
       - 13-470-CN
       - 13-480-NOWHERE
       - 13-490-NOWHERE
-      - 18-530-KRss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxYTE3YjE5ZC00ODk2LTQ1MzEtYWY3OS02ZTkxZDhlZjgyMjg@44.247.241.1029898#02-009-US
+      - 18-530-KRtrojan//e6a2e741-0fce-440b-910c-b81325e2263a@bats-paper-chump.stark-industries.solutions443?allowInsecure=1&sni=bats-paper-chump.stark-industries.solutions#18-526-US
       - 18-540-HK
       - 18-550-HK
       - 18-560-HK
