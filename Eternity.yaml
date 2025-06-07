@@ -98,6 +98,7 @@ proxies:
   - {name: 04-231-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 8ff26b01-3210-3e00-8944-ba5d04ac0b00, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-232-JP, server: 47.245.40.60, port: 28465, type: trojan, password: 8ff26b01-3210-3e00-8944-ba5d04ac0b00, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-233-JP, server: 47.245.31.103, port: 28460, type: trojan, password: 8ff26b01-3210-3e00-8944-ba5d04ac0b00, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-234-US, server: 103.136.185.28, port: 447, type: trojan, password: 8ff26b01-3210-3e00-8944-ba5d04ac0b00, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 05-236-CN, server: v25.heduian.link, port: 30825, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v25.heduian.link}}, udp: true}
   - {name: 05-238-DE, server: 167.172.177.240, port: 8443, type: ss, cipher: aes-256-gcm, password: e61085be-4330-467a-a9e2-83ffb47be5e5, udp: true}
   - {name: 05-249-US, server: 0000:0000:0000:0000:0000:ffff:142.93.253.49, port: 2095, type: vmess, uuid: 21284025-a32f-4f90-aaba-55b5d22b0070, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 0000:0000:0000:0000:0000:ffff:142.93.253.49}}, udp: true}
@@ -190,7 +191,6 @@ proxies:
   - {name: 09-348-NL, server: 62.60.247.40, port: 52461, type: ss, cipher: chacha20-ietf-poly1305, password: UL1HmJsOsD21h9665oGrRv, udp: true}
   - {name: 09-349-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-350-FR, server: 107.191.63.241, port: 30665, type: ss, cipher: chacha20-ietf-poly1305, password: 44fe4b7d-cd48-45fc-a036-60ea40e4a96c, udp: true}
-  - {name: 09-351-US, server: 149.28.106.134, port: 31444, type: ss, cipher: chacha20-ietf-poly1305, password: 46e67f5a-63e4-4566-870c-76eaa9cf76fe, udp: true}
   - {name: 09-352-RELAY, server: 104.19.150.10, port: 80, type: vmess, uuid: 46181c32-8c82-413a-b836-8375e5e513eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560"}, udp: true}
   - {name: 09-353-RELAY, server: orvps2.horsenma.net, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen, headers: {Host: orvps2.horsenma.net}}, udp: true}
   - {name: 09-354-FR, server: 62.210.88.22, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: k5jVKnDG0basEK9ql3OrFd, udp: true}
@@ -362,6 +362,7 @@ proxies:
   - {name: 18-545-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-546-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-547-CA, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 18-548-US, server: 194.5.215.59, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 18-549-RELAY, server: 172.66.168.209, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 18-550-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-551-RELAY, server: cloudgetservice.mcloudservice.site, port: 443, type: vmess, uuid: 5428dcc2-9950-4404-b8a5-9dac82acb210, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cloudgetservice.mcloudservice.site}}, udp: true}
@@ -375,7 +376,7 @@ proxies:
   - {name: 18-559-US, server: strut-brisk-scope.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: strut-brisk-scope.stark-industries.solutions, skip-cert-verify: true, udp: true}
   - {name: 18-560-US, server: guy-trace-lyric.stark-industries.solutions, port: 443, type: trojan, password: 3482c71a-d01c-4ae5-b454-fa8cb3785f66, skip-cert-verify: true, udp: true}
   - {name: 18-561-US, server: bats-paper-chump.stark-industries.solutions, port: 443, type: trojan, password: e6a2e741-0fce-440b-910c-b81325e2263a, sni: bats-paper-chump.stark-industries.solutions, skip-cert-verify: true, udp: true}
-  - {name: 18-563-GB, server: 62.100.205.48, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 18-562-LT, server: 45.87.175.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 18-564-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 18-565-NL, server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 18-566-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -552,7 +553,7 @@ proxies:
   - {name: 40-741-CN, server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com, port: 17232, type: vmess, uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 40-742-CH, server: 188.213.128.64, port: 2010, type: vmess, uuid: b117bd27-0e16-4342-852a-59f0c0aa61f4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 40-744-RELAY, server: 104.21.25.95, port: 443, type: trojan, password: f0f6e76e-e5fe-4e2c-9faf-34832e021eae, sni: DDd.890604.FIlEGear-sG.Me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FmZr1mA5hub7QHHkQBzYO", headers: {Host: DDd.890604.FIlEGear-sG.Me}}, udp: true}
-  - {name: 40-745-US, server: 35.91.246.41, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
+  - {name: 40-745-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-563-GB, server: 35.91.246.41, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -607,6 +608,7 @@ proxy-groups:
       - 04-231-HK
       - 04-232-JP
       - 04-233-JP
+      - 04-234-US
       - 05-236-CN
       - 05-238-DE
       - 05-249-US
@@ -699,7 +701,6 @@ proxy-groups:
       - 09-348-NL
       - 09-349-RELAY
       - 09-350-FR
-      - 09-351-US
       - 09-352-RELAY
       - 09-353-RELAY
       - 09-354-FR
@@ -871,6 +872,7 @@ proxy-groups:
       - 18-545-US
       - 18-546-US
       - 18-547-CA
+      - 18-548-US
       - 18-549-RELAY
       - 18-550-US
       - 18-551-RELAY
@@ -884,7 +886,7 @@ proxy-groups:
       - 18-559-US
       - 18-560-US
       - 18-561-US
-      - 18-563-GB
+      - 18-562-LT
       - 18-564-JP
       - 18-565-NL
       - 18-566-FR
@@ -1061,7 +1063,7 @@ proxy-groups:
       - 40-741-CN
       - 40-742-CH
       - 40-744-RELAY
-      - 40-745-US
+      - 40-745-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-563-GB
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -1101,7 +1103,6 @@ proxy-groups:
       - 09-336-LT
       - 09-341-RELAY
       - 09-346-RELAY
-      - 09-351-US
       - 10-356-CN
       - 10-361-CN
       - 10-366-CN
@@ -1240,6 +1241,7 @@ proxy-groups:
       - 18-547-CA
       - 18-552-US
       - 18-557-US
+      - 18-562-LT
       - 18-567-LT
       - 18-572-NL
       - 18-577-FR
@@ -1343,9 +1345,9 @@ proxy-groups:
       - 13-508-CN
       - 18-538-US
       - 18-543-US
+      - 18-548-US
       - 18-553-CA
       - 18-558-LT
-      - 18-563-GB
       - 18-568-NL
       - 18-573-FR
       - 18-578-NL
@@ -1380,6 +1382,7 @@ proxy-groups:
       - 18-723-HK
       - 40-733-US
       - 40-738-RELAY
+      - 40-745-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-563-GB
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -1395,6 +1398,7 @@ proxy-groups:
       - 04-124-CN
       - 04-129-CN
       - 04-229-CN
+      - 04-234-US
       - 05-249-US
       - 06-254-HK
       - 06-259-RELAY
@@ -1595,7 +1599,7 @@ proxy-groups:
       - 18-725-DE
       - 40-735-RELAY
       - 40-740-RELAY
-      - 40-745-US
+      - 40-745-USss//YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@62.100.205.48989#18-563-GB
   - name: 广告拦截
     type: select
     proxies:
