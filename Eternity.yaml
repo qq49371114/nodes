@@ -98,6 +98,7 @@ proxies:
   - {name: 07-161-CN, server: cnsg.1ga4cs.ccddn4.icu, port: 50503, type: ss, cipher: chacha20-ietf-poly1305, password: pHSRsscdDjydAv4u, udp: true}
   - {name: 07-162-CN, server: ap-g.hinetwork.tw, port: 27137, type: trojan, password: da2c6761-4f08-48e8-bd98-11403dea8c35, sni: ap-g.hinetwork.tw, skip-cert-verify: true, udp: true}
   - {name: 07-163-UA, server: 147.78.3.137, port: 20032, type: ss, cipher: aes-256-gcm, password: KKY5SF5THFSMZWS4, udp: true}
+  - {name: 07-164-JP, server: il.mjt000.com, port: 443, type: trojan, password: 6087d8e3-ea9e-48eb-8217-6050ff752f56, sni: il.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 07-165-CN, server: js.yd.1.29d.cdnlinkms001.xyz, port: 31036, type: ss, cipher: chacha20-ietf-poly1305, password: Yt3ZB8DxiVxPi4Mg, udp: true}
   - {name: 07-166-CN, server: ca001.dogsvip.site, port: 22002, type: ss, cipher: aes-256-gcm, password: 5d1fcbee-ba62-4f1e-8b7d-463b788a52a9, udp: true}
   - {name: 07-167-CN, server: dlgdc.thecxfcsp.top, port: 21564, type: vmess, uuid: 9f9b21c3-e3fc-3e27-b878-82eeae401d12, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dlgdc.thecxfcsp.top}}, udp: true}
@@ -137,7 +138,6 @@ proxies:
   - {name: 07-201-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-202-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-203-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
-  - {name: 07-204-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 07-205-CN, server: cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 17cfc172-b858-471d-976c-11525783a87f, udp: true}
   - {name: 07-206-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-207-CN, server: lbsh.bnnodeservice.com, port: 34001, type: trojan, password: af4476cc-7ad0-4aec-999a-97f70bc9de99, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -246,7 +246,6 @@ proxies:
   - {name: 23-375-US, server: lt.fxlcn.com, port: 45288, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-376-DE, server: blazexline.trbest1.ir, port: 30871, type: ss, cipher: chacha20-ietf-poly1305, password: 4EUcbie2HGvKymmLBBoIUssIOyvh0qWSvivvWaToEBY=, udp: true}
   - {name: 23-378-RU, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a, udp: true}
-  - {name: 23-379-JP, server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: ahL8QDXl9qt6SZt1oV9lhM, udp: true}
   - {name: 23-380-RELAY, server: 172.67.156.210, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-381-RELAY, server: 104.19.32.0, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-386-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
@@ -313,6 +312,7 @@ proxy-groups:
       - 07-161-CN
       - 07-162-CN
       - 07-163-UA
+      - 07-164-JP
       - 07-165-CN
       - 07-166-CN
       - 07-167-CN
@@ -352,7 +352,6 @@ proxy-groups:
       - 07-201-US
       - 07-202-CN
       - 07-203-RELAY
-      - 07-204-US
       - 07-205-CN
       - 07-206-CN
       - 07-207-CN
@@ -461,7 +460,6 @@ proxy-groups:
       - 23-375-US
       - 23-376-DE
       - 23-378-RU
-      - 23-379-JP
       - 23-380-RELAY
       - 23-381-RELAY
       - 23-386-CA
@@ -601,10 +599,10 @@ proxy-groups:
       - 04-124-CN
       - 05-144-CN
       - 07-154-CN
+      - 07-164-JP
       - 07-174-CN
       - 07-184-CN
       - 07-194-CN
-      - 07-204-US
       - 07-214-CN
       - 07-224-CN
       - 08-234-CN
@@ -743,7 +741,6 @@ proxy-groups:
       - 09-279-CN
       - 10-299-CN
       - 23-329-RELAY
-      - 23-379-JP
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
