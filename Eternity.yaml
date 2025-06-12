@@ -65,6 +65,7 @@ proxies:
   - {name: 04-111-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 4a48d5f1-68cd-3428-a526-17ac68b3566a, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-112-JP, server: 47.245.40.60, port: 28469, type: trojan, password: 4a48d5f1-68cd-3428-a526-17ac68b3566a, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.31.103, port: 28463, type: trojan, password: 4a48d5f1-68cd-3428-a526-17ac68b3566a, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-114-US, server: 103.136.185.28, port: 447, type: trojan, password: 4a48d5f1-68cd-3428-a526-17ac68b3566a, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-115-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: da5edeab-4075-3521-88ef-33d7d5762e07, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-116-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: da5edeab-4075-3521-88ef-33d7d5762e07, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: da5edeab-4075-3521-88ef-33d7d5762e07, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -137,7 +138,6 @@ proxies:
   - {name: 23-225-NL, server: 103.106.1.92, port: 23492, type: ss, cipher: chacha20-ietf-poly1305, password: yMX9WGPgUEcRZmlaa0YHHC, udp: true}
   - {name: 23-240-RU, server: 185.22.153.67, port: 2026, type: ss, cipher: aes-256-gcm, password: b55c7e84afdd52cb, udp: true}
   - {name: 23-251-LV, server: 89.46.238.35, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 23-259-US, server: 23.154.136.132, port: 5499, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true}
   - {name: 23-263-NL, server: 9.163.232.180, port: 1490, type: ss, cipher: chacha20-ietf-poly1305, password: ojcP36n1SouDcnBg9EOZP8, udp: true}
   - {name: 23-275-KZ, server: 194.76.18.122, port: 443, type: trojan, password: 6884d714-d3c4-4b49-aa20-767ea92837d6, sni: icecream.955850.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252Fproxyip%2525253D194.76.18.122%2525253A443", headers: {Host: icecream.955850.xyz}}, udp: true}
   - {name: 23-276-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
@@ -174,6 +174,7 @@ proxy-groups:
       - 04-111-HK
       - 04-112-JP
       - 04-113-JP
+      - 04-114-US
       - 04-115-CN
       - 04-116-CN
       - 04-117-CN
@@ -246,7 +247,6 @@ proxy-groups:
       - 23-225-NL
       - 23-240-RU
       - 23-251-LV
-      - 23-259-US
       - 23-263-NL
       - 23-275-KZ
       - 23-276-DE
@@ -355,6 +355,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-US
       - 04-124-CN
       - 08-144-CN
       - 08-154-CN
@@ -437,7 +438,6 @@ proxy-groups:
       - 08-169-RU
       - 10-199-RELAY
       - 23-219-GB
-      - 23-259-US
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
