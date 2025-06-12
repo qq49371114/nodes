@@ -176,8 +176,8 @@ proxies:
   - {name: 09-250-CN, server: 120.232.153.40, port: 43292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 09-251-CN, server: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b, sni: 8cbcd01f-sxsxs0-sy94f1-1nc6m.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 09-252-CN, server: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 3a45a384-4ea7-11ed-a8bf-f23c91cfbbc9, sni: 6a4d70fb-sxsxs0-sy7yrp-1j3kc.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 09-258-KR, server: 210.217.18.70, port: 11171, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 09-259-LT, server: 185.237.185.77, port: 20036, type: ss, cipher: aes-256-gcm, password: 9XHO7KBQEW75JW8H, udp: true}
-  - {name: 09-260-HK, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 10-268-CN, server: e1a43e10-sxsxs0-t1qkm7-lwn9.cm5.cnkuaishou.com, port: 21233, type: trojan, password: 4d631e24-97f7-11ea-8fc9-f23c913c8d2b, sni: e1a43e10-sxsxs0-t1qkm7-lwn9.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
   - {name: 10-269-CN, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 10-270-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
@@ -338,8 +338,8 @@ proxy-groups:
       - 09-250-CN
       - 09-251-CN
       - 09-252-CN
+      - 09-258-KR
       - 09-259-LT
-      - 09-260-HK
       - 10-268-CN
       - 10-269-CN
       - 10-270-CN
@@ -566,6 +566,7 @@ proxy-groups:
       - 08-228-NOWHERE
       - 08-238-NOWHERE
       - 08-248-HK
+      - 09-258-KR
       - 10-268-CN
       - 14-278-DK
       - 14-288-CN
@@ -611,7 +612,6 @@ proxy-groups:
       - 08-230-NOWHERE
       - 08-240-RU
       - 09-250-CN
-      - 09-260-HK
       - 10-270-CN
   - name: 广告拦截
     type: select
