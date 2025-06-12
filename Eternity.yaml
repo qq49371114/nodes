@@ -135,6 +135,7 @@ proxies:
   - {name: 07-198-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 51081, type: ss, cipher: chacha20-ietf-poly1305, password: 6e3accf4-66c9-4f18-8e7f-56551ed40f22, udp: true}
   - {name: 07-199-US, server: usa.test3.net, port: 443, type: trojan, password: ab33eed0-4684-11f0-8b81-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-200-US, server: usa.test3.net, port: 443, type: trojan, password: 9e937610-4684-11f0-a6b2-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 07-201-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-202-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-203-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
   - {name: 07-204-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
@@ -229,7 +230,6 @@ proxies:
   - {name: 23-317-RELAY, server: 104.21.78.206, port: 2083, type: trojan, password: 13253e6e-a1f7-4090-801f-a8dc2b083bef, sni: inVIncibLE.fAfA20.shoP, skip-cert-verify: true, network: ws, ws-opts: {path: "%2525252FtrxSsuyYmFFPA4woIq%2525252FNzguNDYuNTYuNDI%2525253D%2525253Fed%2525253D2560", headers: {Host: inVIncibLE.fAfA20.shoP}}, udp: true}
   - {name: 23-320-NL, server: ams.telegavpn.org, port: 19057, type: ss, cipher: chacha20-ietf-poly1305, password: 3GOc6EWtk0gv3l3oZolwSO, udp: true}
   - {name: 23-323-NL, server: 9.163.232.180, port: 1490, type: ss, cipher: chacha20-ietf-poly1305, password: ojcP36n1SouDcnBg9EOZP8, udp: true}
-  - {name: 23-326-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 23-327-US, server: 38.99.82.193, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 23-328-DE, server: 57.129.25.20, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 23-329-RELAY, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}, udp: true}
@@ -349,6 +349,7 @@ proxy-groups:
       - 07-198-CN
       - 07-199-US
       - 07-200-US
+      - 07-201-US
       - 07-202-CN
       - 07-203-RELAY
       - 07-204-US
@@ -443,7 +444,6 @@ proxy-groups:
       - 23-317-RELAY
       - 23-320-NL
       - 23-323-NL
-      - 23-326-US
       - 23-327-US
       - 23-328-DE
       - 23-329-RELAY
@@ -526,6 +526,7 @@ proxy-groups:
       - 07-171-RELAY
       - 07-181-CN
       - 07-191-CN
+      - 07-201-US
       - 07-211-CN
       - 07-221-RO
       - 07-231-CN
@@ -661,7 +662,6 @@ proxy-groups:
       - 09-286-KR
       - 10-296-HK
       - 14-306-DK
-      - 23-326-US
       - 23-356-RELAY
       - 23-376-DE
       - 23-386-CA
