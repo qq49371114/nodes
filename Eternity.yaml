@@ -75,6 +75,7 @@ proxies:
   - {name: 04-120-JP, server: 47.245.31.103, port: 28463, type: trojan, password: 5038d53c-301c-36bd-b72f-ecb4912d0b3b, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-122-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: 50d43dd4-3177-3b78-8ce7-60067de1a405, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
   - {name: 04-123-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 50d43dd4-3177-3b78-8ce7-60067de1a405, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
+  - {name: 04-124-US, server: us-1.anewstart.cyou, port: 5061, type: vmess, uuid: 50d43dd4-3177-3b78-8ce7-60067de1a405, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-1.anewstart.cyou}}, udp: true}
   - {name: 04-125-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 50d43dd4-3177-3b78-8ce7-60067de1a405, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 07-145-CN, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-147-CN, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -129,7 +130,6 @@ proxies:
   - {name: 07-196-CN, server: cnamelm-dwzksl7kzye3rdby.bestcassoulet.com, port: 51081, type: ss, cipher: chacha20-ietf-poly1305, password: 6e3accf4-66c9-4f18-8e7f-56551ed40f22, udp: true}
   - {name: 07-197-CN, server: js.yd.1.29d.cdnlinkms001.xyz, port: 25343, type: ss, cipher: chacha20-ietf-poly1305, password: Yt3ZB8DxiVxPi4Mg, udp: true}
   - {name: 07-198-US, server: usa.test3.net, port: 443, type: trojan, password: ab33eed0-4684-11f0-8b81-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 07-199-US, server: usa.test3.net, port: 443, type: trojan, password: 9e937610-4684-11f0-a6b2-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-200-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-201-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-202-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
@@ -240,6 +240,7 @@ proxies:
   - {name: 23-372-US, server: lt.fxlcn.com, port: 45288, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-373-DE, server: blazexline.trbest1.ir, port: 30871, type: ss, cipher: chacha20-ietf-poly1305, password: 4EUcbie2HGvKymmLBBoIUssIOyvh0qWSvivvWaToEBY=, udp: true}
   - {name: 23-375-RU, server: 45.151.62.54, port: 28825, type: ss, cipher: chacha20-ietf-poly1305, password: 0zyDRZ1XmNXaaCAN7KEA8a, udp: true}
+  - {name: "23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US", server: sakura.outlinekeys.net, port: 1235, type: ss, cipher: chacha20-ietf-poly1305, password: ahL8QDXl9qt6SZt1oV9lhM, udp: true}
   - {name: 23-377-RELAY, server: 172.67.156.210, port: 443, type: vmess, uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-378-RELAY, server: 104.19.32.0, port: 443, type: vmess, uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkws}, udp: true}
   - {name: 23-383-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
@@ -283,6 +284,7 @@ proxy-groups:
       - 04-120-JP
       - 04-122-JP
       - 04-123-NOWHERE
+      - 04-124-US
       - 04-125-NOWHERE
       - 07-145-CN
       - 07-147-CN
@@ -337,7 +339,6 @@ proxy-groups:
       - 07-196-CN
       - 07-197-CN
       - 07-198-US
-      - 07-199-US
       - 07-200-US
       - 07-201-CN
       - 07-202-RELAY
@@ -448,6 +449,7 @@ proxy-groups:
       - 23-372-US
       - 23-373-DE
       - 23-375-RU
+      - 23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US
       - 23-377-RELAY
       - 23-378-RELAY
       - 23-383-CA
@@ -524,6 +526,7 @@ proxy-groups:
       - 14-311-CN
       - 23-361-RELAY
       - 23-371-GR
+      - 23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -585,6 +588,7 @@ proxy-groups:
     proxies:
       - 04-104-RELAY
       - 04-114-CN
+      - 04-124-US
       - 07-154-CN
       - 07-164-CN
       - 07-174-CN
@@ -649,6 +653,7 @@ proxy-groups:
       - 08-266-RELAY
       - 08-276-CN
       - 23-326-RELAY
+      - 23-376-JPtrojan//5038d53c-301c-36bd-b72f-ecb4912d0b3b@103.136.185.28447?allowInsecure=1&sni=cloudsync-prod.s3.amazonaws.com#04-121-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -712,7 +717,6 @@ proxy-groups:
       - 07-169-CN
       - 07-179-CN
       - 07-189-CN
-      - 07-199-US
       - 07-209-CN
       - 07-219-CN
       - 07-229-CN
