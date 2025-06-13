@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `189`
+高速节点数量: `188`
 <details>
   <summary>展开复制节点</summary>
 
@@ -137,7 +137,6 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3WktrY3FuSGtvQjY0QTF1cEE0SzFN@77.246.98.67:4343#07-219-NL
     trojan://786334e7-dd13-4ef2-8efe-306c46cb8cf0@pt.mjt000.com:443?allowInsecure=1&sni=pt.mjt000.com#07-220-JP
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2ZTNhY2NmNC02NmM5LTRmMTgtOGU3Zi01NjU1MWVkNDBmMjI@cnamelm-dwzksl7kzye3rdby.bestcassoulet.com:51083#07-221-CN
-    trojan://1d99eb06-8f7c-4296-8c84-1e57084579a5@iepl01.tube-cat.com:20029?allowInsecure=1&sni=VN.catxstar.com#07-222-US
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.28:38388#07-223-VN
     ss://YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW@103.186.154.18:38388#07-224-VN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjI1LUNOIiwiYWRkIjoicHB5LWJvYXJkdjIuMDJpanA0dW9zMS5kb3dubG9hZCIsInBvcnQiOiIyNjEzMyIsInR5cGUiOiJub25lIiwiaWQiOiJhYTE1Yjk3YS0yNGIxLTNhMzEtODI0YS1iYzUyZjVhMTViYWMiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJwcHktYm9hcmR2Mi4wMmlqcDR1b3MxLmRvd25sb2FkIiwidGxzIjoiIn0=
@@ -224,11 +223,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `292`
+合并节点总数: `293`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `292`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `293`
 
 
 ## 仓库声明
