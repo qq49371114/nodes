@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `246`
+高速节点数量: `247`
 <details>
   <summary>展开复制节点</summary>
 
@@ -115,6 +115,7 @@ Fork from TopFreeProxies.
     trojan://8e2a3980-4684-11f0-b76c-1239d0255272@usa.test3.net:443?allowInsecure=1#07-196-US
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTk3LUNOIiwiYWRkIjoidGsuaHpsdC50a2RkbnMueHl6IiwicG9ydCI6IjIyNjQxIiwidHlwZSI6Im5vbmUiLCJpZCI6Ijk4ZTk2YzlmLTRiYjMtMzlkNC05YTJjLWZhYzA0MjU3ZjdjNyIsImFpZCI6IjIiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InRrLmh6bHQudGtkZG5zLnh5eiIsInRscyI6InRscyJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMTk4LVJFTEFZIiwiYWRkIjoiQ0NWZmJndDY2N3l1SS45OTk4NjQuWHlaIiwicG9ydCI6IjQ0MyIsInR5cGUiOiJub25lIiwiaWQiOiJlY2IzMTk0Ni1iODFkLTRlMzctYmZkOS0yZWI3ZmE1YzRlNTIiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL0JiY2tyS3NidjIyUEsxcXUyVHZNIiwiaG9zdCI6IkNDVmZiZ3Q2Njd5dUkuOTk5ODY0Llh5WiIsInRscyI6InRscyJ9
+    ss://YWVzLTI1Ni1jZmI6YXdzcHMwNTAx@35.91.94.11:443#07-199-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxN2NmYzE3Mi1iODU4LTQ3MWQtOTc2Yy0xMTUyNTc4M2E4N2Y@cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki:40070#07-200-CN
     vmess://eyJ2IjoiMiIsInBzIjoiMDctMjAxLUNOIiwiYWRkIjoiMTEyLjY1LjkyLjIwIiwicG9ydCI6IjQ1MjUxIiwidHlwZSI6Im5vbmUiLCJpZCI6IjQ2OWUwYjMxLTMwYzMtNGRhYi04MDBkLTcxMTIzMjYzNGNlMSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
     trojan://af4476cc-7ad0-4aec-999a-97f70bc9de99@lbsh.bnnodeservice.com:34001?allowInsecure=1&sni=cert.bitbyte.one#07-202-CN
@@ -281,11 +282,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `350`
+合并节点总数: `358`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `350`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `358`
 
 
 ## 仓库声明
