@@ -137,6 +137,7 @@ proxies:
   - {name: 07-196-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-197-CN, server: tk.hzlt.tkddns.xyz, port: 22641, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tk.hzlt.tkddns.xyz}}, udp: true}
   - {name: 07-198-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
+  - {name: 07-199-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 07-200-CN, server: cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 17cfc172-b858-471d-976c-11525783a87f, udp: true}
   - {name: 07-201-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-202-CN, server: lbsh.bnnodeservice.com, port: 34001, type: trojan, password: af4476cc-7ad0-4aec-999a-97f70bc9de99, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -399,6 +400,7 @@ proxy-groups:
       - 07-196-US
       - 07-197-CN
       - 07-198-RELAY
+      - 07-199-US
       - 07-200-CN
       - 07-201-CN
       - 07-202-CN
@@ -865,6 +867,7 @@ proxy-groups:
       - 07-169-CO
       - 07-179-RELAY
       - 07-189-CN
+      - 07-199-US
       - 07-209-CN
       - 07-219-NL
       - 07-229-CN
