@@ -53,7 +53,6 @@ sniffer:
     - Mijia Cloud
 proxies:
   - {name: 04-000-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: 9dad7299-cb51-38b4-9cfc-f9044807914d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
-  - {name: 04-001-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 9dad7299-cb51-38b4-9cfc-f9044807914d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
   - {name: 04-003-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 9dad7299-cb51-38b4-9cfc-f9044807914d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
   - {name: 04-004-RELAY, server: s5.db-link02.top, port: 8880, type: vmess, uuid: 31aa00a6-687f-333e-8225-abf2b4d9bbd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.160.54, headers: {Host: s5.db-link02.top}}, udp: true}
   - {name: 04-005-RELAY, server: s2.db-link01.top, port: 2086, type: vmess, uuid: 31aa00a6-687f-333e-8225-abf2b4d9bbd2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.255.8, headers: {Host: s2.db-link01.top}}, udp: true}
@@ -87,7 +86,6 @@ proxies:
   - {name: 05-144-JP, server: il.mjt000.com, port: 443, type: trojan, password: 6087d8e3-ea9e-48eb-8217-6050ff752f56, sni: il.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 05-149-NL, server: 109.104.154.131, port: 20000, type: ss, cipher: aes-256-gcm, password: TP5T4JQH5S8JLS50, udp: true}
   - {name: 05-150-RO, server: 203.25.108.78, port: 44591, type: ss, cipher: chacha20-ietf-poly1305, password: gSHbNTKWu4QLx3iMjJ7KBS, udp: true}
-  - {name: 05-153-US, server: 44.248.149.58, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 05-154-RELAY, server: 104.21.28.26, port: 443, type: trojan, password: 21e5535e-4783-4a80-a735-24a1162d315c, sni: sscDfr5.999182.XyZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FcxZq9RPkYdTWbh4hKwvQX9", headers: {Host: sscDfr5.999182.XyZ}}, udp: true}
   - {name: 07-158-CN, server: 183.238.90.8, port: 46920, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-160-CN, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -143,6 +141,7 @@ proxies:
   - {name: 07-210-US, server: usa.test3.net, port: 443, type: trojan, password: 9e937610-4684-11f0-a6b2-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-211-US, server: usa.test3.net, port: 443, type: trojan, password: 8e2a3980-4684-11f0-b76c-1239d0255272, skip-cert-verify: true, udp: true}
   - {name: 07-212-RELAY, server: CCVfbgt667yuI.999864.XyZ, port: 443, type: vmess, uuid: ecb31946-b81d-4e37-bfd9-2eb7fa5c4e52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /BbckrKsbv22PK1qu2TvM, headers: {Host: CCVfbgt667yuI.999864.XyZ}}, udp: true}
+  - {name: 07-213-US, server: 35.91.94.11, port: 443, type: ss, cipher: aes-256-cfb, password: awsps0501, udp: true}
   - {name: 07-214-CN, server: cnamepc03-ndtabspegg7plp3p.coffeehouse.wiki, port: 40070, type: ss, cipher: chacha20-ietf-poly1305, password: 17cfc172-b858-471d-976c-11525783a87f, udp: true}
   - {name: 07-215-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-216-CN, server: lbsh.bnnodeservice.com, port: 34001, type: trojan, password: af4476cc-7ad0-4aec-999a-97f70bc9de99, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
@@ -204,6 +203,7 @@ proxies:
   - {name: 08-278-NOWHERE, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: caa5e583-0045-41e7-8cec-02e7d55cddc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 08-279-CN, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: caa5e583-0045-41e7-8cec-02e7d55cddc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 08-280-NOWHERE, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: caa5e583-0045-41e7-8cec-02e7d55cddc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-281-RELAY, server: bevent.bilibili.tv, port: 443, type: vmess, uuid: 8c81e27d-4528-4ced-a41d-3ca857594f26, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: bevent.bilibili.tv}}, udp: true}
   - {name: 08-283-RU, server: 45.147.201.231, port: 20058, type: vmess, uuid: 81fd33e2-b636-47d8-b1bb-d7e8dbd6037c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-284-NOWHERE, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: caa5e583-0045-41e7-8cec-02e7d55cddc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 08-285-NOWHERE, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: caa5e583-0045-41e7-8cec-02e7d55cddc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
@@ -274,7 +274,6 @@ proxy-groups:
       - 测速9分组
       - 测速10分组
       - 04-000-JP
-      - 04-001-NOWHERE
       - 04-003-NOWHERE
       - 04-004-RELAY
       - 04-005-RELAY
@@ -308,7 +307,6 @@ proxy-groups:
       - 05-144-JP
       - 05-149-NL
       - 05-150-RO
-      - 05-153-US
       - 05-154-RELAY
       - 07-158-CN
       - 07-160-CN
@@ -364,6 +362,7 @@ proxy-groups:
       - 07-210-US
       - 07-211-US
       - 07-212-RELAY
+      - 07-213-US
       - 07-214-CN
       - 07-215-CN
       - 07-216-CN
@@ -425,6 +424,7 @@ proxy-groups:
       - 08-278-NOWHERE
       - 08-279-CN
       - 08-280-NOWHERE
+      - 08-281-RELAY
       - 08-283-RU
       - 08-284-NOWHERE
       - 08-285-NOWHERE
@@ -532,7 +532,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-001-NOWHERE
       - 04-111-HK
       - 04-121-CN
       - 07-161-CN
@@ -546,6 +545,7 @@ proxy-groups:
       - 07-241-CN
       - 08-251-RU
       - 08-261-NOWHERE
+      - 08-281-RELAY
       - 09-301-CN
       - 10-321-CN
   - name: 测速2分组
@@ -583,12 +583,12 @@ proxy-groups:
       - 04-003-NOWHERE
       - 04-113-JP
       - 04-123-CN
-      - 05-153-US
       - 07-163-CN
       - 07-173-CN
       - 07-183-JP
       - 07-193-RELAY
       - 07-203-CN
+      - 07-213-US
       - 07-223-CN
       - 07-233-CN
       - 07-243-CN
