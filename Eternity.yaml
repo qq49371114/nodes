@@ -65,6 +65,8 @@ proxies:
   - {name: 04-111-HK, server: qoi.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 74ecbecb-d9a3-30f2-b57f-f2f35ac324e7, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-112-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: 74ecbecb-d9a3-30f2-b57f-f2f35ac324e7, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28470, type: trojan, password: 74ecbecb-d9a3-30f2-b57f-f2f35ac324e7, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-114-JP, server: 47.245.31.103, port: 28464, type: trojan, password: 74ecbecb-d9a3-30f2-b57f-f2f35ac324e7, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-US, server: 103.136.185.28, port: 447, type: trojan, password: 74ecbecb-d9a3-30f2-b57f-f2f35ac324e7, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: fb1323f8-4711-39be-9a0f-8b60a3862fe7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: fb1323f8-4711-39be-9a0f-8b60a3862fe7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: fb1323f8-4711-39be-9a0f-8b60a3862fe7, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -147,7 +149,6 @@ proxies:
   - {name: 14-237-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
   - {name: 14-240-RELAY, server: cloudflare-ip.mofashi.ltd, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: cloudflare-ip.mofashi.ltd}}, udp: true}
   - {name: 14-241-CN, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, udp: true}
-  - {name: 23-246-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 23-248-SG, server: 38.47.176.251, port: 56051, type: vmess, uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 23-252-PE, server: 185.47.252.251, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-253-RELAY, server: hk2.lrzdx.uk, port: 443, type: vmess, uuid: db69d5bc-d36c-4903-f471-74b98c5cefe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /register, headers: {Host: hk2.lrzdx.uk}}, udp: true}
@@ -197,6 +198,8 @@ proxy-groups:
       - 04-111-HK
       - 04-112-HK
       - 04-113-JP
+      - 04-114-JP
+      - 04-115-US
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -279,7 +282,6 @@ proxy-groups:
       - 14-237-CN
       - 14-240-RELAY
       - 14-241-CN
-      - 23-246-US
       - 23-248-SG
       - 23-252-PE
       - 23-253-RELAY
@@ -410,6 +412,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-JP
       - 04-124-CN
       - 05-144-JP
       - 05-154-RELAY
@@ -428,6 +431,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-US
       - 04-125-CN
       - 08-165-HK
       - 08-175-RU
@@ -448,7 +452,6 @@ proxy-groups:
       - 08-196-RU
       - 08-206-RU
       - 10-216-RELAY
-      - 23-246-US
       - 23-286-CH
       - 23-296-RU
   - name: 测速7分组
