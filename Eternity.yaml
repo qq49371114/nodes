@@ -65,6 +65,7 @@ proxies:
   - {name: 04-111-HK, server: qfb.smp-paymentservices-apple.com, port: 8443, type: trojan, password: c29ca027-f8ff-3b7d-b682-af2e69bb40cf, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-112-JP, server: 47.245.40.60, port: 28471, type: trojan, password: c29ca027-f8ff-3b7d-b682-af2e69bb40cf, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.31.103, port: 28465, type: trojan, password: c29ca027-f8ff-3b7d-b682-af2e69bb40cf, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-114-US, server: 103.136.185.28, port: 447, type: trojan, password: c29ca027-f8ff-3b7d-b682-af2e69bb40cf, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-115-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-116-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 27420648-2d6e-3727-a7a4-623336ce6e9c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -317,7 +318,6 @@ proxies:
   - {name: 23-468-HK, server: 212.192.12.22, port: 2029, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true}
   - {name: 23-479-HK, server: it.mjt000.com, port: 443, type: trojan, password: ac7a444b-f244-4006-a552-7730bd74ae57, sni: it.mjt000.com, skip-cert-verify: true, udp: true}
   - {name: 23-485-US, server: iepl01.tube-cat.com, port: 20060, type: trojan, password: d4ee748f-5778-4fc1-8b6b-a1c7f2b8a2ec, sni: sg.catxstar.com, skip-cert-verify: true, udp: true}
-  - {name: 23-489-US, server: iepl.tube-cat.com, port: 20063, type: trojan, password: 1d99eb06-8f7c-4296-8c84-1e57084579a5, sni: xysni.eos-shanghai-2.cmecloud.cn, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -348,6 +348,7 @@ proxy-groups:
       - 04-111-HK
       - 04-112-JP
       - 04-113-JP
+      - 04-114-US
       - 04-115-CN
       - 04-116-CN
       - 04-117-CN
@@ -600,7 +601,6 @@ proxy-groups:
       - 23-468-HK
       - 23-479-HK
       - 23-485-US
-      - 23-489-US
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -753,6 +753,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
+      - 04-114-US
       - 04-124-CN
       - 07-144-CN
       - 07-154-UA
@@ -942,7 +943,6 @@ proxy-groups:
       - 23-409-RELAY
       - 23-429-RELAY
       - 23-479-HK
-      - 23-489-US
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
