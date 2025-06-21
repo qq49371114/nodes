@@ -65,7 +65,6 @@ proxies:
   - {name: 04-111-CN, server: 112.18.120.18, port: 23452, type: trojan, password: de1b8d56-920a-3c46-9f37-acb182a8dbaa, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
   - {name: 04-112-CN, server: 112.18.120.18, port: 23453, type: trojan, password: de1b8d56-920a-3c46-9f37-acb182a8dbaa, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-JP, server: 47.245.40.60, port: 28476, type: trojan, password: de1b8d56-920a-3c46-9f37-acb182a8dbaa, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-114-JP, server: 47.245.31.103, port: 28468, type: trojan, password: de1b8d56-920a-3c46-9f37-acb182a8dbaa, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-115-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-116-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -130,6 +129,7 @@ proxies:
   - {name: 07-226-VN, server: 103.186.155.25, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-227-VN, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-228-CN, server: ppy-boardv2.02ijp4uos1.download, port: 26139, type: vmess, uuid: aa15b97a-24b1-3a31-824a-bc52f5a15bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ppy-boardv2.02ijp4uos1.download}}, udp: true}
+  - {name: 07-229-KR, server: 221.150.109.89, port: 11389, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 07-230-KR, server: 125.141.26.14, port: 5344, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 07-231-CN, server: 120.233.44.201, port: 21118, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k17.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 08-232-NOWHERE, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: fe22fc1d-bb83-4620-8ed0-13dab99ed0d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
@@ -205,13 +205,27 @@ proxies:
   - {name: 09-344-CN, server: 112.54.160.36, port: 30232, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
   - {name: 09-345-JP, server: y66.ffd.mt5888.top, port: 41114, type: ssr, cipher: dummy, password: mantouyun888, protocol: auth_chain_a, obfs: plain, protocol-param: 8198:CsJt8BBrKFOSrjv2, obfs-param: cbcdc8198.microsoft.com, udp: true}
   - {name: 09-347-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 14-376-VN, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 14-377-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 14-379-CN, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
-  - {name: 14-383-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
-  - {name: 14-386-RELAY, server: dddddDDDDD4.222560.xyZ, port: 80, type: vmess, uuid: 393b1061-d615-459a-8616-3f9447bdff5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: dddddDDDDD4.222560.xyZ}}, udp: true}
-  - {name: 14-387-CN, server: 183.240.180.48, port: 58436, type: ss, cipher: 2022-blake3-aes-128-gcm, password: di3YDVupSCsXSe2NbYlw5A==, udp: true}
-  - {name: 14-388-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
+  - {name: 10-353-DE, server: 62.133.60.217, port: 34218, type: ss, cipher: chacha20-ietf-poly1305, password: WTW3IKzimgbaBa0jELvP7R, udp: true}
+  - {name: 10-354-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
+  - {name: 10-355-RELAY, server: 104.17.176.171, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn}, udp: true}
+  - {name: 10-356-CN, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: v40.heduian.link}}, udp: true}
+  - {name: 10-357-DE, server: h110vpnde.outlinekeys.net, port: 21712, type: ss, cipher: chacha20-ietf-poly1305, password: NTE3PCCNFgLyG6nsTv80Yp, udp: true}
+  - {name: 14-381-VN, server: 103.186.154.31, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 14-382-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-384-CN, server: 120.232.220.156, port: 20406, type: ss, cipher: aes-256-gcm, password: dwz1GtF7, udp: true}
+  - {name: 14-390-RELAY, server: dddddDDDDD4.222560.xyZ, port: 80, type: vmess, uuid: 393b1061-d615-459a-8616-3f9447bdff5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: dddddDDDDD4.222560.xyZ}}, udp: true}
+  - {name: 14-391-CN, server: 183.240.180.48, port: 58436, type: ss, cipher: 2022-blake3-aes-128-gcm, password: di3YDVupSCsXSe2NbYlw5A==, udp: true}
+  - {name: 14-392-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
+  - {name: 23-394-IN, server: 82.180.146.173, port: 30607, type: ss, cipher: aes-128-gcm, password: 162629d7-cb17-43b1-82c9-f9c7ae6cba70, udp: true}
+  - {name: 23-395-DE, server: 45.144.54.33, port: 34803, type: ss, cipher: chacha20-ietf-poly1305, password: LiHQX9cDbdooBHlIg0eiqQ, udp: true}
+  - {name: 23-396-IR, server: 193.142.30.152, port: 11107, type: ss, cipher: aes-256-gcm, password: NjM0NDUyMjAwNDQ1YmJiZDE0ZDJkM2MyZjBjZTIw, udp: true}
+  - {name: 23-406-GB, server: api.namasha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: u17T3BvpYaaiuW2c, udp: true}
+  - {name: 23-416-ES, server: 45.154.206.192, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-419-RU, server: 5.189.201.250, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: RiPuKJJl18ZgvLpTjWxBwSfKiPkt9gzFKyxGCY8eHtOcDb2X, udp: true}
+  - {name: 23-421-LT, server: 45.87.175.69, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 23-437-KZ, server: 38.107.234.38, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
+  - {name: 23-447-RELAY, server: www.hdmoli.com, port: 80, type: vmess, uuid: 2f38f848-a899-4c87-9807-207a41615e3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/rongseven?ed=2048", headers: {Host: www.hdmoli.com}}, udp: true}
+  - {name: 23-448-TW, server: twjxlnnoljxc.jkhkgj.xyz, port: 80, type: vmess, uuid: b0af4d14-db9d-4217-b010-5fd2a4b80590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/market/tw?ed=512", headers: {Host: twjxlnnoljxc.jkhkgj.xyz}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -242,7 +256,6 @@ proxy-groups:
       - 04-111-CN
       - 04-112-CN
       - 04-113-JP
-      - 04-114-JP
       - 04-115-CN
       - 04-116-CN
       - 04-117-CN
@@ -307,6 +320,7 @@ proxy-groups:
       - 07-226-VN
       - 07-227-VN
       - 07-228-CN
+      - 07-229-KR
       - 07-230-KR
       - 07-231-CN
       - 08-232-NOWHERE
@@ -382,13 +396,27 @@ proxy-groups:
       - 09-344-CN
       - 09-345-JP
       - 09-347-MD
-      - 14-376-VN
-      - 14-377-VN
-      - 14-379-CN
-      - 14-383-CN
-      - 14-386-RELAY
-      - 14-387-CN
-      - 14-388-CN
+      - 10-353-DE
+      - 10-354-CN
+      - 10-355-RELAY
+      - 10-356-CN
+      - 10-357-DE
+      - 14-381-VN
+      - 14-382-VN
+      - 14-384-CN
+      - 14-390-RELAY
+      - 14-391-CN
+      - 14-392-CN
+      - 23-394-IN
+      - 23-395-DE
+      - 23-396-IR
+      - 23-406-GB
+      - 23-416-ES
+      - 23-419-RU
+      - 23-421-LT
+      - 23-437-KZ
+      - 23-447-RELAY
+      - 23-448-TW
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -457,6 +485,9 @@ proxy-groups:
       - 08-301-CN
       - 08-321-CN
       - 08-341-CN
+      - 14-381-VN
+      - 14-391-CN
+      - 23-421-LT
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -480,6 +511,8 @@ proxy-groups:
       - 08-322-NOWHERE
       - 08-332-CN
       - 08-342-CN
+      - 14-382-VN
+      - 14-392-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -503,7 +536,7 @@ proxy-groups:
       - 08-313-NOWHERE
       - 08-323-CN
       - 08-343-CN
-      - 14-383-CN
+      - 10-353-DE
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -511,7 +544,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-004-RELAY
-      - 04-114-JP
       - 04-124-CN
       - 05-164-RELAY
       - 07-184-CN
@@ -526,6 +558,9 @@ proxy-groups:
       - 08-324-CN
       - 08-334-CN
       - 09-344-CN
+      - 10-354-CN
+      - 14-384-CN
+      - 23-394-IN
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -547,6 +582,8 @@ proxy-groups:
       - 08-315-CN
       - 08-335-CN
       - 09-345-JP
+      - 10-355-RELAY
+      - 23-395-DE
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -564,8 +601,10 @@ proxy-groups:
       - 08-266-CN
       - 08-316-CN
       - 08-336-CN
-      - 14-376-VN
-      - 14-386-RELAY
+      - 10-356-CN
+      - 23-396-IR
+      - 23-406-GB
+      - 23-416-ES
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -590,8 +629,9 @@ proxy-groups:
       - 08-307-HK
       - 08-327-RU
       - 09-347-MD
-      - 14-377-VN
-      - 14-387-CN
+      - 10-357-DE
+      - 23-437-KZ
+      - 23-447-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -612,7 +652,7 @@ proxy-groups:
       - 08-278-RU
       - 08-298-CN
       - 08-338-NOWHERE
-      - 14-388-CN
+      - 23-448-TW
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -627,13 +667,14 @@ proxy-groups:
       - 07-199-CN
       - 07-209-RELAY
       - 07-219-RELAY
+      - 07-229-KR
       - 08-239-CN
       - 08-279-RU
       - 08-289-CN
       - 08-299-CN
       - 08-329-CN
       - 08-339-NOWHERE
-      - 14-379-CN
+      - 23-419-RU
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -658,6 +699,7 @@ proxy-groups:
       - 08-310-CN
       - 08-320-CN
       - 08-330-RU
+      - 14-390-RELAY
   - name: 广告拦截
     type: select
     proxies:
