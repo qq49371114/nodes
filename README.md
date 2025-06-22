@@ -44,6 +44,7 @@ Fork from TopFreeProxies.
     trojan://0c52f193-0976-3a05-893c-aaae1bb21458@112.18.120.18:23452?allowInsecure=1&sni=steampipe-partner.akamaized.net#04-112-CN
     trojan://0c52f193-0976-3a05-893c-aaae1bb21458@112.18.120.18:23453?allowInsecure=1&sni=fastly.cdn.steampipe.steamcontent.com#04-113-CN
     trojan://0c52f193-0976-3a05-893c-aaae1bb21458@47.245.40.60:28476?allowInsecure=1&sni=steampipe.akamaized.net#04-114-JP
+    trojan://0c52f193-0976-3a05-893c-aaae1bb21458@47.245.31.103:28469?allowInsecure=1&sni=akamai.cdn.steampipe.steamcontent.com#04-115-JP
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE2LUNOIiwiYWRkIjoiMTIubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMiIsInR5cGUiOiJub25lIiwiaWQiOiI3MTY0ZTljNi03NWM5LTM3ZTYtYmZlYy02NjJiMTQ0ZTA4YTQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMi5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE3LUNOIiwiYWRkIjoiMTcubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxNyIsInR5cGUiOiJub25lIiwiaWQiOiI3MTY0ZTljNi03NWM5LTM3ZTYtYmZlYy02NjJiMTQ0ZTA4YTQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxNy5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
     vmess://eyJ2IjoiMiIsInBzIjoiMDQtMTE4LUNOIiwiYWRkIjoiMTEubWFtYW1hamQuc2l0ZSIsInBvcnQiOiIyMzYxMSIsInR5cGUiOiJub25lIiwiaWQiOiI3MTY0ZTljNi03NWM5LTM3ZTYtYmZlYy02NjJiMTQ0ZTA4YTQiLCJhaWQiOiIyIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIxMS5tYW1hbWFqZC5zaXRlIiwidGxzIjoiIn0=
@@ -130,7 +131,6 @@ Fork from TopFreeProxies.
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMjIwLUNOIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA2NyIsInR5cGUiOiJub25lIiwiaWQiOiJmNzcyNTgwMS1jOWNjLTQzYTAtYTIzNC01ZWJmOGVhODhjZTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ4ZGQuZGFzaHVhaS5jeW91IiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTY1YTAwMS1kYmU5LTRmNzYtYWIyNC05NzU1ZTcxZmM3NWU@gz.pddwdf.store:51881#08-221-CN
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTY1YTAwMS1kYmU5LTRmNzYtYWIyNC05NzU1ZTcxZmM3NWU@gz.pddwdf.store:33143#08-222-CN
-    vmess://eyJ2IjoiMiIsInBzIjoiMDgtMjI5LUhLIiwiYWRkIjoieGcuZGFzaHVhaS5jeW91IiwicG9ydCI6IjE5OTAxIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NzI1ODAxLWM5Y2MtNDNhMC1hMjM0LTVlYmY4ZWE4OGNlNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6InhnLmRhc2h1YWkuY3lvdSIsInRscyI6IiJ9
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMjMwLU5PV0hFUkUiLCJhZGQiOiJoYWEuZGFzaHVhaS5jeW91IiwicG9ydCI6IjQ1MDYwIiwidHlwZSI6Im5vbmUiLCJpZCI6ImY3NzI1ODAxLWM5Y2MtNDNhMC1hMjM0LTVlYmY4ZWE4OGNlNiIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwiaG9zdCI6ImhhYS5kYXNodWFpLmN5b3UiLCJ0bHMiOiIifQ==
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMjMxLUNOIiwiYWRkIjoieGRkLmRhc2h1YWkuY3lvdSIsInBvcnQiOiI0NTA2MyIsInR5cGUiOiJub25lIiwiaWQiOiJmNzcyNTgwMS1jOWNjLTQzYTAtYTIzNC01ZWJmOGVhODhjZTYiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiJ4ZGQuZGFzaHVhaS5jeW91IiwidGxzIjoiIn0=
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTY1YTAwMS1kYmU5LTRmNzYtYWIyNC05NzU1ZTcxZmM3NWU@sh.pddwdf.store:31032#08-232-CN
@@ -186,11 +186,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `253`
+合并节点总数: `255`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `253`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `255`
 
 
 ## 仓库声明
