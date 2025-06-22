@@ -66,6 +66,7 @@ proxies:
   - {name: 04-112-CN, server: 112.18.120.18, port: 23452, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-113-CN, server: 112.18.120.18, port: 23453, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-114-JP, server: 47.245.40.60, port: 28476, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-115-JP, server: 47.245.31.103, port: 28469, type: trojan, password: 0c52f193-0976-3a05-893c-aaae1bb21458, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-116-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-117-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-118-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 7164e9c6-75c9-37e6-bfec-662b144e08a4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -152,7 +153,6 @@ proxies:
   - {name: 08-220-CN, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: f7725801-c9cc-43a0-a234-5ebf8ea88ce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 08-221-CN, server: gz.pddwdf.store, port: 51881, type: ss, cipher: chacha20-ietf-poly1305, password: 4e65a001-dbe9-4f76-ab24-9755e71fc75e, udp: true}
   - {name: 08-222-CN, server: gz.pddwdf.store, port: 33143, type: ss, cipher: chacha20-ietf-poly1305, password: 4e65a001-dbe9-4f76-ab24-9755e71fc75e, udp: true}
-  - {name: 08-229-HK, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: f7725801-c9cc-43a0-a234-5ebf8ea88ce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.dashuai.cyou}}, udp: true}
   - {name: 08-230-NOWHERE, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: f7725801-c9cc-43a0-a234-5ebf8ea88ce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 08-231-CN, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: f7725801-c9cc-43a0-a234-5ebf8ea88ce6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
   - {name: 08-232-CN, server: sh.pddwdf.store, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: 4e65a001-dbe9-4f76-ab24-9755e71fc75e, udp: true}
@@ -233,6 +233,7 @@ proxy-groups:
       - 04-112-CN
       - 04-113-CN
       - 04-114-JP
+      - 04-115-JP
       - 04-116-CN
       - 04-117-CN
       - 04-118-CN
@@ -319,7 +320,6 @@ proxy-groups:
       - 08-220-CN
       - 08-221-CN
       - 08-222-CN
-      - 08-229-HK
       - 08-230-NOWHERE
       - 08-231-CN
       - 08-232-CN
@@ -513,6 +513,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 04-005-RELAY
+      - 04-115-JP
       - 04-125-CN
       - 07-145-CN
       - 07-165-CN
@@ -601,7 +602,6 @@ proxy-groups:
       - 07-179-RELAY
       - 07-189-KR
       - 08-219-NOWHERE
-      - 08-229-HK
       - 08-249-CN
       - 08-259-CN
       - 08-269-CN
