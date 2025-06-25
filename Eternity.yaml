@@ -201,6 +201,7 @@ proxies:
   - {name: 09-346-CN, server: relay001.xiaoniuyun.cc, port: 38027, type: trojan, password: e2d4ffbd-d0fa-4074-b844-9e8b4e34cd4c, sni: ua001.xiaoniuyun.cc, skip-cert-verify: true, udp: true}
   - {name: 09-347-CN, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
   - {name: 09-348-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
+  - {name: 09-402-KR, server: 221.150.109.20, port: 50345, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
   - {name: 09-560-RELAY, server: 104.21.3.189, port: 443, type: trojan, password: 509ed9b7-8d64-4204-8ec8-6b749020ac3f, sni: CcCVfGTyU.89060004.Xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F5MkU0nARgHwk3aXBStn7", headers: {Host: CcCVfGTyU.89060004.Xyz}}, udp: true}
   - {name: 10-565-RELAY, server: 104.21.112.1, port: 2096, type: vmess, uuid: 3988dfba-e9ee-40ba-a87e-553aee1c5993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 10-566-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
@@ -218,7 +219,6 @@ proxies:
   - {name: 14-600-VN, server: 103.163.218.2, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-601-CN, server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com, port: 17232, type: vmess, uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com}}, udp: true}
   - {name: 14-608-CN, server: 183.238.90.8, port: 39076, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 14-609-SG, server: 13.250.125.114, port: 443, type: ss, cipher: aes-256-cfb, password: qawszxc123, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -385,6 +385,7 @@ proxy-groups:
       - 09-346-CN
       - 09-347-CN
       - 09-348-CN
+      - 09-402-KR
       - 09-560-RELAY
       - 10-565-RELAY
       - 10-566-CN
@@ -402,7 +403,6 @@ proxy-groups:
       - 14-600-VN
       - 14-601-CN
       - 14-608-CN
-      - 14-609-SG
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -495,6 +495,7 @@ proxy-groups:
       - 08-272-RU
       - 08-282-CN
       - 08-292-CN
+      - 09-402-KR
       - 10-572-US
   - name: 测速3分组
     type: url-test
@@ -652,7 +653,6 @@ proxy-groups:
       - 09-339-CN
       - 10-569-PL
       - 14-599-NL
-      - 14-609-SG
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
