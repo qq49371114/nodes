@@ -52,12 +52,12 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-100-RELAY, server: s4.db-link01.top, port: 8880, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.0.250, headers: {Host: s4.db-link01.top}}, udp: true}
-  - {name: 04-101-RELAY, server: s2.db-link02.top, port: 8880, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.19.205, headers: {Host: s2.db-link02.top}}, udp: true}
-  - {name: 04-102-RELAY, server: s2.cn-db.top, port: 80, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.24.219.132, headers: {Host: s2.cn-db.top}}, udp: true}
-  - {name: 04-103-RELAY, server: s3.db-link01.top, port: 2082, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.48.13, headers: {Host: s3.db-link01.top}}, udp: true}
-  - {name: 04-104-RELAY, server: s4.db-link01.top, port: 2095, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.146.9, headers: {Host: s4.db-link01.top}}, udp: true}
-  - {name: 04-105-RELAY, server: s3.db-link01.top, port: 8080, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.19.178.148, headers: {Host: s3.db-link01.top}}, udp: true}
+  - {name: 04-100-RELAY, server: s1.db-link01.top, port: 8880, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.1.214, headers: {Host: s1.db-link01.top}}, udp: true}
+  - {name: 04-101-RELAY, server: s5.db-link02.top, port: 2082, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.16.69.216, headers: {Host: s5.db-link02.top}}, udp: true}
+  - {name: 04-102-RELAY, server: s2.cn-db.top, port: 8080, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.118.157, headers: {Host: s2.cn-db.top}}, udp: true}
+  - {name: 04-103-RELAY, server: s5.db-link02.top, port: 2086, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.90.230, headers: {Host: s5.db-link02.top}}, udp: true}
+  - {name: 04-104-RELAY, server: s1.db-link01.top, port: 2086, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.109.58, headers: {Host: s1.db-link01.top}}, udp: true}
+  - {name: 04-105-RELAY, server: s1.db-link02.top, port: 2052, type: vmess, uuid: ba9542cb-aece-37c4-9d91-1f8bce1ff3d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.18.229.222, headers: {Host: s1.db-link02.top}}, udp: true}
   - {name: 04-106-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: 6da9dce6-4e53-3549-90ff-703e0adb5ba4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
   - {name: 04-107-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: 6da9dce6-4e53-3549-90ff-703e0adb5ba4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
   - {name: 04-108-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: 6da9dce6-4e53-3549-90ff-703e0adb5ba4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
@@ -68,139 +68,165 @@ proxies:
   - {name: 04-113-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 6da9dce6-4e53-3549-90ff-703e0adb5ba4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 04-114-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: 6da9dce6-4e53-3549-90ff-703e0adb5ba4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
   - {name: 04-115-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: 6da9dce6-4e53-3549-90ff-703e0adb5ba4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
-  - {name: 04-116-CN, server: yundun02.cdn.smp-paymentservices-apple.com, port: 56323, type: trojan, password: 09a60fc5-542d-3797-91da-f062cfd9d195, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-117-CN, server: yundun02.cdn.smp-paymentservices-apple.com, port: 56432, type: trojan, password: 09a60fc5-542d-3797-91da-f062cfd9d195, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-118-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23452, type: trojan, password: 09a60fc5-542d-3797-91da-f062cfd9d195, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-119-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23453, type: trojan, password: 09a60fc5-542d-3797-91da-f062cfd9d195, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-120-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: be9c8cb4-588c-3752-91d9-f8058b20ad7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
-  - {name: 04-121-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: be9c8cb4-588c-3752-91d9-f8058b20ad7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
-  - {name: 04-123-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: be9c8cb4-588c-3752-91d9-f8058b20ad7a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
-  - {name: 05-125-CN, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: dozo01.flztjc.top, skip-cert-verify: true, udp: true}
-  - {name: 05-128-CN, server: lbsh.bnnodeservice.com, port: 34001, type: trojan, password: af4476cc-7ad0-4aec-999a-97f70bc9de99, sni: cert.bitbyte.one, skip-cert-verify: true, udp: true}
-  - {name: 05-131-RELAY, server: 104.21.42.250, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: XXcdvFgT.191268.xYZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FctdmgeIg3NII3ibrzzKXJGy3S1", headers: {Host: XXcdvFgT.191268.xYZ}}, udp: true}
-  - {name: 05-140-RELAY, server: 104.21.32.1, port: 443, type: trojan, password: 7701ddf5-6a48-401b-a3ec-8af52b6deb48, sni: SsXcDFGty.99890604.XYZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FQRNs4ue90AX3hweBopuhWEbIX", headers: {Host: SsXcDFGty.99890604.XYZ}}, udp: true}
-  - {name: 05-148-RELAY, server: 172.67.214.21, port: 443, type: trojan, password: 7248e825-887c-48b9-83bc-c26bc6392bf8, sni: xXcdvFgt.191268.XYz, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FctdmgeIg3NII3ibrzzKXJGy3S1", headers: {Host: xXcdvFgt.191268.XYz}}, udp: true}
-  - {name: 07-155-CN, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-156-CN, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-157-CN, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-158-CN, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-159-CN, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-160-CN, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-161-CN, server: wb.kaiqsz.com, port: 42765, type: trojan, password: a25ed269-105b-4f15-bee2-bc2785d38912, sni: wb.kaiqsz.com, skip-cert-verify: true, udp: true}
-  - {name: 07-163-CN, server: 2.linkhub.support, port: 40206, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
-  - {name: 07-164-HK, server: 103.149.182.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 07-165-HK, server: hk-02.foxspirit.click, port: 1086, type: vmess, uuid: 4ca1e6db-f31a-4257-a95f-7bbef918cabd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zxascas, headers: {Host: hk-02.foxspirit.click}}, udp: true}
-  - {name: 07-166-HK, server: hk-02.foxspirit.click, port: 1086, type: vmess, uuid: 4799f446-702b-407f-bbba-9b242fa38ed7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zxascas, headers: {Host: hk-02.foxspirit.click}}, udp: true}
-  - {name: 07-167-HK, server: hk-02.foxspirit.click, port: 1086, type: vmess, uuid: 5aef9bfd-20e3-420a-9b16-433031984bd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zxascas, headers: {Host: hk-02.foxspirit.click}}, udp: true}
-  - {name: 07-168-HK, server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com}}, udp: true}
-  - {name: 07-169-HK, server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net}}, udp: true}
-  - {name: 07-171-DE, server: 91.107.164.255, port: 33203, type: vmess, uuid: a82148dd-4f11-4472-b341-f63f57dce17f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-172-IR, server: 78.39.56.4, port: 7600, type: vmess, uuid: ce63d7ce-bc85-455a-a12b-4e54eb39a14f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-173-RELAY, server: 102.132.188.3, port: 80, type: vmess, uuid: e95e35ba-f874-4eb3-9600-4dbd6d099f4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-174-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16016, type: ss, cipher: aes-256-gcm, password: A9QFM22KQPP4FDY5, udp: true}
-  - {name: 07-175-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 07-176-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-177-RELAY, server: 104.21.52.157, port: 80, type: vmess, uuid: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WsUikr8wXrXrFl2p8BiMhP42l}, udp: true}
-  - {name: 07-178-CN, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}, udp: true}
-  - {name: 07-179-VN, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 07-180-VN, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 07-181-VN, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 07-182-CN, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
-  - {name: 07-183-KR, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
-  - {name: 07-184-CN, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v28.heduian.link}}, udp: true}
-  - {name: 08-185-CN, server: gz.pddwdf.store, port: 48973, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-186-RU, server: 45.147.201.231, port: 23109, type: vmess, uuid: 164d9af6-bebf-489f-95be-c6c678825bc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-188-CN, server: gz.pddwdf.store, port: 14193, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-189-CN, server: gz.pddwdf.store, port: 14941, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-190-CN, server: gz.pddwdf.store, port: 44081, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-192-CN, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-193-CN, server: gz.pddwdf.store, port: 42980, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-194-CN, server: gz.pddwdf.store, port: 50921, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-195-CN, server: gz.pddwdf.store, port: 22455, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-197-NOWHERE, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-198-CN, server: gz.pddwdf.store, port: 42722, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-199-CN, server: gz.pddwdf.store, port: 33227, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-200-CN, server: gz.pddwdf.store, port: 51881, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-205-NOWHERE, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-206-CN, server: gz.pddwdf.store, port: 11315, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-209-CN, server: gz.pddwdf.store, port: 28485, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-210-NOWHERE, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-211-CN, server: gz.pddwdf.store, port: 33476, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-214-CN, server: gz.pddwdf.store, port: 53177, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-215-CN, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-216-RU, server: 45.147.201.231, port: 20068, type: vmess, uuid: 89e3ff2f-e940-4f50-b0ab-694c04ce2543, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-217-HK, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.dashuai.cyou}}, udp: true}
-  - {name: 08-222-CN, server: gz.pddwdf.store, port: 44105, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-223-RU, server: 45.147.201.231, port: 23109, type: vmess, uuid: 89e3ff2f-e940-4f50-b0ab-694c04ce2543, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-227-CN, server: gz.pddwdf.store, port: 46253, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-230-CN, server: gz.pddwdf.store, port: 11270, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-231-CN, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-233-CN, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-234-CN, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-236-CN, server: gz.pddwdf.store, port: 52461, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-237-RU, server: 45.147.201.231, port: 20068, type: vmess, uuid: 12f97579-62ca-484f-a282-bfb5dc981a9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-239-CN, server: gz.pddwdf.store, port: 18006, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-240-CN, server: gz.pddwdf.store, port: 49831, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-241-CN, server: gz.pddwdf.store, port: 43611, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-242-CN, server: gz.pddwdf.store, port: 39723, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-246-NOWHERE, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-247-CN, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-248-RU, server: 45.147.201.231, port: 20068, type: vmess, uuid: 164d9af6-bebf-489f-95be-c6c678825bc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-249-CN, server: gz.pddwdf.store, port: 25916, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-250-CN, server: gz.pddwdf.store, port: 15783, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-251-RU, server: 45.147.201.231, port: 23109, type: vmess, uuid: 12f97579-62ca-484f-a282-bfb5dc981a9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-252-CN, server: gz.pddwdf.store, port: 50971, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-253-CN, server: sh.pddwdf.store, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-254-CN, server: gz.pddwdf.store, port: 39367, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-255-NOWHERE, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-256-CN, server: gz.pddwdf.store, port: 36137, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-258-CN, server: gz.pddwdf.store, port: 47431, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-261-CN, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-263-CN, server: gz.pddwdf.store, port: 58043, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-264-CN, server: gz.pddwdf.store, port: 33143, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-265-CN, server: sh.pddwdf.store, port: 38733, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-267-NOWHERE, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-268-CN, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-270-CN, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-272-NOWHERE, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-274-CN, server: gz.pddwdf.store, port: 11515, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-278-CN, server: gz.pddwdf.store, port: 22327, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-279-NOWHERE, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-280-CN, server: gz.pddwdf.store, port: 14867, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-282-CN, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-283-CN, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-284-NOWHERE, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-286-CN, server: gz.pddwdf.store, port: 12034, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-289-NOWHERE, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-290-CN, server: gz.pddwdf.store, port: 36086, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-291-CN, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-292-CN, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
-  - {name: 08-293-NOWHERE, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 08-294-CN, server: gz.pddwdf.store, port: 20692, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-296-CN, server: sh.pddwdf.store, port: 39707, type: ss, cipher: chacha20-ietf-poly1305, password: 10a33365-328c-4792-8068-35c618c68fd1, udp: true}
-  - {name: 08-297-NOWHERE, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: e3039241-4d6e-4910-a36b-eee412fc4ecc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
-  - {name: 09-310-CN, server: 120.232.153.40, port: 52152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 10-435-TW, server: tw40.453521.xyz, port: 3663, type: trojan, password: a348278e-71ac-499c-8069-28b1af18c372, skip-cert-verify: true, udp: true}
-  - {name: 10-436-RELAY, server: 104.21.112.1, port: 2096, type: vmess, uuid: 3988dfba-e9ee-40ba-a87e-553aee1c5993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 10-437-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
-  - {name: 10-438-CN, server: 120.233.44.201, port: 21003, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k15.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 10-439-RELAY, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 10-440-CN, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
-  - {name: 10-441-CN, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 10-442-RELAY, server: 33DEFRTy6.444652.XYZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9dZlJLjHHrL0VwSolbqFpg, headers: {Host: 33DEFRTy6.444652.XYZ}}, udp: true}
-  - {name: 10-443-FR, server: 13.37.66.53, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 10-444-CN, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-445-RELAY, server: npmjs.com, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: npmjs.com}}, udp: true}
-  - {name: 10-446-US, server: 64.32.1.239, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766750833}, udp: true}
-  - {name: 10-447-CN, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 10-448-FR, server: 13.37.66.53, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 10-449-US, server: 107.167.5.148, port: 31001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
-  - {name: 10-450-US, server: 38.11.50.198, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
-  - {name: 10-451-US, server: 64.32.17.45, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
-  - {name: 10-452-CN, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
-  - {name: 14-468-VN, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 14-477-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
-  - {name: 14-478-CN, server: 42.240.152.238, port: 8842, type: trojan, password: 1b4c16925f934c57b954a9f0f23dea33, sni: brwx.spvpv.com, skip-cert-verify: true, udp: true}
+  - {name: 04-116-CN, server: yundun02.cdn.smp-paymentservices-apple.com, port: 56323, type: trojan, password: 4671fd4a-8db9-3419-953c-458b4bbcc8da, sni: edge.steam-dns.top.comcast.net, skip-cert-verify: true, udp: true}
+  - {name: 04-117-CN, server: yundun02.cdn.smp-paymentservices-apple.com, port: 56432, type: trojan, password: 4671fd4a-8db9-3419-953c-458b4bbcc8da, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
+  - {name: 04-118-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23452, type: trojan, password: 4671fd4a-8db9-3419-953c-458b4bbcc8da, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-119-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23453, type: trojan, password: 4671fd4a-8db9-3419-953c-458b4bbcc8da, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-120-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: 4e1beb0a-a018-3ad0-aaea-543b61163c6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
+  - {name: 04-121-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 4e1beb0a-a018-3ad0-aaea-543b61163c6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
+  - {name: 04-123-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: 4e1beb0a-a018-3ad0-aaea-543b61163c6f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
+  - {name: 07-134-CN, server: 47.116.166.178, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-135-CN, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-136-CN, server: 112.132.215.34, port: 50007, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-137-CN, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-138-CN, server: 183.236.51.36, port: 59003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-139-CN, server: 120.26.55.225, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-140-CN, server: wb.kaiqsz.com, port: 42765, type: trojan, password: a25ed269-105b-4f15-bee2-bc2785d38912, sni: wb.kaiqsz.com, skip-cert-verify: true, udp: true}
+  - {name: 07-142-CN, server: 2.linkhub.support, port: 40206, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
+  - {name: 07-143-HK, server: 103.149.182.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 07-144-HK, server: hk-02.foxspirit.click, port: 1086, type: vmess, uuid: 4ca1e6db-f31a-4257-a95f-7bbef918cabd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zxascas, headers: {Host: hk-02.foxspirit.click}}, udp: true}
+  - {name: 07-145-HK, server: hk-02.foxspirit.click, port: 1086, type: vmess, uuid: 4799f446-702b-407f-bbba-9b242fa38ed7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zxascas, headers: {Host: hk-02.foxspirit.click}}, udp: true}
+  - {name: 07-146-HK, server: hk-02.foxspirit.click, port: 1086, type: vmess, uuid: 5aef9bfd-20e3-420a-9b16-433031984bd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /zxascas, headers: {Host: hk-02.foxspirit.click}}, udp: true}
+  - {name: 07-147-HK, server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com, port: 80, type: vmess, uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com}}, udp: true}
+  - {name: 07-148-HK, server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net, port: 8080, type: vmess, uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net}}, udp: true}
+  - {name: 07-150-DE, server: 91.107.164.255, port: 33203, type: vmess, uuid: a82148dd-4f11-4472-b341-f63f57dce17f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-151-IR, server: 78.39.56.4, port: 7600, type: vmess, uuid: ce63d7ce-bc85-455a-a12b-4e54eb39a14f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-152-RELAY, server: 102.132.188.3, port: 80, type: vmess, uuid: e95e35ba-f874-4eb3-9600-4dbd6d099f4e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-153-CN, server: ti3hyra4.slashdevslashnetslashtun.net, port: 16016, type: ss, cipher: aes-256-gcm, password: A9QFM22KQPP4FDY5, udp: true}
+  - {name: 07-154-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 07-155-CN, server: 112.65.92.20, port: 45251, type: vmess, uuid: 469e0b31-30c3-4dab-800d-711232634ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-156-RELAY, server: 104.21.52.157, port: 80, type: vmess, uuid: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /WsUikr8wXrXrFl2p8BiMhP42l}, udp: true}
+  - {name: 07-157-CN, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}, udp: true}
+  - {name: 07-158-VN, server: 103.186.155.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 07-159-VN, server: 103.186.154.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 07-160-VN, server: 103.186.154.18, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 07-161-CN, server: 203.156.253.12, port: 39001, type: trojan, password: 85f133142f04dbf6547da33895cfabb3, sni: www.yrtok.com, skip-cert-verify: true, udp: true}
+  - {name: 07-162-KR, server: 125.141.31.72, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@, udp: true}
+  - {name: 07-163-CN, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v28.heduian.link}}, udp: true}
+  - {name: 08-167-CN, server: gz.pddwdf.store, port: 33227, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-168-RU, server: 45.147.201.231, port: 20068, type: vmess, uuid: 7dcd31c0-f3e2-48b7-862c-a36e05a6121f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-169-CN, server: gz.pddwdf.store, port: 47431, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-171-CN, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-173-CN, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-174-CN, server: gz.pddwdf.store, port: 22327, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-175-CN, server: gz.pddwdf.store, port: 49831, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-176-CN, server: gz.pddwdf.store, port: 42722, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-177-CN, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-180-CN, server: gz.pddwdf.store, port: 42980, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-181-NOWHERE, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-182-CN, server: gz.pddwdf.store, port: 25916, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-184-CN, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-185-NOWHERE, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-186-CN, server: sh.pddwdf.store, port: 38733, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-189-CN, server: gz.pddwdf.store, port: 11515, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-192-CN, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-194-CN, server: gz.pddwdf.store, port: 36086, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-196-NOWHERE, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-197-NOWHERE, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-198-RU, server: 45.147.201.231, port: 20068, type: vmess, uuid: 9cb744ee-e561-4acc-b76f-c51293679b00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-201-RU, server: 45.147.201.231, port: 20068, type: vmess, uuid: 475675ac-013d-4997-956b-dd4f998a10b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-202-RU, server: 45.147.201.231, port: 23109, type: vmess, uuid: 475675ac-013d-4997-956b-dd4f998a10b1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-205-CN, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-206-CN, server: gz.pddwdf.store, port: 51881, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-210-CN, server: gz.pddwdf.store, port: 14193, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-213-HK, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xg.dashuai.cyou}}, udp: true}
+  - {name: 08-215-CN, server: gz.pddwdf.store, port: 20692, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-216-CN, server: gz.pddwdf.store, port: 12034, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-218-CN, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-222-CN, server: gz.pddwdf.store, port: 50971, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-223-CN, server: gz.pddwdf.store, port: 36137, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-228-CN, server: gz.pddwdf.store, port: 28485, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-230-NOWHERE, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-231-CN, server: gz.pddwdf.store, port: 22455, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-232-RU, server: 45.147.201.231, port: 23109, type: vmess, uuid: 7dcd31c0-f3e2-48b7-862c-a36e05a6121f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-233-NOWHERE, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-234-NOWHERE, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-235-CN, server: gz.pddwdf.store, port: 43611, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-236-CN, server: gz.pddwdf.store, port: 48973, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-237-CN, server: gz.pddwdf.store, port: 14867, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-238-NOWHERE, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-239-RU, server: 45.147.201.231, port: 23109, type: vmess, uuid: 9cb744ee-e561-4acc-b76f-c51293679b00, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 08-240-CN, server: gz.pddwdf.store, port: 52461, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-242-NOWHERE, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-243-NOWHERE, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-244-CN, server: gz.pddwdf.store, port: 50921, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-246-CN, server: gz.pddwdf.store, port: 39367, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-247-NOWHERE, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-249-CN, server: gz.pddwdf.store, port: 33143, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-250-CN, server: gz.pddwdf.store, port: 33476, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-251-CN, server: gz.pddwdf.store, port: 46253, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-252-CN, server: gz.pddwdf.store, port: 11270, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-253-CN, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-254-CN, server: gz.pddwdf.store, port: 39723, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-257-CN, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-259-CN, server: gz.pddwdf.store, port: 18006, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-260-CN, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-261-CN, server: gz.pddwdf.store, port: 44105, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-262-CN, server: sh.pddwdf.store, port: 39707, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-263-CN, server: gz.pddwdf.store, port: 15783, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-265-CN, server: gz.pddwdf.store, port: 14941, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-266-CN, server: gz.pddwdf.store, port: 44081, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-267-CN, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-268-CN, server: gz.pddwdf.store, port: 53177, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-269-CN, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-270-CN, server: sh.pddwdf.store, port: 31032, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-271-CN, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
+  - {name: 08-272-NOWHERE, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 575f1773-d282-4cb9-bfd1-deb22d1a2a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
+  - {name: 08-274-CN, server: gz.pddwdf.store, port: 11315, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 08-275-CN, server: gz.pddwdf.store, port: 58043, type: ss, cipher: chacha20-ietf-poly1305, password: 723fc92c-de88-4925-b2a9-a3b827d8715d, udp: true}
+  - {name: 09-289-CN, server: 120.232.153.40, port: 52152, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 10-411-TW, server: tw40.453521.xyz, port: 3663, type: trojan, password: a348278e-71ac-499c-8069-28b1af18c372, skip-cert-verify: true, udp: true}
+  - {name: 10-412-RELAY, server: 104.21.112.1, port: 2096, type: vmess, uuid: 3988dfba-e9ee-40ba-a87e-553aee1c5993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 10-413-CN, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
+  - {name: 10-414-CN, server: 120.233.44.201, port: 21003, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k15.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 10-415-RELAY, server: 104.21.3.189, port: 2053, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 10-416-PL, server: pr.fastsoonlink.com, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
+  - {name: 10-417-CN, server: 36.156.184.33, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 10-418-RELAY, server: 33DEFRTy6.444652.XYZ, port: 80, type: vmess, uuid: cdec9d57-661d-456a-bbf2-b4c38e9c6711, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /9dZlJLjHHrL0VwSolbqFpg, headers: {Host: 33DEFRTy6.444652.XYZ}}, udp: true}
+  - {name: 10-419-FR, server: 13.37.66.53, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 10-420-CN, server: 120.232.153.40, port: 31209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 10-421-RELAY, server: npmjs.com, port: 8080, type: vmess, uuid: 6cbc9c78-1cb1-57d4-a999-e2f4e34c1e03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /nasnet/cdn, headers: {Host: npmjs.com}}, udp: true}
+  - {name: 10-422-US, server: 64.32.1.239, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766750833}, udp: true}
+  - {name: 10-423-CN, server: 120.198.71.219, port: 49355, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 10-424-FR, server: 13.37.66.53, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 10-425-US, server: 107.167.5.148, port: 31001, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
+  - {name: 10-426-US, server: 38.11.50.198, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
+  - {name: 10-427-US, server: 64.32.17.45, port: 30004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1750766524824}, udp: true}
+  - {name: 10-428-CN, server: xd-js.timiwc.com, port: 21603, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k61.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 14-446-RELAY, server: iIiiI8.222560.xYZ, port: 80, type: vmess, uuid: 393b1061-d615-459a-8616-3f9447bdff5a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ, headers: {Host: iIiiI8.222560.xYZ}}, udp: true}
+  - {name: 14-449-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-454-VN, server: 103.186.154.19, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 14-456-CN, server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v29.heduian.link}}, udp: true}
+  - {name: 14-458-CN, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v24.heduian.link}}, udp: true}
+  - {name: 14-459-CN, server: xd-js.timiwc.com, port: 21332, type: trojan, password: 2b1ed981-6547-4094-998b-06a3323d6f6c, sni: k65.tudou211.com, skip-cert-verify: true, udp: true}
+  - {name: 14-460-CN, server: v36.heduian.link, port: 30836, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v36.heduian.link}}, udp: true}
+  - {name: 14-461-GB, server: 212.102.53.81, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 14-463-RELAY, server: cf.fovi.tk, port: 443, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: cf.fovi.tk}}, udp: true}
+  - {name: 14-464-RU, server: 185.60.134.149, port: 20, type: ss, cipher: aes-256-gcm, password: 1KssbuTybQDBYgDju5nNSg, udp: true}
+  - {name: 14-465-NOWHERE, server: ssr6.ssrsub.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
+  - {name: 14-466-RELAY, server: 104.21.238.242, port: 2086, type: vmess, uuid: 7d92ffc9-02e1-4087-8a46-cc4d76560917, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: github.com/Alvin9999}, udp: true}
+  - {name: 14-467-RELAY, server: wilson.ns.cloudflare.com, port: 443, type: trojan, password: 06e4425e-a8cb-4b63-929f-2105604ab0a9, sni: kc1.vs2024.dpdns.org, skip-cert-verify: true, udp: true}
+  - {name: 23-477-CA, server: 23.162.200.227, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 23-491-SE, server: 176.124.207.105, port: 37322, type: ss, cipher: chacha20-ietf-poly1305, password: 04Jjxva9iT7dcKenREz3xg, udp: true}
+  - {name: 23-492-SE, server: homa.cybsecguru.com, port: 62005, type: ss, cipher: chacha20-ietf-poly1305, password: 0rBU5lwwlugGXlmeKA6O5Q, udp: true}
+  - {name: 23-494-FI, server: 157.180.127.73, port: 23819, type: ss, cipher: chacha20-ietf-poly1305, password: C/6MNvg43zEdnmj6zK5MArALTfzhETRD3NzLNT+IL98=, udp: true}
+  - {name: 23-496-GB, server: 46.226.163.225, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
+  - {name: 23-497-NL, server: 77.238.229.244, port: 12369, type: ss, cipher: chacha20-ietf-poly1305, password: 6G0ODfNwCUGR0KEf3VPQLh, udp: true}
+  - {name: 23-498-DE, server: 45.150.32.13, port: 14628, type: ss, cipher: chacha20-ietf-poly1305, password: sd50HD4mAXode2vAqrun2y, udp: true}
+  - {name: 23-499-NL, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD, udp: true}
+  - {name: 23-510-NL, server: 77.246.102.112, port: 60117, type: ss, cipher: chacha20-ietf-poly1305, password: Y1hjiUmSgucgzYYJ0WtqwW, udp: true}
+  - {name: 23-514-RELAY, server: 172.67.149.202, port: 443, type: trojan, password: 19a78eeb-d83a-4364-b095-b7dd93436320, sni: CVFgTrE4.222560.XyZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FHq0I4JMuzO0WLijID", headers: {Host: CVFgTrE4.222560.XyZ}}, udp: true}
+  - {name: 23-518-DE, server: 81.19.141.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 3TnQdgm2mVJQbuSCXmR5Vc, udp: true}
+  - {name: 23-519-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
+  - {name: 23-520-KZ, server: 38.107.234.38, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
+  - {name: 23-522-HK, server: 156.225.22.213, port: 552, type: ss, cipher: aes-128-gcm, password: rGDbiF7gtx5TWt4r4VjneQ==, udp: true}
+  - {name: 23-524-LV, server: 216.173.70.187, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
+  - {name: 23-527-PL, server: 23.27.24.181, port: 40030, type: ss, cipher: chacha20-ietf-poly1305, password: 7905a32b-012c-4711-89e2-73b6713eca75, udp: true}
+  - {name: 23-528-IN, server: 166.0.244.206, port: 2053, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 23-529-TR, server: 62.133.63.212, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
+  - {name: 23-531-RELAY, server: 104.21.72.108, port: 443, type: trojan, password: auto, sni: esetsecuritylicense1.cxlrazo.workers.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: esetsecuritylicense1.cxlrazo.workers.dev}}, udp: true}
+  - {name: 23-532-RELAY, server: 141.101.122.171, port: 443, type: trojan, password: NISHIKUITAN111, skip-cert-verify: true, udp: true}
+  - {name: 23-534-JP, server: 35.77.146.185, port: 443, type: trojan, password: !<str> 3778399737045327872, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -241,132 +267,158 @@ proxy-groups:
       - 04-120-JP
       - 04-121-NOWHERE
       - 04-123-NOWHERE
-      - 05-125-CN
-      - 05-128-CN
-      - 05-131-RELAY
-      - 05-140-RELAY
-      - 05-148-RELAY
+      - 07-134-CN
+      - 07-135-CN
+      - 07-136-CN
+      - 07-137-CN
+      - 07-138-CN
+      - 07-139-CN
+      - 07-140-CN
+      - 07-142-CN
+      - 07-143-HK
+      - 07-144-HK
+      - 07-145-HK
+      - 07-146-HK
+      - 07-147-HK
+      - 07-148-HK
+      - 07-150-DE
+      - 07-151-IR
+      - 07-152-RELAY
+      - 07-153-CN
+      - 07-154-US
       - 07-155-CN
-      - 07-156-CN
+      - 07-156-RELAY
       - 07-157-CN
-      - 07-158-CN
-      - 07-159-CN
-      - 07-160-CN
+      - 07-158-VN
+      - 07-159-VN
+      - 07-160-VN
       - 07-161-CN
+      - 07-162-KR
       - 07-163-CN
-      - 07-164-HK
-      - 07-165-HK
-      - 07-166-HK
-      - 07-167-HK
-      - 07-168-HK
-      - 07-169-HK
-      - 07-171-DE
-      - 07-172-IR
-      - 07-173-RELAY
-      - 07-174-CN
-      - 07-175-US
-      - 07-176-CN
-      - 07-177-RELAY
-      - 07-178-CN
-      - 07-179-VN
-      - 07-180-VN
-      - 07-181-VN
-      - 07-182-CN
-      - 07-183-KR
-      - 07-184-CN
-      - 08-185-CN
-      - 08-186-RU
-      - 08-188-CN
+      - 08-167-CN
+      - 08-168-RU
+      - 08-169-CN
+      - 08-171-CN
+      - 08-173-CN
+      - 08-174-CN
+      - 08-175-CN
+      - 08-176-CN
+      - 08-177-CN
+      - 08-180-CN
+      - 08-181-NOWHERE
+      - 08-182-CN
+      - 08-184-CN
+      - 08-185-NOWHERE
+      - 08-186-CN
       - 08-189-CN
-      - 08-190-CN
       - 08-192-CN
-      - 08-193-CN
       - 08-194-CN
-      - 08-195-CN
+      - 08-196-NOWHERE
       - 08-197-NOWHERE
-      - 08-198-CN
-      - 08-199-CN
-      - 08-200-CN
-      - 08-205-NOWHERE
+      - 08-198-RU
+      - 08-201-RU
+      - 08-202-RU
+      - 08-205-CN
       - 08-206-CN
-      - 08-209-CN
-      - 08-210-NOWHERE
-      - 08-211-CN
-      - 08-214-CN
+      - 08-210-CN
+      - 08-213-HK
       - 08-215-CN
-      - 08-216-RU
-      - 08-217-HK
+      - 08-216-CN
+      - 08-218-CN
       - 08-222-CN
-      - 08-223-RU
-      - 08-227-CN
-      - 08-230-CN
+      - 08-223-CN
+      - 08-228-CN
+      - 08-230-NOWHERE
       - 08-231-CN
-      - 08-233-CN
-      - 08-234-CN
+      - 08-232-RU
+      - 08-233-NOWHERE
+      - 08-234-NOWHERE
+      - 08-235-CN
       - 08-236-CN
-      - 08-237-RU
-      - 08-239-CN
+      - 08-237-CN
+      - 08-238-NOWHERE
+      - 08-239-RU
       - 08-240-CN
-      - 08-241-CN
-      - 08-242-CN
-      - 08-246-NOWHERE
-      - 08-247-CN
-      - 08-248-RU
+      - 08-242-NOWHERE
+      - 08-243-NOWHERE
+      - 08-244-CN
+      - 08-246-CN
+      - 08-247-NOWHERE
       - 08-249-CN
       - 08-250-CN
-      - 08-251-RU
+      - 08-251-CN
       - 08-252-CN
       - 08-253-CN
       - 08-254-CN
-      - 08-255-NOWHERE
-      - 08-256-CN
-      - 08-258-CN
+      - 08-257-CN
+      - 08-259-CN
+      - 08-260-CN
       - 08-261-CN
+      - 08-262-CN
       - 08-263-CN
-      - 08-264-CN
       - 08-265-CN
-      - 08-267-NOWHERE
+      - 08-266-CN
+      - 08-267-CN
       - 08-268-CN
+      - 08-269-CN
       - 08-270-CN
+      - 08-271-CN
       - 08-272-NOWHERE
       - 08-274-CN
-      - 08-278-CN
-      - 08-279-NOWHERE
-      - 08-280-CN
-      - 08-282-CN
-      - 08-283-CN
-      - 08-284-NOWHERE
-      - 08-286-CN
-      - 08-289-NOWHERE
-      - 08-290-CN
-      - 08-291-CN
-      - 08-292-CN
-      - 08-293-NOWHERE
-      - 08-294-CN
-      - 08-296-CN
-      - 08-297-NOWHERE
-      - 09-310-CN
-      - 10-435-TW
-      - 10-436-RELAY
-      - 10-437-CN
-      - 10-438-CN
-      - 10-439-RELAY
-      - 10-440-CN
-      - 10-441-CN
-      - 10-442-RELAY
-      - 10-443-FR
-      - 10-444-CN
-      - 10-445-RELAY
-      - 10-446-US
-      - 10-447-CN
-      - 10-448-FR
-      - 10-449-US
-      - 10-450-US
-      - 10-451-US
-      - 10-452-CN
-      - 14-468-VN
-      - 14-477-CN
-      - 14-478-CN
+      - 08-275-CN
+      - 09-289-CN
+      - 10-411-TW
+      - 10-412-RELAY
+      - 10-413-CN
+      - 10-414-CN
+      - 10-415-RELAY
+      - 10-416-PL
+      - 10-417-CN
+      - 10-418-RELAY
+      - 10-419-FR
+      - 10-420-CN
+      - 10-421-RELAY
+      - 10-422-US
+      - 10-423-CN
+      - 10-424-FR
+      - 10-425-US
+      - 10-426-US
+      - 10-427-US
+      - 10-428-CN
+      - 14-446-RELAY
+      - 14-449-KR
+      - 14-454-VN
+      - 14-456-CN
+      - 14-458-CN
+      - 14-459-CN
+      - 14-460-CN
+      - 14-461-GB
+      - 14-463-RELAY
+      - 14-464-RU
+      - 14-465-NOWHERE
+      - 14-466-RELAY
+      - 14-467-RELAY
+      - 23-477-CA
+      - 23-491-SE
+      - 23-492-SE
+      - 23-494-FI
+      - 23-496-GB
+      - 23-497-NL
+      - 23-498-DE
+      - 23-499-NL
+      - 23-510-NL
+      - 23-514-RELAY
+      - 23-518-DE
+      - 23-519-US
+      - 23-520-KZ
+      - 23-522-HK
+      - 23-524-LV
+      - 23-527-PL
+      - 23-528-IN
+      - 23-529-TR
+      - 23-531-RELAY
+      - 23-532-RELAY
+      - 23-534-JP
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -425,18 +477,20 @@ proxy-groups:
       - 04-101-RELAY
       - 04-111-CN
       - 04-121-NOWHERE
-      - 05-131-RELAY
+      - 07-151-IR
       - 07-161-CN
-      - 07-171-DE
-      - 07-181-VN
-      - 08-211-CN
+      - 08-171-CN
+      - 08-181-NOWHERE
+      - 08-201-RU
       - 08-231-CN
-      - 08-241-CN
-      - 08-251-RU
+      - 08-251-CN
       - 08-261-CN
-      - 08-291-CN
-      - 10-441-CN
-      - 10-451-US
+      - 08-271-CN
+      - 10-411-TW
+      - 10-421-RELAY
+      - 14-461-GB
+      - 23-491-SE
+      - 23-531-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -445,17 +499,23 @@ proxy-groups:
     proxies:
       - 04-102-RELAY
       - 04-112-CN
-      - 07-172-IR
-      - 07-182-CN
+      - 07-142-CN
+      - 07-152-RELAY
+      - 07-162-KR
+      - 08-182-CN
       - 08-192-CN
+      - 08-202-RU
       - 08-222-CN
-      - 08-242-CN
+      - 08-232-RU
+      - 08-242-NOWHERE
       - 08-252-CN
+      - 08-262-CN
       - 08-272-NOWHERE
-      - 08-282-CN
-      - 08-292-CN
-      - 10-442-RELAY
-      - 10-452-CN
+      - 10-412-RELAY
+      - 10-422-US
+      - 23-492-SE
+      - 23-522-HK
+      - 23-532-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -465,17 +525,19 @@ proxy-groups:
       - 04-103-RELAY
       - 04-113-CN
       - 04-123-NOWHERE
+      - 07-143-HK
+      - 07-153-CN
       - 07-163-CN
-      - 07-173-RELAY
-      - 07-183-KR
-      - 08-193-CN
-      - 08-223-RU
-      - 08-233-CN
+      - 08-173-CN
+      - 08-213-HK
+      - 08-223-CN
+      - 08-233-NOWHERE
+      - 08-243-NOWHERE
       - 08-253-CN
       - 08-263-CN
-      - 08-283-CN
-      - 08-293-NOWHERE
-      - 10-443-FR
+      - 10-413-CN
+      - 10-423-CN
+      - 14-463-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -484,18 +546,24 @@ proxy-groups:
     proxies:
       - 04-104-RELAY
       - 04-114-CN
-      - 07-164-HK
-      - 07-174-CN
-      - 07-184-CN
+      - 07-134-CN
+      - 07-144-HK
+      - 07-154-US
+      - 08-174-CN
+      - 08-184-CN
       - 08-194-CN
-      - 08-214-CN
-      - 08-234-CN
+      - 08-234-NOWHERE
+      - 08-244-CN
       - 08-254-CN
-      - 08-264-CN
       - 08-274-CN
-      - 08-284-NOWHERE
-      - 08-294-CN
-      - 10-444-CN
+      - 10-414-CN
+      - 10-424-FR
+      - 14-454-VN
+      - 14-464-RU
+      - 23-494-FI
+      - 23-514-RELAY
+      - 23-524-LV
+      - 23-534-JP
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -504,18 +572,19 @@ proxy-groups:
     proxies:
       - 04-105-RELAY
       - 04-115-CN
-      - 05-125-CN
+      - 07-135-CN
+      - 07-145-HK
       - 07-155-CN
-      - 07-165-HK
-      - 07-175-US
-      - 08-185-CN
-      - 08-195-CN
-      - 08-205-NOWHERE
+      - 08-175-CN
+      - 08-185-NOWHERE
+      - 08-205-CN
       - 08-215-CN
-      - 08-255-NOWHERE
+      - 08-235-CN
       - 08-265-CN
-      - 10-435-TW
-      - 10-445-RELAY
+      - 08-275-CN
+      - 10-415-RELAY
+      - 10-425-US
+      - 14-465-NOWHERE
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -524,19 +593,23 @@ proxy-groups:
     proxies:
       - 04-106-CN
       - 04-116-CN
-      - 07-156-CN
-      - 07-166-HK
-      - 07-176-CN
-      - 08-186-RU
+      - 07-136-CN
+      - 07-146-HK
+      - 07-156-RELAY
+      - 08-176-CN
+      - 08-186-CN
+      - 08-196-NOWHERE
       - 08-206-CN
-      - 08-216-RU
+      - 08-216-CN
       - 08-236-CN
-      - 08-246-NOWHERE
-      - 08-256-CN
-      - 08-286-CN
-      - 08-296-CN
-      - 10-436-RELAY
-      - 10-446-US
+      - 08-246-CN
+      - 08-266-CN
+      - 10-416-PL
+      - 10-426-US
+      - 14-446-RELAY
+      - 14-456-CN
+      - 14-466-RELAY
+      - 23-496-GB
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -545,19 +618,22 @@ proxy-groups:
     proxies:
       - 04-107-CN
       - 04-117-CN
+      - 07-137-CN
+      - 07-147-HK
       - 07-157-CN
-      - 07-167-HK
-      - 07-177-RELAY
+      - 08-167-CN
+      - 08-177-CN
       - 08-197-NOWHERE
-      - 08-217-HK
-      - 08-227-CN
-      - 08-237-RU
-      - 08-247-CN
-      - 08-267-NOWHERE
-      - 08-297-NOWHERE
-      - 10-437-CN
-      - 10-447-CN
-      - 14-477-CN
+      - 08-237-CN
+      - 08-247-NOWHERE
+      - 08-257-CN
+      - 08-267-CN
+      - 10-417-CN
+      - 10-427-US
+      - 14-467-RELAY
+      - 23-477-CA
+      - 23-497-NL
+      - 23-527-PL
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -566,21 +642,21 @@ proxy-groups:
     proxies:
       - 04-108-CN
       - 04-118-CN
-      - 05-128-CN
-      - 05-148-RELAY
-      - 07-158-CN
-      - 07-168-HK
-      - 07-178-CN
-      - 08-188-CN
-      - 08-198-CN
-      - 08-248-RU
-      - 08-258-CN
+      - 07-138-CN
+      - 07-148-HK
+      - 07-158-VN
+      - 08-168-RU
+      - 08-198-RU
+      - 08-218-CN
+      - 08-228-CN
+      - 08-238-NOWHERE
       - 08-268-CN
-      - 08-278-CN
-      - 10-438-CN
-      - 10-448-FR
-      - 14-468-VN
-      - 14-478-CN
+      - 10-418-RELAY
+      - 10-428-CN
+      - 14-458-CN
+      - 23-498-DE
+      - 23-518-DE
+      - 23-528-IN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -589,18 +665,21 @@ proxy-groups:
     proxies:
       - 04-109-CN
       - 04-119-CN
-      - 07-159-CN
-      - 07-169-HK
-      - 07-179-VN
+      - 07-139-CN
+      - 07-159-VN
+      - 08-169-CN
       - 08-189-CN
-      - 08-199-CN
-      - 08-209-CN
-      - 08-239-CN
+      - 08-239-RU
       - 08-249-CN
-      - 08-279-NOWHERE
-      - 08-289-NOWHERE
-      - 10-439-RELAY
-      - 10-449-US
+      - 08-259-CN
+      - 08-269-CN
+      - 09-289-CN
+      - 10-419-FR
+      - 14-449-KR
+      - 14-459-CN
+      - 23-499-NL
+      - 23-519-US
+      - 23-529-TR
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -610,21 +689,20 @@ proxy-groups:
       - 04-100-RELAY
       - 04-110-CN
       - 04-120-JP
-      - 05-140-RELAY
-      - 07-160-CN
-      - 07-180-VN
-      - 08-190-CN
-      - 08-200-CN
-      - 08-210-NOWHERE
-      - 08-230-CN
+      - 07-140-CN
+      - 07-150-DE
+      - 07-160-VN
+      - 08-180-CN
+      - 08-210-CN
+      - 08-230-NOWHERE
       - 08-240-CN
       - 08-250-CN
+      - 08-260-CN
       - 08-270-CN
-      - 08-280-CN
-      - 08-290-CN
-      - 09-310-CN
-      - 10-440-CN
-      - 10-450-US
+      - 10-420-CN
+      - 14-460-CN
+      - 23-510-NL
+      - 23-520-KZ
   - name: 广告拦截
     type: select
     proxies:
