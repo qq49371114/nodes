@@ -91,6 +91,7 @@ proxies:
   - {name: 07-161-CN, server: 183.240.187.198, port: 34664, type: ss, cipher: 2022-blake3-aes-128-gcm, password: 12xGRmcEy3TVETzE47MreA==, udp: true}
   - {name: 07-162-CN, server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-163-CN, server: 120.210.205.59, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 07-164-HK, server: 156.226.173.104, port: 443, type: ss, cipher: aes-128-gcm, password: ZMOmCcKew5oDwrnCg8OMXsOUwovChUlUwpbCn8Oyw67Dm186EsOUKgVVw6t1GsOrw6A=, udp: true}
   - {name: 07-165-CN, server: 120.198.71.217, port: 46759, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-166-CN, server: 183.236.51.37, port: 41911, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-167-CN, server: 3.link-hub.click, port: 40239, type: ssr, cipher: rc4-md5, password: ENZ52K, protocol: auth_aes128_md5, obfs: plain, protocol-param: 92902:pFWGOQ, obfs-param: cd2b692902.6602b8463464108506.microsoft.com, udp: true}
@@ -194,7 +195,6 @@ proxies:
   - {name: 14-490-CN, server: js-12f83a8c.kaiqsz.com, port: 42765, type: trojan, password: b483bf41-79d4-48df-bec6-30a756a3bd6b, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true, udp: true}
   - {name: 14-495-VN, server: 103.186.154.27, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 14-500-RELAY, server: 104.26.12.31, port: 8443, type: trojan, password: trojan, sni: fofang.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: fofang.pages.dev}}, udp: true}
-  - {name: 23-512-HK, server: 154.223.21.221, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-521-JP, server: 160.16.150.202, port: 443, type: trojan, password: 3bcd9e33-8377-4b32-af33-217158577ff3, sni: kdlsupport.zendesk.com, skip-cert-verify: true, udp: true}
   - {name: 23-522-US, server: 45.32.137.6, port: 443, type: trojan, password: Bw5Mz7QkVp, sni: z-v2-082509.kailib.com, skip-cert-verify: true, udp: true}
   - {name: 23-532-GB, server: 78.129.140.11, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: G2C3Q9RnlWCGHMGhfB3baq, udp: true}
@@ -260,6 +260,7 @@ proxy-groups:
       - 07-161-CN
       - 07-162-CN
       - 07-163-CN
+      - 07-164-HK
       - 07-165-CN
       - 07-166-CN
       - 07-167-CN
@@ -363,7 +364,6 @@ proxy-groups:
       - 14-490-CN
       - 14-495-VN
       - 14-500-RELAY
-      - 23-512-HK
       - 23-521-JP
       - 23-522-US
       - 23-532-GB
@@ -465,7 +465,6 @@ proxy-groups:
       - 08-252-NOWHERE
       - 09-272-CN
       - 10-462-CN
-      - 23-512-HK
       - 23-522-US
       - 23-532-GB
       - 23-562-RU
@@ -502,6 +501,7 @@ proxy-groups:
       - 04-104-RELAY
       - 04-114-CN
       - 05-134-CN
+      - 07-164-HK
       - 07-174-IR
       - 07-184-CN
       - 07-194-RELAY
