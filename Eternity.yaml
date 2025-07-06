@@ -52,68 +52,44 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 04-100-RELAY, server: s5.db-link02.top, port: 2086, type: vmess, uuid: e611e08f-ef95-30e6-aa45-382ae281876d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.17.195, headers: {Host: s5.db-link02.top}}, udp: true}
-  - {name: 04-101-RELAY, server: s2.cn-db.top, port: 80, type: vmess, uuid: e611e08f-ef95-30e6-aa45-382ae281876d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.67.126.30, headers: {Host: s2.cn-db.top}}, udp: true}
-  - {name: 04-102-RELAY, server: s2.db-link01.top, port: 2086, type: vmess, uuid: e611e08f-ef95-30e6-aa45-382ae281876d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.235.95, headers: {Host: s2.db-link01.top}}, udp: true}
-  - {name: 04-103-RELAY, server: s5.db-link01.top, port: 8880, type: vmess, uuid: e611e08f-ef95-30e6-aa45-382ae281876d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.21.45.49, headers: {Host: s5.db-link01.top}}, udp: true}
-  - {name: 04-104-RELAY, server: s5.db-link01.top, port: 8080, type: vmess, uuid: e611e08f-ef95-30e6-aa45-382ae281876d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in104.20.203.81, headers: {Host: s5.db-link01.top}}, udp: true}
-  - {name: 04-105-RELAY, server: s2.cn-db.top, port: 2052, type: vmess, uuid: e611e08f-ef95-30e6-aa45-382ae281876d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in172.64.52.173, headers: {Host: s2.cn-db.top}}, udp: true}
-  - {name: 04-106-CN, server: 12.mamamajd.site, port: 23612, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 12.mamamajd.site}}, udp: true}
-  - {name: 04-107-CN, server: 17.mamamajd.site, port: 23617, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 17.mamamajd.site}}, udp: true}
-  - {name: 04-108-CN, server: 11.mamamajd.site, port: 23611, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 11.mamamajd.site}}, udp: true}
-  - {name: 04-109-CN, server: 19.mamamajd.site, port: 23619, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 19.mamamajd.site}}, udp: true}
-  - {name: 04-110-CN, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
-  - {name: 04-111-CN, server: 18.mamamajd.site, port: 23618, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 18.mamamajd.site}}, udp: true}
-  - {name: 04-112-CN, server: 15.mamamajd.site, port: 23615, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 15.mamamajd.site}}, udp: true}
-  - {name: 04-113-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
-  - {name: 04-114-CN, server: 13.mamamajd.site, port: 23613, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 13.mamamajd.site}}, udp: true}
-  - {name: 04-115-CN, server: 14.mamamajd.site, port: 23614, type: vmess, uuid: d5e7376c-6aa7-3821-bec2-3dda707fc3ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 14.mamamajd.site}}, udp: true}
-  - {name: 04-116-CN, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56323, type: trojan, password: eab7a400-4fc1-32b0-b51a-5324cb4b2acd, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-117-CN, server: gz0slb.aliyuncdn.smp-paymentservices-apple.com, port: 56432, type: trojan, password: eab7a400-4fc1-32b0-b51a-5324cb4b2acd, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-118-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23452, type: trojan, password: eab7a400-4fc1-32b0-b51a-5324cb4b2acd, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-119-CN, server: push04.endpoint.smp-paymentservices-apple.com, port: 23453, type: trojan, password: eab7a400-4fc1-32b0-b51a-5324cb4b2acd, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
-  - {name: 04-120-JP, server: jp-1.anewstart.cyou, port: 5061, type: vmess, uuid: a604a547-57fa-3804-a01a-748287a39706, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp-1.anewstart.cyou}}, udp: true}
-  - {name: 04-121-NOWHERE, server: jp6-1.anewstart.cyou, port: 5061, type: vmess, uuid: a604a547-57fa-3804-a01a-748287a39706, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp6-1.anewstart.cyou}}, udp: true}
-  - {name: 04-123-NOWHERE, server: us6-1.anewstart.cyou, port: 5061, type: vmess, uuid: a604a547-57fa-3804-a01a-748287a39706, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us6-1.anewstart.cyou}}, udp: true}
-  - {name: 24-124-CN, server: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 64617ed2-4823-11ef-9f2d-f23c9164ca5d, sni: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-126-CN, server: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, port: 14234, type: trojan, password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9, sni: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-127-LU, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-128-CN, server: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, port: 27231, type: trojan, password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9, sni: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-129-CN, server: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, sni: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-130-KR, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-131-CN, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
-  - {name: 24-134-US, server: v3.cdn.ewddns.net, port: 39207, type: vmess, uuid: dcdcb14e-8c34-3c0f-9801-01457dcf25f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /62a88e27-2b1f-462f-8e4a-3e1359ac805c.live238.m3u8, headers: {Host: v3.cdn.ewddns.net}}, udp: true}
-  - {name: 24-135-CN, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: 24-160-CN, server: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, sni: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-231-CN, server: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 520b9126-9870-11ef-81b0-f23c9164ca5d, sni: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-232-CN, server: 120.232.153.40, port: 32209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 24-233-CN, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index}, udp: true}
-  - {name: 24-234-CN, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-317-NL, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-343-US, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-345-RU, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-352-CN, server: 69ba7db6-sytz40-t12cnj-1ol97.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: 69ba7db6-sytz40-t12cnj-1ol97.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-360-RELAY, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-361-RELAY, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-362-CN, server: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, sni: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-363-RELAY, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-365-RELAY, server: 188.164.159.234, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-366-CN, server: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 0114339c-488d-11ee-8792-f23c9164ca5d, sni: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-369-PE, server: 154.219.5.44, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-378-RELAY, server: 46.254.92.142, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-379-RELAY, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-383-RELAY, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-389-RELAY, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-391-CN, server: cdcdacce-sytz40-szj6wo-8f7h.cm5.cnkuaishou.com, port: 14234, type: trojan, password: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9, sni: cdcdacce-sytz40-szj6wo-8f7h.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-393-RELAY, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-401-RELAY, server: 45.150.115.195, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-403-RELAY, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-410-CN, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v12.heduian.link}}, udp: true}
-  - {name: 24-411-RELAY, server: 167.68.4.58, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
-  - {name: 24-412-CN, server: da4d52c3-sytz40-t7hmka-1plv4.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 28213b50-7ed5-11ee-add6-f23c91369f2d, sni: da4d52c3-sytz40-t7hmka-1plv4.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 24-413-CN, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, skip-cert-verify: true, udp: true}
-  - {name: 24-414-CN, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
-  - {name: 24-415-RELAY, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-000-CN, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, sni: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560#24-220-UStrojan://64617ed2-4823-11ef-9f2d-f23c9164ca5d@59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com:27231?allowInsecure=1", headers: {Host: 59507e3d-sytz40-tk30wc-eyem.cm5.cnkuaishou.com}}, udp: true}
+  - {name: 24-002-CN, server: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, port: 14234, type: trojan, password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9, sni: 452b8c75-sytz40-t8ivpf-z65w.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-003-LU, server: 45.80.209.25, port: 81, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-004-CN, server: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, port: 27231, type: trojan, password: ef18aaca-4711-11ec-a8bf-f23c91cfbbc9, sni: 51b27fcb-sytz40-szvfpn-laev.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-005-CN, server: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 5cfee98c-0e3b-11ed-bd7c-f23c913c8d2b, sni: 0c280045-sxp8g0-t0hae4-1curq.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-006-KR, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-007-CN, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
+  - {name: 24-011-CN, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: 24-036-CN, server: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9, sni: b78ab8fe-sytz40-taksay-1tcuf.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-107-CN, server: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 520b9126-9870-11ef-81b0-f23c9164ca5d, sni: 9c2dfbe1-sytz40-szoau2-1slop.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-108-CN, server: 120.232.153.40, port: 32209, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 24-109-CN, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index}, udp: true}
+  - {name: 24-110-CN, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-193-NL, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-219-US, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-221-RU, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-228-CN, server: 69ba7db6-sytz40-t12cnj-1ol97.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, sni: 69ba7db6-sytz40-t12cnj-1ol97.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-236-RELAY, server: 103.116.7.133, port: 2083, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-237-RELAY, server: 188.164.159.214, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-238-CN, server: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc, sni: f24250ff-sytz40-t5qufl-8n27.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-239-RELAY, server: 188.164.159.185, port: 8443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-241-RELAY, server: 188.164.159.234, port: 2083, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-242-CN, server: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, port: 14234, type: trojan, password: 0114339c-488d-11ee-8792-f23c9164ca5d, sni: 4e32ab69-sytz40-tbpkla-1otc2.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-245-PE, server: 154.219.5.44, port: 2053, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-254-RELAY, server: 46.254.92.142, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-255-RELAY, server: 31.43.179.27, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-259-RELAY, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-265-RELAY, server: 45.67.214.3, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-267-CN, server: cdcdacce-sytz40-szj6wo-8f7h.cm5.cnkuaishou.com, port: 14234, type: trojan, password: b1e0ecc4-c7af-11ed-a8bf-f23c91cfbbc9, sni: cdcdacce-sytz40-szj6wo-8f7h.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-269-RELAY, server: 108.165.152.55, port: 2096, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-277-RELAY, server: 45.150.115.195, port: 2087, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-279-RELAY, server: lynn.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-286-CN, server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v12.heduian.link}}, udp: true}
+  - {name: 24-287-RELAY, server: 167.68.4.58, port: 443, type: trojan, password: Aimer, sni: epmk.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epmk.ambercc.filegear-sg.me}}, udp: true}
+  - {name: 24-288-CN, server: da4d52c3-sytz40-t7hmka-1plv4.cm5.cnkuaishou.com, port: 27231, type: trojan, password: 28213b50-7ed5-11ee-add6-f23c91369f2d, sni: da4d52c3-sytz40-t7hmka-1plv4.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 24-289-CN, server: 96eb5655-sy5wg0-0-rfep.cm5.cnkuaishou.com, port: 27233, type: trojan, password: 629267d8-cf76-11ec-bb74-f23c9164ca5d, skip-cert-verify: true, udp: true}
+  - {name: 24-290-CN, server: 111.26.109.79, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo}, udp: true}
+  - {name: 24-291-RELAY, server: 5.182.84.244, port: 443, type: trojan, password: Aimer, sni: epml.ambercc.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epml.ambercc.filegear-sg.me}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -131,68 +107,44 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 04-100-RELAY
-      - 04-101-RELAY
-      - 04-102-RELAY
-      - 04-103-RELAY
-      - 04-104-RELAY
-      - 04-105-RELAY
-      - 04-106-CN
-      - 04-107-CN
-      - 04-108-CN
-      - 04-109-CN
-      - 04-110-CN
-      - 04-111-CN
-      - 04-112-CN
-      - 04-113-CN
-      - 04-114-CN
-      - 04-115-CN
-      - 04-116-CN
-      - 04-117-CN
-      - 04-118-CN
-      - 04-119-CN
-      - 04-120-JP
-      - 04-121-NOWHERE
-      - 04-123-NOWHERE
-      - 24-124-CN
-      - 24-126-CN
-      - 24-127-LU
-      - 24-128-CN
-      - 24-129-CN
-      - 24-130-KR
-      - 24-131-CN
-      - 24-134-US
-      - 24-135-CN
-      - 24-160-CN
-      - 24-231-CN
-      - 24-232-CN
-      - 24-233-CN
-      - 24-234-CN
-      - 24-317-NL
-      - 24-343-US
-      - 24-345-RU
-      - 24-352-CN
-      - 24-360-RELAY
-      - 24-361-RELAY
-      - 24-362-CN
-      - 24-363-RELAY
-      - 24-365-RELAY
-      - 24-366-CN
-      - 24-369-PE
-      - 24-378-RELAY
-      - 24-379-RELAY
-      - 24-383-RELAY
-      - 24-389-RELAY
-      - 24-391-CN
-      - 24-393-RELAY
-      - 24-401-RELAY
-      - 24-403-RELAY
-      - 24-410-CN
-      - 24-411-RELAY
-      - 24-412-CN
-      - 24-413-CN
-      - 24-414-CN
-      - 24-415-RELAY
+      - 24-000-CN
+      - 24-002-CN
+      - 24-003-LU
+      - 24-004-CN
+      - 24-005-CN
+      - 24-006-KR
+      - 24-007-CN
+      - 24-011-CN
+      - 24-036-CN
+      - 24-107-CN
+      - 24-108-CN
+      - 24-109-CN
+      - 24-110-CN
+      - 24-193-NL
+      - 24-219-US
+      - 24-221-RU
+      - 24-228-CN
+      - 24-236-RELAY
+      - 24-237-RELAY
+      - 24-238-CN
+      - 24-239-RELAY
+      - 24-241-RELAY
+      - 24-242-CN
+      - 24-245-PE
+      - 24-254-RELAY
+      - 24-255-RELAY
+      - 24-259-RELAY
+      - 24-265-RELAY
+      - 24-267-CN
+      - 24-269-RELAY
+      - 24-277-RELAY
+      - 24-279-RELAY
+      - 24-286-CN
+      - 24-287-RELAY
+      - 24-288-CN
+      - 24-289-CN
+      - 24-290-CN
+      - 24-291-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -248,122 +200,98 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-101-RELAY
-      - 04-111-CN
-      - 04-121-NOWHERE
-      - 24-131-CN
-      - 24-231-CN
-      - 24-361-RELAY
-      - 24-391-CN
-      - 24-401-RELAY
-      - 24-411-RELAY
+      - 24-011-CN
+      - 24-221-RU
+      - 24-241-RELAY
+      - 24-291-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-102-RELAY
-      - 04-112-CN
-      - 24-232-CN
-      - 24-352-CN
-      - 24-362-CN
-      - 24-412-CN
+      - 24-002-CN
+      - 24-242-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-103-RELAY
-      - 04-113-CN
-      - 04-123-NOWHERE
-      - 24-233-CN
-      - 24-343-US
-      - 24-363-RELAY
-      - 24-383-RELAY
-      - 24-393-RELAY
-      - 24-403-RELAY
-      - 24-413-CN
+      - 24-003-LU
+      - 24-193-NL
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-104-RELAY
-      - 04-114-CN
-      - 24-124-CN
-      - 24-134-US
-      - 24-234-CN
-      - 24-414-CN
+      - 24-004-CN
+      - 24-254-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-105-RELAY
-      - 04-115-CN
-      - 24-135-CN
-      - 24-345-RU
-      - 24-365-RELAY
-      - 24-415-RELAY
+      - 24-005-CN
+      - 24-245-PE
+      - 24-255-RELAY
+      - 24-265-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-106-CN
-      - 04-116-CN
-      - 24-126-CN
-      - 24-366-CN
+      - 24-006-KR
+      - 24-036-CN
+      - 24-236-RELAY
+      - 24-286-CN
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-107-CN
-      - 04-117-CN
-      - 24-127-LU
-      - 24-317-NL
+      - 24-007-CN
+      - 24-107-CN
+      - 24-237-RELAY
+      - 24-267-CN
+      - 24-277-RELAY
+      - 24-287-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-108-CN
-      - 04-118-CN
-      - 24-128-CN
-      - 24-378-RELAY
+      - 24-108-CN
+      - 24-228-CN
+      - 24-238-CN
+      - 24-288-CN
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-109-CN
-      - 04-119-CN
-      - 24-129-CN
-      - 24-369-PE
-      - 24-379-RELAY
-      - 24-389-RELAY
+      - 24-109-CN
+      - 24-219-US
+      - 24-239-RELAY
+      - 24-259-RELAY
+      - 24-269-RELAY
+      - 24-279-RELAY
+      - 24-289-CN
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 04-100-RELAY
-      - 04-110-CN
-      - 04-120-JP
-      - 24-130-KR
-      - 24-160-CN
-      - 24-360-RELAY
-      - 24-410-CN
+      - 24-000-CN
+      - 24-110-CN
+      - 24-290-CN
   - name: 广告拦截
     type: select
     proxies:
