@@ -105,6 +105,7 @@ proxies:
   - {name: 14-300-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 14-301-RELAY, server: 104.21.32.1, port: 8443, type: vmess, uuid: f10598e2-c606-4945-bfde-e5730756a2dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 14-303-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: 23-307-KR, server: 220.124.31.130, port: 19378, type: ss, cipher: aes-256-gcm, password: NiznLvoIuy, udp: true}
   - {name: 23-308-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-309-SG, server: usa.liangyuandian.top, port: 443, type: trojan, password: 58dcd460-65df-47b1-b062-517df30bef29, skip-cert-verify: true, udp: true}
   - {name: 23-311-US, server: 192.3.107.252, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc8.freeguard.org, skip-cert-verify: true, udp: true}
@@ -116,7 +117,6 @@ proxies:
   - {name: 23-335-US, server: 23.177.185.63, port: 49454, type: ss, cipher: chacha20-ietf-poly1305, password: Dd458MFxClvvKQp9gZHYOW, udp: true}
   - {name: 23-338-ES, server: 92.38.171.215, port: 31348, type: ss, cipher: chacha20-ietf-poly1305, password: 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR, udp: true}
   - {name: 23-339-US, server: 198.23.229.250, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: rc6.freeguard.org, skip-cert-verify: true, udp: true}
-  - {name: 23-342-HK, server: 103.149.183.61, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
   - {name: 23-343-LT, server: 45.87.175.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 23-347-PL, server: 77.83.246.74, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: fhh4RB19PMgTlacghXfo3S, udp: true}
   - {name: 23-352-DE, server: 3.68.174.66, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
@@ -204,6 +204,7 @@ proxy-groups:
       - 14-300-NL
       - 14-301-RELAY
       - 14-303-RU
+      - 23-307-KR
       - 23-308-LT
       - 23-309-SG
       - 23-311-US
@@ -215,7 +216,6 @@ proxy-groups:
       - 23-335-US
       - 23-338-ES
       - 23-339-US
-      - 23-342-HK
       - 23-343-LT
       - 23-347-PL
       - 23-352-DE
@@ -306,7 +306,6 @@ proxy-groups:
       - 04-112-RELAY
       - 04-122-NOWHERE
       - 05-172-RELAY
-      - 23-342-HK
       - 23-352-DE
       - 23-362-PL
       - 23-372-HK
@@ -378,6 +377,7 @@ proxy-groups:
       - 04-117-CN
       - 05-127-CN
       - 05-167-SG
+      - 23-307-KR
       - 23-347-PL
       - 23-357-VN
   - name: 测速8分组
