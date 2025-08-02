@@ -10,7 +10,7 @@ proxies:
   - {name: 05-0033-RELAY, server: 167.68.4.131, port: 8443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 05-0051-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 05-0052-RELAY, server: 104.16.0.0, port: 443, type: vmess, uuid: 58b78d40-aaaf-43a5-8263-d8c3a07e241e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /58b78d40-aaaf-43a5-8263-d8c3a07e241e-vm}, udp: true}
-  - {name: 05-0247-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 05-0253-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0069-RELAY, server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0070-RELAY, server: 188.164.159.241, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0071-RELAY, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
@@ -79,25 +79,30 @@ proxies:
   - {name: 09-0168-RELAY, server: 108.165.152.14, port: 2096, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0169-RELAY, server: 108.165.152.225, port: 2083, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
   - {name: 09-0170-US, server: 192.3.155.203, port: 995, type: trojan, password: Aimer, sni: epga.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F%3Fed%3D2560", headers: {Host: epga.aimercc.dpdns.org}}, udp: true}
-  - {name: 14-0173-US, server: 54.189.166.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 14-0174-KR, server: p222.panda001.net, port: 15098, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
-  - {name: 14-0278-HK, server: 103.149.183.154, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
-  - {name: 14-0280-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
-  - {name: 14-0281-RELAY, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}, udp: true}
-  - {name: 14-0282-GR, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 14-0283-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 14-0284-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 23-0178-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
-  - {name: 23-0185-RELAY, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: vpn.stupidworld.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: vpn.stupidworld.web.id}}, udp: true}
-  - {name: 23-0201-GB, server: 141.98.101.178, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 23-0202-EE, server: 188.214.36.155, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 23-0216-RELAY, server: aio.zipzap.biz.id, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: aio.zipzap.biz.id, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: aio.zipzap.biz.id}}, udp: true}
-  - {name: 23-0220-RELAY, server: 827f07.4c38f09e.shop, port: 80, type: vmess, uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 827f07.4c38f09e.shop}}, udp: true}
-  - {name: 23-0221-LT, server: 45.87.175.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 23-0225-RELAY, server: aio.nolimit.dpdns.org, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: aio.nolimit.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: aio.nolimit.dpdns.org}}, udp: true}
-  - {name: 23-0227-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 23-0228-TR, server: 193.46.56.185, port: 6683, type: ss, cipher: chacha20-ietf-poly1305, password: iw8GoN42dciNxDBd0RwAdL, udp: true}
-  - {name: 23-0234-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 23-0287-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 23-0288-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 23-0296-HK, server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com}}, udp: true}
+  - {name: 14-0171-HK, server: 103.149.183.154, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 14-0174-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-0175-HK, server: v7.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v7.heduian.link}}, udp: true}
+  - {name: 14-0176-CN, server: v35.heduian.link, port: 30835, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v35.heduian.link}}, udp: true}
+  - {name: 14-0177-CN, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 14-0284-US, server: 54.189.166.94, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 14-0287-RELAY, server: test.flha.ru, port: 80, type: vmess, uuid: 2bab6b8f-8d6e-463a-8331-b9de3d56921d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /2bab6b8f-8d6e-463a-8331-b9de3d56921d-vmess, headers: {Host: test.flha.ru}}, udp: true}
+  - {name: 14-0288-RELAY, server: cc2dash.89060004.xyz, port: 2096, type: vmess, uuid: 2fc37713-3017-497e-ff2d-965f826a19a3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cc2dash.89060004.xyz}}, udp: true}
+  - {name: 14-0289-GR, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 14-0290-GB, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 23-0181-FR, server: 77.105.166.12, port: 8594, type: ss, cipher: chacha20-ietf-poly1305, password: mSQiuT5jR17nyWgcXOPrTW, udp: true}
+  - {name: 23-0191-DE, server: 46.101.245.131, port: 44354, type: ss, cipher: chacha20-ietf-poly1305, password: 9RviNa4tscjcmCB408vLSg, udp: true}
+  - {name: 23-0196-FR, server: 15.236.33.145, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 23-0198-FR, server: 15.236.33.145, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 23-0205-RELAY, server: 527cb2.827a4c39.shop, port: 80, type: vmess, uuid: 952797b6-21a0-4e66-9239-30ef5c0efcdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 527cb2.827a4c39.shop}}, udp: true}
+  - {name: 23-0217-SG, server: 188.166.220.70, port: 37708, type: ss, cipher: chacha20-ietf-poly1305, password: 24Wk2NSszrfHn22zem1lYV, udp: true}
+  - {name: 23-0220-RELAY, server: aio.nolimit.dpdns.org, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: aio.nolimit.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F", headers: {Host: aio.nolimit.dpdns.org}}, udp: true}
+  - {name: 23-0223-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 23-0224-RELAY, server: 104.21.20.162, port: 8443, type: vmess, uuid: 57e595e6-ef54-4e0d-b8df-e96db9612b99, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /horsen}, udp: true}
+  - {name: 23-0228-FR, server: 15.236.33.145, port: 22223, type: trojan, password: telegram-id-v2rayvpnchannel, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 23-0232-NO, server: 185.213.23.226, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-0238-GB, server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 23-0292-CA, server: 51.79.102.253, port: 80, type: vmess, uuid: 58fe1542-5290-40ad-815a-77707a81afe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /IOebhLMhl1CTbFHbL95myfRX2}, udp: true}
+  - {name: 23-0308-NL, server: 193.29.139.235, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 23-0312-AE, server: 151.242.251.144, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 23-0313-LT, server: 45.87.175.58, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 23-0318-HK, server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com, port: 80, type: vmess, uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com}}, udp: true}
