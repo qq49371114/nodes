@@ -57,10 +57,9 @@ proxies:
   - {name: 07-0163-RELAY, server: 172.67.181.173, port: 443, type: trojan, password: f282b878-8711-45a1-8c69-5564172123c1, sni: vpn.stupidworld.web.id, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: vpn.stupidworld.web.id}}, udp: true}
   - {name: 07-0174-RELAY, server: 109.234.211.66, port: 8443, type: trojan, password: trojan, sni: store.timimi.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: store.timimi.dpdns.org}}, udp: true}
   - {name: 07-0207-RELAY, server: 104.17.148.22, port: 443, type: trojan, password: ZU)0ryc$VSrG, sni: uk2WbO0iKx3IyI4i9WjdYU6Y-O28ET7o.pagEs.DeV, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: uk2WbO0iKx3IyI4i9WjdYU6Y-O28ET7o.pagEs.DeV}}, udp: true}
-  - {name: 08-0219-CN, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 16-0232-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 16-0234-HK, server: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net}}, udp: true}
-  - {name: 16-0235-SG, server: 157.230.32.243, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 16-0230-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 16-0232-HK, server: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net}}, udp: true}
+  - {name: 16-0233-SG, server: 157.230.32.243, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -83,10 +82,9 @@ proxy-groups:
       - 07-0163-RELAY
       - 07-0174-RELAY
       - 07-0207-RELAY
-      - 08-0219-CN
-      - 16-0232-SK
-      - 16-0234-HK
-      - 16-0235-SG
+      - 16-0230-SK
+      - 16-0232-HK
+      - 16-0233-SG
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -149,7 +147,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 16-0232-SK
+      - 16-0232-HK
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -157,6 +155,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 07-0163-RELAY
+      - 16-0233-SG
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -164,14 +163,13 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 07-0174-RELAY
-      - 16-0234-HK
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 16-0235-SG
+      - DIRECT
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -199,7 +197,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0219-CN
+      - DIRECT
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -207,6 +205,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 06-0050-CN
+      - 16-0230-SK
   - name: 广告拦截
     type: select
     proxies:
