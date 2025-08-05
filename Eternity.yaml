@@ -54,10 +54,11 @@ sniffer:
 proxies:
   - {name: 05-0038-RELAY, server: 143.110.155.169, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: t.hongkong6.qzz.io, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: t.hongkong6.qzz.io}}, udp: true}
   - {name: 06-0050-CN, server: pop.plus.3123.0tk8a3a1q4t94dler.com, port: 4059, type: ss, cipher: 2022-blake3-aes-256-gcm, password: mtMkp%252B1FttkSLmDOF9blnNMLigcCRacprQS3ry0nf3o%253D%253AJB1ueTCKNIGMbhzWNjs%252B0FnZjZXO3UyXcZhIJ28vifA%253D, udp: true}
-  - {name: 16-0233-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 16-0234-HK, server: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net}}, udp: true}
-  - {name: 16-0235-HK, server: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net}}, udp: true}
-  - {name: 16-0237-SG, server: 157.230.32.243, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
+  - {name: 08-0222-CN, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 16-0234-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 16-0235-HK, server: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 431026c8-7397-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 212f8cd0-t0bog0-t1nwsn-1la2q.hkt.tcpbbr.net}}, udp: true}
+  - {name: 16-0236-HK, server: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ed97ae8e-t049s0-t4nxvc-1p1b.hkt.tcpbbr.net}}, udp: true}
+  - {name: 16-0238-SG, server: 157.230.32.243, port: 443, type: trojan, password: d0d08cddacc3190ea81b1b792e1b5fde, sni: www.baidu.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -77,10 +78,11 @@ proxy-groups:
       - 测速10分组
       - 05-0038-RELAY
       - 06-0050-CN
-      - 16-0233-SK
-      - 16-0234-HK
+      - 08-0222-CN
+      - 16-0234-SK
       - 16-0235-HK
-      - 16-0237-SG
+      - 16-0236-HK
+      - 16-0238-SG
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -143,21 +145,21 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - DIRECT
+      - 08-0222-CN
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 16-0233-SK
+      - DIRECT
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 16-0234-HK
+      - 16-0234-SK
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -171,14 +173,14 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - DIRECT
+      - 16-0236-HK
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 16-0237-SG
+      - DIRECT
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -186,6 +188,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0038-RELAY
+      - 16-0238-SG
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
