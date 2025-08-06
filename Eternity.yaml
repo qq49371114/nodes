@@ -66,7 +66,6 @@ proxies:
   - {name: 09-0452-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 09-0458-KZ, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 09-0473-RELAY, server: 104.21.61.73, port: 443, type: trojan, password: yaml777, sni: yaml7.ggff.net, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: yaml7.ggff.net}}, udp: true}
-  - {name: 09-0524-US, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 09-0541-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0542-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0545-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -74,8 +73,8 @@ proxies:
   - {name: 09-0559-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0563-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0568-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0569-US, server: 154.53.40.110, port: 443, type: vmess, uuid: 606ece17-7279-4a43-b879-f8502103de8f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmessws}, udp: true}
   - {name: 09-0577-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0580-US, server: 162.243.245.151, port: 31100, type: ss, cipher: chacha20-ietf-poly1305, password: DkA7OxSabRttPJzO9Ccf7L, udp: true}
   - {name: 09-0587-US, server: 64.74.163.130, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0589-CA, server: 142.4.216.225, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: 09-0591-NOWHERE, server: 103.160.204.36, port: 2087, type: trojan, password: d6b8011a-c725-435a-9fec-bf6d3530392c, sni: vle.amclubsvip.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: vle.amclubsvip.dpdns.org}}, udp: true}
@@ -93,6 +92,7 @@ proxies:
   - {name: 09-0619-RELAY, server: 104.21.16.1, port: 443, type: vmess, uuid: 20e89a95-cedf-4fe3-9421-517ce66be170, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /SHToRcqfiraYkzOdf}, udp: true}
   - {name: 09-0624-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0625-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0626-US, server: 212.102.47.129, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0627-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 09-0631-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0632-RELAY, server: 104.21.10.97, port: 443, type: trojan, password: 20e89a95-cedf-4fe3-9421-517ce66be170, sni: OoollmkI.222767.xyZ, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F8y30nl6G2U0xOiraYkzOdf", headers: {Host: OoollmkI.222767.xyZ}}, udp: true}
@@ -206,6 +206,7 @@ proxies:
   - {name: 09-0789-SK, server: 156.146.40.194, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0790-BG, server: 37.19.203.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0792-JP, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "09-0793-JPtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#09-0524-US", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0795-FI, server: 37.143.129.230, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0796-RU, server: 45.139.24.24, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
   - {name: 09-0797-GR, server: 192.71.166.100, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -347,7 +348,6 @@ proxy-groups:
       - 09-0452-US
       - 09-0458-KZ
       - 09-0473-RELAY
-      - 09-0524-US
       - 09-0541-US
       - 09-0542-US
       - 09-0545-US
@@ -355,8 +355,8 @@ proxy-groups:
       - 09-0559-US
       - 09-0563-US
       - 09-0568-US
+      - 09-0569-US
       - 09-0577-US
-      - 09-0580-US
       - 09-0587-US
       - 09-0589-CA
       - 09-0591-NOWHERE
@@ -374,6 +374,7 @@ proxy-groups:
       - 09-0619-RELAY
       - 09-0624-US
       - 09-0625-US
+      - 09-0626-US
       - 09-0627-US
       - 09-0631-US
       - 09-0632-RELAY
@@ -487,6 +488,7 @@ proxy-groups:
       - 09-0789-SK
       - 09-0790-BG
       - 09-0792-JP
+      - 09-0793-JPtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#09-0524-US
       - 09-0795-FI
       - 09-0796-RU
       - 09-0797-GR
@@ -729,6 +731,7 @@ proxy-groups:
       - 09-0753-AE
       - 09-0773-AT
       - 09-0783-CZ
+      - 09-0793-JPtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#09-0524-US
       - 09-0803-DE
       - 09-0813-SG
       - 09-0823-RELAY
@@ -750,7 +753,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 06-0064-CN
-      - 09-0524-US
       - 09-0554-US
       - 09-0614-RELAY
       - 09-0624-US
@@ -764,6 +766,7 @@ proxy-groups:
       - 09-0754-LT
       - 09-0764-CH
       - 09-0774-FR
+      - 09-0793-JPtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#09-0524-US
       - 09-0804-RO
       - 09-0814-NL
       - 09-0824-HK
@@ -818,6 +821,7 @@ proxy-groups:
     proxies:
       - 09-0596-RELAY
       - 09-0606-RELAY
+      - 09-0626-US
       - 09-0636-RELAY
       - 09-0646-RELAY
       - 09-0696-NOWHERE
@@ -912,6 +916,7 @@ proxy-groups:
       - 07-0179-RELAY
       - 09-0419-RELAY
       - 09-0559-US
+      - 09-0569-US
       - 09-0589-CA
       - 09-0609-NOWHERE
       - 09-0619-RELAY
@@ -944,7 +949,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0040-RELAY
-      - 09-0580-US
       - 09-0610-RELAY
       - 09-0650-US
       - 09-0660-CA
