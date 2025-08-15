@@ -52,10 +52,9 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 05-0010-RELAY, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: t.hongkong6.qzz.io, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: t.hongkong6.qzz.io}}, udp: true}
   - {name: 05-0015-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
   - {name: 05-0016-US, server: 47.79.38.17, port: 443, type: trojan, password: Aimer, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 05-0037-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: "05-0037-UStrojan//0F22D008-24D4-4DFE-947B-8D2FD64CD24C@www.visa.com.sg2053?allowInsecure=1&sni=t.hongkong6.qzz.io&ws=1&wspath=%252F#05-0010-RELAY", server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 05-0046-CN, server: v37.heduian.link, port: 30837, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v37.heduian.link}}, udp: true}
   - {name: 06-0054-RELAY, server: 188.164.159.18, port: 443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0055-RELAY, server: 188.164.159.107, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
@@ -116,6 +115,7 @@ proxies:
   - {name: 06-0273-RELAY, server: 108.165.152.1, port: 2087, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0274-US, server: 199.34.228.71, port: 8443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0275-RELAY, server: 155.46.213.38, port: 2083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
+  - {name: 06-0276-US, server: 199.34.228.50, port: 2053, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0277-RELAY, server: 108.165.152.202, port: 2083, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0278-RELAY, server: 162.120.94.232, port: 8443, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
   - {name: 06-0280-RELAY, server: 108.165.152.175, port: 2096, type: trojan, password: Aimer, sni: epgb.aimercc.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epgb.aimercc.dpdns.org}}, udp: true}
@@ -139,10 +139,9 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 05-0010-RELAY
       - 05-0015-RU
       - 05-0016-US
-      - 05-0037-US
+      - 05-0037-UStrojan//0F22D008-24D4-4DFE-947B-8D2FD64CD24C@www.visa.com.sg2053?allowInsecure=1&sni=t.hongkong6.qzz.io&ws=1&wspath=%252F#05-0010-RELAY
       - 05-0046-CN
       - 06-0054-RELAY
       - 06-0055-RELAY
@@ -203,6 +202,7 @@ proxy-groups:
       - 06-0273-RELAY
       - 06-0274-US
       - 06-0275-RELAY
+      - 06-0276-US
       - 06-0277-RELAY
       - 06-0278-RELAY
       - 06-0280-RELAY
@@ -335,13 +335,14 @@ proxy-groups:
       - 06-0176-RELAY
       - 06-0256-US
       - 06-0266-RELAY
+      - 06-0276-US
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0037-US
+      - 05-0037-UStrojan//0F22D008-24D4-4DFE-947B-8D2FD64CD24C@www.visa.com.sg2053?allowInsecure=1&sni=t.hongkong6.qzz.io&ws=1&wspath=%252F#05-0010-RELAY
       - 06-0057-RELAY
       - 06-0107-KR
       - 06-0117-RELAY
@@ -355,6 +356,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 05-0037-UStrojan//0F22D008-24D4-4DFE-947B-8D2FD64CD24C@www.visa.com.sg2053?allowInsecure=1&sni=t.hongkong6.qzz.io&ws=1&wspath=%252F#05-0010-RELAY
       - 06-0058-RELAY
       - 06-0108-KR
       - 06-0178-RELAY
@@ -380,7 +382,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0010-RELAY
+      - 05-0037-UStrojan//0F22D008-24D4-4DFE-947B-8D2FD64CD24C@www.visa.com.sg2053?allowInsecure=1&sni=t.hongkong6.qzz.io&ws=1&wspath=%252F#05-0010-RELAY
       - 06-0060-RELAY
       - 06-0110-KR
       - 06-0180-RELAY
