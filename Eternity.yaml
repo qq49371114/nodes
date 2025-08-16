@@ -198,6 +198,7 @@ proxies:
   - {name: 09-0351-NL, server: 164.92.156.41, port: 24206, type: ss, cipher: chacha20-ietf-poly1305, password: zI7kiNZ0UfV9cXB73a4nRD, udp: true}
   - {name: 09-0352-DE, server: 185.177.229.245, port: 1866, type: ss, cipher: chacha20-ietf-poly1305, password: oXGp1%252BihlfKg826H, udp: true}
   - {name: 09-0353-FR, server: 81.19.137.222, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: a58fa62b4944ddbf, udp: true}
+  - {name: 09-0354-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0355-DE, server: 46.101.245.131, port: 44354, type: ss, cipher: chacha20-ietf-poly1305, password: 9RviNa4tscjcmCB408vLSg, udp: true}
   - {name: 09-0356-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0357-GB, server: 46.226.163.225, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
@@ -207,7 +208,6 @@ proxies:
   - {name: 09-0361-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0362-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0363-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0364-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0365-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0366-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0367-HK, server: 103.252.116.138, port: 443, type: trojan, password: 2ee85121-31de-4581-a492-eb00f606e392, sni: hk.freeguard.org, skip-cert-verify: true, udp: true}
@@ -623,6 +623,7 @@ proxy-groups:
       - 09-0351-NL
       - 09-0352-DE
       - 09-0353-FR
+      - 09-0354-US
       - 09-0355-DE
       - 09-0356-US
       - 09-0357-GB
@@ -632,7 +633,6 @@ proxy-groups:
       - 09-0361-US
       - 09-0362-CA
       - 09-0363-US
-      - 09-0364-US
       - 09-0365-US
       - 09-0366-US
       - 09-0367-HK
@@ -1097,7 +1097,7 @@ proxy-groups:
       - 09-0324-RU
       - 09-0334-RELAY
       - 09-0344-CA
-      - 09-0364-US
+      - 09-0354-US
       - 09-0374-FR
       - 09-0384-NL
       - 09-0394-NL
