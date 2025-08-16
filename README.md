@@ -176,6 +176,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6STdraU5aMFVmVjljWEI3M2E0blJE@164.92.156.41:24206#09-0351-NL
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.245:1866#09-0352-DE
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNThmYTYyYjQ5NDRkZGJm@81.19.137.222:57456#09-0353-FR
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.243:443#09-0354-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5UnZpTmE0dHNjamNtQ0I0MDh2TFNn@46.101.245.131:44354#09-0355-DE
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#09-0356-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjNDA2NDFjMWY4OWU3YWNi@46.226.163.225:57456#09-0357-GB
@@ -185,7 +186,6 @@ Fork from TopFreeProxies.
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.167:443#09-0361-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz@79.127.233.170:990#09-0362-CA
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.132:443#09-0363-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@37.19.198.160:443#09-0364-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.131:443#09-0365-US
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@212.102.47.130:443#09-0366-US
     trojan://2ee85121-31de-4581-a492-eb00f606e392@103.252.116.138:443?allowInsecure=1&sni=hk.freeguard.org#09-0367-HK
@@ -444,11 +444,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `416`
+合并节点总数: `442`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `416`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `442`
 
 
 ## 仓库声明
