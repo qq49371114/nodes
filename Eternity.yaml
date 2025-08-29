@@ -52,46 +52,39 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 05-0000-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 05-0002-RELAY, server: 198.12.144.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 05-0004-RELAY, server: 185.193.28.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 05-0005-US, server: 166.62.106.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 05-0006-RELAY, server: new1.huvicloud.com, port: 443, type: vmess, uuid: 0f02e02f-418d-4434-b0cf-dbdd15892333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /0f02e02f-418d-4434-b0cf-dbdd15892333, headers: {Host: new1.huvicloud.com}}, udp: true}
-  - {name: 05-0007-RELAY, server: 185.193.30.224, port: 8880, type: vmess, uuid: 5c6b69d8-97a2-39c1-92b8-02fc0a369c31, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai&Telegram🇨🇳 @WangCai2 /}, udp: true}
-  - {name: 05-0008-RELAY, server: 66.235.200.216, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram", headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 06-0026-CN, server: awes35lesl.blhao0o.dpdns.org, port: 12020, type: ss, cipher: aes-128-gcm, password: 01721e43-5389-4f97-b21c-900abb2bda9e, udp: true}
-  - {name: 06-0050-KZ, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 06-0055-RELAY, server: 86.38.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegramU0001F1E8U0001F1F3", headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 06-0076-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 06-0101-US, server: 198.62.62.67, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
-  - {name: 06-0103-VN, server: 103.186.154.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0104-VN, server: 103.186.154.28, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0105-VN, server: 103.186.154.20, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0106-VN, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0107-VN, server: 103.186.154.32, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0110-US, server: 199.34.229.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0111-US, server: 198.71.232.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0112-US, server: 199.34.230.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0113-FR, server: 185.16.110.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0114-US, server: 166.62.108.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0115-US, server: 166.62.107.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0116-AT, server: 212.183.88.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0117-US, server: 192.0.54.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0118-US, server: 192.169.223.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0119-US, server: 192.200.160.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0120-RELAY, server: 170.114.45.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0121-US, server: 192.169.221.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0122-US, server: 198.12.145.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0123-US, server: 166.62.105.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0124-US, server: 199.68.156.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0125-US, server: 198.71.233.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0127-RELAY, server: 195.13.54.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0128-RELAY, server: 167.68.11.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0129-RELAY, server: 188.164.159.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0130-RELAY, server: 185.238.228.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0131-RELAY, server: 185.251.82.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0132-RELAY, server: 195.13.45.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
-  - {name: 08-0133-RELAY, server: 188.164.248.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: "05-0000-TWtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#06-0054-US", server: 118.170.222.48, port: 10013, type: ss, cipher: chacha20-ietf-poly1305, password: fe63c4b4-c9b8-4a1c-8a7b-bcf477b04593, udp: true}
+  - {name: 05-0002-NOWHERE, server: 166.62.105.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 05-0009-RELAY, server: aio.unlimited.biz.id, port: 443, type: vmess, uuid: f282b878-8711-45a1-8c69-5564172123c1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aioproxybot/129.150.49.58-18650, headers: {Host: aio.unlimited.biz.id}}, udp: true}
+  - {name: 06-0030-KZ, server: 194.76.18.129, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: 06-0033-RELAY, server: 86.38.214.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegramU0001F1E8U0001F1F3", headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 06-0046-RU, server: 45.67.215.95, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: 06-0055-US, server: 216.24.57.30, port: 443, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: 08-0058-US, server: 198.71.232.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0059-AT, server: 212.183.88.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0060-US, server: 192.169.223.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0061-US, server: 192.169.221.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0062-FR, server: 185.16.110.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0063-US, server: 166.62.106.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0064-US, server: 199.34.230.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0065-US, server: 216.24.57.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0066-US, server: 209.94.90.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0067-US, server: 198.12.144.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0068-US, server: 192.0.54.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0069-US, server: 198.12.145.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0070-US, server: 198.71.233.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0071-RELAY, server: 185.148.106.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0072-RELAY, server: 185.238.228.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0073-US, server: 198.62.62.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0074-RELAY, server: 185.148.107.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0075-RELAY, server: 185.170.166.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0076-RELAY, server: 188.42.145.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0077-RELAY, server: 185.162.230.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0079-RELAY, server: 185.251.80.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0080-RELAY, server: 193.9.49.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0081-RELAY, server: 185.176.24.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0082-RELAY, server: 185.176.26.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0083-RELAY, server: 185.148.104.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
+  - {name: 08-0084-RELAY, server: 190.93.245.194, port: 2096, type: trojan, password: ttfang, sni: ttfang.fange.me, skip-cert-verify: true, network: ws, ws-opts: {path: Telegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3, headers: {Host: ttfang.fange.me}}, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -109,46 +102,39 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 05-0000-US
-      - 05-0002-RELAY
-      - 05-0004-RELAY
-      - 05-0005-US
-      - 05-0006-RELAY
-      - 05-0007-RELAY
-      - 05-0008-RELAY
-      - 06-0026-CN
-      - 06-0050-KZ
-      - 06-0055-RELAY
-      - 06-0076-RU
-      - 06-0101-US
-      - 06-0103-VN
-      - 06-0104-VN
-      - 06-0105-VN
-      - 06-0106-VN
-      - 06-0107-VN
-      - 08-0110-US
-      - 08-0111-US
-      - 08-0112-US
-      - 08-0113-FR
-      - 08-0114-US
-      - 08-0115-US
-      - 08-0116-AT
-      - 08-0117-US
-      - 08-0118-US
-      - 08-0119-US
-      - 08-0120-RELAY
-      - 08-0121-US
-      - 08-0122-US
-      - 08-0123-US
-      - 08-0124-US
-      - 08-0125-US
-      - 08-0127-RELAY
-      - 08-0128-RELAY
-      - 08-0129-RELAY
-      - 08-0130-RELAY
-      - 08-0131-RELAY
-      - 08-0132-RELAY
-      - 08-0133-RELAY
+      - 05-0000-TWtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#06-0054-US
+      - 05-0002-NOWHERE
+      - 05-0009-RELAY
+      - 06-0030-KZ
+      - 06-0033-RELAY
+      - 06-0046-RU
+      - 06-0055-US
+      - 08-0058-US
+      - 08-0059-AT
+      - 08-0060-US
+      - 08-0061-US
+      - 08-0062-FR
+      - 08-0063-US
+      - 08-0064-US
+      - 08-0065-US
+      - 08-0066-US
+      - 08-0067-US
+      - 08-0068-US
+      - 08-0069-US
+      - 08-0070-US
+      - 08-0071-RELAY
+      - 08-0072-RELAY
+      - 08-0073-US
+      - 08-0074-RELAY
+      - 08-0075-RELAY
+      - 08-0076-RELAY
+      - 08-0077-RELAY
+      - 08-0079-RELAY
+      - 08-0080-RELAY
+      - 08-0081-RELAY
+      - 08-0082-RELAY
+      - 08-0083-RELAY
+      - 08-0084-RELAY
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -204,100 +190,94 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 06-0101-US
-      - 08-0111-US
-      - 08-0121-US
-      - 08-0131-RELAY
+      - 08-0061-US
+      - 08-0071-RELAY
+      - 08-0081-RELAY
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0002-RELAY
-      - 08-0112-US
-      - 08-0122-US
-      - 08-0132-RELAY
+      - 05-0002-NOWHERE
+      - 08-0062-FR
+      - 08-0072-RELAY
+      - 08-0082-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 06-0103-VN
-      - 08-0113-FR
-      - 08-0123-US
-      - 08-0133-RELAY
+      - 06-0033-RELAY
+      - 08-0063-US
+      - 08-0073-US
+      - 08-0083-RELAY
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0004-RELAY
-      - 06-0104-VN
-      - 08-0114-US
-      - 08-0124-US
+      - 05-0000-TWtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#06-0054-US
+      - 08-0064-US
+      - 08-0074-RELAY
+      - 08-0084-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0005-US
-      - 06-0055-RELAY
-      - 06-0105-VN
-      - 08-0115-US
-      - 08-0125-US
+      - 06-0055-US
+      - 08-0065-US
+      - 08-0075-RELAY
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0006-RELAY
-      - 06-0026-CN
-      - 06-0076-RU
-      - 06-0106-VN
-      - 08-0116-AT
+      - 06-0046-RU
+      - 08-0066-US
+      - 08-0076-RELAY
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0007-RELAY
-      - 06-0107-VN
-      - 08-0117-US
-      - 08-0127-RELAY
+      - 08-0067-US
+      - 08-0077-RELAY
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0008-RELAY
-      - 08-0118-US
-      - 08-0128-RELAY
+      - 08-0058-US
+      - 08-0068-US
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0119-US
-      - 08-0129-RELAY
+      - 05-0009-RELAY
+      - 08-0059-AT
+      - 08-0069-US
+      - 08-0079-RELAY
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0000-US
-      - 06-0050-KZ
-      - 08-0110-US
-      - 08-0120-RELAY
-      - 08-0130-RELAY
+      - 05-0000-TWtrojan//tg-fq521free@198.62.62.67443?allowInsecure=1&sni=torjan.xn--xhq44j.eu.org&ws=1&wspath=%252F#06-0054-US
+      - 06-0030-KZ
+      - 08-0060-US
+      - 08-0070-US
+      - 08-0080-RELAY
   - name: 广告拦截
     type: select
     proxies:
