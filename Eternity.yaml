@@ -55,14 +55,12 @@ proxies:
   - {name: 05-0003-DE, server: 18.195.55.29, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 05-0014-RELAY, server: www.speedtest.net, port: 443, type: vmess, uuid: b7acf44f-3c3a-430c-8ed0-fb64ccc9a13a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvkwss, headers: {Host: www.speedtest.net}}, udp: true}
   - {name: 05-0017-RELAY, server: 172.66.3.211, port: 80, type: vmess, uuid: bd8f4c3a-b55a-4a55-a4be-d2ead4a4c66a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.html}, udp: true}
-  - {name: 08-0031-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
-  - {name: 08-0032-CN, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.link}}, udp: true}
-  - {name: 08-0033-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 08-0034-RELAY, server: pubg.ac, port: 80, type: vmess, uuid: 56c852c2-9517-4c13-ae18-bf0bee41706a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
-  - {name: 08-0035-HR, server: 46.183.184.60, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0031-CN, server: v4.heduian.link, port: 30804, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v4.heduian.link}}, udp: true}
+  - {name: 08-0032-RELAY, server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /azumase.ren, headers: {Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top}}, udp: true}
+  - {name: 08-0036-RELAY, server: pubg.ac, port: 80, type: vmess, uuid: 56c852c2-9517-4c13-ae18-bf0bee41706a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /profile/telegram@ssrsub, headers: {Host: pubg.ac}}, udp: true}
   - {name: 08-0037-CN, server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-0039-RELAY, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 08-0040-NOWHERE, server: aafrtpfxr.myl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43393, type: trojan, password: e254ed63-33df-4ca8-a980-7d0d9f510a93, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: true, udp: true}
+  - {name: 08-0038-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
+  - {name: 08-0039-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -83,14 +81,12 @@ proxy-groups:
       - 05-0003-DE
       - 05-0014-RELAY
       - 05-0017-RELAY
-      - 08-0031-RELAY
-      - 08-0032-CN
-      - 08-0033-HK
-      - 08-0034-RELAY
-      - 08-0035-HR
+      - 08-0031-CN
+      - 08-0032-RELAY
+      - 08-0036-RELAY
       - 08-0037-CN
-      - 08-0039-RELAY
-      - 08-0040-NOWHERE
+      - 08-0038-KR
+      - 08-0039-NL
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -146,14 +142,14 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0031-RELAY
+      - 08-0031-CN
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0032-CN
+      - 08-0032-RELAY
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -161,7 +157,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0003-DE
-      - 08-0033-HK
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -169,21 +164,20 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 05-0014-RELAY
-      - 08-0034-RELAY
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0035-HR
+      - DIRECT
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - DIRECT
+      - 08-0036-RELAY
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -198,21 +192,21 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - DIRECT
+      - 08-0038-KR
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0039-RELAY
+      - 08-0039-NL
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 08-0040-NOWHERE
+      - DIRECT
   - name: 广告拦截
     type: select
     proxies:
