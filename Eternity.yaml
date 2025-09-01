@@ -88,7 +88,7 @@ proxies:
   - {name: 09-0059-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 09-0060-US, server: 212.102.47.131, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0061-CA, server: 79.127.233.170, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 09-0062-US, server: 37.19.198.160, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0063-US, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 09-0064-CA, server: 79.127.233.170, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 09-0065-NL, server: 109.201.152.181, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
@@ -207,7 +207,7 @@ proxies:
   - {name: 09-0189-RELAY, server: 104.18.3.150, port: 443, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 09-0192-US, server: 38.12.83.217, port: 30002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 09-0195-AE, server: 89.31.120.192, port: 443, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 09-0196-CA, server: 45.154.204.13, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 09-0196-CA, server: 45.154.204.13, port: 443, type: ssr, cipher: aes-128-cfb, password: $$Turb0VPN$$, protocol: auth_aes128_md5, obfs: http_post, protocol-param: ":��\x16�\x13#\x02֖�\x06�Ǔ\x13\x03��\x03\x12#$", obfs-param: "", udp: true}
   - {name: 09-0200-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 09-0202-US, server: 38.107.236.166, port: 8443, type: vmess, uuid: 0c17318b-d8e7-4816-a6a2-ab873a3bcc8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, udp: true}
   - {name: 09-0205-AE, server: 151.242.251.153, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
@@ -294,7 +294,7 @@ proxy-groups:
       - 09-0059-US
       - 09-0060-US
       - 09-0061-CA
-      - 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
+      - 09-0062-US
       - 09-0063-US
       - 09-0064-CA
       - 09-0065-NL
@@ -529,7 +529,7 @@ proxy-groups:
       - 08-0032-RELAY
       - 08-0042-RELAY
       - 08-0052-RELAY
-      - 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
+      - 09-0062-US
       - 09-0072-AE
       - 09-0082-US
       - 09-0092-US
@@ -602,7 +602,6 @@ proxy-groups:
     proxies:
       - 08-0025-HK
       - 09-0055-US
-      - 09-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWEdwMSUyNTJCaWhsZktnODI2SA@185.177.229.2451866#09-0105-DE
       - 09-0065-NL
       - 09-0075-NL
       - 09-0085-NL
