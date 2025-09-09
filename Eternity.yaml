@@ -52,7 +52,6 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 05-0001-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
   - {name: 05-0002-RELAY, server: 190.93.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0003-RELAY, server: 213.219.247.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0007-RELAY, server: 185.18.184.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -60,6 +59,7 @@ proxies:
   - {name: 05-0011-RELAY, server: 213.182.199.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegram%2525F0%25259F%252587%2525A8%2525F0%25259F%252587%2525B3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0013-RELAY, server: 104.25.254.4, port: 2087, type: trojan, password: d0298536-d670-4045-bbb1-ddd5ea68683e, sni: azadnet-bdr.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fazadnet-bdr.pages.dev%25252F%25253Fed%25253D2560", headers: {Host: azadnet-bdr.pages.dev}}, udp: true}
   - {name: 05-0142-RELAY, server: 194.53.53.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
+  - {name: 05-0143-HK, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
   - {name: 05-0144-RELAY, server: 195.13.54.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 05-0145-US, server: 192.169.220.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
   - {name: 06-0022-RELAY, server: 188.164.158.195, port: 2096, type: trojan, password: slch2024, sni: ocost-dy.wmlefl.cc, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252FTelegramU0001F1E8U0001F1F3", headers: {Host: ocost-dy.wmlefl.cc}}, udp: true}
@@ -176,7 +176,6 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 05-0001-HK
       - 05-0002-RELAY
       - 05-0003-RELAY
       - 05-0007-RELAY
@@ -184,6 +183,7 @@ proxy-groups:
       - 05-0011-RELAY
       - 05-0013-RELAY
       - 05-0142-RELAY
+      - 05-0143-HK
       - 05-0144-RELAY
       - 05-0145-US
       - 06-0022-RELAY
@@ -338,7 +338,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0001-HK
       - 05-0011-RELAY
       - 06-0031-RELAY
       - 06-0041-RELAY
@@ -376,6 +375,7 @@ proxy-groups:
     proxies:
       - 05-0003-RELAY
       - 05-0013-RELAY
+      - 05-0143-HK
       - 06-0023-RELAY
       - 06-0033-FR
       - 06-0053-US
