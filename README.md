@@ -26,7 +26,7 @@ Fork from TopFreeProxies.
 
 ## 节点信息
 ### 高速节点
-高速节点数量: `87`
+高速节点数量: `86`
 <details>
   <summary>展开复制节点</summary>
 
@@ -51,7 +51,6 @@ Fork from TopFreeProxies.
     trojan://slch2024@96.43.100.91:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F#05-0152-RELAY
     trojan://slch2024@185.207.197.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F#05-0165-RELAY
     trojan://slch2024@185.135.9.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F#05-0166-RELAY
-    trojan://slch2024@205.233.181.87:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F#05-0167-RELAY
     trojan://slch2024@212.183.88.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F%252525E7%25252594%252525B1%252525E9%2525259B%252525B6%252525E5%252525BC%25252580%252525E5%252525A7%2525258B#06-0027-AT
     trojan://slch2024@185.18.250.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252F%252525E7%25252594%252525B1%252525E9%2525259B%252525B6%252525E5%252525BC%25252580%252525E5%252525A7%2525258B#06-0028-RELAY
     trojan://slch2024@195.26.229.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252FTelegram%252525F0%2525259F%25252587%252525AE%252525F0%2525259F%25252587%252525B7%25252540ShadowProxy66#06-0029-RELAY
@@ -100,7 +99,7 @@ Fork from TopFreeProxies.
     trojan://slch2024@198.62.62.87:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252FTelegram#06-0082-US
     trojan://slch2024@216.24.57.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252FTelegram#06-0083-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#08-0084-US
-    ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#08-0085-MD
+    trojan://slch2024@194.36.55.195:2096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%2525252FTelegram#08-0085-RELAY
     ss://YWVzLTI1Ni1nY206MGE5MTRlOWEtM2UzYi00NzBmLWEyNjctN2VhNzA4M2M0NWJi@77.110.110.240:443#23-0086-AT
     ss://YWVzLTI1Ni1nY206YTdmMDgyYzEtMGQxMi00NjA5LWI2YmYtZTc2MGI2NjhjZjIz@77.110.110.240:443#23-0087-AT
     ss://YWVzLTI1Ni1nY206MTAyYWQzZGEtMmQ1NS00OWQ2LWI4YzgtMmQ3ZTA0ZGYzM2Nh@77.110.110.240:443#23-0089-AT
@@ -122,11 +121,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `88`
+合并节点总数: `89`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `88`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `89`
 
 
 ## 仓库声明
