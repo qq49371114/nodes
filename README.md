@@ -118,7 +118,7 @@ Fork from TopFreeProxies.
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiNTQyZWM1Mi01YWU4LTQ4M2YtYjA0MS0xNDVkMDdhM2FiMjY@118.170.202.197:10016#08-0042-TW
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1YmMwNTM3Yy1mZmRkLTQyZjQtOTAxMi1mOGQ4OGVmZTc4NWQ@125.230.23.59:10026#08-0043-TW
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYVU1UeWdFTTFqVllJdnlzWEtxQTVU@hackney-latest-strike.freesocks.work:443#08-0044-US
-    ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@23.251.121.242:8080#08-0045-UStrojan%2F%2Fslch2024%40193.9.49.1952096%3FallowInsecure%3D1%26sni%3Docost-dy.wmlefl.cc%26ws%3D1%26wspath%3D%25252F%2305-0117-RELAY
+    ss://cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg@23.251.121.242:8080#08-0045-US
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@103.104.247.47:8080#08-0046-NL
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@51.15.17.169:989#08-0047-NL
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@185.153.197.5:989#08-0048-MD
@@ -131,7 +131,7 @@ Fork from TopFreeProxies.
     ss://YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw@154.223.20.79:989#08-0163-TW
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx@ca225.vpnbook.com:80#08-0164-CA
     ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMzh5dXZ6U2UzbTVhRE5wSHRVUEgxekd3YkdFWFhNRHNHd1ZhdWIyU1lFbUhVYTJXR1pVamllelgzVnZ2YTlDQ3pwanhZdHVKTGdLc1Nuc3lLQmY5Y2lQVmJhM3k0bzM@94.131.21.174:54075#08-0165-US
-    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#08-0166-US
+    ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170:443#08-0166-UStrojan%2F%2Fslch2024%40193.9.49.1952096%3FallowInsecure%3D1%26sni%3Docost-dy.wmlefl.cc%26ws%3D1%26wspath%3D%25252F%2305-0117-RELAY
     ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@uk-dc1.yangon.club:443#08-0167-GB
     vmess://eyJ2IjoiMiIsInBzIjoiMDgtMDE2OC1VUyIsImFkZCI6IjEzNy4xNzUuMTI0LjE2NyIsInBvcnQiOiIyMDA4NiIsInR5cGUiOiJub25lIiwiaWQiOiJiNGJjZTUwMC0xMWZlLTRmOGYtYTM0NC0wMWFjMjQ3YWY5YmQiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsImhvc3QiOiIiLCJ0bHMiOiIifQ==
     ss://YWVzLTI1Ni1nY206MGE5MTRlOWEtM2UzYi00NzBmLWEyNjctN2VhNzA4M2M0NWJi@77.110.110.240:443#23-0056-AT
@@ -155,11 +155,11 @@ Fork from TopFreeProxies.
 </details>
 
 ### 所有节点
-合并节点总数: `121`
+合并节点总数: `114`
 [节点链接](https://raw.githubusercontent.com/caijh/TopFreeProxies/master/sub/sub_merge_base64.txt)
 
 ### 节点来源
-- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `121`
+- [clashnode](https://github.com/imyaoxp/clashnode), 节点数量: `114`
 
 
 ## 仓库声明
