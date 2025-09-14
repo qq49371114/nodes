@@ -140,7 +140,7 @@ proxies:
   - {name: 08-0042-TW, server: 118.170.202.197, port: 10016, type: ss, cipher: chacha20-ietf-poly1305, password: b542ec52-5ae8-483f-b041-145d07a3ab26, udp: true}
   - {name: 08-0043-TW, server: 125.230.23.59, port: 10026, type: ss, cipher: chacha20-ietf-poly1305, password: 5bc0537c-ffdd-42f4-9012-f8d88efe785d, udp: true}
   - {name: 08-0044-US, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
-  - {name: "08-0045-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY", server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
+  - {name: 08-0045-US, server: 23.251.121.242, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 08-0046-NL, server: 103.104.247.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 08-0047-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0048-MD, server: 185.153.197.5, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -153,7 +153,7 @@ proxies:
   - {name: 08-0163-TW, server: 154.223.20.79, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0164-CA, server: ca225.vpnbook.com, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: JIhN6rBKkaEboLNXVSv5rq, udp: true}
   - {name: 08-0165-US, server: 94.131.21.174, port: 54075, type: ss, cipher: chacha20-ietf-poly1305, password: o38yuvzSe3m5aDNpHtUPH1zGwbGEXXMDsGwVaub2SYEmHUa2WGZUjiezX3Vvva9CCzpjxYtuJLgKsSnsyKBf9ciPVba3y4o3, udp: true}
-  - {name: 08-0166-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "08-0166-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0167-GB, server: uk-dc1.yangon.club, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0168-US, server: 137.175.124.167, port: 20086, type: vmess, uuid: b4bce500-11fe-4f8f-a344-01ac247af9bd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 23-0056-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
@@ -276,7 +276,7 @@ proxy-groups:
       - 08-0042-TW
       - 08-0043-TW
       - 08-0044-US
-      - 08-0045-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY
+      - 08-0045-US
       - 08-0046-NL
       - 08-0047-NL
       - 08-0048-MD
@@ -289,7 +289,7 @@ proxy-groups:
       - 08-0163-TW
       - 08-0164-CA
       - 08-0165-US
-      - 08-0166-US
+      - 08-0166-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY
       - 08-0167-GB
       - 08-0168-US
       - 23-0056-AT
@@ -443,7 +443,7 @@ proxy-groups:
       - 06-0015-RELAY
       - 06-0025-RELAY
       - 06-0035-US
-      - 08-0045-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY
+      - 08-0045-US
       - 08-0055-CN
       - 08-0165-US
       - 23-0065-DE
@@ -464,7 +464,7 @@ proxy-groups:
       - 06-0026-RELAY
       - 06-0036-RELAY
       - 08-0046-NL
-      - 08-0166-US
+      - 08-0166-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY
       - 23-0056-AT
   - name: 测速7分组
     type: url-test
@@ -480,8 +480,8 @@ proxy-groups:
       - 06-0017-RELAY
       - 06-0027-RELAY
       - 06-0037-RELAY
-      - 08-0045-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY
       - 08-0047-NL
+      - 08-0166-UStrojan//slch2024@193.9.49.1952096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252F#05-0117-RELAY
       - 08-0167-GB
       - 23-0057-AT
       - 23-0067-JPtrojan//slch2024@199.34.230.872096?allowInsecure=1&sni=ocost-dy.wmlefl.cc&ws=1&wspath=%252FTelegram#06-0039-US
