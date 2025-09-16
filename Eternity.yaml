@@ -60,12 +60,13 @@ proxies:
   - {name: 06-0012-CN, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v6.heduian.link}}, udp: true}
   - {name: 06-0013-CN, server: 120.234.102.232, port: 46622, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0015-FR, server: fr.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: 06-0017-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
   - {name: 06-0021-RU, server: ss.80808.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: a4VtqRwhj6gWbHwL4Jt26w, udp: true}
   - {name: 06-0029-VN, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0030-VN, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0031-VN, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0032-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0033-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0032-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
+  - {name: 08-0034-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0035-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
   - {name: 23-0036-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: a7f082c1-0d12-4609-b6bf-e760b668cf23, udp: true}
   - {name: 23-0038-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 102ad3da-2d55-49d6-b8c8-2d7e04df33ca, udp: true}
@@ -106,12 +107,13 @@ proxy-groups:
       - 06-0012-CN
       - 06-0013-CN
       - 06-0015-FR
+      - 06-0017-HK
       - 06-0021-RU
       - 06-0029-VN
       - 06-0030-VN
       - 06-0031-VN
       - 08-0032-KR
-      - 08-0033-NL
+      - 08-0034-KR
       - 23-0035-AT
       - 23-0036-AT
       - 23-0038-AT
@@ -203,7 +205,6 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 06-0013-CN
-      - 08-0033-NL
       - 23-0073-NL
   - name: 测速4分组
     type: url-test
@@ -211,6 +212,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 08-0034-KR
       - 23-0044-DE
       - 23-0084-LT
   - name: 测速5分组
@@ -236,7 +238,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - DIRECT
+      - 06-0017-HK
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
