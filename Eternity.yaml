@@ -52,38 +52,45 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 05-0001-CN, server: yd-03.paofunlink.com, port: 1055, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
-  - {name: 05-0003-HK, server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com}}, udp: true}
-  - {name: 05-0004-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 05-0005-RELAY, server: qqqqqqqqqqqqaaaa.www890604.dpdns.org, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: qqqqqqqqqqqqaaaa.www890604.dpdns.org}}, udp: true}
-  - {name: 05-0016-HK, server: aflzzul.meiquankongjian.com, port: 52512, type: vmess, uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /564dfa20/, headers: {Host: aflzzul.meiquankongjian.com}}, udp: true}
-  - {name: 05-0017-DE, server: 91.98.83.114, port: 8585, type: vmess, uuid: 9ec1ebd0-34e2-40b0-a681-3cb0c2d51953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 06-0021-CN, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v6.heduian.link}}, udp: true}
-  - {name: 06-0022-CN, server: 120.234.102.232, port: 46622, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-0024-FR, server: fr.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
-  - {name: 06-0026-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
-  - {name: 06-0030-RU, server: ss.80808.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: a4VtqRwhj6gWbHwL4Jt26w, udp: true}
-  - {name: 06-0039-VN, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0040-VN, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0041-VN, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0043-SA, server: 154.205.134.132, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: g8BWaY8FYhKfVMOT9N0IIB, udp: true}
-  - {name: 08-0044-VN, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0103-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0104-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 23-0045-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
-  - {name: 23-0046-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: a7f082c1-0d12-4609-b6bf-e760b668cf23, udp: true}
-  - {name: 23-0048-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 102ad3da-2d55-49d6-b8c8-2d7e04df33ca, udp: true}
-  - {name: 23-0049-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 3f40bf3d-2f1e-4f43-bf54-e5fe742a3b4e, udp: true}
-  - {name: 23-0050-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
-  - {name: 23-0051-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
-  - {name: 23-0054-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
-  - {name: 23-0056-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
-  - {name: 23-0060-CH, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: PtHv4bO4jPtBsHWSl1n5Qd, udp: true}
-  - {name: 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 23-0080-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 9lcCvzNxpNsnINyaYfzc8e, udp: true}
-  - {name: 23-0081-TR, server: 62.60.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9dVLaccGBqFx, udp: true}
-  - {name: 23-0083-NL, server: macintosh.outlinekeys.net, port: 19609, type: ss, cipher: chacha20-ietf-poly1305, password: UKvyixKRdTSw28Qp87keER, udp: true}
-  - {name: 23-0094-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 05-0000-ES, server: es.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: 05-0002-RELAY, server: s2.db-link.in, port: 80, type: vmess, uuid: 9523a24b-f6bf-339e-9950-32829162ffc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dabai.in49a502b8f3c58140b4ac5ca640ef23fe, headers: {Host: s2.db-link.in}}, udp: true}
+  - {name: 05-0004-CA, server: kampong.org, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws, headers: {Host: kampong.org}}, udp: true}
+  - {name: 05-0005-FR, server: 57.128.189.253, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 05-0019-DE, server: 57.129.28.213, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
+  - {name: 05-0020-DE, server: manimatrec.rtpxc.com, port: 6967, type: vmess, uuid: 3261e665-1239-49a2-9ede-979f664313ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: manimatrec.rtpxc.com}}, udp: true}
+  - {name: 05-0021-RELAY, server: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG, port: 443, type: vmess, uuid: a94fafdb-10d6-46c2-be8a-5c2e8358fbb0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /CjJ9A46ZRHvgWvVcmjyiKVby2Lp, headers: {Host: DdDDdddddDFrrrrrrRRy.IRan2035.dPDns.ORG}}, udp: true}
+  - {name: 05-0024-CN, server: yd-02.paofunlink.com, port: 1073, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
+  - {name: 05-0025-CN, server: yd-02.paofunlink.com, port: 1092, type: ssr, cipher: chacha20-ietf, password: bxsnucrgk6hfish, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 222545:TIvS2C, obfs-param: 45672222545.microsoft.com, udp: true}
+  - {name: 05-0106-HK, server: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: c004e6fe-t1i9s0-tm53cm-1ol97.hkt.tcpbbr.net}}, udp: true}
+  - {name: 05-0108-RELAY, server: qqqqqqqqqqqqaaaa.www890604.dpdns.org, port: 443, type: vmess, uuid: 4174b95d-115e-4d39-add6-1f8db95bb860, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /6We3U9Df1WGxgFnoFPw1, headers: {Host: qqqqqqqqqqqqaaaa.www890604.dpdns.org}}, udp: true}
+  - {name: 05-0116-DE, server: 91.98.83.114, port: 8585, type: vmess, uuid: 9ec1ebd0-34e2-40b0-a681-3cb0c2d51953, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 06-0026-CN, server: v6.heduian.link, port: 30806, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v6.heduian.link}}, udp: true}
+  - {name: 06-0027-CN, server: 120.234.102.232, port: 46622, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 06-0029-FR, server: fr.viefast.net, port: 443, type: trojan, password: 9e76767d-4bfa-4f04-a800-42e2f63afed2, sni: csapp.catch.net.tw, skip-cert-verify: true, udp: true}
+  - {name: 06-0030-HK, server: hkt.gotochinatown.net, port: 80, type: vmess, uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkt.gotochinatown.net}}, udp: true}
+  - {name: 06-0034-RU, server: ss.80808.sbs, port: 20, type: ss, cipher: aes-256-gcm, password: a4VtqRwhj6gWbHwL4Jt26w, udp: true}
+  - {name: 06-0042-VN, server: 103.186.155.36, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 06-0043-VN, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 06-0044-VN, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 08-0046-VN, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 08-0047-NL, server: 51.15.17.169, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0119-SA, server: 154.205.134.132, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: g8BWaY8FYhKfVMOT9N0IIB, udp: true}
+  - {name: 08-0120-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 08-0121-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 23-0048-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
+  - {name: 23-0049-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: a7f082c1-0d12-4609-b6bf-e760b668cf23, udp: true}
+  - {name: 23-0051-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 102ad3da-2d55-49d6-b8c8-2d7e04df33ca, udp: true}
+  - {name: 23-0052-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 3f40bf3d-2f1e-4f43-bf54-e5fe742a3b4e, udp: true}
+  - {name: 23-0053-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
+  - {name: 23-0054-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
+  - {name: 23-0057-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
+  - {name: 23-0059-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
+  - {name: 23-0065-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQdEh2NGJPNGpQdEJzSFdTbDFuNVFk@45.95.232.2364248#23-0063-CH, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 23-0082-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: 23-0083-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 9lcCvzNxpNsnINyaYfzc8e, udp: true}
+  - {name: 23-0084-TR, server: 62.60.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9dVLaccGBqFx, udp: true}
+  - {name: 23-0086-NL, server: macintosh.outlinekeys.net, port: 19609, type: ss, cipher: chacha20-ietf-poly1305, password: UKvyixKRdTSw28Qp87keER, udp: true}
+  - {name: 23-0097-LT, server: 45.87.175.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -101,38 +108,45 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 05-0001-CN
-      - 05-0003-HK
-      - 05-0004-NL
-      - 05-0005-RELAY
-      - 05-0016-HK
-      - 05-0017-DE
-      - 06-0021-CN
-      - 06-0022-CN
-      - 06-0024-FR
-      - 06-0026-HK
-      - 06-0030-RU
-      - 06-0039-VN
-      - 06-0040-VN
-      - 06-0041-VN
-      - 08-0043-SA
-      - 08-0044-VN
-      - 08-0103-KR
-      - 08-0104-VN
-      - 23-0045-AT
-      - 23-0046-AT
+      - 05-0000-ES
+      - 05-0002-RELAY
+      - 05-0004-CA
+      - 05-0005-FR
+      - 05-0019-DE
+      - 05-0020-DE
+      - 05-0021-RELAY
+      - 05-0024-CN
+      - 05-0025-CN
+      - 05-0106-HK
+      - 05-0108-RELAY
+      - 05-0116-DE
+      - 06-0026-CN
+      - 06-0027-CN
+      - 06-0029-FR
+      - 06-0030-HK
+      - 06-0034-RU
+      - 06-0042-VN
+      - 06-0043-VN
+      - 06-0044-VN
+      - 08-0046-VN
+      - 08-0047-NL
+      - 08-0119-SA
+      - 08-0120-KR
+      - 08-0121-VN
       - 23-0048-AT
       - 23-0049-AT
-      - 23-0050-AT
-      - 23-0051-FR
-      - 23-0054-DE
-      - 23-0056-JP
-      - 23-0060-CH
-      - 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL
-      - 23-0080-AT
-      - 23-0081-TR
-      - 23-0083-NL
-      - 23-0094-LT
+      - 23-0051-AT
+      - 23-0052-AT
+      - 23-0053-AT
+      - 23-0054-FR
+      - 23-0057-DE
+      - 23-0059-JP
+      - 23-0065-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQdEh2NGJPNGpQdEJzSFdTbDFuNVFk@45.95.232.2364248#23-0063-CH
+      - 23-0082-NL
+      - 23-0083-AT
+      - 23-0084-TR
+      - 23-0086-NL
+      - 23-0097-LT
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -188,72 +202,78 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0001-CN
-      - 06-0021-CN
-      - 06-0041-VN
-      - 23-0051-FR
-      - 23-0081-TR
+      - 05-0021-RELAY
+      - 08-0121-VN
+      - 23-0051-AT
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 06-0022-CN
-      - 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL
+      - 05-0002-RELAY
+      - 06-0042-VN
+      - 23-0052-AT
+      - 23-0082-NL
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0003-HK
-      - 08-0043-SA
-      - 08-0103-KR
-      - 23-0083-NL
+      - 06-0043-VN
+      - 23-0053-AT
+      - 23-0065-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQdEh2NGJPNGpQdEJzSFdTbDFuNVFk@45.95.232.2364248#23-0063-CH
+      - 23-0083-AT
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0004-NL
-      - 06-0024-FR
-      - 08-0044-VN
-      - 08-0104-VN
-      - 23-0054-DE
-      - 23-0094-LT
+      - 05-0004-CA
+      - 05-0024-CN
+      - 06-0034-RU
+      - 06-0044-VN
+      - 23-0054-FR
+      - 23-0084-TR
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0005-RELAY
-      - 23-0045-AT
+      - 05-0005-FR
+      - 05-0025-CN
+      - 23-0065-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQdEh2NGJPNGpQdEJzSFdTbDFuNVFk@45.95.232.2364248#23-0063-CH
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0016-HK
-      - 06-0026-HK
-      - 23-0046-AT
-      - 23-0056-JP
+      - 05-0106-HK
+      - 05-0116-DE
+      - 06-0026-CN
+      - 08-0046-VN
+      - 23-0086-NL
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0017-DE
+      - 06-0027-CN
+      - 08-0047-NL
+      - 23-0057-DE
+      - 23-0097-LT
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 05-0108-RELAY
       - 23-0048-AT
   - name: 测速9分组
     type: url-test
@@ -261,20 +281,21 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 06-0039-VN
+      - 05-0019-DE
+      - 06-0029-FR
+      - 08-0119-SA
       - 23-0049-AT
-      - 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL
+      - 23-0059-JP
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 06-0030-RU
-      - 06-0040-VN
-      - 23-0050-AT
-      - 23-0060-CH
-      - 23-0080-AT
+      - 05-0000-ES
+      - 05-0020-DE
+      - 06-0030-HK
+      - 08-0120-KR
   - name: 广告拦截
     type: select
     proxies:
