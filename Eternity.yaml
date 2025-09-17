@@ -67,6 +67,7 @@ proxies:
   - {name: 06-0040-VN, server: 103.186.155.183, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0041-VN, server: 103.186.155.135, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0043-SA, server: 154.205.134.132, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: g8BWaY8FYhKfVMOT9N0IIB, udp: true}
+  - {name: 08-0044-VN, server: 103.186.155.116, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 08-0103-KR, server: 154.90.63.177, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0104-VN, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
   - {name: 23-0045-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 0a914e9a-3e3b-470f-a267-7ea7083c45bb, udp: true}
@@ -75,9 +76,10 @@ proxies:
   - {name: 23-0049-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: 3f40bf3d-2f1e-4f43-bf54-e5fe742a3b4e, udp: true}
   - {name: 23-0050-AT, server: 77.110.110.240, port: 443, type: ss, cipher: aes-256-gcm, password: d70ef8b5-6048-4c0d-be4d-fc60399b0f45, udp: true}
   - {name: 23-0051-FR, server: 62.133.62.109, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: jifuR2NTM0Yt, udp: true}
+  - {name: 23-0054-DE, server: 57.129.24.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"}, udp: true}
   - {name: 23-0056-JP, server: 160.16.123.124, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 23-0060-CH, server: 45.95.232.236, port: 4248, type: ss, cipher: chacha20-ietf-poly1305, password: PtHv4bO4jPtBsHWSl1n5Qd, udp: true}
-  - {name: 23-0079-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
+  - {name: 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 23-0080-AT, server: 212.113.106.76, port: 29149, type: ss, cipher: chacha20-ietf-poly1305, password: 9lcCvzNxpNsnINyaYfzc8e, udp: true}
   - {name: 23-0081-TR, server: 62.60.233.21, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9dVLaccGBqFx, udp: true}
   - {name: 23-0083-NL, server: macintosh.outlinekeys.net, port: 19609, type: ss, cipher: chacha20-ietf-poly1305, password: UKvyixKRdTSw28Qp87keER, udp: true}
@@ -114,6 +116,7 @@ proxy-groups:
       - 06-0040-VN
       - 06-0041-VN
       - 08-0043-SA
+      - 08-0044-VN
       - 08-0103-KR
       - 08-0104-VN
       - 23-0045-AT
@@ -122,9 +125,10 @@ proxy-groups:
       - 23-0049-AT
       - 23-0050-AT
       - 23-0051-FR
+      - 23-0054-DE
       - 23-0056-JP
       - 23-0060-CH
-      - 23-0079-NL
+      - 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL
       - 23-0080-AT
       - 23-0081-TR
       - 23-0083-NL
@@ -196,6 +200,7 @@ proxy-groups:
     tolerance: 100
     proxies:
       - 06-0022-CN
+      - 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -214,7 +219,9 @@ proxy-groups:
     proxies:
       - 05-0004-NL
       - 06-0024-FR
+      - 08-0044-VN
       - 08-0104-VN
+      - 23-0054-DE
       - 23-0094-LT
   - name: 测速5分组
     type: url-test
@@ -256,7 +263,7 @@ proxy-groups:
     proxies:
       - 06-0039-VN
       - 23-0049-AT
-      - 23-0079-NL
+      - 23-0062-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I@92.112.126.90443#23-0079-NL
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
