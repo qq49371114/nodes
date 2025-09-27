@@ -119,6 +119,7 @@ proxies:
   - {name: 05-0145-JP, server: iepl.eu.yuntidns001.top, port: 30993, type: vmess, uuid: bba298ae-6833-349d-9f24-ac77b82a957a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 05-0149-FI, server: 65.109.217.125, port: 8443, type: vmess, uuid: 3c137b61-811c-46d6-898f-a038d71ee868, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 05-0156-FI, server: 65.109.217.125, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: bfUM594DfkimJL4s2LGOFA, udp: true}
+  - {name: 05-1536-US, server: 15.204.64.211, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 05-1539-PL, server: 57.128.216.125, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 06-0179-KR, server: 154.90.62.168, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 06-0229-JP, server: 185.141.219.112, port: 8388, type: ss, cipher: aes-256-gcm, password: bTaAw9DZrsnwl9wn, udp: true}
@@ -240,7 +241,6 @@ proxies:
   - {name: 08-0417-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0418-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0419-US, server: 104.167.197.25, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 360e21d21977dc11, udp: true}
-  - {name: 08-0420-US, server: vps.my-youth.asia, port: 17891, type: vmess, uuid: 8f2d400c-0879-4076-9b87-2302f00a135b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.my-youth.asia}}, udp: true}
   - {name: 08-0421-US, server: 107.151.182.253, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 08-0422-US, server: 38.107.226.159, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: 08-0423-US, server: 38.107.226.159, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
@@ -653,6 +653,7 @@ proxy-groups:
       - 05-0145-JP
       - 05-0149-FI
       - 05-0156-FI
+      - 05-1536-US
       - 05-1539-PL
       - 06-0179-KR
       - 06-0229-JP
@@ -774,7 +775,6 @@ proxy-groups:
       - 08-0417-US
       - 08-0418-US
       - 08-0419-US
-      - 08-0420-US
       - 08-0421-US
       - 08-0422-US
       - 08-0423-US
@@ -1457,6 +1457,7 @@ proxy-groups:
       - 04-1516-SG
       - 04-1526-SG
       - 05-0156-FI
+      - 05-1536-US
       - 06-0316-VN
       - 06-0326-VN
       - 06-0336-VN
@@ -1695,7 +1696,6 @@ proxy-groups:
       - 08-0390-LT
       - 08-0400-NL
       - 08-0410-US
-      - 08-0420-US
       - 08-0430-US
       - 08-0450-US
       - 08-0470-FR
