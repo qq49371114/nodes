@@ -56,7 +56,6 @@ proxies:
   - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: steampipe-partner.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: akamai.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: b21ab207-e7df-3ba3-9614-df03b02a08d7, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0546-HK, server: 103.219.195.237, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
   - {name: 04-0547-JP, server: 178.239.125.119, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0548-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 694d40c5-bdad-3a6e-a857-d25316a08307, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
@@ -233,7 +232,7 @@ proxies:
   - {name: 07-0193-US, server: 54.82.229.122, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0194-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0195-US, server: 52.87.250.198, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 07-0196-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@156.38.168.58990#07-0363-ZA, server: 54.234.186.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 07-0196-US, server: 54.234.186.14, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0197-US, server: 54.209.249.254, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0198-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0199-US, server: 104.192.226.106, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -244,6 +243,7 @@ proxies:
   - {name: 07-0204-US, server: 167.88.61.59, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: 07-0205-JP, server: 160.16.68.250, port: 2467, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 07-0206-JP, server: 160.16.68.250, port: 2381, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 07-0207-US, server: vps.my-youth.asia, port: 17891, type: vmess, uuid: 8f2d400c-0879-4076-9b87-2302f00a135b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: vps.my-youth.asia}}, udp: true}
   - {name: 07-0208-US, server: 144.126.146.38, port: 30789, type: ss, cipher: chacha20-ietf-poly1305, password: 8d73e088-dc5a-4dfe-8927-56351ee80407, udp: true}
   - {name: 07-0209-US, server: 15.204.64.211, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 07-0210-US, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -337,6 +337,7 @@ proxies:
   - {name: 07-0334-NL, server: 51.15.23.63, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0336-BG, server: 37.19.203.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0337-LU, server: 109.61.46.43, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: "07-0338-JPtrojan//b21ab207-e7df-3ba3-9614-df03b02a08d7@178.208.190.99443?allowInsecure=1&sni=www.microsoft365.com#04-0004-US", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 07-0339-JP, server: 47.74.32.126, port: 20521, type: vmess, uuid: c99bbb45-73a5-44d5-bfe9-b05e08730673, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-0340-JP, server: 194.68.27.76, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0341-JP, server: 160.16.136.130, port: 1331, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
@@ -361,6 +362,7 @@ proxies:
   - {name: 07-0360-DK, server: 192.36.27.94, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0361-PY, server: 38.165.233.93, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0362-PY, server: 38.165.233.18, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 07-0363-ZA, server: 156.38.168.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 07-0364-AU, server: 3.107.178.116, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
   - {name: 07-0365-AU, server: 3.107.184.53, port: 80, type: ss, cipher: aes-256-gcm, password: dada0801, udp: true}
   - {name: 07-0366-CA, server: 51.161.130.101, port: 550, type: vmess, uuid: b592cf1a-d92f-4dbd-9c1d-b76936a1609e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -369,7 +371,6 @@ proxies:
   - {name: 07-0369-HK, server: 203.198.122.55, port: 443, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
   - {name: 07-0370-HK, server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
   - {name: 07-0371-FR, server: 51.195.119.47, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: qXvO7zYU7KeaB0Md7DQLow, udp: true}
-  - {name: 07-0372-DE, server: 18.196.23.20, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0373-FR, server: 51.68.191.233, port: 80, type: vmess, uuid: f0eda072-9ae8-494c-a495-215fa5729467, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, udp: true}
   - {name: 07-0374-DE, server: 91.99.185.216, port: 20086, type: vmess, uuid: 7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 07-0375-RELAY, server: 185.146.173.25, port: 80, type: vmess, uuid: ed1b5743-389b-48a2-8d60-3790eded7ca6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -443,7 +444,7 @@ proxies:
   - {name: 07-0446-ID, server: 154.205.159.100, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0447-AE, server: 89.31.120.192, port: 443, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 07-0629-JP, server: 202.181.103.246, port: 2283, type: trojan, password: ea39fa94f1ee00999337ea1fd3318e69, sni: www.baidu.com, skip-cert-verify: true, udp: true}
-  - {name: 07-0630-US, server: 34.201.50.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 07-0630-USss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.196.23.20443#07-0372-DE, server: 34.201.50.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0631-US, server: 40.160.16.219, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: linkvws}, udp: true}
   - {name: 07-0632-RELAY, server: dcf741e8.epeius-2gy.pages.dev, port: 443, type: trojan, password: auto, sni: dcf741e8.epeius-2gy.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: dcf741e8.epeius-2gy.pages.dev}}, udp: true}
   - {name: 07-0633-RELAY, server: ea596492-e849-fedb-4940-add11fdfa131.freevpnatm.dpdns.org, port: 80, type: vmess, uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /e7JS5ETJeA85VyjPCYXwETL, headers: {Host: ea596492-e849-fedb-4940-add11fdfa131.freevpnatm.dpdns.org}}, udp: true}
@@ -557,7 +558,6 @@ proxy-groups:
       - 04-0001-JP
       - 04-0002-SG
       - 04-0003-SG
-      - 04-0004-US
       - 04-0546-HK
       - 04-0547-JP
       - 04-0548-SG
@@ -734,7 +734,7 @@ proxy-groups:
       - 07-0193-US
       - 07-0194-US
       - 07-0195-US
-      - 07-0196-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@156.38.168.58990#07-0363-ZA
+      - 07-0196-US
       - 07-0197-US
       - 07-0198-US
       - 07-0199-US
@@ -745,6 +745,7 @@ proxy-groups:
       - 07-0204-US
       - 07-0205-JP
       - 07-0206-JP
+      - 07-0207-US
       - 07-0208-US
       - 07-0209-US
       - 07-0210-US
@@ -838,6 +839,7 @@ proxy-groups:
       - 07-0334-NL
       - 07-0336-BG
       - 07-0337-LU
+      - 07-0338-JPtrojan//b21ab207-e7df-3ba3-9614-df03b02a08d7@178.208.190.99443?allowInsecure=1&sni=www.microsoft365.com#04-0004-US
       - 07-0339-JP
       - 07-0340-JP
       - 07-0341-JP
@@ -862,6 +864,7 @@ proxy-groups:
       - 07-0360-DK
       - 07-0361-PY
       - 07-0362-PY
+      - 07-0363-ZA
       - 07-0364-AU
       - 07-0365-AU
       - 07-0366-CA
@@ -870,7 +873,6 @@ proxy-groups:
       - 07-0369-HK
       - 07-0370-HK
       - 07-0371-FR
-      - 07-0372-DE
       - 07-0373-FR
       - 07-0374-DE
       - 07-0375-RELAY
@@ -944,7 +946,7 @@ proxy-groups:
       - 07-0446-ID
       - 07-0447-AE
       - 07-0629-JP
-      - 07-0630-US
+      - 07-0630-USss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.196.23.20443#07-0372-DE
       - 07-0631-US
       - 07-0632-RELAY
       - 07-0633-RELAY
@@ -1181,7 +1183,6 @@ proxy-groups:
       - 07-0342-RELAY
       - 07-0352-PL
       - 07-0362-PY
-      - 07-0372-DE
       - 07-0382-VN
       - 07-0392-VN
       - 07-0402-VN
@@ -1189,6 +1190,7 @@ proxy-groups:
       - 07-0422-AR
       - 07-0432-MX
       - 07-0442-CN
+      - 07-0630-USss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.196.23.20443#07-0372-DE
       - 07-0632-RELAY
       - 07-0642-JP
       - 07-0652-NL
@@ -1223,7 +1225,6 @@ proxy-groups:
       - 06-0173-CN
       - 07-0183-SG
       - 07-0193-US
-      - 07-0196-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@156.38.168.58990#07-0363-ZA
       - 07-0203-US
       - 07-0213-RELAY
       - 07-0223-RELAY
@@ -1239,6 +1240,7 @@ proxy-groups:
       - 07-0333-SE
       - 07-0343-JP
       - 07-0353-PL
+      - 07-0363-ZA
       - 07-0373-FR
       - 07-0383-VN
       - 07-0393-VN
@@ -1260,7 +1262,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 04-0004-US
       - 04-0554-HK
       - 04-0564-SG
       - 04-0574-HK
@@ -1292,6 +1293,7 @@ proxy-groups:
       - 07-0314-LT
       - 07-0324-FR
       - 07-0334-NL
+      - 07-0338-JPtrojan//b21ab207-e7df-3ba3-9614-df03b02a08d7@178.208.190.99443?allowInsecure=1&sni=www.microsoft365.com#04-0004-US
       - 07-0344-CH
       - 07-0354-PL
       - 07-0364-AU
@@ -1392,7 +1394,7 @@ proxy-groups:
       - 06-0136-CN
       - 06-0176-CN
       - 07-0186-SG
-      - 07-0196-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@156.38.168.58990#07-0363-ZA
+      - 07-0196-US
       - 07-0206-JP
       - 07-0226-RELAY
       - 07-0276-NL
@@ -1446,6 +1448,7 @@ proxy-groups:
       - 06-0137-CN
       - 06-0177-CN
       - 07-0197-US
+      - 07-0207-US
       - 07-0267-CA
       - 07-0277-AE
       - 07-0287-NL
@@ -1454,6 +1457,7 @@ proxy-groups:
       - 07-0317-LT
       - 07-0327-FR
       - 07-0337-LU
+      - 07-0338-JPtrojan//b21ab207-e7df-3ba3-9614-df03b02a08d7@178.208.190.99443?allowInsecure=1&sni=www.microsoft365.com#04-0004-US
       - 07-0347-FI
       - 07-0357-RU
       - 07-0367-RELAY
@@ -1509,6 +1513,7 @@ proxy-groups:
       - 07-0308-LT
       - 07-0318-NL
       - 07-0328-FR
+      - 07-0338-JPtrojan//b21ab207-e7df-3ba3-9614-df03b02a08d7@178.208.190.99443?allowInsecure=1&sni=www.microsoft365.com#04-0004-US
       - 07-0348-GB
       - 07-0358-DZ
       - 07-0368-HK
@@ -1621,7 +1626,7 @@ proxy-groups:
       - 07-0420-VN
       - 07-0430-PT
       - 07-0440-CN
-      - 07-0630-US
+      - 07-0630-USss//YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU@18.196.23.20443#07-0372-DE
       - 07-0640-DE
       - 07-0650-SG
       - 08-0450-TW
