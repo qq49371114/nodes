@@ -1,9 +1,9 @@
 proxies:
-  - {name: 04-0000-HK, server: 103.219.195.237, port: 443, type: trojan, password: 9aa0127e-ff71-31b2-98ef-6e6defac2bb6, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: 9aa0127e-ff71-31b2-98ef-6e6defac2bb6, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: 9aa0127e-ff71-31b2-98ef-6e6defac2bb6, sni: steamcdn-a.akamaihd.net, skip-cert-verify: true, udp: true}
-  - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 9aa0127e-ff71-31b2-98ef-6e6defac2bb6, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
-  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: 9aa0127e-ff71-31b2-98ef-6e6defac2bb6, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0000-HK, server: 103.219.195.237, port: 443, type: trojan, password: b87163d2-10f4-3cf4-80b0-41415d47d2c3, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0001-JP, server: 178.239.125.119, port: 443, type: trojan, password: b87163d2-10f4-3cf4-80b0-41415d47d2c3, sni: origin-a.akamaihd.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0002-SG, server: 43.160.203.70, port: 443, type: trojan, password: b87163d2-10f4-3cf4-80b0-41415d47d2c3, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 04-0003-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: b87163d2-10f4-3cf4-80b0-41415d47d2c3, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
+  - {name: 04-0004-US, server: 178.208.190.99, port: 443, type: trojan, password: b87163d2-10f4-3cf4-80b0-41415d47d2c3, sni: fastly.cdn.steampipe.steamcontent.com, skip-cert-verify: true, udp: true}
   - {name: 04-0595-HK, server: 103.219.195.237, port: 443, type: trojan, password: b97c85d1-ab20-3ae7-b8a0-5a496e968311, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0596-JP, server: 178.239.125.119, port: 443, type: trojan, password: b97c85d1-ab20-3ae7-b8a0-5a496e968311, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
   - {name: 04-0597-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: b97c85d1-ab20-3ae7-b8a0-5a496e968311, sni: steampipe.akamaized.net, skip-cert-verify: true, udp: true}
@@ -400,14 +400,14 @@ proxies:
   - {name: 07-0504-KH, server: 38.54.4.65, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 07-0505-UA, server: 176.103.53.105, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 07-0506-IN, server: 94.136.185.230, port: 10534, type: vmess, uuid: b01c7ef9-33ec-41f6-bfbf-77ddc4d21649, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 07-0507-AE, server: tr.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
+  - {name: 07-0507-TR, server: tr.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: 07-0508-AE, server: 89.31.120.192, port: 443, type: vmess, uuid: 44537595-9ccc-4b83-8936-5f9ad3229019, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 07-0637-JP, server: 202.181.103.246, port: 2283, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 07-0638-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 07-0639-HK, server: 8.218.175.64, port: 9754, type: vmess, uuid: 5b9575c3-c404-4c93-98f8-63581e88ffdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
-  - {name: 07-0640-JP, server: 172.111.146.64, port: 80, type: vmess, uuid: 05b8c783-7f59-47f9-9923-06a465679f6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, udp: true}
-  - {name: 07-0641-MY, server: 38.60.195.254, port: 1037, type: vmess, uuid: 2d978341-a391-4b54-8623-12284dc24525, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 07-0642-MT, server: 171.22.254.17, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 07-0639-JP, server: 202.181.103.246, port: 2283, type: trojan, password: c53647f3153f784b3c695ffbe5fb43c0, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 07-0640-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: 07-0641-US, server: 103.124.107.144, port: 29800, type: vmess, uuid: cc31ddfc-d92e-4dab-cd06-00dfb84af8ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 07-0642-HK, server: 8.218.175.64, port: 9754, type: vmess, uuid: 5b9575c3-c404-4c93-98f8-63581e88ffdf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true}
+  - {name: 07-0643-JP, server: 172.111.146.64, port: 80, type: vmess, uuid: 05b8c783-7f59-47f9-9923-06a465679f6a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess/}, udp: true}
+  - {name: 07-0644-MY, server: 38.60.195.254, port: 1037, type: vmess, uuid: 2d978341-a391-4b54-8623-12284dc24525, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: 08-0509-TW, server: 36.234.99.56, port: 10079, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
   - {name: 08-0510-SG, server: 5.44.249.42, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG @WangCai2)26af988:57468}, udp: true}
   - {name: 08-0511-TW, server: 36.232.86.87, port: 10127, type: ss, cipher: chacha20-ietf-poly1305, password: 3f8a0b92-de50-4a2e-a7bf-fb0e4c175e3d, udp: true}
