@@ -91,6 +91,7 @@ proxies:
   - {name: 04-0525-HK, server: 103.219.195.237, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0526-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0527-US, server: 178.208.190.99, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 05-0001-GB, server: uk.vpnsparta.pro, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: c40641c1f89e7acb, udp: true}
   - {name: 05-0002-CN, server: 36.150.215.236, port: 401, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 05-0003-CN, server: f10011.flyflylflyflyssssnode.sbs, port: 19949, type: trojan, password: e7313acb-7af6-4fee-8483-eeaded7cf3a2, sni: tw01.ckcloud.info, skip-cert-verify: true, udp: true}
   - {name: 05-0016-FR, server: 195.154.119.77, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
@@ -162,7 +163,6 @@ proxies:
   - {name: 06-0141-CN, server: 01.xunyunnode.sbs, port: 45823, type: ss, cipher: chacha20-ietf-poly1305, password: f1acd25c-579a-470a-8283-c103796fac14, udp: true}
   - {name: 06-0142-HK, server: 212.192.13.86, port: 22127, type: vmess, uuid: 6e223cec-8a3b-48f6-82bf-4fc0f6760a10, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0146-HK, server: 212.192.13.86, port: 23185, type: vmess, uuid: f1988929-b46b-47bd-a993-5c757ca592f5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 06-0147-CN, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: f7a67884-78b0-407d-8aa6-0edae5a78657, udp: true}
   - {name: 06-0150-HK, server: 212.192.13.86, port: 22127, type: vmess, uuid: b908ab5f-4e6a-4c82-b1cb-5d74871d85dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0154-HK, server: 212.192.13.86, port: 22127, type: vmess, uuid: 9768050c-432e-4db5-b417-a6b674af43d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0157-CN, server: n002.xunxunmimisbs.sbs, port: 24100, type: trojan, password: bbd3f850-16ca-4f92-b99f-aab79194f9ff, sni: us01.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
@@ -389,6 +389,7 @@ proxy-groups:
       - 04-0525-HK
       - 04-0526-SG
       - 04-0527-US
+      - 05-0001-GB
       - 05-0002-CN
       - 05-0003-CN
       - 05-0016-FR
@@ -460,7 +461,6 @@ proxy-groups:
       - 06-0141-CN
       - 06-0142-HK
       - 06-0146-HK
-      - 06-0147-CN
       - 06-0150-HK
       - 06-0154-HK
       - 06-0157-CN
@@ -690,6 +690,7 @@ proxy-groups:
       - 04-0501-HK
       - 04-0511-SG
       - 04-0521-US
+      - 05-0001-GB
       - 05-0021-US
       - 06-0041-CN
       - 06-0051-CN
@@ -907,7 +908,6 @@ proxy-groups:
       - 06-0067-CN
       - 06-0097-SG
       - 06-0107-SG
-      - 06-0147-CN
       - 06-0157-CN
       - 08-0237-CN
       - 08-0247-CN
