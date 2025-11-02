@@ -80,6 +80,7 @@ proxies:
   - {name: 04-0632-US, server: 178.208.190.99, port: 443, type: trojan, password: dda39440-611e-367a-8b5c-60b110881c48, sni: steampipe-kr.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0633-SG, server: vd0ee3cg.cs53rvhb.aliyunglsb.com, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: upos-hz-mirrorakam.akamaized.net, skip-cert-verify: true, udp: true}
   - {name: 04-0634-US, server: 178.208.190.99, port: 443, type: trojan, password: 04a70eb2-857b-3c61-9d36-a6284846dde9, sni: www.microsoft365.com, skip-cert-verify: true, udp: true}
+  - {name: 05-0001-RELAY, server: 5.182.84.22, port: 2096, type: trojan, password: Aimer, sni: epge.muarua.filegear-sg.me, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F%25253Fed%25253D2560", headers: {Host: epge.muarua.filegear-sg.me}}, udp: true}
   - {name: 05-0005-NOWHERE, server: 16.mamamajd.site, port: 23616, type: vmess, uuid: 57387603-eb84-3061-b245-cce157244360, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 16.mamamajd.site}}, udp: true}
   - {name: 05-0006-CN, server: 5.mamamajd.site, port: 23605, type: vmess, uuid: 57387603-eb84-3061-b245-cce157244360, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 5.mamamajd.site}}, udp: true}
   - {name: 05-0009-MY, server: 23.27.240.193, port: 26710, type: vmess, uuid: 7cc16cad-66e3-4efb-84ba-a8b3a390ce52, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /7cc16cad}, udp: true}
@@ -134,7 +135,6 @@ proxies:
   - {name: 06-0110-JP, server: we9lf-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: e35ab9dc-4a18-342e-83fd-b31079522dd1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: we9lf-g05.jp01-nn-vm0.entry.fr0528.art}}, udp: true}
   - {name: 06-0111-CN, server: n002.xunxunmimisbs.sbs, port: 42101, type: trojan, password: d8d32732-6d38-4541-be14-ce51707e76fa, sni: jp02.xxxxyyyysbs.sbs, skip-cert-verify: true, udp: true}
   - {name: 06-0112-JP, server: zxp77-g05.jp01-nn-vm0.entry.fr0528.art, port: 21585, type: vmess, uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: zxp77-g05.jp01-nn-vm0.entry.fr0528.art}}, udp: true}
-  - {name: 06-0113-CN, server: xc.xunyunnode.sbs, port: 26329, type: ss, cipher: chacha20-ietf-poly1305, password: 714e921f-d8ee-49f5-bebb-84ea058f0bcb, udp: true}
   - {name: 06-0114-CN, server: wa.xunyunnode.sbs, port: 25856, type: ss, cipher: chacha20-ietf-poly1305, password: ca2ea7a9-86e1-44df-8f2d-8fa736f6be9c, udp: true}
   - {name: 06-0115-JP, server: egc0t-g05.jp02-e3-vm0.entry.fr0528.art, port: 11777, type: vmess, uuid: ca78405e-e554-3cd3-9b6d-2ec98e21c8f1, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: egc0t-g05.jp02-e3-vm0.entry.fr0528.art}}, udp: true}
   - {name: 06-0116-CN, server: 02.xunyunnode.sbs, port: 44447, type: ss, cipher: chacha20-ietf-poly1305, password: 9eb348eb-4a55-4457-a470-c52641e03ba6, udp: true}
@@ -156,7 +156,7 @@ proxies:
   - {name: 06-0202-VN, server: 103.186.154.218, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 07-0203-HK, server: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com, port: 80, type: vmess, uuid: f860f2da-5035-11ed-bb74-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 272ffc58-sv2sg0-t4v3jz-1k8ga.hk3.p5pv.com}}, udp: true}
   - {name: 07-0204-CN, server: oss-cn-shanghai.letssepub.com, port: 20021, type: trojan, password: adbac894-90b9-4913-b77e-a715a8d4ebc8, sni: dingding-doc.com, skip-cert-verify: true, udp: true}
-  - {name: "07-0205-CAtrojan//Aimer@5.182.84.222096?allowInsecure=1&sni=epge.muarua.filegear-sg.me&ws=1&wspath=%252F%253Fed%253D2560#05-0001-RELAY", server: 15.157.66.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: 07-0205-CAss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTRlOTIxZi1kOGVlLTQ5ZjUtYmViYi04NGVhMDU4ZjBiY2I@xc.xunyunnode.sbs26329#06-0113-CN, server: 15.157.66.237, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 07-0206-CN, server: 36.151.192.242, port: 194, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 07-0209-HK, server: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com, port: 80, type: vmess, uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: fb6f1580-sv2sg0-svpmdc-nx3b.hk3.p5pv.com}}, udp: true}
   - {name: 07-0210-HK, server: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com, port: 80, type: vmess, uuid: fac704ae-0304-11f0-a2ef-f23c91cfbbc9, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 7dfe4b59-svc1s0-tc67m2-1tjc4.hk3.p5pv.com}}, udp: true}
@@ -232,7 +232,6 @@ proxies:
   - {name: 08-0374-FR, server: 15.237.208.55, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: 08-0375-JP, server: t2lo8-g03.jp03-j7-vm0.entry.fr0528.art, port: 21583, type: vmess, uuid: 39adda75-0a81-3603-8a9d-d5a369dff386, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: t2lo8-g03.jp03-j7-vm0.entry.fr0528.art}}, udp: true}
   - {name: 08-0382-VN, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 08-0652-DE, server: 35.157.82.27, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 09-0384-CN, server: 36.151.192.242, port: 4556, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 09-0385-CN, server: 36.150.215.197, port: 51825, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 09-0387-HK, server: 46.3.26.12, port: 443, type: vmess, uuid: 4bf075f5-4d5e-4d39-f5ab-b32a86250f0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /aa}, udp: true}
@@ -316,10 +315,9 @@ proxies:
   - {name: 17-0582-LT, server: 45.87.175.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
   - {name: 17-0585-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
   - {name: 17-0587-NL, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
-  - {name: 17-0594-DE, server: 213.108.198.158, port: 8441, type: trojan, password: tunnel-astrovpn_official103, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir, skip-cert-verify: true, udp: true}
-  - {name: 17-0596-DE, server: 81.19.141.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LVBYRkSkHlTqebSJrGc2C7, udp: true}
-  - {name: 17-0597-TR, server: 193.124.46.134, port: 8441, type: trojan, password: tunnel-astrovpn_official018, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir, skip-cert-verify: true, udp: true}
-  - {name: 17-0703-RU, server: 5.129.201.43, port: 23256, type: ss, cipher: chacha20-ietf-poly1305, password: yALtyAtHfbw1Vu4pqh6wUc, udp: true}
+  - {name: 17-0595-DE, server: 81.19.141.45, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LVBYRkSkHlTqebSJrGc2C7, udp: true}
+  - {name: 17-0596-TR, server: 193.124.46.134, port: 8441, type: trojan, password: tunnel-astrovpn_official018, sni: zula.ir.AstroVPN-official.AstroVPN-official.workers.dev.AstroVPN_Official.org.AstroVPN.com.AstroVPN_Official.xyz.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.AstroVPN_Official.monster.AstroVPN_OfficialJoinTelegram-------------AstroVPN_Official----------Join.ir, skip-cert-verify: true, udp: true}
+  - {name: 17-0606-RU, server: 5.129.201.43, port: 23256, type: ss, cipher: chacha20-ietf-poly1305, password: yALtyAtHfbw1Vu4pqh6wUc, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -365,6 +363,7 @@ proxy-groups:
       - 04-0632-US
       - 04-0633-SG
       - 04-0634-US
+      - 05-0001-RELAY
       - 05-0005-NOWHERE
       - 05-0006-CN
       - 05-0009-MY
@@ -419,7 +418,6 @@ proxy-groups:
       - 06-0110-JP
       - 06-0111-CN
       - 06-0112-JP
-      - 06-0113-CN
       - 06-0114-CN
       - 06-0115-JP
       - 06-0116-CN
@@ -441,7 +439,7 @@ proxy-groups:
       - 06-0202-VN
       - 07-0203-HK
       - 07-0204-CN
-      - 07-0205-CAtrojan//Aimer@5.182.84.222096?allowInsecure=1&sni=epge.muarua.filegear-sg.me&ws=1&wspath=%252F%253Fed%253D2560#05-0001-RELAY
+      - 07-0205-CAss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTRlOTIxZi1kOGVlLTQ5ZjUtYmViYi04NGVhMDU4ZjBiY2I@xc.xunyunnode.sbs26329#06-0113-CN
       - 07-0206-CN
       - 07-0209-HK
       - 07-0210-HK
@@ -517,7 +515,6 @@ proxy-groups:
       - 08-0374-FR
       - 08-0375-JP
       - 08-0382-VN
-      - 08-0652-DE
       - 09-0384-CN
       - 09-0385-CN
       - 09-0387-HK
@@ -601,10 +598,9 @@ proxy-groups:
       - 17-0582-LT
       - 17-0585-LT
       - 17-0587-NL
-      - 17-0594-DE
-      - 17-0596-DE
-      - 17-0597-TR
-      - 17-0703-RU
+      - 17-0595-DE
+      - 17-0596-TR
+      - 17-0606-RU
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -663,6 +659,7 @@ proxy-groups:
       - 04-0611-SG
       - 04-0621-US
       - 04-0631-SG
+      - 05-0001-RELAY
       - 05-0641-HK
       - 06-0021-US
       - 06-0041-SG
@@ -672,7 +669,6 @@ proxy-groups:
       - 06-0111-CN
       - 06-0121-CN
       - 06-0201-CN
-      - 07-0205-CAtrojan//Aimer@5.182.84.222096?allowInsecure=1&sni=epge.muarua.filegear-sg.me&ws=1&wspath=%252F%253Fed%253D2560#05-0001-RELAY
       - 07-0211-HK
       - 07-0221-HK
       - 07-0231-CN
@@ -710,7 +706,6 @@ proxy-groups:
       - 08-0352-JP
       - 08-0362-FR
       - 08-0382-VN
-      - 08-0652-DE
       - 09-0392-CN
       - 10-0432-TW
       - 10-0462-NOWHERE
@@ -735,9 +730,9 @@ proxy-groups:
       - 06-0073-CN
       - 06-0083-CN
       - 06-0103-CN
-      - 06-0113-CN
       - 06-0123-CN
       - 07-0203-HK
+      - 07-0205-CAss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTRlOTIxZi1kOGVlLTQ5ZjUtYmViYi04NGVhMDU4ZjBiY2I@xc.xunyunnode.sbs26329#06-0113-CN
       - 07-0213-HK
       - 07-0223-CN
       - 07-0263-HK
@@ -757,7 +752,6 @@ proxy-groups:
       - 17-0543-PL
       - 17-0553-RELAY
       - 17-0563-ZA
-      - 17-0703-RU
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -792,7 +786,6 @@ proxy-groups:
       - 16-0484-RELAY
       - 16-0494-HK
       - 17-0574-FI
-      - 17-0594-DE
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -811,7 +804,7 @@ proxy-groups:
       - 06-0115-JP
       - 06-0125-CN
       - 06-0155-CN
-      - 07-0205-CAtrojan//Aimer@5.182.84.222096?allowInsecure=1&sni=epge.muarua.filegear-sg.me&ws=1&wspath=%252F%253Fed%253D2560#05-0001-RELAY
+      - 07-0205-CAss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTRlOTIxZi1kOGVlLTQ5ZjUtYmViYi04NGVhMDU4ZjBiY2I@xc.xunyunnode.sbs26329#06-0113-CN
       - 07-0215-CN
       - 07-0235-HK
       - 07-0245-HK
@@ -831,6 +824,7 @@ proxy-groups:
       - 17-0545-ES
       - 17-0555-RELAY
       - 17-0585-LT
+      - 17-0595-DE
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -861,7 +855,8 @@ proxy-groups:
       - 16-0486-HK
       - 16-0496-HK
       - 17-0526-LV
-      - 17-0596-DE
+      - 17-0596-TR
+      - 17-0606-RU
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -896,7 +891,6 @@ proxy-groups:
       - 17-0537-US
       - 17-0577-CH
       - 17-0587-NL
-      - 17-0597-TR
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
