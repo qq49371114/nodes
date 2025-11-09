@@ -52,7 +52,7 @@ sniffer:
     - courier.push.apple.com
     - Mijia Cloud
 proxies:
-  - {name: 05-0490-NL, server: 51.158.204.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG, udp: true}
+  - {name: 05-0466-NL, server: 51.158.204.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG, udp: true}
   - {name: 06-0011-CN, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkcmi.5tk.top}}, udp: true}
   - {name: 06-0022-HK, server: 203.198.122.129, port: 443, type: trojan, password: BxceQaOe, sni: 203.198.122.129, skip-cert-verify: true, udp: true}
   - {name: 06-0026-FR, server: 51.45.27.162, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
@@ -137,8 +137,6 @@ proxies:
   - {name: 06-0170-VN, server: 103.186.155.109, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0171-VN, server: 103.186.155.47, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
   - {name: 06-0173-VN, server: 103.186.154.182, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 06-0493-SI, server: 45.83.131.43, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: HfAiyrdFbKJuKIQkGjvJrDFefmH8YDSC, udp: true}
-  - {name: 06-0494-RU, server: 45.144.31.24, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 7HQ8w1YWMdNjq68bZt1tNfpDHLFA1BPA, udp: true}
   - {name: 07-0174-HK, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v9.heduian.link}}, udp: true}
   - {name: 07-0176-HK, server: v10.heduian.link, port: 30807, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v10.heduian.link}}, udp: true}
   - {name: 07-0177-CN, server: 36.151.251.38, port: 25891, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
@@ -172,7 +170,6 @@ proxies:
   - {name: 07-0228-RELAY, server: 104.25.254.4, port: 2087, type: trojan, password: d0298536-d670-4045-bbb1-ddd5ea68683e, sni: azadnet-bdr.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fazadnet-bdr.pages.dev%25252F%25253Fed%25253D2560", headers: {Host: azadnet-bdr.pages.dev}}, udp: true}
   - {name: 07-0231-HK, server: nl1.web3sp.com, port: 50829, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
   - {name: 07-0232-CN, server: sl.fgmcx.top, port: 41047, type: ss, cipher: chacha20-ietf-poly1305, password: 014e90df-a3ee-4654-a9f6-d118e02dd02a, udp: true}
-  - {name: 08-0233-HK, server: 58.152.53.3, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 08-0234-RELAY, server: 1762659141.bilibiliapp.cn, port: 443, type: vmess, uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 1762659141.bilibiliapp.cn}}, udp: true}
   - {name: 08-0235-SG, server: 68.183.235.122, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 08-0236-SG, server: 68.183.227.4, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
@@ -198,126 +195,109 @@ proxies:
   - {name: 08-0259-US, server: 64.74.163.82, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
   - {name: 08-0260-RELAY, server: 170.114.45.52, port: 2086, type: vmess, uuid: 49b90475-9f45-4589-8de4-a603f4f656a8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 08-0262-RELAY, server: sub2.633399.xyz, port: 2083, type: vmess, uuid: 18ba872c-533a-4121-b220-257ed7f358bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sub2.633399.xyz}}, udp: true}
-  - {name: 08-0263-US, server: 15.204.103.7, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /linkvws}, udp: true}
   - {name: 08-0265-GB, server: 146.70.61.37, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true}
   - {name: 08-0266-US, server: 64.74.163.218, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 08-0267-US, server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "08-0267-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: 08-0268-MD, server: 176.123.1.175, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 08-0269-IT, server: 38.180.195.193, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: SwTShXYSQd404FISs8NFeJ, udp: true}
   - {name: 08-0270-BR, server: 185.192.124.188, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: "09-0271-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0272-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA@imap.roomyinmita.name40565#17-0428-US, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0273-LU, server: 109.61.46.43, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 09-0274-FR, server: 195.154.169.198, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0275-ZA, server: 156.38.168.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 09-0276-NL, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, udp: true}
-  - {name: 09-0277-DZ, server: 197.140.29.76, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 09-0279-LT, server: 45.87.175.92, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 09-0280-NL, server: 193.29.139.251, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 09-0281-NL, server: 193.29.139.240, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 09-0282-SE, server: 121.127.46.147, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0283-MA, server: 188.214.157.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 09-0284-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: 09-0285-GR, server: 192.71.166.102, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 09-0286-LV, server: 46.183.217.204, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 09-0287-LT, server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 09-0288-SG, server: sg006.421421.xyz, port: 20230, type: trojan, password: 1b26d982-fd68-44f4-bf6d-22fe17a9249a, sni: www.alibaba.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252F", headers: {Host: www.alibaba.com}}, udp: true}
-  - {name: 09-0545-NL, server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
-  - {name: 09-0546-LT, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
-  - {name: 10-0319-CN, server: 36.150.215.247, port: 1251, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 10-0320-CN, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: 10-0321-CN, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
-  - {name: 10-0322-SG, server: 134.255.211.95, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: V9tDTUVnwrEI937PP96McHXsMpfhmqDE, udp: true}
-  - {name: 10-0331-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
-  - {name: 10-0333-FR, server: 35.181.212.211, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 10-0338-VN, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0339-VN, server: 103.186.155.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0340-VN, server: 103.186.155.112, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0343-VN, server: 103.186.155.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0345-VN, server: 103.186.154.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0346-VN, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0347-VN, server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0349-VN, server: 103.186.155.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0350-VN, server: 103.186.155.84, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0351-VN, server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0354-VN, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0355-VN, server: 103.186.155.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0356-VN, server: 103.186.154.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0357-VN, server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0358-VN, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0359-VN, server: 103.186.155.106, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0360-VN, server: 103.186.155.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0361-VN, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0362-VN, server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0363-VN, server: 103.186.155.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0364-VN, server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0366-VN, server: 103.186.155.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0367-VN, server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0368-VN, server: 103.186.155.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0370-VN, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0371-VN, server: 103.186.155.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0373-VN, server: 103.186.154.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0375-VN, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0378-VN, server: 103.186.154.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0379-FR, server: 35.181.212.211, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
-  - {name: 10-0381-VN, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0385-VN, server: 103.186.154.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0386-VN, server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0387-VN, server: 103.186.155.127, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0390-VN, server: 103.186.155.131, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0392-VN, server: 103.186.155.85, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0398-VN, server: 103.186.154.151, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 10-0406-HK, server: tw2.web3sp.com, port: 50439, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 10-0751-BG, server: 95.164.10.228, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo, udp: true}
-  - {name: 16-0410-RELAY, server: 141.101.115.65, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
-  - {name: 16-0411-CN, server: 36.150.215.244, port: 2753, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
-  - {name: 16-0412-HK, server: 203.198.122.194, port: 443, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
-  - {name: 16-0413-HK, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, udp: true}
-  - {name: 16-0414-VN, server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
-  - {name: 16-0415-RELAY, server: bluehost.com, port: 443, type: vmess, uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /19544, headers: {Host: bluehost.com}}, udp: true}
-  - {name: 16-0416-HK, server: vn1.web3sp.com, port: 51069, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 16-0417-HK, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 17-0421-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
-  - {name: 17-0423-RELAY, server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fyamtekodasayahhh", headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
-  - {name: 17-0429-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: ivQYTiSyUGyRiVhqcbaEtMjXC8djrscPbnhjnU9oTEuVwh6LhJSkQNYjxtKx5X2iRRCJHu7e3UFwW9S9iAyhP2rX6ot6Lc7x, udp: true}
-  - {name: 17-0430-CA, server: 209.200.246.53, port: 10785, type: trojan, password: D3OJA7xY5U, sni: cloudflare.com, skip-cert-verify: true, udp: true}
-  - {name: 17-0432-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: QLXkEq597i3oGAGzjE4qS64uPGhjxWpPiqwwBArKbsqYPUNpQBwdgHL6KoDSRGE9bjSdn3p4UaDYMVm6s1wMoifavnirR5N8, udp: true}
-  - {name: 17-0437-LT, server: 45.87.175.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
-  - {name: 17-0438-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: akvJQzZCaTdisSyuSy3aRmyvKC53X1d3PaAsb9xU8n5TY9hSB1DK5e6SPm921igHcRsCTCvf1pWufTJ5Li8PiiQG4vYdyyM7, udp: true}
-  - {name: 17-0439-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: zPbZwy4CsNmSmhGYjoUW47iRgnK7US3cZ9g7o5YefnnTAMzk74upYV8k29XdQaefPwGM7HAmhvqLXSovVA1HH8L8podSAZ3X, udp: true}
-  - {name: 17-0440-IN, server: 103.97.203.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0443-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0446-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 17-0448-CA, server: 23.95.76.147, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0450-MT, server: 171.22.254.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0452-MA, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0453-RELAY, server: 172.64.156.42, port: 443, type: trojan, password: NISHIKUITAN111, sni: 172.64.156.42, skip-cert-verify: true, udp: true}
-  - {name: 17-0454-EG, server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0455-CY, server: 134.255.210.49, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0456-BO, server: 185.93.173.60, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0457-CY, server: 134.255.210.49, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 17-0458-EG, server: 38.54.59.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0460-NG, server: 185.255.123.166, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0461-RELAY, server: www.visa.com.sg, port: 8443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: 17-0462-RELAY, server: 22b.net, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: 17-0463-RELAY, server: 104.21.30.195, port: 443, type: trojan, password: bpb-trojan, sni: 403b3611-99BC-43B7-88D7-26eD5d0825a9-3.PagES.DEv, skip-cert-verify: true, udp: true}
-  - {name: 17-0464-ID, server: 38.60.171.254, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0465-RELAY, server: tm-azarbayjab1.1.workers.dev, port: 443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
-  - {name: 17-0467-VN, server: 38.54.31.230, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0469-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
-  - {name: 17-0470-TW, server: official.taipeicitygovernment.com.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
-  - {name: 17-0471-NL, server: 212.34.140.184, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
-  - {name: 17-0472-BH, server: 154.205.146.153, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
-  - {name: 17-0473-NL, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
-  - {name: 17-0474-HK, server: br1.web3sp.com, port: 51059, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 17-0475-HK, server: hk3.web3sp.com, port: 50039, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
-  - {name: 17-0476-BH, server: 38.54.2.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 17-0478-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: 17-0480-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: 17-0483-KR, server: 115.161.136.145, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 12242, udp: true}
-  - {name: 17-0484-DE, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
-  - {name: 17-0485-JP, server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
-  - {name: 17-0752-FI, server: 38.244.136.233, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, udp: true}
+  - {name: 09-0538-NL, server: 193.29.139.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true}
+  - {name: 09-0539-LT, server: 45.87.175.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: cvII85TrW6n0OGyfpHVS1u, udp: true}
+  - {name: 10-0294-CN, server: 36.150.215.247, port: 1251, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 10-0295-CN, server: 36.133.73.36, port: 11819, type: vmess, uuid: de32752c-0661-467e-82d3-35bc740a787f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: 10-0296-CN, server: 14.18.106.88, port: 6100, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true}
+  - {name: 10-0297-SG, server: 134.255.211.95, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: V9tDTUVnwrEI937PP96McHXsMpfhmqDE, udp: true}
+  - {name: 10-0306-KR, server: p141.panda001.net, port: 4652, type: ss, cipher: aes-256-cfb, password: qwerREWQ%2540%2540, udp: true}
+  - {name: 10-0308-FR, server: 35.181.212.211, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 10-0313-VN, server: 103.186.154.63, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0314-VN, server: 103.186.155.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0315-VN, server: 103.186.155.112, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0318-VN, server: 103.186.155.50, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0320-VN, server: 103.186.154.206, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0321-VN, server: 103.186.155.147, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0322-VN, server: 103.186.155.143, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0324-VN, server: 103.186.155.220, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0325-VN, server: 103.186.155.84, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0326-VN, server: 103.186.155.45, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0329-VN, server: 103.186.155.221, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0330-VN, server: 103.186.155.141, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0331-VN, server: 103.186.154.4, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0332-VN, server: 103.186.155.233, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0333-VN, server: 103.186.155.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0334-VN, server: 103.186.155.106, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0335-VN, server: 103.186.155.37, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0336-VN, server: 103.186.155.108, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0337-VN, server: 103.186.155.107, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0338-VN, server: 103.186.155.44, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0339-VN, server: 103.186.154.177, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0341-VN, server: 103.186.155.57, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0342-VN, server: 103.186.155.56, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0343-VN, server: 103.186.155.48, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0345-VN, server: 103.186.155.21, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0346-VN, server: 103.186.155.239, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0348-VN, server: 103.186.154.64, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0350-VN, server: 103.186.154.39, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0353-VN, server: 103.186.154.55, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0354-FR, server: 35.181.212.211, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 10-0356-VN, server: 103.186.155.232, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0360-VN, server: 103.186.154.153, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0361-VN, server: 103.186.154.80, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0362-VN, server: 103.186.155.127, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0365-VN, server: 103.186.155.131, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0367-VN, server: 103.186.155.85, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0373-VN, server: 103.186.154.151, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 10-0381-HK, server: tw2.web3sp.com, port: 50439, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
+  - {name: 10-0741-BG, server: 95.164.10.228, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: SDaFISr3Gfm6YkBSSrFIEwwWjEEU7Xbo, udp: true}
+  - {name: 16-0385-RELAY, server: 141.101.115.65, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}, udp: true}
+  - {name: 16-0386-CN, server: 36.150.215.244, port: 2753, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 16-0387-HK, server: 203.198.122.194, port: 443, type: trojan, password: 1b57001bd214304027025a740b6cf1ac, sni: www.nintendogames.net, skip-cert-verify: true, udp: true}
+  - {name: 16-0388-HK, server: 103.103.245.158, port: 443, type: ss, cipher: aes-256-gcm, password: ccf426f1fe78, udp: true}
+  - {name: 16-0389-VN, server: 103.186.154.193, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%2525%2523%2524%2523fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 16-0390-RELAY, server: bluehost.com, port: 443, type: vmess, uuid: 12eed507-9a58-4ca5-f7af-2871e9aae684, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /19544, headers: {Host: bluehost.com}}, udp: true}
+  - {name: 16-0391-HK, server: vn1.web3sp.com, port: 51069, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
+  - {name: 16-0392-HK, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 17-0396-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
+  - {name: 17-0398-RELAY, server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fyamtekodasayahhh", headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
+  - {name: 17-0403-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2AJogKuFsiVa5SrhD7vPn8P28se9DBAT564XTGDnE9h5HZPh593bzJRxYavWzryacr6CAN5nHFm8RpsHfqRnasyhbsRzY4Np, udp: true}
+  - {name: 17-0404-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: ivQYTiSyUGyRiVhqcbaEtMjXC8djrscPbnhjnU9oTEuVwh6LhJSkQNYjxtKx5X2iRRCJHu7e3UFwW9S9iAyhP2rX6ot6Lc7x, udp: true}
+  - {name: 17-0405-CA, server: 209.200.246.53, port: 10785, type: trojan, password: D3OJA7xY5U, sni: cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 17-0407-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: QLXkEq597i3oGAGzjE4qS64uPGhjxWpPiqwwBArKbsqYPUNpQBwdgHL6KoDSRGE9bjSdn3p4UaDYMVm6s1wMoifavnirR5N8, udp: true}
+  - {name: 17-0412-LT, server: 45.87.175.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true}
+  - {name: 17-0413-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: akvJQzZCaTdisSyuSy3aRmyvKC53X1d3PaAsb9xU8n5TY9hSB1DK5e6SPm921igHcRsCTCvf1pWufTJ5Li8PiiQG4vYdyyM7, udp: true}
+  - {name: 17-0414-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: zPbZwy4CsNmSmhGYjoUW47iRgnK7US3cZ9g7o5YefnnTAMzk74upYV8k29XdQaefPwGM7HAmhvqLXSovVA1HH8L8podSAZ3X, udp: true}
+  - {name: 17-0415-IN, server: 103.97.203.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0418-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0421-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 17-0423-CA, server: 23.95.76.147, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0425-MT, server: 171.22.254.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0426-MA, server: 188.214.157.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0428-MA, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0429-RELAY, server: 172.64.156.42, port: 443, type: trojan, password: NISHIKUITAN111, sni: 172.64.156.42, skip-cert-verify: true, udp: true}
+  - {name: 17-0430-EG, server: 38.54.59.180, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0431-CY, server: 134.255.210.49, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0432-BO, server: 185.93.173.60, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0433-CY, server: 134.255.210.49, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 17-0434-EG, server: 38.54.59.107, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0436-NG, server: 185.255.123.166, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0437-RELAY, server: www.visa.com.sg, port: 8443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: 17-0438-RELAY, server: 22b.net, port: 2087, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: 17-0439-RELAY, server: 104.21.30.195, port: 443, type: trojan, password: bpb-trojan, sni: 403b3611-99BC-43B7-88D7-26eD5d0825a9-3.PagES.DEv, skip-cert-verify: true, udp: true}
+  - {name: 17-0440-ID, server: 38.60.171.254, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0441-RELAY, server: tm-azarbayjab1.1.workers.dev, port: 443, type: trojan, password: trojan, skip-cert-verify: true, udp: true}
+  - {name: 17-0443-VN, server: 38.54.31.230, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0445-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: wwzVn2ZnHfqYa6l8EWh3eY, udp: true}
+  - {name: 17-0446-TW, server: official.taipeicitygovernment.com.ua, port: 8443, type: trojan, password: 96983eb4-c8f1-316e-ab00-500014ed3d8b, skip-cert-verify: true, udp: true}
+  - {name: 17-0447-NL, server: 212.34.140.184, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
+  - {name: 17-0448-BH, server: 154.205.146.153, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
+  - {name: 17-0449-NL, server: promo1o.bystrivpn.ru, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0NeN5ta7FLa5B9DLytU0um, udp: true}
+  - {name: 17-0450-HK, server: br1.web3sp.com, port: 51059, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
+  - {name: 17-0451-HK, server: hk3.web3sp.com, port: 50039, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
+  - {name: 17-0452-BH, server: 38.54.2.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: 17-0454-NL, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 17-0456-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
+  - {name: 17-0459-KR, server: 115.161.136.145, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 12242, udp: true}
+  - {name: 17-0460-DE, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
+  - {name: 17-0742-FI, server: 38.244.136.233, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -335,7 +315,7 @@ proxy-groups:
       - 测速8分组
       - 测速9分组
       - 测速10分组
-      - 05-0490-NL
+      - 05-0466-NL
       - 06-0011-CN
       - 06-0022-HK
       - 06-0026-FR
@@ -420,8 +400,6 @@ proxy-groups:
       - 06-0170-VN
       - 06-0171-VN
       - 06-0173-VN
-      - 06-0493-SI
-      - 06-0494-RU
       - 07-0174-HK
       - 07-0176-HK
       - 07-0177-CN
@@ -455,7 +433,6 @@ proxy-groups:
       - 07-0228-RELAY
       - 07-0231-HK
       - 07-0232-CN
-      - 08-0233-HK
       - 08-0234-RELAY
       - 08-0235-SG
       - 08-0236-SG
@@ -481,126 +458,109 @@ proxy-groups:
       - 08-0259-US
       - 08-0260-RELAY
       - 08-0262-RELAY
-      - 08-0263-US
       - 08-0265-GB
       - 08-0266-US
-      - 08-0267-US
+      - 08-0267-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 08-0268-MD
       - 08-0269-IT
       - 08-0270-BR
-      - 09-0271-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 09-0272-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA@imap.roomyinmita.name40565#17-0428-US
-      - 09-0273-LU
-      - 09-0274-FR
-      - 09-0275-ZA
-      - 09-0276-NL
-      - 09-0277-DZ
-      - 09-0279-LT
-      - 09-0280-NL
-      - 09-0281-NL
-      - 09-0282-SE
-      - 09-0283-MA
-      - 09-0284-US
-      - 09-0285-GR
-      - 09-0286-LV
-      - 09-0287-LT
-      - 09-0288-SG
-      - 09-0545-NL
-      - 09-0546-LT
-      - 10-0319-CN
-      - 10-0320-CN
-      - 10-0321-CN
-      - 10-0322-SG
-      - 10-0331-KR
-      - 10-0333-FR
+      - 09-0538-NL
+      - 09-0539-LT
+      - 10-0294-CN
+      - 10-0295-CN
+      - 10-0296-CN
+      - 10-0297-SG
+      - 10-0306-KR
+      - 10-0308-FR
+      - 10-0313-VN
+      - 10-0314-VN
+      - 10-0315-VN
+      - 10-0318-VN
+      - 10-0320-VN
+      - 10-0321-VN
+      - 10-0322-VN
+      - 10-0324-VN
+      - 10-0325-VN
+      - 10-0326-VN
+      - 10-0329-VN
+      - 10-0330-VN
+      - 10-0331-VN
+      - 10-0332-VN
+      - 10-0333-VN
+      - 10-0334-VN
+      - 10-0335-VN
+      - 10-0336-VN
+      - 10-0337-VN
       - 10-0338-VN
       - 10-0339-VN
-      - 10-0340-VN
+      - 10-0341-VN
+      - 10-0342-VN
       - 10-0343-VN
       - 10-0345-VN
       - 10-0346-VN
-      - 10-0347-VN
-      - 10-0349-VN
+      - 10-0348-VN
       - 10-0350-VN
-      - 10-0351-VN
-      - 10-0354-VN
-      - 10-0355-VN
+      - 10-0353-VN
+      - 10-0354-FR
       - 10-0356-VN
-      - 10-0357-VN
-      - 10-0358-VN
-      - 10-0359-VN
       - 10-0360-VN
       - 10-0361-VN
       - 10-0362-VN
-      - 10-0363-VN
-      - 10-0364-VN
-      - 10-0366-VN
+      - 10-0365-VN
       - 10-0367-VN
-      - 10-0368-VN
-      - 10-0370-VN
-      - 10-0371-VN
       - 10-0373-VN
-      - 10-0375-VN
-      - 10-0378-VN
-      - 10-0379-FR
-      - 10-0381-VN
-      - 10-0385-VN
-      - 10-0386-VN
-      - 10-0387-VN
-      - 10-0390-VN
-      - 10-0392-VN
-      - 10-0398-VN
-      - 10-0406-HK
-      - 10-0751-BG
-      - 16-0410-RELAY
-      - 16-0411-CN
-      - 16-0412-HK
-      - 16-0413-HK
-      - 16-0414-VN
-      - 16-0415-RELAY
-      - 16-0416-HK
-      - 16-0417-HK
-      - 17-0421-LT
-      - 17-0423-RELAY
-      - 17-0429-US
-      - 17-0430-CA
-      - 17-0432-US
-      - 17-0437-LT
-      - 17-0438-US
-      - 17-0439-US
-      - 17-0440-IN
-      - 17-0443-CR
-      - 17-0446-CR
-      - 17-0448-CA
-      - 17-0450-MT
-      - 17-0452-MA
-      - 17-0453-RELAY
-      - 17-0454-EG
-      - 17-0455-CY
-      - 17-0456-BO
-      - 17-0457-CY
-      - 17-0458-EG
-      - 17-0460-NG
-      - 17-0461-RELAY
-      - 17-0462-RELAY
-      - 17-0463-RELAY
-      - 17-0464-ID
-      - 17-0465-RELAY
-      - 17-0467-VN
-      - 17-0469-NL
-      - 17-0470-TW
-      - 17-0471-NL
-      - 17-0472-BH
-      - 17-0473-NL
-      - 17-0474-HK
-      - 17-0475-HK
-      - 17-0476-BH
-      - 17-0478-NL
-      - 17-0480-NL
-      - 17-0483-KR
-      - 17-0484-DE
-      - 17-0485-JP
-      - 17-0752-FI
+      - 10-0381-HK
+      - 10-0741-BG
+      - 16-0385-RELAY
+      - 16-0386-CN
+      - 16-0387-HK
+      - 16-0388-HK
+      - 16-0389-VN
+      - 16-0390-RELAY
+      - 16-0391-HK
+      - 16-0392-HK
+      - 17-0396-LT
+      - 17-0398-RELAY
+      - 17-0403-US
+      - 17-0404-US
+      - 17-0405-CA
+      - 17-0407-US
+      - 17-0412-LT
+      - 17-0413-US
+      - 17-0414-US
+      - 17-0415-IN
+      - 17-0418-CR
+      - 17-0421-CR
+      - 17-0423-CA
+      - 17-0425-MT
+      - 17-0426-MA
+      - 17-0428-MA
+      - 17-0429-RELAY
+      - 17-0430-EG
+      - 17-0431-CY
+      - 17-0432-BO
+      - 17-0433-CY
+      - 17-0434-EG
+      - 17-0436-NG
+      - 17-0437-RELAY
+      - 17-0438-RELAY
+      - 17-0439-RELAY
+      - 17-0440-ID
+      - 17-0441-RELAY
+      - 17-0443-VN
+      - 17-0445-NL
+      - 17-0446-TW
+      - 17-0447-NL
+      - 17-0448-BH
+      - 17-0449-NL
+      - 17-0450-HK
+      - 17-0451-HK
+      - 17-0452-BH
+      - 17-0454-NL
+      - 17-0456-NL
+      - 17-0459-KR
+      - 17-0460-DE
+      - 17-0742-FI
   - name: 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -669,19 +629,17 @@ proxy-groups:
       - 07-0221-RELAY
       - 07-0231-HK
       - 08-0251-MY
-      - 09-0271-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 09-0281-NL
-      - 10-0321-CN
-      - 10-0331-KR
-      - 10-0351-VN
+      - 10-0321-VN
+      - 10-0331-VN
+      - 10-0341-VN
       - 10-0361-VN
-      - 10-0371-VN
-      - 10-0381-VN
-      - 10-0751-BG
-      - 16-0411-CN
-      - 17-0421-LT
-      - 17-0461-RELAY
-      - 17-0471-NL
+      - 10-0381-HK
+      - 10-0741-BG
+      - 16-0391-HK
+      - 17-0421-CR
+      - 17-0431-CY
+      - 17-0441-RELAY
+      - 17-0451-HK
   - name: 测速2分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -700,17 +658,15 @@ proxy-groups:
       - 08-0242-VN
       - 08-0252-GB
       - 08-0262-RELAY
-      - 09-0272-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA@imap.roomyinmita.name40565#17-0428-US
-      - 09-0282-SE
-      - 10-0322-SG
+      - 10-0322-VN
+      - 10-0332-VN
+      - 10-0342-VN
       - 10-0362-VN
-      - 10-0392-VN
-      - 16-0412-HK
-      - 17-0432-US
-      - 17-0452-MA
-      - 17-0462-RELAY
-      - 17-0472-BH
-      - 17-0752-FI
+      - 16-0392-HK
+      - 17-0412-LT
+      - 17-0432-BO
+      - 17-0452-BH
+      - 17-0742-FI
   - name: 测速3分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -722,28 +678,22 @@ proxy-groups:
       - 06-0083-CN
       - 06-0163-VN
       - 06-0173-VN
-      - 06-0493-SI
       - 07-0193-HK
       - 07-0203-RU
       - 07-0213-RELAY
       - 07-0223-HK
-      - 08-0233-HK
       - 08-0243-MY
       - 08-0253-US
-      - 08-0263-US
-      - 09-0273-LU
-      - 09-0283-MA
-      - 10-0333-FR
+      - 10-0313-VN
+      - 10-0333-VN
       - 10-0343-VN
-      - 10-0363-VN
+      - 10-0353-VN
       - 10-0373-VN
-      - 16-0413-HK
-      - 17-0423-RELAY
-      - 17-0443-CR
-      - 17-0453-RELAY
-      - 17-0463-RELAY
-      - 17-0473-NL
-      - 17-0483-KR
+      - 17-0403-US
+      - 17-0413-US
+      - 17-0423-CA
+      - 17-0433-CY
+      - 17-0443-VN
   - name: 测速4分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -759,7 +709,6 @@ proxy-groups:
       - 06-0144-CN
       - 06-0154-VN
       - 06-0164-VN
-      - 06-0494-RU
       - 07-0174-HK
       - 07-0184-HK
       - 07-0194-HK
@@ -767,15 +716,15 @@ proxy-groups:
       - 08-0234-RELAY
       - 08-0244-NL
       - 08-0254-MY
-      - 09-0274-FR
-      - 09-0284-US
-      - 10-0354-VN
-      - 10-0364-VN
-      - 16-0414-VN
-      - 17-0454-EG
-      - 17-0464-ID
-      - 17-0474-HK
-      - 17-0484-DE
+      - 10-0294-CN
+      - 10-0314-VN
+      - 10-0324-VN
+      - 10-0334-VN
+      - 10-0354-FR
+      - 17-0404-US
+      - 17-0414-US
+      - 17-0434-EG
+      - 17-0454-NL
   - name: 测速5分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -797,24 +746,24 @@ proxy-groups:
       - 08-0245-IT
       - 08-0255-US
       - 08-0265-GB
-      - 09-0275-ZA
-      - 09-0285-GR
-      - 09-0545-NL
+      - 10-0295-CN
+      - 10-0315-VN
+      - 10-0325-VN
+      - 10-0335-VN
       - 10-0345-VN
-      - 10-0355-VN
-      - 10-0375-VN
-      - 10-0385-VN
-      - 16-0415-RELAY
-      - 17-0455-CY
-      - 17-0465-RELAY
-      - 17-0475-HK
-      - 17-0485-JP
+      - 10-0365-VN
+      - 16-0385-RELAY
+      - 17-0405-CA
+      - 17-0415-IN
+      - 17-0425-MT
+      - 17-0445-NL
   - name: 测速6分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
+      - 05-0466-NL
       - 06-0026-FR
       - 06-0036-CN
       - 06-0046-CN
@@ -831,18 +780,18 @@ proxy-groups:
       - 08-0236-SG
       - 08-0246-SG
       - 08-0266-US
-      - 09-0276-NL
-      - 09-0286-LV
-      - 09-0546-LT
+      - 10-0296-CN
+      - 10-0306-KR
+      - 10-0326-VN
+      - 10-0336-VN
       - 10-0346-VN
       - 10-0356-VN
-      - 10-0366-VN
-      - 10-0386-VN
-      - 10-0406-HK
-      - 16-0416-HK
-      - 17-0446-CR
-      - 17-0456-BO
-      - 17-0476-BH
+      - 16-0386-CN
+      - 17-0396-LT
+      - 17-0426-MA
+      - 17-0436-NG
+      - 17-0446-TW
+      - 17-0456-NL
   - name: 测速7分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -865,17 +814,14 @@ proxy-groups:
       - 07-0227-CN
       - 08-0237-PT
       - 08-0257-NL
-      - 08-0267-US
-      - 09-0277-DZ
-      - 09-0287-LT
-      - 10-0347-VN
-      - 10-0357-VN
+      - 08-0267-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
+      - 10-0297-SG
+      - 10-0337-VN
       - 10-0367-VN
-      - 10-0387-VN
-      - 16-0417-HK
-      - 17-0437-LT
-      - 17-0457-CY
-      - 17-0467-VN
+      - 16-0387-HK
+      - 17-0407-US
+      - 17-0437-RELAY
+      - 17-0447-NL
   - name: 测速8分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -900,17 +846,17 @@ proxy-groups:
       - 08-0248-FR
       - 08-0258-US
       - 08-0268-MD
-      - 09-0272-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyQUpvZ0t1RnNpVmE1U3JoRDd2UG44UDI4c2U5REJBVDU2NFhUR0RuRTloNUhaUGg1OTNiekpSeFlhdld6cnlhY3I2Q0FONW5IRm04UnBzSGZxUm5hc3loYnNSelk0TnA@imap.roomyinmita.name40565#17-0428-US
-      - 09-0288-SG
+      - 09-0538-NL
+      - 10-0308-FR
+      - 10-0318-VN
       - 10-0338-VN
-      - 10-0358-VN
-      - 10-0368-VN
-      - 10-0378-VN
-      - 10-0398-VN
-      - 17-0438-US
-      - 17-0448-CA
-      - 17-0458-EG
-      - 17-0478-NL
+      - 10-0348-VN
+      - 16-0388-HK
+      - 17-0398-RELAY
+      - 17-0418-CR
+      - 17-0428-MA
+      - 17-0438-RELAY
+      - 17-0448-BH
   - name: 测速9分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -932,22 +878,20 @@ proxy-groups:
       - 08-0249-US
       - 08-0259-US
       - 08-0269-IT
-      - 09-0279-LT
-      - 10-0319-CN
+      - 09-0539-LT
+      - 10-0329-VN
       - 10-0339-VN
-      - 10-0349-VN
-      - 10-0359-VN
-      - 10-0379-FR
-      - 17-0429-US
-      - 17-0439-US
-      - 17-0469-NL
+      - 16-0389-VN
+      - 17-0429-RELAY
+      - 17-0439-RELAY
+      - 17-0449-NL
+      - 17-0459-KR
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
     interval: 120
     tolerance: 100
     proxies:
-      - 05-0490-NL
       - 06-0030-CN
       - 06-0050-CN
       - 06-0060-TW
@@ -962,22 +906,17 @@ proxy-groups:
       - 08-0240-TW
       - 08-0250-US
       - 08-0260-RELAY
+      - 08-0267-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 08-0270-BR
-      - 09-0271-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
-      - 09-0280-NL
-      - 10-0320-CN
-      - 10-0340-VN
+      - 10-0320-VN
+      - 10-0330-VN
       - 10-0350-VN
       - 10-0360-VN
-      - 10-0370-VN
-      - 10-0390-VN
-      - 16-0410-RELAY
-      - 17-0430-CA
-      - 17-0440-IN
-      - 17-0450-MT
-      - 17-0460-NG
-      - 17-0470-TW
-      - 17-0480-NL
+      - 16-0390-RELAY
+      - 17-0430-EG
+      - 17-0440-ID
+      - 17-0450-HK
+      - 17-0460-DE
   - name: 广告拦截
     type: select
     proxies:
