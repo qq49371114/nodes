@@ -142,7 +142,6 @@ proxies:
   - {name: 07-0177-CN, server: 36.151.251.38, port: 25891, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 07-0178-CN, server: 36.150.215.248, port: 8041, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 07-0179-RELAY, server: 185.146.173.16, port: 80, type: vmess, uuid: d967ffca-de90-4daa-bd00-d527e5bae11f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)"}, udp: true}
-  - {name: 07-0184-HK, server: 58.152.46.98, port: 443, type: trojan, password: BxceQaOe, skip-cert-verify: true, udp: true}
   - {name: 07-0185-HK, server: v30.heduian.link, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /oooo, headers: {Host: v30.heduian.link}}, udp: true}
   - {name: 07-0186-HK, server: 58.152.53.186, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 07-0190-HK, server: in2.web3sp.com, port: 50619, type: ss, cipher: aes-128-gcm, password: I1qrYxOXxPYCOkhT, udp: true}
@@ -272,7 +271,7 @@ proxies:
   - {name: 17-0442-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: 17-0445-KR, server: 115.161.136.145, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 12242, udp: true}
   - {name: 17-0446-DE, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
-  - {name: 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA, server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
+  - {name: 17-0450-JP, server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 17-0451-FI, server: 38.244.136.233, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -381,7 +380,6 @@ proxy-groups:
       - 07-0177-CN
       - 07-0178-CN
       - 07-0179-RELAY
-      - 07-0184-HK
       - 07-0185-HK
       - 07-0186-HK
       - 07-0190-HK
@@ -511,7 +509,7 @@ proxy-groups:
       - 17-0442-NL
       - 17-0445-KR
       - 17-0446-DE
-      - 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA
+      - 17-0450-JP
       - 17-0451-FI
   - name: 负载均衡
     type: load-balance
@@ -662,7 +660,6 @@ proxy-groups:
       - 06-0154-VN
       - 06-0164-VN
       - 07-0174-HK
-      - 07-0184-HK
       - 07-0194-HK
       - 07-0224-KR
       - 08-0234-RELAY
@@ -819,7 +816,6 @@ proxy-groups:
       - 17-0399-US
       - 17-0419-CY
       - 17-0429-VN
-      - 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -844,7 +840,7 @@ proxy-groups:
       - 17-0400-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0420-EG
       - 17-0440-NL
-      - 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA
+      - 17-0450-JP
   - name: 广告拦截
     type: select
     proxies:
