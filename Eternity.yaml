@@ -54,6 +54,7 @@ sniffer:
 proxies:
   - {name: 05-0455-NL, server: 51.158.204.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG, udp: true}
   - {name: 06-0011-CN, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkcmi.5tk.top}}, udp: true}
+  - {name: 06-0022-HK, server: 203.198.122.129, port: 443, type: trojan, password: BxceQaOe, sni: 203.198.122.129, skip-cert-verify: true, udp: true}
   - {name: 06-0026-FR, server: 51.45.27.162, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 06-0028-CN, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 6a8b2bab-fd52-4237-aa81-908f42398257, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 06-0029-CN, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 6a8b2bab-fd52-4237-aa81-908f42398257, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
@@ -78,7 +79,6 @@ proxies:
   - {name: 06-0056-CN, server: jry.izenny.com, port: 26535, type: ss, cipher: chacha20-ietf-poly1305, password: 8a203ef7-75f3-4aa3-9cb3-274ad5d6c0a5, udp: true}
   - {name: 06-0057-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: c8000d8d-5037-439d-95ab-0c04a2e5afb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0058-HK, server: hk.ggzl.tiksg.icu, port: 2207, type: ss, cipher: chacha20-ietf-poly1305, password: e76d8a0d-cc46-4a11-ac1d-34f03cd4fdb4, udp: true}
-  - {name: 06-0059-HK, server: 58.152.30.26, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
   - {name: 06-0060-TW, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 74407e61-d605-48f7-bc19-f1154c91043f, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 06-0063-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: 7125fade-b916-4c65-8827-95025fe97d8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: 06-0064-HK, server: 212.192.13.86, port: 22130, type: vmess, uuid: da5d9d7c-f8a1-4b88-80c5-ca05dd99e8be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
@@ -292,6 +292,7 @@ proxy-groups:
       - 测速10分组
       - 05-0455-NL
       - 06-0011-CN
+      - 06-0022-HK
       - 06-0026-FR
       - 06-0028-CN
       - 06-0029-CN
@@ -316,7 +317,6 @@ proxy-groups:
       - 06-0056-CN
       - 06-0057-HK
       - 06-0058-HK
-      - 06-0059-HK
       - 06-0060-TW
       - 06-0063-HK
       - 06-0064-HK
@@ -596,6 +596,7 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
+      - 06-0022-HK
       - 06-0032-CN
       - 06-0052-CN
       - 06-0072-CN
@@ -799,7 +800,6 @@ proxy-groups:
       - 06-0029-CN
       - 06-0039-TW
       - 06-0049-CN
-      - 06-0059-HK
       - 06-0069-RELAY
       - 06-0079-HK
       - 06-0089-CN
