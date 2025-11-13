@@ -54,7 +54,6 @@ sniffer:
 proxies:
   - {name: 05-0455-NL, server: 51.158.204.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 0KDTVV9wFm2pvQUnQftJDWgXbaY8kIfG, udp: true}
   - {name: 06-0011-CN, server: tkcmi.5tk.top, port: 38637, type: vmess, uuid: 93058ab5-bb29-44d4-c309-d224c0967732, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tkcmi.5tk.top}}, udp: true}
-  - {name: 06-0022-HK, server: 203.198.122.129, port: 443, type: trojan, password: BxceQaOe, sni: 203.198.122.129, skip-cert-verify: true, udp: true}
   - {name: 06-0026-FR, server: 51.45.27.162, port: 22223, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: 06-0028-CN, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 6a8b2bab-fd52-4237-aa81-908f42398257, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: haa.dashuai.cyou}}, udp: true}
   - {name: 06-0029-CN, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 6a8b2bab-fd52-4237-aa81-908f42398257, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: xdd.dashuai.cyou}}, udp: true}
@@ -272,7 +271,7 @@ proxies:
   - {name: 17-0442-NL, server: 92.112.126.90, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
   - {name: 17-0445-KR, server: 115.161.136.145, port: 10099, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 12242, udp: true}
   - {name: 17-0446-DE, server: 109.122.197.192, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JNK7CvuvWTpF2ZY3d9ygt1, udp: true}
-  - {name: 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA, server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
+  - {name: 17-0450-JP, server: 153.121.51.214, port: 10087, type: ss, cipher: aes-128-gcm, password: !<str> 10086, udp: true}
   - {name: 17-0451-FI, server: 38.244.136.233, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dAHM1pm8ag7KdlrUylQi6t, udp: true}
 proxy-groups:
   - name: 节点选择
@@ -293,7 +292,6 @@ proxy-groups:
       - 测速10分组
       - 05-0455-NL
       - 06-0011-CN
-      - 06-0022-HK
       - 06-0026-FR
       - 06-0028-CN
       - 06-0029-CN
@@ -511,7 +509,7 @@ proxy-groups:
       - 17-0442-NL
       - 17-0445-KR
       - 17-0446-DE
-      - 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA
+      - 17-0450-JP
       - 17-0451-FI
   - name: 负载均衡
     type: load-balance
@@ -598,7 +596,6 @@ proxy-groups:
     interval: 120
     tolerance: 100
     proxies:
-      - 06-0022-HK
       - 06-0032-CN
       - 06-0052-CN
       - 06-0072-CN
@@ -819,7 +816,6 @@ proxy-groups:
       - 17-0399-UStrojan//BxceQaOe@36.151.251.3838799?allowInsecure=1&sni=t.me/ripaojiedian#05-0000-CN
       - 17-0419-CY
       - 17-0429-VN
-      - 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA
   - name: 测速10分组
     type: url-test
     url: https://www.google.com/generate_204
@@ -845,7 +841,7 @@ proxy-groups:
       - 17-0400-US
       - 17-0420-EG
       - 17-0440-NL
-      - 17-0450-JPss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ElMjUyQmdhY2dHVjI2QnZtdTA1JTI1MkJ3Wm1SVy9qJTI1MkJBZFUlMjUyQlo4QnQ0NCUyNTNE@23.95.76.147990#17-0409-CA
+      - 17-0450-JP
   - name: 广告拦截
     type: select
     proxies:
