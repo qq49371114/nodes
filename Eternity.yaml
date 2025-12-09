@@ -233,6 +233,7 @@ proxies:
   - {name: 16-0378-HK, server: 103.243.26.209, port: 10086, type: vmess, uuid: c5ec2e3f-c058-46a8-a148-1831824bb94b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 17-0382-LT, server: 45.87.175.178, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true}
   - {name: 17-0384-RELAY, server: creativecommons.org, port: 2053, type: trojan, password: YwuvGJk36B, sni: kotlet.arshiacomplus.dpdns.org, skip-cert-verify: true, network: ws, ws-opts: {path: "%25252Fyamtekodasayahhh", headers: {Host: kotlet.arshiacomplus.dpdns.org}}, udp: true}
+  - {name: 17-0389-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: 2AJogKuFsiVa5SrhD7vPn8P28se9DBAT564XTGDnE9h5HZPh593bzJRxYavWzryacr6CAN5nHFm8RpsHfqRnasyhbsRzY4Np, udp: true}
   - {name: 17-0390-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: ivQYTiSyUGyRiVhqcbaEtMjXC8djrscPbnhjnU9oTEuVwh6LhJSkQNYjxtKx5X2iRRCJHu7e3UFwW9S9iAyhP2rX6ot6Lc7x, udp: true}
   - {name: 17-0391-CA, server: 209.200.246.53, port: 10785, type: trojan, password: D3OJA7xY5U, sni: cloudflare.com, skip-cert-verify: true, udp: true}
   - {name: 17-0393-US, server: imap.roomyinmita.name, port: 40565, type: ss, cipher: chacha20-ietf-poly1305, password: QLXkEq597i3oGAGzjE4qS64uPGhjxWpPiqwwBArKbsqYPUNpQBwdgHL6KoDSRGE9bjSdn3p4UaDYMVm6s1wMoifavnirR5N8, udp: true}
@@ -242,7 +243,6 @@ proxies:
   - {name: 17-0401-IN, server: 103.97.203.227, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0404-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0407-CR, server: 145.14.131.37, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: 17-0409-CA, server: 23.95.76.147, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0411-MT, server: 171.22.254.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0412-MA, server: 188.214.157.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
   - {name: 17-0414-MA, server: 188.214.157.30, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA%252BgacgGV26Bvmu05%252BwZmRW/j%252BAdU%252BZ8Bt44%253D, udp: true}
@@ -471,6 +471,7 @@ proxy-groups:
       - 16-0378-HK
       - 17-0382-LT
       - 17-0384-RELAY
+      - 17-0389-US
       - 17-0390-US
       - 17-0391-CA
       - 17-0393-US
@@ -480,7 +481,6 @@ proxy-groups:
       - 17-0401-IN
       - 17-0404-CR
       - 17-0407-CR
-      - 17-0409-CA
       - 17-0411-MT
       - 17-0412-MA
       - 17-0414-MA
@@ -812,8 +812,8 @@ proxy-groups:
       - 10-0319-VN
       - 10-0339-FR
       - 10-0359-VN
+      - 17-0389-US
       - 17-0399-US
-      - 17-0409-CA
       - 17-0419-CY
       - 17-0429-VN
   - name: 测速10分组
