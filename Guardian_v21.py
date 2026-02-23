@@ -326,13 +326,68 @@ def take_screenshot_auto():
         write_log(f"自动截图失败: {e}", "ERROR")
 
 def init_bonus_file():
+# =========================================================
+# 🎁 V21.0 每周五记录函数
+# =========================================================
+def record_on_time_completion(mode):
+    """记录按时完成使用"""
+    try:
+        with open(BONUS_TIME_FILE, 'r', 'utf-8') as f:
+            data = json.load(f)
+        
+        today = datetime.datetime.now().strftime('%Y-%m-%d')
+        tasks = data.get("weekly_completion_tasks", {})
+        on_time_list = tasks.get("on_time_completion", [])
+        
+        # 只记录今日一次，避免重复
+        if today not in on_time_list:
+            on_time_list.append(today)
+            tasks["on_time_completion"] = on_time_list
+            data["weekly_completion_tasks"] = tasks
+            
+            with open(BONUS_TIME_FILE, 'w', 'utf-8') as f:
+                json.dump(data, f, ensure_ascii=False)
+            
+            write_log(f"[奖励] 记录按时完成：{today} ({mode})")
+        else:
+            write_log(f"[奖励] 今日已记录过按时完成：{today}")
+            
+    except Exception as e:
+        write_log(f"记录按时完成失败: {e}", "ERROR")
+
+def get_bonus_status():
+    """获取当前奖励状态"""
+    try:
+        with open(BONUS_TIME_FILE, 'r', 'utf-8') as f:
+            data = json.load(f)
+        
+        return {
+            "当前可用奖励时间(分钟)": data.get("weekly_bonus_minutes", 0),
+            "本周累计获得(分钟)": data.get("total_earned_minutes", 0),
+            "每周上限(分钟)": data.get("max_bonus_minutes", 60),
+            "上次奖励日期": data.get("last_earn_date", "未获得过"),
+            "本周完成次数": len(data.get("weekly_completion_tasks", {}).get("on_time_completion", []))
+        }
+    except:
+        return {"错误": "无法读取奖励状态"}
+
+
+
     """初始化奖励文件"""
     try:
         if not os.path.exists(BONUS_TIME_FILE):
             import json
             with open(BONUS_TIME_FILE, 'w', encoding='utf-8') as f:
-                json.dump({"weekly_bonus_minutes": 0}, f)
-            write_log("奖励配置文件已初始化")
+                # 初始化奖励配置
+                json.dump({
+                    "weekly_bonus_minutes": 0,          # 当前可用奖励时间
+                    "max_bonus_minutes": 60,            # 每周最大奖励限制（60分钟=1小时）
+                    "total_earned_minutes": 0,          # 累计获得奖励总时长
+                    "last_week_check_date": "",         # 上次检查日期
+                    "last_earn_date": "",               # 上次获得奖励日期
+                    "weekly_completion_tasks": {}       # 每周完成任务记录
+                }, f)
+            write_log("奖励配置文件已初始化：每周最大奖励60分钟")
     except Exception as e:
         write_log(f"初始化奖励文件失败: {e}", "ERROR")
 
