@@ -134,7 +134,7 @@ IS_RUNNING = True
 # ✨ V18.0 核心功能模块 (终极毕业版) ✨
 # =========================================================
 class PasswordDialog(tk.Toplevel):
-    def __init__(self, parent, title, prompt, timeout):
+    def __init__(self, parent, title, prompt, timeout, show_bonus=True):
         super().__init__(parent)
         self.transient(parent)
         self.title(title)
@@ -144,13 +144,34 @@ class PasswordDialog(tk.Toplevel):
         self.entry = tk.Entry(self, show="*")
         self.entry.pack(padx=20, pady=5)
         self.entry.focus_set()
-        self.ok_button = tk.Button(self, text="确认", command=self.on_ok)
-        self.ok_button.pack(pady=10)
+        
+        # 按钮容器
+        button_frame = tk.Frame(self)
+        button_frame.pack(pady=10)
+        
+        self.ok_button = tk.Button(button_frame, text="确认", command=self.on_ok, width=10)
+        self.ok_button.pack(side=tk.LEFT, padx=5)
+        
+        # 查看奖励按钮
+        if show_bonus:
+            from functools import partial
+            self.bonus_button = tk.Button(button_frame, text="查看奖励🎁", command=self.show_bonus, width=12)
+            self.bonus_button.pack(side=tk.LEFT, padx=5)
+        
         self.result = None
         self.timeout = timeout
         self.parent = parent
         self.center_window()
         self.after(timeout * 1000, self.on_timeout)
+    
+    def show_bonus(self):
+        """显示奖励弹窗"""
+        import functools
+        def show_wrapper():
+            show_bonus_popup()
+        threading.Thread(target=show_wrapper, daemon=True).start()
+
+    def on_ok(self, event=None):
 
     def on_ok(self, event=None):
         self.result = self.entry.get()
@@ -354,6 +375,45 @@ def record_on_time_completion(mode):
             
     except Exception as e:
         write_log(f"记录按时完成失败: {e}", "ERROR")
+
+
+# =========================================================
+# 🎁 显示奖励信息弹窗
+# =========================================================
+def show_bonus_popup():
+    """显示奖励信息弹窗"""
+    try:
+        bonus_status = get_bonus_status()
+        
+        bonus_message = f"""🎁 奖励状态报告
+
+━━━━━━━━━━━━━━━━━━━━━━━
+✅ 当前可用奖励: {bonus_status.get('当前可用奖励时间(分钟)', 0)} 分钟
+💯 本周累计获得: {bonus_status.get('本周累计获得(分钟)', 0)} / {bonus_status.get('每周上限(分钟)', 60)} 分钟
+✨ 本周完成次数: {bonus_status.get('本周完成次数', 0)} 次
+📅 上次获得时间: {bonus_status.get('上次奖励日期', '未获得过')}
+━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 如何获得更多奖励：
+  • 每次按时结束使用 +10 分钟
+  • 每周五自动检查并发放
+  • 本周最多可获得 60 分钟"""
+        
+        # 计算剩余可获得的
+        total_earned = bonus_status.get('本周累计获得(分钟)', 0)
+        max_limit = bonus_status.get('每周上限(分钟)', 60)
+        remaining = max_limit - total_earned
+        if remaining > 0:
+            bonus_message += f"\n🎉 还可获得 {remaining} 分钟奖励！"
+        else:
+            bonus_message += "\n🎊 本周奖励已满！"
+        
+        show_msg("🎁 您的奖励状态", bonus_message)
+        
+    except Exception as e:
+        write_log(f"显示奖励弹窗失败: {e}", "ERROR")
+        show_msg("❌ 查看失败", "无法读取奖励信息，请稍后重试。")
+
 
 def get_bonus_status():
     """获取当前奖励状态"""
