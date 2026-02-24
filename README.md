@@ -268,3 +268,29 @@ Fork from TopFreeProxies.
 ## 仓库声明
 订阅节点仅作学习交流使用，只是对网络上节点的优选排序，用于查找资料，学习知识，不做任何违法行为。所有资源均来自互联网，仅供大家交流学习使用，出现违法问题概不负责。
 
+
+
+## 📦 打包成 EXE
+
+### 快速打包
+
+\`\`\`bash
+# 1. 安装依赖
+pip install ntplib Pillow requests wmi pyinstaller
+
+# 2. 使用一键脚本打包
+bat build_guardian_v21.bat
+
+# 或手动打包
+pyinstaller --onefile --windowed --hidden-import=ntplib --hidden-import=PIL --hidden-import=requests --hidden-import=wmi --hidden-import=sqlite3 --name Guardian_V21 Guardian_v21.py
+\`\`\`
+
+### 依赖清单
+
+- ntplib - NTP 时间同步
+- Pillow - 截图功能
+- requests - HTTP 请求
+- wmi - Windows 系统管理
+- pyinstaller - 打包工具
+
+详细说明请查看: [Guardian_V21_打包说明.md](Guardian_V21_打包说明.md)
